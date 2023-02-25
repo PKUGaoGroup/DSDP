@@ -44,7 +44,7 @@ Activate the environment
     
 ## Dataset
 
-The files in `test_dataset` contain three datasets, namely, DSDP_dataset (used in JCIM paper), DUD-E dataset and PDBBind time split dataset.
+The files in `test_dataset` contain three datasets, namely, DSDP_dataset, DUD-E dataset and PDBBind time split dataset.
 
 For each complex you want to predict, you need a directory containing the ligand and protein file. For example: 
 ```
