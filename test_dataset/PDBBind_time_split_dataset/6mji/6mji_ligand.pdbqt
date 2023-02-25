@@ -1,0 +1,233 @@
+REMARK WARNING: 32 MAX_TORS EXCEEDED!!!
+REMARK  52 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O1_27  and  C1_1 
+REMARK    2  A    between atoms: C3_3  and  C2_2 
+REMARK    3  A    between atoms: C2_2  and  O6_31 
+REMARK    4  A    between atoms: C4_4  and  O4_32 
+REMARK    5  A    between atoms: C5_5  and  O3_29 
+REMARK    6  A    between atoms: C6_6  and  O5_28 
+REMARK    7  A    between atoms: CBR_9  and  CBS_8 
+REMARK    8  A    between atoms: CBQ_10  and  CBR_9 
+REMARK    9  A    between atoms: CBP_11  and  CBQ_10 
+REMARK   10  A    between atoms: CBO_12  and  CBP_11 
+REMARK   11  A    between atoms: CBN_13  and  CBO_12 
+REMARK   12  A    between atoms: CBM_14  and  CBN_13 
+REMARK   13  A    between atoms: CBL_15  and  CBM_14 
+REMARK   14  A    between atoms: CBK_16  and  CBL_15 
+REMARK   15  A    between atoms: CBJ_17  and  CBK_16 
+REMARK   16  A    between atoms: CBI_18  and  CBJ_17 
+REMARK   17  A    between atoms: CBH_19  and  CBI_18 
+REMARK   18  A    between atoms: CBG_20  and  CBH_19 
+REMARK   19  A    between atoms: CAQ_21  and  CBG_20 
+REMARK   20  A    between atoms: CAQ_21  and  OAR_22 
+REMARK   21  A    between atoms: CAP_23  and  CAQ_21 
+REMARK   22  A    between atoms: CAP_23  and  OAS_24 
+REMARK   23  A    between atoms: CAN_25  and  CAP_23 
+REMARK   24  A    between atoms: CAM_26  and  CAN_25 
+REMARK   25  A    between atoms: CAN_25  and  NAO_37 
+REMARK   26  A    between atoms: CAM_26  and  O1_27 
+REMARK   27  A    between atoms: O4_32  and  CAT_33 
+REMARK   28  A    between atoms: CAT_33  and  CAU_34 
+REMARK       I    between atoms: NAO_37  and  CBE_38 
+REMARK   29  A    between atoms: CBE_38  and  CBU_40 
+REMARK   30  A    between atoms: CBU_40  and  CBV_41 
+REMARK   31  A    between atoms: CBV_41  and  CBW_42 
+REMARK   32  A    between atoms: CBW_42  and  CBX_43 
+REMARK   33  A    between atoms: CBX_43  and  CBY_44 
+REMARK   34  A    between atoms: CBY_44  and  CBZ_45 
+REMARK   35  A    between atoms: CBZ_45  and  CCA_46 
+REMARK   36  A    between atoms: CCA_46  and  CCB_47 
+REMARK   37  A    between atoms: CCB_47  and  CCC_48 
+REMARK   38  A    between atoms: CCC_48  and  CCD_49 
+REMARK   39  A    between atoms: CCD_49  and  CCE_50 
+REMARK   40  A    between atoms: CCE_50  and  CCF_51 
+REMARK   41  A    between atoms: CCF_51  and  CCG_52 
+REMARK   42  A    between atoms: CCG_52  and  CCH_53 
+REMARK   43  A    between atoms: CCH_53  and  CCI_54 
+REMARK   44  A    between atoms: CCI_54  and  CCJ_55 
+REMARK   45  A    between atoms: CCJ_55  and  CCK_56 
+REMARK   46  A    between atoms: CCK_56  and  CCL_57 
+REMARK   47  A    between atoms: CCL_57  and  CCM_58 
+REMARK   48  A    between atoms: CCM_58  and  CCN_59 
+REMARK   49  A    between atoms: CCN_59  and  CCO_60 
+REMARK   50  A    between atoms: CCO_60  and  CCP_61 
+REMARK   51  A    between atoms: CCP_61  and  CCQ_62 
+REMARK   52  A    between atoms: CCQ_62  and  CCR_63 
+ROOT
+ATOM      1  CAN JTD d   1      92.731 218.835 321.262  0.00  0.00     0.139 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  CAP JTD d   1      92.718 219.505 319.887  0.00  0.00     0.171 C 
+BRANCH   2   3
+ATOM      3  CAQ JTD d   1      91.791 218.795 318.892  0.00  0.00     0.149 C 
+BRANCH   3   4
+ATOM      4  CBG JTD d   1      90.337 218.786 319.379  0.00  0.00     0.034 C 
+BRANCH   4   5
+ATOM      5  CBH JTD d   1      89.362 218.401 318.247  0.00  0.00     0.002 C 
+BRANCH   5   6
+ATOM      6  CBI JTD d   1      89.689 217.009 317.676  0.00  0.00     0.000 C 
+BRANCH   6   7
+ATOM      7  CBJ JTD d   1      88.456 216.403 316.981  0.00  0.00     0.000 C 
+BRANCH   7   8
+ATOM      8  CBK JTD d   1      88.235 217.063 315.617  0.00  0.00     0.000 C 
+BRANCH   8   9
+ATOM      9  CBL JTD d   1      87.146 216.294 314.849  0.00  0.00     0.000 C 
+BRANCH   9  10
+ATOM     10  CBM JTD d   1      87.136 216.712 313.368  0.00  0.00     0.000 C 
+BRANCH  10  11
+ATOM     11  CBN JTD d   1      86.177 217.893 313.193  0.00  0.00     0.000 C 
+BRANCH  11  12
+ATOM     12  CBO JTD d   1      86.174 218.399 311.741  0.00  0.00     0.000 C 
+BRANCH  12  13
+ATOM     13  CBP JTD d   1      85.587 219.818 311.767  0.00  0.00     0.000 C 
+BRANCH  13  14
+ATOM     14  CBQ JTD d   1      85.213 220.303 310.367  0.00  0.00     0.000 C 
+BRANCH  14  15
+ATOM     15  CBR JTD d   1      84.209 221.476 310.462  0.00  0.00    -0.000 C 
+BRANCH  15  16
+ATOM     16  CBS JTD d   1      84.911 222.808 310.234  0.00  0.00    -0.005 C 
+ATOM     17  CBT JTD d   1      83.901 223.960 310.282  0.00  0.00     0.005 C 
+ENDBRANCH  15  16
+ENDBRANCH  14  15
+ENDBRANCH  13  14
+ENDBRANCH  12  13
+ENDBRANCH  11  12
+ENDBRANCH  10  11
+ENDBRANCH   9  10
+ENDBRANCH   8   9
+ENDBRANCH   7   8
+ENDBRANCH   6   7
+ENDBRANCH   5   6
+ENDBRANCH   4   5
+ENDBRANCH   3   4
+BRANCH   3  18
+ATOM     18  OAR JTD d   1      91.897 219.482 317.630  0.00  0.00    -0.393 OA
+ATOM     19  H38 JTD d   1      91.600 220.379 317.733  0.00  0.00     0.210 HD
+ENDBRANCH   3  18
+ENDBRANCH   2   3
+BRANCH   2  20
+ATOM     20  OAS JTD d   1      92.302 220.859 320.052  0.00  0.00    -0.391 OA
+ATOM     21  H40 JTD d   1      92.339 221.305 319.214  0.00  0.00     0.210 HD
+ENDBRANCH   2  20
+ENDBRANCH   1   2
+BRANCH   1  22
+ATOM     22  CAM JTD d   1      93.744 219.547 322.172  0.00  0.00     0.199 C 
+BRANCH  22  23
+ATOM     23  O1  JTD d   1      95.022 219.411 321.565  0.00  0.00    -0.356 OA
+BRANCH  23  24
+ATOM     24  C1  JTD d   1      96.093 220.008 322.287  0.00  0.00     0.291 C 
+ATOM     25  C6  JTD d   1      97.334 219.894 321.439  0.00  0.00     0.204 C 
+ATOM     26  C5  JTD d   1      97.697 218.432 321.261  0.00  0.00     0.183 C 
+ATOM     27  C4  JTD d   1      97.847 217.744 322.612  0.00  0.00     0.183 C 
+ATOM     28  C3  JTD d   1      96.567 217.961 323.416  0.00  0.00     0.179 C 
+ATOM     29  O2  JTD d   1      96.310 219.364 323.554  0.00  0.00    -0.348 OA
+BRANCH  25  30
+ATOM     30  O5  JTD d   1      97.079 220.490 320.151  0.00  0.00    -0.388 OA
+ATOM     31  H44 JTD d   1      96.359 220.035 319.729  0.00  0.00     0.210 HD
+ENDBRANCH  25  30
+BRANCH  26  32
+ATOM     32  O3  JTD d   1      98.920 218.363 320.547  0.00  0.00    -0.390 OA
+ATOM     33  H45 JTD d   1      98.815 218.779 319.700  0.00  0.00     0.210 HD
+ENDBRANCH  26  32
+BRANCH  27  34
+ATOM     34  O4  JTD d   1      98.974 218.321 323.287  0.00  0.00    -0.380 OA
+BRANCH  34  35
+ATOM     35  CAT JTD d   1      99.767 217.423 324.061  0.00  0.00     0.173 C 
+BRANCH  35  36
+ATOM     36  CAU JTD d   1     101.011 217.015 323.282  0.00  0.00     0.009 A 
+ATOM     37  CAV JTD d   1     100.952 215.719 322.495  0.00  0.00     0.007 A 
+ATOM     38  CAW JTD d   1     101.724 215.763 323.795  0.00  0.00     0.007 A 
+ENDBRANCH  35  36
+ENDBRANCH  34  35
+ENDBRANCH  27  34
+BRANCH  28  39
+ATOM     39  C2  JTD d   1      96.672 217.401 324.840  0.00  0.00     0.198 C 
+BRANCH  39  40
+ATOM     40  O6  JTD d   1      96.839 215.987 324.765  0.00  0.00    -0.398 OA
+ATOM     41  H46 JTD d   1      96.905 215.630 325.643  0.00  0.00     0.209 HD
+ENDBRANCH  39  40
+ENDBRANCH  28  39
+ENDBRANCH  23  24
+ENDBRANCH  22  23
+ENDBRANCH   1  22
+BRANCH   1  42
+ATOM     42  NAO JTD d   1      93.149 217.439 321.141  0.00  0.00    -0.352 N 
+ATOM     43  CBE JTD d   1      92.818 216.565 322.089  0.00  0.00     0.218 C 
+ATOM     44  OBF JTD d   1      92.156 216.861 323.080  0.00  0.00    -0.274 OA
+ATOM     45  H54 JTD d   1      93.682 217.142 320.349  0.00  0.00     0.163 HD
+BRANCH  43  46
+ATOM     46  CBU JTD d   1      93.354 215.150 321.879  0.00  0.00     0.103 C 
+BRANCH  46  47
+ATOM     47  CBV JTD d   1      92.265 214.113 322.113  0.00  0.00     0.009 C 
+BRANCH  47  48
+ATOM     48  CBW JTD d   1      91.291 214.053 320.941  0.00  0.00     0.000 C 
+BRANCH  48  49
+ATOM     49  CBX JTD d   1      90.148 213.147 321.397  0.00  0.00     0.000 C 
+BRANCH  49  50
+ATOM     50  CBY JTD d   1      89.160 212.852 320.267  0.00  0.00     0.000 C 
+BRANCH  50  51
+ATOM     51  CBZ JTD d   1      88.011 212.075 320.918  0.00  0.00     0.000 C 
+BRANCH  51  52
+ATOM     52  CCA JTD d   1      86.972 211.654 319.891  0.00  0.00     0.000 C 
+BRANCH  52  53
+ATOM     53  CCB JTD d   1      85.843 210.885 320.608  0.00  0.00     0.000 C 
+BRANCH  53  54
+ATOM     54  CCC JTD d   1      84.724 211.865 320.981  0.00  0.00     0.000 C 
+BRANCH  54  55
+ATOM     55  CCD JTD d   1      83.700 211.221 321.922  0.00  0.00     0.000 C 
+BRANCH  55  56
+ATOM     56  CCE JTD d   1      83.534 212.110 323.156  0.00  0.00     0.000 C 
+BRANCH  56  57
+ATOM     57  CCF JTD d   1      82.334 211.667 323.999  0.00  0.00     0.000 C 
+BRANCH  57  58
+ATOM     58  CCG JTD d   1      82.686 210.438 324.834  0.00  0.00     0.000 C 
+BRANCH  58  59
+ATOM     59  CCH JTD d   1      82.962 210.813 326.295  0.00  0.00     0.000 C 
+BRANCH  59  60
+ATOM     60  CCI JTD d   1      82.740 209.594 327.203  0.00  0.00     0.000 C 
+BRANCH  60  61
+ATOM     61  CCJ JTD d   1      83.776 208.511 326.907  0.00  0.00     0.000 C 
+BRANCH  61  62
+ATOM     62  CCK JTD d   1      83.489 207.255 327.749  0.00  0.00     0.000 C 
+BRANCH  62  63
+ATOM     63  CCL JTD d   1      84.797 206.632 328.248  0.00  0.00     0.000 C 
+BRANCH  63  64
+ATOM     64  CCM JTD d   1      85.211 205.417 327.414  0.00  0.00     0.000 C 
+BRANCH  64  65
+ATOM     65  CCN JTD d   1      85.888 205.825 326.105  0.00  0.00     0.000 C 
+BRANCH  65  66
+ATOM     66  CCO JTD d   1      87.267 205.158 325.995  0.00  0.00     0.000 C 
+BRANCH  66  67
+ATOM     67  CCP JTD d   1      87.500 204.642 324.571  0.00  0.00     0.000 C 
+BRANCH  67  68
+ATOM     68  CCQ JTD d   1      87.797 205.794 323.614  0.00  0.00    -0.000 C 
+BRANCH  68  69
+ATOM     69  CCR JTD d   1      86.744 205.863 322.520  0.00  0.00    -0.005 C 
+ATOM     70  CCS JTD d   1      87.108 206.988 321.542  0.00  0.00     0.005 C 
+ENDBRANCH  68  69
+ENDBRANCH  67  68
+ENDBRANCH  66  67
+ENDBRANCH  65  66
+ENDBRANCH  64  65
+ENDBRANCH  63  64
+ENDBRANCH  62  63
+ENDBRANCH  61  62
+ENDBRANCH  60  61
+ENDBRANCH  59  60
+ENDBRANCH  58  59
+ENDBRANCH  57  58
+ENDBRANCH  56  57
+ENDBRANCH  55  56
+ENDBRANCH  54  55
+ENDBRANCH  53  54
+ENDBRANCH  52  53
+ENDBRANCH  51  52
+ENDBRANCH  50  51
+ENDBRANCH  49  50
+ENDBRANCH  48  49
+ENDBRANCH  47  48
+ENDBRANCH  46  47
+ENDBRANCH  43  46
+ENDBRANCH   1  42
+TORSDOF 52

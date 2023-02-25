@@ -1,0 +1,77 @@
+REMARK  14 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_4  and  O_5 
+REMARK    2  A    between atoms: C_7  and  C_6 
+REMARK    3  A    between atoms: C_7  and  N_16 
+REMARK    4  A    between atoms: C_10  and  C_8 
+REMARK    5  A    between atoms: O_11  and  C_10 
+REMARK    6  A    between atoms: P_12  and  O_11 
+REMARK    7  A    between atoms: O_14  and  P_12 
+REMARK    8  A    between atoms: O_15  and  P_12 
+REMARK    9  A    between atoms: N_16  and  CA_17 
+REMARK   10  A    between atoms: C_22  and  CA_17 
+REMARK   11  A    between atoms: CA_17  and  CB_18 
+REMARK   12  A    between atoms: CB_18  and  CG_19 
+REMARK   13  A    between atoms: CG_19  and  OD2_21 
+REMARK   14  A    between atoms: OXT_24  and  C_22 
+ROOT
+ATOM      1  N   UNK d   0      32.563  64.842 163.870  0.00  0.00    -0.262 NA
+ATOM      2  C   UNK d   0      33.129  65.592 164.841  0.00  0.00     0.064 A 
+ATOM      3  C   UNK d   0      33.514  64.935 166.141  0.00  0.00     0.073 C 
+ATOM      4  C   UNK d   0      33.357  66.970 164.661  0.00  0.00     0.098 A 
+ATOM      5  C   UNK d   0      33.036  67.583 163.452  0.00  0.00     0.015 A 
+ATOM      6  C   UNK d   0      32.437  66.812 162.486  0.00  0.00    -0.006 A 
+ATOM      7  C   UNK d   0      32.233  65.444 162.715  0.00  0.00     0.127 A 
+ENDROOT
+BRANCH   5   8
+ATOM      8  C   UNK d   0      33.249  69.037 163.220  0.00  0.00     0.312 C 
+BRANCH   8   9
+ATOM      9  N   ASP d   1      32.395  69.617 163.914  0.00  0.00     0.103 NA
+ATOM     10  H   ASP d   1      32.596  69.283 164.857  0.00  0.00     0.317 HD
+BRANCH   9  11
+ATOM     11  CA  ASP d   1      32.056  71.014 164.124  0.00  0.00     0.327 C 
+BRANCH  11  12
+ATOM     12  C   ASP d   1      31.755  71.757 162.876  0.00  0.00     0.174 C 
+ATOM     13  O   ASP d   1      30.620  71.539 162.378  0.00  0.00    -0.648 OA
+BRANCH  12  14
+ATOM     14  OXT ASP d   1      32.630  72.534 162.437  0.00  0.00    -0.775 OA
+ATOM     15  HXT ASP d   1      33.447  72.623 162.888  0.00  0.00     0.167 HD
+ENDBRANCH  12  14
+ENDBRANCH  11  12
+BRANCH  11  16
+ATOM     16  CB  ASP d   1      33.030  71.724 165.052  0.00  0.00     0.156 C 
+BRANCH  16  17
+ATOM     17  CG  ASP d   1      32.100  72.193 166.162  0.00  0.00     0.141 C 
+ATOM     18  OD1 ASP d   1      30.842  72.102 166.100  0.00  0.00    -0.650 OA
+BRANCH  17  19
+ATOM     19  OD2 ASP d   1      32.614  72.685 167.167  0.00  0.00    -0.776 OA
+ATOM     20  HD2 ASP d   1      33.546  72.759 167.228  0.00  0.00     0.167 HD
+ENDBRANCH  17  19
+ENDBRANCH  16  17
+ENDBRANCH  11  16
+ENDBRANCH   9  11
+ENDBRANCH   8   9
+ENDBRANCH   5   8
+BRANCH   6  21
+ATOM     21  C   UNK d   0      32.058  67.510 161.208  0.00  0.00     0.221 C 
+BRANCH  21  22
+ATOM     22  O   UNK d   0      32.329  66.692 160.102  0.00  0.00    -0.292 OA
+BRANCH  22  23
+ATOM     23  P   UNK d   0      31.936  67.219 158.656  0.00  0.00     0.391 P 
+ATOM     24  O   UNK d   0      32.740  66.148 158.020  0.00  0.00    -0.632 OA
+BRANCH  23  25
+ATOM     25  O   UNK d   0      30.470  66.968 158.425  0.00  0.00    -0.307 OA
+ATOM     26  H   UNK d   0      30.222  67.287 157.543  0.00  0.00     0.222 HD
+ENDBRANCH  23  25
+BRANCH  23  27
+ATOM     27  O   UNK d   0      32.395  68.658 158.563  0.00  0.00    -0.307 OA
+ATOM     28  H   UNK d   0      32.170  69.013 157.689  0.00  0.00     0.222 HD
+ENDBRANCH  23  27
+ENDBRANCH  22  23
+ENDBRANCH  21  22
+ENDBRANCH   6  21
+BRANCH   4  29
+ATOM     29  O   UNK d   0      33.944  67.733 165.634  0.00  0.00    -0.358 OA
+ATOM     30  H   UNK d   0      34.085  68.648 165.490  0.00  0.00     0.217 HD
+ENDBRANCH   4  29
+TORSDOF 14

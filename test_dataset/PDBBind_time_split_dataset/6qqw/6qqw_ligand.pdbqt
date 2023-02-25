@@ -1,0 +1,42 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C14_19  and  C15_2 
+REMARK    2  A    between atoms: C02_8  and  N01_7 
+REMARK    3  A    between atoms: C07_13  and  C05_11 
+REMARK    4  A    between atoms: N13_18  and  C14_19 
+ROOT
+ATOM      1  C10 JDQ d   1     -24.389  20.263 -11.185  0.00  0.00    -0.008 A 
+ATOM      2  C21 JDQ d   1     -24.991  22.415 -10.646  0.00  0.00     0.092 A 
+ATOM      3  C22 JDQ d   1     -25.479  21.108 -10.785  0.00  0.00     0.031 A 
+ATOM      4  C07 JDQ d   1     -21.908  19.163 -11.959  0.00  0.00    -0.003 A 
+ATOM      5  C08 JDQ d   1     -23.019  18.325 -11.868  0.00  0.00     0.015 A 
+ATOM      6  C09 JDQ d   1     -24.270  18.871 -11.480  0.00  0.00     0.014 A 
+ATOM      7  C11 JDQ d   1     -23.300  21.084 -11.273  0.00  0.00     0.045 A 
+ATOM      8  C12 JDQ d   1     -22.022  20.519 -11.664  0.00  0.00     0.044 A 
+ATOM      9  N13 JDQ d   1     -23.710  22.393 -10.939  0.00  0.00    -0.352 N 
+ENDROOT
+BRANCH   4  10
+ATOM     10  C05 JDQ d   1     -20.544  18.617 -12.287  0.00  0.00     0.090 A 
+ATOM     11  N04 JDQ d   1     -19.479  19.369 -12.546  0.00  0.00    -0.173 NA
+ATOM     12  N03 JDQ d   1     -18.404  18.610 -12.727  0.00  0.00    -0.262 N 
+ATOM     13  C02 JDQ d   1     -18.761  17.342 -12.551  0.00  0.00     0.117 A 
+ATOM     14  H7  JDQ d   1     -17.459  18.945 -12.963  0.00  0.00     0.191 HD
+ATOM     15  C06 JDQ d   1     -20.141  17.336 -12.240  0.00  0.00     0.083 A 
+BRANCH  13  16
+ATOM     16  N01 JDQ d   1     -17.888  16.221 -12.652  0.00  0.00    -0.384 N 
+ATOM     17  H5  JDQ d   1     -18.252  15.270 -12.499  0.00  0.00     0.157 HD
+ATOM     18  H6  JDQ d   1     -16.893  16.362 -12.878  0.00  0.00     0.157 HD
+ENDBRANCH  13  16
+ENDBRANCH   4  10
+BRANCH   9  19
+ATOM     19  C14 JDQ d   1     -22.870  23.558 -10.896  0.00  0.00     0.167 C 
+BRANCH  19  20
+ATOM     20  C15 JDQ d   1     -22.142  23.643  -9.534  0.00  0.00    -0.040 A 
+ATOM     21  C20 JDQ d   1     -20.999  24.464  -9.396  0.00  0.00     0.009 A 
+ATOM     22  C19 JDQ d   1     -20.335  24.544  -8.151  0.00  0.00     0.001 A 
+ATOM     23  C18 JDQ d   1     -20.815  23.800  -7.047  0.00  0.00     0.000 A 
+ATOM     24  C17 JDQ d   1     -21.963  22.983  -7.184  0.00  0.00     0.001 A 
+ATOM     25  C16 JDQ d   1     -22.628  22.908  -8.423  0.00  0.00     0.009 A 
+ENDBRANCH  19  20
+ENDBRANCH   9  19
+TORSDOF 4

@@ -1,0 +1,111 @@
+REMARK  17 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O3_23  and  PA_1 
+REMARK    2  A    between atoms: O5B_4  and  PA_1 
+REMARK    3  A    between atoms: PA_1  and  O1A_2 
+REMARK    4  A    between atoms: O5B_4  and  C5B_5 
+REMARK    5  A    between atoms: C4B_6  and  C5B_5 
+REMARK    6  A    between atoms: O3B_9  and  C3B_8 
+REMARK    7  A    between atoms: C2B_10  and  O2B_11 
+REMARK    8  A    between atoms: C1B_12  and  N9A_13 
+REMARK    9  A    between atoms: PN_24  and  O3_23 
+REMARK   10  A    between atoms: PN_24  and  O5D_27 
+REMARK   11  A    between atoms: PN_24  and  O2N_26 
+REMARK   12  A    between atoms: C5D_28  and  O5D_27 
+REMARK   13  A    between atoms: C5D_28  and  C4D_29 
+REMARK   14  A    between atoms: C3D_31  and  O3D_32 
+REMARK   15  A    between atoms: C2D_33  and  O2D_34 
+REMARK   16  A    between atoms: N1N_36  and  C1D_35 
+REMARK   17  A    between atoms: C7N_39  and  C3N_38 
+REMARK       I    between atoms: N7N_41  and  C7N_39 
+ROOT
+ATOM      1  PA  NAD d 403      79.793  44.876  -9.950  0.00  0.00     0.401 P 
+ATOM      2  O2A NAD d 403      78.426  45.158 -10.489  0.00  0.00    -0.631 OA
+ENDROOT
+BRANCH   1   3
+ATOM      3  O3  NAD d 403      80.860  45.904 -10.571  0.00  0.00    -0.195 OA
+BRANCH   3   4
+ATOM      4  PN  NAD d 403      80.918  46.837 -11.865  0.00  0.00     0.401 P 
+ATOM      5  O1N NAD d 403      80.697  45.869 -12.979  0.00  0.00    -0.631 OA
+BRANCH   4   6
+ATOM      6  O5D NAD d 403      82.451  47.352 -11.835  0.00  0.00    -0.294 OA
+BRANCH   6   7
+ATOM      7  C5D NAD d 403      83.522  46.494 -12.266  0.00  0.00     0.215 C 
+BRANCH   7   8
+ATOM      8  C4D NAD d 403      84.808  47.225 -11.925  0.00  0.00     0.180 C 
+ATOM      9  O4D NAD d 403      85.048  48.452 -12.681  0.00  0.00    -0.354 OA
+ATOM     10  C1D NAD d 403      85.321  49.529 -11.719  0.00  0.00     0.255 C 
+ATOM     11  C2D NAD d 403      84.467  49.149 -10.488  0.00  0.00     0.198 C 
+ATOM     12  C3D NAD d 403      84.810  47.658 -10.460  0.00  0.00     0.182 C 
+BRANCH  10  13
+ATOM     13  N1N NAD d 403      85.122  50.904 -12.265  0.00  0.00    -0.357 N 
+ATOM     14  C2N NAD d 403      86.140  51.477 -13.089  0.00  0.00     0.169 A 
+ATOM     15  C3N NAD d 403      85.980  52.766 -13.639  0.00  0.00     0.027 A 
+ATOM     16  C4N NAD d 403      84.756  53.411 -13.302  0.00  0.00     0.015 A 
+ATOM     17  C5N NAD d 403      83.739  52.849 -12.486  0.00  0.00     0.018 A 
+ATOM     18  C6N NAD d 403      83.906  51.575 -11.957  0.00  0.00     0.088 A 
+BRANCH  15  19
+ATOM     19  C7N NAD d 403      87.062  53.479 -14.556  0.00  0.00     0.247 C 
+ATOM     20  O7N NAD d 403      86.906  54.634 -15.001  0.00  0.00    -0.268 OA
+ATOM     21  N7N NAD d 403      88.167  52.782 -14.898  0.00  0.00    -0.366 N 
+ATOM     22  H   NAD d 403      88.855  53.198 -15.466  0.00  0.00     0.159 HD
+ATOM     23  H   NAD d 403      88.284  51.858 -14.580  0.00  0.00     0.159 HD
+ENDBRANCH  15  19
+ENDBRANCH  10  13
+BRANCH  11  24
+ATOM     24  O2D NAD d 403      84.865  49.652  -9.187  0.00  0.00    -0.388 OA
+ATOM     25  H   NAD d 403      85.772  49.369  -8.995  0.00  0.00     0.210 HD
+ENDBRANCH  11  24
+BRANCH  12  26
+ATOM     26  O3D NAD d 403      86.151  47.565  -9.958  0.00  0.00    -0.390 OA
+ATOM     27  H   NAD d 403      86.740  48.106 -10.507  0.00  0.00     0.210 HD
+ENDBRANCH  12  26
+ENDBRANCH   7   8
+ENDBRANCH   6   7
+ENDBRANCH   4   6
+BRANCH   4  28
+ATOM     28  O2N NAD d 403      79.942  47.958 -11.714  0.00  0.00    -0.307 OA
+ATOM     29  H   NAD d 403      79.977  48.525 -12.500  0.00  0.00     0.222 HD
+ENDBRANCH   4  28
+ENDBRANCH   3   4
+ENDBRANCH   1   3
+BRANCH   1  30
+ATOM     30  O5B NAD d 403      80.404  43.480 -10.508  0.00  0.00    -0.294 OA
+BRANCH  30  31
+ATOM     31  C5B NAD d 403      81.665  42.930 -10.120  0.00  0.00     0.215 C 
+BRANCH  31  32
+ATOM     32  C4B NAD d 403      81.488  41.431 -10.245  0.00  0.00     0.180 C 
+ATOM     33  O4B NAD d 403      82.767  40.802 -10.167  0.00  0.00    -0.353 OA
+ATOM     34  C1B NAD d 403      82.635  39.609  -9.394  0.00  0.00     0.262 C 
+ATOM     35  C2B NAD d 403      81.548  39.846  -8.384  0.00  0.00     0.198 C 
+ATOM     36  C3B NAD d 403      80.614  40.776  -9.178  0.00  0.00     0.182 C 
+BRANCH  34  37
+ATOM     37  N9A NAD d 403      83.943  39.245  -8.855  0.00  0.00    -0.294 N 
+ATOM     38  C4A NAD d 403      84.815  38.629  -9.650  0.00  0.00     0.167 A 
+ATOM     39  N3A NAD d 403      84.770  38.054 -10.888  0.00  0.00    -0.222 NA
+ATOM     40  C5A NAD d 403      85.965  38.512  -8.869  0.00  0.00     0.149 A 
+ATOM     41  C2A NAD d 403      85.815  37.341 -11.318  0.00  0.00     0.237 A 
+ATOM     42  N1A NAD d 403      86.914  37.160 -10.563  0.00  0.00    -0.222 NA
+ATOM     43  C6A NAD d 403      87.049  37.714  -9.313  0.00  0.00     0.155 A 
+ATOM     44  N6A NAD d 403      88.075  37.375  -8.517  0.00  0.00    -0.382 N 
+ATOM     45  H   NAD d 403      88.807  36.818  -8.868  0.00  0.00     0.157 HD
+ATOM     46  H   NAD d 403      88.095  37.683  -7.582  0.00  0.00     0.157 HD
+ATOM     47  N7A NAD d 403      85.824  39.101  -7.676  0.00  0.00    -0.236 NA
+ATOM     48  C8A NAD d 403      84.543  39.511  -7.674  0.00  0.00     0.214 A 
+ENDBRANCH  34  37
+BRANCH  35  49
+ATOM     49  O2B NAD d 403      80.999  38.576  -7.989  0.00  0.00    -0.388 OA
+ATOM     50  H   NAD d 403      80.718  38.086  -8.777  0.00  0.00     0.210 HD
+ENDBRANCH  35  49
+BRANCH  36  51
+ATOM     51  O3B NAD d 403      79.574  40.058  -9.859  0.00  0.00    -0.390 OA
+ATOM     52  H   NAD d 403      79.970  39.423 -10.476  0.00  0.00     0.210 HD
+ENDBRANCH  36  51
+ENDBRANCH  31  32
+ENDBRANCH  30  31
+ENDBRANCH   1  30
+BRANCH   1  53
+ATOM     53  O1A NAD d 403      80.001  44.888  -8.459  0.00  0.00    -0.307 OA
+ATOM     54  H   NAD d 403      80.930  44.690  -8.261  0.00  0.00     0.222 HD
+ENDBRANCH   1  53
+TORSDOF 17

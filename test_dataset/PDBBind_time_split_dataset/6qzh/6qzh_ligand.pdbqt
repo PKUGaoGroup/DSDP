@@ -1,0 +1,66 @@
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK       I    between atoms: C1_15  and  N1_1 
+REMARK    1  A    between atoms: C4_3  and  C1_15 
+REMARK    2  A    between atoms: C7_6  and  O2_29 
+REMARK    3  A    between atoms: N2_25  and  C8_7 
+REMARK    4  A    between atoms: C13_9  and  C15_10 
+REMARK    5  A    between atoms: C13_9  and  C14_18 
+REMARK    6  A    between atoms: N5_27  and  C13_9 
+REMARK    7  A    between atoms: C11_16  and  N2_25 
+REMARK    8  A    between atoms: C12_17  and  N5_27 
+ROOT
+ATOM      1  N3  JLW d   1     -19.471 -17.355 -17.193  0.00  0.00    -0.122 NA
+ATOM      2  C11 JLW d   1     -18.427 -18.138 -17.090  0.00  0.00     0.189 A 
+ATOM      3  C12 JLW d   1     -18.678 -19.500 -16.696  0.00  0.00     0.185 A 
+ATOM      4  N4  JLW d   1     -19.948 -19.755 -16.497  0.00  0.00    -0.122 NA
+ATOM      5  O3  JLW d   1     -21.378 -17.854 -15.599  0.00  0.00    -0.178 OA
+ATOM      6  O4  JLW d   1     -21.613 -18.488 -17.936  0.00  0.00    -0.178 OA
+ATOM      7  S1  JLW d   1     -20.764 -18.328 -16.799  0.00  0.00     0.368 S 
+ENDROOT
+BRANCH   2   8
+ATOM      8  N2  JLW d   1     -17.144 -17.732 -17.331  0.00  0.00    -0.335 N 
+ATOM      9  H27 JLW d   1     -16.403 -18.438 -17.212  0.00  0.00     0.168 HD
+BRANCH   8  10
+ATOM     10  C8  JLW d   1     -16.734 -16.437 -17.728  0.00  0.00     0.068 A 
+ATOM     11  C7  JLW d   1     -15.824 -16.280 -18.786  0.00  0.00     0.108 A 
+ATOM     12  C4  JLW d   1     -15.420 -15.007 -19.235  0.00  0.00     0.073 A 
+ATOM     13  C6  JLW d   1     -15.943 -13.867 -18.602  0.00  0.00    -0.043 A 
+ATOM     14  C5  JLW d   1     -16.836 -14.043 -17.548  0.00  0.00     0.010 A 
+ATOM     15  C10 JLW d   1     -15.569 -12.474 -19.039  0.00  0.00     0.049 C 
+ATOM     16  C9  JLW d   1     -17.229 -15.294 -17.111  0.00  0.00     0.033 A 
+BRANCH  11  17
+ATOM     17  O2  JLW d   1     -15.326 -17.398 -19.374  0.00  0.00    -0.357 OA
+ATOM     18  H29 JLW d   1     -16.040 -17.908 -19.737  0.00  0.00     0.217 HD
+ENDBRANCH  11  17
+BRANCH  12  19
+ATOM     19  C1  JLW d   1     -14.089 -14.908 -19.939  0.00  0.00     0.256 C 
+ATOM     20  N1  JLW d   1     -14.065 -14.845 -21.278  0.00  0.00    -0.357 N 
+ATOM     21  C2  JLW d   1     -15.274 -14.876 -22.094  0.00  0.00     0.152 C 
+ATOM     22  C3  JLW d   1     -12.811 -14.729 -22.015  0.00  0.00     0.152 C 
+ATOM     23  O1  JLW d   1     -13.076 -14.888 -19.265  0.00  0.00    -0.267 OA
+ENDBRANCH  12  19
+ENDBRANCH   8  10
+ENDBRANCH   2   8
+BRANCH   3  24
+ATOM     24  N5  JLW d   1     -17.746 -20.466 -16.530  0.00  0.00    -0.360 N 
+ATOM     25  H28 JLW d   1     -16.756 -20.290 -16.755  0.00  0.00     0.162 HD
+BRANCH  24  26
+ATOM     26  C13 JLW d   1     -18.178 -21.758 -16.026  0.00  0.00     0.148 C 
+BRANCH  26  27
+ATOM     27  C15 JLW d   1     -17.948 -22.803 -17.058  0.00  0.00     0.076 A 
+ATOM     28  C19 JLW d   1     -18.749 -23.693 -17.670  0.00  0.00     0.037 A 
+ATOM     29  C20 JLW d   1     -17.938 -24.439 -18.563  0.00  0.00     0.035 A 
+ATOM     30  C21 JLW d   1     -16.687 -23.964 -18.450  0.00  0.00     0.049 A 
+ATOM     31  C22 JLW d   1     -15.389 -24.299 -19.090  0.00  0.00     0.076 C 
+ATOM     32  O5  JLW d   1     -16.664 -22.950 -17.526  0.00  0.00    -0.318 OA
+ENDBRANCH  26  27
+BRANCH  26  33
+ATOM     33  C14 JLW d   1     -17.542 -22.099 -14.645  0.00  0.00    -0.025 C 
+ATOM     34  C17 JLW d   1     -16.042 -21.804 -14.654  0.00  0.00     0.017 C 
+ATOM     35  C16 JLW d   1     -17.752 -23.580 -14.329  0.00  0.00     0.017 C 
+ATOM     36  C18 JLW d   1     -18.200 -21.266 -13.544  0.00  0.00     0.017 C 
+ENDBRANCH  26  33
+ENDBRANCH  24  26
+ENDBRANCH   3  24
+TORSDOF 8

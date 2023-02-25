@@ -1,0 +1,63 @@
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O5'_5  and  P_1 
+REMARK    2  A    between atoms: O1P_2  and  P_1 
+REMARK    3  A    between atoms: P_1  and  O2P_3 
+REMARK    4  A    between atoms: O5'_5  and  C5'_6 
+REMARK    5  A    between atoms: C5'_6  and  C4'_7 
+REMARK    6  A    between atoms: O3'_10  and  C3'_9 
+REMARK    7  A    between atoms: O2'_12  and  C2'_11 
+REMARK    8  A    between atoms: C1'_13  and  N9_14 
+REMARK    9  A    between atoms: N2_22  and  C2_21 
+ROOT
+ATOM      1  C4' 5GP d1344     -38.788 -24.462   5.492  0.00  0.00     0.180 C 
+ATOM      2  O4' 5GP d1344     -40.127 -24.722   5.018  0.00  0.00    -0.353 OA
+ATOM      3  C3' 5GP d1344     -38.527 -23.053   4.972  0.00  0.00     0.182 C 
+ATOM      4  C2' 5GP d1344     -39.810 -22.625   4.228  0.00  0.00     0.198 C 
+ATOM      5  C1' 5GP d1344     -40.895 -23.563   4.707  0.00  0.00     0.262 C 
+ENDROOT
+BRANCH   5   6
+ATOM      6  N9  5GP d1344     -41.653 -23.018   5.849  0.00  0.00    -0.295 N 
+ATOM      7  C4  5GP d1344     -42.932 -22.634   5.784  0.00  0.00     0.161 A 
+ATOM      8  N3  5GP d1344     -43.843 -22.633   4.770  0.00  0.00    -0.172 N 
+ATOM      9  C5  5GP d1344     -43.309 -22.172   7.038  0.00  0.00     0.173 A 
+ATOM     10  C2  5GP d1344     -45.105 -22.177   4.990  0.00  0.00     0.703 A 
+ATOM     11  H   5GP d1344     -43.587 -22.962   3.878  0.00  0.00     0.186 HD
+ATOM     12  N1  5GP d1344     -45.486 -21.742   6.220  0.00  0.00    -0.021 NA
+ATOM     13  C6  5GP d1344     -44.615 -21.718   7.246  0.00  0.00     0.316 A 
+ATOM     14  O6  5GP d1344     -44.956 -21.293   8.374  0.00  0.00    -0.263 OA
+ATOM     15  N7  5GP d1344     -42.229 -22.288   7.839  0.00  0.00    -0.234 NA
+ATOM     16  C8  5GP d1344     -41.218 -22.805   7.095  0.00  0.00     0.214 A 
+BRANCH  10  17
+ATOM     17  N2  5GP d1344     -45.975 -22.180   3.947  0.00  0.00    -0.233 N 
+ATOM     18  H   5GP d1344     -45.682 -22.498   3.063  0.00  0.00     0.174 HD
+ATOM     19  H   5GP d1344     -46.898 -21.864   4.075  0.00  0.00     0.174 HD
+ENDBRANCH  10  17
+ENDBRANCH   5   6
+BRANCH   4  20
+ATOM     20  O2' 5GP d1344     -39.780 -22.779   2.790  0.00  0.00    -0.388 OA
+ATOM     21  H   5GP d1344     -39.654 -23.715   2.568  0.00  0.00     0.210 HD
+ENDBRANCH   4  20
+BRANCH   3  22
+ATOM     22  O3' 5GP d1344     -37.422 -22.980   4.141  0.00  0.00    -0.390 OA
+ATOM     23  H   5GP d1344     -37.558 -23.555   3.372  0.00  0.00     0.210 HD
+ENDBRANCH   3  22
+BRANCH   1  24
+ATOM     24  C5' 5GP d1344     -37.749 -25.605   5.310  0.00  0.00     0.215 C 
+BRANCH  24  25
+ATOM     25  O5' 5GP d1344     -38.361 -26.903   5.219  0.00  0.00    -0.294 OA
+BRANCH  25  26
+ATOM     26  P   5GP d1344     -37.860 -28.280   5.827  0.00  0.00     0.390 P 
+ATOM     27  O3P 5GP d1344     -38.629 -29.359   5.148  0.00  0.00    -0.632 OA
+BRANCH  26  28
+ATOM     28  O1P 5GP d1344     -36.393 -28.437   5.613  0.00  0.00    -0.307 OA
+ATOM     29  H   5GP d1344     -36.203 -28.431   4.662  0.00  0.00     0.222 HD
+ENDBRANCH  26  28
+BRANCH  26  30
+ATOM     30  O2P 5GP d1344     -38.178 -28.287   7.332  0.00  0.00    -0.307 OA
+ATOM     31  H   5GP d1344     -39.134 -28.184   7.461  0.00  0.00     0.222 HD
+ENDBRANCH  26  30
+ENDBRANCH  25  26
+ENDBRANCH  24  25
+ENDBRANCH   1  24
+TORSDOF 9

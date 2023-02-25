@@ -1,0 +1,85 @@
+REMARK  14 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O3B_8  and  PG_1 
+REMARK    2  A    between atoms: PG_1  and  O1G_2 
+REMARK    3  A    between atoms: PG_1  and  O2G_3 
+REMARK    4  A    between atoms: O3B_8  and  PB_5 
+REMARK    5  A    between atoms: O1B_6  and  PB_5 
+REMARK    6  A    between atoms: PB_5  and  O3A_12 
+REMARK    7  A    between atoms: O3A_12  and  PA_9 
+REMARK    8  A    between atoms: O5'_13  and  PA_9 
+REMARK    9  A    between atoms: PA_9  and  O2A_11 
+REMARK   10  A    between atoms: O5'_13  and  C5'_14 
+REMARK   11  A    between atoms: C4'_15  and  C5'_14 
+REMARK   12  A    between atoms: O3'_18  and  C3'_17 
+REMARK   13  A    between atoms: O2'_20  and  C2'_19 
+REMARK   14  A    between atoms: C1'_21  and  N9_22 
+ROOT
+ATOM      1  C4' ITT d 201      48.976  66.224  37.010  0.00  0.00     0.180 C 
+ATOM      2  O4' ITT d 201      49.962  66.742  38.028  0.00  0.00    -0.353 OA
+ATOM      3  C3' ITT d 201      49.483  66.237  35.543  0.00  0.00     0.182 C 
+ATOM      4  C2' ITT d 201      50.348  67.548  35.684  0.00  0.00     0.198 C 
+ATOM      5  C1' ITT d 201      50.741  67.686  37.143  0.00  0.00     0.262 C 
+ENDROOT
+BRANCH   1   6
+ATOM      6  C5' ITT d 201      48.820  65.044  37.646  0.00  0.00     0.215 C 
+BRANCH   6   7
+ATOM      7  O5' ITT d 201      48.547  63.980  36.629  0.00  0.00    -0.294 OA
+BRANCH   7   8
+ATOM      8  PA  ITT d 201      48.714  62.398  36.765  0.00  0.00     0.401 P 
+ATOM      9  O1A ITT d 201      47.443  61.828  37.447  0.00  0.00    -0.631 OA
+BRANCH   8  10
+ATOM     10  O3A ITT d 201      48.281  61.778  35.371  0.00  0.00    -0.195 OA
+BRANCH  10  11
+ATOM     11  PB  ITT d 201      48.743  62.047  33.953  0.00  0.00     0.410 P 
+ATOM     12  O2B ITT d 201      47.449  62.259  33.300  0.00  0.00    -0.631 OA
+BRANCH  11  13
+ATOM     13  O3B ITT d 201      49.313  60.751  33.436  0.00  0.00    -0.195 OA
+BRANCH  13  14
+ATOM     14  PG  ITT d 201      49.542  59.202  33.933  0.00  0.00     0.399 P 
+ATOM     15  O3G ITT d 201      49.269  58.291  32.825  0.00  0.00    -0.631 OA
+BRANCH  14  16
+ATOM     16  O1G ITT d 201      50.780  58.891  34.562  0.00  0.00    -0.307 OA
+ATOM     17  H   ITT d 201      51.498  58.953  33.912  0.00  0.00     0.222 HD
+ENDBRANCH  14  16
+BRANCH  14  18
+ATOM     18  O2G ITT d 201      48.399  59.127  34.866  0.00  0.00    -0.307 OA
+ATOM     19  H   ITT d 201      47.581  59.346  34.393  0.00  0.00     0.222 HD
+ENDBRANCH  14  18
+ENDBRANCH  13  14
+ENDBRANCH  11  13
+BRANCH  11  20
+ATOM     20  O1B ITT d 201      49.753  63.070  33.875  0.00  0.00    -0.307 OA
+ATOM     21  H   ITT d 201      50.010  63.200  32.949  0.00  0.00     0.222 HD
+ENDBRANCH  11  20
+ENDBRANCH  10  11
+ENDBRANCH   8  10
+BRANCH   8  22
+ATOM     22  O2A ITT d 201      49.924  61.873  37.553  0.00  0.00    -0.307 OA
+ATOM     23  H   ITT d 201      50.741  62.210  37.154  0.00  0.00     0.222 HD
+ENDBRANCH   8  22
+ENDBRANCH   7   8
+ENDBRANCH   6   7
+ENDBRANCH   1   6
+BRANCH   3  24
+ATOM     24  O3' ITT d 201      48.618  66.067  34.500  0.00  0.00    -0.390 OA
+ATOM     25  H   ITT d 201      47.950  66.770  34.516  0.00  0.00     0.210 HD
+ENDBRANCH   3  24
+BRANCH   4  26
+ATOM     26  O2' ITT d 201      49.396  68.593  35.191  0.00  0.00    -0.388 OA
+ATOM     27  H   ITT d 201      48.568  68.538  35.693  0.00  0.00     0.210 HD
+ENDBRANCH   4  26
+BRANCH   5  28
+ATOM     28  N9  ITT d 201      52.125  67.594  37.301  0.00  0.00    -0.294 N 
+ATOM     29  C4  ITT d 201      53.030  68.527  36.964  0.00  0.00     0.167 A 
+ATOM     30  N3  ITT d 201      52.773  69.798  36.375  0.00  0.00    -0.223 NA
+ATOM     31  C5  ITT d 201      54.294  67.960  37.331  0.00  0.00     0.158 A 
+ATOM     32  C2  ITT d 201      53.897  70.493  36.146  0.00  0.00     0.211 A 
+ATOM     33  N1  ITT d 201      55.218  70.063  36.451  0.00  0.00    -0.327 N 
+ATOM     34  C6  ITT d 201      55.411  68.735  37.076  0.00  0.00     0.212 A 
+ATOM     35  H   ITT d 201      55.991  70.639  36.250  0.00  0.00     0.168 HD
+ATOM     36  O6  ITT d 201      56.675  68.427  37.314  0.00  0.00    -0.169 OA
+ATOM     37  N7  ITT d 201      54.204  66.704  37.892  0.00  0.00    -0.235 NA
+ATOM     38  C8  ITT d 201      52.914  66.570  37.845  0.00  0.00     0.214 A 
+ENDBRANCH   5  28
+TORSDOF 14

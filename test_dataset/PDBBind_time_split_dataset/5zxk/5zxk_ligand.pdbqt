@@ -1,0 +1,42 @@
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: P13_1  and  O16_4 
+REMARK    2  A    between atoms: O29_12  and  P13_1 
+REMARK    3  A    between atoms: O16_4  and  P17_5 
+REMARK    4  A    between atoms: C28_11  and  C27_10 
+REMARK    5  A    between atoms: C28_11  and  O29_12 
+REMARK    6  A    between atoms: C30_13  and  C31_14 
+REMARK    7  A    between atoms: C31_14  and  O33_15 
+ROOT
+ATOM      1  P13 H6P d   1      44.551 148.531  59.758  0.00  0.00     0.418 P 
+ATOM      2  O14 H6P d   1      43.824 148.158  58.503  0.00  0.00    -0.624 OA
+ATOM      3  O15 H6P d   1      43.839 149.305  60.820  0.00  0.00    -0.624 OA
+ENDROOT
+BRANCH   1   4
+ATOM      4  O16 H6P d   1      45.254 147.257  60.470  0.00  0.00    -0.173 OA
+BRANCH   4   5
+ATOM      5  P17 H6P d   1      46.304 146.047  60.085  0.00  0.00     0.431 P 
+ATOM      6  O18 H6P d   1      45.499 144.768  60.341  0.00  0.00    -0.616 OA
+ATOM      7  O19 H6P d   1      46.654 146.349  58.632  0.00  0.00    -0.616 OA
+ATOM      8  O20 H6P d   1      47.544 146.113  61.001  0.00  0.00    -0.616 OA
+ENDBRANCH   4   5
+ENDBRANCH   1   4
+BRANCH   1   9
+ATOM      9  O29 H6P d   1      45.838 149.321  59.210  0.00  0.00    -0.286 OA
+BRANCH   9  10
+ATOM     10  C28 H6P d   1      46.760 149.878  60.178  0.00  0.00     0.209 C 
+BRANCH  10  11
+ATOM     11  C27 H6P d   1      47.747 150.785  59.527  0.00  0.00     0.004 C 
+ATOM     12  C30 H6P d   1      47.742 152.119  59.493  0.00  0.00    -0.062 C 
+ATOM     13  C21 H6P d   1      46.783 152.977  60.243  0.00  0.00     0.045 C 
+BRANCH  12  14
+ATOM     14  C31 H6P d   1      48.801 152.860  58.612  0.00  0.00     0.198 C 
+BRANCH  14  15
+ATOM     15  O33 H6P d   1      49.420 151.996  57.659  0.00  0.00    -0.397 OA
+ATOM     16  H9  H6P d   1      48.757 151.637  57.081  0.00  0.00     0.209 HD
+ENDBRANCH  14  15
+ENDBRANCH  12  14
+ENDBRANCH  10  11
+ENDBRANCH   9  10
+ENDBRANCH   1   9
+TORSDOF 7

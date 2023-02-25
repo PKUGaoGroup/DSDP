@@ -1,0 +1,91 @@
+REMARK  14 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: NA2_3  and  C2_2 
+REMARK    2  A    between atoms: CP1_33  and  N5_8 
+REMARK    3  A    between atoms: C6_9  and  C9_13 
+REMARK    4  A    between atoms: N10_14  and  C9_13 
+REMARK    5  A    between atoms: N10_14  and  C14_18 
+REMARK    6  A    between atoms: C11_15  and  C_21 
+REMARK       I    between atoms: C_21  and  N_23 
+REMARK    7  A    between atoms: N_23  and  CA_24 
+REMARK    8  A    between atoms: CB_25  and  CA_24 
+REMARK    9  A    between atoms: CA_24  and  CT_30 
+REMARK   10  A    between atoms: CB_25  and  CG_26 
+REMARK   11  A    between atoms: CG_26  and  CD_27 
+REMARK   12  A    between atoms: CD_27  and  OE1_28 
+REMARK   13  A    between atoms: CT_30  and  O2_32 
+REMARK   14  A    between atoms: O3_34  and  CP1_33 
+ROOT
+ATOM      1  N10 THF d 501      11.558  21.376  20.654  0.00  0.00    -0.388 N 
+ATOM      2  H   THF d 501      11.142  20.905  19.896  0.00  0.00     0.159 HD
+ENDROOT
+BRANCH   1   3
+ATOM      3  C9  THF d 501      11.525  22.850  20.655  0.00  0.00     0.146 C 
+BRANCH   3   4
+ATOM      4  C6  THF d 501      10.777  23.396  19.442  0.00  0.00     0.128 C 
+ATOM      5  N5  THF d 501      10.670  22.399  18.262  0.00  0.00    -0.369 N 
+ATOM      6  C4A THF d 501      11.798  22.129  17.439  0.00  0.00     0.216 C 
+ATOM      7  C4  THF d 501      11.751  21.306  16.244  0.00  0.00     0.196 C 
+ATOM      8  C8A THF d 501      12.524  23.389  17.213  0.00  0.00     0.390 C 
+ATOM      9  N3  THF d 501      12.813  21.380  15.375  0.00  0.00    -0.168 N 
+ATOM     10  O4  THF d 501      10.666  20.481  15.996  0.00  0.00    -0.174 OA
+ATOM     11  C2  THF d 501      13.277  22.476  15.299  0.00  0.00     0.697 C 
+ATOM     12  H   THF d 501      13.155  20.609  14.868  0.00  0.00     0.186 HD
+ATOM     13  N1  THF d 501      13.087  23.599  15.992  0.00  0.00    -0.068 NA
+ATOM     14  N8  THF d 501      11.780  24.469  17.651  0.00  0.00     0.113 N 
+ATOM     15  C7  THF d 501      11.468  24.633  18.950  0.00  0.00     0.299 C 
+ATOM     16  H   THF d 501      10.895  24.431  17.146  0.00  0.00     0.318 HD
+BRANCH   5  17
+ATOM     17  CP1 THF d 501       9.321  21.808  18.066  0.00  0.00     0.286 C 
+BRANCH  17  18
+ATOM     18  O3  THF d 501       8.687  22.009  16.780  0.00  0.00    -0.382 OA
+ATOM     19  H   THF d 501       9.207  21.567  16.091  0.00  0.00     0.211 HD
+ENDBRANCH  17  18
+ENDBRANCH   5  17
+BRANCH  11  20
+ATOM     20  NA2 THF d 501      14.257  22.535  14.207  0.00  0.00    -0.233 N 
+ATOM     21  H   THF d 501      14.436  21.734  13.663  0.00  0.00     0.174 HD
+ATOM     22  H   THF d 501      14.735  23.375  14.019  0.00  0.00     0.174 HD
+ENDBRANCH  11  20
+ENDBRANCH   3   4
+ENDBRANCH   1   3
+BRANCH   1  23
+ATOM     23  C14 THF d 501      12.168  20.572  21.706  0.00  0.00     0.028 A 
+ATOM     24  C13 THF d 501      12.082  19.166  21.537  0.00  0.00     0.030 A 
+ATOM     25  C12 THF d 501      12.642  18.360  22.570  0.00  0.00     0.019 A 
+ATOM     26  C11 THF d 501      13.284  18.910  23.742  0.00  0.00     0.032 A 
+ATOM     27  C16 THF d 501      13.365  20.342  23.884  0.00  0.00     0.019 A 
+ATOM     28  C15 THF d 501      12.802  21.166  22.859  0.00  0.00     0.030 A 
+BRANCH  26  29
+ATOM     29  C   THF d 501      13.809  17.954  24.719  0.00  0.00     0.252 C 
+ATOM     30  N   THF d 501      15.143  17.665  24.805  0.00  0.00    -0.343 N 
+ATOM     31  H   THF d 501      15.784  18.246  24.336  0.00  0.00     0.163 HD
+ATOM     32  O   THF d 501      13.010  17.405  25.498  0.00  0.00    -0.268 OA
+BRANCH  30  33
+ATOM     33  CA  THF d 501      15.661  16.509  25.578  0.00  0.00     0.183 C 
+BRANCH  33  34
+ATOM     34  CB  THF d 501      16.791  15.978  24.800  0.00  0.00     0.046 C 
+BRANCH  34  35
+ATOM     35  CG  THF d 501      16.864  14.452  24.902  0.00  0.00     0.112 C 
+BRANCH  35  36
+ATOM     36  CD  THF d 501      17.947  13.842  25.837  0.00  0.00     0.139 C 
+ATOM     37  OE2 THF d 501      19.153  13.915  25.528  0.00  0.00    -0.650 OA
+BRANCH  36  38
+ATOM     38  OE1 THF d 501      17.581  13.284  26.894  0.00  0.00    -0.776 OA
+ATOM     39  H   THF d 501      16.670  13.239  27.109  0.00  0.00     0.167 HD
+ENDBRANCH  36  38
+ENDBRANCH  35  36
+ENDBRANCH  34  35
+ENDBRANCH  33  34
+BRANCH  33  40
+ATOM     40  CT  THF d 501      15.977  16.754  27.098  0.00  0.00     0.163 C 
+ATOM     41  O1  THF d 501      17.034  17.351  27.405  0.00  0.00    -0.648 OA
+BRANCH  40  42
+ATOM     42  O2  THF d 501      15.185  16.358  27.976  0.00  0.00    -0.775 OA
+ATOM     43  H   THF d 501      14.398  15.913  27.731  0.00  0.00     0.167 HD
+ENDBRANCH  40  42
+ENDBRANCH  33  40
+ENDBRANCH  30  33
+ENDBRANCH  26  29
+ENDBRANCH   1  23
+TORSDOF 14

@@ -1,0 +1,73 @@
+REMARK  15 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C15_2  and  C14_4 
+REMARK    2  A    between atoms: C15_2  and  O2_3 
+REMARK    3  A    between atoms: C14_4  and  C13_5 
+REMARK    4  A    between atoms: C13_5  and  C12_7 
+REMARK    5  A    between atoms: C12_7  and  C11_8 
+REMARK    6  A    between atoms: C11_8  and  C10_9 
+REMARK    7  A    between atoms: C10_9  and  C9_10 
+REMARK    8  A    between atoms: C8_12  and  C9_10 
+REMARK    9  A    between atoms: C8_12  and  C7_13 
+REMARK   10  A    between atoms: C6_14  and  C7_13 
+REMARK   11  A    between atoms: C6_14  and  C5_15 
+REMARK   12  A    between atoms: C4_17  and  C5_15 
+REMARK   13  A    between atoms: C3_18  and  C4_17 
+REMARK   14  A    between atoms: C2_19  and  C3_18 
+REMARK   15  A    between atoms: C1_20  and  C2_19 
+ROOT
+ATOM      1  C9  VGJ d1429      -8.121   6.845 -10.921  0.00  0.00    -0.019 C 
+ATOM      2  C17 VGJ d1429      -7.995   7.182  -9.431  0.00  0.00     0.010 C 
+ENDROOT
+BRANCH   1   3
+ATOM      3  C10 VGJ d1429      -7.864   8.052 -11.854  0.00  0.00     0.004 C 
+BRANCH   3   4
+ATOM      4  C11 VGJ d1429      -6.375   8.396 -12.115  0.00  0.00     0.001 C 
+BRANCH   4   5
+ATOM      5  C12 VGJ d1429      -5.745   8.071 -13.509  0.00  0.00     0.005 C 
+BRANCH   5   6
+ATOM      6  C13 VGJ d1429      -4.528   8.940 -13.968  0.00  0.00    -0.009 C 
+ATOM      7  C16 VGJ d1429      -4.302  10.125 -13.017  0.00  0.00     0.010 C 
+BRANCH   6   8
+ATOM      8  C14 VGJ d1429      -3.217   8.137 -14.278  0.00  0.00     0.114 C 
+BRANCH   8   9
+ATOM      9  C15 VGJ d1429      -1.929   8.912 -14.665  0.00  0.00     0.139 C 
+ATOM     10  O1  VGJ d1429      -1.373   8.762 -15.801  0.00  0.00    -0.650 OA
+BRANCH   9  11
+ATOM     11  O2  VGJ d1429      -1.406   9.684 -13.818  0.00  0.00    -0.776 OA
+ATOM     12  H   VGJ d1429      -1.808   9.801 -12.980  0.00  0.00     0.167 HD
+ENDBRANCH   9  11
+ENDBRANCH   8   9
+ENDBRANCH   6   8
+ENDBRANCH   5   6
+ENDBRANCH   4   5
+ENDBRANCH   3   4
+ENDBRANCH   1   3
+BRANCH   1  13
+ATOM     13  C8  VGJ d1429      -9.476   6.187 -11.239  0.00  0.00     0.004 C 
+BRANCH  13  14
+ATOM     14  C7  VGJ d1429      -9.818   4.844 -10.554  0.00  0.00     0.001 C 
+BRANCH  14  15
+ATOM     15  C6  VGJ d1429     -10.717   3.930 -11.431  0.00  0.00     0.004 C 
+BRANCH  15  16
+ATOM     16  C5  VGJ d1429     -11.970   3.278 -10.811  0.00  0.00    -0.019 C 
+ATOM     17  C18 VGJ d1429     -12.688   4.198  -9.849  0.00  0.00     0.010 C 
+BRANCH  16  18
+ATOM     18  C4  VGJ d1429     -13.071   2.942 -11.825  0.00  0.00     0.004 C 
+BRANCH  18  19
+ATOM     19  C3  VGJ d1429     -12.728   2.410 -13.216  0.00  0.00     0.001 C 
+BRANCH  19  20
+ATOM     20  C2  VGJ d1429     -13.937   1.667 -13.785  0.00  0.00     0.004 C 
+BRANCH  20  21
+ATOM     21  C1  VGJ d1429     -13.780   1.303 -15.242  0.00  0.00    -0.023 C 
+ATOM     22  C19 VGJ d1429     -14.059   2.496 -16.146  0.00  0.00     0.009 C 
+ATOM     23  C20 VGJ d1429     -14.597   0.068 -15.624  0.00  0.00     0.009 C 
+ENDBRANCH  20  21
+ENDBRANCH  19  20
+ENDBRANCH  18  19
+ENDBRANCH  16  18
+ENDBRANCH  15  16
+ENDBRANCH  14  15
+ENDBRANCH  13  14
+ENDBRANCH   1  13
+TORSDOF 15

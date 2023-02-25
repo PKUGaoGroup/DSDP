@@ -1,0 +1,40 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA_1  and  C_2 
+REMARK    2  A    between atoms: CA_1  and  CB_5 
+REMARK    3  A    between atoms: C_2  and  OXT_4 
+REMARK    4  A    between atoms: CG_6  and  CB_5 
+REMARK    5  A    between atoms: CD_7  and  CG_6 
+REMARK    6  A    between atoms: OE2_8  and  CD_7 
+REMARK       I    between atoms: C_10  and  N_13 
+ROOT
+ATOM      1  CA  GLU d   1      91.484  37.811  49.366  0.00  0.00     0.182 C 
+ATOM      2  N   GLU d   1      90.401  37.030  49.572  0.00  0.00    -0.347 N 
+ATOM      3  H   GLU d   1      89.755  37.234  50.286  0.00  0.00     0.163 HD
+ATOM      4  C   UNK d   0      90.236  35.969  48.772  0.00  0.00     0.214 C 
+ATOM      5  C   UNK d   0      89.313  35.090  49.107  0.00  0.00     0.117 C 
+ATOM      6  O   UNK d   0      90.907  35.796  47.767  0.00  0.00    -0.274 OA
+ENDROOT
+BRANCH   1   7
+ATOM      7  C   GLU d   1      92.725  37.297  49.566  0.00  0.00     0.163 C 
+ATOM      8  O   GLU d   1      93.676  37.650  48.824  0.00  0.00    -0.648 OA
+BRANCH   7   9
+ATOM      9  OXT GLU d   1      92.927  36.468  50.493  0.00  0.00    -0.775 OA
+ATOM     10  HXT GLU d   1      92.219  36.203  51.047  0.00  0.00     0.167 HD
+ENDBRANCH   7   9
+ENDBRANCH   1   7
+BRANCH   1  11
+ATOM     11  CB  GLU d   1      91.209  39.248  49.793  0.00  0.00     0.046 C 
+BRANCH  11  12
+ATOM     12  CG  GLU d   1      92.004  40.284  49.010  0.00  0.00     0.112 C 
+BRANCH  12  13
+ATOM     13  CD  GLU d   1      91.240  40.842  47.828  0.00  0.00     0.139 C 
+ATOM     14  OE1 GLU d   1      91.862  41.638  47.093  0.00  0.00    -0.650 OA
+BRANCH  13  15
+ATOM     15  OE2 GLU d   1      90.048  40.516  47.614  0.00  0.00    -0.776 OA
+ATOM     16  HE2 GLU d   1      89.616  39.915  48.189  0.00  0.00     0.167 HD
+ENDBRANCH  13  15
+ENDBRANCH  12  13
+ENDBRANCH  11  12
+ENDBRANCH   1  11
+TORSDOF 6

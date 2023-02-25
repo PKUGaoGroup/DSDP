@@ -1,0 +1,101 @@
+REMARK  14 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1D_20  and  N9A_1 
+REMARK    2  A    between atoms: C2A_8  and  N2A_9 
+REMARK    3  A    between atoms: O5D_12  and  C5D_13 
+REMARK    4  A    between atoms: C4D_14  and  C5D_13 
+REMARK    5  A    between atoms: O3D_17  and  C3D_16 
+REMARK    6  A    between atoms: O2D_19  and  C2D_18 
+REMARK    7  A    between atoms: O2D_19  and  P_21 
+REMARK    8  A    between atoms: O5E_24  and  P_21 
+REMARK    9  A    between atoms: P_21  and  O2P_23 
+REMARK   10  A    between atoms: O5E_24  and  C5E_25 
+REMARK   11  A    between atoms: C5E_25  and  C4E_26 
+REMARK   12  A    between atoms: O3E_29  and  C3E_28 
+REMARK   13  A    between atoms: C2E_30  and  O2E_31 
+REMARK   14  A    between atoms: C1E_32  and  N9B_33 
+ROOT
+ATOM      1  P   GPG d 250      16.481  17.700  20.640  0.00  0.00     0.393 P 
+ATOM      2  O1P GPG d 250      18.002  17.568  20.157  0.00  0.00    -0.631 OA
+ENDROOT
+BRANCH   1   3
+ATOM      3  O2D GPG d 250      15.628  16.444  20.009  0.00  0.00    -0.284 OA
+BRANCH   3   4
+ATOM      4  C2D GPG d 250      16.124  15.173  20.563  0.00  0.00     0.214 C 
+ATOM      5  C3D GPG d 250      17.425  14.684  19.993  0.00  0.00     0.183 C 
+ATOM      6  C4D GPG d 250      17.694  13.391  20.678  0.00  0.00     0.179 C 
+ATOM      7  O4D GPG d 250      16.476  13.001  21.377  0.00  0.00    -0.353 OA
+ATOM      8  C1D GPG d 250      15.422  13.976  21.204  0.00  0.00     0.263 C 
+BRANCH   5   9
+ATOM      9  O3D GPG d 250      17.043  14.173  18.702  0.00  0.00    -0.390 OA
+ATOM     10  H   GPG d 250      16.334  13.520  18.810  0.00  0.00     0.210 HD
+ENDBRANCH   5   9
+BRANCH   6  11
+ATOM     11  C5D GPG d 250      18.865  13.760  21.603  0.00  0.00     0.198 C 
+BRANCH  11  12
+ATOM     12  O5D GPG d 250      20.142  13.613  20.957  0.00  0.00    -0.398 OA
+ATOM     13  H   GPG d 250      20.848  13.856  21.577  0.00  0.00     0.209 HD
+ENDBRANCH  11  12
+ENDBRANCH   6  11
+BRANCH   8  14
+ATOM     14  N9A GPG d 250      14.244  13.977  22.147  0.00  0.00    -0.295 N 
+ATOM     15  C8A GPG d 250      13.005  14.383  21.744  0.00  0.00     0.214 A 
+ATOM     16  N7A GPG d 250      12.053  14.336  22.732  0.00  0.00    -0.234 NA
+ATOM     17  C5A GPG d 250      12.686  13.843  23.815  0.00  0.00     0.173 A 
+ATOM     18  C4A GPG d 250      14.088  13.626  23.432  0.00  0.00     0.161 A 
+ATOM     19  C6A GPG d 250      12.340  13.500  25.220  0.00  0.00     0.316 A 
+ATOM     20  N3A GPG d 250      15.036  13.067  24.383  0.00  0.00    -0.172 N 
+ATOM     21  C2A GPG d 250      14.590  12.808  25.649  0.00  0.00     0.703 A 
+ATOM     22  H   GPG d 250      15.967  12.881  24.124  0.00  0.00     0.186 HD
+ATOM     23  N1A GPG d 250      13.301  13.017  26.039  0.00  0.00    -0.021 NA
+ATOM     24  O6A GPG d 250      11.153  13.673  25.630  0.00  0.00    -0.263 OA
+BRANCH  21  25
+ATOM     25  N2A GPG d 250      15.422  12.303  26.583  0.00  0.00    -0.233 N 
+ATOM     26  H   GPG d 250      16.365  12.130  26.360  0.00  0.00     0.174 HD
+ATOM     27  H   GPG d 250      15.086  12.107  27.487  0.00  0.00     0.174 HD
+ENDBRANCH  21  25
+ENDBRANCH   8  14
+ENDBRANCH   3   4
+ENDBRANCH   1   3
+BRANCH   1  28
+ATOM     28  O5E GPG d 250      16.032  19.221  20.293  0.00  0.00    -0.294 OA
+BRANCH  28  29
+ATOM     29  C5E GPG d 250      16.471  20.319  21.109  0.00  0.00     0.215 C 
+BRANCH  29  30
+ATOM     30  C4E GPG d 250      15.274  20.771  21.971  0.00  0.00     0.180 C 
+ATOM     31  O4E GPG d 250      14.136  19.875  22.020  0.00  0.00    -0.353 OA
+ATOM     32  C1E GPG d 250      13.411  20.120  23.239  0.00  0.00     0.262 C 
+ATOM     33  C2E GPG d 250      14.222  20.988  24.178  0.00  0.00     0.198 C 
+ATOM     34  C3E GPG d 250      15.452  21.423  23.344  0.00  0.00     0.182 C 
+BRANCH  32  35
+ATOM     35  N9B GPG d 250      12.501  19.078  23.775  0.00  0.00    -0.295 N 
+ATOM     36  C4B GPG d 250      11.159  19.201  23.683  0.00  0.00     0.161 A 
+ATOM     37  N3B GPG d 250      10.385  20.329  23.161  0.00  0.00    -0.172 N 
+ATOM     38  C5B GPG d 250      10.512  18.037  24.261  0.00  0.00     0.173 A 
+ATOM     39  C2B GPG d 250       9.011  20.258  23.167  0.00  0.00     0.703 A 
+ATOM     40  H   GPG d 250      10.842  21.128  22.810  0.00  0.00     0.186 HD
+ATOM     41  N2B GPG d 250       8.264  21.301  22.708  0.00  0.00    -0.233 N 
+ATOM     42  N1B GPG d 250       8.385  19.181  23.701  0.00  0.00    -0.021 NA
+ATOM     43  H   GPG d 250       8.706  22.089  22.318  0.00  0.00     0.174 HD
+ATOM     44  H   GPG d 250       7.282  21.266  22.767  0.00  0.00     0.174 HD
+ATOM     45  C6B GPG d 250       9.025  18.101  24.249  0.00  0.00     0.316 A 
+ATOM     46  O6B GPG d 250       8.355  17.138  24.715  0.00  0.00    -0.263 OA
+ATOM     47  N7B GPG d 250      11.537  17.233  24.692  0.00  0.00    -0.234 NA
+ATOM     48  C8B GPG d 250      12.737  17.867  24.373  0.00  0.00     0.214 A 
+ENDBRANCH  32  35
+BRANCH  33  49
+ATOM     49  O2E GPG d 250      13.311  21.960  24.674  0.00  0.00    -0.388 OA
+ATOM     50  H   GPG d 250      12.878  22.407  23.930  0.00  0.00     0.210 HD
+ENDBRANCH  33  49
+BRANCH  34  51
+ATOM     51  O3E GPG d 250      15.688  22.831  23.246  0.00  0.00    -0.390 OA
+ATOM     52  H   GPG d 250      14.940  23.254  22.795  0.00  0.00     0.210 HD
+ENDBRANCH  34  51
+ENDBRANCH  29  30
+ENDBRANCH  28  29
+ENDBRANCH   1  28
+BRANCH   1  53
+ATOM     53  O2P GPG d 250      16.382  17.601  22.250  0.00  0.00    -0.307 OA
+ATOM     54  H   GPG d 250      16.638  16.710  22.535  0.00  0.00     0.222 HD
+ENDBRANCH   1  53
+TORSDOF 14

@@ -1,0 +1,59 @@
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAS_2  and  OAA_1 
+REMARK    2  A    between atoms: CAS_2  and  CAO_4 
+REMARK    3  A    between atoms: CAO_4  and  CAP_5 
+REMARK    4  A    between atoms: NBE_6  and  CAP_5 
+REMARK    5  A    between atoms: CBB_13  and  CBA_12 
+REMARK    6  A    between atoms: CAQ_24  and  NBF_23 
+REMARK    7  A    between atoms: CAQ_24  and  CAW_25 
+ROOT
+ATOM      1  CBB 0RR d 501       2.292   8.016   2.033  0.00  0.00     0.067 A 
+ATOM      2  CAY 0RR d 501       1.552   6.899   1.882  0.00  0.00     0.261 A 
+ATOM      3  OAC 0RR d 501       1.982   5.745   1.925  0.00  0.00    -0.267 OA
+ATOM      4  CBC 0RR d 501       1.442   9.061   1.904  0.00  0.00     0.010 A 
+ATOM      5  CAN 0RR d 501       1.584  10.398   1.944  0.00  0.00     0.038 A 
+ATOM      6  CAT 0RR d 501       0.458  11.224   1.790  0.00  0.00     0.035 A 
+ATOM      7 CLF  0RR d 501       0.540  12.934   1.811  0.00  0.00    -0.084 Cl
+ATOM      8  CAL 0RR d 501      -0.799  10.670   1.600  0.00  0.00     0.026 A 
+ATOM      9  CAM 0RR d 501      -0.879   9.293   1.569  0.00  0.00     0.032 A 
+ATOM     10  CBD 0RR d 501       0.204   8.535   1.717  0.00  0.00     0.049 A 
+ATOM     11  NBF 0RR d 501       0.264   7.206   1.700  0.00  0.00    -0.308 N 
+ENDROOT
+BRANCH   1  12
+ATOM     12  CBA 0RR d 501       3.649   8.001   2.182  0.00  0.00     0.092 A 
+ATOM     13  SAR 0RR d 501       4.556   6.530   2.178  0.00  0.00    -0.054 SA
+ATOM     14  CAZ 0RR d 501       6.020   7.291   2.300  0.00  0.00     0.148 A 
+ATOM     15  NBE 0RR d 501       5.855   8.625   2.354  0.00  0.00    -0.298 N 
+ATOM     16  SAE 0RR d 501       7.526   6.437   2.376  0.00  0.00    -0.052 SA
+ATOM     17  CAX 0RR d 501       4.562   9.015   2.255  0.00  0.00     0.267 A 
+ATOM     18  OAB 0RR d 501       4.301  10.222   2.290  0.00  0.00    -0.266 OA
+BRANCH  15  19
+ATOM     19  CAP 0RR d 501       6.868   9.695   2.412  0.00  0.00     0.144 C 
+BRANCH  19  20
+ATOM     20  CAO 0RR d 501       7.040  10.049   0.914  0.00  0.00     0.130 C 
+BRANCH  20  21
+ATOM     21  CAS 0RR d 501       7.994  11.204   0.543  0.00  0.00     0.141 C 
+ATOM     22  OAD 0RR d 501       7.552  11.928  -0.377  0.00  0.00    -0.650 OA
+BRANCH  21  23
+ATOM     23  OAA 0RR d 501       9.105  11.350   1.140  0.00  0.00    -0.776 OA
+ATOM     24  H   0RR d 501       9.353  10.755   1.821  0.00  0.00     0.167 HD
+ENDBRANCH  21  23
+ENDBRANCH  20  21
+ENDBRANCH  19  20
+ENDBRANCH  15  19
+ENDBRANCH   1  12
+BRANCH  11  25
+ATOM     25  CAQ 0RR d 501      -0.986   6.338   1.517  0.00  0.00     0.174 C 
+BRANCH  25  26
+ATOM     26  CAW 0RR d 501      -1.812   6.415   2.659  0.00  0.00     0.004 A 
+ATOM     27  CAU 0RR d 501      -2.968   7.219   2.716  0.00  0.00     0.043 A 
+ATOM     28 CLG  0RR d 501      -3.512   8.207   1.345  0.00  0.00    -0.084 Cl
+ATOM     29  CAJ 0RR d 501      -3.729   7.255   3.887  0.00  0.00     0.024 A 
+ATOM     30  CAI 0RR d 501      -3.366   6.506   5.001  0.00  0.00     0.003 A 
+ATOM     31  CAK 0RR d 501      -2.227   5.713   4.940  0.00  0.00     0.024 A 
+ATOM     32  CAV 0RR d 501      -1.459   5.663   3.779  0.00  0.00     0.043 A 
+ATOM     33 CLH  0RR d 501      -0.040   4.665   3.720  0.00  0.00    -0.084 Cl
+ENDBRANCH  25  26
+ENDBRANCH  11  25
+TORSDOF 7

@@ -1,0 +1,70 @@
+REMARK  11 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA_2  and  N_1 
+REMARK    2  A    between atoms: CB_3  and  CA_2 
+REMARK    3  A    between atoms: CA_2  and  C_6 
+REMARK    4  A    between atoms: CG_4  and  CB_3 
+REMARK    5  A    between atoms: SD_5  and  CG_4 
+REMARK    6  A    between atoms: C5'_9  and  SD_5 
+REMARK    7  A    between atoms: C_6  and  OXT_7 
+REMARK    8  A    between atoms: C5'_9  and  C4'_10 
+REMARK    9  A    between atoms: C3'_12  and  O3'_13 
+REMARK   10  A    between atoms: C2'_14  and  O2'_15 
+REMARK   11  A    between atoms: C1'_16  and  N9_17 
+ROOT
+ATOM      1  C4' SIB d 408      45.673  31.177  -2.391  0.00  0.00     0.165 C 
+ATOM      2  O4' SIB d 408      44.727  32.252  -2.435  0.00  0.00    -0.355 OA
+ATOM      3  C3' SIB d 408      45.332  30.313  -1.160  0.00  0.00     0.180 C 
+ATOM      4  C2' SIB d 408      44.117  31.051  -0.558  0.00  0.00     0.198 C 
+ATOM      5  C1' SIB d 408      44.372  32.475  -1.070  0.00  0.00     0.262 C 
+ENDROOT
+BRANCH   1   6
+ATOM      6  C5' SIB d 408      45.608  30.368  -3.678  0.00  0.00     0.108 C 
+BRANCH   6   7
+ATOM      7  SD  SIB d 408      46.936  29.147  -3.669  0.00  0.00    -0.166 SA
+BRANCH   7   8
+ATOM      8  CG  SIB d 408      48.379  30.217  -3.493  0.00  0.00     0.076 C 
+BRANCH   8   9
+ATOM      9  CB  SIB d 408      49.612  29.379  -3.175  0.00  0.00     0.056 C 
+BRANCH   9  10
+ATOM     10  CA  SIB d 408      49.415  28.572  -1.883  0.00  0.00     0.315 C 
+BRANCH  10  11
+ATOM     11  C   SIB d 408      50.643  27.729  -1.661  0.00  0.00     0.173 C 
+ATOM     12  O   SIB d 408      50.956  26.784  -2.550  0.00  0.00    -0.648 OA
+BRANCH  11  13
+ATOM     13  OXT SIB d 408      51.346  27.908  -0.693  0.00  0.00    -0.775 OA
+ATOM     14  H   SIB d 408      51.125  28.572  -0.070  0.00  0.00     0.167 HD
+ENDBRANCH  11  13
+ENDBRANCH  10  11
+BRANCH  10  15
+ATOM     15  N   SIB d 408      49.190  29.469  -0.732  0.00  0.00     0.093 N 
+ATOM     16  H   SIB d 408      48.356  30.032  -0.898  0.00  0.00     0.314 HD
+ATOM     17  H   SIB d 408      49.997  30.082  -0.616  0.00  0.00     0.314 HD
+ENDBRANCH  10  15
+ENDBRANCH   9  10
+ENDBRANCH   8   9
+ENDBRANCH   7   8
+ENDBRANCH   6   7
+ENDBRANCH   1   6
+BRANCH   3  18
+ATOM     18  O3' SIB d 408      46.454  30.232  -0.273  0.00  0.00    -0.390 OA
+ATOM     19  H   SIB d 408      46.730  31.126  -0.019  0.00  0.00     0.210 HD
+ENDBRANCH   3  18
+BRANCH   5  20
+ATOM     20  N9  SIB d 408      43.194  33.350  -0.939  0.00  0.00    -0.295 N 
+ATOM     21  C4  SIB d 408      43.213  34.705  -1.108  0.00  0.00     0.145 A 
+ATOM     22  N3  SIB d 408      44.174  35.616  -1.428  0.00  0.00    -0.335 N 
+ATOM     23  C5  SIB d 408      41.886  35.135  -0.867  0.00  0.00     0.158 A 
+ATOM     24  C2  SIB d 408      43.882  36.919  -1.520  0.00  0.00     0.211 A 
+ATOM     25  H   SIB d 408      45.096  35.312  -1.594  0.00  0.00     0.168 HD
+ATOM     26  N1  SIB d 408      42.633  37.367  -1.291  0.00  0.00    -0.215 NA
+ATOM     27  C6  SIB d 408      41.616  36.519  -0.962  0.00  0.00     0.234 A 
+ATOM     28  O6  SIB d 408      40.359  36.981  -0.728  0.00  0.00    -0.167 OA
+ATOM     29  N7  SIB d 408      41.153  34.044  -0.582  0.00  0.00    -0.235 NA
+ATOM     30  C8  SIB d 408      41.914  32.996  -0.622  0.00  0.00     0.214 A 
+ENDBRANCH   5  20
+BRANCH   4  31
+ATOM     31  O2' SIB d 408      44.049  30.951   0.860  0.00  0.00    -0.388 OA
+ATOM     32  H   SIB d 408      44.871  31.289   1.248  0.00  0.00     0.210 HD
+ENDBRANCH   4  31
+TORSDOF 11

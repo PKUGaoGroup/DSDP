@@ -1,0 +1,22 @@
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: S1_3  and  P1_2 
+REMARK    2  A    between atoms: P1_2  and  O2_4 
+REMARK    3  A    between atoms: P1_2  and  O1_6 
+ROOT
+ATOM      1  O4  DZZ d 901      30.261  21.657  -1.710  0.00  0.00    -0.246 OA
+ATOM      2  P1  DZZ d 901      29.178  20.563  -0.823  0.00  0.00     0.387 P 
+ENDROOT
+BRANCH   2   3
+ATOM      3  S1  DZZ d 901      27.815  19.526  -2.004  0.00  0.00    -0.058 SA
+ATOM      4  H   DZZ d 901      28.482  18.841  -2.971  0.00  0.00     0.114 HD
+ENDBRANCH   2   3
+BRANCH   2   5
+ATOM      5  O2  DZZ d 901      30.051  19.465  -0.030  0.00  0.00    -0.311 OA
+ATOM      6  C1  DZZ d 901      30.786  19.737   1.159  0.00  0.00     0.213 C 
+ENDBRANCH   2   5
+BRANCH   2   7
+ATOM      7  O1  DZZ d 901      28.422  21.392   0.342  0.00  0.00    -0.311 OA
+ATOM      8  C2  DZZ d 901      28.536  22.816   0.363  0.00  0.00     0.213 C 
+ENDBRANCH   2   7
+TORSDOF 3

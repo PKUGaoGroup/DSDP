@@ -1,0 +1,44 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C16_20  and  C17_3 
+REMARK    2  A    between atoms: C02_8  and  N01_7 
+REMARK    3  A    between atoms: C09_15  and  C05_11 
+REMARK    4  A    between atoms: N15_19  and  C16_20 
+ROOT
+ATOM      1  C02 JFB d   1     -18.729  17.533 -12.627  0.00  0.00     0.138 A 
+ATOM      2  N03 JFB d   1     -18.492  18.835 -12.539  0.00  0.00    -0.261 N 
+ATOM      3  N04 JFB d   1     -19.696  19.481 -12.293  0.00  0.00    -0.171 NA
+ATOM      4  C05 JFB d   1     -20.654  18.619 -12.279  0.00  0.00     0.111 A 
+ATOM      5  C06 JFB d   1     -20.094  17.327 -12.435  0.00  0.00     0.120 A 
+ATOM      6  C07 JFB d   1     -20.735  15.992 -12.482  0.00  0.00     0.106 C 
+ATOM      7  N08 JFB d   1     -21.169  14.983 -12.529  0.00  0.00    -0.191 NA
+ATOM      8  H7  JFB d   1     -17.573  19.289 -12.636  0.00  0.00     0.191 HD
+ENDROOT
+BRANCH   1   9
+ATOM      9  N01 JFB d   1     -17.753  16.503 -12.866  0.00  0.00    -0.383 N 
+ATOM     10  H5  JFB d   1     -18.047  15.517 -12.916  0.00  0.00     0.157 HD
+ATOM     11  H6  JFB d   1     -16.761  16.752 -12.987  0.00  0.00     0.157 HD
+ENDBRANCH   1   9
+BRANCH   4  12
+ATOM     12  C09 JFB d   1     -22.067  19.026 -11.934  0.00  0.00    -0.002 A 
+ATOM     13  C10 JFB d   1     -23.070  18.091 -11.782  0.00  0.00     0.015 A 
+ATOM     14  C11 JFB d   1     -24.334  18.506 -11.360  0.00  0.00     0.014 A 
+ATOM     15  C12 JFB d   1     -24.550  19.896 -11.075  0.00  0.00    -0.008 A 
+ATOM     16  C13 JFB d   1     -23.523  20.806 -11.195  0.00  0.00     0.045 A 
+ATOM     17  C24 JFB d   1     -25.705  20.675 -10.610  0.00  0.00     0.031 A 
+ATOM     18  C14 JFB d   1     -22.260  20.388 -11.613  0.00  0.00     0.044 A 
+ATOM     19  N15 JFB d   1     -23.990  22.056 -10.856  0.00  0.00    -0.352 N 
+ATOM     20  C23 JFB d   1     -25.310  21.977 -10.506  0.00  0.00     0.092 A 
+BRANCH  19  21
+ATOM     21  C16 JFB d   1     -23.206  23.292 -10.870  0.00  0.00     0.167 C 
+BRANCH  21  22
+ATOM     22  C17 JFB d   1     -22.364  23.436  -9.606  0.00  0.00    -0.037 A 
+ATOM     23  C22 JFB d   1     -21.213  24.236  -9.607  0.00  0.00     0.028 A 
+ATOM     24  C21 JFB d   1     -20.471  24.363  -8.456  0.00  0.00     0.116 A 
+ATOM     25  N20 JFB d   1     -20.861  23.716  -7.299  0.00  0.00    -0.273 NA
+ATOM     26  C19 JFB d   1     -21.919  22.973  -7.231  0.00  0.00     0.116 A 
+ATOM     27  C18 JFB d   1     -22.729  22.790  -8.362  0.00  0.00     0.028 A 
+ENDBRANCH  21  22
+ENDBRANCH  19  21
+ENDBRANCH   4  12
+TORSDOF 4

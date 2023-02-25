@@ -1,0 +1,77 @@
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CBF_14  and  NBE_15 
+REMARK       I    between atoms: NBE_15  and  CBC_16 
+REMARK       I    between atoms: CBC_16  and  NBD_18 
+REMARK    2  A    between atoms: NBD_18  and  CAY_19 
+REMARK    3  A    between atoms: CAW_24  and  CAS_25 
+REMARK    4  A    between atoms: NAT_29  and  CAQ_30 
+REMARK    5  A    between atoms: CAQ_30  and  CAP_31 
+REMARK    6  A    between atoms: CAP_31  and  NAO_32 
+REMARK    7  A    between atoms: NAO_32  and  CAG_33 
+ROOT
+ATOM      1  CAY FW8 d   1      -7.913 217.228  78.108  0.00  0.00     0.131 A 
+ATOM      2  CAX FW8 d   1      -7.559 216.397  79.186  0.00  0.00     0.064 A 
+ATOM      3  NBB FW8 d   1      -7.199 217.148  76.970  0.00  0.00    -0.243 NA
+ATOM      4  CAZ FW8 d   1      -6.136 216.269  76.814  0.00  0.00     0.120 A 
+ATOM      5  CBA FW8 d   1      -5.775 215.447  77.860  0.00  0.00     0.033 A 
+ATOM      6  CAW FW8 d   1      -6.480 215.504  79.057  0.00  0.00     0.001 A 
+ENDROOT
+BRANCH   6   7
+ATOM      7  CAS FW8 d   1      -6.057 214.668  80.017  0.00  0.00     0.108 A 
+ATOM      8  CAR FW8 d   1      -6.783 214.053  80.944  0.00  0.00     0.148 A 
+ATOM      9  NAT FW8 d   1      -5.888 213.339  81.630  0.00  0.00    -0.259 N 
+ATOM     10  NAU FW8 d   1      -4.716 213.525  81.124  0.00  0.00    -0.066 NA
+ATOM     11  NAV FW8 d   1      -4.783 214.301  80.167  0.00  0.00    -0.130 NA
+BRANCH   9  12
+ATOM     12  CAQ FW8 d   1      -6.120 212.439  82.782  0.00  0.00     0.171 C 
+BRANCH  12  13
+ATOM     13  CAP FW8 d   1      -4.772 211.923  83.262  0.00  0.00     0.141 C 
+BRANCH  13  14
+ATOM     14  NAO FW8 d   1      -4.656 210.450  83.261  0.00  0.00    -0.387 N 
+ATOM     15  H23 FW8 d   1      -5.228 209.949  83.956  0.00  0.00     0.159 HD
+BRANCH  14  16
+ATOM     16  CAG FW8 d   1      -3.888 209.681  82.455  0.00  0.00     0.049 A 
+ATOM     17  CAH FW8 d   1      -2.487 209.826  82.330  0.00  0.00    -0.006 A 
+ATOM     18  CAM FW8 d   1      -1.742 210.819  83.012  0.00  0.00     0.043 C 
+ATOM     19  CAI FW8 d   1      -1.837 208.941  81.454  0.00  0.00     0.043 A 
+ATOM     20  CAL FW8 d   1      -0.269 210.509  83.073  0.00  0.00     0.005 C 
+ATOM     21  CAK FW8 d   1       0.178 210.270  81.647  0.00  0.00     0.006 C 
+ATOM     22  CAJ FW8 d   1      -0.452 208.961  81.221  0.00  0.00     0.060 C 
+ATOM     23  NAN FW8 d   1      -2.530 207.992  80.804  0.00  0.00    -0.252 NA
+ATOM     24  CAE FW8 d   1      -3.854 207.838  80.922  0.00  0.00     0.069 A 
+ATOM     25  CAF FW8 d   1      -4.567 208.681  81.762  0.00  0.00     0.020 A 
+ATOM     26  CAD FW8 d   1      -4.503 206.831  80.214  0.00  0.00     0.032 A 
+ATOM     27  CAA FW8 d   1      -5.941 208.526  81.897  0.00  0.00     0.016 A 
+ATOM     28  CAB FW8 d   1      -6.600 207.525  81.191  0.00  0.00     0.001 A 
+ATOM     29  CAC FW8 d   1      -5.881 206.680  80.348  0.00  0.00     0.002 A 
+ENDBRANCH  14  16
+ENDBRANCH  13  14
+ENDBRANCH  12  13
+ENDBRANCH   9  12
+ENDBRANCH   6   7
+BRANCH   1  30
+ATOM     30  NBD FW8 d   1      -8.897 218.155  78.050  0.00  0.00    -0.293 N 
+ATOM     31  CBC FW8 d   1      -9.633 218.654  79.074  0.00  0.00     0.326 C 
+ATOM     32  NBE FW8 d   1     -10.507 219.626  78.685  0.00  0.00    -0.308 N 
+ATOM     33  OBL FW8 d   1      -9.529 218.251  80.233  0.00  0.00    -0.247 OA
+ATOM     34  H13 FW8 d   1     -10.530 219.858  77.713  0.00  0.00     0.170 HD
+ATOM     35  H14 FW8 d   1      -9.107 218.516  77.141  0.00  0.00     0.172 HD
+BRANCH  32  36
+ATOM     36  CBF FW8 d   1     -11.344 220.302  79.501  0.00  0.00     0.045 A 
+ATOM     37  CBG FW8 d   1     -11.877 221.422  78.980  0.00  0.00     0.007 A 
+ATOM     38  CBN FW8 d   1     -11.755 222.011  77.706  0.00  0.00     0.124 A 
+ATOM     39  CBH FW8 d   1     -12.721 222.180  79.703  0.00  0.00     0.042 A 
+ATOM     40  NBS FW8 d   1     -12.639 223.156  77.740  0.00  0.00    -0.339 N 
+ATOM     41  CBO FW8 d   1     -10.391 222.600  77.449  0.00  0.00     0.030 C 
+ATOM     42  CBM FW8 d   1     -13.128 223.213  78.964  0.00  0.00     0.255 A 
+ATOM     43  CBR FW8 d   1     -12.764 224.084  76.599  0.00  0.00     0.127 C 
+ATOM     44  OBT FW8 d   1     -13.896 224.088  79.357  0.00  0.00    -0.267 OA
+ATOM     45  CBQ FW8 d   1     -11.370 224.500  76.139  0.00  0.00     0.020 C 
+ATOM     46  CBP FW8 d   1     -10.451 223.278  76.077  0.00  0.00     0.004 C 
+ATOM     47  CBI FW8 d   1     -13.040 221.857  80.954  0.00  0.00     0.018 A 
+ATOM     48  CBJ FW8 d   1     -12.509 220.724  81.550  0.00  0.00     0.003 A 
+ATOM     49  CBK FW8 d   1     -11.648 219.936  80.809  0.00  0.00     0.030 A 
+ENDBRANCH  32  36
+ENDBRANCH   1  30
+TORSDOF 7

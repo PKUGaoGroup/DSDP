@@ -1,0 +1,13 @@
+REMARK  0 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+ROOT
+ATOM      1  N7  PZE d6951       4.118   3.712  29.720  0.00  0.00     0.086 N 
+ATOM      2  C8  PZE d6951       4.759   2.402  29.803  0.00  0.00     0.299 C 
+ATOM      3  C9  PZE d6951       5.188   2.019  28.384  0.00  0.00     0.299 C 
+ATOM      4  N10 PZE d6951       5.855   3.180  27.806  0.00  0.00     0.086 N 
+ATOM      5  C11 PZE d6951       5.144   4.438  27.688  0.00  0.00     0.299 C 
+ATOM      6  C12 PZE d6951       4.830   4.836  29.130  0.00  0.00     0.299 C 
+ATOM      7  H   PZE d6951       3.263   3.587  29.177  0.00  0.00     0.315 HD
+ATOM      8  H   PZE d6951       6.681   3.360  28.377  0.00  0.00     0.315 HD
+ENDROOT
+TORSDOF 0

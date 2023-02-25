@@ -1,0 +1,46 @@
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C6_3  and  C5_2 
+REMARK    2  A    between atoms: C5_2  and  C3_10 
+REMARK    3  A    between atoms: C7_4  and  C6_3 
+REMARK    4  A    between atoms: C8_5  and  C9_13 
+REMARK    5  A    between atoms: C3_10  and  O16_9 
+REMARK    6  A    between atoms: C3_10  and  C2_11 
+REMARK    7  A    between atoms: C9_13  and  C11_14 
+REMARK    8  A    between atoms: C11_14  and  C12_15 
+ROOT
+ATOM      1  C7  28U d 401      11.682  43.651  11.459  0.00  0.00     0.004 C 
+ATOM      2  C8  28U d 401      11.546  44.814  12.153  0.00  0.00    -0.019 C 
+ATOM      3  C10 28U d 401      12.351  45.216  13.363  0.00  0.00     0.010 C 
+ENDROOT
+BRANCH   1   4
+ATOM      4  C6  28U d 401      12.499  42.436  11.792  0.00  0.00     0.004 C 
+BRANCH   4   5
+ATOM      5  C5  28U d 401      13.677  42.457  12.747  0.00  0.00     0.041 C 
+BRANCH   5   6
+ATOM      6  C3  28U d 401      13.478  41.813  14.173  0.00  0.00     0.071 C 
+ATOM      7  C4  28U d 401      13.889  40.321  14.090  0.00  0.00     0.050 C 
+BRANCH   6   8
+ATOM      8  C2  28U d 401      12.053  41.887  14.745  0.00  0.00    -0.000 C 
+ATOM      9  C1  28U d 401      11.473  43.094  14.974  0.00  0.00     0.010 C 
+ENDBRANCH   6   8
+BRANCH   6  10
+ATOM     10  O16 28U d 401      14.425  42.391  15.105  0.00  0.00    -0.386 OA
+ATOM     11  H   28U d 401      15.319  42.338  14.732  0.00  0.00     0.211 HD
+ENDBRANCH   6  10
+ENDBRANCH   5   6
+ENDBRANCH   4   5
+ENDBRANCH   1   4
+BRANCH   2  12
+ATOM     12  C9  28U d 401      10.207  45.532  12.175  0.00  0.00     0.004 C 
+BRANCH  12  13
+ATOM     13  C11 28U d 401       9.228  44.925  13.234  0.00  0.00     0.001 C 
+BRANCH  13  14
+ATOM     14  C12 28U d 401       9.590  44.841  14.726  0.00  0.00     0.004 C 
+ATOM     15  C13 28U d 401      10.089  45.775  15.581  0.00  0.00    -0.023 C 
+ATOM     16  C14 28U d 401      10.214  47.259  15.283  0.00  0.00     0.009 C 
+ATOM     17  C15 28U d 401      11.006  45.364  16.717  0.00  0.00     0.009 C 
+ENDBRANCH  13  14
+ENDBRANCH  12  13
+ENDBRANCH   2  12
+TORSDOF 8

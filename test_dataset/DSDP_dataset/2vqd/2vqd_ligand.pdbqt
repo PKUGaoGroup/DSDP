@@ -1,0 +1,72 @@
+REMARK  11 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C3A_5  and  PB_1 
+REMARK    2  A    between atoms: O1B_2  and  PB_1 
+REMARK    3  A    between atoms: PB_1  and  O2B_3 
+REMARK    4  A    between atoms: PA_6  and  C3A_5 
+REMARK    5  A    between atoms: O2A_8  and  PA_6 
+REMARK    6  A    between atoms: PA_6  and  O5'_9 
+REMARK    7  A    between atoms: O5'_9  and  C5'_10 
+REMARK    8  A    between atoms: C5'_10  and  C4'_11 
+REMARK    9  A    between atoms: C3'_13  and  O3'_14 
+REMARK   10  A    between atoms: C2'_15  and  O2'_16 
+REMARK   11  A    between atoms: N9_18  and  C1'_17 
+ROOT
+ATOM      1  C4' AP2 d1448      -0.088  29.398  11.385  0.00  0.00     0.179 C 
+ATOM      2  O4' AP2 d1448      -0.399  30.794  11.473  0.00  0.00    -0.353 OA
+ATOM      3  C3' AP2 d1448      -0.772  28.889  10.128  0.00  0.00     0.182 C 
+ATOM      4  C2' AP2 d1448      -2.018  29.743  10.116  0.00  0.00     0.198 C 
+ATOM      5  C1' AP2 d1448      -1.531  31.084  10.655  0.00  0.00     0.262 C 
+ENDROOT
+BRANCH   1   6
+ATOM      6  C5' AP2 d1448       1.416  29.175  11.351  0.00  0.00     0.213 C 
+BRANCH   6   7
+ATOM      7  O5' AP2 d1448       1.968  30.049  10.376  0.00  0.00    -0.316 OA
+BRANCH   7   8
+ATOM      8  PA  AP2 d1448       3.534  30.095  10.152  0.00  0.00     0.249 P 
+ATOM      9  O1A AP2 d1448       3.827  31.086   9.055  0.00  0.00    -0.653 OA
+BRANCH   8  10
+ATOM     10  O2A AP2 d1448       3.966  28.671   9.928  0.00  0.00    -0.329 OA
+ATOM     11  H   AP2 d1448       3.595  28.348   9.092  0.00  0.00     0.220 HD
+ENDBRANCH   8  10
+BRANCH   8  12
+ATOM     12  C3A AP2 d1448       4.160  30.803  11.673  0.00  0.00     0.249 C 
+BRANCH  12  13
+ATOM     13  PB  AP2 d1448       5.222  29.688  12.581  0.00  0.00     0.247 P 
+ATOM     14  O3B AP2 d1448       6.614  29.849  12.011  0.00  0.00    -0.653 OA
+BRANCH  13  15
+ATOM     15  O1B AP2 d1448       4.643  28.305  12.458  0.00  0.00    -0.329 OA
+ATOM     16  H   AP2 d1448       4.760  27.985  11.550  0.00  0.00     0.220 HD
+ENDBRANCH  13  15
+BRANCH  13  17
+ATOM     17  O2B AP2 d1448       5.087  30.271  13.963  0.00  0.00    -0.329 OA
+ATOM     18  H   AP2 d1448       5.477  31.159  13.979  0.00  0.00     0.220 HD
+ENDBRANCH  13  17
+ENDBRANCH  12  13
+ENDBRANCH   8  12
+ENDBRANCH   7   8
+ENDBRANCH   6   7
+ENDBRANCH   1   6
+BRANCH   3  19
+ATOM     19  O3' AP2 d1448      -1.077  27.495  10.183  0.00  0.00    -0.390 OA
+ATOM     20  H   AP2 d1448      -1.630  27.316  10.959  0.00  0.00     0.210 HD
+ENDBRANCH   3  19
+BRANCH   4  21
+ATOM     21  O2' AP2 d1448      -3.003  29.169  10.968  0.00  0.00    -0.388 OA
+ATOM     22  H   AP2 d1448      -2.638  29.066  11.861  0.00  0.00     0.210 HD
+ENDBRANCH   4  21
+BRANCH   5  23
+ATOM     23  N9  AP2 d1448      -1.160  31.939   9.501  0.00  0.00    -0.294 N 
+ATOM     24  C4  AP2 d1448      -2.029  32.637   8.774  0.00  0.00     0.167 A 
+ATOM     25  C5  AP2 d1448      -1.236  33.320   7.738  0.00  0.00     0.149 A 
+ATOM     26  N3  AP2 d1448      -3.373  32.822   8.805  0.00  0.00    -0.222 NA
+ATOM     27  C6  AP2 d1448      -1.982  34.165   6.777  0.00  0.00     0.155 A 
+ATOM     28  N7  AP2 d1448       0.051  32.966   7.925  0.00  0.00    -0.236 NA
+ATOM     29  N6  AP2 d1448      -1.323  34.818   5.796  0.00  0.00    -0.382 N 
+ATOM     30  N1  AP2 d1448      -3.327  34.264   6.923  0.00  0.00    -0.222 NA
+ATOM     31  H   AP2 d1448      -1.820  35.379   5.158  0.00  0.00     0.157 HD
+ATOM     32  H   AP2 d1448      -0.345  34.733   5.719  0.00  0.00     0.157 HD
+ATOM     33  C2  AP2 d1448      -3.991  33.609   7.903  0.00  0.00     0.237 A 
+ATOM     34  C8  AP2 d1448       0.081  32.129   8.989  0.00  0.00     0.214 A 
+ENDBRANCH   5  23
+TORSDOF 11

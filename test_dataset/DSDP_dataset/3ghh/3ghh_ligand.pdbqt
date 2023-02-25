@@ -1,0 +1,109 @@
+REMARK  17 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C7N_2  and  C3N_4 
+REMARK    2  A    between atoms: N1N_9  and  C1D_10 
+REMARK    3  A    between atoms: C3D_13  and  O3D_14 
+REMARK    4  A    between atoms: C5D_17  and  C4D_16 
+REMARK    5  A    between atoms: C5D_17  and  O5D_18 
+REMARK    6  A    between atoms: PN_19  and  O5D_18 
+REMARK    7  A    between atoms: O3_22  and  PN_19 
+REMARK    8  A    between atoms: PN_19  and  O2N_21 
+REMARK    9  A    between atoms: PA_23  and  O3_22 
+REMARK   10  A    between atoms: O2A_25  and  PA_23 
+REMARK   11  A    between atoms: PA_23  and  O5B_26 
+REMARK   12  A    between atoms: O5B_26  and  C5B_27 
+REMARK   13  A    between atoms: C5B_27  and  C4B_28 
+REMARK   14  A    between atoms: C1B_30  and  N9A_35 
+REMARK   15  A    between atoms: O2B_32  and  C2B_31 
+REMARK   16  A    between atoms: O3B_34  and  C3B_33 
+REMARK   17  A    between atoms: C6A_39  and  N6A_40 
+ROOT
+ATOM      1  PA  2NF d 301      17.963  -3.683  -4.039  0.00  0.00     0.401 P 
+ATOM      2  O1A 2NF d 301      19.014  -2.975  -4.827  0.00  0.00    -0.631 OA
+ENDROOT
+BRANCH   1   3
+ATOM      3  O2A 2NF d 301      16.696  -4.261  -4.510  0.00  0.00    -0.307 OA
+ATOM      4  H   2NF d 301      16.881  -4.979  -5.135  0.00  0.00     0.222 HD
+ENDBRANCH   1   3
+BRANCH   1   5
+ATOM      5  O5B 2NF d 301      18.741  -4.765  -3.172  0.00  0.00    -0.294 OA
+BRANCH   5   6
+ATOM      6  C5B 2NF d 301      20.015  -4.457  -2.617  0.00  0.00     0.215 C 
+BRANCH   6   7
+ATOM      7  C4B 2NF d 301      20.521  -5.799  -2.139  0.00  0.00     0.180 C 
+ATOM      8  C3B 2NF d 301      20.438  -6.738  -3.341  0.00  0.00     0.182 C 
+ATOM      9  C2B 2NF d 301      19.201  -7.607  -3.076  0.00  0.00     0.198 C 
+ATOM     10  C1B 2NF d 301      19.150  -7.571  -1.550  0.00  0.00     0.262 C 
+ATOM     11  O4B 2NF d 301      19.646  -6.310  -1.133  0.00  0.00    -0.353 OA
+BRANCH   8  12
+ATOM     12  O3B 2NF d 301      21.666  -7.407  -3.451  0.00  0.00    -0.390 OA
+ATOM     13  H   2NF d 301      21.864  -7.860  -2.616  0.00  0.00     0.210 HD
+ENDBRANCH   8  12
+BRANCH   9  14
+ATOM     14  O2B 2NF d 301      19.210  -8.917  -3.602  0.00  0.00    -0.388 OA
+ATOM     15  H   2NF d 301      19.960  -9.409  -3.232  0.00  0.00     0.210 HD
+ENDBRANCH   9  14
+BRANCH  10  16
+ATOM     16  N9A 2NF d 301      17.805  -7.859  -1.036  0.00  0.00    -0.294 N 
+ATOM     17  C8A 2NF d 301      16.586  -7.350  -1.390  0.00  0.00     0.214 A 
+ATOM     18  N7A 2NF d 301      15.670  -7.956  -0.607  0.00  0.00    -0.236 NA
+ATOM     19  C5A 2NF d 301      16.308  -8.830   0.229  0.00  0.00     0.149 A 
+ATOM     20  C4A 2NF d 301      17.650  -8.779  -0.032  0.00  0.00     0.167 A 
+ATOM     21  C6A 2NF d 301      15.891  -9.697   1.220  0.00  0.00     0.155 A 
+ATOM     22  N3A 2NF d 301      18.570  -9.545   0.646  0.00  0.00    -0.222 NA
+ATOM     23  C2A 2NF d 301      18.177 -10.407   1.626  0.00  0.00     0.237 A 
+ATOM     24  N1A 2NF d 301      16.807 -10.472   1.905  0.00  0.00    -0.222 NA
+BRANCH  21  25
+ATOM     25  N6A 2NF d 301      14.598  -9.755   1.526  0.00  0.00    -0.382 N 
+ATOM     26  H   2NF d 301      13.950  -9.200   1.034  0.00  0.00     0.157 HD
+ATOM     27  H   2NF d 301      14.289 -10.353   2.244  0.00  0.00     0.157 HD
+ENDBRANCH  21  25
+ENDBRANCH  10  16
+ENDBRANCH   6   7
+ENDBRANCH   5   6
+ENDBRANCH   1   5
+BRANCH   1  28
+ATOM     28  O3  2NF d 301      17.506  -2.518  -3.021  0.00  0.00    -0.195 OA
+BRANCH  28  29
+ATOM     29  PN  2NF d 301      16.616  -2.659  -1.724  0.00  0.00     0.401 P 
+ATOM     30  O1N 2NF d 301      15.706  -1.490  -1.822  0.00  0.00    -0.631 OA
+BRANCH  29  31
+ATOM     31  O2N 2NF d 301      16.122  -4.055  -1.501  0.00  0.00    -0.307 OA
+ATOM     32  H   2NF d 301      15.475  -4.282  -2.187  0.00  0.00     0.222 HD
+ENDBRANCH  29  31
+BRANCH  29  33
+ATOM     33  O5D 2NF d 301      17.699  -2.290  -0.568  0.00  0.00    -0.294 OA
+BRANCH  33  34
+ATOM     34  C5D 2NF d 301      18.382  -1.041  -0.606  0.00  0.00     0.215 C 
+BRANCH  34  35
+ATOM     35  C4D 2NF d 301      17.996  -0.126   0.576  0.00  0.00     0.180 C 
+ATOM     36  C3D 2NF d 301      19.055   0.965   0.759  0.00  0.00     0.187 C 
+ATOM     37  C2D 2NF d 301      19.820   0.568   2.004  0.00  0.00     0.250 C 
+ATOM     38  C1D 2NF d 301      19.213  -0.777   2.451  0.00  0.00     0.260 C 
+ATOM     39  F2D 2NF d 301      19.472   1.556   2.960  0.00  0.00    -0.242 F 
+ATOM     40  O4D 2NF d 301      17.928  -0.772   1.844  0.00  0.00    -0.353 OA
+BRANCH  36  41
+ATOM     41  O3D 2NF d 301      18.371   2.178   0.936  0.00  0.00    -0.390 OA
+ATOM     42  H   2NF d 301      17.757   2.097   1.682  0.00  0.00     0.210 HD
+ENDBRANCH  36  41
+BRANCH  38  43
+ATOM     43  N1N 2NF d 301      19.942  -2.056   2.127  0.00  0.00    -0.357 N 
+ATOM     44  C2N 2NF d 301      21.309  -2.157   1.934  0.00  0.00     0.104 A 
+ATOM     45  C3N 2NF d 301      21.907  -3.405   1.640  0.00  0.00     0.032 A 
+ATOM     46  C4N 2NF d 301      21.117  -4.554   1.544  0.00  0.00     0.015 A 
+ATOM     47  C5N 2NF d 301      19.744  -4.451   1.736  0.00  0.00    -0.006 A 
+ATOM     48  C6N 2NF d 301      19.181  -3.199   2.026  0.00  0.00     0.152 A 
+BRANCH  45  49
+ATOM     49  C7N 2NF d 301      23.396  -3.598   1.444  0.00  0.00     0.184 C 
+ATOM     50  O7N 2NF d 301      23.875  -4.878   1.079  0.00  0.00    -0.172 OA
+ATOM     51  N7N 2NF d 301      24.262  -2.600   1.664  0.00  0.00    -0.377 N 
+ATOM     52  H   2NF d 301      25.226  -2.747   1.530  0.00  0.00     0.158 HD
+ATOM     53  H   2NF d 301      23.934  -1.720   1.959  0.00  0.00     0.158 HD
+ENDBRANCH  45  49
+ENDBRANCH  38  43
+ENDBRANCH  34  35
+ENDBRANCH  33  34
+ENDBRANCH  29  33
+ENDBRANCH  28  29
+ENDBRANCH   1  28
+TORSDOF 17

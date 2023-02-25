@@ -1,0 +1,41 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N1_18  and  C2_2 
+REMARK    2  A    between atoms: C3_3  and  N1_18 
+REMARK    3  A    between atoms: C4_19  and  C3_3 
+REMARK    4  A    between atoms: C11_8  and  C12_9 
+ROOT
+ATOM      1  C1  L9T d   1      34.585  -0.750  35.572  0.00  0.00     0.052 C 
+ATOM      2  C2  L9T d   1      32.786  -1.097  36.756  0.00  0.00     0.146 C 
+ATOM      3  C11 L9T d   1      34.412   0.545  36.008  0.00  0.00     0.062 C 
+ATOM      4  S   L9T d   1      32.959   0.624  36.969  0.00  0.00    -0.054 SA
+ATOM      5  N   L9T d   1      33.796  -1.668  36.185  0.00  0.00    -0.233 NA
+ATOM      6  C   L9T d   1      35.768  -1.342  34.880  0.00  0.00     0.072 C 
+ENDROOT
+BRANCH   2   7
+ATOM      7  N1  L9T d   1      31.615  -1.724  36.896  0.00  0.00    -0.267 NA
+ATOM      8  H14 L9T d   1      31.873  -2.770  36.977  0.00  0.00     0.130 HD
+BRANCH   7   9
+ATOM      9  C3  L9T d   1      30.607  -1.515  37.915  0.00  0.00     0.136 C 
+BRANCH   9  10
+ATOM     10  C4  L9T d   1      29.363  -1.373  37.097  0.00  0.00    -0.009 C 
+ATOM     11  C10 L9T d   1      29.043  -0.038  36.882  0.00  0.00     0.112 A 
+ATOM     12  C8  L9T d   1      28.082   0.282  35.955  0.00  0.00     0.105 A 
+ATOM     13  O1  L9T d   1      29.314   1.045  37.695  0.00  0.00    -0.322 OA
+ATOM     14  C7  L9T d   1      27.601  -0.645  35.046  0.00  0.00     0.040 C 
+ATOM     15  O2  L9T d   1      27.776   1.624  36.054  0.00  0.00    -0.323 OA
+ATOM     16  C6  L9T d   1      28.093  -1.940  35.117  0.00  0.00     0.003 C 
+ATOM     17  C5  L9T d   1      29.005  -2.288  36.105  0.00  0.00     0.011 C 
+ATOM     18  C9  L9T d   1      28.567   2.130  37.136  0.00  0.00     0.352 A 
+ENDBRANCH   9  10
+ENDBRANCH   7   9
+ENDBRANCH   2   7
+BRANCH   3  19
+ATOM     19  C12 L9T d   1      35.527   1.312  35.824  0.00  0.00     0.097 C 
+ATOM     20  C13 L9T d   1      36.669   0.920  35.029  0.00  0.00     0.053 C 
+ATOM     21  C14 L9T d   1      37.383   2.053  34.846  0.00  0.00     0.114 C 
+ATOM     22  N2  L9T d   1      36.703   3.038  35.469  0.00  0.00    -0.285 N 
+ATOM     23  C15 L9T d   1      37.083   4.437  35.581  0.00  0.00     0.179 C 
+ATOM     24  N3  L9T d   1      35.489   2.647  35.920  0.00  0.00    -0.172 NA
+ENDBRANCH   3  19
+TORSDOF 4

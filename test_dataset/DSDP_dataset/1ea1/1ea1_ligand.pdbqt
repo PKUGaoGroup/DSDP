@@ -1,0 +1,46 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_2  and  O_1 
+REMARK    2  A    between atoms: C5_4  and  C1_2 
+REMARK    3  A    between atoms: C8_5  and  C1_2 
+REMARK    4  A    between atoms: C1_2  and  C2_3 
+REMARK    5  A    between atoms: C2_3  and  N1_6 
+REMARK    6  A    between atoms: N4_11  and  C5_4 
+ROOT
+ATOM      1  C1  TPF d 470     -17.096  -2.850  67.404  0.00  0.00     0.124 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C5  TPF d 470     -15.983  -2.548  66.379  0.00  0.00     0.197 C 
+BRANCH   2   3
+ATOM      3  N4  TPF d 470     -16.118  -3.370  65.191  0.00  0.00    -0.259 N 
+ATOM      4  N6  TPF d 470     -16.484  -2.907  63.918  0.00  0.00    -0.165 NA
+ATOM      5  C7  TPF d 470     -16.492  -3.939  63.134  0.00  0.00     0.256 A 
+ATOM      6  N5  TPF d 470     -16.155  -5.018  63.837  0.00  0.00    -0.234 NA
+ATOM      7  C6  TPF d 470     -15.926  -4.690  65.074  0.00  0.00     0.230 A 
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1   8
+ATOM      8  C8  TPF d 470     -18.537  -2.685  66.786  0.00  0.00     0.018 A 
+ATOM      9  C13 TPF d 470     -19.008  -1.423  66.239  0.00  0.00     0.128 A 
+ATOM     10  C12 TPF d 470     -20.314  -1.321  65.694  0.00  0.00     0.085 A 
+ATOM     11  F2  TPF d 470     -18.228  -0.331  66.237  0.00  0.00    -0.205 F 
+ATOM     12  C11 TPF d 470     -21.171  -2.443  65.677  0.00  0.00     0.119 A 
+ATOM     13  F1  TPF d 470     -22.424  -2.337  65.155  0.00  0.00    -0.206 F 
+ATOM     14  C10 TPF d 470     -20.723  -3.680  66.206  0.00  0.00     0.043 A 
+ATOM     15  C9  TPF d 470     -19.423  -3.802  66.754  0.00  0.00     0.016 A 
+ENDBRANCH   1   8
+BRANCH   1  16
+ATOM     16  O   TPF d 470     -16.951  -4.208  67.846  0.00  0.00    -0.381 OA
+ATOM     17  H   TPF d 470     -17.045  -4.806  67.088  0.00  0.00     0.211 HD
+ENDBRANCH   1  16
+BRANCH   1  18
+ATOM     18  C2  TPF d 470     -16.938  -1.932  68.654  0.00  0.00     0.197 C 
+BRANCH  18  19
+ATOM     19  N1  TPF d 470     -15.581  -2.033  69.236  0.00  0.00    -0.259 N 
+ATOM     20  N3  TPF d 470     -14.406  -1.404  68.754  0.00  0.00    -0.165 NA
+ATOM     21  C4  TPF d 470     -13.424  -1.751  69.555  0.00  0.00     0.256 A 
+ATOM     22  N2  TPF d 470     -13.907  -2.554  70.504  0.00  0.00    -0.234 NA
+ATOM     23  C3  TPF d 470     -15.204  -2.732  70.324  0.00  0.00     0.230 A 
+ENDBRANCH  18  19
+ENDBRANCH   1  18
+TORSDOF 6

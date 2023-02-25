@@ -1,0 +1,47 @@
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2_2  and  C1_1 
+REMARK    2  A    between atoms: C1_1  and  O12_16 
+REMARK    3  A    between atoms: C3_3  and  C2_2 
+REMARK    4  A    between atoms: C3_3  and  C4_4 
+REMARK    5  A    between atoms: C5_5  and  C4_4 
+REMARK    6  A    between atoms: C5_5  and  C7_7 
+REMARK    7  A    between atoms: C7_7  and  O7_8 
+ROOT
+ATOM      1  C7  A8S d 192     -21.245  30.797 -11.276  0.00  0.00     0.106 C 
+ATOM      2  C8  A8S d 192     -20.103  31.348 -11.846  0.00  0.00    -0.042 C 
+ATOM      3  C9  A8S d 192     -20.149  32.605 -12.439  0.00  0.00     0.056 C 
+ATOM      4  C10 A8S d 192     -21.327  33.344 -12.481  0.00  0.00     0.150 C 
+ATOM      5  O10 A8S d 192     -21.325  34.452 -13.015  0.00  0.00    -0.293 OA
+ATOM      6  C11 A8S d 192     -22.493  32.831 -11.924  0.00  0.00     0.095 C 
+ATOM      7  C12 A8S d 192     -22.143  31.910 -10.770  0.00  0.00    -0.002 C 
+ATOM      8  C13 A8S d 192     -18.908  30.638 -11.822  0.00  0.00     0.047 C 
+ATOM      9  C14 A8S d 192     -21.412  32.703  -9.685  0.00  0.00     0.019 C 
+ATOM     10  C15 A8S d 192     -23.424  31.308 -10.188  0.00  0.00     0.019 C 
+ENDROOT
+BRANCH   1  11
+ATOM     11  C5  A8S d 192     -21.926  30.051 -12.231  0.00  0.00     0.012 C 
+BRANCH  11  12
+ATOM     12  C4  A8S d 192     -22.044  28.557 -11.922  0.00  0.00    -0.023 C 
+BRANCH  12  13
+ATOM     13  C3  A8S d 192     -22.793  27.736 -12.973  0.00  0.00     0.014 C 
+ATOM     14  C6  A8S d 192     -23.358  28.422 -14.219  0.00  0.00     0.015 C 
+BRANCH  13  15
+ATOM     15  C2  A8S d 192     -22.978  26.230 -12.779  0.00  0.00     0.118 C 
+BRANCH  15  16
+ATOM     16  C1  A8S d 192     -22.369  25.664 -11.495  0.00  0.00     0.140 C 
+ATOM     17  O11 A8S d 192     -22.465  24.443 -11.242  0.00  0.00    -0.650 OA
+BRANCH  16  18
+ATOM     18  O12 A8S d 192     -21.774  26.422 -10.698  0.00  0.00    -0.776 OA
+ATOM     19  H   A8S d 192     -21.702  27.337 -10.887  0.00  0.00     0.167 HD
+ENDBRANCH  16  18
+ENDBRANCH  15  16
+ENDBRANCH  13  15
+ENDBRANCH  12  13
+ENDBRANCH  11  12
+ENDBRANCH   1  11
+BRANCH   1  20
+ATOM     20  O7  A8S d 192     -20.873  29.950 -10.186  0.00  0.00    -0.380 OA
+ATOM     21  H   A8S d 192     -20.299  29.239 -10.511  0.00  0.00     0.211 HD
+ENDBRANCH   1  20
+TORSDOF 7

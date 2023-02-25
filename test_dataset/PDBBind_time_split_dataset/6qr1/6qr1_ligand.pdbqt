@@ -1,0 +1,45 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C14_15  and  C15_2 
+REMARK    2  A    between atoms: C05_8  and  C06_9 
+REMARK    3  A    between atoms: N04_19  and  C05_8 
+REMARK    4  A    between atoms: C18_16  and  N19_23 
+ROOT
+ATOM      1  C15 JFT d   1     -20.481  18.749 -12.291  0.00  0.00     0.085 A 
+ATOM      2  C20 JFT d   1     -19.913  17.457 -12.465  0.00  0.00     0.120 A 
+ATOM      3  C21 JFT d   1     -20.561  16.095 -12.509  0.00  0.00     0.106 C 
+ATOM      4  C18 JFT d   1     -18.581  17.655 -12.697  0.00  0.00     0.164 A 
+ATOM      5  N16 JFT d   1     -19.463  19.642 -12.299  0.00  0.00    -0.274 N 
+ATOM      6  N17 JFT d   1     -18.328  18.970 -12.596  0.00  0.00    -0.155 NA
+ATOM      7  N22 JFT d   1     -20.996  15.055 -12.552  0.00  0.00    -0.191 NA
+ATOM      8  H11 JFT d   1     -19.540  20.652 -12.112  0.00  0.00     0.189 HD
+ENDROOT
+BRANCH   1   9
+ATOM      9  C14 JFT d   1     -21.869  19.142 -11.837  0.00  0.00    -0.004 A 
+ATOM     10  C13 JFT d   1     -22.075  20.491 -11.495  0.00  0.00     0.044 A 
+ATOM     11  C12 JFT d   1     -23.319  20.890 -10.935  0.00  0.00     0.047 A 
+ATOM     12  C25 JFT d   1     -24.290  19.930 -10.695  0.00  0.00     0.014 A 
+ATOM     13  N04 JFT d   1     -23.804  22.143 -10.551  0.00  0.00    -0.350 N 
+ATOM     14  C24 JFT d   1     -24.060  18.556 -10.997  0.00  0.00     0.016 A 
+ATOM     15  C02 JFT d   1     -25.390  20.648 -10.135  0.00  0.00     0.062 A 
+ATOM     16  C23 JFT d   1     -22.833  18.164 -11.545  0.00  0.00     0.015 A 
+ATOM     17  C03 JFT d   1     -25.049  22.029 -10.072  0.00  0.00     0.116 A 
+ATOM     18 CL1  JFT d   1     -26.844  19.872  -9.634  0.00  0.00    -0.082 Cl
+BRANCH  13  19
+ATOM     19  C05 JFT d   1     -23.036  23.365 -10.665  0.00  0.00     0.168 C 
+BRANCH  19  20
+ATOM     20  C06 JFT d   1     -22.154  23.495  -9.424  0.00  0.00    -0.022 A 
+ATOM     21  C07 JFT d   1     -22.567  22.990  -8.166  0.00  0.00     0.012 A 
+ATOM     22  C08 JFT d   1     -21.707  23.140  -7.057  0.00  0.00     0.020 A 
+ATOM     23  C09 JFT d   1     -20.465  23.780  -7.247  0.00  0.00     0.116 A 
+ATOM     24  N10 JFT d   1     -20.110  24.241  -8.440  0.00  0.00    -0.273 NA
+ATOM     25  C11 JFT d   1     -20.891  24.121  -9.500  0.00  0.00     0.124 A 
+ENDBRANCH  19  20
+ENDBRANCH  13  19
+ENDBRANCH   1   9
+BRANCH   4  26
+ATOM     26  N19 JFT d   1     -17.611  16.611 -12.990  0.00  0.00    -0.381 N 
+ATOM     27  H12 JFT d   1     -16.624  16.856 -13.152  0.00  0.00     0.157 HD
+ATOM     28  H13 JFT d   1     -17.912  15.627 -13.036  0.00  0.00     0.157 HD
+ENDBRANCH   4  26
+TORSDOF 4

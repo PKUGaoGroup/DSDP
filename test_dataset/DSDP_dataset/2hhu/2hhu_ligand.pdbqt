@@ -1,0 +1,79 @@
+REMARK  13 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N1_1  and  C1'_9 
+REMARK    2  A    between atoms: O3'_14  and  C3'_11 
+REMARK    3  A    between atoms: C4'_12  and  C5'_15 
+REMARK    4  A    between atoms: O5'_16  and  C5'_15 
+REMARK    5  A    between atoms: O5'_16  and  PA_17 
+REMARK    6  A    between atoms: O1A_18  and  PA_17 
+REMARK    7  A    between atoms: PA_17  and  O3A_20 
+REMARK    8  A    between atoms: O3A_20  and  PB_21 
+REMARK    9  A    between atoms: O2B_23  and  PB_21 
+REMARK   10  A    between atoms: PB_21  and  O3B_24 
+REMARK   11  A    between atoms: O3B_24  and  PG_25 
+REMARK   12  A    between atoms: O2G_27  and  PG_25 
+REMARK   13  A    between atoms: PG_25  and  O1G_26 
+ROOT
+ATOM      1  C5' DCP d 113      -8.929  38.361  25.838  0.00  0.00     0.215 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  O5' DCP d 113     -10.032  37.782  25.136  0.00  0.00    -0.294 OA
+BRANCH   2   3
+ATOM      3  PA  DCP d 113     -11.518  38.343  25.373  0.00  0.00     0.401 P 
+ATOM      4  O2A DCP d 113     -12.464  37.588  24.516  0.00  0.00    -0.631 OA
+BRANCH   3   5
+ATOM      5  O1A DCP d 113     -11.501  39.820  25.270  0.00  0.00    -0.307 OA
+ATOM      6  H   DCP d 113     -11.326  40.078  24.351  0.00  0.00     0.222 HD
+ENDBRANCH   3   5
+BRANCH   3   7
+ATOM      7  O3A DCP d 113     -11.810  37.936  26.907  0.00  0.00    -0.195 OA
+BRANCH   7   8
+ATOM      8  PB  DCP d 113     -12.516  36.528  27.270  0.00  0.00     0.410 P 
+ATOM      9  O1B DCP d 113     -11.500  35.635  26.657  0.00  0.00    -0.631 OA
+BRANCH   8  10
+ATOM     10  O2B DCP d 113     -13.837  36.832  26.689  0.00  0.00    -0.307 OA
+ATOM     11  H   DCP d 113     -13.824  36.639  25.738  0.00  0.00     0.222 HD
+ENDBRANCH   8  10
+BRANCH   8  12
+ATOM     12  O3B DCP d 113     -12.321  36.783  28.863  0.00  0.00    -0.195 OA
+BRANCH  12  13
+ATOM     13  PG  DCP d 113     -11.116  36.073  29.676  0.00  0.00     0.399 P 
+ATOM     14  O3G DCP d 113      -9.817  36.861  29.143  0.00  0.00    -0.631 OA
+BRANCH  13  15
+ATOM     15  O2G DCP d 113     -10.994  34.659  29.241  0.00  0.00    -0.307 OA
+ATOM     16  H   DCP d 113     -10.896  34.625  28.276  0.00  0.00     0.222 HD
+ENDBRANCH  13  15
+BRANCH  13  17
+ATOM     17  O1G DCP d 113     -11.275  36.351  31.121  0.00  0.00    -0.307 OA
+ATOM     18  H   DCP d 113     -11.342  37.309  31.261  0.00  0.00     0.222 HD
+ENDBRANCH  13  17
+ENDBRANCH  12  13
+ENDBRANCH   8  12
+ENDBRANCH   7   8
+ENDBRANCH   3   7
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1  19
+ATOM     19  C4' DCP d 113      -7.602  37.849  25.286  0.00  0.00     0.177 C 
+ATOM     20  C3' DCP d 113      -7.390  38.219  23.836  0.00  0.00     0.153 C 
+ATOM     21  C2' DCP d 113      -6.338  37.243  23.403  0.00  0.00     0.088 C 
+ATOM     22  C1' DCP d 113      -6.769  35.950  24.111  0.00  0.00     0.235 C 
+ATOM     23  O4' DCP d 113      -7.488  36.392  25.322  0.00  0.00    -0.356 OA
+BRANCH  20  24
+ATOM     24  O3' DCP d 113      -6.873  39.552  23.751  0.00  0.00    -0.393 OA
+ATOM     25  H   DCP d 113      -6.061  39.618  24.277  0.00  0.00     0.210 HD
+ENDBRANCH  20  24
+BRANCH  22  26
+ATOM     26  N1  DCP d 113      -7.707  35.183  23.235  0.00  0.00    -0.281 N 
+ATOM     27  C2  DCP d 113      -7.186  34.375  22.204  0.00  0.00     0.352 A 
+ATOM     28  N3  DCP d 113      -8.063  33.636  21.389  0.00  0.00    -0.177 NA
+ATOM     29  O2  DCP d 113      -5.975  34.313  22.021  0.00  0.00    -0.244 OA
+ATOM     30  C4  DCP d 113      -9.458  33.702  21.601  0.00  0.00     0.128 A 
+ATOM     31  N4  DCP d 113     -10.275  32.992  20.825  0.00  0.00    -0.384 N 
+ATOM     32  C5  DCP d 113      -9.982  34.504  22.624  0.00  0.00     0.067 A 
+ATOM     33  H   DCP d 113      -9.906  32.429  20.107  0.00  0.00     0.157 HD
+ATOM     34  H   DCP d 113     -11.248  33.030  20.970  0.00  0.00     0.157 HD
+ATOM     35  C6  DCP d 113      -9.111  35.242  23.439  0.00  0.00     0.102 A 
+ENDBRANCH  22  26
+ENDBRANCH   1  19
+TORSDOF 13

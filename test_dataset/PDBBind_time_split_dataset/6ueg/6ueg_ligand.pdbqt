@@ -1,0 +1,49 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C19_20  and  C20_1 
+REMARK       I    between atoms: C14_15  and  N07_8 
+REMARK    2  A    between atoms: C09_10  and  C11_12 
+REMARK       I    between atoms: C11_12  and  N13_14 
+REMARK    3  A    between atoms: C16_17  and  C14_15 
+REMARK    4  A    between atoms: S17_18  and  C16_17 
+REMARK    5  A    between atoms: C18_19  and  S17_18 
+REMARK    6  A    between atoms: C18_19  and  C19_20 
+ROOT
+ATOM      1  C01 Q5G d   1      -8.374  -4.960  45.338  0.00  0.00     0.002 A 
+ATOM      2  C02 Q5G d   1      -8.985  -6.171  44.953  0.00  0.00     0.003 A 
+ATOM      3  C03 Q5G d   1      -8.712  -7.371  45.630  0.00  0.00     0.039 A 
+ATOM      4  C04 Q5G d   1      -7.813  -7.380  46.721  0.00  0.00     0.097 A 
+ATOM      5  C05 Q5G d   1      -7.194  -6.172  47.117  0.00  0.00     0.070 A 
+ATOM      6  C06 Q5G d   1      -7.484  -4.968  46.406  0.00  0.00     0.033 A 
+ATOM      7  N07 Q5G d   1      -6.272  -6.192  48.257  0.00  0.00    -0.312 N 
+ATOM      8  C08 Q5G d   1      -6.372  -7.207  49.247  0.00  0.00     0.174 C 
+ATOM      9  C09 Q5G d   1      -7.330  -8.352  48.910  0.00  0.00     0.238 C 
+ATOM     10  O10 Q5G d   1      -7.489  -8.612  47.487  0.00  0.00    -0.333 OA
+ATOM     11  C14 Q5G d   1      -5.220  -5.141  48.301  0.00  0.00     0.233 C 
+ATOM     12  O15 Q5G d   1      -5.140  -4.284  47.434  0.00  0.00    -0.272 OA
+ENDROOT
+BRANCH  11  13
+ATOM     13  C16 Q5G d   1      -4.266  -5.116  49.507  0.00  0.00     0.177 C 
+BRANCH  13  14
+ATOM     14  S17 Q5G d   1      -5.214  -4.145  50.754  0.00  0.00    -0.159 SA
+BRANCH  14  15
+ATOM     15  C18 Q5G d   1      -5.551  -2.466  50.096  0.00  0.00     0.084 C 
+BRANCH  15  16
+ATOM     16  C19 Q5G d   1      -5.033  -1.371  51.042  0.00  0.00     0.123 C 
+BRANCH  16  17
+ATOM     17  C20 Q5G d   1      -6.027  -0.854  52.093  0.00  0.00     0.173 C 
+ATOM     18  O21 Q5G d   1      -7.136  -1.422  52.293  0.00  0.00    -0.648 OA
+ATOM     19  O22 Q5G d   1      -5.738   0.161  52.781  0.00  0.00    -0.648 OA
+ENDBRANCH  16  17
+ENDBRANCH  15  16
+ENDBRANCH  14  15
+ENDBRANCH  13  14
+ENDBRANCH  11  13
+BRANCH   9  20
+ATOM     20  C11 Q5G d   1      -7.052  -9.732  49.535  0.00  0.00     0.246 C 
+ATOM     21  O12 Q5G d   1      -7.762 -10.635  49.193  0.00  0.00    -0.271 OA
+ATOM     22  N13 Q5G d   1      -5.977  -9.957  50.496  0.00  0.00    -0.368 N 
+ATOM     23  H8  Q5G d   1      -5.831 -10.870  50.878  0.00  0.00     0.159 HD
+ATOM     24  H9  Q5G d   1      -5.387  -9.199  50.773  0.00  0.00     0.159 HD
+ENDBRANCH   9  20
+TORSDOF 6

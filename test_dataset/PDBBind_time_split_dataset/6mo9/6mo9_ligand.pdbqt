@@ -1,0 +1,44 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C03_3  and  C07_7 
+REMARK    2  A    between atoms: C05_5  and  S08_8 
+REMARK    3  A    between atoms: S08_8  and  N09_9 
+REMARK    4  A    between atoms: N09_9  and  C18_18 
+ROOT
+ATOM      1  C01 JVY d   1     112.063   8.058  14.946  0.00  0.00     0.069 A 
+ATOM      2  C02 JVY d   1     112.870   8.490  13.900  0.00  0.00     0.045 A 
+ATOM      3  C03 JVY d   1     112.980   7.760  12.715  0.00  0.00    -0.018 A 
+ATOM      4  C04 JVY d   1     112.274   6.571  12.557  0.00  0.00     0.038 A 
+ATOM      5  C05 JVY d   1     111.454   6.107  13.595  0.00  0.00     0.092 A 
+ATOM      6  C06 JVY d   1     111.339   6.842  14.815  0.00  0.00     0.016 A 
+ATOM      7  N23 JVY d   1     112.023   8.836  16.044  0.00  0.00    -0.260 NA
+ATOM      8  C24 JVY d   1     111.255   8.451  17.087  0.00  0.00     0.117 A 
+ATOM      9  C25 JVY d   1     110.505   7.293  17.083  0.00  0.00     0.020 A 
+ATOM     10  C26 JVY d   1     110.546   6.490  15.942  0.00  0.00     0.017 A 
+ENDROOT
+BRANCH   5  11
+ATOM     11  S08 JVY d   1     110.606   4.558  13.316  0.00  0.00     0.260 S 
+ATOM     12  O10 JVY d   1     110.977   3.703  14.417  0.00  0.00    -0.200 OA
+ATOM     13  O11 JVY d   1     110.879   4.099  11.972  0.00  0.00    -0.200 OA
+BRANCH  11  14
+ATOM     14  N09 JVY d   1     108.954   4.905  13.472  0.00  0.00    -0.311 N 
+ATOM     15  H3  JVY d   1     108.440   4.502  14.229  0.00  0.00     0.172 HD
+BRANCH  14  16
+ATOM     16  C18 JVY d   1     108.257   5.787  12.519  0.00  0.00     0.093 C 
+ATOM     17  C19 JVY d   1     106.865   5.214  12.231  0.00  0.00     0.026 C 
+ATOM     18  C20 JVY d   1     105.907   6.409  12.293  0.00  0.00     0.002 C 
+ATOM     19  C21 JVY d   1     106.785   7.648  12.426  0.00  0.00     0.002 C 
+ATOM     20  C22 JVY d   1     107.990   7.130  13.195  0.00  0.00     0.026 C 
+ENDBRANCH  14  16
+ENDBRANCH  11  14
+ENDBRANCH   5  11
+BRANCH   3  21
+ATOM     21  C07 JVY d   1     113.821   8.239  11.643  0.00  0.00     0.032 A 
+ATOM     22  C12 JVY d   1     114.739   7.475  10.954  0.00  0.00     0.088 A 
+ATOM     23  O13 JVY d   1     115.340   8.257  10.008  0.00  0.00    -0.217 OA
+ATOM     24  C17 JVY d   1     115.171   6.068  11.033  0.00  0.00     0.080 C 
+ATOM     25  N14 JVY d   1     114.825   9.544  10.063  0.00  0.00    -0.133 NA
+ATOM     26  C15 JVY d   1     113.913   9.523  11.050  0.00  0.00     0.071 A 
+ATOM     27  C16 JVY d   1     113.154  10.739  11.408  0.00  0.00     0.074 C 
+ENDBRANCH   3  21
+TORSDOF 4

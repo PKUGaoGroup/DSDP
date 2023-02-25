@@ -1,0 +1,36 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_3  and  O2_2 
+REMARK    2  A    between atoms: C2_4  and  C1_3 
+REMARK    3  A    between atoms: C3_5  and  C2_4 
+REMARK    4  A    between atoms: C3_5  and  C4_6 
+REMARK    5  A    between atoms: C5_7  and  C4_6 
+REMARK    6  A    between atoms: C5_7  and  C6_8 
+ROOT
+ATOM      1  C4  LPB d 900      41.023  15.644  35.917  0.00  0.00     0.002 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C3  LPB d 900      41.463  14.627  34.892  0.00  0.00     0.010 C 
+BRANCH   2   3
+ATOM      3  C2  LPB d 900      40.971  13.258  35.304  0.00  0.00     0.110 C 
+BRANCH   3   4
+ATOM      4  C1  LPB d 900      41.770  12.480  36.339  0.00  0.00     0.139 C 
+ATOM      5  O1  LPB d 900      42.091  11.336  36.058  0.00  0.00    -0.650 OA
+BRANCH   4   6
+ATOM      6  O2  LPB d 900      42.072  12.979  37.418  0.00  0.00    -0.776 OA
+ATOM      7  H   LPB d 900      41.816  13.859  37.615  0.00  0.00     0.167 HD
+ENDBRANCH   4   6
+ENDBRANCH   3   4
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1   8
+ATOM      8  C5  LPB d 900      42.036  16.753  35.863  0.00  0.00     0.016 C 
+BRANCH   8   9
+ATOM      9  C6  LPB d 900      42.454  17.288  37.220  0.00  0.00     0.059 C 
+ATOM     10  S6  LPB d 900      43.993  18.194  36.949  0.00  0.00    -0.093 SA
+ATOM     11  S8  LPB d 900      45.281  16.885  37.764  0.00  0.00    -0.097 SA
+ATOM     12  C8  LPB d 900      44.083  15.956  38.753  0.00  0.00     0.087 C 
+ATOM     13  C7  LPB d 900      42.659  16.171  38.256  0.00  0.00     0.027 C 
+ENDBRANCH   8   9
+ENDBRANCH   1   8
+TORSDOF 6

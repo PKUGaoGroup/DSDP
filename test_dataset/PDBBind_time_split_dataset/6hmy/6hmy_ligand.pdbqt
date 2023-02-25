@@ -1,0 +1,220 @@
+REMARK WARNING: 32 MAX_TORS EXCEEDED!!!
+REMARK  38 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2_2  and  C1_1 
+REMARK    2  A    between atoms: O3_28  and  C2_2 
+REMARK    3  A    between atoms: C4_4  and  O4_15 
+REMARK    4  A    between atoms: C5_5  and  N5_12 
+REMARK    5  A    between atoms: C6_6  and  C7_7 
+REMARK    6  A    between atoms: C7_7  and  C8_8 
+REMARK    7  A    between atoms: C7_7  and  O7_17 
+REMARK    8  A    between atoms: C8_8  and  C9_9 
+REMARK    9  A    between atoms: C8_8  and  O8_18 
+REMARK   10  A    between atoms: C9_9  and  O9_19 
+REMARK       I    between atoms: N5_12  and  C10_10 
+REMARK   11  A    between atoms: O4_76  and  C1_21 
+REMARK   12  A    between atoms: C2_22  and  O2_27 
+REMARK   13  A    between atoms: C3_23  and  O3_28 
+REMARK   14  A    between atoms: C4_24  and  O4_29 
+REMARK   15  A    between atoms: C5_25  and  C6_26 
+REMARK   16  A    between atoms: C6_26  and  O6_31 
+REMARK   17  A    between atoms: O4_29  and  C1_32 
+REMARK   18  A    between atoms: C2_33  and  N2_40 
+REMARK   19  A    between atoms: C3_34  and  O3_41 
+REMARK   20  A    between atoms: C4_35  and  O4_42 
+REMARK   21  A    between atoms: C5_36  and  C6_37 
+REMARK   22  A    between atoms: C6_37  and  O6_44 
+REMARK       I    between atoms: N2_40  and  C7_38 
+REMARK   23  A    between atoms: O3_41  and  C1_46 
+REMARK   24  A    between atoms: C2_47  and  O2_52 
+REMARK   25  A    between atoms: C3_48  and  O3_53 
+REMARK   26  A    between atoms: C4_49  and  O4_54 
+REMARK   27  A    between atoms: C5_50  and  C6_51 
+REMARK   28  A    between atoms: C6_51  and  O6_56 
+REMARK   29  A    between atoms: O2_52  and  C1_57 
+REMARK   30  A    between atoms: C2_58  and  O2_63 
+REMARK   31  A    between atoms: C3_59  and  O3_64 
+REMARK   32  A    between atoms: C4_60  and  O4_65 
+REMARK   33  A    between atoms: C2_67  and  O2_74 
+REMARK   34  A    between atoms: C3_68  and  O3_75 
+REMARK   35  A    between atoms: C4_69  and  O4_76 
+REMARK   36  A    between atoms: C5_70  and  C6_71 
+REMARK   37  A    between atoms: C6_71  and  O6_78 
+REMARK   38  A    between atoms: C1_72  and  O1_73 
+ROOT
+ATOM      1  C1  SIA d   1     -36.829  -3.880  68.606  0.00  0.00     0.292 C 
+ATOM      2  C2  SIA d   1     -37.702  -3.727  67.384  0.00  0.00     0.205 C 
+ATOM      3  C3  SIA d   1     -37.450  -4.934  66.460  0.00  0.00     0.191 C 
+ATOM      4  C4  SIA d   1     -35.971  -5.079  66.129  0.00  0.00     0.187 C 
+ATOM      5  C5  SIA d   1     -35.189  -5.146  67.419  0.00  0.00     0.180 C 
+ATOM      6  O5  SIA d   1     -35.465  -3.937  68.201  0.00  0.00    -0.348 OA
+ENDROOT
+BRANCH   4   7
+ATOM      7  O4  SIA d   1     -35.528  -3.967  65.325  0.00  0.00    -0.348 OA
+BRANCH   7   8
+ATOM      8  C1  SIA d   1     -35.141  -4.261  64.017  0.00  0.00     0.286 C 
+ATOM      9  C2  SIA d   1     -35.261  -3.039  63.137  0.00  0.00     0.171 C 
+ATOM     10  C3  SIA d   1     -34.768  -3.346  61.721  0.00  0.00     0.183 C 
+ATOM     11  C4  SIA d   1     -33.349  -3.903  61.756  0.00  0.00     0.180 C 
+ATOM     12  C5  SIA d   1     -33.359  -5.098  62.700  0.00  0.00     0.179 C 
+ATOM     13  O5  SIA d   1     -33.829  -4.707  64.005  0.00  0.00    -0.349 OA
+BRANCH   9  14
+ATOM     14  N2  SIA d   1     -36.630  -2.607  63.122  0.00  0.00    -0.349 N 
+ATOM     15  C7  SIA d   1     -37.144  -1.638  63.878  0.00  0.00     0.214 C 
+ATOM     16  C8  SIA d   1     -38.634  -1.527  63.870  0.00  0.00     0.117 C 
+ATOM     17  O7  SIA d   1     -36.452  -0.898  64.558  0.00  0.00    -0.274 OA
+ATOM     18  H37 SIA d   1     -37.250  -3.073  62.491  0.00  0.00     0.163 HD
+ENDBRANCH   9  14
+BRANCH  10  19
+ATOM     19  O3  SIA d   1     -34.873  -2.135  60.950  0.00  0.00    -0.348 OA
+BRANCH  19  20
+ATOM     20  C1  SIA d   1     -35.551  -2.228  59.726  0.00  0.00     0.292 C 
+ATOM     21  C2  SIA d   1     -35.599  -0.882  59.034  0.00  0.00     0.211 C 
+ATOM     22  C3  SIA d   1     -36.454  -1.035  57.773  0.00  0.00     0.183 C 
+ATOM     23  C4  SIA d   1     -35.871  -2.118  56.851  0.00  0.00     0.180 C 
+ATOM     24  C5  SIA d   1     -35.707  -3.424  57.661  0.00  0.00     0.179 C 
+ATOM     25  O5  SIA d   1     -34.902  -3.154  58.849  0.00  0.00    -0.348 OA
+BRANCH  21  26
+ATOM     26  O2  SIA d   1     -36.191   0.061  59.944  0.00  0.00    -0.346 OA
+BRANCH  26  27
+ATOM     27  C1  SIA d   1     -35.580   1.352  60.035  0.00  0.00     0.292 C 
+ATOM     28  C2  SIA d   1     -36.446   2.215  60.943  0.00  0.00     0.204 C 
+ATOM     29  C3  SIA d   1     -36.363   1.759  62.379  0.00  0.00     0.183 C 
+ATOM     30  C4  SIA d   1     -34.943   1.592  62.881  0.00  0.00     0.178 C 
+ATOM     31  C5  SIA d   1     -34.099   0.813  61.886  0.00  0.00     0.152 C 
+ATOM     32  C6  SIA d   1     -32.618   0.844  62.200  0.00  0.00     0.042 C 
+ATOM     33  O5  SIA d   1     -34.230   1.355  60.549  0.00  0.00    -0.351 OA
+BRANCH  28  34
+ATOM     34  O2  SIA d   1     -37.812   2.187  60.518  0.00  0.00    -0.388 OA
+ATOM     35  H58 SIA d   1     -38.147   1.301  60.591  0.00  0.00     0.210 HD
+ENDBRANCH  28  34
+BRANCH  29  36
+ATOM     36  O3  SIA d   1     -36.979   2.794  63.139  0.00  0.00    -0.390 OA
+ATOM     37  H59 SIA d   1     -36.493   3.602  63.024  0.00  0.00     0.210 HD
+ENDBRANCH  29  36
+BRANCH  30  38
+ATOM     38  O4  SIA d   1     -34.386   2.897  63.095  0.00  0.00    -0.390 OA
+ATOM     39  H60 SIA d   1     -34.924   3.371  63.718  0.00  0.00     0.210 HD
+ENDBRANCH  30  38
+ENDBRANCH  26  27
+ENDBRANCH  21  26
+BRANCH  22  40
+ATOM     40  O3  SIA d   1     -36.551   0.239  57.144  0.00  0.00    -0.390 OA
+ATOM     41  H47 SIA d   1     -36.916   0.867  57.757  0.00  0.00     0.210 HD
+ENDBRANCH  22  40
+BRANCH  23  42
+ATOM     42  O4  SIA d   1     -34.609  -1.672  56.350  0.00  0.00    -0.390 OA
+ATOM     43  H48 SIA d   1     -34.240  -2.340  55.785  0.00  0.00     0.210 HD
+ENDBRANCH  23  42
+BRANCH  24  44
+ATOM     44  C6  SIA d   1     -35.010  -4.523  56.903  0.00  0.00     0.198 C 
+BRANCH  44  45
+ATOM     45  O6  SIA d   1     -35.064  -5.742  57.589  0.00  0.00    -0.398 OA
+ATOM     46  H49 SIA d   1     -34.641  -5.647  58.434  0.00  0.00     0.209 HD
+ENDBRANCH  44  45
+ENDBRANCH  24  44
+ENDBRANCH  19  20
+ENDBRANCH  10  19
+BRANCH  11  47
+ATOM     47  O4  SIA d   1     -32.420  -2.952  62.257  0.00  0.00    -0.390 OA
+ATOM     48  H38 SIA d   1     -32.686  -2.680  63.127  0.00  0.00     0.210 HD
+ENDBRANCH  11  47
+BRANCH  12  49
+ATOM     49  C6  SIA d   1     -32.013  -5.718  62.924  0.00  0.00     0.198 C 
+BRANCH  49  50
+ATOM     50  O6  SIA d   1     -32.209  -6.933  63.698  0.00  0.00    -0.398 OA
+ATOM     51  H39 SIA d   1     -32.771  -7.528  63.215  0.00  0.00     0.209 HD
+ENDBRANCH  49  50
+ENDBRANCH  12  49
+ENDBRANCH   7   8
+ENDBRANCH   4   7
+BRANCH   3  52
+ATOM     52  O3  SIA d   1     -38.206  -4.669  65.304  0.00  0.00    -0.336 OA
+BRANCH  52  53
+ATOM     53  C2  SIA d   1     -38.984  -5.701  64.668  0.00  0.00     0.259 C 
+ATOM     54  C3  SIA d   1     -40.159  -6.150  65.537  0.00  0.00     0.114 C 
+ATOM     55  C4  SIA d   1     -40.862  -7.384  64.984  0.00  0.00     0.149 C 
+ATOM     56  C5  SIA d   1     -39.866  -8.451  64.565  0.00  0.00     0.145 C 
+ATOM     57  C6  SIA d   1     -38.739  -7.861  63.711  0.00  0.00     0.182 C 
+ATOM     58  O6  SIA d   1     -38.106  -6.820  64.490  0.00  0.00    -0.336 OA
+BRANCH  53  59
+ATOM     59  C1  SIA d   1     -39.383  -5.007  63.351  0.00  0.00     0.239 C 
+ATOM     60  O1A SIA d   1     -38.551  -4.871  62.421  0.00  0.00    -0.644 OA
+ATOM     61  O1B SIA d   1     -40.564  -4.629  63.216  0.00  0.00    -0.644 OA
+ENDBRANCH  53  59
+BRANCH  55  62
+ATOM     62  O4  SIA d   1     -41.736  -7.934  65.984  0.00  0.00    -0.393 OA
+ATOM     63  H14 SIA d   1     -42.363  -7.273  66.253  0.00  0.00     0.210 HD
+ENDBRANCH  55  62
+BRANCH  56  64
+ATOM     64  N5  SIA d   1     -40.639  -9.469  63.865  0.00  0.00    -0.352 N 
+ATOM     65  C10 SIA d   1     -40.294 -10.745  63.810  0.00  0.00     0.214 C 
+ATOM     66  C11 SIA d   1     -41.172 -11.610  62.952  0.00  0.00     0.117 C 
+ATOM     67  O10 SIA d   1     -39.344 -11.201  64.444  0.00  0.00    -0.274 OA
+ATOM     68  H13 SIA d   1     -41.478  -9.187  63.400  0.00  0.00     0.163 HD
+ENDBRANCH  56  64
+BRANCH  57  69
+ATOM     69  C7  SIA d   1     -37.631  -8.817  63.303  0.00  0.00     0.180 C 
+BRANCH  69  70
+ATOM     70  C8  SIA d   1     -36.391  -8.113  62.708  0.00  0.00     0.173 C 
+BRANCH  70  71
+ATOM     71  C9  SIA d   1     -35.404  -9.075  62.093  0.00  0.00     0.198 C 
+BRANCH  71  72
+ATOM     72  O9  SIA d   1     -34.148  -8.431  61.885  0.00  0.00    -0.398 OA
+ATOM     73  H17 SIA d   1     -34.266  -7.691  61.301  0.00  0.00     0.209 HD
+ENDBRANCH  71  72
+ENDBRANCH  70  71
+BRANCH  70  74
+ATOM     74  O8  SIA d   1     -36.734  -7.152  61.708  0.00  0.00    -0.391 OA
+ATOM     75  H16 SIA d   1     -37.122  -7.596  60.964  0.00  0.00     0.210 HD
+ENDBRANCH  70  74
+ENDBRANCH  69  70
+BRANCH  69  76
+ATOM     76  O7  SIA d   1     -37.170  -9.604  64.415  0.00  0.00    -0.390 OA
+ATOM     77  H15 SIA d   1     -37.907 -10.055  64.810  0.00  0.00     0.210 HD
+ENDBRANCH  69  76
+ENDBRANCH  57  69
+ENDBRANCH  52  53
+ENDBRANCH   3  52
+BRANCH   5  78
+ATOM     78  C6  SIA d   1     -33.718  -5.239  67.201  0.00  0.00     0.198 C 
+BRANCH  78  79
+ATOM     79  O6  SIA d   1     -33.051  -5.072  68.459  0.00  0.00    -0.398 OA
+ATOM     80  H26 SIA d   1     -33.269  -4.221  68.822  0.00  0.00     0.209 HD
+ENDBRANCH  78  79
+ENDBRANCH   5  78
+BRANCH   2  81
+ATOM     81  O2  SIA d   1     -39.073  -3.680  67.759  0.00  0.00    -0.388 OA
+ATOM     82  H25 SIA d   1     -39.219  -2.933  68.328  0.00  0.00     0.210 HD
+ENDBRANCH   2  81
+BRANCH   1  83
+ATOM     83  O4  SIA d   1     -37.138  -2.789  69.461  0.00  0.00    -0.348 OA
+BRANCH  83  84
+ATOM     84  C4  SIA d   1     -36.848  -2.834  70.871  0.00  0.00     0.187 C 
+ATOM     85  C3  SIA d   1     -36.057  -1.533  70.991  0.00  0.00     0.183 C 
+ATOM     86  C2  SIA d   1     -35.775  -1.237  72.435  0.00  0.00     0.204 C 
+ATOM     87  C1  SIA d   1     -37.100  -1.182  73.200  0.00  0.00     0.288 C 
+ATOM     88  O5  SIA d   1     -37.692  -2.472  73.122  0.00  0.00    -0.349 OA
+ATOM     89  C5  SIA d   1     -38.096  -2.792  71.771  0.00  0.00     0.180 C 
+BRANCH  85  90
+ATOM     90  O3  SIA d   1     -34.873  -1.557  70.157  0.00  0.00    -0.390 OA
+ATOM     91  H70 SIA d   1     -35.129  -1.673  69.249  0.00  0.00     0.210 HD
+ENDBRANCH  85  90
+BRANCH  86  92
+ATOM     92  O2  SIA d   1     -35.113   0.012  72.535  0.00  0.00    -0.388 OA
+ATOM     93  H69 SIA d   1     -34.292  -0.027  72.059  0.00  0.00     0.210 HD
+ENDBRANCH  86  92
+BRANCH  87  94
+ATOM     94  O1  SIA d   1     -37.033  -0.865  74.535  0.00  0.00    -0.369 OA
+ATOM     95  H68 SIA d   1     -36.502  -1.511  74.987  0.00  0.00     0.212 HD
+ENDBRANCH  87  94
+BRANCH  89  96
+ATOM     96  C6  SIA d   1     -38.910  -4.063  71.893  0.00  0.00     0.198 C 
+BRANCH  96  97
+ATOM     97  O6  SIA d   1     -38.164  -5.231  71.582  0.00  0.00    -0.398 OA
+ATOM     98  H71 SIA d   1     -38.721  -5.995  71.674  0.00  0.00     0.209 HD
+ENDBRANCH  96  97
+ENDBRANCH  89  96
+ENDBRANCH  83  84
+ENDBRANCH   1  83
+TORSDOF 38

@@ -1,0 +1,92 @@
+REMARK  13 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O11_25  and  C11_1 
+REMARK    2  A    between atoms: C12_2  and  N12_20 
+REMARK    3  A    between atoms: O62_31  and  C13_3 
+REMARK    4  A    between atoms: C21_4  and  N21_21 
+REMARK    5  A    between atoms: C23_6  and  O23_26 
+REMARK    6  A    between atoms: C32_8  and  N32_22 
+REMARK    7  A    between atoms: C33_9  and  N33_23 
+REMARK    8  A    between atoms: C42_11  and  O11_25 
+REMARK    9  A    between atoms: C43_12  and  O43_27 
+REMARK   10  A    between atoms: C51_13  and  C61_16 
+REMARK   11  A    between atoms: C52_14  and  O52_29 
+REMARK   12  A    between atoms: C61_16  and  N61_24 
+REMARK   13  A    between atoms: C62_17  and  O62_31 
+ROOT
+ATOM      1  C12 SIS d   1     112.685 -14.811  -5.621  0.00  0.00     0.217 C 
+ATOM      2  C22 SIS d   1     112.931 -16.276  -5.285  0.00  0.00     0.071 C 
+ATOM      3  C32 SIS d   1     111.587 -16.995  -5.296  0.00  0.00     0.217 C 
+ATOM      4  C42 SIS d   1     110.898 -16.863  -6.650  0.00  0.00     0.186 C 
+ATOM      5  C52 SIS d   1     110.737 -15.408  -7.062  0.00  0.00     0.180 C 
+ATOM      6  C62 SIS d   1     112.076 -14.698  -7.012  0.00  0.00     0.186 C 
+ENDROOT
+BRANCH   4   7
+ATOM      7  O11 SIS d   1     109.614 -17.470  -6.498  0.00  0.00    -0.349 OA
+BRANCH   7   8
+ATOM      8  C11 SIS d   1     108.910 -17.828  -7.689  0.00  0.00     0.297 C 
+ATOM      9  C21 SIS d   1     107.467 -18.161  -7.310  0.00  0.00     0.242 C 
+ATOM     10  C31 SIS d   1     106.716 -18.536  -8.597  0.00  0.00     0.067 C 
+ATOM     11  C41 SIS d   1     107.560 -19.447  -9.454  0.00  0.00     0.009 C 
+ATOM     12  C51 SIS d   1     108.839 -19.630  -9.243  0.00  0.00     0.071 C 
+ATOM     13  O51 SIS d   1     109.509 -18.994  -8.261  0.00  0.00    -0.321 OA
+BRANCH   9  14
+ATOM     14  N21 SIS d   1     107.465 -19.262  -6.339  0.00  0.00    -0.070 N 
+ATOM     15  H29 SIS d   1     107.965 -18.980  -5.510  0.00  0.00     0.274 HD
+ATOM     16  H30 SIS d   1     107.914 -20.068  -6.744  0.00  0.00     0.274 HD
+ATOM     17  H31 SIS d   1     106.515 -19.494  -6.095  0.00  0.00     0.274 HD
+ENDBRANCH   9  14
+BRANCH  12  18
+ATOM     18  C61 SIS d   1     109.611 -20.542 -10.168  0.00  0.00     0.293 C 
+BRANCH  18  19
+ATOM     19  N61 SIS d   1     110.953 -19.986 -10.397  0.00  0.00    -0.074 N 
+ATOM     20  H37 SIS d   1     111.468 -20.594 -11.014  0.00  0.00     0.274 HD
+ATOM     21  H38 SIS d   1     111.440 -19.910  -9.518  0.00  0.00     0.274 HD
+ATOM     22  H39 SIS d   1     110.871 -19.073 -10.816  0.00  0.00     0.274 HD
+ENDBRANCH  18  19
+ENDBRANCH  12  18
+ENDBRANCH   7   8
+ENDBRANCH   4   7
+BRANCH   3  23
+ATOM     23  N32 SIS d   1     111.749 -18.432  -5.017  0.00  0.00    -0.072 N 
+ATOM     24  H32 SIS d   1     112.203 -18.552  -4.125  0.00  0.00     0.274 HD
+ATOM     25  H33 SIS d   1     112.311 -18.853  -5.740  0.00  0.00     0.274 HD
+ATOM     26  H34 SIS d   1     110.844 -18.874  -4.995  0.00  0.00     0.274 HD
+ENDBRANCH   3  23
+BRANCH   5  27
+ATOM     27  O52 SIS d   1     110.252 -15.346  -8.398  0.00  0.00    -0.390 OA
+ATOM     28  H42 SIS d   1     110.871 -15.773  -8.979  0.00  0.00     0.210 HD
+ENDBRANCH   5  27
+BRANCH   6  29
+ATOM     29  O62 SIS d   1     111.817 -13.327  -7.312  0.00  0.00    -0.349 OA
+BRANCH  29  30
+ATOM     30  C13 SIS d   1     112.629 -12.699  -8.291  0.00  0.00     0.291 C 
+ATOM     31  C23 SIS d   1     112.756 -11.241  -7.882  0.00  0.00     0.207 C 
+ATOM     32  C33 SIS d   1     111.376 -10.575  -7.871  0.00  0.00     0.254 C 
+ATOM     33  C43 SIS d   1     110.698 -10.765  -9.227  0.00  0.00     0.106 C 
+ATOM     34  C53 SIS d   1     110.701 -12.236  -9.643  0.00  0.00     0.210 C 
+ATOM     35  C83 SIS d   1     109.234 -10.316  -9.162  0.00  0.00     0.050 C 
+ATOM     36  O53 SIS d   1     112.007 -12.807  -9.557  0.00  0.00    -0.356 OA
+BRANCH  31  37
+ATOM     37  O23 SIS d   1     113.261 -11.189  -6.557  0.00  0.00    -0.388 OA
+ATOM     38  H40 SIS d   1     113.330 -10.283  -6.281  0.00  0.00     0.210 HD
+ENDBRANCH  31  37
+BRANCH  32  39
+ATOM     39  N33 SIS d   1     111.533  -9.133  -7.555  0.00  0.00    -0.069 N 
+ATOM     40  C93 SIS d   1     110.684  -8.704  -6.419  0.00  0.00     0.267 C 
+ATOM     41  H35 SIS d   1     111.280  -8.595  -8.369  0.00  0.00     0.277 HD
+ATOM     42  H36 SIS d   1     112.498  -8.957  -7.322  0.00  0.00     0.277 HD
+ENDBRANCH  32  39
+BRANCH  33  43
+ATOM     43  O43 SIS d   1     111.428  -9.982 -10.167  0.00  0.00    -0.386 OA
+ATOM     44  H41 SIS d   1     111.417  -9.072  -9.895  0.00  0.00     0.210 HD
+ENDBRANCH  33  43
+ENDBRANCH  29  30
+ENDBRANCH   6  29
+BRANCH   1  45
+ATOM     45  N12 SIS d   1     113.942 -14.065  -5.553  0.00  0.00    -0.072 N 
+ATOM     46  H26 SIS d   1     114.333 -14.149  -4.628  0.00  0.00     0.274 HD
+ATOM     47  H27 SIS d   1     113.768 -13.093  -5.757  0.00  0.00     0.274 HD
+ATOM     48  H28 SIS d   1     114.591 -14.439  -6.227  0.00  0.00     0.274 HD
+ENDBRANCH   1  45
+TORSDOF 13

@@ -1,0 +1,62 @@
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C19_19  and  C20_1 
+REMARK    2  A    between atoms: S08_30  and  C07_12 
+REMARK    3  A    between atoms: C09_13  and  S08_30 
+REMARK    4  A    between atoms: C11_14  and  C12_15 
+REMARK    5  A    between atoms: C12_15  and  O13_27 
+REMARK    6  A    between atoms: C14_16  and  O15_28 
+REMARK    7  A    between atoms: N17_23  and  C16_17 
+REMARK    8  A    between atoms: C29_21  and  O30_29 
+ROOT
+ATOM      1  C09 J5Q d   1     -19.724   8.774  -1.747  0.00  0.00     0.219 C 
+ATOM      2  C11 J5Q d   1     -19.658   6.563  -0.925  0.00  0.00     0.177 C 
+ATOM      3  C14 J5Q d   1     -18.172   6.705  -0.591  0.00  0.00     0.176 C 
+ATOM      4  C16 J5Q d   1     -17.572   7.727  -1.563  0.00  0.00     0.174 C 
+ATOM      5  C29 J5Q d   1     -18.259   9.090  -1.459  0.00  0.00     0.185 C 
+ATOM      6  O10 J5Q d   1     -20.282   7.868  -0.800  0.00  0.00    -0.362 OA
+ENDROOT
+BRANCH   4   7
+ATOM      7  N17 J5Q d   1     -16.154   7.863  -1.391  0.00  0.00    -0.250 N 
+ATOM      8  C18 J5Q d   1     -15.444   8.255  -0.268  0.00  0.00     0.148 A 
+ATOM      9  C19 J5Q d   1     -14.111   8.193  -0.619  0.00  0.00     0.108 A 
+ATOM     10  N27 J5Q d   1     -14.100   7.782  -1.952  0.00  0.00    -0.130 NA
+ATOM     11  N28 J5Q d   1     -15.280   7.571  -2.390  0.00  0.00    -0.065 NA
+BRANCH   9  12
+ATOM     12  C20 J5Q d   1     -12.936   8.481   0.166  0.00  0.00    -0.001 A 
+ATOM     13  C21 J5Q d   1     -12.964   8.508   1.563  0.00  0.00     0.056 A 
+ATOM     14  C22 J5Q d   1     -11.808   8.752   2.236  0.00  0.00     0.117 A 
+ATOM     15  C24 J5Q d   1     -10.580   8.952   1.680  0.00  0.00     0.042 A 
+ATOM     16  F23 J5Q d   1     -11.874   8.759   3.619  0.00  0.00    -0.206 F 
+ATOM     17  C25 J5Q d   1     -10.538   8.902   0.299  0.00  0.00     0.004 A 
+ATOM     18  C26 J5Q d   1     -11.688   8.672  -0.440  0.00  0.00     0.014 A 
+ENDBRANCH   9  12
+ENDBRANCH   4   7
+BRANCH   3  19
+ATOM     19  O15 J5Q d   1     -18.002   7.096   0.712  0.00  0.00    -0.391 OA
+ATOM     20  H21 J5Q d   1     -17.074   7.181   0.897  0.00  0.00     0.210 HD
+ENDBRANCH   3  19
+BRANCH   5  21
+ATOM     21  O30 J5Q d   1     -17.780   9.885  -2.516  0.00  0.00    -0.390 OA
+ATOM     22  H22 J5Q d   1     -17.989   9.469  -3.344  0.00  0.00     0.210 HD
+ENDBRANCH   5  21
+BRANCH   2  23
+ATOM     23  C12 J5Q d   1     -20.393   5.614   0.029  0.00  0.00     0.198 C 
+BRANCH  23  24
+ATOM     24  O13 J5Q d   1     -21.739   5.476  -0.340  0.00  0.00    -0.398 OA
+ATOM     25  H20 J5Q d   1     -22.163   6.326  -0.312  0.00  0.00     0.209 HD
+ENDBRANCH  23  24
+ENDBRANCH   2  23
+BRANCH   1  26
+ATOM     26  S08 J5Q d   1     -20.738  10.254  -1.743  0.00  0.00    -0.095 SA
+BRANCH  26  27
+ATOM     27  C07 J5Q d   1     -22.073   9.919  -2.858  0.00  0.00     0.003 A 
+ATOM     28  C04 J5Q d   1     -22.445   8.610  -3.150  0.00  0.00     0.019 A 
+ATOM     29  C03 J5Q d   1     -23.471   8.327  -4.046  0.00  0.00     0.008 A 
+ATOM     30  C02 J5Q d   1     -24.183   9.320  -4.698  0.00  0.00    -0.062 A 
+ATOM     31  C01 J5Q d   1     -25.282   9.000  -5.642  0.00  0.00     0.048 C 
+ATOM     32  C05 J5Q d   1     -23.797  10.627  -4.394  0.00  0.00     0.008 A 
+ATOM     33  C06 J5Q d   1     -22.770  10.919  -3.505  0.00  0.00     0.019 A 
+ENDBRANCH  26  27
+ENDBRANCH   1  26
+TORSDOF 8

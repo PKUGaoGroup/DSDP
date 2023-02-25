@@ -1,0 +1,36 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C3_4  and  O3_5 
+REMARK    2  A    between atoms: C4_6  and  C4A_11 
+REMARK    3  A    between atoms: C5A_8  and  C5_7 
+REMARK    4  A    between atoms: O5_9  and  C5A_8 
+REMARK    5  A    between atoms: N4_12  and  C4A_11 
+ROOT
+ATOM      1  N1  PXM d 402      40.289  45.598  -2.272  0.00  0.00    -0.262 NA
+ATOM      2  C2  PXM d 402      40.459  44.689  -1.247  0.00  0.00     0.064 A 
+ATOM      3  C2A PXM d 402      39.239  44.118  -0.547  0.00  0.00     0.073 C 
+ATOM      4  C3  PXM d 402      41.796  44.296  -0.937  0.00  0.00     0.098 A 
+ATOM      5  C4  PXM d 402      42.904  44.835  -1.673  0.00  0.00     0.014 A 
+ATOM      6  C5  PXM d 402      42.625  45.750  -2.797  0.00  0.00    -0.006 A 
+ATOM      7  C6  PXM d 402      41.302  46.147  -3.065  0.00  0.00     0.127 A 
+ENDROOT
+BRANCH   5   8
+ATOM      8  C4A PXM d 402      44.239  44.425  -1.331  0.00  0.00     0.308 C 
+BRANCH   8   9
+ATOM      9  N4  PXM d 402      44.426  43.183  -2.102  0.00  0.00     0.082 N 
+ATOM     10  H   PXM d 402      44.284  43.374  -3.094  0.00  0.00     0.313 HD
+ATOM     11  H   PXM d 402      43.751  42.484  -1.790  0.00  0.00     0.313 HD
+ENDBRANCH   8   9
+ENDBRANCH   5   8
+BRANCH   6  12
+ATOM     12  C5A PXM d 402      43.819  46.240  -3.657  0.00  0.00     0.205 C 
+BRANCH  12  13
+ATOM     13  O5  PXM d 402      43.394  47.089  -4.680  0.00  0.00    -0.396 OA
+ATOM     14  H   PXM d 402      42.966  47.870  -4.295  0.00  0.00     0.209 HD
+ENDBRANCH  12  13
+ENDBRANCH   6  12
+BRANCH   4  15
+ATOM     15  O3  PXM d 402      41.943  43.389   0.052  0.00  0.00    -0.358 OA
+ATOM     16  H   PXM d 402      42.799  43.096   0.296  0.00  0.00     0.217 HD
+ENDBRANCH   4  15
+TORSDOF 5

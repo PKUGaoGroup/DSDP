@@ -1,0 +1,54 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAW_13  and  CAV_14 
+REMARK    2  A    between atoms: CAU_19  and  CAS_20 
+REMARK    3  A    between atoms: CAS_20  and  CBB_21 
+REMARK    4  A    between atoms: CBB_21  and  PBC_22 
+REMARK    5  A    between atoms: CBB_21  and  PBD_26 
+REMARK    6  A    between atoms: CBB_21  and  OAC_30 
+ROOT
+ATOM      1  CAV B29 d   1      61.171  -2.118  23.114  0.00  0.00    -0.023 A 
+ATOM      2  CAR B29 d   1      60.954  -1.043  22.265  0.00  0.00     0.019 A 
+ATOM      3  CAM B29 d   1      60.229  -2.427  24.082  0.00  0.00     0.012 A 
+ATOM      4  CAJ B29 d   1      59.079  -1.656  24.187  0.00  0.00     0.001 A 
+ATOM      5  CAL B29 d   1      58.869  -0.581  23.333  0.00  0.00     0.007 A 
+ATOM      6  CAU B29 d   1      59.807  -0.273  22.358  0.00  0.00    -0.053 A 
+ENDROOT
+BRANCH   1   7
+ATOM      7  CAW B29 d   1      62.349  -2.838  22.954  0.00  0.00     0.009 A 
+ATOM      8  CBA B29 d   1      63.115  -3.351  24.023  0.00  0.00     0.098 A 
+ATOM      9  OAT B29 d   1      62.946  -3.340  25.402  0.00  0.00    -0.308 OA
+ATOM     10  CAZ B29 d   1      64.283  -4.028  23.759  0.00  0.00     0.012 A 
+ATOM     11  CAX B29 d   1      64.016  -4.012  25.982  0.00  0.00     0.087 A 
+ATOM     12  CAY B29 d   1      64.841  -4.439  24.973  0.00  0.00     0.011 A 
+ATOM     13  CAO B29 d   1      64.346  -4.294  27.318  0.00  0.00     0.038 A 
+ATOM     14  CAP B29 d   1      66.011  -5.155  25.274  0.00  0.00     0.015 A 
+ATOM     15  CAI B29 d   1      66.338  -5.432  26.593  0.00  0.00     0.001 A 
+ATOM     16  CAH B29 d   1      65.502  -5.002  27.616  0.00  0.00     0.003 A 
+ATOM     17  CAQ B29 d   1      64.714  -4.197  22.437  0.00  0.00     0.015 A 
+ATOM     18  CAK B29 d   1      63.970  -3.689  21.386  0.00  0.00     0.002 A 
+ATOM     19  CAN B29 d   1      62.792  -3.006  21.651  0.00  0.00     0.015 A 
+ENDBRANCH   1   7
+BRANCH   6  20
+ATOM     20  CAS B29 d   1      59.625   0.908  21.395  0.00  0.00     0.106 C 
+BRANCH  20  21
+ATOM     21  CBB B29 d   1      58.277   0.972  20.665  0.00  0.00     0.289 C 
+BRANCH  21  22
+ATOM     22  PBC B29 d   1      58.351   2.350  19.412  0.00  0.00     0.310 P 
+ATOM     23  OAD B29 d   1      59.292   1.968  18.294  0.00  0.00    -0.637 OA
+ATOM     24  OAE B29 d   1      58.842   3.619  20.066  0.00  0.00    -0.637 OA
+ATOM     25  OAA B29 d   1      56.972   2.583  18.840  0.00  0.00    -0.637 OA
+ENDBRANCH  21  22
+BRANCH  21  26
+ATOM     26  PBD B29 d   1      57.877  -0.599  19.744  0.00  0.00     0.310 P 
+ATOM     27  OAF B29 d   1      58.973  -0.899  18.750  0.00  0.00    -0.637 OA
+ATOM     28  OAG B29 d   1      57.725  -1.761  20.696  0.00  0.00    -0.637 OA
+ATOM     29  OAB B29 d   1      56.576  -0.404  19.000  0.00  0.00    -0.637 OA
+ENDBRANCH  21  26
+BRANCH  21  30
+ATOM     30  OAC B29 d   1      57.255   1.259  21.580  0.00  0.00    -0.365 OA
+ATOM     31  H14 B29 d   1      57.205   0.564  22.226  0.00  0.00     0.212 HD
+ENDBRANCH  21  30
+ENDBRANCH  20  21
+ENDBRANCH   6  20
+TORSDOF 6

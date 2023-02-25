@@ -1,0 +1,53 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C02_2  and  C07_7 
+REMARK    2  A    between atoms: C06_6  and  S08_8 
+REMARK    3  A    between atoms: S08_8  and  N12_12 
+REMARK    4  A    between atoms: N12_12  and  C13_13 
+REMARK    5  A    between atoms: C18_18  and  C23_23 
+REMARK    6  A    between atoms: C23_23  and  N24_24 
+REMARK       I    between atoms: N24_24  and  C25_25 
+ROOT
+ATOM      1  C01 JWA d   1      31.820  11.063  78.956  0.00  0.00     0.038 A 
+ATOM      2  C02 JWA d   1      32.381  10.080  78.141  0.00  0.00    -0.020 A 
+ATOM      3  C03 JWA d   1      33.760   9.853  78.165  0.00  0.00     0.013 A 
+ATOM      4  C04 JWA d   1      34.570  10.626  79.001  0.00  0.00     0.009 A 
+ATOM      5  C05 JWA d   1      34.025  11.618  79.838  0.00  0.00    -0.039 A 
+ATOM      6  C06 JWA d   1      32.630  11.827  79.804  0.00  0.00     0.086 A 
+ATOM      7  C11 JWA d   1      34.984  12.389  80.705  0.00  0.00     0.050 C 
+ENDROOT
+BRANCH   2   8
+ATOM      8  C07 JWA d   1      31.506   9.312  77.286  0.00  0.00     0.034 A 
+ATOM      9  C18 JWA d   1      31.648   9.186  75.925  0.00  0.00     0.109 A 
+ATOM     10  O19 JWA d   1      30.639   8.398  75.452  0.00  0.00    -0.215 OA
+ATOM     11  N20 JWA d   1      29.820   8.003  76.520  0.00  0.00    -0.132 NA
+ATOM     12  C21 JWA d   1      30.351   8.560  77.612  0.00  0.00     0.072 A 
+ATOM     13  C22 JWA d   1      29.750   8.376  78.957  0.00  0.00     0.074 C 
+BRANCH   9  14
+ATOM     14  C23 JWA d   1      32.636   9.684  74.936  0.00  0.00     0.190 C 
+BRANCH  14  15
+ATOM     15  N24 JWA d   1      33.617   8.630  74.665  0.00  0.00    -0.355 N 
+ATOM     16  C25 JWA d   1      33.386   7.641  73.714  0.00  0.00     0.213 C 
+ATOM     17  O26 JWA d   1      32.373   7.554  73.031  0.00  0.00    -0.274 OA
+ATOM     18  C27 JWA d   1      34.507   6.644  73.552  0.00  0.00     0.117 C 
+ATOM     19  H22 JWA d   1      34.476   8.621  75.177  0.00  0.00     0.162 HD
+ENDBRANCH  14  15
+ENDBRANCH   9  14
+ENDBRANCH   2   8
+BRANCH   6  20
+ATOM     20  S08 JWA d   1      31.787  13.034  80.821  0.00  0.00     0.259 S 
+ATOM     21  O09 JWA d   1      32.159  12.734  82.188  0.00  0.00    -0.201 OA
+ATOM     22  O10 JWA d   1      30.388  13.018  80.429  0.00  0.00    -0.201 OA
+BRANCH  20  23
+ATOM     23  N12 JWA d   1      32.465  14.498  80.311  0.00  0.00    -0.311 N 
+ATOM     24  H7  JWA d   1      33.230  14.896  80.817  0.00  0.00     0.172 HD
+BRANCH  23  25
+ATOM     25  C13 JWA d   1      31.932  15.190  79.123  0.00  0.00     0.093 C 
+ATOM     26  C14 JWA d   1      31.197  16.442  79.597  0.00  0.00     0.026 C 
+ATOM     27  C15 JWA d   1      32.353  17.357  79.987  0.00  0.00     0.002 C 
+ATOM     28  C16 JWA d   1      33.444  17.083  78.958  0.00  0.00     0.002 C 
+ATOM     29  C17 JWA d   1      33.091  15.748  78.306  0.00  0.00     0.026 C 
+ENDBRANCH  23  25
+ENDBRANCH  20  23
+ENDBRANCH   6  20
+TORSDOF 6

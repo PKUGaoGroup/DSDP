@@ -1,0 +1,31 @@
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C11_14  and  C12_1 
+REMARK    2  A    between atoms: C04_8  and  C02_7 
+REMARK    3  A    between atoms: C10_13  and  C08_11 
+ROOT
+ATOM      1  C04 KVD d   1     -10.309 -31.034 -14.913  0.00  0.00     0.059 A 
+ATOM      2  C05 KVD d   1      -9.700 -30.247 -13.943  0.00  0.00     0.134 A 
+ATOM      3  C07 KVD d   1      -7.698 -31.325 -14.209  0.00  0.00     0.136 A 
+ATOM      4  C08 KVD d   1      -8.248 -32.135 -15.190  0.00  0.00     0.036 A 
+ATOM      5  C09 KVD d   1      -9.567 -31.998 -15.554  0.00  0.00     0.042 A 
+ATOM      6  N06 KVD d   1      -8.430 -30.407 -13.609  0.00  0.00    -0.271 NA
+ENDROOT
+BRANCH   4   7
+ATOM      7  C10 KVD d   1      -7.393 -33.188 -15.848  0.00  0.00    -0.060 C 
+ATOM      8  C11 KVD d   1      -6.784 -34.031 -16.389  0.00  0.00    -0.061 C 
+BRANCH   8   9
+ATOM      9  C12 KVD d   1      -6.057 -35.177 -17.049  0.00  0.00     0.018 A 
+ATOM     10  C13 KVD d   1      -4.965 -34.919 -17.860  0.00  0.00     0.020 A 
+ATOM     11  C14 KVD d   1      -4.316 -35.963 -18.479  0.00  0.00     0.001 A 
+ATOM     12  C15 KVD d   1      -4.752 -37.255 -18.271  0.00  0.00     0.000 A 
+ATOM     13  C16 KVD d   1      -5.825 -37.512 -17.448  0.00  0.00     0.001 A 
+ATOM     14  C17 KVD d   1      -6.493 -36.466 -16.830  0.00  0.00     0.020 A 
+ENDBRANCH   8   9
+ENDBRANCH   4   7
+BRANCH   1  15
+ATOM     15  C02 KVD d   1     -11.767 -30.835 -15.273  0.00  0.00     0.210 C 
+ATOM     16  O01 KVD d   1     -12.437 -29.997 -14.618  0.00  0.00    -0.644 OA
+ATOM     17  O03 KVD d   1     -12.279 -31.504 -16.221  0.00  0.00    -0.644 OA
+ENDBRANCH   1  15
+TORSDOF 3

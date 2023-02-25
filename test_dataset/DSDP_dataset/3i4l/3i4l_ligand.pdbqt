@@ -1,0 +1,87 @@
+REMARK  14 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N3B_8  and  PG_1 
+REMARK    2  A    between atoms: PG_1  and  O3G_4 
+REMARK    3  A    between atoms: PG_1  and  O1G_2 
+REMARK    4  A    between atoms: O3A_12  and  PB_5 
+REMARK    5  A    between atoms: PB_5  and  N3B_8 
+REMARK    6  A    between atoms: PB_5  and  O2B_7 
+REMARK    7  A    between atoms: O5'_13  and  PA_9 
+REMARK    8  A    between atoms: PA_9  and  O3A_12 
+REMARK    9  A    between atoms: PA_9  and  O2A_11 
+REMARK   10  A    between atoms: C5'_14  and  O5'_13 
+REMARK   11  A    between atoms: C4'_15  and  C5'_14 
+REMARK   12  A    between atoms: O3'_18  and  C3'_17 
+REMARK   13  A    between atoms: O2'_20  and  C2'_19 
+REMARK   14  A    between atoms: N9_22  and  C1'_21 
+ROOT
+ATOM      1  C4' ANP d 589      44.983  10.545  24.071  0.00  0.00     0.180 C 
+ATOM      2  O4' ANP d 589      46.295  11.031  24.445  0.00  0.00    -0.353 OA
+ATOM      3  C3' ANP d 589      44.749  11.105  22.689  0.00  0.00     0.182 C 
+ATOM      4  C2' ANP d 589      45.628  12.313  22.645  0.00  0.00     0.198 C 
+ATOM      5  C1' ANP d 589      46.426  12.362  23.921  0.00  0.00     0.262 C 
+ENDROOT
+BRANCH   1   6
+ATOM      6  C5' ANP d 589      44.711   9.041  24.221  0.00  0.00     0.215 C 
+BRANCH   6   7
+ATOM      7  O5' ANP d 589      43.342   8.853  24.614  0.00  0.00    -0.294 OA
+BRANCH   7   8
+ATOM      8  PA  ANP d 589      42.686   7.397  24.930  0.00  0.00     0.401 P 
+ATOM      9  O1A ANP d 589      42.718   6.583  23.662  0.00  0.00    -0.631 OA
+BRANCH   8  10
+ATOM     10  O3A ANP d 589      41.132   7.678  25.266  0.00  0.00    -0.205 OA
+BRANCH  10  11
+ATOM     11  PB  ANP d 589      40.210   6.566  25.997  0.00  0.00     0.339 P 
+ATOM     12  O1B ANP d 589      39.480   5.779  24.931  0.00  0.00    -0.641 OA
+BRANCH  11  13
+ATOM     13  N3B ANP d 589      38.979   7.425  26.898  0.00  0.00    -0.136 NA
+ATOM     14  H   ANP d 589      38.569   6.755  27.549  0.00  0.00     0.145 HD
+BRANCH  13  15
+ATOM     15  PG  ANP d 589      39.409   8.842  27.835  0.00  0.00     0.328 P 
+ATOM     16  O2G ANP d 589      38.898  10.047  27.074  0.00  0.00    -0.641 OA
+BRANCH  15  17
+ATOM     17  O3G ANP d 589      40.912   8.801  27.945  0.00  0.00    -0.317 OA
+ATOM     18  H   ANP d 589      41.304   8.959  27.072  0.00  0.00     0.221 HD
+ENDBRANCH  15  17
+BRANCH  15  19
+ATOM     19  O1G ANP d 589      38.714   8.604  29.160  0.00  0.00    -0.317 OA
+ATOM     20  H   ANP d 589      37.753   8.641  29.032  0.00  0.00     0.221 HD
+ENDBRANCH  15  19
+ENDBRANCH  13  15
+ENDBRANCH  11  13
+BRANCH  11  21
+ATOM     21  O2B ANP d 589      41.087   5.801  26.962  0.00  0.00    -0.316 OA
+ATOM     22  H   ANP d 589      41.771   5.323  26.468  0.00  0.00     0.221 HD
+ENDBRANCH  11  21
+ENDBRANCH  10  11
+ENDBRANCH   8  10
+BRANCH   8  23
+ATOM     23  O2A ANP d 589      43.342   6.843  26.172  0.00  0.00    -0.307 OA
+ATOM     24  H   ANP d 589      44.279   6.667  25.992  0.00  0.00     0.222 HD
+ENDBRANCH   8  23
+ENDBRANCH   7   8
+ENDBRANCH   6   7
+ENDBRANCH   1   6
+BRANCH   3  25
+ATOM     25  O3' ANP d 589      43.433  11.599  22.553  0.00  0.00    -0.390 OA
+ATOM     26  H   ANP d 589      43.270  12.274  23.230  0.00  0.00     0.210 HD
+ENDBRANCH   3  25
+BRANCH   4  27
+ATOM     27  O2' ANP d 589      46.520  12.073  21.582  0.00  0.00    -0.388 OA
+ATOM     28  H   ANP d 589      46.993  11.241  21.738  0.00  0.00     0.210 HD
+ENDBRANCH   4  27
+BRANCH   5  29
+ATOM     29  N9  ANP d 589      47.825  12.717  23.620  0.00  0.00    -0.294 N 
+ATOM     30  C4  ANP d 589      48.253  13.503  22.621  0.00  0.00     0.167 A 
+ATOM     31  N3  ANP d 589      47.662  14.218  21.617  0.00  0.00    -0.222 NA
+ATOM     32  C5  ANP d 589      49.724  13.524  22.743  0.00  0.00     0.149 A 
+ATOM     33  C2  ANP d 589      48.399  14.925  20.744  0.00  0.00     0.237 A 
+ATOM     34  N1  ANP d 589      49.744  14.975  20.796  0.00  0.00    -0.222 NA
+ATOM     35  C6  ANP d 589      50.449  14.317  21.743  0.00  0.00     0.155 A 
+ATOM     36  N6  ANP d 589      51.780  14.382  21.802  0.00  0.00    -0.382 N 
+ATOM     37  H   ANP d 589      52.277  14.911  21.137  0.00  0.00     0.157 HD
+ATOM     38  H   ANP d 589      52.265  13.901  22.511  0.00  0.00     0.157 HD
+ATOM     39  N7  ANP d 589      50.056  12.769  23.795  0.00  0.00    -0.236 NA
+ATOM     40  C8  ANP d 589      48.901  12.294  24.305  0.00  0.00     0.214 A 
+ENDBRANCH   5  29
+TORSDOF 14

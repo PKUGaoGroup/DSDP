@@ -1,0 +1,57 @@
+REMARK  10 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O2B_3  and  PB_1 
+REMARK    2  A    between atoms: PB_1  and  O1B_2 
+REMARK    3  A    between atoms: PB_1  and  O3A_8 
+REMARK    4  A    between atoms: O3A_8  and  PA_5 
+REMARK    5  A    between atoms: PA_5  and  O2A_7 
+REMARK    6  A    between atoms: PA_5  and  O5'_9 
+REMARK    7  A    between atoms: O5'_9  and  C5'_10 
+REMARK    8  A    between atoms: C5'_10  and  C4'_11 
+REMARK    9  A    between atoms: C3'_13  and  O3'_14 
+REMARK   10  A    between atoms: C2'_15  and  O2'_16 
+ROOT
+ATOM      1  PA  ADP d 900      32.001  56.192  52.245  0.00  0.00     0.401 P 
+ATOM      2  O1A ADP d 900      32.554  56.140  50.892  0.00  0.00    -0.631 OA
+ENDROOT
+BRANCH   1   3
+ATOM      3  O3A ADP d 900      30.442  55.921  52.196  0.00  0.00    -0.195 OA
+BRANCH   3   4
+ATOM      4  PB  ADP d 900      29.514  55.186  51.145  0.00  0.00     0.399 P 
+ATOM      5  O3B ADP d 900      29.193  56.096  50.010  0.00  0.00    -0.631 OA
+BRANCH   4   6
+ATOM      6  O2B ADP d 900      30.375  53.949  50.627  0.00  0.00    -0.307 OA
+ATOM      7  H   ADP d 900      29.862  53.449  49.973  0.00  0.00     0.222 HD
+ENDBRANCH   4   6
+BRANCH   4   8
+ATOM      8  O1B ADP d 900      28.278  54.699  51.803  0.00  0.00    -0.307 OA
+ATOM      9  H   ADP d 900      27.719  54.251  51.149  0.00  0.00     0.222 HD
+ENDBRANCH   4   8
+ENDBRANCH   3   4
+ENDBRANCH   1   3
+BRANCH   1  10
+ATOM     10  O2A ADP d 900      32.281  57.509  52.812  0.00  0.00    -0.307 OA
+ATOM     11  H   ADP d 900      31.869  58.193  52.261  0.00  0.00     0.222 HD
+ENDBRANCH   1  10
+BRANCH   1  12
+ATOM     12  O5' ADP d 900      32.699  55.083  53.185  0.00  0.00    -0.294 OA
+BRANCH  12  13
+ATOM     13  C5' ADP d 900      32.094  53.992  53.918  0.00  0.00     0.215 C 
+BRANCH  13  14
+ATOM     14  C4' ADP d 900      33.258  53.203  54.643  0.00  0.00     0.177 C 
+ATOM     15  O4' ADP d 900      34.180  52.759  53.636  0.00  0.00    -0.378 OA
+ATOM     16  C1' ADP d 900      35.539  53.188  53.910  0.00  0.00     0.202 C 
+ATOM     17  C2' ADP d 900      35.458  54.280  54.975  0.00  0.00     0.173 C 
+ATOM     18  C3' ADP d 900      34.117  54.007  55.659  0.00  0.00     0.180 C 
+BRANCH  17  19
+ATOM     19  O2' ADP d 900      36.570  54.341  55.886  0.00  0.00    -0.391 OA
+ATOM     20  H   ADP d 900      36.641  53.501  56.366  0.00  0.00     0.210 HD
+ENDBRANCH  17  19
+BRANCH  18  21
+ATOM     21  O3' ADP d 900      34.291  53.309  56.912  0.00  0.00    -0.390 OA
+ATOM     22  H   ADP d 900      34.737  52.463  56.752  0.00  0.00     0.210 HD
+ENDBRANCH  18  21
+ENDBRANCH  13  14
+ENDBRANCH  12  13
+ENDBRANCH   1  12
+TORSDOF 10

@@ -1,0 +1,132 @@
+REMARK  21 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O3P_53  and  PA_1 
+REMARK    2  A    between atoms: PA_1  and  O5B_4 
+REMARK    3  A    between atoms: PA_1  and  O1A_2 
+REMARK    4  A    between atoms: O5B_4  and  C5B_5 
+REMARK    5  A    between atoms: C5B_5  and  C4B_6 
+REMARK    6  A    between atoms: C3B_8  and  O3B_9 
+REMARK    7  A    between atoms: O2B_11  and  C2B_10 
+REMARK    8  A    between atoms: C1B_12  and  N9A_13 
+REMARK    9  A    between atoms: C6A_17  and  N6A_18 
+REMARK   10  A    between atoms: C1'_41  and  N10_39 
+REMARK   11  A    between atoms: C2'_42  and  C1'_41 
+REMARK   12  A    between atoms: C3'_44  and  C2'_42 
+REMARK   13  A    between atoms: C2'_42  and  O2'_43 
+REMARK   14  A    between atoms: C4'_46  and  C3'_44 
+REMARK   15  A    between atoms: C3'_44  and  O3'_45 
+REMARK   16  A    between atoms: C5'_48  and  C4'_46 
+REMARK   17  A    between atoms: O4'_47  and  C4'_46 
+REMARK   18  A    between atoms: O5'_49  and  C5'_48 
+REMARK   19  A    between atoms: P_50  and  O5'_49 
+REMARK   20  A    between atoms: O2P_52  and  P_50 
+REMARK   21  A    between atoms: P_50  and  O3P_53 
+ROOT
+ATOM      1  O5' FAD d 304     -26.705  40.184  -8.675  0.00  0.00    -0.294 OA
+ENDROOT
+BRANCH   1   2
+ATOM      2  P   FAD d 304     -27.056  39.634 -10.129  0.00  0.00     0.401 P 
+ATOM      3  O1P FAD d 304     -25.903  39.985 -10.951  0.00  0.00    -0.631 OA
+BRANCH   2   4
+ATOM      4  O2P FAD d 304     -28.358  40.137 -10.443  0.00  0.00    -0.307 OA
+ATOM      5  H   FAD d 304     -28.620  39.828 -11.325  0.00  0.00     0.222 HD
+ENDBRANCH   2   4
+BRANCH   2   6
+ATOM      6  O3P FAD d 304     -27.097  38.044  -9.880  0.00  0.00    -0.195 OA
+BRANCH   6   7
+ATOM      7  PA  FAD d 304     -28.351  36.757  -9.717  0.00  0.00     0.401 P 
+ATOM      8  O2A FAD d 304     -28.617  36.808 -11.160  0.00  0.00    -0.631 OA
+BRANCH   7   9
+ATOM      9  O5B FAD d 304     -27.348  35.707  -9.340  0.00  0.00    -0.294 OA
+BRANCH   9  10
+ATOM     10  C5B FAD d 304     -27.150  35.543  -7.984  0.00  0.00     0.215 C 
+BRANCH  10  11
+ATOM     11  C4B FAD d 304     -27.642  34.209  -7.577  0.00  0.00     0.180 C 
+ATOM     12  O4B FAD d 304     -26.918  33.134  -8.254  0.00  0.00    -0.353 OA
+ATOM     13  C1B FAD d 304     -26.236  32.369  -7.247  0.00  0.00     0.262 C 
+ATOM     14  C2B FAD d 304     -27.124  32.538  -5.994  0.00  0.00     0.198 C 
+ATOM     15  C3B FAD d 304     -27.392  34.057  -6.054  0.00  0.00     0.182 C 
+BRANCH  13  16
+ATOM     16  N9A FAD d 304     -24.722  32.522  -7.183  0.00  0.00    -0.294 N 
+ATOM     17  C4A FAD d 304     -23.749  31.483  -7.171  0.00  0.00     0.167 A 
+ATOM     18  N3A FAD d 304     -23.979  30.135  -7.269  0.00  0.00    -0.222 NA
+ATOM     19  C5A FAD d 304     -22.493  32.074  -7.056  0.00  0.00     0.149 A 
+ATOM     20  C2A FAD d 304     -22.814  29.438  -7.234  0.00  0.00     0.237 A 
+ATOM     21  N1A FAD d 304     -21.533  29.861  -7.125  0.00  0.00    -0.222 NA
+ATOM     22  C6A FAD d 304     -21.310  31.184  -7.033  0.00  0.00     0.155 A 
+ATOM     23  N7A FAD d 304     -22.654  33.475  -6.980  0.00  0.00    -0.236 NA
+ATOM     24  C8A FAD d 304     -23.961  33.680  -7.055  0.00  0.00     0.214 A 
+BRANCH  22  25
+ATOM     25  N6A FAD d 304     -20.000  31.542  -6.912  0.00  0.00    -0.382 N 
+ATOM     26  H   FAD d 304     -19.299  30.851  -6.910  0.00  0.00     0.157 HD
+ATOM     27  H   FAD d 304     -19.755  32.492  -6.827  0.00  0.00     0.157 HD
+ENDBRANCH  22  25
+ENDBRANCH  13  16
+BRANCH  14  28
+ATOM     28  O2B FAD d 304     -28.329  31.733  -6.069  0.00  0.00    -0.388 OA
+ATOM     29  H   FAD d 304     -28.814  31.951  -6.880  0.00  0.00     0.210 HD
+ENDBRANCH  14  28
+BRANCH  15  30
+ATOM     30  O3B FAD d 304     -28.618  34.324  -5.373  0.00  0.00    -0.390 OA
+ATOM     31  H   FAD d 304     -29.320  33.764  -5.739  0.00  0.00     0.210 HD
+ENDBRANCH  15  30
+ENDBRANCH  10  11
+ENDBRANCH   9  10
+ENDBRANCH   7   9
+BRANCH   7  32
+ATOM     32  O1A FAD d 304     -29.417  36.898  -8.705  0.00  0.00    -0.307 OA
+ATOM     33  H   FAD d 304     -30.042  37.584  -8.987  0.00  0.00     0.222 HD
+ENDBRANCH   7  32
+ENDBRANCH   6   7
+ENDBRANCH   2   6
+ENDBRANCH   1   2
+BRANCH   1  34
+ATOM     34  C5' FAD d 304     -25.393  39.908  -8.109  0.00  0.00     0.215 C 
+BRANCH  34  35
+ATOM     35  C4' FAD d 304     -25.004  41.035  -7.268  0.00  0.00     0.173 C 
+BRANCH  35  36
+ATOM     36  O4' FAD d 304     -24.653  42.150  -8.087  0.00  0.00    -0.391 OA
+ATOM     37  H   FAD d 304     -25.430  42.438  -8.591  0.00  0.00     0.210 HD
+ENDBRANCH  35  36
+BRANCH  35  38
+ATOM     38  C3' FAD d 304     -26.119  41.573  -6.337  0.00  0.00     0.179 C 
+BRANCH  38  39
+ATOM     39  C2' FAD d 304     -25.588  42.755  -5.504  0.00  0.00     0.167 C 
+BRANCH  39  40
+ATOM     40  O2' FAD d 304     -26.784  43.156  -4.881  0.00  0.00    -0.391 OA
+ATOM     41  H   FAD d 304     -27.146  42.416  -4.369  0.00  0.00     0.210 HD
+ENDBRANCH  39  40
+BRANCH  39  42
+ATOM     42  C1' FAD d 304     -24.525  42.425  -4.467  0.00  0.00     0.160 C 
+BRANCH  42  43
+ATOM     43  N10 FAD d 304     -24.019  43.747  -3.897  0.00  0.00    -0.349 N 
+ATOM     44  C10 FAD d 304     -23.178  44.579  -4.567  0.00  0.00     0.143 A 
+ATOM     45  N1  FAD d 304     -22.558  44.180  -5.688  0.00  0.00    -0.292 N 
+ATOM     46  C4X FAD d 304     -22.884  45.859  -4.033  0.00  0.00     0.169 A 
+ATOM     47  C2  FAD d 304     -21.665  44.934  -6.408  0.00  0.00     0.328 A 
+ATOM     48  H   FAD d 304     -22.759  43.275  -6.020  0.00  0.00     0.172 HD
+ATOM     49  O2  FAD d 304     -21.134  44.507  -7.437  0.00  0.00    -0.247 OA
+ATOM     50  N3  FAD d 304     -21.344  46.187  -5.917  0.00  0.00    -0.273 N 
+ATOM     51  C4  FAD d 304     -21.877  46.720  -4.751  0.00  0.00     0.282 A 
+ATOM     52  H   FAD d 304     -20.700  46.733  -6.424  0.00  0.00     0.173 HD
+ATOM     53  O4  FAD d 304     -21.528  47.843  -4.396  0.00  0.00    -0.265 OA
+ATOM     54  N5  FAD d 304     -23.438  46.265  -2.910  0.00  0.00    -0.242 NA
+ATOM     55  C5X FAD d 304     -24.317  45.513  -2.264  0.00  0.00     0.062 A 
+ATOM     56  C9A FAD d 304     -24.642  44.217  -2.743  0.00  0.00     0.162 A 
+ATOM     57  C6  FAD d 304     -24.915  46.009  -1.098  0.00  0.00     0.037 A 
+ATOM     58  C9  FAD d 304     -25.583  43.476  -1.995  0.00  0.00     0.012 A 
+ATOM     59  C8  FAD d 304     -26.153  43.984  -0.880  0.00  0.00    -0.057 A 
+ATOM     60  C7  FAD d 304     -25.785  45.296  -0.410  0.00  0.00    -0.054 A 
+ATOM     61  C8M FAD d 304     -27.154  43.087  -0.163  0.00  0.00     0.048 C 
+ATOM     62  C7M FAD d 304     -26.394  45.896   0.846  0.00  0.00     0.049 C 
+ENDBRANCH  42  43
+ENDBRANCH  39  42
+ENDBRANCH  38  39
+BRANCH  38  63
+ATOM     63  O3' FAD d 304     -26.315  40.429  -5.444  0.00  0.00    -0.390 OA
+ATOM     64  H   FAD d 304     -25.471  40.197  -5.025  0.00  0.00     0.210 HD
+ENDBRANCH  38  63
+ENDBRANCH  35  38
+ENDBRANCH  34  35
+ENDBRANCH   1  34
+TORSDOF 21

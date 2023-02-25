@@ -1,0 +1,49 @@
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O3_5  and  C3_4 
+REMARK    2  A    between atoms: C4A_7  and  C4_6 
+REMARK    3  A    between atoms: C4A_7  and  O4A_8 
+REMARK    4  A    between atoms: C5_9  and  C5A_11 
+REMARK    5  A    between atoms: C5A_11  and  O4P_12 
+REMARK    6  A    between atoms: O4P_12  and  P_13 
+REMARK    7  A    between atoms: O1P_14  and  P_13 
+REMARK    8  A    between atoms: P_13  and  O3P_16 
+ROOT
+ATOM      1  N1  PLP d 411       7.479  -1.082  11.477  0.00  0.00    -0.262 NA
+ATOM      2  C2  PLP d 411       8.182  -1.396  10.340  0.00  0.00     0.064 A 
+ATOM      3  C2A PLP d 411       7.729  -2.621   9.534  0.00  0.00     0.073 C 
+ATOM      4  C3  PLP d 411       9.279  -0.489  10.090  0.00  0.00     0.099 A 
+ATOM      5  C4  PLP d 411       9.675   0.622  10.829  0.00  0.00     0.010 A 
+ATOM      6  C5  PLP d 411       8.815   0.804  11.965  0.00  0.00    -0.005 A 
+ATOM      7  C6  PLP d 411       7.768  -0.020  12.250  0.00  0.00     0.127 A 
+ENDROOT
+BRANCH   6   8
+ATOM      8  C5A PLP d 411       9.014   1.960  12.945  0.00  0.00     0.221 C 
+BRANCH   8   9
+ATOM      9  O4P PLP d 411      10.279   2.621  13.142  0.00  0.00    -0.292 OA
+BRANCH   9  10
+ATOM     10  P   PLP d 411      10.169   3.854  14.158  0.00  0.00     0.391 P 
+ATOM     11  O2P PLP d 411      11.256   4.813  13.803  0.00  0.00    -0.632 OA
+BRANCH  10  12
+ATOM     12  O1P PLP d 411       8.861   4.481  14.047  0.00  0.00    -0.307 OA
+ATOM     13  H   PLP d 411       8.783   4.916  13.184  0.00  0.00     0.222 HD
+ENDBRANCH  10  12
+BRANCH  10  14
+ATOM     14  O3P PLP d 411      10.266   3.172  15.534  0.00  0.00    -0.307 OA
+ATOM     15  H   PLP d 411      11.134   2.748  15.624  0.00  0.00     0.222 HD
+ENDBRANCH  10  14
+ENDBRANCH   9  10
+ENDBRANCH   8   9
+ENDBRANCH   6   8
+BRANCH   5  16
+ATOM     16  C4A PLP d 411      10.832   1.452  10.352  0.00  0.00     0.206 C 
+BRANCH  16  17
+ATOM     17  O4A PLP d 411      11.986   1.526  11.293  0.00  0.00    -0.396 OA
+ATOM     18  H   PLP d 411      11.705   1.955  12.117  0.00  0.00     0.209 HD
+ENDBRANCH  16  17
+ENDBRANCH   5  16
+BRANCH   4  19
+ATOM     19  O3  PLP d 411       9.936  -0.877   8.974  0.00  0.00    -0.358 OA
+ATOM     20  H   PLP d 411       9.646  -1.630   8.497  0.00  0.00     0.217 HD
+ENDBRANCH   4  19
+TORSDOF 8

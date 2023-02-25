@@ -1,0 +1,47 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C12_18  and  C13_2 
+REMARK    2  A    between atoms: C02_9  and  N01_8 
+REMARK    3  A    between atoms: C06_13  and  C05_12 
+REMARK    4  A    between atoms: N11_17  and  C12_18 
+REMARK    5  A    between atoms: C16_20  and  O17_21 
+ROOT
+ATOM      1  C10 JCH d   1     -23.397  21.018 -11.269  0.00  0.00     0.045 A 
+ATOM      2  C21 JCH d   1     -25.101  22.306 -10.632  0.00  0.00     0.092 A 
+ATOM      3  C22 JCH d   1     -25.571  21.025 -10.787  0.00  0.00     0.031 A 
+ATOM      4  C06 JCH d   1     -22.021  19.124 -11.964  0.00  0.00    -0.003 A 
+ATOM      5  C07 JCH d   1     -23.108  18.272 -11.887  0.00  0.00     0.015 A 
+ATOM      6  C08 JCH d   1     -24.359  18.802 -11.499  0.00  0.00     0.014 A 
+ATOM      7  C09 JCH d   1     -24.481  20.192 -11.200  0.00  0.00    -0.008 A 
+ATOM      8  N11 JCH d   1     -23.797  22.286 -10.925  0.00  0.00    -0.352 N 
+ATOM      9  C23 JCH d   1     -22.120  20.497 -11.652  0.00  0.00     0.044 A 
+ENDROOT
+BRANCH   4  10
+ATOM     10  C05 JCH d   1     -20.656  18.593 -12.280  0.00  0.00     0.090 A 
+ATOM     11  C24 JCH d   1     -20.258  17.316 -12.197  0.00  0.00     0.083 A 
+ATOM     12  C02 JCH d   1     -18.839  17.317 -12.506  0.00  0.00     0.117 A 
+ATOM     13  N03 JCH d   1     -18.479  18.598 -12.705  0.00  0.00    -0.262 N 
+ATOM     14  N04 JCH d   1     -19.566  19.383 -12.543  0.00  0.00    -0.173 NA
+ATOM     15  H8  JCH d   1     -17.532  18.926 -12.942  0.00  0.00     0.191 HD
+BRANCH  12  16
+ATOM     16  N01 JCH d   1     -17.954  16.197 -12.571  0.00  0.00    -0.384 N 
+ATOM     17  H6  JCH d   1     -16.961  16.338 -12.803  0.00  0.00     0.157 HD
+ATOM     18  H7  JCH d   1     -18.309  15.248 -12.386  0.00  0.00     0.157 HD
+ENDBRANCH  12  16
+ENDBRANCH   4  10
+BRANCH   8  19
+ATOM     19  C12 JCH d   1     -22.896  23.441 -10.891  0.00  0.00     0.167 C 
+BRANCH  19  20
+ATOM     20  C13 JCH d   1     -22.176  23.571  -9.564  0.00  0.00    -0.040 A 
+ATOM     21  C20 JCH d   1     -21.034  24.283  -9.538  0.00  0.00     0.011 A 
+ATOM     22  C19 JCH d   1     -20.297  24.439  -8.293  0.00  0.00     0.037 A 
+ATOM     23  C16 JCH d   1     -20.773  23.857  -7.133  0.00  0.00     0.068 A 
+ATOM     24  C15 JCH d   1     -21.933  23.134  -7.148  0.00  0.00     0.037 A 
+ATOM     25  C14 JCH d   1     -22.662  22.973  -8.393  0.00  0.00     0.011 A 
+BRANCH  23  26
+ATOM     26  O17 JCH d   1     -20.050  24.024  -5.927  0.00  0.00    -0.356 OA
+ATOM     27  C18 JCH d   1     -20.503  25.163  -5.150  0.00  0.00     0.210 C 
+ENDBRANCH  23  26
+ENDBRANCH  19  20
+ENDBRANCH   8  19
+TORSDOF 5

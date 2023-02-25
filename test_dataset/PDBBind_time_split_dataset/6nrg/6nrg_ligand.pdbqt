@@ -1,0 +1,44 @@
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C12_3  and  C13_14 
+REMARK    2  A    between atoms: C8_6  and  C9_20 
+REMARK    3  A    between atoms: C1_7  and  C_24 
+REMARK       I    between atoms: C_24  and  N_26 
+ROOT
+ATOM      1  C7  KYY d   1      27.417  -5.630   7.979  0.00  0.00     0.128 A 
+ATOM      2  C8  KYY d   1      27.217  -6.623   7.115  0.00  0.00     0.053 C 
+ATOM      3  C1  KYY d   1      26.816  -3.878  11.072  0.00  0.00     0.066 A 
+ATOM      4  O2  KYY d   1      26.671  -5.440   9.129  0.00  0.00    -0.305 OA
+ATOM      5  C2  KYY d   1      27.598  -2.881  11.662  0.00  0.00     0.020 A 
+ATOM      6  C3  KYY d   1      28.718  -2.376  11.007  0.00  0.00     0.002 A 
+ATOM      7  C4  KYY d   1      29.071  -2.848   9.749  0.00  0.00     0.018 A 
+ATOM      8  C5  KYY d   1      28.315  -3.851   9.158  0.00  0.00     0.052 A 
+ATOM      9  C6  KYY d   1      28.488  -4.634   7.921  0.00  0.00     0.218 A 
+ATOM     10  O1  KYY d   1      29.340  -4.497   6.999  0.00  0.00    -0.284 OA
+ATOM     11  C16 KYY d   1      27.213  -4.378   9.829  0.00  0.00     0.106 A 
+ENDROOT
+BRANCH   2  12
+ATOM     12  C9  KYY d   1      26.063  -7.473   6.891  0.00  0.00    -0.030 A 
+ATOM     13  C10 KYY d   1      24.874  -7.468   7.621  0.00  0.00     0.012 A 
+ATOM     14  C11 KYY d   1      23.842  -8.331   7.302  0.00  0.00     0.019 A 
+ATOM     15  C12 KYY d   1      23.960  -9.230   6.241  0.00  0.00     0.052 A 
+ATOM     16  C14 KYY d   1      25.152  -9.204   5.526  0.00  0.00     0.131 A 
+ATOM     17  F   KYY d   1      25.318 -10.056   4.488  0.00  0.00    -0.205 F 
+ATOM     18  C15 KYY d   1      26.190  -8.359   5.821  0.00  0.00     0.054 A 
+BRANCH  15  19
+ATOM     19  C13 KYY d   1      22.841 -10.140   5.968  0.00  0.00     0.182 A 
+ATOM     20  N4  KYY d   1      22.817 -11.065   5.005  0.00  0.00    -0.108 NA
+ATOM     21  N3  KYY d   1      21.652 -11.740   5.076  0.00  0.00    -0.023 NA
+ATOM     22  N2  KYY d   1      20.995 -11.224   6.063  0.00  0.00    -0.046 NA
+ATOM     23  N1  KYY d   1      21.703 -10.221   6.642  0.00  0.00    -0.239 N 
+ATOM     24  H7  KYY d   1      21.414  -9.641   7.443  0.00  0.00     0.192 HD
+ENDBRANCH  15  19
+ENDBRANCH   2  12
+BRANCH   3  25
+ATOM     25  C   KYY d   1      25.572  -4.307  11.796  0.00  0.00     0.252 C 
+ATOM     26  O   KYY d   1      25.159  -3.634  12.752  0.00  0.00    -0.268 OA
+ATOM     27  N   KYY d   1      24.946  -5.416  11.381  0.00  0.00    -0.366 N 
+ATOM     28  H9  KYY d   1      24.116  -5.725  11.845  0.00  0.00     0.159 HD
+ATOM     29  H10 KYY d   1      25.309  -5.935  10.607  0.00  0.00     0.159 HD
+ENDBRANCH   3  25
+TORSDOF 3

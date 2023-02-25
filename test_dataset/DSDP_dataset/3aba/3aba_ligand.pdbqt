@@ -1,0 +1,92 @@
+REMARK  12 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1P_21  and  C2_3 
+REMARK    2  A    between atoms: C3_4  and  OA3_38 
+REMARK    3  A    between atoms: C5_6  and  OA5_39 
+REMARK    4  A    between atoms: C7_8  and  OA7_40 
+REMARK    5  A    between atoms: C9_10  and  OA9_41 
+REMARK    6  A    between atoms: C11_12  and  OB1_42 
+REMARK    7  A    between atoms: C13_14  and  OB3_43 
+REMARK    8  A    between atoms: OB5_44  and  C15_16 
+REMARK    9  A    between atoms: C2P_32  and  C1P_21 
+REMARK   10  A    between atoms: C3P_34  and  C2P_32 
+REMARK   11  A    between atoms: C4P_35  and  C3P_34 
+REMARK   12  A    between atoms: C5P_36  and  C4P_35 
+ROOT
+ATOM      1  C1  FLI d 404       1.940  42.543  22.514  0.00  0.00     0.265 C 
+ATOM      2  O1  FLI d 404       1.069  43.424  22.379  0.00  0.00    -0.265 OA
+ATOM      3  C2  FLI d 404       1.957  41.625  23.743  0.00  0.00     0.114 C 
+ATOM      4  C3  FLI d 404       2.028  42.426  25.073  0.00  0.00     0.134 C 
+ATOM      5  C4  FLI d 404       3.241  43.437  25.112  0.00  0.00     0.064 C 
+ATOM      6  C5  FLI d 404       3.294  44.182  26.485  0.00  0.00     0.123 C 
+ATOM      7  C6  FLI d 404       4.507  45.137  26.493  0.00  0.00     0.063 C 
+ATOM      8  C7  FLI d 404       4.548  45.914  27.839  0.00  0.00     0.123 C 
+ATOM      9  C8  FLI d 404       5.373  47.218  27.603  0.00  0.00     0.063 C 
+ATOM     10  C9  FLI d 404       5.390  48.066  28.905  0.00  0.00     0.123 C 
+ATOM     11  C10 FLI d 404       6.277  49.340  28.670  0.00  0.00     0.063 C 
+ATOM     12  C11 FLI d 404       6.133  50.314  29.935  0.00  0.00     0.123 C 
+ATOM     13  C12 FLI d 404       6.976  51.601  29.755  0.00  0.00     0.063 C 
+ATOM     14  C13 FLI d 404       6.220  52.660  28.937  0.00  0.00     0.123 C 
+ATOM     15  C14 FLI d 404       7.164  53.862  28.575  0.00  0.00     0.068 C 
+ATOM     16  C15 FLI d 404       8.441  53.606  27.683  0.00  0.00     0.149 C 
+ATOM     17  C16 FLI d 404       7.928  52.993  26.364  0.00  0.00    -0.055 C 
+ATOM     18  C17 FLI d 404       7.904  51.601  26.223  0.00  0.00     0.005 C 
+ATOM     19  C18 FLI d 404       7.254  50.961  25.133  0.00  0.00     0.000 C 
+ATOM     20  C19 FLI d 404       7.259  49.580  24.969  0.00  0.00     0.000 C 
+ATOM     21  C20 FLI d 404       6.634  48.900  23.903  0.00  0.00     0.000 C 
+ATOM     22  C21 FLI d 404       6.677  47.475  23.804  0.00  0.00     0.000 C 
+ATOM     23  C22 FLI d 404       5.958  46.857  22.757  0.00  0.00     0.000 C 
+ATOM     24  C23 FLI d 404       5.962  45.510  22.459  0.00  0.00    -0.000 C 
+ATOM     25  C24 FLI d 404       5.230  45.097  21.301  0.00  0.00    -0.004 C 
+ATOM     26  C25 FLI d 404       5.051  43.727  21.038  0.00  0.00    -0.024 C 
+ATOM     27  C26 FLI d 404       4.320  43.267  19.882  0.00  0.00     0.059 C 
+ATOM     28  C27 FLI d 404       2.837  43.272  20.319  0.00  0.00     0.131 C 
+ATOM     29  C28 FLI d 404       1.913  42.572  19.316  0.00  0.00     0.040 C 
+ATOM     30  C29 FLI d 404       7.302  53.979  25.298  0.00  0.00     0.046 C 
+ATOM     31  O30 FLI d 404       2.857  42.361  21.506  0.00  0.00    -0.316 OA
+ENDROOT
+BRANCH   3  32
+ATOM     32  C1P FLI d 404       0.708  40.740  23.663  0.00  0.00     0.017 C 
+BRANCH  32  33
+ATOM     33  C2P FLI d 404       0.525  39.979  22.285  0.00  0.00     0.001 C 
+BRANCH  33  34
+ATOM     34  C3P FLI d 404      -0.723  39.132  22.190  0.00  0.00     0.000 C 
+BRANCH  34  35
+ATOM     35  C4P FLI d 404      -0.718  38.485  20.804  0.00  0.00    -0.000 C 
+BRANCH  35  36
+ATOM     36  C5P FLI d 404      -1.944  37.607  20.416  0.00  0.00    -0.005 C 
+ATOM     37  C6P FLI d 404      -3.018  38.475  19.689  0.00  0.00     0.005 C 
+ENDBRANCH  35  36
+ENDBRANCH  34  35
+ENDBRANCH  33  34
+ENDBRANCH  32  33
+ENDBRANCH   3  32
+BRANCH   4  38
+ATOM     38  OA3 FLI d 404       2.177  41.428  26.119  0.00  0.00    -0.395 OA
+ATOM     39  H   FLI d 404       2.986  40.915  25.964  0.00  0.00     0.210 HD
+ENDBRANCH   4  38
+BRANCH   6  40
+ATOM     40  OA5 FLI d 404       3.520  43.178  27.551  0.00  0.00    -0.395 OA
+ATOM     41  H   FLI d 404       4.351  42.708  27.381  0.00  0.00     0.210 HD
+ENDBRANCH   6  40
+BRANCH   8  42
+ATOM     42  OA7 FLI d 404       5.239  45.057  28.823  0.00  0.00    -0.395 OA
+ATOM     43  H   FLI d 404       6.125  44.838  28.495  0.00  0.00     0.210 HD
+ENDBRANCH   8  42
+BRANCH  10  44
+ATOM     44  OA9 FLI d 404       6.001  47.244  29.901  0.00  0.00    -0.395 OA
+ATOM     45  H   FLI d 404       6.887  46.982  29.605  0.00  0.00     0.210 HD
+ENDBRANCH  10  44
+BRANCH  12  46
+ATOM     46  OB1 FLI d 404       6.610  49.632  31.131  0.00  0.00    -0.395 OA
+ATOM     47  H   FLI d 404       7.547  49.406  31.022  0.00  0.00     0.210 HD
+ENDBRANCH  12  46
+BRANCH  14  48
+ATOM     48  OB3 FLI d 404       5.009  53.047  29.620  0.00  0.00    -0.395 OA
+ATOM     49  H   FLI d 404       5.233  53.433  30.481  0.00  0.00     0.210 HD
+ENDBRANCH  14  48
+BRANCH  16  50
+ATOM     50  OB5 FLI d 404       8.969  54.977  27.548  0.00  0.00    -0.391 OA
+ATOM     51  H   FLI d 404       8.270  55.561  27.215  0.00  0.00     0.210 HD
+ENDBRANCH  16  50
+TORSDOF 12

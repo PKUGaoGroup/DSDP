@@ -1,0 +1,70 @@
+REMARK  10 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C60_4  and  C63_2 
+REMARK    2  A    between atoms: C60_4  and  C57_5 
+REMARK    3  A    between atoms: C54_6  and  C57_5 
+REMARK    4  A    between atoms: C54_6  and  C48_7 
+REMARK    5  A    between atoms: C48_7  and  C38_9 
+REMARK    6  A    between atoms: C7_27  and  O6_28 
+REMARK    7  A    between atoms: O6_28  and  S1_29 
+REMARK    8  A    between atoms: O2_31  and  S1_29 
+REMARK    9  A    between atoms: O4_32  and  S1_29 
+REMARK   10  A    between atoms: S1_29  and  O3_30 
+ROOT
+ATOM      1  C38 C3S d 600      27.870  -0.010  15.149  0.00  0.00    -0.002 C 
+ATOM      2  C35 C3S d 600      26.676   0.385  14.263  0.00  0.00     0.006 C 
+ATOM      3  C29 C3S d 600      27.206  -0.438  16.463  0.00  0.00    -0.033 C 
+ATOM      4  C26 C3S d 600      28.065  -0.393  17.730  0.00  0.00     0.011 C 
+ATOM      5  C40 C3S d 600      26.608  -1.837  16.273  0.00  0.00     0.016 C 
+ATOM      6  C30 C3S d 600      26.187   0.700  16.536  0.00  0.00     0.023 C 
+ATOM      7  C32 C3S d 600      25.465   0.549  15.197  0.00  0.00     0.010 C 
+ATOM      8  C18 C3S d 600      25.345   0.733  17.820  0.00  0.00    -0.070 C 
+ATOM      9  C15 C3S d 600      24.198   1.519  17.881  0.00  0.00     0.004 C 
+ATOM     10  C20 C3S d 600      25.864   0.130  18.966  0.00  0.00     0.027 C 
+ATOM     11  C23 C3S d 600      27.216  -0.596  18.996  0.00  0.00     0.011 C 
+ATOM     12  C22 C3S d 600      24.955  -0.035  20.193  0.00  0.00    -0.013 C 
+ATOM     13  C44 C3S d 600      24.507  -1.498  20.123  0.00  0.00     0.021 C 
+ATOM     14  C12 C3S d 600      23.719   0.870  20.165  0.00  0.00    -0.069 C 
+ATOM     15  C9  C3S d 600      22.815   0.956  21.400  0.00  0.00     0.068 C 
+ATOM     16  C13 C3S d 600      23.402   1.596  19.023  0.00  0.00     0.004 C 
+ATOM     17  C1  C3S d 600      25.706   0.258  21.496  0.00  0.00     0.017 C 
+ATOM     18  C4  C3S d 600      24.786   0.177  22.720  0.00  0.00     0.035 C 
+ATOM     19  C7  C3S d 600      23.613   1.163  22.690  0.00  0.00     0.146 C 
+ENDROOT
+BRANCH   1  20
+ATOM     20  C48 C3S d 600      28.765  -1.059  14.473  0.00  0.00    -0.014 C 
+ATOM     21  C50 C3S d 600      29.872  -1.567  15.399  0.00  0.00     0.010 C 
+BRANCH  20  22
+ATOM     22  C54 C3S d 600      29.380  -0.529  13.174  0.00  0.00     0.005 C 
+BRANCH  22  23
+ATOM     23  C57 C3S d 600      30.318   0.659  13.398  0.00  0.00     0.001 C 
+BRANCH  23  24
+ATOM     24  C60 C3S d 600      31.083   0.994  12.113  0.00  0.00     0.004 C 
+BRANCH  24  25
+ATOM     25  C63 C3S d 600      32.118   2.105  12.305  0.00  0.00    -0.023 C 
+ATOM     26  C69 C3S d 600      31.465   3.382  12.838  0.00  0.00     0.009 C 
+ATOM     27  C65 C3S d 600      33.257   1.662  13.225  0.00  0.00     0.009 C 
+ENDBRANCH  24  25
+ENDBRANCH  23  24
+ENDBRANCH  22  23
+ENDBRANCH  20  22
+ENDBRANCH   1  20
+BRANCH  19  28
+ATOM     28  O6  C3S d 600      22.803   0.926  23.852  0.00  0.00    -0.271 OA
+BRANCH  28  29
+ATOM     29  S1  C3S d 600      21.807   1.896  24.217  0.00  0.00     0.220 S 
+BRANCH  29  30
+ATOM     30  O2  C3S d 600      20.566   1.691  23.399  0.00  0.00    -0.286 OA
+ATOM     31  H   C3S d 600      20.770   1.832  22.461  0.00  0.00     0.232 HD
+ENDBRANCH  29  30
+BRANCH  29  32
+ATOM     32  O4  C3S d 600      22.295   3.294  23.991  0.00  0.00    -0.286 OA
+ATOM     33  H   C3S d 600      22.520   3.411  23.055  0.00  0.00     0.232 HD
+ENDBRANCH  29  32
+BRANCH  29  34
+ATOM     34  O3  C3S d 600      21.447   1.669  25.654  0.00  0.00    -0.286 OA
+ATOM     35  H   C3S d 600      21.135   0.758  25.769  0.00  0.00     0.232 HD
+ENDBRANCH  29  34
+ENDBRANCH  28  29
+ENDBRANCH  19  28
+TORSDOF 10

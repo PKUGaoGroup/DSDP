@@ -1,0 +1,106 @@
+REMARK  18 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1C_9  and  N1_1 
+REMARK    2  A    between atoms: C2C_10  and  O2C_11 
+REMARK    3  A    between atoms: O3C_15  and  C3C_12 
+REMARK    4  A    between atoms: C4C_13  and  C5C_16 
+REMARK    5  A    between atoms: C5C_16  and  O5C_17 
+REMARK    6  A    between atoms: O5C_17  and  PA_18 
+REMARK    7  A    between atoms: O3A_21  and  PA_18 
+REMARK    8  A    between atoms: PA_18  and  O1A_19 
+REMARK    9  A    between atoms: O3A_21  and  PB_22 
+REMARK   10  A    between atoms: PB_22  and  O1B_23 
+REMARK   11  A    between atoms: PB_22  and  O3B_25 
+REMARK   12  A    between atoms: C1'_26  and  O3B_25 
+REMARK   13  A    between atoms: C2'_27  and  O2'_32 
+REMARK   14  A    between atoms: C3'_28  and  O3'_33 
+REMARK   15  A    between atoms: O4'_34  and  C4'_29 
+REMARK   16  A    between atoms: C6'_31  and  C5'_30 
+REMARK   17  A    between atoms: O6'_37  and  C6'_31 
+REMARK   18  A    between atoms: O6'_36  and  C6'_31 
+ROOT
+ATOM      1  PA  UPG d 402      70.470  99.231  26.749  0.00  0.00     0.401 P 
+ATOM      2  O2A UPG d 402      69.137  99.704  26.406  0.00  0.00    -0.631 OA
+ENDROOT
+BRANCH   1   3
+ATOM      3  O5C UPG d 402      71.503  99.541  25.610  0.00  0.00    -0.294 OA
+BRANCH   3   4
+ATOM      4  C5C UPG d 402      71.081  99.434  24.241  0.00  0.00     0.215 C 
+BRANCH   4   5
+ATOM      5  C4C UPG d 402      72.030 100.326  23.420  0.00  0.00     0.180 C 
+ATOM      6  O4C UPG d 402      71.672 101.714  23.684  0.00  0.00    -0.353 OA
+ATOM      7  C1C UPG d 402      72.834 102.449  24.116  0.00  0.00     0.263 C 
+ATOM      8  C2C UPG d 402      73.796 101.405  24.695  0.00  0.00     0.198 C 
+ATOM      9  C3C UPG d 402      73.500 100.253  23.744  0.00  0.00     0.182 C 
+BRANCH   7  10
+ATOM     10  N1  UPG d 402      72.325 103.446  25.096  0.00  0.00    -0.280 N 
+ATOM     11  C2  UPG d 402      72.462 104.836  24.828  0.00  0.00     0.331 A 
+ATOM     12  O2  UPG d 402      73.040 105.253  23.822  0.00  0.00    -0.246 OA
+ATOM     13  N3  UPG d 402      71.906 105.653  25.780  0.00  0.00    -0.275 N 
+ATOM     14  C4  UPG d 402      71.254 105.300  26.944  0.00  0.00     0.250 A 
+ATOM     15  H   UPG d 402      71.982 106.620  25.610  0.00  0.00     0.173 HD
+ATOM     16  C5  UPG d 402      71.178 103.858  27.168  0.00  0.00     0.092 A 
+ATOM     17  O4  UPG d 402      70.814 106.116  27.731  0.00  0.00    -0.268 OA
+ATOM     18  C6  UPG d 402      71.680 103.013  26.244  0.00  0.00     0.104 A 
+ENDBRANCH   7  10
+BRANCH   8  19
+ATOM     19  O2C UPG d 402      75.154 101.814  24.813  0.00  0.00    -0.388 OA
+ATOM     20  H   UPG d 402      75.488 102.081  23.942  0.00  0.00     0.210 HD
+ENDBRANCH   8  19
+BRANCH   9  21
+ATOM     21  O3C UPG d 402      74.284 100.415  22.549  0.00  0.00    -0.390 OA
+ATOM     22  H   UPG d 402      74.077 101.270  22.140  0.00  0.00     0.210 HD
+ENDBRANCH   9  21
+ENDBRANCH   4   5
+ENDBRANCH   3   4
+ENDBRANCH   1   3
+BRANCH   1  23
+ATOM     23  O3A UPG d 402      70.354  97.638  26.706  0.00  0.00    -0.195 OA
+BRANCH  23  24
+ATOM     24  PB  UPG d 402      71.406  96.437  26.948  0.00  0.00     0.404 P 
+ATOM     25  O2B UPG d 402      71.753  95.851  25.636  0.00  0.00    -0.631 OA
+BRANCH  24  26
+ATOM     26  O1B UPG d 402      72.509  96.828  27.826  0.00  0.00    -0.307 OA
+ATOM     27  H   UPG d 402      73.095  97.442  27.356  0.00  0.00     0.222 HD
+ENDBRANCH  24  26
+BRANCH  24  28
+ATOM     28  O3B UPG d 402      70.508  95.426  27.830  0.00  0.00    -0.263 OA
+BRANCH  28  29
+ATOM     29  C1' UPG d 402      69.125  95.239  27.822  0.00  0.00     0.303 C 
+ATOM     30  O5' UPG d 402      68.691  94.640  26.604  0.00  0.00    -0.345 OA
+ATOM     31  C5' UPG d 402      69.369  93.380  26.359  0.00  0.00     0.210 C 
+ATOM     32  C4' UPG d 402      69.096  92.385  27.477  0.00  0.00     0.183 C 
+ATOM     33  C3' UPG d 402      69.522  92.965  28.831  0.00  0.00     0.183 C 
+ATOM     34  C2' UPG d 402      68.825  94.333  29.001  0.00  0.00     0.205 C 
+BRANCH  31  35
+ATOM     35  C6' UPG d 402      68.724  92.863  25.084  0.00  0.00     0.285 C 
+BRANCH  35  36
+ATOM     36  O6' UPG d 402      69.195  93.443  23.905  0.00  0.00    -0.369 OA
+ATOM     37  H   UPG d 402      68.872  94.280  23.633  0.00  0.00     0.212 HD
+ENDBRANCH  35  36
+BRANCH  35  38
+ATOM     38  O6' UPG d 402      69.650  91.867  24.635  0.00  0.00    -0.369 OA
+ATOM     39  H   UPG d 402      69.778  91.086  25.137  0.00  0.00     0.212 HD
+ENDBRANCH  35  38
+ENDBRANCH  31  35
+BRANCH  32  40
+ATOM     40  O4' UPG d 402      69.877  91.212  27.170  0.00  0.00    -0.390 OA
+ATOM     41  H   UPG d 402      70.815  91.453  27.116  0.00  0.00     0.210 HD
+ENDBRANCH  32  40
+BRANCH  33  42
+ATOM     42  O3' UPG d 402      69.159  92.067  29.890  0.00  0.00    -0.390 OA
+ATOM     43  H   UPG d 402      68.199  91.930  29.883  0.00  0.00     0.210 HD
+ENDBRANCH  33  42
+BRANCH  34  44
+ATOM     44  O2' UPG d 402      69.260  94.960  30.201  0.00  0.00    -0.388 OA
+ATOM     45  H   UPG d 402      70.217  95.113  30.157  0.00  0.00     0.210 HD
+ENDBRANCH  34  44
+ENDBRANCH  28  29
+ENDBRANCH  24  28
+ENDBRANCH  23  24
+ENDBRANCH   1  23
+BRANCH   1  46
+ATOM     46  O1A UPG d 402      71.091  99.604  28.016  0.00  0.00    -0.307 OA
+ATOM     47  H   UPG d 402      71.172 100.569  28.065  0.00  0.00     0.222 HD
+ENDBRANCH   1  46
+TORSDOF 18

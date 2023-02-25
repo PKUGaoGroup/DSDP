@@ -1,0 +1,62 @@
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C19_19  and  C20_1 
+REMARK    2  A    between atoms: C28_5  and  O29_29 
+REMARK    3  A    between atoms: S08_30  and  C07_12 
+REMARK    4  A    between atoms: C09_13  and  S08_30 
+REMARK    5  A    between atoms: C11_14  and  C12_15 
+REMARK    6  A    between atoms: C12_15  and  O13_27 
+REMARK    7  A    between atoms: C14_16  and  O15_28 
+REMARK    8  A    between atoms: N17_23  and  C16_17 
+ROOT
+ATOM      1  C28 J5W d   1     -17.961   9.065  -1.252  0.00  0.00     0.185 C 
+ATOM      2  C09 J5W d   1     -19.398   8.747  -1.645  0.00  0.00     0.219 C 
+ATOM      3  C11 J5W d   1     -19.301   6.426  -0.718  0.00  0.00     0.177 C 
+ATOM      4  C14 J5W d   1     -17.811   6.593  -0.345  0.00  0.00     0.176 C 
+ATOM      5  C16 J5W d   1     -17.138   7.712  -1.360  0.00  0.00     0.174 C 
+ATOM      6  O10 J5W d   1     -19.976   7.744  -0.763  0.00  0.00    -0.362 OA
+ENDROOT
+BRANCH   5   7
+ATOM      7  N17 J5W d   1     -15.781   7.825  -1.157  0.00  0.00    -0.250 N 
+ATOM      8  C18 J5W d   1     -15.097   8.318  -0.059  0.00  0.00     0.149 A 
+ATOM      9  C19 J5W d   1     -13.723   8.208  -0.324  0.00  0.00     0.111 A 
+ATOM     10  N26 J5W d   1     -13.689   7.647  -1.603  0.00  0.00    -0.130 NA
+ATOM     11  N27 J5W d   1     -14.839   7.432  -2.050  0.00  0.00    -0.065 NA
+BRANCH   9  12
+ATOM     12  C20 J5W d   1     -12.556   8.573   0.449  0.00  0.00     0.035 A 
+ATOM     13  C21 J5W d   1     -11.280   8.775  -0.094  0.00  0.00     0.017 A 
+ATOM     14  C22 J5W d   1     -10.150   9.123   0.625  0.00  0.00     0.001 A 
+ATOM     15  C23 J5W d   1     -10.239   9.224   1.990  0.00  0.00     0.003 A 
+ATOM     16  C24 J5W d   1     -11.463   9.022   2.562  0.00  0.00     0.043 A 
+ATOM     17  C25 J5W d   1     -12.571   8.682   1.784  0.00  0.00     0.129 A 
+ATOM     18  F30 J5W d   1     -13.682   8.478   2.458  0.00  0.00    -0.205 F 
+ENDBRANCH   9  12
+ENDBRANCH   5   7
+BRANCH   1  19
+ATOM     19  O29 J5W d   1     -17.468   9.903  -2.252  0.00  0.00    -0.390 OA
+ATOM     20  H22 J5W d   1     -17.933  10.731  -2.227  0.00  0.00     0.210 HD
+ENDBRANCH   1  19
+BRANCH   4  21
+ATOM     21  O15 J5W d   1     -17.728   7.055   0.895  0.00  0.00    -0.391 OA
+ATOM     22  H21 J5W d   1     -16.815   7.193   1.120  0.00  0.00     0.210 HD
+ENDBRANCH   4  21
+BRANCH   2  23
+ATOM     23  S08 J5W d   1     -20.375  10.161  -1.651  0.00  0.00    -0.095 SA
+BRANCH  23  24
+ATOM     24  C07 J5W d   1     -21.676   9.863  -2.855  0.00  0.00     0.003 A 
+ATOM     25  C04 J5W d   1     -22.135   8.562  -3.176  0.00  0.00     0.019 A 
+ATOM     26  C03 J5W d   1     -23.099   8.326  -4.135  0.00  0.00     0.008 A 
+ATOM     27  C02 J5W d   1     -23.635   9.343  -4.886  0.00  0.00    -0.062 A 
+ATOM     28  C01 J5W d   1     -24.667   9.054  -5.824  0.00  0.00     0.048 C 
+ATOM     29  C05 J5W d   1     -23.177  10.649  -4.582  0.00  0.00     0.008 A 
+ATOM     30  C06 J5W d   1     -22.193  10.906  -3.607  0.00  0.00     0.019 A 
+ENDBRANCH  23  24
+ENDBRANCH   2  23
+BRANCH   3  31
+ATOM     31  C12 J5W d   1     -20.063   5.565   0.324  0.00  0.00     0.198 C 
+BRANCH  31  32
+ATOM     32  O13 J5W d   1     -21.384   5.297  -0.230  0.00  0.00    -0.398 OA
+ATOM     33  H20 J5W d   1     -21.835   6.119  -0.382  0.00  0.00     0.209 HD
+ENDBRANCH  31  32
+ENDBRANCH   3  31
+TORSDOF 8

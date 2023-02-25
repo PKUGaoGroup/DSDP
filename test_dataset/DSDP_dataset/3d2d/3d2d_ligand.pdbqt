@@ -1,0 +1,49 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C3_2  and  O4_24 
+REMARK    2  A    between atoms: O6_22  and  C5_3 
+REMARK    3  A    between atoms: C14_9  and  C16_10 
+REMARK    4  A    between atoms: C16_10  and  C17_11 
+REMARK    5  A    between atoms: C21_14  and  O22_15 
+REMARK    6  A    between atoms: O20_18  and  C19_17 
+ROOT
+ATOM      1  C2  REN d 801      30.272  33.392  20.693  0.00  0.00     0.049 A 
+ATOM      2  C3  REN d 801      31.054  32.458  20.022  0.00  0.00     0.099 A 
+ATOM      3  C5  REN d 801      30.672  32.012  18.764  0.00  0.00     0.101 A 
+ATOM      4  C8  REN d 801      29.513  32.496  18.174  0.00  0.00     0.047 A 
+ATOM      5  C9  REN d 801      28.726  33.427  18.838  0.00  0.00    -0.045 A 
+ATOM      6  C10 REN d 801      27.339  33.733  18.280  0.00  0.00     0.069 C 
+ATOM      7  C11 REN d 801      26.591  34.758  19.118  0.00  0.00     0.277 C 
+ATOM      8  N12 REN d 801      27.553  35.609  19.802  0.00  0.00     0.093 N 
+ATOM      9  C14 REN d 801      28.276  34.860  20.824  0.00  0.00     0.260 C 
+ATOM     10  C1  REN d 801      29.109  33.875  20.101  0.00  0.00    -0.016 A 
+ATOM     11  C13 REN d 801      26.911  36.813  20.317  0.00  0.00     0.310 C 
+ENDROOT
+BRANCH   9  12
+ATOM     12  C16 REN d 801      27.360  34.089  21.770  0.00  0.00     0.079 C 
+BRANCH  12  13
+ATOM     13  C17 REN d 801      26.925  34.915  22.976  0.00  0.00    -0.053 A 
+ATOM     14  C18 REN d 801      25.656  35.482  22.996  0.00  0.00     0.046 A 
+ATOM     15  C19 REN d 801      25.243  36.238  24.088  0.00  0.00     0.099 A 
+ATOM     16  C21 REN d 801      26.100  36.427  25.172  0.00  0.00     0.101 A 
+ATOM     17  C24 REN d 801      27.372  35.856  25.153  0.00  0.00     0.040 A 
+ATOM     18  C25 REN d 801      27.784  35.102  24.057  0.00  0.00     0.010 A 
+BRANCH  15  19
+ATOM     19  O20 REN d 801      23.987  36.790  24.084  0.00  0.00    -0.358 OA
+ATOM     20  H   REN d 801      23.419  36.657  23.351  0.00  0.00     0.217 HD
+ENDBRANCH  15  19
+BRANCH  16  21
+ATOM     21  O22 REN d 801      25.693  37.172  26.254  0.00  0.00    -0.353 OA
+ATOM     22  C23 REN d 801      26.636  37.542  27.258  0.00  0.00     0.210 C 
+ENDBRANCH  16  21
+ENDBRANCH  12  13
+ENDBRANCH   9  12
+BRANCH   2  23
+ATOM     23  O4  REN d 801      32.200  31.976  20.594  0.00  0.00    -0.358 OA
+ATOM     24  H   REN d 801      32.723  31.347  20.137  0.00  0.00     0.217 HD
+ENDBRANCH   2  23
+BRANCH   3  25
+ATOM     25  O6  REN d 801      31.435  31.095  18.095  0.00  0.00    -0.353 OA
+ATOM     26  C7  REN d 801      31.358  31.027  16.673  0.00  0.00     0.210 C 
+ENDBRANCH   3  25
+TORSDOF 6

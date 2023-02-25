@@ -1,0 +1,63 @@
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C19_19  and  C20_1 
+REMARK    2  A    between atoms: C28_5  and  O29_30 
+REMARK    3  A    between atoms: S08_31  and  C07_12 
+REMARK    4  A    between atoms: C09_13  and  S08_31 
+REMARK    5  A    between atoms: C11_14  and  C12_15 
+REMARK    6  A    between atoms: C12_15  and  O13_28 
+REMARK    7  A    between atoms: C14_16  and  O15_29 
+REMARK    8  A    between atoms: N17_24  and  C16_17 
+ROOT
+ATOM      1  C28 J62 d   1     -18.528   9.191  -1.359  0.00  0.00     0.185 C 
+ATOM      2  C09 J62 d   1     -19.970   8.823  -1.680  0.00  0.00     0.219 C 
+ATOM      3  C11 J62 d   1     -19.883   6.595  -0.916  0.00  0.00     0.177 C 
+ATOM      4  C14 J62 d   1     -18.384   6.731  -0.602  0.00  0.00     0.176 C 
+ATOM      5  C16 J62 d   1     -17.792   7.856  -1.533  0.00  0.00     0.174 C 
+ATOM      6  O10 J62 d   1     -20.481   7.888  -0.752  0.00  0.00    -0.362 OA
+ENDROOT
+BRANCH   5   7
+ATOM      7  N17 J62 d   1     -16.408   7.988  -1.291  0.00  0.00    -0.250 N 
+ATOM      8  C18 J62 d   1     -15.777   8.394  -0.138  0.00  0.00     0.148 A 
+ATOM      9  C19 J62 d   1     -14.422   8.348  -0.422  0.00  0.00     0.108 A 
+ATOM     10  N26 J62 d   1     -14.352   7.911  -1.739  0.00  0.00    -0.130 NA
+ATOM     11  N27 J62 d   1     -15.494   7.709  -2.229  0.00  0.00    -0.065 NA
+BRANCH   9  12
+ATOM     12  C20 J62 d   1     -13.316   8.607   0.424  0.00  0.00    -0.004 A 
+ATOM     13  C21 J62 d   1     -13.448   8.479   1.817  0.00  0.00     0.017 A 
+ATOM     14  C22 J62 d   1     -12.385   8.676   2.674  0.00  0.00     0.044 A 
+ATOM     15  C23 J62 d   1     -11.153   8.991   2.110  0.00  0.00     0.122 A 
+ATOM     16  C24 J62 d   1     -10.935   9.107   0.754  0.00  0.00    -0.022 A 
+ATOM     17  F30 J62 d   1     -10.100   9.177   2.975  0.00  0.00    -0.206 F 
+ATOM     18  C25 J62 d   1     -12.038   8.899  -0.064  0.00  0.00     0.023 A 
+ATOM     19  C31 J62 d   1      -9.620   9.450   0.271  0.00  0.00     0.051 C 
+ENDBRANCH   9  12
+ENDBRANCH   5   7
+BRANCH   1  20
+ATOM     20  O29 J62 d   1     -18.039  10.004  -2.418  0.00  0.00    -0.390 OA
+ATOM     21  H24 J62 d   1     -17.098  10.103  -2.332  0.00  0.00     0.210 HD
+ENDBRANCH   1  20
+BRANCH   4  22
+ATOM     22  O15 J62 d   1     -18.198   7.115   0.736  0.00  0.00    -0.391 OA
+ATOM     23  H23 J62 d   1     -17.270   7.223   0.907  0.00  0.00     0.210 HD
+ENDBRANCH   4  22
+BRANCH   2  24
+ATOM     24  S08 J62 d   1     -21.037  10.285  -1.671  0.00  0.00    -0.095 SA
+BRANCH  24  25
+ATOM     25  C07 J62 d   1     -22.334   9.951  -2.843  0.00  0.00     0.003 A 
+ATOM     26  C04 J62 d   1     -23.049  10.940  -3.476  0.00  0.00     0.019 A 
+ATOM     27  C03 J62 d   1     -24.072  10.638  -4.390  0.00  0.00     0.008 A 
+ATOM     28  C02 J62 d   1     -24.429   9.322  -4.728  0.00  0.00    -0.062 A 
+ATOM     29  C01 J62 d   1     -25.573   9.020  -5.743  0.00  0.00     0.048 C 
+ATOM     30  C05 J62 d   1     -23.683   8.330  -4.078  0.00  0.00     0.008 A 
+ATOM     31  C06 J62 d   1     -22.656   8.632  -3.156  0.00  0.00     0.019 A 
+ENDBRANCH  24  25
+ENDBRANCH   2  24
+BRANCH   3  32
+ATOM     32  C12 J62 d   1     -20.587   5.646   0.085  0.00  0.00     0.198 C 
+BRANCH  32  33
+ATOM     33  O13 J62 d   1     -21.915   5.495  -0.354  0.00  0.00    -0.398 OA
+ATOM     34  H22 J62 d   1     -22.341   6.344  -0.368  0.00  0.00     0.209 HD
+ENDBRANCH  32  33
+ENDBRANCH   3  32
+TORSDOF 8

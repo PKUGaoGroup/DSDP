@@ -1,0 +1,108 @@
+REMARK  17 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O1A_2  and  PA_1 
+REMARK    2  A    between atoms: PA_1  and  O3B_9 
+REMARK    3  A    between atoms: PA_1  and  O5D_38 
+REMARK    4  A    between atoms: C5B_5  and  O5B_4 
+REMARK    5  A    between atoms: C4B_6  and  C5B_5 
+REMARK    6  A    between atoms: O3B_9  and  C3B_8 
+REMARK    7  A    between atoms: C2B_10  and  O2B_11 
+REMARK    8  A    between atoms: N9A_13  and  C1B_12 
+REMARK    9  A    between atoms: N6A_18  and  C6A_17 
+REMARK   10  A    between atoms: C1D_31  and  N1U_23 
+REMARK   11  A    between atoms: C2D_32  and  O2D_33 
+REMARK   12  A    between atoms: O3D_35  and  C3D_34 
+REMARK   13  A    between atoms: PU_40  and  O3D_35 
+REMARK   14  A    between atoms: C5D_39  and  C4D_36 
+REMARK   15  A    between atoms: O5D_38  and  C5D_39 
+REMARK   16  A    between atoms: O1X_41  and  PU_40 
+REMARK   17  A    between atoms: PU_40  and  O3X_43 
+ROOT
+ATOM      1  PA  APU d 950      15.983  31.863  39.633  0.00  0.00     0.393 P 
+ATOM      2  O2A APU d 950      15.165  32.538  38.562  0.00  0.00    -0.631 OA
+ENDROOT
+BRANCH   1   3
+ATOM      3  O1A APU d 950      16.470  30.513  39.347  0.00  0.00    -0.307 OA
+ATOM      4  H   APU d 950      16.941  30.512  38.499  0.00  0.00     0.222 HD
+ENDBRANCH   1   3
+BRANCH   1   5
+ATOM      5  O3B APU d 950      17.342  32.718  39.803  0.00  0.00    -0.286 OA
+BRANCH   5   6
+ATOM      6  C3B APU d 950      17.532  34.113  39.959  0.00  0.00     0.197 C 
+ATOM      7  C4B APU d 950      17.149  34.943  38.717  0.00  0.00     0.180 C 
+ATOM      8  O4B APU d 950      18.344  35.027  37.920  0.00  0.00    -0.353 OA
+ATOM      9  C1B APU d 950      19.413  34.304  38.553  0.00  0.00     0.262 C 
+ATOM     10  C2B APU d 950      19.048  34.241  40.018  0.00  0.00     0.199 C 
+BRANCH   7  11
+ATOM     11  C5B APU d 950      16.599  36.295  39.243  0.00  0.00     0.198 C 
+BRANCH  11  12
+ATOM     12  O5B APU d 950      17.657  37.007  39.865  0.00  0.00    -0.398 OA
+ATOM     13  H   APU d 950      17.324  37.855  40.198  0.00  0.00     0.209 HD
+ENDBRANCH  11  12
+ENDBRANCH   7  11
+BRANCH   9  14
+ATOM     14  N9A APU d 950      20.669  35.016  38.278  0.00  0.00    -0.294 N 
+ATOM     15  C8A APU d 950      21.800  34.461  37.761  0.00  0.00     0.214 A 
+ATOM     16  N7A APU d 950      22.740  35.305  37.480  0.00  0.00    -0.236 NA
+ATOM     17  C5A APU d 950      22.184  36.525  37.778  0.00  0.00     0.149 A 
+ATOM     18  C6A APU d 950      22.764  37.777  37.706  0.00  0.00     0.155 A 
+ATOM     19  C4A APU d 950      20.921  36.404  38.260  0.00  0.00     0.167 A 
+ATOM     20  N1A APU d 950      22.091  38.825  38.225  0.00  0.00    -0.222 NA
+ATOM     21  C2A APU d 950      20.857  38.580  38.705  0.00  0.00     0.237 A 
+ATOM     22  N3A APU d 950      20.158  37.443  38.724  0.00  0.00    -0.222 NA
+BRANCH  18  23
+ATOM     23  N6A APU d 950      23.953  37.840  37.125  0.00  0.00    -0.382 N 
+ATOM     24  H   APU d 950      24.373  37.022  36.773  0.00  0.00     0.157 HD
+ATOM     25  H   APU d 950      24.417  38.705  37.046  0.00  0.00     0.157 HD
+ENDBRANCH  18  23
+ENDBRANCH   9  14
+BRANCH  10  26
+ATOM     26  O2B APU d 950      19.747  33.207  40.826  0.00  0.00    -0.388 OA
+ATOM     27  H   APU d 950      19.553  32.328  40.464  0.00  0.00     0.210 HD
+ENDBRANCH  10  26
+ENDBRANCH   5   6
+ENDBRANCH   1   5
+BRANCH   1  28
+ATOM     28  O5D APU d 950      15.202  31.853  41.045  0.00  0.00    -0.294 OA
+BRANCH  28  29
+ATOM     29  C5D APU d 950      13.973  31.249  41.468  0.00  0.00     0.215 C 
+BRANCH  29  30
+ATOM     30  C4D APU d 950      13.302  32.304  42.357  0.00  0.00     0.180 C 
+ATOM     31  C3D APU d 950      13.407  33.679  41.649  0.00  0.00     0.197 C 
+ATOM     32  C2D APU d 950      14.216  34.529  42.623  0.00  0.00     0.199 C 
+ATOM     33  C1D APU d 950      14.085  33.809  43.921  0.00  0.00     0.264 C 
+ATOM     34  O4D APU d 950      14.044  32.439  43.544  0.00  0.00    -0.353 OA
+BRANCH  31  35
+ATOM     35  O3D APU d 950      12.086  34.159  41.519  0.00  0.00    -0.286 OA
+BRANCH  35  36
+ATOM     36  PU  APU d 950      11.025  34.031  40.341  0.00  0.00     0.391 P 
+ATOM     37  O2X APU d 950      11.365  35.037  39.277  0.00  0.00    -0.632 OA
+BRANCH  36  38
+ATOM     38  O1X APU d 950      11.215  32.603  39.776  0.00  0.00    -0.307 OA
+ATOM     39  H   APU d 950      10.592  32.458  39.047  0.00  0.00     0.222 HD
+ENDBRANCH  36  38
+BRANCH  36  40
+ATOM     40  O3X APU d 950       9.680  34.037  40.949  0.00  0.00    -0.307 OA
+ATOM     41  H   APU d 950       9.010  33.960  40.252  0.00  0.00     0.222 HD
+ENDBRANCH  36  40
+ENDBRANCH  35  36
+ENDBRANCH  31  35
+BRANCH  32  42
+ATOM     42  O2D APU d 950      13.775  35.941  42.636  0.00  0.00    -0.388 OA
+ATOM     43  H   APU d 950      12.836  35.984  42.874  0.00  0.00     0.210 HD
+ENDBRANCH  32  42
+BRANCH  33  44
+ATOM     44  N1U APU d 950      15.293  34.025  44.759  0.00  0.00    -0.280 N 
+ATOM     45  C6U APU d 950      16.462  33.435  44.423  0.00  0.00     0.104 C 
+ATOM     46  C5U APU d 950      17.487  33.441  45.277  0.00  0.00     0.092 C 
+ATOM     47  C4U APU d 950      17.431  34.116  46.551  0.00  0.00     0.250 C 
+ATOM     48  N3U APU d 950      16.205  34.739  46.816  0.00  0.00    -0.275 N 
+ATOM     49  O4U APU d 950      18.351  34.108  47.348  0.00  0.00    -0.268 OA
+ATOM     50  C2U APU d 950      15.126  34.592  45.981  0.00  0.00     0.331 C 
+ATOM     51  H   APU d 950      16.115  35.297  47.622  0.00  0.00     0.173 HD
+ATOM     52  O2U APU d 950      13.989  34.954  46.334  0.00  0.00    -0.246 OA
+ENDBRANCH  33  44
+ENDBRANCH  29  30
+ENDBRANCH  28  29
+ENDBRANCH   1  28
+TORSDOF 17

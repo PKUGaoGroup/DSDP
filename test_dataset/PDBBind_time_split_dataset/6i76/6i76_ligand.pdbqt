@@ -1,0 +1,71 @@
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N1_1  and  C12_16 
+REMARK    2  A    between atoms: S1_36  and  C7_6 
+REMARK    3  A    between atoms: C8_7  and  S1_36 
+REMARK    4  A    between atoms: C9_23  and  C10_8 
+REMARK    5  A    between atoms: C10_8  and  O2_33 
+REMARK    6  A    between atoms: C15_10  and  C14_17 
+REMARK    7  A    between atoms: C21_13  and  O4_35 
+REMARK    8  A    between atoms: C11_15  and  O3_34 
+REMARK    9  A    between atoms: C18_19  and  N2_28 
+ROOT
+ATOM      1  N3  H5N d   1      -8.593  10.469   1.834  0.00  0.00    -0.162 NA
+ATOM      2  N2  H5N d   1      -9.487   9.748   2.325  0.00  0.00    -0.066 NA
+ATOM      3  N4  H5N d   1      -7.873  11.124   1.258  0.00  0.00     0.068 N 
+ENDROOT
+BRANCH   2   4
+ATOM      4  C18 H5N d   1     -10.627   9.395   1.529  0.00  0.00     0.176 A 
+ATOM      5  C17 H5N d   1     -10.736   9.621   0.160  0.00  0.00     0.190 A 
+ATOM      6  C16 H5N d   1     -11.861   9.256  -0.542  0.00  0.00     0.173 A 
+ATOM      7  F2  H5N d   1      -9.721  10.188  -0.519  0.00  0.00    -0.200 F 
+ATOM      8  C15 H5N d   1     -12.947   8.669   0.081  0.00  0.00     0.080 A 
+ATOM      9  F1  H5N d   1     -11.919   9.493  -1.862  0.00  0.00    -0.202 F 
+ATOM     10  C20 H5N d   1     -12.844   8.446   1.439  0.00  0.00     0.173 A 
+ATOM     11  C19 H5N d   1     -11.721   8.803   2.148  0.00  0.00     0.190 A 
+ATOM     12  F4  H5N d   1     -13.879   7.873   2.071  0.00  0.00    -0.202 F 
+ATOM     13  F3  H5N d   1     -11.692   8.573   3.474  0.00  0.00    -0.200 F 
+BRANCH   8  14
+ATOM     14  C14 H5N d   1     -14.143   8.285  -0.666  0.00  0.00     0.114 A 
+ATOM     15  C13 H5N d   1     -15.447   8.162  -0.266  0.00  0.00     0.149 A 
+ATOM     16  N1  H5N d   1     -16.129   7.779  -1.318  0.00  0.00    -0.250 N 
+ATOM     17  N6  H5N d   1     -15.295   7.642  -2.378  0.00  0.00    -0.065 NA
+ATOM     18  N5  H5N d   1     -14.081   7.942  -1.980  0.00  0.00    -0.130 NA
+BRANCH  16  19
+ATOM     19  C12 H5N d   1     -17.566   7.513  -1.473  0.00  0.00     0.174 C 
+ATOM     20  C21 H5N d   1     -18.387   8.808  -1.398  0.00  0.00     0.185 C 
+ATOM     21  C8  H5N d   1     -19.858   8.449  -1.580  0.00  0.00     0.219 C 
+ATOM     22  O1  H5N d   1     -20.304   7.477  -0.640  0.00  0.00    -0.362 OA
+ATOM     23  C9  H5N d   1     -19.590   6.234  -0.733  0.00  0.00     0.177 C 
+ATOM     24  C11 H5N d   1     -18.102   6.492  -0.466  0.00  0.00     0.176 C 
+BRANCH  20  25
+ATOM     25  O4  H5N d   1     -18.024   9.745  -2.419  0.00  0.00    -0.390 OA
+ATOM     26  H18 H5N d   1     -18.556  10.527  -2.333  0.00  0.00     0.210 HD
+ENDBRANCH  20  25
+BRANCH  21  27
+ATOM     27  S1  H5N d   1     -20.910   9.943  -1.473  0.00  0.00    -0.095 SA
+BRANCH  27  28
+ATOM     28  C7  H5N d   1     -22.310   9.580  -2.510  0.00  0.00     0.003 A 
+ATOM     29  C4  H5N d   1     -23.301  10.536  -2.671  0.00  0.00     0.019 A 
+ATOM     30  C3  H5N d   1     -24.402  10.274  -3.468  0.00  0.00     0.008 A 
+ATOM     31  C2  H5N d   1     -24.550   9.068  -4.127  0.00  0.00    -0.062 A 
+ATOM     32  C5  H5N d   1     -23.552   8.122  -3.965  0.00  0.00     0.008 A 
+ATOM     33  C1  H5N d   1     -25.760   8.802  -4.992  0.00  0.00     0.048 C 
+ATOM     34  C6  H5N d   1     -22.445   8.366  -3.171  0.00  0.00     0.019 A 
+ENDBRANCH  27  28
+ENDBRANCH  21  27
+BRANCH  23  35
+ATOM     35  C10 H5N d   1     -20.222   5.273   0.250  0.00  0.00     0.198 C 
+BRANCH  35  36
+ATOM     36  O2  H5N d   1     -21.589   5.015  -0.073  0.00  0.00    -0.398 OA
+ATOM     37  H16 H5N d   1     -22.077   5.830  -0.053  0.00  0.00     0.209 HD
+ENDBRANCH  35  36
+ENDBRANCH  23  35
+BRANCH  24  38
+ATOM     38  O3  H5N d   1     -17.952   6.968   0.868  0.00  0.00    -0.391 OA
+ATOM     39  H17 H5N d   1     -17.033   7.131   1.043  0.00  0.00     0.210 HD
+ENDBRANCH  24  38
+ENDBRANCH  16  19
+ENDBRANCH   8  14
+ENDBRANCH   2   4
+TORSDOF 9

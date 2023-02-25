@@ -1,0 +1,42 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O1N_18  and  C1_1 
+REMARK    2  A    between atoms: C1_1  and  N3_16 
+REMARK    3  A    between atoms: C1_1  and  C2_3 
+REMARK    4  A    between atoms: O1N_17  and  C1_2 
+REMARK    5  A    between atoms: N3_16  and  C6_11 
+ROOT
+ATOM      1  C1  3NT d 801      13.560  53.122  81.488  0.00  0.00     0.227 C 
+ATOM      2  C2  3NT d 801      13.628  52.000  79.579  0.00  0.00     0.048 C 
+ATOM      3  C2  3NT d 801      13.756  52.549  80.236  0.00  0.00     0.048 C 
+ATOM      4  C3  3NT d 801      13.734  51.793  80.958  0.00  0.00     0.004 C 
+ATOM      5  C3  3NT d 801      13.915  51.167  80.110  0.00  0.00     0.003 C 
+ATOM      6  C4  3NT d 801      14.272  50.589  81.417  0.00  0.00     0.003 C 
+ATOM      7  C4  3NT d 801      13.860  50.362  81.247  0.00  0.00    -0.009 C 
+ATOM      8  C5  3NT d 801      14.701  49.616  80.517  0.00  0.00     0.011 C 
+ATOM      9  C5  3NT d 801      13.655  50.940  82.503  0.00  0.00     0.108 C 
+ATOM     10  C6  3NT d 801      13.506  52.321  82.627  0.00  0.00     0.220 C 
+ATOM     11  N3  3NT d 801      13.293  52.789  81.860  0.00  0.00    -0.334 N 
+ATOM     12  O2N 3NT d 801      13.291  52.574  83.243  0.00  0.00    -0.274 OA
+ATOM     13  H   3NT d 801      12.343  52.679  81.625  0.00  0.00     0.165 HD
+ENDROOT
+BRANCH   2  14
+ATOM     14  C1  3NT d 801      14.056  51.032  78.678  0.00  0.00     0.226 C 
+BRANCH  14  15
+ATOM     15  O1N 3NT d 801      13.585  51.117  77.854  0.00  0.00    -0.371 OA
+ATOM     16  C7  3NT d 801      13.924  51.292  77.200  0.00  0.00     0.204 C 
+ENDBRANCH  14  15
+BRANCH  14  17
+ATOM     17  N3  3NT d 801      14.108  50.603  78.837  0.00  0.00    -0.341 N 
+ATOM     18  H   3NT d 801      13.175  50.293  78.896  0.00  0.00     0.164 HD
+BRANCH  17  19
+ATOM     19  C6  3NT d 801      14.593  49.833  79.145  0.00  0.00     0.350 C 
+ATOM     20  O2N 3NT d 801      14.884  49.445  78.671  0.00  0.00    -0.284 OA
+ENDBRANCH  17  19
+ENDBRANCH  14  17
+ENDBRANCH   2  14
+BRANCH   1  21
+ATOM     21  O1N 3NT d 801      12.886  53.863  81.440  0.00  0.00    -0.371 OA
+ATOM     22  C7  3NT d 801      13.404  54.613  81.594  0.00  0.00     0.204 C 
+ENDBRANCH   1  21
+TORSDOF 5

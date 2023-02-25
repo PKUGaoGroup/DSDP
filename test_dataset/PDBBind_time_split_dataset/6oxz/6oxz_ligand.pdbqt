@@ -1,0 +1,106 @@
+REMARK  18 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C13_1  and  C15_2 
+REMARK    2  A    between atoms: C12_16  and  C13_1 
+REMARK    3  A    between atoms: C13_1  and  O14_35 
+REMARK    4  A    between atoms: C15_2  and  C28_8 
+REMARK    5  A    between atoms: C15_2  and  N16_32 
+REMARK       I    between atoms: N16_32  and  C17_3 
+REMARK    6  A    between atoms: C17_3  and  O19_37 
+REMARK    7  A    between atoms: O19_37  and  C20_4 
+REMARK    8  A    between atoms: C28_8  and  C29_19 
+REMARK    9  A    between atoms: C01_9  and  C40_30 
+REMARK   10  A    between atoms: S07_42  and  C04_12 
+REMARK   11  A    between atoms: C11_15  and  C37_27 
+REMARK   12  A    between atoms: N10_31  and  C11_15 
+REMARK   13  A    between atoms: N10_31  and  C12_16 
+REMARK   14  A    between atoms: C40_30  and  C35_25 
+REMARK   15  A    between atoms: C35_25  and  O42_41 
+REMARK   16  A    between atoms: C37_27  and  C38_28 
+REMARK   17  A    between atoms: C40_30  and  O41_40 
+REMARK   18  A    between atoms: N10_31  and  S07_42 
+ROOT
+ATOM      1  C13 NJG d   1      70.898  57.488  15.141  0.00  0.00     0.160 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C15 NJG d   1      70.526  57.832  16.580  0.00  0.00     0.121 C 
+BRANCH   2   3
+ATOM      3  C28 NJG d   1      69.116  58.437  16.672  0.00  0.00     0.066 C 
+BRANCH   3   4
+ATOM      4  C29 NJG d   1      68.878  58.903  18.135  0.00  0.00    -0.056 A 
+ATOM      5  C30 NJG d   1      68.495  57.883  19.211  0.00  0.00     0.007 A 
+ATOM      6  C31 NJG d   1      68.265  58.344  20.656  0.00  0.00     0.001 A 
+ATOM      7  C32 NJG d   1      68.418  59.819  21.022  0.00  0.00     0.000 A 
+ATOM      8  C33 NJG d   1      68.803  60.843  19.943  0.00  0.00     0.001 A 
+ATOM      9  C34 NJG d   1      69.034  60.385  18.505  0.00  0.00     0.007 A 
+ENDBRANCH   3   4
+ENDBRANCH   2   3
+BRANCH   2  10
+ATOM     10  N16 NJG d   1      71.468  58.844  17.036  0.00  0.00    -0.329 N 
+ATOM     11  C17 NJG d   1      72.460  58.564  18.102  0.00  0.00     0.361 C 
+ATOM     12  O18 NJG d   1      72.472  57.533  18.685  0.00  0.00    -0.238 OA
+ATOM     13  H39 NJG d   1      71.445  59.753  16.619  0.00  0.00     0.165 HD
+BRANCH  11  14
+ATOM     14  O19 NJG d   1      73.380  59.617  18.381  0.00  0.00    -0.296 OA
+BRANCH  14  15
+ATOM     15  C20 NJG d   1      74.152  59.564  19.593  0.00  0.00     0.166 C 
+ATOM     16  C21 NJG d   1      75.631  60.162  19.205  0.00  0.00     0.204 C 
+ATOM     17  O22 NJG d   1      75.412  61.484  19.073  0.00  0.00    -0.358 OA
+ATOM     18  C24 NJG d   1      74.310  61.813  20.123  0.00  0.00     0.266 C 
+ATOM     19  C23 NJG d   1      73.703  60.402  20.527  0.00  0.00     0.075 C 
+ATOM     20  O27 NJG d   1      73.387  62.487  19.611  0.00  0.00    -0.361 OA
+ATOM     21  C25 NJG d   1      72.216  60.618  20.531  0.00  0.00     0.038 C 
+ATOM     22  C26 NJG d   1      71.989  61.643  19.745  0.00  0.00     0.171 C 
+ENDBRANCH  14  15
+ENDBRANCH  11  14
+ENDBRANCH   2  10
+ENDBRANCH   1   2
+BRANCH   1  23
+ATOM     23  C12 NJG d   1      70.047  56.291  14.653  0.00  0.00     0.169 C 
+BRANCH  23  24
+ATOM     24  N10 NJG d   1      70.403  55.095  15.497  0.00  0.00    -0.304 N 
+BRANCH  24  25
+ATOM     25  C11 NJG d   1      71.284  54.059  14.875  0.00  0.00     0.139 C 
+BRANCH  25  26
+ATOM     26  C37 NJG d   1      72.777  54.454  14.953  0.00  0.00    -0.000 C 
+ATOM     27  C39 NJG d   1      73.213  54.546  16.393  0.00  0.00     0.011 C 
+BRANCH  26  28
+ATOM     28  C38 NJG d   1      73.616  53.391  14.215  0.00  0.00     0.001 C 
+ATOM     29  C36 NJG d   1      73.316  51.984  14.769  0.00  0.00     0.005 C 
+ENDBRANCH  26  28
+ENDBRANCH  25  26
+ENDBRANCH  24  25
+BRANCH  24  30
+ATOM     30  S07 NJG d   1      69.133  54.454  16.494  0.00  0.00     0.260 S 
+ATOM     31  O08 NJG d   1      68.189  55.478  16.955  0.00  0.00    -0.200 OA
+ATOM     32  O09 NJG d   1      69.661  53.842  17.729  0.00  0.00    -0.200 OA
+BRANCH  30  33
+ATOM     33  C04 NJG d   1      68.352  53.212  15.386  0.00  0.00     0.079 A 
+ATOM     34  C03 NJG d   1      67.304  53.664  14.385  0.00  0.00     0.026 A 
+ATOM     35  C02 NJG d   1      66.680  52.625  13.449  0.00  0.00     0.011 A 
+ATOM     36  C01 NJG d   1      67.134  51.166  13.546  0.00  0.00    -0.028 A 
+ATOM     37  C06 NJG d   1      68.201  50.726  14.537  0.00  0.00     0.011 A 
+ATOM     38  C05 NJG d   1      68.824  51.758  15.471  0.00  0.00     0.026 A 
+BRANCH  36  39
+ATOM     39  C40 NJG d   1      66.537  50.143  12.610  0.00  0.00     0.174 C 
+BRANCH  39  40
+ATOM     40  C35 NJG d   1      67.718  49.592  11.794  0.00  0.00     0.200 C 
+BRANCH  40  41
+ATOM     41  O42 NJG d   1      68.503  50.681  11.338  0.00  0.00    -0.398 OA
+ATOM     42  H42 NJG d   1      68.827  51.171  12.085  0.00  0.00     0.209 HD
+ENDBRANCH  40  41
+ENDBRANCH  39  40
+BRANCH  39  43
+ATOM     43  O41 NJG d   1      65.628  50.788  11.770  0.00  0.00    -0.389 OA
+ATOM     44  H41 NJG d   1      65.300  50.171  11.126  0.00  0.00     0.210 HD
+ENDBRANCH  39  43
+ENDBRANCH  36  39
+ENDBRANCH  30  33
+ENDBRANCH  24  30
+ENDBRANCH  23  24
+ENDBRANCH   1  23
+BRANCH   1  45
+ATOM     45  O14 NJG d   1      70.680  58.591  14.314  0.00  0.00    -0.392 OA
+ATOM     46  H40 NJG d   1      70.927  58.371  13.423  0.00  0.00     0.210 HD
+ENDBRANCH   1  45
+TORSDOF 18

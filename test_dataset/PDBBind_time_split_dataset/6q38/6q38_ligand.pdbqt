@@ -1,0 +1,242 @@
+REMARK  29 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C3_3  and  C2_1 
+REMARK    2  A    between atoms: C2_1  and  N_23 
+REMARK       I    between atoms: N1_16  and  C3_3 
+REMARK    3  A    between atoms: C4_6  and  N1_16 
+REMARK    4  A    between atoms: C10_7  and  C23_44 
+REMARK       I    between atoms: N_23  and  C1_17 
+REMARK       I    between atoms: N7_30  and  C18_39 
+REMARK    5  A    between atoms: C19_40  and  N7_30 
+REMARK       I    between atoms: N8_31  and  C20_41 
+REMARK    6  A    between atoms: C21_42  and  N8_31 
+REMARK       I    between atoms: C22_43  and  N9_32 
+REMARK    7  A    between atoms: C18_39  and  C17_38 
+REMARK    8  A    between atoms: C20_41  and  C19_40 
+REMARK    9  A    between atoms: C21_42  and  C22_43 
+REMARK   10  A    between atoms: CA_47  and  CB_50 
+REMARK   11  A    between atoms: CB_50  and  CG_51 
+REMARK   12  A    between atoms: CG_51  and  CD_52 
+REMARK   13  A    between atoms: CD_52  and  NE_53 
+REMARK       I    between atoms: NE_53  and  CZ_54 
+REMARK       I    between atoms: CZ_54  and  NH1_55 
+REMARK   14  A    between atoms: CA_58  and  CB_61 
+REMARK   15  A    between atoms: CB_61  and  CG_62 
+REMARK   16  A    between atoms: CA_66  and  CB_69 
+REMARK   17  A    between atoms: CB_69  and  CG_70 
+REMARK   18  A    between atoms: CZ_75  and  OH_76 
+REMARK   19  A    between atoms: CA_82  and  CB_85 
+REMARK   20  A    between atoms: CB_85  and  CG_86 
+REMARK   21  A    between atoms: CA_93  and  CB_96 
+REMARK   22  A    between atoms: CB_96  and  CG_97 
+REMARK   23  A    between atoms: CG_97  and  CD_98 
+REMARK   24  A    between atoms: CD_98  and  CE_99 
+REMARK   25  A    between atoms: CE_99  and  NZ_100 
+REMARK   26  A    between atoms: CA_102  and  CB_105 
+REMARK   27  A    between atoms: CB_105  and  CG1_106 
+REMARK   28  A    between atoms: CA_110  and  CB_113 
+REMARK   29  A    between atoms: CB_113  and  CG_114 
+ROOT
+ATOM      1  N2  HEK d   1      27.323  65.428  13.082  0.00  0.00    -0.258 N 
+ATOM      2  C5  HEK d   1      26.478  66.562  12.712  0.00  0.00     0.187 C 
+ATOM      3  C4  HEK d   1      25.301  66.050  11.877  0.00  0.00     0.196 C 
+ATOM      4  C10 HEK d   1      30.427  61.044  15.542  0.00  0.00     0.042 A 
+ATOM      5  C11 HEK d   1      30.257  61.262  16.909  0.00  0.00     0.032 A 
+ATOM      6  C12 HEK d   1      29.445  62.301  17.358  0.00  0.00    -0.002 A 
+ATOM      7  C13 HEK d   1      28.791  63.115  16.435  0.00  0.00     0.028 A 
+ATOM      8  N3  HEK d   1      28.533  63.699  12.752  0.00  0.00    -0.130 NA
+ATOM      9  C9  HEK d   1      29.782  61.872  14.625  0.00  0.00     0.032 A 
+ATOM     10  C8  HEK d   1      28.968  62.912  15.068  0.00  0.00    -0.002 A 
+ATOM     11  C7  HEK d   1      28.348  63.830  14.098  0.00  0.00     0.108 A 
+ATOM     12  O7  HEK d   1      24.895  63.853  12.688  0.00  0.00    -0.271 OA
+ATOM     13  C6  HEK d   1      27.571  64.938  14.307  0.00  0.00     0.148 A 
+ATOM     14  N4  HEK d   1      27.916  64.679  12.135  0.00  0.00    -0.066 NA
+ATOM     15  N5  HEK d   1      29.366  62.544  20.955  0.00  0.00    -0.256 N 
+ATOM     16  N6  HEK d   1      27.154  61.670  22.477  0.00  0.00    -0.075 NA
+ATOM     17  N10 HEK d   1      28.698  63.653  20.594  0.00  0.00    -0.066 NA
+ATOM     18  N11 HEK d   1      28.660  63.668  19.282  0.00  0.00    -0.130 NA
+ATOM     19  C14 HEK d   1      29.310  62.568  18.803  0.00  0.00     0.108 A 
+ATOM     20  C15 HEK d   1      29.763  61.849  19.876  0.00  0.00     0.148 A 
+ATOM     21  C16 HEK d   1      29.593  62.242  22.365  0.00  0.00     0.222 C 
+ATOM     22  C17 HEK d   1      28.508  61.347  22.973  0.00  0.00     0.266 A 
+ATOM     23  C   HEK d   1      24.456  64.970  12.615  0.00  0.00     0.242 C 
+ATOM     24  N   HEK d   1      23.128  65.226  12.667  0.00  0.00    -0.346 N 
+ATOM     25  CA  HEK d   1      21.869  64.494  12.784  0.00  0.00     0.176 C 
+ATOM     26  C   HEK d   1      21.737  63.388  11.740  0.00  0.00     0.241 C 
+ATOM     27  O   HEK d   1      21.922  63.644  10.548  0.00  0.00    -0.271 OA
+ATOM     28  N   HEK d   1      21.422  62.159  12.190  0.00  0.00    -0.346 N 
+ATOM     29  CA  HEK d   1      21.207  61.014  11.310  0.00  0.00     0.177 C 
+ATOM     30  C   HEK d   1      19.740  60.587  11.417  0.00  0.00     0.241 C 
+ATOM     31  O   HEK d   1      19.306  60.116  12.475  0.00  0.00    -0.271 OA
+ATOM     32  N   HEK d   1      18.977  60.806  10.319  0.00  0.00    -0.346 N 
+ATOM     33  CA  HEK d   1      17.537  60.559  10.183  0.00  0.00     0.180 C 
+ATOM     34  C   HEK d   1      16.721  61.374  11.206  0.00  0.00     0.241 C 
+ATOM     35  O   HEK d   1      15.693  60.899  11.702  0.00  0.00    -0.271 OA
+ATOM     36  N   HEK d   1      17.205  62.585  11.503  0.00  0.00    -0.351 N 
+ATOM     37  CA  HEK d   1      16.589  63.512  12.447  0.00  0.00     0.225 C 
+ATOM     38  C   HEK d   1      17.115  63.434  13.868  0.00  0.00     0.236 C 
+ATOM     39  O   HEK d   1      16.877  64.352  14.661  0.00  0.00    -0.272 OA
+ATOM     40  N   HEK d   1      17.824  62.333  14.209  0.00  0.00    -0.346 N 
+ATOM     41  CA  HEK d   1      18.378  62.092  15.545  0.00  0.00     0.180 C 
+ATOM     42  C   HEK d   1      19.758  62.675  15.704  0.00  0.00     0.241 C 
+ATOM     43  O   HEK d   1      20.634  62.422  14.870  0.00  0.00    -0.271 OA
+ATOM     44  N   HEK d   1      19.988  63.367  16.829  0.00  0.00    -0.346 N 
+ATOM     45  CA  HEK d   1      21.309  63.879  17.184  0.00  0.00     0.176 C 
+ATOM     46  C   HEK d   1      22.158  62.663  17.595  0.00  0.00     0.241 C 
+ATOM     47  O   HEK d   1      21.609  61.629  17.993  0.00  0.00    -0.271 OA
+ATOM     48  N   HEK d   1      23.479  62.769  17.462  0.00  0.00    -0.346 N 
+ATOM     49  CA  HEK d   1      24.402  61.695  17.835  0.00  0.00     0.180 C 
+ATOM     50  C   HEK d   1      24.893  61.948  19.257  0.00  0.00     0.241 C 
+ATOM     51  O   HEK d   1      25.313  63.062  19.577  0.00  0.00    -0.271 OA
+ATOM     52  N   HEK d   1      24.798  60.926  20.099  0.00  0.00    -0.346 N 
+ATOM     53  CA  HEK d   1      25.180  61.025  21.528  0.00  0.00     0.179 C 
+ATOM     54  C   HEK d   1      26.691  60.829  21.669  0.00  0.00     0.249 C 
+ATOM     55  O   HEK d   1      27.158  59.819  21.137  0.00  0.00    -0.275 OA
+ATOM     56  OXT HEK d   1      27.293  61.700  22.301  0.00  0.00    -0.251 OA
+ATOM     57  H26 HEK d   1      22.958  66.210  12.608  0.00  0.00     0.163 HD
+ATOM     58  H39 HEK d   1      21.331  62.023  13.177  0.00  0.00     0.163 HD
+ATOM     59  H50 HEK d   1      19.445  61.175   9.516  0.00  0.00     0.163 HD
+ATOM     60  H59 HEK d   1      18.046  62.875  11.047  0.00  0.00     0.163 HD
+ATOM     61  H62 HEK d   1      17.980  61.640  13.505  0.00  0.00     0.163 HD
+ATOM     62  H71 HEK d   1      19.224  63.540  17.451  0.00  0.00     0.163 HD
+ATOM     63  H84 HEK d   1      23.857  63.618  17.092  0.00  0.00     0.163 HD
+ATOM     64  H95 HEK d   1      24.454  60.052  19.755  0.00  0.00     0.163 HD
+ENDROOT
+BRANCH  22  65
+ATOM     65  C18 HEK d   1      28.637  61.421  24.525  0.00  0.00     0.274 C 
+ATOM     66  O2  HEK d   1      28.731  62.509  25.093  0.00  0.00    -0.268 OA
+ATOM     67  N7  HEK d   1      28.691  60.248  25.160  0.00  0.00    -0.348 N 
+ATOM     68  H15 HEK d   1      28.389  59.426  24.677  0.00  0.00     0.163 HD
+BRANCH  67  69
+ATOM     69  C19 HEK d   1      29.169  60.119  26.520  0.00  0.00     0.225 C 
+BRANCH  69  70
+ATOM     70  C20 HEK d   1      28.183  60.513  27.604  0.00  0.00     0.235 C 
+ATOM     71  O3  HEK d   1      27.691  61.640  27.634  0.00  0.00    -0.272 OA
+ATOM     72  N8  HEK d   1      27.957  59.586  28.535  0.00  0.00    -0.351 N 
+ATOM     73  H16 HEK d   1      27.989  58.620  28.276  0.00  0.00     0.163 HD
+BRANCH  72  74
+ATOM     74  C21 HEK d   1      27.666  59.936  29.909  0.00  0.00     0.225 C 
+BRANCH  74  75
+ATOM     75  C22 HEK d   1      28.908  60.332  30.682  0.00  0.00     0.233 C 
+ATOM     76  O4  HEK d   1      29.239  61.520  30.747  0.00  0.00    -0.272 OA
+ATOM     77  N9  HEK d   1      29.614  59.354  31.230  0.00  0.00    -0.369 N 
+ATOM     78  H17 HEK d   1      29.303  58.407  31.149  0.00  0.00     0.159 HD
+ATOM     79  H18 HEK d   1      30.458  59.563  31.724  0.00  0.00     0.159 HD
+ENDBRANCH  74  75
+ENDBRANCH  72  74
+ENDBRANCH  69  70
+ENDBRANCH  67  69
+ENDBRANCH  22  65
+BRANCH  53  80
+ATOM     80  CB  HEK d   1      24.432  59.956  22.325  0.00  0.00     0.095 C 
+BRANCH  80  81
+ATOM     81  CG  HEK d   1      24.358  60.262  23.772  0.00  0.00     0.053 A 
+ATOM     82  ND1 HEK d   1      23.691  61.355  24.247  0.00  0.00    -0.247 NA
+ATOM     83  CE1 HEK d   1      23.789  61.385  25.554  0.00  0.00     0.207 A 
+ATOM     84  NE2 HEK d   1      24.511  60.345  25.938  0.00  0.00    -0.359 N 
+ATOM     85  CD2 HEK d   1      24.869  59.632  24.840  0.00  0.00     0.116 A 
+ATOM     86 1H10 HEK d   1      24.760  60.114  26.910  0.00  0.00     0.166 HD
+ENDBRANCH  80  81
+ENDBRANCH  53  80
+BRANCH  49  87
+ATOM     87  CB  HEK d   1      25.558  61.488  16.805  0.00  0.00     0.013 C 
+ATOM     88  CG2 HEK d   1      26.414  60.255  17.135  0.00  0.00     0.012 C 
+BRANCH  87  89
+ATOM     89  CG1 HEK d   1      25.052  61.457  15.332  0.00  0.00     0.002 C 
+ATOM     90  CD1 HEK d   1      24.023  60.335  14.950  0.00  0.00     0.005 C 
+ENDBRANCH  87  89
+ENDBRANCH  49  87
+BRANCH   4  91
+ATOM     91  C23 HEK d   1      31.272  59.911  15.056  0.00  0.00     0.209 C 
+ATOM     92  O6  HEK d   1      31.479  59.723  13.859  0.00  0.00    -0.644 OA
+ATOM     93  O5  HEK d   1      31.784  59.156  15.993  0.00  0.00    -0.644 OA
+ENDBRANCH   4  91
+BRANCH  45  94
+ATOM     94  CB  HEK d   1      21.209  64.877  18.357  0.00  0.00     0.035 C 
+BRANCH  94  95
+ATOM     95  CG  HEK d   1      20.623  66.245  18.010  0.00  0.00     0.004 C 
+BRANCH  95  96
+ATOM     96  CD  HEK d   1      20.091  66.940  19.265  0.00  0.00     0.027 C 
+BRANCH  96  97
+ATOM     97  CE  HEK d   1      20.140  68.446  19.186  0.00  0.00     0.229 C 
+BRANCH  97  98
+ATOM     98  NZ  HEK d   1      19.519  69.080  20.379  0.00  0.00    -0.079 N 
+ATOM     99  H81 HEK d   1      19.570  70.083  20.291  0.00  0.00     0.274 HD
+ATOM    100  H82 HEK d   1      20.012  68.790  21.209  0.00  0.00     0.274 HD
+ATOM    101  H83 HEK d   1      18.554  68.797  20.446  0.00  0.00     0.274 HD
+ENDBRANCH  97  98
+ENDBRANCH  96  97
+ENDBRANCH  95  96
+ENDBRANCH  94  95
+ENDBRANCH  45  94
+BRANCH  41 102
+ATOM    102  CB  HEK d   1      18.487  60.583  15.838  0.00  0.00     0.073 C 
+BRANCH 102 103
+ATOM    103  CG  HEK d   1      17.203  59.790  15.905  0.00  0.00    -0.056 A 
+ATOM    104  CD1 HEK d   1      16.461  59.734  17.079  0.00  0.00     0.007 A 
+ATOM    105  CE1 HEK d   1      15.299  58.959  17.154  0.00  0.00     0.001 A 
+ATOM    106  CZ  HEK d   1      14.892  58.230  16.064  0.00  0.00     0.000 A 
+ATOM    107  CE2 HEK d   1      15.622  58.253  14.902  0.00  0.00     0.001 A 
+ATOM    108  CD2 HEK d   1      16.786  59.022  14.825  0.00  0.00     0.007 A 
+ENDBRANCH 102 103
+ENDBRANCH  41 102
+BRANCH   3 109
+ATOM    109  N1  HEK d   1      24.472  67.147  11.376  0.00  0.00    -0.345 N 
+ATOM    110  C3  HEK d   1      24.314  67.379  10.068  0.00  0.00     0.236 C 
+ATOM    111  O1  HEK d   1      25.047  66.889   9.210  0.00  0.00    -0.272 OA
+ATOM    112  H9  HEK d   1      24.009  67.742  12.033  0.00  0.00     0.163 HD
+BRANCH 110 113
+ATOM    113  C2  HEK d   1      23.159  68.281   9.670  0.00  0.00     0.225 C 
+BRANCH 113 114
+ATOM    114  N   HEK d   1      22.108  68.495  10.645  0.00  0.00    -0.353 N 
+ATOM    115  C1  HEK d   1      21.529  69.690  10.798  0.00  0.00     0.213 C 
+ATOM    116  C24 HEK d   1      20.455  69.774  11.840  0.00  0.00     0.117 C 
+ATOM    117  O   HEK d   1      21.861  70.668  10.128  0.00  0.00    -0.274 OA
+ATOM    118  H11 HEK d   1      21.809  67.731  11.216  0.00  0.00     0.162 HD
+ENDBRANCH 113 114
+ENDBRANCH 110 113
+ENDBRANCH   3 109
+BRANCH  25 119
+ATOM    119  CB  HEK d   1      20.659  65.443  12.730  0.00  0.00     0.036 C 
+BRANCH 119 120
+ATOM    120  CG  HEK d   1      20.452  66.251  14.002  0.00  0.00     0.023 C 
+BRANCH 120 121
+ATOM    121  CD  HEK d   1      19.108  66.940  13.983  0.00  0.00     0.138 C 
+BRANCH 121 122
+ATOM    122  NE  HEK d   1      19.094  68.156  14.799  0.00  0.00    -0.227 N 
+ATOM    123  CZ  HEK d   1      18.324  68.335  15.867  0.00  0.00     0.665 C 
+ATOM    124  NH1 HEK d   1      18.367  69.478  16.537  0.00  0.00    -0.235 N 
+ATOM    125  NH2 HEK d   1      17.494  67.378  16.265  0.00  0.00    -0.235 N 
+ATOM    126  H35 HEK d   1      17.768  69.613  17.364  0.00  0.00     0.174 HD
+ATOM    127  H36 HEK d   1      18.999  70.231  16.230  0.00  0.00     0.174 HD
+ATOM    128  H37 HEK d   1      17.453  66.486  15.752  0.00  0.00     0.174 HD
+ATOM    129  H38 HEK d   1      16.892  67.528  17.087  0.00  0.00     0.174 HD
+ATOM    130  H34 HEK d   1      19.724  68.924  14.527  0.00  0.00     0.177 HD
+ENDBRANCH 121 122
+ENDBRANCH 120 121
+ENDBRANCH 119 120
+ENDBRANCH  25 119
+BRANCH  33 131
+ATOM    131  CB  HEK d   1      17.192  59.057  10.236  0.00  0.00     0.073 C 
+BRANCH 131 132
+ATOM    132  CG  HEK d   1      17.637  58.258   9.031  0.00  0.00    -0.056 A 
+ATOM    133  CD1 HEK d   1      17.016  58.418   7.795  0.00  0.00     0.010 A 
+ATOM    134  CE1 HEK d   1      17.405  57.666   6.687  0.00  0.00     0.037 A 
+ATOM    135  CZ  HEK d   1      18.401  56.709   6.819  0.00  0.00     0.065 A 
+ATOM    136  CE2 HEK d   1      19.001  56.503   8.051  0.00  0.00     0.037 A 
+ATOM    137  CD2 HEK d   1      18.613  57.271   9.148  0.00  0.00     0.010 A 
+BRANCH 135 138
+ATOM    138  OH  HEK d   1      18.784  55.956   5.732  0.00  0.00    -0.361 OA
+ATOM    139  H58 HEK d   1      18.280  56.220   4.971  0.00  0.00     0.217 HD
+ENDBRANCH 135 138
+ENDBRANCH 131 132
+ENDBRANCH  33 131
+BRANCH  29 140
+ATOM    140  CB  HEK d   1      22.179  59.865  11.631  0.00  0.00     0.038 C 
+BRANCH 140 141
+ATOM    141  CG  HEK d   1      22.035  58.555  10.827  0.00  0.00    -0.020 C 
+ATOM    142  CD1 HEK d   1      22.141  58.787   9.314  0.00  0.00     0.009 C 
+ATOM    143  CD2 HEK d   1      23.070  57.551  11.262  0.00  0.00     0.009 C 
+ENDBRANCH 140 141
+ENDBRANCH  29 140
+TORSDOF 29

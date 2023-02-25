@@ -1,0 +1,42 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAO_8  and  CAQ_7 
+REMARK    2  A    between atoms: OAB_10  and  CAO_8 
+REMARK    3  A    between atoms: NAW_12  and  CAI_13 
+REMARK    4  A    between atoms: CAR_17  and  NAV_18 
+ROOT
+ATOM      1 BR   BNU d1001    -120.416  46.841   3.069  0.00  0.00    -0.049 Br
+ATOM      2  CAP BNU d1001    -121.801  47.865   2.332  0.00  0.00     0.038 A 
+ATOM      3  CAF BNU d1001    -121.728  47.961   0.939  0.00  0.00     0.039 A 
+ATOM      4  CAT BNU d1001    -122.678  48.662   0.243  0.00  0.00     0.043 A 
+ATOM      5  CAS BNU d1001    -122.570  48.745  -1.128  0.00  0.00     0.202 A 
+ATOM      6  OAC BNU d1001    -121.633  48.176  -1.691  0.00  0.00    -0.286 OA
+ATOM      7  CAQ BNU d1001    -123.542  49.460  -1.842  0.00  0.00     0.104 A 
+ATOM      8  CAH BNU d1001    -124.575  50.079  -1.137  0.00  0.00     0.113 A 
+ATOM      9  NAW BNU d1001    -124.638  49.975   0.255  0.00  0.00    -0.355 N 
+ATOM     10  CAU BNU d1001    -123.710  49.279   0.914  0.00  0.00     0.050 A 
+ATOM     11  CAG BNU d1001    -123.799  49.186   2.293  0.00  0.00     0.061 A 
+ATOM     12  CAR BNU d1001    -122.867  48.471   3.048  0.00  0.00     0.050 A 
+ENDROOT
+BRANCH  12  13
+ATOM     13  NAV BNU d1001    -123.081  48.494   4.388  0.00  0.00    -0.376 N 
+ATOM     14  CAM BNU d1001    -124.286  49.204   4.932  0.00  0.00     0.153 C 
+ATOM     15  CAK BNU d1001    -123.838  50.574   5.379  0.00  0.00     0.289 C 
+ATOM     16  NAN BNU d1001    -122.811  50.421   6.433  0.00  0.00     0.086 N 
+ATOM     17  CAJ BNU d1001    -121.638  49.690   5.917  0.00  0.00     0.289 C 
+ATOM     18  H   BNU d1001    -123.210  49.904   7.216  0.00  0.00     0.316 HD
+ATOM     19  CAL BNU d1001    -122.085  48.291   5.459  0.00  0.00     0.153 C 
+ENDBRANCH  12  13
+BRANCH   9  20
+ATOM     20  CAI BNU d1001    -125.716  50.606   1.030  0.00  0.00     0.124 C 
+ATOM     21  CAA BNU d1001    -127.054  50.217   0.445  0.00  0.00     0.027 C 
+ENDBRANCH   9  20
+BRANCH   7  22
+ATOM     22  CAO BNU d1001    -123.501  49.599  -3.236  0.00  0.00     0.181 C 
+ATOM     23  OAD BNU d1001    -122.555  49.143  -3.915  0.00  0.00    -0.646 OA
+BRANCH  22  24
+ATOM     24  OAB BNU d1001    -124.403  50.227  -3.797  0.00  0.00    -0.773 OA
+ATOM     25  H   BNU d1001    -125.115  50.572  -3.296  0.00  0.00     0.167 HD
+ENDBRANCH  22  24
+ENDBRANCH   7  22
+TORSDOF 4

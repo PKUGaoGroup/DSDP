@@ -1,0 +1,61 @@
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O3P_4  and  P_1 
+REMARK    2  A    between atoms: P_1  and  O2P_3 
+REMARK    3  A    between atoms: P_1  and  O5'_5 
+REMARK    4  A    between atoms: O5'_5  and  C5'_6 
+REMARK    5  A    between atoms: C5'_6  and  C4'_7 
+REMARK    6  A    between atoms: C3'_9  and  O3'_10 
+REMARK    7  A    between atoms: C2'_11  and  O2'_12 
+REMARK    8  A    between atoms: C1'_13  and  C9_14 
+REMARK    9  A    between atoms: C6_17  and  N6_18 
+ROOT
+ATOM      1  C4' FMP d 339      61.946  89.654   0.846  0.00  0.00     0.178 C 
+ATOM      2  O4' FMP d 339      61.529  90.732   1.667  0.00  0.00    -0.367 OA
+ATOM      3  C3' FMP d 339      61.144  88.416   1.291  0.00  0.00     0.180 C 
+ATOM      4  C2' FMP d 339      60.464  88.932   2.536  0.00  0.00     0.184 C 
+ATOM      5  C1' FMP d 339      61.353  90.100   2.918  0.00  0.00     0.205 C 
+ENDROOT
+BRANCH   5   6
+ATOM      6  C9  FMP d 339      60.707  91.103   3.778  0.00  0.00     0.097 A 
+ATOM      7  N8  FMP d 339      60.108  92.183   3.365  0.00  0.00    -0.153 NA
+ATOM      8  N7  FMP d 339      59.558  92.882   4.362  0.00  0.00    -0.148 NA
+ATOM      9  C5  FMP d 339      59.940  92.218   5.513  0.00  0.00     0.132 A 
+ATOM     10  C4  FMP d 339      60.696  91.140   5.183  0.00  0.00     0.219 A 
+ATOM     11  C6  FMP d 339      59.661  92.434   6.872  0.00  0.00     0.151 A 
+ATOM     12  N3  FMP d 339      61.294  90.286   6.071  0.00  0.00    -0.265 NA
+ATOM     13  C2  FMP d 339      61.028  90.648   7.326  0.00  0.00     0.230 A 
+ATOM     14  N1  FMP d 339      60.271  91.643   7.782  0.00  0.00    -0.223 NA
+BRANCH  11  15
+ATOM     15  N6  FMP d 339      58.767  93.351   7.237  0.00  0.00    -0.382 N 
+ATOM     16  H   FMP d 339      58.335  93.916   6.556  0.00  0.00     0.157 HD
+ATOM     17  H   FMP d 339      58.538  93.464   8.188  0.00  0.00     0.157 HD
+ENDBRANCH  11  15
+ENDBRANCH   5   6
+BRANCH   4  18
+ATOM     18  O2' FMP d 339      60.400  87.909   3.541  0.00  0.00    -0.390 OA
+ATOM     19  H   FMP d 339      61.294  87.581   3.726  0.00  0.00     0.210 HD
+ENDBRANCH   4  18
+BRANCH   1  20
+ATOM     20  C5' FMP d 339      61.734  90.069  -0.617  0.00  0.00     0.215 C 
+BRANCH  20  21
+ATOM     21  O5' FMP d 339      60.340  90.373  -0.802  0.00  0.00    -0.294 OA
+BRANCH  21  22
+ATOM     22  P   FMP d 339      59.509  90.443  -2.114  0.00  0.00     0.390 P 
+ATOM     23  O1P FMP d 339      60.184  91.546  -2.849  0.00  0.00    -0.632 OA
+BRANCH  22  24
+ATOM     24  O3P FMP d 339      59.731  89.061  -2.669  0.00  0.00    -0.307 OA
+ATOM     25  H   FMP d 339      59.254  88.969  -3.509  0.00  0.00     0.222 HD
+ENDBRANCH  22  24
+BRANCH  22  26
+ATOM     26  O2P FMP d 339      58.101  90.740  -1.718  0.00  0.00    -0.307 OA
+ATOM     27  H   FMP d 339      57.546  90.792  -2.512  0.00  0.00     0.222 HD
+ENDBRANCH  22  26
+ENDBRANCH  21  22
+ENDBRANCH  20  21
+ENDBRANCH   1  20
+BRANCH   3  28
+ATOM     28  O3' FMP d 339      62.039  87.361   1.646  0.00  0.00    -0.390 OA
+ATOM     29  H   FMP d 339      62.658  87.676   2.324  0.00  0.00     0.210 HD
+ENDBRANCH   3  28
+TORSDOF 9

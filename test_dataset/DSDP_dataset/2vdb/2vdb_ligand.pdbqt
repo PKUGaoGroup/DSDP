@@ -1,0 +1,35 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O2_2  and  C1_1 
+REMARK    2  A    between atoms: C8_10  and  C14_4 
+REMARK    3  A    between atoms: C14_4  and  C15_17 
+REMARK    4  A    between atoms: C15_17  and  OXT_16 
+ROOT
+ATOM      1  C1  NPS d1591      15.291  -5.214  27.936  0.00  0.00     0.069 A 
+ATOM      2  C2  NPS d1591      15.561  -4.057  27.255  0.00  0.00     0.037 A 
+ATOM      3  C3  NPS d1591      14.771  -2.943  27.447  0.00  0.00     0.015 A 
+ATOM      4  C4  NPS d1591      13.702  -2.975  28.320  0.00  0.00    -0.025 A 
+ATOM      5  C5  NPS d1591      13.442  -4.224  29.023  0.00  0.00    -0.023 A 
+ATOM      6  C6  NPS d1591      14.246  -5.292  28.809  0.00  0.00     0.049 A 
+ATOM      7  C7  NPS d1591      12.863  -1.905  28.563  0.00  0.00     0.020 A 
+ATOM      8  C8  NPS d1591      11.823  -2.048  29.471  0.00  0.00    -0.043 A 
+ATOM      9  C13 NPS d1591      12.411  -4.330  29.898  0.00  0.00     0.013 A 
+ATOM     10  C11 NPS d1591      11.611  -3.244  30.100  0.00  0.00     0.009 A 
+ENDROOT
+BRANCH   8  11
+ATOM     11  C14 NPS d1591      10.842  -0.984  29.783  0.00  0.00     0.112 C 
+ATOM     12  C10 NPS d1591      10.245  -0.441  28.507  0.00  0.00     0.026 C 
+BRANCH  11  13
+ATOM     13  C15 NPS d1591      11.225   0.156  30.646  0.00  0.00     0.148 C 
+ATOM     14  O   NPS d1591      11.531   1.221  30.127  0.00  0.00    -0.649 OA
+BRANCH  13  15
+ATOM     15  OXT NPS d1591      11.180   0.026  31.854  0.00  0.00    -0.776 OA
+ATOM     16  H   NPS d1591      10.943  -0.800  32.228  0.00  0.00     0.167 HD
+ENDBRANCH  13  15
+ENDBRANCH  11  13
+ENDBRANCH   8  11
+BRANCH   1  17
+ATOM     17  O2  NPS d1591      16.022  -6.335  27.788  0.00  0.00    -0.356 OA
+ATOM     18  C12 NPS d1591      17.047  -6.392  26.853  0.00  0.00     0.210 C 
+ENDBRANCH   1  17
+TORSDOF 4

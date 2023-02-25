@@ -1,0 +1,20 @@
+REMARK  1 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_6  and  C6_7 
+REMARK       I    between atoms: C6_7  and  N2_9 
+ROOT
+ATOM      1  C2  ISZ d4611     -18.532  14.547  11.840  0.00  0.00     0.036 A 
+ATOM      2  C4  ISZ d4611     -19.663  14.854  11.092  0.00  0.00     0.117 A 
+ATOM      3  N1  ISZ d4611     -20.886  14.566  11.556  0.00  0.00    -0.273 NA
+ATOM      4  C5  ISZ d4611     -21.056  13.978  12.747  0.00  0.00     0.117 A 
+ATOM      5  C3  ISZ d4611     -19.961  13.649  13.537  0.00  0.00     0.036 A 
+ATOM      6  C1  ISZ d4611     -18.683  13.937  13.078  0.00  0.00     0.038 A 
+ENDROOT
+BRANCH   6   7
+ATOM      7  C6  ISZ d4611     -17.481  13.594  13.908  0.00  0.00     0.294 C 
+ATOM      8  O1  ISZ d4611     -16.787  12.642  13.590  0.00  0.00    -0.264 OA
+ATOM      9  N2  ISZ d4611     -17.203  14.340  14.973  0.00  0.00    -0.114 NA
+ATOM     10  N3  ISZ d4611     -16.775  13.808  16.008  0.00  0.00    -0.200 NA
+ATOM     11  H   ISZ d4611     -16.569  14.360  16.797  0.00  0.00     0.212 HD
+ENDBRANCH   6   7
+TORSDOF 1

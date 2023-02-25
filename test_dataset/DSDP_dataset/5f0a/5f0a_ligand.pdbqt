@@ -1,0 +1,41 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: NAU_5  and  CAV_2 
+REMARK    2  A    between atoms: NAD_12  and  C6_11 
+REMARK    3  A    between atoms: OAN_15  and  CAR_14 
+REMARK    4  A    between atoms: CAQ_16  and  OAN_15 
+ROOT
+ATOM      1  NAU 1FB d 901     -26.394  69.646  32.580  0.00  0.00    -0.240 N 
+ATOM      2  NAM 1FB d 901     -25.763  68.731  31.739  0.00  0.00    -0.143 NA
+ATOM      3  C4  1FB d 901     -27.039  70.602  31.876  0.00  0.00     0.166 A 
+ATOM      4  N3  1FB d 901     -27.730  71.637  32.375  0.00  0.00    -0.222 NA
+ATOM      5  C2  1FB d 901     -28.257  72.402  31.412  0.00  0.00     0.237 A 
+ATOM      6  N1  1FB d 901     -28.180  72.251  30.087  0.00  0.00    -0.224 NA
+ATOM      7  C6  1FB d 901     -27.474  71.207  29.599  0.00  0.00     0.141 A 
+ATOM      8  C5  1FB d 901     -26.854  70.313  30.510  0.00  0.00     0.112 A 
+ATOM      9  CAR 1FB d 901     -26.046  69.126  30.555  0.00  0.00     0.207 A 
+ENDROOT
+BRANCH   9  10
+ATOM     10  OAN 1FB d 901     -25.728  68.541  29.377  0.00  0.00    -0.290 OA
+BRANCH  10  11
+ATOM     11  CAQ 1FB d 901     -24.562  68.880  28.668  0.00  0.00     0.079 A 
+ATOM     12  CAJ 1FB d 901     -23.944  67.879  27.934  0.00  0.00     0.061 A 
+ATOM     13  CAO 1FB d 901     -22.866  68.210  27.140  0.00  0.00     0.036 A 
+ATOM     14 CL1  1FB d 901     -22.137  66.976  26.152  0.00  0.00    -0.084 Cl
+ATOM     15  CAG 1FB d 901     -22.379  69.497  27.077  0.00  0.00     0.024 A 
+ATOM     16  CAF 1FB d 901     -22.996  70.483  27.830  0.00  0.00     0.004 A 
+ATOM     17  CAH 1FB d 901     -24.089  70.186  28.629  0.00  0.00     0.037 A 
+ENDBRANCH  10  11
+ENDBRANCH   9  10
+BRANCH   7  18
+ATOM     18  NAD 1FB d 901     -27.396  71.066  28.274  0.00  0.00    -0.383 N 
+ATOM     19  H   1FB d 901     -27.844  71.713  27.683  0.00  0.00     0.157 HD
+ATOM     20  H   1FB d 901     -26.890  70.315  27.888  0.00  0.00     0.157 HD
+ENDBRANCH   7  18
+BRANCH   1  21
+ATOM     21  CAV 1FB d 901     -26.262  69.418  34.063  0.00  0.00     0.047 C 
+ATOM     22  CAC 1FB d 901     -26.214  67.915  34.340  0.00  0.00     0.040 C 
+ATOM     23  CAA 1FB d 901     -24.956  70.057  34.527  0.00  0.00     0.040 C 
+ATOM     24  CAB 1FB d 901     -27.454  70.022  34.809  0.00  0.00     0.040 C 
+ENDBRANCH   1  21
+TORSDOF 4

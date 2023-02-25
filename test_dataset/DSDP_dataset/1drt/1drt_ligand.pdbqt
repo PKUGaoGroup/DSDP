@@ -1,0 +1,47 @@
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_6  and  N1_1 
+REMARK    2  A    between atoms: C2_7  and  C1_6 
+REMARK    3  A    between atoms: C1_6  and  C3_12 
+REMARK    4  A    between atoms: C4_8  and  C2_7 
+REMARK    5  A    between atoms: C2_7  and  O3_11 
+REMARK    6  A    between atoms: C5_9  and  C4_8 
+REMARK    7  A    between atoms: N2_10  and  C5_9 
+REMARK    8  A    between atoms: C3_12  and  O4_14 
+ROOT
+ATOM      1  C1  PCV d 327       2.177   7.977   5.147  0.00  0.00     0.213 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C2  PCV d 327       0.970   7.508   4.238  0.00  0.00     0.153 C 
+BRANCH   2   3
+ATOM      3  C4  PCV d 327       1.284   6.275   3.327  0.00  0.00     0.064 C 
+BRANCH   3   4
+ATOM      4  C5  PCV d 327       1.868   6.693   1.951  0.00  0.00     0.269 C 
+BRANCH   4   5
+ATOM      5  N2  PCV d 327       1.174   6.056   0.828  0.00  0.00     0.078 N 
+ATOM      6  H   PCV d 327       0.194   6.340   0.829  0.00  0.00     0.312 HD
+ATOM      7  H   PCV d 327       1.234   5.042   0.922  0.00  0.00     0.312 HD
+ENDBRANCH   4   5
+ENDBRANCH   3   4
+ENDBRANCH   2   3
+BRANCH   2   8
+ATOM      8  O3  PCV d 327      -0.125   7.180   5.040  0.00  0.00    -0.393 OA
+ATOM      9  H   PCV d 327       0.104   6.427   5.607  0.00  0.00     0.210 HD
+ENDBRANCH   2   8
+ENDBRANCH   1   2
+BRANCH   1  10
+ATOM     10  N1  PCV d 327       2.935   6.871   5.763  0.00  0.00    -0.335 N 
+ATOM     11  C8  PCV d 327       4.310   6.572   5.789  0.00  0.00     0.222 A 
+ATOM     12  O1  PCV d 327       5.316   7.105   5.364  0.00  0.00    -0.273 OA
+ATOM     13  C9  PCV d 327       4.018   5.343   6.566  0.00  0.00     0.123 A 
+ATOM     14  C7  PCV d 327       2.584   5.723   6.510  0.00  0.00     0.136 A 
+ENDBRANCH   1  10
+BRANCH   1  15
+ATOM     15  C3  PCV d 327       1.734   9.006   6.194  0.00  0.00     0.166 C 
+ATOM     16  O2  PCV d 327       1.769  10.304   5.914  0.00  0.00    -0.648 OA
+BRANCH  15  17
+ATOM     17  O4  PCV d 327       1.345   8.682   7.309  0.00  0.00    -0.775 OA
+ATOM     18  H   PCV d 327       1.305   7.777   7.546  0.00  0.00     0.167 HD
+ENDBRANCH  15  17
+ENDBRANCH   1  15
+TORSDOF 8

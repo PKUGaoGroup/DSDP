@@ -1,0 +1,56 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2_2  and  C3_3 
+REMARK    2  A    between atoms: C3_3  and  C4_4 
+REMARK    3  A    between atoms: C12_17  and  S1_24 
+REMARK    4  A    between atoms: C15_20  and  O2_21 
+REMARK    5  A    between atoms: O2_21  and  C16_22 
+REMARK    6  A    between atoms: S1_24  and  N5_27 
+ROOT
+ATOM      1  C4  VIA d   1      -1.114  63.031  83.405  0.00  0.00     0.098 A 
+ATOM      2  N1  VIA d   1      -1.798  62.280  84.370  0.00  0.00    -0.172 NA
+ATOM      3  N2  VIA d   1      -1.414  62.696  85.612  0.00  0.00    -0.243 N 
+ATOM      4  C5  VIA d   1      -1.948  62.111  86.845  0.00  0.00     0.154 C 
+ATOM      5  C6  VIA d   1      -0.495  63.700  85.440  0.00  0.00     0.154 A 
+ATOM      6  C7  VIA d   1       0.260  64.519  86.346  0.00  0.00     0.299 A 
+ATOM      7  O1  VIA d   1       0.180  64.422  87.549  0.00  0.00    -0.263 OA
+ATOM      8  N3  VIA d   1       1.125  65.474  85.816  0.00  0.00    -0.188 NA
+ATOM      9  C8  VIA d   1       1.308  65.684  84.442  0.00  0.00     0.164 A 
+ATOM     10  N4  VIA d   1       0.597  64.907  83.520  0.00  0.00    -0.224 NA
+ATOM     11  C9  VIA d   1      -0.293  63.928  84.046  0.00  0.00     0.120 A 
+ATOM     12  C10 VIA d   1       2.223  66.702  84.058  0.00  0.00     0.037 A 
+ATOM     13  C11 VIA d   1       1.731  67.655  83.084  0.00  0.00     0.070 A 
+ATOM     14  C12 VIA d   1       2.568  68.758  82.617  0.00  0.00     0.077 A 
+ATOM     15  C13 VIA d   1       3.952  68.860  83.180  0.00  0.00    -0.011 A 
+ATOM     16  C14 VIA d   1       4.466  67.911  84.162  0.00  0.00     0.077 A 
+ATOM     17  C15 VIA d   1       3.609  66.806  84.633  0.00  0.00     0.075 A 
+ENDROOT
+BRANCH  17  18
+ATOM     18  O2  VIA d   1       4.019  65.830  85.620  0.00  0.00    -0.335 OA
+BRANCH  18  19
+ATOM     19  C16 VIA d   1       5.304  65.803  86.273  0.00  0.00     0.148 C 
+ATOM     20  C17 VIA d   1       5.234  64.623  87.228  0.00  0.00     0.035 C 
+ENDBRANCH  18  19
+ENDBRANCH  17  18
+BRANCH  14  21
+ATOM     21  S1  VIA d   1       2.023  69.831  81.561  0.00  0.00     0.243 S 
+ATOM     22  O3  VIA d   1       2.313  69.600  80.294  0.00  0.00    -0.206 OA
+ATOM     23  O4  VIA d   1       0.712  69.861  81.611  0.00  0.00    -0.206 OA
+BRANCH  21  24
+ATOM     24  N5  VIA d   1       2.690  71.159  82.127  0.00  0.00    -0.173 NA
+ATOM     25  C22 VIA d   1       3.539  72.092  81.285  0.00  0.00     0.124 C 
+ATOM     26  C21 VIA d   1       2.752  73.145  80.416  0.00  0.00     0.269 C 
+ATOM     27  N6  VIA d   1       1.426  73.686  80.956  0.00  0.00     0.142 N 
+ATOM     28  C20 VIA d   1       1.557  75.156  81.201  0.00  0.00     0.285 C 
+ATOM     29  C19 VIA d   1       0.820  73.057  82.178  0.00  0.00     0.269 C 
+ATOM     30  C18 VIA d   1       1.724  72.087  82.963  0.00  0.00     0.124 C 
+ENDBRANCH  21  24
+ENDBRANCH  14  21
+BRANCH   1  31
+ATOM     31  C3  VIA d   1      -1.261  62.864  81.927  0.00  0.00     0.049 C 
+BRANCH  31  32
+ATOM     32  C2  VIA d   1      -0.169  61.792  81.589  0.00  0.00     0.006 C 
+ATOM     33  C1  VIA d   1      -0.132  61.467  80.120  0.00  0.00     0.000 C 
+ENDBRANCH  31  32
+ENDBRANCH   1  31
+TORSDOF 6

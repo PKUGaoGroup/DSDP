@@ -1,0 +1,40 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA6_7  and  CB1_5 
+REMARK    2  A    between atoms: CA5_9  and  CA6_7 
+REMARK    3  A    between atoms: CA4_10  and  CA5_9 
+REMARK    4  A    between atoms: CA2_12  and  CA3_11 
+REMARK    5  A    between atoms: CA1_14  and  CA2_12 
+REMARK    6  A    between atoms: OA2_15  and  CA1_14 
+ROOT
+ATOM      1  CA5 HPK d 289      -0.030  13.368 -17.233  0.00  0.00     0.111 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  CA4 HPK d 289      -1.465  13.832 -17.342  0.00  0.00    -0.015 C 
+ATOM      3  CA3 HPK d 289      -1.830  14.628 -18.349  0.00  0.00     0.058 C 
+BRANCH   3   4
+ATOM      4  CA2 HPK d 289      -3.227  15.086 -18.459  0.00  0.00     0.244 C 
+ATOM      5  OA3 HPK d 289      -4.069  14.847 -17.577  0.00  0.00    -0.281 OA
+BRANCH   4   6
+ATOM      6  CA1 HPK d 289      -3.572  15.813 -19.684  0.00  0.00     0.218 C 
+ATOM      7  OA1 HPK d 289      -2.694  15.950 -20.562  0.00  0.00    -0.644 OA
+BRANCH   6   8
+ATOM      8  OA2 HPK d 289      -4.727  16.250 -19.839  0.00  0.00    -0.770 OA
+ATOM      9  H   HPK d 289      -5.367  16.134 -19.164  0.00  0.00     0.168 HD
+ENDBRANCH   6   8
+ENDBRANCH   4   6
+ENDBRANCH   3   4
+ENDBRANCH   1   2
+BRANCH   1  10
+ATOM     10  CA6 HPK d 289       1.013  14.446 -17.009  0.00  0.00     0.163 C 
+ATOM     11  OA4 HPK d 289       0.882  15.628 -17.341  0.00  0.00    -0.292 OA
+BRANCH  10  12
+ATOM     12  CB1 HPK d 289       2.273  14.028 -16.285  0.00  0.00     0.010 A 
+ATOM     13  CB2 HPK d 289       3.488  14.665 -16.559  0.00  0.00     0.015 A 
+ATOM     14  CB3 HPK d 289       4.636  14.264 -15.883  0.00  0.00     0.001 A 
+ATOM     15  CB4 HPK d 289       4.581  13.239 -14.936  0.00  0.00     0.000 A 
+ATOM     16  CB5 HPK d 289       3.380  12.616 -14.653  0.00  0.00     0.001 A 
+ATOM     17  CB6 HPK d 289       2.229  12.992 -15.342  0.00  0.00     0.015 A 
+ENDBRANCH  10  12
+ENDBRANCH   1  10
+TORSDOF 6

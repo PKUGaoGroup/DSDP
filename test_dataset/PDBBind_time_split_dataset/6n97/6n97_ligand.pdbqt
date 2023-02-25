@@ -1,0 +1,140 @@
+REMARK  23 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: P3_2  and  O3'_5 
+REMARK    2  A    between atoms: O3'_5  and  C3'_6 
+REMARK    3  A    between atoms: C2'_7  and  O2'_8 
+REMARK    4  A    between atoms: C1'_9  and  N9_10 
+REMARK    5  A    between atoms: C4'_21  and  C5'_22 
+REMARK    6  A    between atoms: C5'_22  and  O5'_23 
+REMARK    7  A    between atoms: O5'_23  and  P1_24 
+REMARK    8  A    between atoms: P1_24  and  O6_27 
+REMARK    9  A    between atoms: O6_27  and  P2_28 
+REMARK   10  A    between atoms: P2_28  and  O7_31 
+REMARK   11  A    between atoms: O7_31  and  CPB_32 
+REMARK   12  A    between atoms: CPB_32  and  CPA_33 
+REMARK   13  A    between atoms: CPA_33  and  CP7_36 
+REMARK   14  A    between atoms: CP7_36  and  OP3_37 
+REMARK   15  A    between atoms: CP7_36  and  CP6_38 
+REMARK       I    between atoms: CP6_38  and  NP2_40 
+REMARK   16  A    between atoms: NP2_40  and  CP5_41 
+REMARK   17  A    between atoms: CP5_41  and  CP4_42 
+REMARK   18  A    between atoms: CP4_42  and  CP3_43 
+REMARK       I    between atoms: CP3_43  and  NP1_45 
+REMARK   19  A    between atoms: NP1_45  and  CP2_46 
+REMARK   20  A    between atoms: CP2_46  and  CP1_47 
+REMARK   21  A    between atoms: CP1_47  and  N_48 
+REMARK       I    between atoms: N_48  and  CS1_49 
+REMARK   22  A    between atoms: CS1_49  and  CS2_51 
+REMARK   23  A    between atoms: CS2_51  and  SS4_53 
+ROOT
+ATOM      1  P2  KGP d   1      18.614  22.578  22.078  0.00  0.00     0.417 P 
+ATOM      2  O21 KGP d   1      18.742  23.237  23.419  0.00  0.00    -0.624 OA
+ATOM      3  O22 KGP d   1      17.215  22.202  21.736  0.00  0.00    -0.624 OA
+ENDROOT
+BRANCH   1   4
+ATOM      4  O6  KGP d   1      19.137  23.655  21.046  0.00  0.00    -0.180 OA
+BRANCH   4   5
+ATOM      5  P1  KGP d   1      18.909  23.511  19.470  0.00  0.00     0.417 P 
+ATOM      6  O11 KGP d   1      18.586  22.099  19.078  0.00  0.00    -0.624 OA
+ATOM      7  O12 KGP d   1      17.783  24.444  19.125  0.00  0.00    -0.624 OA
+BRANCH   5   8
+ATOM      8  O5' KGP d   1      20.173  24.100  18.738  0.00  0.00    -0.287 OA
+BRANCH   8   9
+ATOM      9  C5' KGP d   1      20.567  25.457  18.913  0.00  0.00     0.216 C 
+BRANCH   9  10
+ATOM     10  C4' KGP d   1      21.279  25.885  17.629  0.00  0.00     0.180 C 
+ATOM     11  C3' KGP d   1      20.625  25.204  16.432  0.00  0.00     0.199 C 
+ATOM     12  C2' KGP d   1      21.411  23.928  16.235  0.00  0.00     0.199 C 
+ATOM     13  C1' KGP d   1      22.787  24.468  16.595  0.00  0.00     0.262 C 
+ATOM     14  O4' KGP d   1      22.655  25.438  17.654  0.00  0.00    -0.353 OA
+BRANCH  11  15
+ATOM     15  O3' KGP d   1      20.797  25.983  15.255  0.00  0.00    -0.272 OA
+BRANCH  15  16
+ATOM     16  P3  KGP d   1      19.649  26.970  14.669  0.00  0.00     0.422 P 
+ATOM     17  O33 KGP d   1      18.453  26.105  14.332  0.00  0.00    -0.617 OA
+ATOM     18  O31 KGP d   1      20.285  27.613  13.464  0.00  0.00    -0.617 OA
+ATOM     19  O32 KGP d   1      19.318  28.024  15.684  0.00  0.00    -0.617 OA
+ENDBRANCH  15  16
+ENDBRANCH  11  15
+BRANCH  12  20
+ATOM     20  O2' KGP d   1      21.356  23.402  14.889  0.00  0.00    -0.388 OA
+ATOM     21  H3  KGP d   1      21.709  24.044  14.284  0.00  0.00     0.210 HD
+ENDBRANCH  12  20
+BRANCH  13  22
+ATOM     22  N9  KGP d   1      23.700  23.384  16.989  0.00  0.00    -0.294 N 
+ATOM     23  C4  KGP d   1      24.838  23.167  16.339  0.00  0.00     0.167 A 
+ATOM     24  N3  KGP d   1      25.424  23.696  15.245  0.00  0.00    -0.222 NA
+ATOM     25  C5  KGP d   1      25.472  22.052  17.042  0.00  0.00     0.149 A 
+ATOM     26  C2  KGP d   1      26.604  23.201  14.823  0.00  0.00     0.237 A 
+ATOM     27  N1  KGP d   1      27.247  22.162  15.430  0.00  0.00    -0.222 NA
+ATOM     28  C6  KGP d   1      26.741  21.568  16.521  0.00  0.00     0.155 A 
+ATOM     29  N6  KGP d   1      27.354  20.539  17.150  0.00  0.00    -0.382 N 
+ATOM     30  H6  KGP d   1      26.924  20.116  17.985  0.00  0.00     0.157 HD
+ATOM     31  H7  KGP d   1      28.250  20.178  16.794  0.00  0.00     0.157 HD
+ATOM     32  N7  KGP d   1      24.667  21.697  18.066  0.00  0.00    -0.236 NA
+ATOM     33  C8  KGP d   1      23.587  22.526  18.038  0.00  0.00     0.214 A 
+ENDBRANCH  13  22
+ENDBRANCH   9  10
+ENDBRANCH   8   9
+ENDBRANCH   5   8
+ENDBRANCH   4   5
+ENDBRANCH   1   4
+BRANCH   1  34
+ATOM     34  O7  KGP d   1      19.476  21.210  22.048  0.00  0.00    -0.289 OA
+BRANCH  34  35
+ATOM     35  CPB KGP d   1      20.809  21.225  22.533  0.00  0.00     0.193 C 
+BRANCH  35  36
+ATOM     36  CPA KGP d   1      21.701  20.387  21.642  0.00  0.00     0.009 C 
+ATOM     37  CP9 KGP d   1      23.126  20.089  22.062  0.00  0.00     0.020 C 
+ATOM     38  CP8 KGP d   1      21.215  19.158  22.419  0.00  0.00     0.020 C 
+BRANCH  36  39
+ATOM     39  CP7 KGP d   1      21.202  19.773  20.347  0.00  0.00     0.219 C 
+BRANCH  39  40
+ATOM     40  OP3 KGP d   1      21.337  20.928  19.564  0.00  0.00    -0.385 OA
+ATOM     41  H21 KGP d   1      20.795  21.619  19.925  0.00  0.00     0.210 HD
+ENDBRANCH  39  40
+BRANCH  39  42
+ATOM     42  CP6 KGP d   1      22.057  18.662  19.784  0.00  0.00     0.247 C 
+ATOM     43  OP2 KGP d   1      21.923  17.476  20.102  0.00  0.00    -0.271 OA
+ATOM     44  NP2 KGP d   1      22.990  19.046  18.937  0.00  0.00    -0.358 N 
+ATOM     45  H22 KGP d   1      23.044  20.012  18.682  0.00  0.00     0.162 HD
+BRANCH  44  46
+ATOM     46  CP5 KGP d   1      23.938  18.120  18.364  0.00  0.00     0.132 C 
+BRANCH  46  47
+ATOM     47  CP4 KGP d   1      24.948  17.664  19.399  0.00  0.00     0.122 C 
+BRANCH  47  48
+ATOM     48  CP3 KGP d   1      25.951  16.775  18.722  0.00  0.00     0.219 C 
+ATOM     49  OP1 KGP d   1      25.599  15.794  18.116  0.00  0.00    -0.274 OA
+ATOM     50  NP1 KGP d   1      27.213  17.100  18.769  0.00  0.00    -0.359 N 
+ATOM     51  H27 KGP d   1      27.500  17.906  19.286  0.00  0.00     0.162 HD
+BRANCH  50  52
+ATOM     52  CP2 KGP d   1      28.189  16.311  18.086  0.00  0.00     0.142 C 
+BRANCH  52  53
+ATOM     53  CP1 KGP d   1      28.819  17.111  16.958  0.00  0.00     0.142 C 
+BRANCH  53  54
+ATOM     54  N   KGP d   1      29.657  16.262  16.161  0.00  0.00    -0.358 N 
+ATOM     55  CS1 KGP d   1      31.005  15.932  16.631  0.00  0.00     0.238 C 
+ATOM     56  OS1 KGP d   1      31.441  16.449  17.654  0.00  0.00    -0.272 OA
+ATOM     57  H32 KGP d   1      29.324  15.898  15.291  0.00  0.00     0.162 HD
+BRANCH  55  58
+ATOM     58  CS2 KGP d   1      31.751  14.934  15.805  0.00  0.00     0.217 C 
+ATOM     59  CS3 KGP d   1      33.255  15.044  15.972  0.00  0.00     0.039 C 
+BRANCH  58  60
+ATOM     60  SS4 KGP d   1      31.302  13.384  16.277  0.00  0.00     0.115 S 
+ATOM     61  O56 KGP d   1      31.726  13.309  17.641  0.00  0.00    -0.594 OA
+ATOM     62  OS5 KGP d   1      29.868  13.224  16.263  0.00  0.00    -0.594 OA
+ATOM     63  OS4 KGP d   1      31.963  12.545  15.338  0.00  0.00    -0.594 OA
+ENDBRANCH  58  60
+ENDBRANCH  55  58
+ENDBRANCH  53  54
+ENDBRANCH  52  53
+ENDBRANCH  50  52
+ENDBRANCH  47  48
+ENDBRANCH  46  47
+ENDBRANCH  44  46
+ENDBRANCH  39  42
+ENDBRANCH  36  39
+ENDBRANCH  35  36
+ENDBRANCH  34  35
+ENDBRANCH   1  34
+TORSDOF 23

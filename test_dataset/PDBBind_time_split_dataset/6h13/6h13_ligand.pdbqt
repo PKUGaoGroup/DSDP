@@ -1,0 +1,91 @@
+REMARK  10 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: NAP_40  and  CAG_7 
+REMARK    2  A    between atoms: CAQ_15  and  CAO_14 
+REMARK    3  A    between atoms: CAO_14  and  NAP_40 
+REMARK    4  A    between atoms: NAT_41  and  CAQ_15 
+REMARK    5  A    between atoms: CAW_18  and  CAR_16 
+REMARK    6  A    between atoms: NBW_48  and  CAW_18 
+REMARK    7  A    between atoms: CAY_20  and  CAX_19 
+REMARK    8  A    between atoms: CAX_19  and  NBW_48 
+REMARK    9  A    between atoms: NBF_45  and  CBB_23 
+REMARK       I    between atoms: CBE_25  and  NBF_45 
+REMARK       I    between atoms: NBH_46  and  CBE_25 
+REMARK   10  A    between atoms: CBI_26  and  NBH_46 
+ROOT
+ATOM      1  CAX FJN d   1     -37.491 157.492  79.971  0.00  0.00     0.273 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  CAY FJN d   1     -36.880 156.233  80.157  0.00  0.00    -0.028 A 
+ATOM      3  CAZ FJN d   1     -36.152 155.925  81.311  0.00  0.00     0.028 A 
+ATOM      4  CBA FJN d   1     -35.542 154.671  81.419  0.00  0.00     0.119 A 
+ATOM      5  NBD FJN d   1     -35.650 153.736  80.363  0.00  0.00    -0.243 NA
+ATOM      6  CBB FJN d   1     -36.348 154.046  79.253  0.00  0.00     0.131 A 
+ATOM      7  CBC FJN d   1     -36.925 155.289  79.147  0.00  0.00     0.059 A 
+BRANCH   6   8
+ATOM      8  NBF FJN d   1     -36.492 153.258  78.184  0.00  0.00    -0.293 N 
+ATOM      9  CBE FJN d   1     -35.628 152.255  77.997  0.00  0.00     0.326 C 
+ATOM     10  NBH FJN d   1     -34.722 152.099  79.023  0.00  0.00    -0.308 N 
+ATOM     11  OBG FJN d   1     -35.738 151.595  76.963  0.00  0.00    -0.247 OA
+ATOM     12  H38 FJN d   1     -34.879 152.746  79.769  0.00  0.00     0.170 HD
+ATOM     13  H37 FJN d   1     -37.235 153.416  77.533  0.00  0.00     0.172 HD
+BRANCH  10  14
+ATOM     14  CBI FJN d   1     -33.653 151.268  79.269  0.00  0.00     0.045 A 
+ATOM     15  CBJ FJN d   1     -33.313 150.151  78.566  0.00  0.00     0.007 A 
+ATOM     16  CBK FJN d   1     -32.216 149.448  78.948  0.00  0.00     0.042 A 
+ATOM     17  CBP FJN d   1     -33.838 149.477  77.433  0.00  0.00     0.124 A 
+ATOM     18  CBL FJN d   1     -31.463 149.812  79.995  0.00  0.00     0.018 A 
+ATOM     19  CBO FJN d   1     -32.043 148.406  78.122  0.00  0.00     0.255 A 
+ATOM     20  CBM FJN d   1     -31.765 150.930  80.752  0.00  0.00     0.003 A 
+ATOM     21  CBN FJN d   1     -32.879 151.654  80.372  0.00  0.00     0.030 A 
+ATOM     22  NBV FJN d   1     -32.946 148.377  77.151  0.00  0.00    -0.339 N 
+ATOM     23  OBU FJN d   1     -31.113 147.606  78.218  0.00  0.00    -0.267 OA
+ATOM     24  CBT FJN d   1     -33.237 147.441  76.017  0.00  0.00     0.127 C 
+ATOM     25  CBS FJN d   1     -34.676 146.906  76.134  0.00  0.00     0.020 C 
+ATOM     26  CBR FJN d   1     -35.627 148.058  76.470  0.00  0.00     0.004 C 
+ATOM     27  CBQ FJN d   1     -35.167 148.821  77.727  0.00  0.00     0.030 C 
+ENDBRANCH  10  14
+ENDBRANCH   6   8
+ENDBRANCH   1   2
+BRANCH   1  28
+ATOM     28  NBW FJN d   1     -38.931 157.600  79.598  0.00  0.00    -0.066 N 
+ATOM     29  CBX FJN d   1     -39.515 156.873  78.456  0.00  0.00     0.270 C 
+ATOM     30  H39 FJN d   1     -39.459 157.324  80.411  0.00  0.00     0.280 HD
+BRANCH  28  31
+ATOM     31  CAW FJN d   1     -39.151 159.022  79.317  0.00  0.00     0.297 C 
+BRANCH  31  32
+ATOM     32  CAR FJN d   1     -39.977 159.542  80.469  0.00  0.00     0.101 A 
+ATOM     33  CAS FJN d   1     -39.496 159.905  81.645  0.00  0.00     0.144 A 
+ATOM     34  NAT FJN d   1     -40.583 160.253  82.328  0.00  0.00    -0.259 N 
+ATOM     35  NAU FJN d   1     -41.621 160.079  81.580  0.00  0.00    -0.066 NA
+ATOM     36  NAV FJN d   1     -41.296 159.650  80.465  0.00  0.00    -0.134 NA
+BRANCH  34  37
+ATOM     37  CAQ FJN d   1     -40.627 160.740  83.719  0.00  0.00     0.171 C 
+BRANCH  37  38
+ATOM     38  CAO FJN d   1     -40.642 162.252  83.763  0.00  0.00     0.141 C 
+BRANCH  38  39
+ATOM     39  NAP FJN d   1     -42.024 162.776  83.851  0.00  0.00    -0.387 N 
+ATOM     40  H36 FJN d   1     -42.589 162.424  84.637  0.00  0.00     0.159 HD
+BRANCH  39  41
+ATOM     41  CAG FJN d   1     -42.640 163.661  83.028  0.00  0.00     0.053 A 
+ATOM     42  CAF FJN d   1     -44.029 163.508  82.883  0.00  0.00     0.020 A 
+ATOM     43  CAA FJN d   1     -44.692 162.463  83.549  0.00  0.00     0.016 C 
+ATOM     44  CAE FJN d   1     -44.721 164.392  82.042  0.00  0.00     0.070 A 
+ATOM     45  CAB FJN d   1     -46.193 162.736  83.665  0.00  0.00     0.001 C 
+ATOM     46  CAC FJN d   1     -46.721 163.013  82.273  0.00  0.00     0.002 C 
+ATOM     47  CAD FJN d   1     -46.119 164.330  81.824  0.00  0.00     0.032 C 
+ATOM     48  NAN FJN d   1     -44.040 165.375  81.429  0.00  0.00    -0.247 NA
+ATOM     49  CAI FJN d   1     -42.719 165.551  81.564  0.00  0.00     0.070 A 
+ATOM     50  CAH FJN d   1     -41.957 164.706  82.370  0.00  0.00     0.020 A 
+ATOM     51  CAJ FJN d   1     -42.115 166.600  80.873  0.00  0.00     0.032 A 
+ATOM     52  CAM FJN d   1     -40.582 164.969  82.461  0.00  0.00     0.016 A 
+ATOM     53  CAL FJN d   1     -39.966 166.007  81.772  0.00  0.00     0.001 A 
+ATOM     54  CAK FJN d   1     -40.745 166.832  80.971  0.00  0.00     0.002 A 
+ENDBRANCH  39  41
+ENDBRANCH  38  39
+ENDBRANCH  37  38
+ENDBRANCH  34  37
+ENDBRANCH  31  32
+ENDBRANCH  28  31
+ENDBRANCH   1  28
+TORSDOF 10

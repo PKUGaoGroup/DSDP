@@ -1,0 +1,41 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  O21_21 
+REMARK    2  A    between atoms: C3_3  and  O20_20 
+REMARK    3  A    between atoms: C7_4  and  C4_11 
+REMARK    4  A    between atoms: C12_6  and  N11_16 
+ROOT
+ATOM      1  C7  G5E d   1      64.261  34.976  23.621  0.00  0.00     0.170 A 
+ATOM      2  C10 G5E d   1      64.486  36.769  22.355  0.00  0.00     0.201 A 
+ATOM      3  N8  G5E d   1      63.531  34.780  22.557  0.00  0.00    -0.153 NA
+ATOM      4  N9  G5E d   1      63.678  35.899  21.729  0.00  0.00    -0.251 N 
+ATOM      5  N11 G5E d   1      64.854  36.227  23.531  0.00  0.00    -0.266 N 
+ATOM      6  S18 G5E d   1      64.977  38.291  21.760  0.00  0.00    -0.038 SA
+ATOM      7  H7  G5E d   1      63.256  36.027  20.831  0.00  0.00     0.191 HD
+ENDROOT
+BRANCH   1   8
+ATOM      8  C4  G5E d   1      64.379  34.065  24.777  0.00  0.00     0.045 A 
+ATOM      9  C3  G5E d   1      63.207  33.609  25.409  0.00  0.00     0.082 A 
+ATOM     10  C2  G5E d   1      63.299  32.828  26.558  0.00  0.00     0.074 A 
+ATOM     11  C1  G5E d   1      64.557  32.502  27.068  0.00  0.00     0.068 A 
+ATOM     12  C6  G5E d   1      65.725  32.965  26.453  0.00  0.00     0.037 A 
+ATOM     13  C5  G5E d   1      65.645  33.749  25.313  0.00  0.00     0.021 A 
+BRANCH   9  14
+ATOM     14  O20 G5E d   1      61.988  33.916  24.892  0.00  0.00    -0.360 OA
+ATOM     15  H9  G5E d   1      61.309  33.534  25.436  0.00  0.00     0.217 HD
+ENDBRANCH   9  14
+BRANCH  11  16
+ATOM     16  O21 G5E d   1      64.649  31.749  28.188  0.00  0.00    -0.361 OA
+ATOM     17  H10 G5E d   1      63.777  31.514  28.483  0.00  0.00     0.217 HD
+ENDBRANCH  11  16
+ENDBRANCH   1   8
+BRANCH   5  18
+ATOM     18  C12 G5E d   1      65.701  36.836  24.481  0.00  0.00     0.082 A 
+ATOM     19  C13 G5E d   1      67.073  36.916  24.223  0.00  0.00     0.143 A 
+ATOM     20  C14 G5E d   1      67.928  37.505  25.156  0.00  0.00     0.044 A 
+ATOM     21  F19 G5E d   1      67.551  36.419  23.059  0.00  0.00    -0.204 F 
+ATOM     22  C15 G5E d   1      67.416  38.008  26.352  0.00  0.00     0.003 A 
+ATOM     23  C16 G5E d   1      66.050  37.928  26.612  0.00  0.00     0.002 A 
+ATOM     24  C17 G5E d   1      65.194  37.342  25.680  0.00  0.00     0.033 A 
+ENDBRANCH   5  18
+TORSDOF 4

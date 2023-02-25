@@ -1,0 +1,51 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C11_15  and  C14_4 
+REMARK    2  A    between atoms: C8_5  and  C3_8 
+REMARK       I    between atoms: N9_21  and  C8_5 
+REMARK    3  A    between atoms: C11_15  and  C12_12 
+REMARK       I    between atoms: C12_12  and  N13_23 
+REMARK    4  A    between atoms: N10_22  and  C11_15 
+REMARK    5  A    between atoms: N9_21  and  N10_22 
+ROOT
+ATOM      1  N10 QPD d   1      11.278   4.492 -10.410  0.00  0.00     0.024 N 
+ATOM      2  H14 QPD d   1      11.513   5.328 -10.921  0.00  0.00     0.307 HD
+ATOM      3  H15 QPD d   1      12.081   3.885 -10.371  0.00  0.00     0.307 HD
+ENDROOT
+BRANCH   1   4
+ATOM      4  C11 QPD d   1      10.183   3.797 -11.103  0.00  0.00     0.334 C 
+BRANCH   4   5
+ATOM      5  C14 QPD d   1      10.538   3.514 -12.416  0.00  0.00    -0.016 A 
+ATOM      6  C15 QPD d   1       9.745   2.662 -13.175  0.00  0.00     0.010 A 
+ATOM      7  C16 QPD d   1      10.159   2.269 -14.444  0.00  0.00     0.001 A 
+ATOM      8  C17 QPD d   1      11.362   2.737 -14.956  0.00  0.00     0.000 A 
+ATOM      9  C18 QPD d   1      12.150   3.601 -14.203  0.00  0.00     0.001 A 
+ATOM     10  C19 QPD d   1      11.736   3.991 -12.936  0.00  0.00     0.010 A 
+ENDBRANCH   4   5
+BRANCH   4  11
+ATOM     11  C12 QPD d   1       8.934   4.680 -11.094  0.00  0.00     0.253 C 
+ATOM     12  O2  QPD d   1       9.019   5.904 -10.992  0.00  0.00    -0.271 OA
+ATOM     13  N13 QPD d   1       7.782   4.021 -11.184  0.00  0.00    -0.368 N 
+ATOM     14  H16 QPD d   1       7.781   3.024 -11.265  0.00  0.00     0.159 HD
+ATOM     15  H17 QPD d   1       6.917   4.522 -11.171  0.00  0.00     0.159 HD
+ENDBRANCH   4  11
+ENDBRANCH   1   4
+BRANCH   1  16
+ATOM     16  N9  QPD d   1      10.980   4.773  -9.365  0.00  0.00    -0.183 N 
+ATOM     17  C8  QPD d   1      10.830   3.776  -8.481  0.00  0.00     0.277 C 
+ATOM     18  O1  QPD d   1      11.052   2.593  -8.733  0.00  0.00    -0.266 OA
+ATOM     19  H13 QPD d   1      10.832   5.727  -9.104  0.00  0.00     0.197 HD
+BRANCH  17  20
+ATOM     20  C3  QPD d   1      10.477   4.161  -7.257  0.00  0.00     0.061 A 
+ATOM     21  C2  QPD d   1       9.781   5.270  -7.028  0.00  0.00     0.106 A 
+ATOM     22  N1  QPD d   1       9.146   5.100  -5.873  0.00  0.00    -0.364 N 
+ATOM     23  C7A QPD d   1       9.446   3.895  -5.399  0.00  0.00     0.043 A 
+ATOM     24  H4  QPD d   1       8.525   5.787  -5.421  0.00  0.00     0.165 HD
+ATOM     25  C7  QPD d   1       9.074   3.284  -4.278  0.00  0.00     0.030 A 
+ATOM     26  C4A QPD d   1      10.277   3.308  -6.258  0.00  0.00     0.008 A 
+ATOM     27  C6  QPD d   1       9.550   2.013  -3.980  0.00  0.00     0.002 A 
+ATOM     28  C5  QPD d   1      10.412   1.400  -4.879  0.00  0.00     0.001 A 
+ATOM     29  C4  QPD d   1      10.767   2.089  -6.032  0.00  0.00     0.015 A 
+ENDBRANCH  17  20
+ENDBRANCH   1  16
+TORSDOF 5

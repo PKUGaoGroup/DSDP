@@ -1,0 +1,51 @@
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C17_1  and  C02_4 
+REMARK    2  A    between atoms: C02_4  and  O03_5 
+REMARK    3  A    between atoms: O03_5  and  C04_6 
+REMARK    4  A    between atoms: C04_6  and  C05_7 
+REMARK    5  A    between atoms: C09_11  and  O10_12 
+REMARK    6  A    between atoms: O10_12  and  C11_13 
+REMARK    7  A    between atoms: C11_13  and  C12_14 
+REMARK    8  A    between atoms: C12_14  and  O13_15 
+ROOT
+ATOM      1  C05 JET d   1     -23.458  20.087 -11.109  0.00  0.00    -0.031 A 
+ATOM      2  C06 JET d   1     -22.737  21.121 -10.506  0.00  0.00     0.009 A 
+ATOM      3  C07 JET d   1     -23.058  21.541  -9.214  0.00  0.00     0.003 A 
+ATOM      4  C08 JET d   1     -24.112  20.924  -8.528  0.00  0.00     0.037 A 
+ATOM      5  C09 JET d   1     -24.843  19.892  -9.109  0.00  0.00     0.070 A 
+ATOM      6  C16 JET d   1     -24.515  19.477 -10.417  0.00  0.00     0.046 A 
+ENDROOT
+BRANCH   1   7
+ATOM      7  C04 JET d   1     -23.062  19.650 -12.535  0.00  0.00     0.217 C 
+BRANCH   7   8
+ATOM      8  O03 JET d   1     -22.178  18.516 -12.568  0.00  0.00    -0.313 OA
+BRANCH   8   9
+ATOM      9  C02 JET d   1     -20.796  18.775 -12.805  0.00  0.00     0.296 C 
+ATOM     10  O01 JET d   1     -20.383  19.903 -12.980  0.00  0.00    -0.259 OA
+BRANCH   9  11
+ATOM     11  C17 JET d   1     -19.788  17.633 -12.806  0.00  0.00     0.075 A 
+ATOM     12  C21 JET d   1     -18.397  17.775 -12.705  0.00  0.00     0.128 A 
+ATOM     13  N20 JET d   1     -17.868  16.519 -12.731  0.00  0.00    -0.289 N 
+ATOM     14  N19 JET d   1     -18.911  15.643 -12.836  0.00  0.00    -0.187 NA
+ATOM     15  H14 JET d   1     -16.868  16.276 -12.681  0.00  0.00     0.188 HD
+ATOM     16  C18 JET d   1     -20.070  16.285 -12.891  0.00  0.00     0.157 A 
+ENDBRANCH   9  11
+ENDBRANCH   8   9
+ENDBRANCH   7   8
+ENDBRANCH   1   7
+BRANCH   5  17
+ATOM     17  O10 JET d   1     -25.945  19.292  -8.351  0.00  0.00    -0.342 OA
+BRANCH  17  18
+ATOM     18  C11 JET d   1     -25.758  17.948  -7.836  0.00  0.00     0.286 C 
+BRANCH  18  19
+ATOM     19  C12 JET d   1     -26.395  17.706  -6.468  0.00  0.00     0.282 C 
+ATOM     20  O15 JET d   1     -26.479  18.596  -5.646  0.00  0.00    -0.263 OA
+BRANCH  19  21
+ATOM     21  O13 JET d   1     -26.882  16.429  -6.120  0.00  0.00    -0.325 OA
+ATOM     22  C14 JET d   1     -27.295  16.266  -4.768  0.00  0.00     0.213 C 
+ENDBRANCH  19  21
+ENDBRANCH  18  19
+ENDBRANCH  17  18
+ENDBRANCH   5  17
+TORSDOF 8

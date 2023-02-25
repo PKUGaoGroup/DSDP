@@ -1,0 +1,50 @@
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  O1_2 
+REMARK    2  A    between atoms: C3_4  and  C11_13 
+REMARK    3  A    between atoms: O4_6  and  N1_5 
+REMARK    4  A    between atoms: C11_13  and  C13_15 
+REMARK    5  A    between atoms: C13_15  and  C12_14 
+REMARK    6  A    between atoms: C12_14  and  C14_16 
+REMARK    7  A    between atoms: C14_16  and  C15_17 
+REMARK    8  A    between atoms: C15_17  and  C16_18 
+ROOT
+ATOM      1  C1  HQO d 811      35.216  33.854  -4.363  0.00  0.00     0.076 A 
+ATOM      2  C2  HQO d 811      34.945  35.195  -4.185  0.00  0.00     0.064 A 
+ATOM      3  C3  HQO d 811      35.904  36.147  -4.506  0.00  0.00     0.038 A 
+ATOM      4  N1  HQO d 811      37.148  35.747  -5.017  0.00  0.00    -0.252 N 
+ATOM      5  C5  HQO d 811      37.414  34.388  -5.202  0.00  0.00     0.173 A 
+ATOM      6  C6  HQO d 811      38.642  33.987  -5.719  0.00  0.00     0.005 A 
+ATOM      7  C7  HQO d 811      38.899  32.632  -5.918  0.00  0.00    -0.002 A 
+ATOM      8  C8  HQO d 811      37.933  31.691  -5.598  0.00  0.00     0.001 A 
+ATOM      9  C9  HQO d 811      36.705  32.095  -5.077  0.00  0.00     0.012 A 
+ATOM     10  C10 HQO d 811      36.451  33.441  -4.880  0.00  0.00     0.004 A 
+ENDROOT
+BRANCH   3  11
+ATOM     11  C11 HQO d 811      35.627  37.622  -4.208  0.00  0.00     0.059 C 
+BRANCH  11  12
+ATOM     12  C13 HQO d 811      36.560  38.087  -3.094  0.00  0.00     0.006 C 
+BRANCH  12  13
+ATOM     13  C12 HQO d 811      35.819  39.006  -2.120  0.00  0.00     0.000 C 
+BRANCH  13  14
+ATOM     14  C14 HQO d 811      35.535  38.300  -0.794  0.00  0.00     0.000 C 
+BRANCH  14  15
+ATOM     15  C15 HQO d 811      34.798  39.251   0.151  0.00  0.00    -0.000 C 
+BRANCH  15  16
+ATOM     16  C16 HQO d 811      35.589  39.460   1.444  0.00  0.00    -0.005 C 
+ATOM     17  C17 HQO d 811      34.922  40.524   2.319  0.00  0.00     0.005 C 
+ENDBRANCH  15  16
+ENDBRANCH  14  15
+ENDBRANCH  13  14
+ENDBRANCH  12  13
+ENDBRANCH  11  12
+ENDBRANCH   3  11
+BRANCH   4  18
+ATOM     18  O4  HQO d 811      38.098  36.685  -5.340  0.00  0.00    -0.286 OA
+ATOM     19  H   HQO d 811      38.891  36.239  -5.676  0.00  0.00     0.244 HD
+ENDBRANCH   4  18
+BRANCH   1  20
+ATOM     20  O1  HQO d 811      34.301  32.920  -3.983  0.00  0.00    -0.360 OA
+ATOM     21  H   HQO d 811      34.484  32.009  -4.103  0.00  0.00     0.217 HD
+ENDBRANCH   1  20
+TORSDOF 8

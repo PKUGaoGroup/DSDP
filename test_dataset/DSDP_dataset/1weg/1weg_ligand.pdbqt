@@ -1,0 +1,10 @@
+REMARK  0 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+ROOT
+ATOM      1  N1  IMD d1796      17.224   0.265  19.035  0.00  0.00    -0.278 NA
+ATOM      2  C2  IMD d1796      16.353  -0.577  18.512  0.00  0.00     0.226 A 
+ATOM      3  N3  IMD d1796      15.216   0.095  18.172  0.00  0.00    -0.257 NA
+ATOM      4  C4  IMD d1796      15.396   1.405  18.501  0.00  0.00     0.112 A 
+ATOM      5  C5  IMD d1796      16.628   1.550  19.037  0.00  0.00     0.197 A 
+ENDROOT
+TORSDOF 0

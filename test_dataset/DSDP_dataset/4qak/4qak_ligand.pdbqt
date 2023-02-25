@@ -1,0 +1,61 @@
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O2P_3  and  P_1 
+REMARK    2  A    between atoms: P_1  and  O1P_2 
+REMARK    3  A    between atoms: P_1  and  O2'_12 
+REMARK    4  A    between atoms: O5'_6  and  C5'_5 
+REMARK    5  A    between atoms: C5'_5  and  C4'_7 
+REMARK    6  A    between atoms: C3'_9  and  O3'_10 
+REMARK    7  A    between atoms: C2'_11  and  O2'_12 
+REMARK    8  A    between atoms: C1'_13  and  N9_14 
+REMARK    9  A    between atoms: C6_18  and  N6_19 
+ROOT
+ATOM      1  C4' 2AM d 201      32.849  20.769  20.670  0.00  0.00     0.179 C 
+ATOM      2  O4' 2AM d 201      32.282  21.382  21.812  0.00  0.00    -0.353 OA
+ATOM      3  C3' 2AM d 201      31.920  19.638  20.269  0.00  0.00     0.183 C 
+ATOM      4  C2' 2AM d 201      30.656  19.849  21.092  0.00  0.00     0.214 C 
+ATOM      5  C1' 2AM d 201      31.170  20.636  22.286  0.00  0.00     0.263 C 
+ENDROOT
+BRANCH   5   6
+ATOM      6  N9  2AM d 201      30.124  21.532  22.809  0.00  0.00    -0.294 N 
+ATOM      7  C4  2AM d 201      29.657  22.641  22.154  0.00  0.00     0.167 A 
+ATOM      8  N3  2AM d 201      29.981  23.187  20.954  0.00  0.00    -0.222 NA
+ATOM      9  C5  2AM d 201      28.692  23.222  22.965  0.00  0.00     0.149 A 
+ATOM     10  C2  2AM d 201      29.351  24.336  20.513  0.00  0.00     0.237 A 
+ATOM     11  N1  2AM d 201      28.394  24.927  21.309  0.00  0.00    -0.222 NA
+ATOM     12  C6  2AM d 201      28.054  24.378  22.532  0.00  0.00     0.155 A 
+ATOM     13  N7  2AM d 201      28.584  22.468  24.086  0.00  0.00    -0.236 NA
+ATOM     14  C8  2AM d 201      29.458  21.431  24.005  0.00  0.00     0.214 A 
+BRANCH  12  15
+ATOM     15  N6  2AM d 201      27.121  24.962  23.284  0.00  0.00    -0.382 N 
+ATOM     16  H   2AM d 201      26.675  25.781  22.968  0.00  0.00     0.157 HD
+ATOM     17  H   2AM d 201      26.878  24.575  24.156  0.00  0.00     0.157 HD
+ENDBRANCH  12  15
+ENDBRANCH   5   6
+BRANCH   4  18
+ATOM     18  O2' 2AM d 201      30.039  18.663  21.563  0.00  0.00    -0.284 OA
+BRANCH  18  19
+ATOM     19  P   2AM d 201      29.285  17.625  20.593  0.00  0.00     0.391 P 
+ATOM     20  O3P 2AM d 201      28.319  18.369  19.705  0.00  0.00    -0.632 OA
+BRANCH  19  21
+ATOM     21  O2P 2AM d 201      30.347  16.935  19.767  0.00  0.00    -0.307 OA
+ATOM     22  H   2AM d 201      29.927  16.299  19.167  0.00  0.00     0.222 HD
+ENDBRANCH  19  21
+BRANCH  19  23
+ATOM     23  O1P 2AM d 201      28.539  16.611  21.430  0.00  0.00    -0.307 OA
+ATOM     24  H   2AM d 201      28.083  15.983  20.848  0.00  0.00     0.222 HD
+ENDBRANCH  19  23
+ENDBRANCH  18  19
+ENDBRANCH   4  18
+BRANCH   3  25
+ATOM     25  O3' 2AM d 201      32.562  18.432  20.608  0.00  0.00    -0.390 OA
+ATOM     26  H   2AM d 201      32.785  18.439  21.552  0.00  0.00     0.210 HD
+ENDBRANCH   3  25
+BRANCH   1  27
+ATOM     27  C5' 2AM d 201      32.953  21.796  19.559  0.00  0.00     0.198 C 
+BRANCH  27  28
+ATOM     28  O5' 2AM d 201      31.677  22.359  19.352  0.00  0.00    -0.398 OA
+ATOM     29  H   2AM d 201      31.372  22.778  20.172  0.00  0.00     0.209 HD
+ENDBRANCH  27  28
+ENDBRANCH   1  27
+TORSDOF 9

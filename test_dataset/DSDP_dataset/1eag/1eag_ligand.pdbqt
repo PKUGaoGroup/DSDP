@@ -1,0 +1,122 @@
+REMARK  19 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK       I    between atoms: N1_1  and  C_2 
+REMARK       I    between atoms: N_12  and  C_2 
+REMARK    1  A    between atoms: C31_13  and  C'_16 
+REMARK    2  A    between atoms: C1'_17  and  C'_16 
+REMARK    3  A    between atoms: C7_25  and  C11_23 
+REMARK    4  A    between atoms: C11_23  and  C22_27 
+REMARK    5  A    between atoms: C11_23  and  N2_24 
+REMARK       I    between atoms: N21_40  and  C7_25 
+REMARK    6  A    between atoms: C32_28  and  C22_27 
+REMARK    7  A    between atoms: C32_28  and  C41_29 
+REMARK    8  A    between atoms: C12_31  and  C13_42 
+REMARK    9  A    between atoms: C12_31  and  O11_41 
+REMARK   10  A    between atoms: C12_31  and  C23_32 
+REMARK   11  A    between atoms: C33_33  and  C23_32 
+REMARK   12  A    between atoms: C23_32  and  N21_40 
+REMARK   13  A    between atoms: C33_33  and  C1'1_34 
+REMARK   14  A    between atoms: C24_43  and  C13_42 
+REMARK   15  A    between atoms: C8_44  and  C24_43 
+REMARK   16  A    between atoms: C24_43  and  C1'2_46 
+REMARK       I    between atoms: N3_50  and  C8_44 
+REMARK   17  A    between atoms: C25_51  and  C14_49 
+REMARK   18  A    between atoms: C14_49  and  N3_50 
+REMARK   19  A    between atoms: C34_52  and  C25_51 
+ROOT
+ATOM      1  C11 A70 d 343      40.803  23.200  15.138  0.00  0.00     0.179 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C7  A70 d 343      40.786  23.448  13.616  0.00  0.00     0.241 C 
+ATOM      3  N21 A70 d 343      41.968  23.159  13.018  0.00  0.00    -0.352 N 
+ATOM      4  H   A70 d 343      42.674  22.758  13.575  0.00  0.00     0.163 HD
+ATOM      5  O2  A70 d 343      39.786  23.966  13.124  0.00  0.00    -0.271 OA
+BRANCH   3   6
+ATOM      6  C23 A70 d 343      42.274  23.398  11.609  0.00  0.00     0.113 C 
+BRANCH   6   7
+ATOM      7  C12 A70 d 343      42.104  22.192  10.681  0.00  0.00     0.141 C 
+BRANCH   7   8
+ATOM      8  C13 A70 d 343      40.767  21.496  10.907  0.00  0.00     0.048 C 
+BRANCH   8   9
+ATOM      9  C24 A70 d 343      40.328  20.688   9.663  0.00  0.00     0.083 C 
+BRANCH   9  10
+ATOM     10  C8  A70 d 343      39.609  21.656   8.711  0.00  0.00     0.222 C 
+ATOM     11  N3  A70 d 343      40.184  21.642   7.503  0.00  0.00    -0.361 N 
+ATOM     12  H   A70 d 343      40.983  21.094   7.330  0.00  0.00     0.162 HD
+ATOM     13  O3  A70 d 343      39.001  22.588   9.196  0.00  0.00    -0.273 OA
+BRANCH  11  14
+ATOM     14  C14 A70 d 343      39.590  22.468   6.440  0.00  0.00     0.122 C 
+BRANCH  14  15
+ATOM     15  C25 A70 d 343      39.393  21.596   5.208  0.00  0.00     0.019 C 
+BRANCH  15  16
+ATOM     16  C34 A70 d 343      38.451  22.118   4.125  0.00  0.00    -0.003 C 
+ATOM     17  C42 A70 d 343      38.903  23.431   3.526  0.00  0.00     0.005 C 
+ENDBRANCH  15  16
+ENDBRANCH  14  15
+ENDBRANCH  11  14
+ENDBRANCH   9  10
+BRANCH   9  18
+ATOM     18  C1' A70 d 343      39.273  19.667  10.171  0.00  0.00    -0.010 C 
+ATOM     19  C2' A70 d 343      38.788  18.724   9.092  0.00  0.00     0.010 C 
+ATOM     20  C3' A70 d 343      38.117  20.266  10.990  0.00  0.00     0.010 C 
+ENDBRANCH   9  18
+ENDBRANCH   8   9
+ENDBRANCH   7   8
+BRANCH   7  21
+ATOM     21  O11 A70 d 343      43.150  21.260  10.918  0.00  0.00    -0.393 OA
+ATOM     22  H   A70 d 343      43.104  20.949  11.836  0.00  0.00     0.210 HD
+ENDBRANCH   7  21
+ENDBRANCH   6   7
+BRANCH   6  23
+ATOM     23  C33 A70 d 343      43.629  24.147  11.475  0.00  0.00     0.032 C 
+BRANCH  23  24
+ATOM     24  C1' A70 d 343      43.628  25.442  12.329  0.00  0.00    -0.013 C 
+ATOM     25  C6' A70 d 343      42.590  26.444  11.769  0.00  0.00     0.005 C 
+ATOM     26  C5' A70 d 343      42.592  27.816  12.446  0.00  0.00     0.000 C 
+ATOM     27  C4' A70 d 343      43.989  28.438  12.626  0.00  0.00     0.000 C 
+ATOM     28  C3' A70 d 343      45.033  27.440  13.089  0.00  0.00     0.000 C 
+ATOM     29  C2' A70 d 343      45.016  26.124  12.291  0.00  0.00     0.005 C 
+ENDBRANCH  23  24
+ENDBRANCH   6  23
+ENDBRANCH   3   6
+ENDBRANCH   1   2
+BRANCH   1  30
+ATOM     30  C22 A70 d 343      39.390  22.853  15.611  0.00  0.00     0.035 C 
+BRANCH  30  31
+ATOM     31  C32 A70 d 343      38.977  21.392  15.386  0.00  0.00     0.002 C 
+BRANCH  31  32
+ATOM     32  C41 A70 d 343      37.447  21.332  15.558  0.00  0.00    -0.004 C 
+ATOM     33  C51 A70 d 343      37.162  20.164  16.487  0.00  0.00     0.005 C 
+ENDBRANCH  31  32
+ENDBRANCH  30  31
+ENDBRANCH   1  30
+BRANCH   1  34
+ATOM     34  N2  A70 d 343      41.267  24.369  15.907  0.00  0.00    -0.335 N 
+ATOM     35  C21 A70 d 343      40.655  25.683  15.590  0.00  0.00     0.147 C 
+ATOM     36  C1  A70 d 343      41.662  26.798  15.801  0.00  0.00     0.148 C 
+ATOM     37  N   A70 d 343      42.065  26.767  17.208  0.00  0.00    -0.318 N 
+ATOM     38  C31 A70 d 343      42.263  25.474  17.894  0.00  0.00     0.185 C 
+ATOM     39  C   A70 d 343      41.790  27.858  17.968  0.00  0.00     0.325 C 
+ATOM     40  C4  A70 d 343      42.136  24.242  16.952  0.00  0.00     0.244 C 
+ATOM     41  O1  A70 d 343      42.594  23.240  17.457  0.00  0.00    -0.271 OA
+ATOM     42  N1  A70 d 343      41.941  29.075  17.389  0.00  0.00    -0.308 N 
+ATOM     43  O   A70 d 343      41.616  27.710  19.210  0.00  0.00    -0.247 OA
+ATOM     44  C2  A70 d 343      43.014  29.343  16.441  0.00  0.00     0.107 C 
+ATOM     45  C6  A70 d 343      41.262  30.206  18.002  0.00  0.00     0.148 C 
+ATOM     46  C3  A70 d 343      42.971  30.713  15.761  0.00  0.00     0.076 C 
+ATOM     47  N4  A70 d 343      41.950  31.675  16.115  0.00  0.00    -0.294 N 
+ATOM     48  CM  A70 d 343      41.462  32.478  14.987  0.00  0.00     0.116 C 
+ATOM     49  C5  A70 d 343      40.820  31.156  16.879  0.00  0.00     0.114 C 
+BRANCH  38  50
+ATOM     50  C'  A70 d 343      43.629  25.398  18.632  0.00  0.00     0.073 C 
+BRANCH  50  51
+ATOM     51  C1' A70 d 343      44.692  26.019  17.742  0.00  0.00    -0.056 A 
+ATOM     52  C2' A70 d 343      45.251  25.259  16.708  0.00  0.00     0.007 A 
+ATOM     53  C3' A70 d 343      46.237  25.760  15.841  0.00  0.00     0.001 A 
+ATOM     54  C4' A70 d 343      46.636  27.087  16.037  0.00  0.00     0.000 A 
+ATOM     55  C5' A70 d 343      46.075  27.845  17.067  0.00  0.00     0.001 A 
+ATOM     56  C6' A70 d 343      45.100  27.332  17.936  0.00  0.00     0.007 A 
+ENDBRANCH  50  51
+ENDBRANCH  38  50
+ENDBRANCH   1  34
+TORSDOF 19

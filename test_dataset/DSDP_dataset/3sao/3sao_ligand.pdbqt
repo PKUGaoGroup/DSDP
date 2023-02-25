@@ -1,0 +1,31 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C18_4  and  C21_2 
+REMARK    2  A    between atoms: C21_2  and  O9_3 
+REMARK    3  A    between atoms: O3_8  and  C3_7 
+REMARK    4  A    between atoms: O6_11  and  C6_9 
+ROOT
+ATOM      1  C18 DBH d 162     -37.613   0.424 -45.152  0.00  0.00     0.073 A 
+ATOM      2  C15 DBH d 162     -37.477   1.723 -44.671  0.00  0.00     0.021 A 
+ATOM      3  C12 DBH d 162     -36.915   2.709 -45.446  0.00  0.00     0.004 A 
+ATOM      4  C3  DBH d 162     -37.178   0.155 -46.426  0.00  0.00     0.115 A 
+ATOM      5  C6  DBH d 162     -36.549   1.156 -47.165  0.00  0.00     0.099 A 
+ATOM      6  C9  DBH d 162     -36.441   2.436 -46.687  0.00  0.00     0.039 A 
+ENDROOT
+BRANCH   1   7
+ATOM      7  C21 DBH d 162     -38.223  -0.618 -44.253  0.00  0.00     0.179 C 
+ATOM      8  O17 DBH d 162     -38.349  -1.815 -44.635  0.00  0.00    -0.646 OA
+BRANCH   7   9
+ATOM      9  O9  DBH d 162     -38.480  -0.272 -43.069  0.00  0.00    -0.773 OA
+ATOM     10  H   DBH d 162     -38.379   0.623 -42.810  0.00  0.00     0.167 HD
+ENDBRANCH   7   9
+ENDBRANCH   1   7
+BRANCH   4  11
+ATOM     11  O3  DBH d 162     -37.319  -1.112 -46.914  0.00  0.00    -0.357 OA
+ATOM     12  H   DBH d 162     -37.028  -1.315 -47.781  0.00  0.00     0.217 HD
+ENDBRANCH   4  11
+BRANCH   5  13
+ATOM     13  O6  DBH d 162     -36.063   0.983 -48.406  0.00  0.00    -0.358 OA
+ATOM     14  H   DBH d 162     -35.650   1.697 -48.851  0.00  0.00     0.217 HD
+ENDBRANCH   5  13
+TORSDOF 4

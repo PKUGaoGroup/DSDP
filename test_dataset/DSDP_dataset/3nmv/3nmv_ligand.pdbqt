@@ -1,0 +1,40 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C4_10  and  S_1 
+REMARK    2  A    between atoms: S_1  and  N1_4 
+REMARK    3  A    between atoms: C11_17  and  N1_4 
+REMARK    4  A    between atoms: C12_18  and  C11_17 
+ROOT
+ATOM      1  S   PYV d 900       7.706 -13.958  -6.185  0.00  0.00     0.242 S 
+ATOM      2  O1  PYV d 900       7.364 -13.582  -4.852  0.00  0.00    -0.206 OA
+ATOM      3  O2  PYV d 900       6.639 -14.634  -6.835  0.00  0.00    -0.206 OA
+ENDROOT
+BRANCH   1   4
+ATOM      4  C4  PYV d 900       8.264 -12.713  -7.151  0.00  0.00     0.085 A 
+ATOM      5  C3  PYV d 900       8.148 -12.687  -8.649  0.00  0.00    -0.002 A 
+ATOM      6  C2  PYV d 900       8.675 -11.489  -9.432  0.00  0.00    -0.007 A 
+ATOM      7  C7  PYV d 900       7.464 -13.725  -9.302  0.00  0.00     0.014 A 
+ATOM      8  C10 PYV d 900       8.497 -11.560 -10.793  0.00  0.00     0.013 A 
+ATOM      9  C1  PYV d 900       9.411 -10.358  -8.915  0.00  0.00     0.022 A 
+ATOM     10  C9  PYV d 900       7.836 -12.640 -11.388  0.00  0.00     0.001 A 
+ATOM     11  C8  PYV d 900       7.368 -13.714 -10.666  0.00  0.00     0.001 A 
+ATOM     12 BR   PYV d 900       9.914  -9.152  -9.677  0.00  0.00    -0.050 Br
+ATOM     13  C6  PYV d 900       9.449 -10.492  -7.486  0.00  0.00     0.021 A 
+ATOM     14  C5  PYV d 900       8.966 -11.569  -6.670  0.00  0.00     0.027 A 
+ENDBRANCH   1   4
+BRANCH   1  15
+ATOM     15  N1  PYV d 900       8.861 -14.919  -5.731  0.00  0.00    -0.210 NA
+ATOM     16  H   PYV d 900       9.496 -14.347  -5.174  0.00  0.00     0.140 HD
+BRANCH  15  17
+ATOM     17  C11 PYV d 900       9.669 -15.629  -6.618  0.00  0.00     0.163 C 
+BRANCH  17  18
+ATOM     18  C12 PYV d 900      10.688 -14.804  -7.344  0.00  0.00     0.048 A 
+ATOM     19  N2  PYV d 900      10.771 -15.074  -8.660  0.00  0.00    -0.264 NA
+ATOM     20  C13 PYV d 900      11.671 -14.421  -9.421  0.00  0.00     0.117 A 
+ATOM     21  C14 PYV d 900      12.563 -13.513  -8.875  0.00  0.00     0.019 A 
+ATOM     22  C15 PYV d 900      12.487 -13.264  -7.520  0.00  0.00     0.003 A 
+ATOM     23  C16 PYV d 900      11.526 -13.890  -6.746  0.00  0.00     0.028 A 
+ENDBRANCH  17  18
+ENDBRANCH  15  17
+ENDBRANCH   1  15
+TORSDOF 4

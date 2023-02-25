@@ -1,0 +1,38 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C16_2  and  N17_1 
+REMARK    2  A    between atoms: C5_9  and  C8_7 
+REMARK    3  A    between atoms: C1_15  and  C11_14 
+REMARK    4  A    between atoms: C1_15  and  O2_16 
+ROOT
+ATOM      1  C16 P6C d1001      49.985  43.764  21.389  0.00  0.00     0.700 A 
+ATOM      2  N15 P6C d1001      49.062  44.656  21.702  0.00  0.00    -0.043 NA
+ATOM      3  C14 P6C d1001      49.261  45.950  21.420  0.00  0.00     0.199 A 
+ATOM      4  C9  P6C d1001      50.547  46.337  20.754  0.00  0.00     0.129 A 
+ATOM      5  N10 P6C d1001      50.726  47.628  20.484  0.00  0.00    -0.235 NA
+ATOM      6  C8  P6C d1001      51.513  45.277  20.452  0.00  0.00     0.062 A 
+ATOM      7  N7  P6C d1001      51.153  44.014  20.797  0.00  0.00    -0.191 N 
+ATOM      8  N13 P6C d1001      48.392  46.938  21.687  0.00  0.00    -0.236 NA
+ATOM      9  C12 P6C d1001      48.625  48.212  21.399  0.00  0.00     0.157 A 
+ATOM     10  C11 P6C d1001      49.838  48.571  20.772  0.00  0.00     0.148 A 
+ATOM     11  H   P6C d1001      51.767  43.268  20.606  0.00  0.00     0.184 HD
+ENDROOT
+BRANCH  10  12
+ATOM     12  C1  P6C d1001      50.169  49.986  20.417  0.00  0.00     0.197 C 
+ATOM     13  O3  P6C d1001      51.261  50.233  19.860  0.00  0.00    -0.645 OA
+BRANCH  12  14
+ATOM     14  O2  P6C d1001      49.359  50.901  20.674  0.00  0.00    -0.772 OA
+ATOM     15  H   P6C d1001      48.544  50.702  21.092  0.00  0.00     0.167 HD
+ENDBRANCH  12  14
+ENDBRANCH  10  12
+BRANCH   6  16
+ATOM     16  C5  P6C d1001      52.951  45.436  19.712  0.00  0.00     0.030 C 
+ATOM     17  C6  P6C d1001      53.020  45.090  18.193  0.00  0.00     0.016 C 
+ATOM     18  C4  P6C d1001      54.200  46.277  20.127  0.00  0.00     0.016 C 
+ENDBRANCH   6  16
+BRANCH   1  19
+ATOM     19  N17 P6C d1001      49.696  42.510  21.694  0.00  0.00    -0.233 N 
+ATOM     20  H   P6C d1001      50.339  41.793  21.489  0.00  0.00     0.174 HD
+ATOM     21  H   P6C d1001      48.838  42.294  22.126  0.00  0.00     0.174 HD
+ENDBRANCH   1  19
+TORSDOF 4

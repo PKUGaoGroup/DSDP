@@ -1,0 +1,114 @@
+REMARK  18 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O5B_4  and  PA_1 
+REMARK    2  A    between atoms: PA_1  and  O3_23 
+REMARK    3  A    between atoms: PA_1  and  O1A_2 
+REMARK    4  A    between atoms: C5B_5  and  O5B_4 
+REMARK    5  A    between atoms: C4B_6  and  C5B_5 
+REMARK    6  A    between atoms: O3B_9  and  C3B_8 
+REMARK    7  A    between atoms: O2B_11  and  C2B_10 
+REMARK    8  A    between atoms: N9A_13  and  C1B_12 
+REMARK    9  A    between atoms: N6A_18  and  C6A_17 
+REMARK   10  A    between atoms: O3_23  and  PN_24 
+REMARK   11  A    between atoms: O5D_27  and  PN_24 
+REMARK   12  A    between atoms: PN_24  and  O1N_25 
+REMARK   13  A    between atoms: C5D_28  and  O5D_27 
+REMARK   14  A    between atoms: C4D_29  and  C5D_28 
+REMARK   15  A    between atoms: O3D_32  and  C3D_31 
+REMARK   16  A    between atoms: O2D_34  and  C2D_33 
+REMARK   17  A    between atoms: C1D_35  and  N1N_36 
+REMARK   18  A    between atoms: C3N_38  and  C7N_39 
+REMARK       I    between atoms: N7N_41  and  C7N_39 
+ROOT
+ATOM      1  PA  NAD d 245     -16.035  46.350  61.500  0.00  0.00     0.401 P 
+ATOM      2  O2A NAD d 245     -17.102  45.441  61.116  0.00  0.00    -0.631 OA
+ENDROOT
+BRANCH   1   3
+ATOM      3  O5B NAD d 245     -15.368  46.897  60.059  0.00  0.00    -0.294 OA
+BRANCH   3   4
+ATOM      4  C5B NAD d 245     -14.890  45.977  59.084  0.00  0.00     0.215 C 
+BRANCH   4   5
+ATOM      5  C4B NAD d 245     -15.500  46.126  57.691  0.00  0.00     0.180 C 
+ATOM      6  O4B NAD d 245     -15.424  45.008  56.752  0.00  0.00    -0.353 OA
+ATOM      7  C1B NAD d 245     -16.445  45.182  55.827  0.00  0.00     0.262 C 
+ATOM      8  C2B NAD d 245     -17.654  45.565  56.628  0.00  0.00     0.198 C 
+ATOM      9  C3B NAD d 245     -17.041  46.552  57.626  0.00  0.00     0.182 C 
+BRANCH   7  10
+ATOM     10  N9A NAD d 245     -16.863  43.973  55.132  0.00  0.00    -0.294 N 
+ATOM     11  C4A NAD d 245     -17.056  43.945  53.700  0.00  0.00     0.167 A 
+ATOM     12  N3A NAD d 245     -16.784  44.872  52.746  0.00  0.00    -0.222 NA
+ATOM     13  C5A NAD d 245     -17.591  42.749  53.384  0.00  0.00     0.149 A 
+ATOM     14  C2A NAD d 245     -17.066  44.570  51.436  0.00  0.00     0.237 A 
+ATOM     15  N1A NAD d 245     -17.599  43.367  51.111  0.00  0.00    -0.222 NA
+ATOM     16  C6A NAD d 245     -17.867  42.457  52.061  0.00  0.00     0.155 A 
+ATOM     17  N7A NAD d 245     -17.763  42.019  54.558  0.00  0.00    -0.236 NA
+ATOM     18  C8A NAD d 245     -17.299  42.826  55.638  0.00  0.00     0.214 A 
+BRANCH  16  19
+ATOM     19  N6A NAD d 245     -18.485  41.185  51.730  0.00  0.00    -0.382 N 
+ATOM     20  H   NAD d 245     -18.687  40.965  50.792  0.00  0.00     0.157 HD
+ATOM     21  H   NAD d 245     -18.702  40.543  52.444  0.00  0.00     0.157 HD
+ENDBRANCH  16  19
+ENDBRANCH   7  10
+BRANCH   8  22
+ATOM     22  O2B NAD d 245     -18.872  45.929  56.017  0.00  0.00    -0.388 OA
+ATOM     23  H   NAD d 245     -18.750  46.752  55.519  0.00  0.00     0.210 HD
+ENDBRANCH   8  22
+BRANCH   9  24
+ATOM     24  O3B NAD d 245     -17.426  47.876  57.464  0.00  0.00    -0.390 OA
+ATOM     25  H   NAD d 245     -17.166  48.182  56.581  0.00  0.00     0.210 HD
+ENDBRANCH   9  24
+ENDBRANCH   4   5
+ENDBRANCH   3   4
+ENDBRANCH   1   3
+BRANCH   1  26
+ATOM     26  O3  NAD d 245     -14.883  45.512  62.371  0.00  0.00    -0.195 OA
+BRANCH  26  27
+ATOM     27  PN  NAD d 245     -13.332  46.112  62.391  0.00  0.00     0.401 P 
+ATOM     28  O2N NAD d 245     -13.368  47.772  62.306  0.00  0.00    -0.631 OA
+BRANCH  27  29
+ATOM     29  O5D NAD d 245     -12.586  45.518  61.019  0.00  0.00    -0.294 OA
+BRANCH  29  30
+ATOM     30  C5D NAD d 245     -11.339  46.045  60.598  0.00  0.00     0.215 C 
+BRANCH  30  31
+ATOM     31  C4D NAD d 245     -10.268  44.964  60.461  0.00  0.00     0.180 C 
+ATOM     32  C3D NAD d 245     -10.720  43.569  59.891  0.00  0.00     0.182 C 
+ATOM     33  C2D NAD d 245     -10.975  42.776  61.216  0.00  0.00     0.198 C 
+ATOM     34  C1D NAD d 245      -9.710  43.260  61.886  0.00  0.00     0.251 C 
+ATOM     35  O4D NAD d 245      -9.594  44.627  61.674  0.00  0.00    -0.354 OA
+BRANCH  32  36
+ATOM     36  O3D NAD d 245      -9.916  42.965  58.913  0.00  0.00    -0.390 OA
+ATOM     37  H   NAD d 245      -9.032  42.802  59.277  0.00  0.00     0.210 HD
+ENDBRANCH  32  36
+BRANCH  33  38
+ATOM     38  O2D NAD d 245     -11.230  41.388  61.148  0.00  0.00    -0.389 OA
+ATOM     39  H   NAD d 245     -10.493  40.946  60.698  0.00  0.00     0.210 HD
+ENDBRANCH  33  38
+BRANCH  34  40
+ATOM     40  N1N NAD d 245      -9.629  42.953  63.309  0.00  0.00    -0.381 N 
+ATOM     41  C6N NAD d 245      -8.251  42.519  63.654  0.00  0.00     0.146 C 
+ATOM     42  C5N NAD d 245      -8.052  42.166  65.055  0.00  0.00    -0.011 C 
+ATOM     43  C4N NAD d 245      -9.076  42.291  66.036  0.00  0.00    -0.014 C 
+ATOM     44  C3N NAD d 245     -10.393  42.916  65.745  0.00  0.00     0.117 C 
+ATOM     45  C2N NAD d 245     -10.447  43.609  64.302  0.00  0.00     0.137 C 
+BRANCH  44  46
+ATOM     46  C7N NAD d 245     -11.103  43.591  66.917  0.00  0.00     0.224 C 
+ATOM     47  N7N NAD d 245     -12.387  44.222  66.688  0.00  0.00    -0.370 N 
+ATOM     48  H   NAD d 245     -12.655  44.475  65.775  0.00  0.00     0.159 HD
+ATOM     49  H   NAD d 245     -12.991  44.397  67.445  0.00  0.00     0.159 HD
+ATOM     50  O7N NAD d 245     -10.785  43.287  68.024  0.00  0.00    -0.273 OA
+ENDBRANCH  44  46
+ENDBRANCH  34  40
+ENDBRANCH  30  31
+ENDBRANCH  29  30
+ENDBRANCH  27  29
+BRANCH  27  51
+ATOM     51  O1N NAD d 245     -12.550  45.574  63.739  0.00  0.00    -0.307 OA
+ATOM     52  H   NAD d 245     -11.646  45.925  63.750  0.00  0.00     0.222 HD
+ENDBRANCH  27  51
+ENDBRANCH  26  27
+ENDBRANCH   1  26
+BRANCH   1  53
+ATOM     53  O1A NAD d 245     -16.563  47.593  62.463  0.00  0.00    -0.307 OA
+ATOM     54  H   NAD d 245     -17.237  48.105  61.989  0.00  0.00     0.222 HD
+ENDBRANCH   1  53
+TORSDOF 18

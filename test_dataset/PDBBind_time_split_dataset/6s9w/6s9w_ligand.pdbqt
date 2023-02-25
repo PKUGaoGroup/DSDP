@@ -1,0 +1,74 @@
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAD_3  and  CAG_5 
+REMARK    2  A    between atoms: CAH_6  and  CAE_4 
+REMARK    3  A    between atoms: CAS_17  and  CAP_14 
+REMARK    4  A    between atoms: NAT_36  and  CAS_17 
+REMARK    5  A    between atoms: NAZ_37  and  CAW_20 
+REMARK    6  A    between atoms: NBI_39  and  CBG_28 
+REMARK    7  A    between atoms: CBJ_30  and  CBK_31 
+REMARK       I    between atoms: CBJ_30  and  NBI_39 
+ROOT
+ATOM      1  CAU L1Z d   1     -11.845 -15.619  13.586  0.00  0.00     0.237 C 
+ATOM      2  CAV L1Z d   1     -11.664 -16.779  14.548  0.00  0.00     0.053 C 
+ATOM      3  CAW L1Z d   1     -11.084 -16.259  15.857  0.00  0.00     0.098 C 
+ATOM      4  CAX L1Z d   1     -11.983 -15.177  16.430  0.00  0.00     0.053 C 
+ATOM      5  CAY L1Z d   1     -12.132 -14.070  15.407  0.00  0.00     0.237 C 
+ATOM      6  NAT L1Z d   1     -12.729 -14.594  14.167  0.00  0.00    -0.067 N 
+ATOM      7  H33 L1Z d   1     -13.630 -15.000  14.368  0.00  0.00     0.280 HD
+ENDROOT
+BRANCH   6   8
+ATOM      8  CAS L1Z d   1     -12.885 -13.486  13.216  0.00  0.00     0.273 C 
+BRANCH   8   9
+ATOM      9  CAP L1Z d   1     -13.772 -13.797  12.183  0.00  0.00    -0.033 A 
+ATOM     10  CAO L1Z d   1     -14.962 -14.484  12.420  0.00  0.00     0.010 A 
+ATOM     11  CAN L1Z d   1     -15.831 -14.775  11.367  0.00  0.00     0.014 A 
+ATOM     12  CAH L1Z d   1     -15.527 -14.366  10.070  0.00  0.00    -0.007 A 
+ATOM     13  CAR L1Z d   1     -14.328 -13.695   9.844  0.00  0.00     0.014 A 
+ATOM     14  CAQ L1Z d   1     -13.463 -13.402  10.890  0.00  0.00     0.010 A 
+BRANCH  12  15
+ATOM     15  CAE L1Z d   1     -16.403 -14.671   9.019  0.00  0.00     0.073 A 
+ATOM     16  CAD L1Z d   1     -16.847 -13.750   8.044  0.00  0.00     0.071 A 
+ATOM     17  NAC L1Z d   1     -17.686 -14.165   7.080  0.00  0.00    -0.350 N 
+ATOM     18  CAB L1Z d   1     -18.135 -15.426   6.997  0.00  0.00     0.092 A 
+ATOM     19  H31 L1Z d   1     -17.998 -13.484   6.373  0.00  0.00     0.166 HD
+ATOM     20  CAA L1Z d   1     -17.734 -16.376   7.926  0.00  0.00     0.272 A 
+ATOM     21  CBO L1Z d   1     -19.005 -15.791   5.973  0.00  0.00     0.049 C 
+ATOM     22  NAF L1Z d   1     -16.862 -15.995   8.949  0.00  0.00    -0.319 N 
+ATOM     23  OBP L1Z d   1     -18.138 -17.536   7.858  0.00  0.00    -0.266 OA
+ATOM     24  H32 L1Z d   1     -16.566 -16.665   9.630  0.00  0.00     0.169 HD
+BRANCH  16  25
+ATOM     25  CAG L1Z d   1     -16.485 -12.398   7.983  0.00  0.00    -0.007 A 
+ATOM     26  CAI L1Z d   1     -16.659 -11.540   9.066  0.00  0.00     0.014 A 
+ATOM     27  CAJ L1Z d   1     -16.293 -10.200   8.963  0.00  0.00     0.001 A 
+ATOM     28  CAK L1Z d   1     -15.770  -9.701   7.772  0.00  0.00     0.000 A 
+ATOM     29  CAL L1Z d   1     -15.611 -10.552   6.687  0.00  0.00     0.001 A 
+ATOM     30  CAM L1Z d   1     -15.975 -11.889   6.793  0.00  0.00     0.014 A 
+ENDBRANCH  16  25
+ENDBRANCH  12  15
+ENDBRANCH   8   9
+ENDBRANCH   6   8
+BRANCH   3  31
+ATOM     31  NAZ L1Z d   1     -10.863 -17.357  16.837  0.00  0.00    -0.293 N 
+ATOM     32  CBA L1Z d   1     -11.672 -18.318  17.275  0.00  0.00     0.328 A 
+ATOM     33  NBB L1Z d   1     -11.024 -19.077  18.159  0.00  0.00    -0.306 N 
+ATOM     34  OBN L1Z d   1     -12.841 -18.488  16.921  0.00  0.00    -0.246 OA
+ATOM     35  CBC L1Z d   1      -9.790 -18.579  18.275  0.00  0.00     0.063 A 
+ATOM     36  H34 L1Z d   1     -11.393 -19.870  18.644  0.00  0.00     0.171 HD
+ATOM     37  CBD L1Z d   1      -9.700 -17.522  17.463  0.00  0.00     0.068 A 
+ATOM     38  CBE L1Z d   1      -8.741 -18.951  19.017  0.00  0.00     0.034 A 
+ATOM     39  CBH L1Z d   1      -8.570 -16.826  17.377  0.00  0.00     0.061 A 
+ATOM     40  CBG L1Z d   1      -7.445 -17.139  18.131  0.00  0.00     0.037 A 
+ATOM     41  CBF L1Z d   1      -7.530 -18.258  18.960  0.00  0.00     0.032 A 
+BRANCH  40  42
+ATOM     42  NBI L1Z d   1      -6.357 -16.366  17.921  0.00  0.00    -0.327 N 
+ATOM     43  CBJ L1Z d   1      -5.542 -15.780  18.845  0.00  0.00     0.221 C 
+ATOM     44  OBM L1Z d   1      -4.604 -15.067  18.492  0.00  0.00    -0.273 OA
+ATOM     45  H35 L1Z d   1      -6.118 -16.202  16.964  0.00  0.00     0.169 HD
+BRANCH  43  46
+ATOM     46  CBK L1Z d   1      -5.750 -16.011  20.351  0.00  0.00     0.098 C 
+ATOM     47  CBL L1Z d   1      -4.371 -16.190  21.001  0.00  0.00     0.014 C 
+ENDBRANCH  43  46
+ENDBRANCH  40  42
+ENDBRANCH   3  31
+TORSDOF 7

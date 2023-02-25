@@ -1,0 +1,60 @@
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C3_5  and  O1_1 
+REMARK    2  A    between atoms: O2_2  and  C25_27 
+REMARK    3  A    between atoms: C7_9  and  C6_8 
+REMARK    4  A    between atoms: C17_19  and  C20_22 
+REMARK    5  A    between atoms: C20_22  and  C22_24 
+REMARK    6  A    between atoms: C22_24  and  C23_25 
+REMARK    7  A    between atoms: C23_25  and  C24_26 
+REMARK    8  A    between atoms: C24_26  and  C25_27 
+ROOT
+ATOM      1  C7  VDY d 500     -22.872 -57.049  46.390  0.00  0.00    -0.023 C 
+ATOM      2  C8  VDY d 500     -21.768 -57.101  47.147  0.00  0.00    -0.079 C 
+ATOM      3  C9  VDY d 500     -21.731 -57.039  48.663  0.00  0.00     0.034 C 
+ATOM      4  C11 VDY d 500     -20.863 -58.150  49.269  0.00  0.00     0.005 C 
+ATOM      5  C12 VDY d 500     -19.453 -58.240  48.625  0.00  0.00     0.010 C 
+ATOM      6  C13 VDY d 500     -19.475 -58.373  47.073  0.00  0.00    -0.033 C 
+ATOM      7  C14 VDY d 500     -20.370 -57.188  46.525  0.00  0.00     0.023 C 
+ATOM      8  C15 VDY d 500     -20.205 -57.325  44.973  0.00  0.00     0.010 C 
+ATOM      9  C16 VDY d 500     -18.761 -57.851  44.798  0.00  0.00     0.006 C 
+ATOM     10  C17 VDY d 500     -18.187 -57.956  46.221  0.00  0.00    -0.002 C 
+ATOM     11  C18 VDY d 500     -20.060 -59.782  46.690  0.00  0.00     0.016 C 
+ENDROOT
+BRANCH   1  12
+ATOM     12  C6  VDY d 500     -24.252 -56.928  46.781  0.00  0.00     0.036 C 
+ATOM     13  C5  VDY d 500     -25.240 -56.334  46.083  0.00  0.00     0.019 C 
+ATOM     14  C10 VDY d 500     -25.063 -55.397  44.895  0.00  0.00    -0.085 C 
+ATOM     15  C4  VDY d 500     -26.701 -56.653  46.357  0.00  0.00     0.041 C 
+ATOM     16  C1  VDY d 500     -25.736 -55.906  43.634  0.00  0.00     0.036 C 
+ATOM     17  C19 VDY d 500     -24.416 -54.225  44.926  0.00  0.00     0.014 C 
+ATOM     18  C2  VDY d 500     -27.219 -56.325  43.882  0.00  0.00     0.036 C 
+ATOM     19  C3  VDY d 500     -27.394 -57.240  45.115  0.00  0.00     0.119 C 
+BRANCH  19  20
+ATOM     20  O1  VDY d 500     -28.787 -57.440  45.430  0.00  0.00    -0.396 OA
+ATOM     21  H   VDY d 500     -29.243 -57.810  44.658  0.00  0.00     0.210 HD
+ENDBRANCH  19  20
+ENDBRANCH   1  12
+BRANCH  10  22
+ATOM     22  C20 VDY d 500     -16.833 -58.765  46.226  0.00  0.00    -0.014 C 
+ATOM     23  C21 VDY d 500     -16.880 -60.294  46.023  0.00  0.00     0.010 C 
+BRANCH  22  24
+ATOM     24  C22 VDY d 500     -16.036 -58.450  47.537  0.00  0.00     0.005 C 
+BRANCH  24  25
+ATOM     25  C23 VDY d 500     -15.425 -57.048  47.650  0.00  0.00     0.003 C 
+BRANCH  25  26
+ATOM     26  C24 VDY d 500     -15.634 -56.451  49.066  0.00  0.00     0.037 C 
+BRANCH  26  27
+ATOM     27  C25 VDY d 500     -16.197 -55.030  49.240  0.00  0.00     0.051 C 
+ATOM     28  C27 VDY d 500     -15.148 -53.977  48.845  0.00  0.00     0.045 C 
+ATOM     29  C26 VDY d 500     -16.685 -54.767  50.658  0.00  0.00     0.045 C 
+BRANCH  27  30
+ATOM     30  O2  VDY d 500     -17.338 -54.894  48.355  0.00  0.00    -0.391 OA
+ATOM     31  H   VDY d 500     -17.059 -55.056  47.440  0.00  0.00     0.210 HD
+ENDBRANCH  27  30
+ENDBRANCH  26  27
+ENDBRANCH  25  26
+ENDBRANCH  24  25
+ENDBRANCH  22  24
+ENDBRANCH  10  22
+TORSDOF 8

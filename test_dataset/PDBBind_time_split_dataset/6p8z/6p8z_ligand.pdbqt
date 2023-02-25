@@ -1,0 +1,70 @@
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C02_2  and  C03_3 
+REMARK       I    between atoms: C03_3  and  N05_5 
+REMARK    2  A    between atoms: C07_7  and  N09_9 
+REMARK       I    between atoms: N09_9  and  C10_10 
+REMARK    3  A    between atoms: C10_10  and  C12_12 
+REMARK    4  A    between atoms: C12_12  and  N13_13 
+REMARK    5  A    between atoms: C14_14  and  C15_15 
+REMARK    6  A    between atoms: C18_18  and  C19_19 
+REMARK       I    between atoms: C19_19  and  N21_21 
+REMARK    7  A    between atoms: C25_25  and  O26_26 
+ROOT
+ATOM      1  N13 O5S d   1       3.047 -15.415  33.875  0.00  0.00    -0.339 N 
+ATOM      2  C14 O5S d   1       2.413 -15.475  35.063  0.00  0.00     0.033 A 
+ATOM      3  C18 O5S d   1       3.153 -14.703  35.967  0.00  0.00     0.067 A 
+ATOM      4  C33 O5S d   1       4.278 -14.157  35.249  0.00  0.00     0.011 A 
+ATOM      5  C34 O5S d   1       5.350 -13.311  35.669  0.00  0.00     0.038 A 
+ATOM      6  C35 O5S d   1       6.315 -12.950  34.711  0.00  0.00     0.035 A 
+ATOM      7 CL36 O5S d   1       7.644 -11.880  35.191  0.00  0.00    -0.084 Cl
+ATOM      8  C37 O5S d   1       6.237 -13.404  33.380  0.00  0.00     0.033 A 
+ATOM      9  C38 O5S d   1       5.183 -14.238  32.979  0.00  0.00    -0.033 A 
+ATOM     10  C39 O5S d   1       5.140 -14.715  31.512  0.00  0.00     0.050 C 
+ATOM     11  C40 O5S d   1       4.186 -14.619  33.958  0.00  0.00     0.052 A 
+ENDROOT
+BRANCH   3  12
+ATOM     12  C19 O5S d   1       2.857 -14.449  37.487  0.00  0.00     0.257 C 
+ATOM     13  O20 O5S d   1       3.045 -15.316  38.278  0.00  0.00    -0.267 OA
+ATOM     14  N21 O5S d   1       2.395 -13.107  37.916  0.00  0.00    -0.343 N 
+ATOM     15  C22 O5S d   1       2.082 -12.809  39.314  0.00  0.00     0.131 C 
+ATOM     16  C32 O5S d   1       2.134 -12.030  36.990  0.00  0.00     0.165 C 
+ATOM     17  C23 O5S d   1       0.534 -12.712  39.431  0.00  0.00     0.062 C 
+ATOM     18  C24 O5S d   1      -0.071 -11.911  38.229  0.00  0.00    -0.015 A 
+ATOM     19  C25 O5S d   1      -1.442 -11.486  38.339  0.00  0.00     0.075 A 
+ATOM     20  C31 O5S d   1       0.667 -11.590  37.106  0.00  0.00    -0.031 A 
+ATOM     21  C28 O5S d   1      -2.026 -10.763  37.286  0.00  0.00     0.037 A 
+ATOM     22  C29 O5S d   1      -1.277 -10.438  36.141  0.00  0.00     0.003 A 
+ATOM     23  C30 O5S d   1       0.062 -10.844  36.037  0.00  0.00     0.009 A 
+BRANCH  19  24
+ATOM     24  O26 O5S d   1      -2.176 -11.829  39.508  0.00  0.00    -0.355 OA
+ATOM     25  C27 O5S d   1      -3.216 -10.943  39.907  0.00  0.00     0.210 C 
+ENDBRANCH  19  24
+ENDBRANCH   3  12
+BRANCH   2  26
+ATOM     26  C15 O5S d   1       1.106 -16.243  35.399  0.00  0.00     0.037 A 
+ATOM     27  C16 O5S d   1      -0.180 -15.585  34.872  0.00  0.00     0.011 A 
+ATOM     28  C17 O5S d   1      -0.122 -16.095  36.311  0.00  0.00     0.011 A 
+ENDBRANCH   2  26
+BRANCH   1  29
+ATOM     29  C12 O5S d   1       2.582 -16.082  32.649  0.00  0.00     0.232 C 
+BRANCH  29  30
+ATOM     30  C10 O5S d   1       1.752 -15.024  31.862  0.00  0.00     0.236 C 
+ATOM     31  N09 O5S d   1       1.226 -15.374  30.543  0.00  0.00    -0.352 N 
+ATOM     32  H11 O5S d   1       1.411 -16.279  30.160  0.00  0.00     0.163 HD
+ATOM     33  O11 O5S d   1       1.545 -13.937  32.309  0.00  0.00    -0.272 OA
+BRANCH  31  34
+ATOM     34  C07 O5S d   1       0.428 -14.408  29.776  0.00  0.00     0.120 A 
+ATOM     35  C06 O5S d   1      -0.203 -15.154  28.654  0.00  0.00     0.152 A 
+ATOM     36  N05 O5S d   1       0.531 -14.282  27.688  0.00  0.00    -0.348 N 
+ATOM     37  C03 O5S d   1       0.535 -14.167  26.234  0.00  0.00     0.219 C 
+ATOM     38  C08 O5S d   1       1.229 -13.589  28.821  0.00  0.00     0.152 A 
+ATOM     39  O04 O5S d   1       1.224 -13.358  25.715  0.00  0.00    -0.273 OA
+BRANCH  37  40
+ATOM     40  C02 O5S d   1      -0.367 -15.109  25.404  0.00  0.00     0.098 C 
+ATOM     41  C01 O5S d   1      -1.714 -14.467  25.034  0.00  0.00     0.014 C 
+ENDBRANCH  37  40
+ENDBRANCH  31  34
+ENDBRANCH  29  30
+ENDBRANCH   1  29
+TORSDOF 7

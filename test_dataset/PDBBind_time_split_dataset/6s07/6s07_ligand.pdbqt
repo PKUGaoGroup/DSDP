@@ -1,0 +1,328 @@
+REMARK WARNING: 32 MAX_TORS EXCEEDED!!!
+REMARK  54 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C1_3 
+REMARK       I    between atoms: C_1  and  N_10 
+REMARK    2  A    between atoms: C2_4  and  N2_6 
+REMARK    3  A    between atoms: N_10  and  CA_11 
+REMARK    4  A    between atoms: CA_11  and  C_12 
+REMARK       I    between atoms: C_12  and  N_15 
+REMARK    5  A    between atoms: N_15  and  CA_16 
+REMARK    6  A    between atoms: CA_16  and  C_17 
+REMARK    7  A    between atoms: CA_16  and  CB_19 
+REMARK       I    between atoms: C_17  and  N_22 
+REMARK    8  A    between atoms: CB_19  and  OG1_20 
+REMARK    9  A    between atoms: N_22  and  CA_23 
+REMARK   10  A    between atoms: CA_23  and  C_24 
+REMARK   11  A    between atoms: CA_23  and  CB_26 
+REMARK       I    between atoms: C_24  and  N_29 
+REMARK   12  A    between atoms: CB_26  and  OG1_27 
+REMARK   13  A    between atoms: CA_30  and  C_31 
+REMARK       I    between atoms: C_31  and  N_36 
+REMARK   14  A    between atoms: N_36  and  CA_37 
+REMARK   15  A    between atoms: CA_37  and  C_38 
+REMARK   16  A    between atoms: CA_37  and  CB_40 
+REMARK       I    between atoms: C_38  and  N_44 
+REMARK   17  A    between atoms: CB_40  and  CG_41 
+REMARK   18  A    between atoms: N_44  and  CA_45 
+REMARK   19  A    between atoms: CA_45  and  C_46 
+REMARK   20  A    between atoms: CA_45  and  CB_48 
+REMARK       I    between atoms: C_46  and  N_50 
+REMARK   21  A    between atoms: CB_48  and  SG_49 
+REMARK   22  A    between atoms: N_50  and  CA_51 
+REMARK   23  A    between atoms: CA_51  and  C_52 
+REMARK       I    between atoms: C_52  and  N_54 
+REMARK   24  A    between atoms: CA_55  and  C_56 
+REMARK       I    between atoms: C_56  and  N_61 
+REMARK   25  A    between atoms: N_61  and  CA_62 
+REMARK   26  A    between atoms: CA_62  and  C_63 
+REMARK   27  A    between atoms: CA_62  and  CB_65 
+REMARK       I    between atoms: C_63  and  N_67 
+REMARK   28  A    between atoms: CB_65  and  OG_66 
+REMARK   29  A    between atoms: N_67  and  CA_68 
+REMARK   30  A    between atoms: CA_68  and  C_69 
+REMARK   31  A    between atoms: CA_68  and  CB_71 
+REMARK       I    between atoms: C_69  and  N_78 
+REMARK   32  A    between atoms: CB_71  and  CG_72 
+REMARK   33  A    between atoms: CG_72  and  CD_73 
+REMARK   34  A    between atoms: CD_73  and  NE_74 
+REMARK       I    between atoms: NE_74  and  CZ_75 
+REMARK       I    between atoms: CZ_75  and  NH1_76 
+REMARK   35  A    between atoms: N_78  and  CA_79 
+REMARK   36  A    between atoms: CA_79  and  C_80 
+REMARK       I    between atoms: C_80  and  N_83 
+REMARK   37  A    between atoms: N_83  and  CA_84 
+REMARK   38  A    between atoms: CA_84  and  C_85 
+REMARK   39  A    between atoms: CA_84  and  CB_87 
+REMARK       I    between atoms: C_85  and  N_89 
+REMARK   40  A    between atoms: CB_87  and  OG_88 
+REMARK   41  A    between atoms: N_89  and  CA_90 
+REMARK   42  A    between atoms: CA_90  and  C_91 
+REMARK   43  A    between atoms: CA_90  and  CB_93 
+REMARK       I    between atoms: C_91  and  N_97 
+REMARK   44  A    between atoms: CB_93  and  CG1_94 
+REMARK   45  A    between atoms: N_97  and  CA_98 
+REMARK   46  A    between atoms: CA_98  and  C_99 
+REMARK   47  A    between atoms: CA_98  and  CB_101 
+REMARK       I    between atoms: C_99  and  N_105 
+REMARK   48  A    between atoms: CB_101  and  CG_102 
+REMARK   49  A    between atoms: N_105  and  CA_106 
+REMARK   50  A    between atoms: CA_106  and  C_107 
+REMARK   51  A    between atoms: CA_106  and  CB_109 
+REMARK       I    between atoms: C_107  and  N_111 
+REMARK   52  A    between atoms: CB_109  and  OG_110 
+REMARK   53  A    between atoms: N_111  and  CA_112 
+REMARK   54  A    between atoms: CA_112  and  C_113 
+ROOT
+ATOM      1  C   BE2 d   1     -14.294  -7.841 -21.150  0.00  0.00     0.241 C 
+ATOM      2  O   BE2 d   1     -15.293  -7.514 -20.508  0.00  0.00    -0.271 OA
+ATOM      3  N   BE2 d   1     -14.224  -7.709 -22.472  0.00  0.00    -0.344 N 
+ATOM      4  H59 BE2 d   1     -13.435  -8.075 -22.965  0.00  0.00     0.163 HD
+ENDROOT
+BRANCH   1   5
+ATOM      5  CA  BE2 d   1     -13.078  -8.447 -20.460  0.00  0.00     0.179 C 
+ATOM      6  N   BE2 d   1     -12.584  -7.526 -19.418  0.00  0.00    -0.337 N 
+ATOM      7  C   BE2 d   1     -11.824  -6.467 -19.719  0.00  0.00     0.238 C 
+ATOM      8  CD  BE2 d   1     -13.008  -7.944 -18.068  0.00  0.00     0.127 C 
+ATOM      9  O   BE2 d   1     -11.511  -6.202 -20.882  0.00  0.00    -0.272 OA
+ATOM     10  CG  BE2 d   1     -13.861  -9.158 -18.330  0.00  0.00     0.022 C 
+ATOM     11  CB  BE2 d   1     -13.448  -9.704 -19.664  0.00  0.00     0.037 C 
+BRANCH   7  12
+ATOM     12  CA  BE2 d   1     -11.348  -5.595 -18.567  0.00  0.00     0.225 C 
+BRANCH  12  13
+ATOM     13  N   BE2 d   1      -9.981  -5.895 -18.190  0.00  0.00    -0.351 N 
+ATOM     14  C   BE2 d   1      -9.684  -6.429 -17.011  0.00  0.00     0.241 C 
+ATOM     15  O   BE2 d   1     -10.553  -6.756 -16.206  0.00  0.00    -0.271 OA
+ATOM     16  H49 BE2 d   1      -9.243  -5.695 -18.834  0.00  0.00     0.163 HD
+BRANCH  14  17
+ATOM     17  CA  BE2 d   1      -8.225  -6.668 -16.647  0.00  0.00     0.185 C 
+BRANCH  17  18
+ATOM     18  N   BE2 d   1      -7.331  -6.710 -17.796  0.00  0.00    -0.345 N 
+ATOM     19  C   BE2 d   1      -6.774  -7.840 -18.231  0.00  0.00     0.241 C 
+ATOM     20  O   BE2 d   1      -6.874  -8.917 -17.637  0.00  0.00    -0.271 OA
+ATOM     21  H44 BE2 d   1      -7.127  -5.858 -18.277  0.00  0.00     0.163 HD
+BRANCH  19  22
+ATOM     22  CA  BE2 d   1      -6.006  -7.764 -19.540  0.00  0.00     0.177 C 
+BRANCH  22  23
+ATOM     23  N   BE2 d   1      -4.621  -8.139 -19.303  0.00  0.00    -0.346 N 
+ATOM     24  C   BE2 d   1      -3.605  -7.298 -19.440  0.00  0.00     0.241 C 
+ATOM     25  O   BE2 d   1      -3.757  -6.091 -19.657  0.00  0.00    -0.271 OA
+ATOM     26  H33 BE2 d   1      -4.425  -9.079 -19.023  0.00  0.00     0.163 HD
+BRANCH  24  27
+ATOM     27  CA  BE2 d   1      -2.222  -7.917 -19.271  0.00  0.00     0.179 C 
+ATOM     28  N   BE2 d   1      -1.201  -7.265 -20.098  0.00  0.00    -0.337 N 
+ATOM     29  C   BE2 d   1      -1.393  -7.118 -21.404  0.00  0.00     0.245 C 
+ATOM     30  CD  BE2 d   1       0.028  -7.003 -19.324  0.00  0.00     0.127 C 
+ATOM     31  O   BE2 d   1      -2.397  -7.572 -21.961  0.00  0.00    -0.271 OA
+ATOM     32  CG  BE2 d   1      -0.187  -7.809 -18.055  0.00  0.00     0.022 C 
+ATOM     33  CB  BE2 d   1      -1.677  -7.734 -17.849  0.00  0.00     0.037 C 
+BRANCH  29  34
+ATOM     34  CA  BE2 d   1      -0.346  -6.376 -22.225  0.00  0.00     0.205 C 
+BRANCH  34  35
+ATOM     35  N   BE2 d   1       0.034  -7.185 -23.369  0.00  0.00    -0.344 N 
+ATOM     36  C   BE2 d   1       1.298  -7.555 -23.587  0.00  0.00     0.243 C 
+ATOM     37  O   BE2 d   1       2.254  -6.995 -23.040  0.00  0.00    -0.271 OA
+ATOM     38  H19 BE2 d   1      -0.673  -7.474 -24.014  0.00  0.00     0.163 HD
+BRANCH  36  39
+ATOM     39  CA  BE2 d   1       1.549  -8.688 -24.581  0.00  0.00     0.205 C 
+BRANCH  39  40
+ATOM     40  N   BE2 d   1       1.974  -9.913 -23.902  0.00  0.00    -0.344 N 
+ATOM     41  C   BE2 d   1       3.118 -10.486 -24.269  0.00  0.00     0.240 C 
+ATOM     42  O   BE2 d   1       3.796  -9.993 -25.169  0.00  0.00    -0.271 OA
+ATOM     43  H12 BE2 d   1       1.415 -10.312 -23.175  0.00  0.00     0.163 HD
+BRANCH  41  44
+ATOM     44  CA  BE2 d   1       3.641 -11.677 -23.466  0.00  0.00     0.172 C 
+ATOM     45  CB  BE2 d   1       3.315 -12.980 -24.166  0.00  0.00     0.042 C 
+BRANCH  44  46
+ATOM     46  N   BE2 d   1       3.076 -11.689 -22.121  0.00  0.00    -0.344 N 
+ATOM     47  C   BE2 d   1       3.448 -10.660 -21.204  0.00  0.00     0.254 C 
+ATOM     48  O1  BE2 d   1       4.105  -9.755 -21.664  0.00  0.00    -0.268 OA
+ATOM     49  H7  BE2 d   1       2.437 -12.408 -21.845  0.00  0.00     0.163 HD
+BRANCH  47  50
+ATOM     50  C1  BE2 d   1       2.984 -10.710 -19.820  0.00  0.00     0.058 A 
+ATOM     51  C2  BE2 d   1       3.266  -9.678 -18.904  0.00  0.00     0.041 A 
+ATOM     52  C3  BE2 d   1       2.818  -9.809 -17.581  0.00  0.00     0.030 A 
+ATOM     53  C4  BE2 d   1       2.096 -10.914 -17.176  0.00  0.00     0.002 A 
+ATOM     54  C5  BE2 d   1       1.805 -11.913 -18.072  0.00  0.00     0.001 A 
+ATOM     55  C6  BE2 d   1       2.246 -11.819 -19.380  0.00  0.00     0.019 A 
+BRANCH  51  56
+ATOM     56  N2  BE2 d   1       3.968  -8.551 -19.286  0.00  0.00    -0.398 N 
+ATOM     57  H2  BE2 d   1       4.297  -8.454 -20.257  0.00  0.00     0.156 HD
+ATOM     58  H3  BE2 d   1       4.162  -7.808 -18.600  0.00  0.00     0.156 HD
+ENDBRANCH  51  56
+ENDBRANCH  47  50
+ENDBRANCH  44  46
+ENDBRANCH  41  44
+ENDBRANCH  39  40
+BRANCH  39  59
+ATOM     59  CB  BE2 d   1       0.339  -8.953 -25.479  0.00  0.00     0.146 C 
+ATOM     60  CG2 BE2 d   1       0.735  -9.825 -26.670  0.00  0.00     0.042 C 
+BRANCH  59  61
+ATOM     61  OG1 BE2 d   1      -0.678  -9.619 -24.724  0.00  0.00    -0.393 OA
+ATOM     62  H15 BE2 d   1      -0.339 -10.444 -24.397  0.00  0.00     0.210 HD
+ENDBRANCH  59  61
+ENDBRANCH  39  59
+ENDBRANCH  36  39
+ENDBRANCH  34  35
+BRANCH  34  63
+ATOM     63  CB  BE2 d   1      -0.917  -5.043 -22.715  0.00  0.00     0.146 C 
+ATOM     64  CG2 BE2 d   1      -1.259  -4.127 -21.544  0.00  0.00     0.042 C 
+BRANCH  63  65
+ATOM     65  OG1 BE2 d   1       0.052  -4.407 -23.554  0.00  0.00    -0.393 OA
+ATOM     66  H22 BE2 d   1       0.847  -4.254 -23.058  0.00  0.00     0.210 HD
+ENDBRANCH  63  65
+ENDBRANCH  34  63
+ENDBRANCH  29  34
+ENDBRANCH  24  27
+ENDBRANCH  22  23
+BRANCH  22  67
+ATOM     67  CB  BE2 d   1      -6.619  -8.727 -20.556  0.00  0.00     0.038 C 
+BRANCH  67  68
+ATOM     68  CG  BE2 d   1      -8.047  -8.359 -20.956  0.00  0.00    -0.020 C 
+ATOM     69  CD1 BE2 d   1      -8.053  -7.129 -21.832  0.00  0.00     0.009 C 
+ATOM     70  CD2 BE2 d   1      -8.724  -9.504 -21.662  0.00  0.00     0.009 C 
+ENDBRANCH  67  68
+ENDBRANCH  22  67
+ENDBRANCH  19  22
+ENDBRANCH  17  18
+BRANCH  17  71
+ATOM     71  CB  BE2 d   1      -7.765  -5.618 -15.620  0.00  0.00     0.105 C 
+BRANCH  71  72
+ATOM     72  SG  BE2 d   1      -6.146  -6.015 -14.914  0.00  0.00    -0.180 SA
+ATOM     73  H48 BE2 d   1      -6.193  -6.908 -14.450  0.00  0.00     0.101 HD
+ENDBRANCH  71  72
+ENDBRANCH  17  71
+ENDBRANCH  14  17
+ENDBRANCH  12  13
+ENDBRANCH   7  12
+ENDBRANCH   1   5
+BRANCH   3  74
+ATOM     74  CA  BE2 d   1     -15.285  -7.038 -23.206  0.00  0.00     0.200 C 
+BRANCH  74  75
+ATOM     75  C   BE2 d   1     -16.152  -8.030 -23.965  0.00  0.00     0.243 C 
+ATOM     76  O   BE2 d   1     -15.710  -9.105 -24.397  0.00  0.00    -0.271 OA
+ATOM     77  N   BE2 d   1     -17.421  -7.664 -24.125  0.00  0.00    -0.346 N 
+ATOM     78  H64 BE2 d   1     -17.758  -6.814 -23.720  0.00  0.00     0.163 HD
+BRANCH  77  79
+ATOM     79  CA  BE2 d   1     -18.316  -8.518 -24.899  0.00  0.00     0.176 C 
+BRANCH  79  80
+ATOM     80  C   BE2 d   1     -17.841  -8.659 -26.335  0.00  0.00     0.241 C 
+ATOM     81  O   BE2 d   1     -17.993  -9.725 -26.943  0.00  0.00    -0.271 OA
+ATOM     82  N   BE2 d   1     -17.263  -7.601 -26.893  0.00  0.00    -0.346 N 
+ATOM     83  H77 BE2 d   1     -17.164  -6.759 -26.363  0.00  0.00     0.163 HD
+BRANCH  82  84
+ATOM     84  CA  BE2 d   1     -16.772  -7.645 -28.262  0.00  0.00     0.172 C 
+ATOM     85  CB  BE2 d   1     -16.262  -6.263 -28.672  0.00  0.00     0.042 C 
+BRANCH  84  86
+ATOM     86  C   BE2 d   1     -15.660  -8.667 -28.416  0.00  0.00     0.240 C 
+ATOM     87  O   BE2 d   1     -15.491  -9.242 -29.502  0.00  0.00    -0.271 OA
+ATOM     88  N   BE2 d   1     -14.881  -8.895 -27.354  0.00  0.00    -0.344 N 
+ATOM     89  H82 BE2 d   1     -15.147  -8.536 -26.459  0.00  0.00     0.163 HD
+BRANCH  88  90
+ATOM     90  CA  BE2 d   1     -13.649  -9.660 -27.485  0.00  0.00     0.200 C 
+BRANCH  90  91
+ATOM     91  C   BE2 d   1     -13.887 -11.131 -27.771  0.00  0.00     0.243 C 
+ATOM     92  O   BE2 d   1     -12.981 -11.792 -28.288  0.00  0.00    -0.271 OA
+ATOM     93  N   BE2 d   1     -15.072 -11.661 -27.447  0.00  0.00    -0.346 N 
+ATOM     94  H87 BE2 d   1     -15.791 -11.071 -27.080  0.00  0.00     0.163 HD
+BRANCH  93  95
+ATOM     95  CA  BE2 d   1     -15.333 -13.089 -27.620  0.00  0.00     0.180 C 
+BRANCH  95  96
+ATOM     96  C   BE2 d   1     -15.902 -13.426 -28.987  0.00  0.00     0.241 C 
+ATOM     97  O   BE2 d   1     -16.093 -14.616 -29.290  0.00  0.00    -0.271 OA
+ATOM     98  N   BE2 d   1     -16.190 -12.428 -29.817  0.00  0.00    -0.346 N 
+ATOM     99  H98 BE2 d   1     -16.010 -11.488 -29.526  0.00  0.00     0.163 HD
+BRANCH  98 100
+ATOM    100  CA  BE2 d   1     -16.759 -12.661 -31.137  0.00  0.00     0.177 C 
+BRANCH 100 101
+ATOM    101  C   BE2 d   1     -15.633 -12.963 -32.115  0.00  0.00     0.241 C 
+ATOM    102  O   BE2 d   1     -14.747 -12.127 -32.330  0.00  0.00    -0.271 OA
+ATOM    103  N   BE2 d   1     -15.689 -14.135 -32.740  0.00  0.00    -0.344 N 
+ATOM    104 9H10 BE2 d   1     -16.484 -14.728 -32.614  0.00  0.00     0.163 HD
+BRANCH 103 105
+ATOM    105  CA  BE2 d   1     -14.599 -14.560 -33.606  0.00  0.00     0.200 C 
+BRANCH 105 106
+ATOM    106  C   BE2 d   1     -15.019 -15.676 -34.557  0.00  0.00     0.243 C 
+ATOM    107  O   BE2 d   1     -14.630 -16.834 -34.367  0.00  0.00    -0.271 OA
+ATOM    108  N   BE2 d   1     -15.801 -15.348 -35.582  0.00  0.00    -0.349 N 
+ATOM    109 4H11 BE2 d   1     -16.145 -14.412 -35.661  0.00  0.00     0.163 HD
+BRANCH 108 110
+ATOM    110  CA  BE2 d   1     -16.163 -16.334 -36.591  0.00  0.00     0.235 C 
+BRANCH 110 111
+ATOM    111  C   BE2 d   1     -17.594 -16.839 -36.564  0.00  0.00     0.191 C 
+ATOM    112  O   BE2 d   1     -17.863 -17.985 -36.183  0.00  0.00    -0.647 OA
+ATOM    113  OXT BE2 d   1     -18.535 -16.120 -36.922  0.00  0.00    -0.647 OA
+ENDBRANCH 110 111
+ENDBRANCH 108 110
+ENDBRANCH 105 106
+BRANCH 105 114
+ATOM    114  CB  BE2 d   1     -13.418 -15.022 -32.749  0.00  0.00     0.199 C 
+BRANCH 114 115
+ATOM    115  OG  BE2 d   1     -12.368 -15.526 -33.554  0.00  0.00    -0.398 OA
+ATOM    116 3H11 BE2 d   1     -12.685 -16.266 -34.059  0.00  0.00     0.209 HD
+ENDBRANCH 114 115
+ENDBRANCH 105 114
+ENDBRANCH 103 105
+ENDBRANCH 100 101
+BRANCH 100 117
+ATOM    117  CB  BE2 d   1     -17.506 -11.415 -31.592  0.00  0.00     0.038 C 
+BRANCH 117 118
+ATOM    118  CG  BE2 d   1     -18.625 -10.908 -30.691  0.00  0.00    -0.020 C 
+ATOM    119  CD1 BE2 d   1     -19.114  -9.569 -31.212  0.00  0.00     0.009 C 
+ATOM    120  CD2 BE2 d   1     -19.766 -11.907 -30.626  0.00  0.00     0.009 C 
+ENDBRANCH 117 118
+ENDBRANCH 100 117
+ENDBRANCH  98 100
+ENDBRANCH  95  96
+BRANCH  95 121
+ATOM    121  CB  BE2 d   1     -16.283 -13.635 -26.538  0.00  0.00     0.013 C 
+ATOM    122  CG2 BE2 d   1     -15.708 -13.380 -25.162  0.00  0.00     0.012 C 
+BRANCH 121 123
+ATOM    123  CG1 BE2 d   1     -17.671 -13.011 -26.682  0.00  0.00     0.002 C 
+ATOM    124  CD1 BE2 d   1     -18.773 -13.763 -25.975  0.00  0.00     0.005 C 
+ENDBRANCH 121 123
+ENDBRANCH  95 121
+ENDBRANCH  93  95
+ENDBRANCH  90  91
+BRANCH  90 125
+ATOM    125  CB  BE2 d   1     -12.800  -9.528 -26.219  0.00  0.00     0.199 C 
+BRANCH 125 126
+ATOM    126  OG  BE2 d   1     -13.342 -10.265 -25.144  0.00  0.00    -0.398 OA
+ATOM    127  H86 BE2 d   1     -14.216  -9.946 -24.952  0.00  0.00     0.209 HD
+ENDBRANCH 125 126
+ENDBRANCH  90 125
+ENDBRANCH  88  90
+ENDBRANCH  84  86
+ENDBRANCH  82  84
+ENDBRANCH  79  80
+BRANCH  79 128
+ATOM    128  CB  BE2 d   1     -19.745  -7.972 -24.861  0.00  0.00     0.036 C 
+BRANCH 128 129
+ATOM    129  CG  BE2 d   1     -20.370  -8.006 -23.489  0.00  0.00     0.023 C 
+BRANCH 129 130
+ATOM    130  CD  BE2 d   1     -21.802  -7.468 -23.477  0.00  0.00     0.138 C 
+BRANCH 130 131
+ATOM    131  NE  BE2 d   1     -22.351  -7.443 -22.130  0.00  0.00    -0.227 N 
+ATOM    132  CZ  BE2 d   1     -22.822  -8.509 -21.488  0.00  0.00     0.665 C 
+ATOM    133  NH1 BE2 d   1     -22.832  -9.678 -22.085  0.00  0.00    -0.235 N 
+ATOM    134  NH2 BE2 d   1     -23.301  -8.411 -20.260  0.00  0.00    -0.235 N 
+ATOM    135  H73 BE2 d   1     -23.196 -10.505 -21.591  0.00  0.00     0.174 HD
+ATOM    136  H74 BE2 d   1     -22.476  -9.768 -23.047  0.00  0.00     0.174 HD
+ATOM    137  H75 BE2 d   1     -23.300  -7.501 -19.778  0.00  0.00     0.174 HD
+ATOM    138  H76 BE2 d   1     -23.675  -9.245 -19.785  0.00  0.00     0.174 HD
+ATOM    139  H72 BE2 d   1     -22.377  -6.538 -21.640  0.00  0.00     0.177 HD
+ENDBRANCH 130 131
+ENDBRANCH 129 130
+ENDBRANCH 128 129
+ENDBRANCH  79 128
+ENDBRANCH  77  79
+ENDBRANCH  74  75
+BRANCH  74 140
+ATOM    140  CB  BE2 d   1     -14.732  -6.022 -24.198  0.00  0.00     0.199 C 
+BRANCH 140 141
+ATOM    141  OG  BE2 d   1     -14.295  -6.707 -25.356  0.00  0.00    -0.398 OA
+ATOM    142  H63 BE2 d   1     -13.948  -6.081 -25.981  0.00  0.00     0.209 HD
+ENDBRANCH 140 141
+ENDBRANCH  74 140
+ENDBRANCH   3  74
+TORSDOF 54

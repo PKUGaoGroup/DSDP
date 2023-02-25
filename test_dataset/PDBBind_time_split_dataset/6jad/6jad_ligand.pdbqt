@@ -1,0 +1,75 @@
+REMARK  13 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O6_23  and  C1_1 
+REMARK    2  A    between atoms: C2_2  and  O2_7 
+REMARK    3  A    between atoms: C3_3  and  O3_8 
+REMARK    4  A    between atoms: C4_4  and  O4_9 
+REMARK    5  A    between atoms: C5_5  and  C6_6 
+REMARK    6  A    between atoms: C6_6  and  O6_11 
+REMARK    7  A    between atoms: C2_15  and  O1_12 
+REMARK    8  A    between atoms: C1_13  and  O2_14 
+REMARK    9  A    between atoms: C2_15  and  C1_13 
+REMARK   10  A    between atoms: C3_17  and  O4_18 
+REMARK   11  A    between atoms: C4_19  and  O5_20 
+REMARK   12  A    between atoms: C6_22  and  C5_21 
+REMARK   13  A    between atoms: C6_22  and  O6_23 
+ROOT
+ATOM      1  O6  GLC d   1      -6.941 -32.948 -15.586  0.00  0.00    -0.356 OA
+ENDROOT
+BRANCH   1   2
+ATOM      2  C1  GLC d   1      -6.491 -32.409 -14.349  0.00  0.00     0.291 C 
+ATOM      3  C2  GLC d   1      -7.755 -32.132 -13.512  0.00  0.00     0.204 C 
+ATOM      4  C3  GLC d   1      -8.660 -31.123 -14.182  0.00  0.00     0.183 C 
+ATOM      5  C4  GLC d   1      -7.827 -29.873 -14.399  0.00  0.00     0.180 C 
+ATOM      6  C5  GLC d   1      -6.546 -30.191 -15.164  0.00  0.00     0.179 C 
+ATOM      7  O5  GLC d   1      -5.800 -31.198 -14.515  0.00  0.00    -0.348 OA
+BRANCH   3   8
+ATOM      8  O2  GLC d   1      -8.454 -33.350 -13.283  0.00  0.00    -0.388 OA
+ATOM      9  H8  GLC d   1      -7.873 -33.973 -12.862  0.00  0.00     0.210 HD
+ENDBRANCH   3   8
+BRANCH   4  10
+ATOM     10  O3  GLC d   1      -9.855 -30.856 -13.368  0.00  0.00    -0.390 OA
+ATOM     11  H9  GLC d   1     -10.397 -30.210 -13.806  0.00  0.00     0.210 HD
+ENDBRANCH   4  10
+BRANCH   5  12
+ATOM     12  O4  GLC d   1      -8.638 -28.842 -15.034  0.00  0.00    -0.390 OA
+ATOM     13  H10 GLC d   1      -8.888 -29.129 -15.905  0.00  0.00     0.210 HD
+ENDBRANCH   5  12
+BRANCH   6  14
+ATOM     14  C6  GLC d   1      -5.653 -28.962 -15.181  0.00  0.00     0.198 C 
+BRANCH  14  15
+ATOM     15  O6  GLC d   1      -4.491 -29.116 -16.012  0.00  0.00    -0.398 OA
+ATOM     16  H11 GLC d   1      -4.763 -29.285 -16.906  0.00  0.00     0.209 HD
+ENDBRANCH  14  15
+ENDBRANCH   6  14
+ENDBRANCH   1   2
+BRANCH   1  17
+ATOM     17  C6  GLC d   1      -5.879 -33.114 -16.540  0.00  0.00     0.205 C 
+BRANCH  17  18
+ATOM     18  C5  GLC d   1      -5.468 -34.579 -16.654  0.00  0.00     0.180 C 
+ATOM     19  O3  GLC d   1      -5.026 -35.090 -15.395  0.00  0.00    -0.341 OA
+ATOM     20  C2  GLC d   1      -5.261 -36.496 -15.315  0.00  0.00     0.213 C 
+ATOM     21  C3  GLC d   1      -5.916 -36.896 -16.613  0.00  0.00     0.213 C 
+ATOM     22  C4  GLC d   1      -6.519 -35.574 -17.102  0.00  0.00     0.183 C 
+BRANCH  20  23
+ATOM     23  O1  GLC d   1      -4.004 -37.143 -15.126  0.00  0.00    -0.362 OA
+ATOM     24  H12 GLC d   1      -4.138 -38.082 -15.070  0.00  0.00     0.213 HD
+ENDBRANCH  20  23
+BRANCH  20  25
+ATOM     25  C1  GLC d   1      -6.099 -36.801 -14.081  0.00  0.00     0.235 C 
+BRANCH  25  26
+ATOM     26  O2  GLC d   1      -5.438 -36.255 -12.914  0.00  0.00    -0.395 OA
+ATOM     27  H15 GLC d   1      -5.957 -36.443 -12.141  0.00  0.00     0.209 HD
+ENDBRANCH  25  26
+ENDBRANCH  20  25
+BRANCH  21  28
+ATOM     28  O4  GLC d   1      -6.861 -37.962 -16.472  0.00  0.00    -0.387 OA
+ATOM     29  H17 GLC d   1      -7.236 -38.166 -17.321  0.00  0.00     0.210 HD
+ENDBRANCH  21  28
+BRANCH  22  30
+ATOM     30  O5  GLC d   1      -6.805 -35.624 -18.539  0.00  0.00    -0.390 OA
+ATOM     31  H19 GLC d   1      -7.423 -36.324 -18.713  0.00  0.00     0.210 HD
+ENDBRANCH  22  30
+ENDBRANCH  17  18
+ENDBRANCH   1  17
+TORSDOF 13

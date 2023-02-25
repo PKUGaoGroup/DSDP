@@ -1,0 +1,237 @@
+REMARK WARNING: 32 MAX_TORS EXCEEDED!!!
+REMARK  52 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAM_25  and  O1_1 
+REMARK    2  A    between atoms: O1_1  and  C1_26 
+REMARK    3  A    between atoms: C3_2  and  C2_30 
+REMARK    4  A    between atoms: C4_32  and  O4_3 
+REMARK    5  A    between atoms: O4_3  and  CAT_33 
+REMARK    6  A    between atoms: C5_4  and  O3_28 
+REMARK    7  A    between atoms: C6_5  and  O5_27 
+REMARK    8  A    between atoms: CBR_8  and  CBS_7 
+REMARK    9  A    between atoms: CBQ_9  and  CBR_8 
+REMARK   10  A    between atoms: CBP_10  and  CBQ_9 
+REMARK   11  A    between atoms: CBO_11  and  CBP_10 
+REMARK   12  A    between atoms: CBN_12  and  CBO_11 
+REMARK   13  A    between atoms: CBM_13  and  CBN_12 
+REMARK   14  A    between atoms: CBL_14  and  CBM_13 
+REMARK   15  A    between atoms: CBK_15  and  CBL_14 
+REMARK   16  A    between atoms: CBJ_16  and  CBK_15 
+REMARK   17  A    between atoms: CBI_17  and  CBJ_16 
+REMARK   18  A    between atoms: CBH_18  and  CBI_17 
+REMARK   19  A    between atoms: CBG_19  and  CBH_18 
+REMARK   20  A    between atoms: CAQ_20  and  CBG_19 
+REMARK   21  A    between atoms: CAQ_20  and  OAR_21 
+REMARK   22  A    between atoms: CAP_22  and  CAQ_20 
+REMARK   23  A    between atoms: CAP_22  and  OAS_23 
+REMARK   24  A    between atoms: CAN_24  and  CAP_22 
+REMARK   25  A    between atoms: CAN_24  and  CAM_25 
+REMARK   26  A    between atoms: CAN_24  and  NAO_41 
+REMARK   27  A    between atoms: C2_30  and  O6_31 
+REMARK   28  A    between atoms: CAT_33  and  CAU_34 
+REMARK       I    between atoms: NAO_41  and  CBE_42 
+REMARK   29  A    between atoms: CBE_42  and  CBU_44 
+REMARK   30  A    between atoms: CBU_44  and  CBV_45 
+REMARK   31  A    between atoms: CBV_45  and  CBW_46 
+REMARK   32  A    between atoms: CBW_46  and  CBX_47 
+REMARK   33  A    between atoms: CBX_47  and  CBY_48 
+REMARK   34  A    between atoms: CBY_48  and  CBZ_49 
+REMARK   35  A    between atoms: CBZ_49  and  CCA_50 
+REMARK   36  A    between atoms: CCA_50  and  CCB_51 
+REMARK   37  A    between atoms: CCB_51  and  CCC_52 
+REMARK   38  A    between atoms: CCC_52  and  CCD_53 
+REMARK   39  A    between atoms: CCD_53  and  CCE_54 
+REMARK   40  A    between atoms: CCE_54  and  CCF_55 
+REMARK   41  A    between atoms: CCF_55  and  CCG_56 
+REMARK   42  A    between atoms: CCG_56  and  CCH_57 
+REMARK   43  A    between atoms: CCH_57  and  CCI_58 
+REMARK   44  A    between atoms: CCI_58  and  CCJ_59 
+REMARK   45  A    between atoms: CCJ_59  and  CCK_60 
+REMARK   46  A    between atoms: CCK_60  and  CCL_61 
+REMARK   47  A    between atoms: CCL_61  and  CCM_62 
+REMARK   48  A    between atoms: CCM_62  and  CCN_63 
+REMARK   49  A    between atoms: CCN_63  and  CCO_64 
+REMARK   50  A    between atoms: CCO_64  and  CCP_65 
+REMARK   51  A    between atoms: CCP_65  and  CCQ_66 
+REMARK   52  A    between atoms: CCQ_66  and  CCR_67 
+ROOT
+ATOM      1  CAN JTJ d   1     -13.352 -27.827  19.132  0.00  0.00     0.139 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  CAP JTJ d   1     -13.311 -28.510  17.759  0.00  0.00     0.171 C 
+BRANCH   2   3
+ATOM      3  CAQ JTJ d   1     -12.431 -27.775  16.732  0.00  0.00     0.149 C 
+BRANCH   3   4
+ATOM      4  CBG JTJ d   1     -10.963 -27.661  17.199  0.00  0.00     0.034 C 
+BRANCH   4   5
+ATOM      5  CBH JTJ d   1     -10.010 -27.405  16.013  0.00  0.00     0.002 C 
+BRANCH   5   6
+ATOM      6  CBI JTJ d   1     -10.125 -25.956  15.502  0.00  0.00     0.000 C 
+BRANCH   6   7
+ATOM      7  CBJ JTJ d   1      -8.852 -25.559  14.740  0.00  0.00     0.000 C 
+BRANCH   7   8
+ATOM      8  CBK JTJ d   1      -9.008 -25.859  13.242  0.00  0.00     0.000 C 
+BRANCH   8   9
+ATOM      9  CBL JTJ d   1      -7.766 -25.367  12.486  0.00  0.00     0.000 C 
+BRANCH   9  10
+ATOM     10  CBM JTJ d   1      -7.804 -25.852  11.029  0.00  0.00     0.000 C 
+BRANCH  10  11
+ATOM     11  CBN JTJ d   1      -6.750 -26.951  10.842  0.00  0.00     0.000 C 
+BRANCH  11  12
+ATOM     12  CBO JTJ d   1      -6.823 -27.530   9.424  0.00  0.00     0.000 C 
+BRANCH  12  13
+ATOM     13  CBP JTJ d   1      -6.433 -29.012   9.481  0.00  0.00     0.000 C 
+BRANCH  13  14
+ATOM     14  CBQ JTJ d   1      -5.678 -29.421   8.210  0.00  0.00     0.000 C 
+BRANCH  14  15
+ATOM     15  CBR JTJ d   1      -4.805 -30.650   8.508  0.00  0.00    -0.000 C 
+BRANCH  15  16
+ATOM     16  CBS JTJ d   1      -5.408 -31.896   7.860  0.00  0.00    -0.005 C 
+ATOM     17  CBT JTJ d   1      -4.581 -33.132   8.228  0.00  0.00     0.005 C 
+ENDBRANCH  15  16
+ENDBRANCH  14  15
+ENDBRANCH  13  14
+ENDBRANCH  12  13
+ENDBRANCH  11  12
+ENDBRANCH  10  11
+ENDBRANCH   9  10
+ENDBRANCH   8   9
+ENDBRANCH   7   8
+ENDBRANCH   6   7
+ENDBRANCH   5   6
+ENDBRANCH   4   5
+ENDBRANCH   3   4
+BRANCH   3  18
+ATOM     18  OAR JTJ d   1     -12.512 -28.484  15.483  0.00  0.00    -0.393 OA
+ATOM     19  H34 JTJ d   1     -12.155 -29.358  15.592  0.00  0.00     0.210 HD
+ENDBRANCH   3  18
+ENDBRANCH   2   3
+BRANCH   2  20
+ATOM     20  OAS JTJ d   1     -12.831 -29.842  17.942  0.00  0.00    -0.391 OA
+ATOM     21  H36 JTJ d   1     -12.861 -30.305  17.113  0.00  0.00     0.210 HD
+ENDBRANCH   2  20
+ENDBRANCH   1   2
+BRANCH   1  22
+ATOM     22  CAM JTJ d   1     -14.351 -28.579  20.024  0.00  0.00     0.199 C 
+BRANCH  22  23
+ATOM     23  O1  JTJ d   1     -15.645 -28.442  19.433  0.00  0.00    -0.356 OA
+BRANCH  23  24
+ATOM     24  C1  JTJ d   1     -16.704 -29.017  20.187  0.00  0.00     0.291 C 
+ATOM     25  C6  JTJ d   1     -18.001 -28.892  19.387  0.00  0.00     0.204 C 
+ATOM     26  C5  JTJ d   1     -18.346 -27.410  19.207  0.00  0.00     0.183 C 
+ATOM     27  C4  JTJ d   1     -18.537 -26.750  20.571  0.00  0.00     0.184 C 
+ATOM     28  C3  JTJ d   1     -17.256 -26.958  21.432  0.00  0.00     0.179 C 
+ATOM     29  O2  JTJ d   1     -16.855 -28.356  21.470  0.00  0.00    -0.348 OA
+BRANCH  25  30
+ATOM     30  O5  JTJ d   1     -17.853 -29.518  18.112  0.00  0.00    -0.388 OA
+ATOM     31  H41 JTJ d   1     -17.149 -29.097  17.633  0.00  0.00     0.210 HD
+ENDBRANCH  25  30
+BRANCH  26  32
+ATOM     32  O3  JTJ d   1     -19.549 -27.309  18.454  0.00  0.00    -0.390 OA
+ATOM     33  H42 JTJ d   1     -19.425 -27.717  17.605  0.00  0.00     0.210 HD
+ENDBRANCH  26  32
+BRANCH  27  34
+ATOM     34  O4  JTJ d   1     -19.722 -27.313  21.179  0.00  0.00    -0.376 OA
+BRANCH  34  35
+ATOM     35  CAT JTJ d   1     -20.481 -26.371  21.960  0.00  0.00     0.207 C 
+BRANCH  35  36
+ATOM     36  CAU JTJ d   1     -21.370 -25.585  21.222  0.00  0.00    -0.035 A 
+ATOM     37  CAV JTJ d   1     -21.206 -24.195  21.225  0.00  0.00     0.010 A 
+ATOM     38  CAW JTJ d   1     -22.090 -23.380  20.517  0.00  0.00     0.007 A 
+ATOM     39  CAX JTJ d   1     -23.147 -23.957  19.808  0.00  0.00    -0.062 A 
+ATOM     40  CBA JTJ d   1     -24.027 -23.144  19.096  0.00  0.00     0.048 C 
+ATOM     41  CAY JTJ d   1     -23.319 -25.344  19.810  0.00  0.00     0.007 A 
+ATOM     42  CAZ JTJ d   1     -22.433 -26.161  20.520  0.00  0.00     0.010 A 
+ENDBRANCH  35  36
+ENDBRANCH  34  35
+ENDBRANCH  27  34
+BRANCH  28  43
+ATOM     43  C2  JTJ d   1     -17.432 -26.478  22.884  0.00  0.00     0.198 C 
+BRANCH  43  44
+ATOM     44  O6  JTJ d   1     -17.372 -25.047  22.939  0.00  0.00    -0.398 OA
+ATOM     45  H45 JTJ d   1     -17.482 -24.761  23.838  0.00  0.00     0.209 HD
+ENDBRANCH  43  44
+ENDBRANCH  28  43
+ENDBRANCH  23  24
+ENDBRANCH  22  23
+ENDBRANCH   1  22
+BRANCH   1  46
+ATOM     46  NAO JTJ d   1     -13.771 -26.421  19.026  0.00  0.00    -0.352 N 
+ATOM     47  CBE JTJ d   1     -13.456 -25.533  19.978  0.00  0.00     0.218 C 
+ATOM     48  OBF JTJ d   1     -12.799 -25.813  20.982  0.00  0.00    -0.274 OA
+ATOM     49  H56 JTJ d   1     -14.299 -26.123  18.231  0.00  0.00     0.163 HD
+BRANCH  47  50
+ATOM     50  CBU JTJ d   1     -13.984 -24.111  19.730  0.00  0.00     0.103 C 
+BRANCH  50  51
+ATOM     51  CBV JTJ d   1     -12.907 -23.062  20.024  0.00  0.00     0.009 C 
+BRANCH  51  52
+ATOM     52  CBW JTJ d   1     -11.928 -22.990  18.853  0.00  0.00     0.000 C 
+BRANCH  52  53
+ATOM     53  CBX JTJ d   1     -10.753 -22.091  19.239  0.00  0.00     0.000 C 
+BRANCH  53  54
+ATOM     54  CBY JTJ d   1      -9.858 -21.889  18.014  0.00  0.00     0.000 C 
+BRANCH  54  55
+ATOM     55  CBZ JTJ d   1      -8.869 -20.753  18.291  0.00  0.00     0.000 C 
+BRANCH  55  56
+ATOM     56  CCA JTJ d   1      -7.449 -21.300  18.170  0.00  0.00     0.000 C 
+BRANCH  56  57
+ATOM     57  CCB JTJ d   1      -6.449 -20.143  18.103  0.00  0.00     0.000 C 
+BRANCH  57  58
+ATOM     58  CCC JTJ d   1      -5.717 -20.009  19.445  0.00  0.00     0.000 C 
+BRANCH  58  59
+ATOM     59  CCD JTJ d   1      -4.429 -20.834  19.434  0.00  0.00     0.000 C 
+BRANCH  59  60
+ATOM     60  CCE JTJ d   1      -3.421 -20.220  20.403  0.00  0.00     0.000 C 
+BRANCH  60  61
+ATOM     61  CCF JTJ d   1      -3.673 -20.742  21.818  0.00  0.00     0.000 C 
+BRANCH  61  62
+ATOM     62  CCG JTJ d   1      -3.034 -19.777  22.816  0.00  0.00     0.000 C 
+BRANCH  62  63
+ATOM     63  CCH JTJ d   1      -3.742 -19.889  24.166  0.00  0.00     0.000 C 
+BRANCH  63  64
+ATOM     64  CCI JTJ d   1      -3.382 -18.677  25.024  0.00  0.00     0.000 C 
+BRANCH  64  65
+ATOM     65  CCJ JTJ d   1      -4.543 -17.681  25.009  0.00  0.00     0.000 C 
+BRANCH  65  66
+ATOM     66  CCK JTJ d   1      -4.091 -16.346  25.611  0.00  0.00     0.000 C 
+BRANCH  66  67
+ATOM     67  CCL JTJ d   1      -5.306 -15.455  25.887  0.00  0.00     0.000 C 
+BRANCH  67  68
+ATOM     68  CCM JTJ d   1      -5.764 -14.785  24.590  0.00  0.00     0.000 C 
+BRANCH  68  69
+ATOM     69  CCN JTJ d   1      -7.144 -14.147  24.785  0.00  0.00     0.000 C 
+BRANCH  69  70
+ATOM     70  CCO JTJ d   1      -8.088 -14.541  23.641  0.00  0.00     0.000 C 
+BRANCH  70  71
+ATOM     71  CCP JTJ d   1      -7.714 -13.827  22.336  0.00  0.00     0.000 C 
+BRANCH  71  72
+ATOM     72  CCQ JTJ d   1      -8.396 -14.535  21.163  0.00  0.00    -0.000 C 
+BRANCH  72  73
+ATOM     73  CCR JTJ d   1      -7.346 -15.020  20.163  0.00  0.00    -0.005 C 
+ATOM     74  CCS JTJ d   1      -7.991 -16.008  19.186  0.00  0.00     0.005 C 
+ENDBRANCH  72  73
+ENDBRANCH  71  72
+ENDBRANCH  70  71
+ENDBRANCH  69  70
+ENDBRANCH  68  69
+ENDBRANCH  67  68
+ENDBRANCH  66  67
+ENDBRANCH  65  66
+ENDBRANCH  64  65
+ENDBRANCH  63  64
+ENDBRANCH  62  63
+ENDBRANCH  61  62
+ENDBRANCH  60  61
+ENDBRANCH  59  60
+ENDBRANCH  58  59
+ENDBRANCH  57  58
+ENDBRANCH  56  57
+ENDBRANCH  55  56
+ENDBRANCH  54  55
+ENDBRANCH  53  54
+ENDBRANCH  52  53
+ENDBRANCH  51  52
+ENDBRANCH  50  51
+ENDBRANCH  47  50
+ENDBRANCH   1  46
+TORSDOF 52

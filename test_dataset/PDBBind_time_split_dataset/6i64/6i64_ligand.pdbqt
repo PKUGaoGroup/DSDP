@@ -1,0 +1,35 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAL_10  and  OAB_15 
+REMARK    2  A    between atoms: CAM_11  and  OAC_16 
+REMARK    3  A    between atoms: CAP_14  and  CAN_12 
+REMARK    4  A    between atoms: CAO_13  and  CAP_14 
+ROOT
+ATOM      1  CAA H48 d   1      48.067 -29.821 -96.222  0.00  0.00     0.020 C 
+ATOM      2  CAP H48 d   1      48.836 -28.776 -97.003  0.00  0.00     0.047 C 
+ENDROOT
+BRANCH   2   3
+ATOM      3  CAN H48 d   1      48.438 -27.472 -96.634  0.00  0.00    -0.050 A 
+ATOM      4  CAH H48 d   1      47.352 -26.826 -97.233  0.00  0.00     0.010 A 
+ATOM      5  CAD H48 d   1      47.000 -25.523 -96.839  0.00  0.00     0.037 A 
+ATOM      6  CAL H48 d   1      47.735 -24.864 -95.842  0.00  0.00     0.065 A 
+ATOM      7  CAE H48 d   1      48.817 -25.519 -95.241  0.00  0.00     0.037 A 
+ATOM      8  CAI H48 d   1      49.162 -26.815 -95.641  0.00  0.00     0.010 A 
+BRANCH   6   9
+ATOM      9  OAB H48 d   1      47.401 -23.590 -95.445  0.00  0.00    -0.361 OA
+ATOM     10  H13 H48 d   1      47.185 -23.594 -94.520  0.00  0.00     0.217 HD
+ENDBRANCH   6   9
+ENDBRANCH   2   3
+BRANCH   2  11
+ATOM     11  CAO H48 d   1      48.689 -29.005 -98.375  0.00  0.00    -0.050 A 
+ATOM     12  CAJ H48 d   1      49.731 -28.645 -99.215  0.00  0.00     0.010 A 
+ATOM     13  CAF H48 d   1      49.626 -28.858-100.579  0.00  0.00     0.037 A 
+ATOM     14  CAM H48 d   1      48.487 -29.441-101.110  0.00  0.00     0.065 A 
+ATOM     15  CAG H48 d   1      47.432 -29.816-100.285  0.00  0.00     0.037 A 
+ATOM     16  CAK H48 d   1      47.544 -29.603 -98.912  0.00  0.00     0.010 A 
+BRANCH  14  17
+ATOM     17  OAC H48 d   1      48.419 -29.630-102.439  0.00  0.00    -0.361 OA
+ATOM     18  H14 H48 d   1      49.220 -29.319-102.843  0.00  0.00     0.217 HD
+ENDBRANCH  14  17
+ENDBRANCH   2  11
+TORSDOF 4

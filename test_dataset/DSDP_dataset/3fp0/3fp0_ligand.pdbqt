@@ -1,0 +1,40 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C6_2  and  C15_20 
+REMARK    2  A    between atoms: C3_5  and  O3_15 
+REMARK    3  A    between atoms: C17_13  and  O3_15 
+REMARK    4  A    between atoms: C15_20  and  O12_21 
+ROOT
+ATOM      1  C2  FP0 d 520      16.897   4.557 -31.681  0.00  0.00     0.189 C 
+ATOM      2  C6  FP0 d 520      15.661   5.694 -29.255  0.00  0.00     0.021 C 
+ATOM      3  C5  FP0 d 520      15.544   6.330 -30.686  0.00  0.00     0.007 C 
+ATOM      4  C4  FP0 d 520      16.863   6.973 -31.138  0.00  0.00     0.048 C 
+ATOM      5  C3  FP0 d 520      17.689   5.864 -31.849  0.00  0.00     0.164 C 
+ATOM      6  C11 FP0 d 520      16.872   4.732 -29.180  0.00  0.00     0.156 C 
+ATOM      7  C10 FP0 d 520      16.768   3.783 -27.968  0.00  0.00     0.008 C 
+ATOM      8  C9  FP0 d 520      15.615   3.583 -27.266  0.00  0.00    -0.085 C 
+ATOM      9  C8  FP0 d 520      14.344   4.349 -27.539  0.00  0.00     0.034 C 
+ATOM     10  C12 FP0 d 520      15.516   5.185 -31.722  0.00  0.00     0.119 A 
+ATOM     11  C13 FP0 d 520      14.302   4.349 -31.999  0.00  0.00     0.210 A 
+ATOM     12  O2  FP0 d 520      14.833   5.299 -32.968  0.00  0.00    -0.371 OA
+ATOM     13  O1  FP0 d 520      17.096   3.949 -30.384  0.00  0.00    -0.370 OA
+ATOM     14  C14 FP0 d 520      14.425   7.389 -30.816  0.00  0.00     0.019 C 
+ATOM     15  C7  FP0 d 520      14.376   4.888 -28.960  0.00  0.00     0.020 C 
+ATOM     16  C16 FP0 d 520      15.562   2.586 -26.149  0.00  0.00     0.043 C 
+ENDROOT
+BRANCH   5  17
+ATOM     17  O3  FP0 d 520      18.994   5.674 -31.311  0.00  0.00    -0.314 OA
+BRANCH  17  18
+ATOM     18  C17 FP0 d 520      19.977   6.682 -31.440  0.00  0.00     0.255 C 
+ATOM     19  O4  FP0 d 520      19.694   7.678 -32.100  0.00  0.00    -0.266 OA
+ATOM     20  C18 FP0 d 520      21.271   6.399 -30.721  0.00  0.00     0.126 C 
+ENDBRANCH  17  18
+ENDBRANCH   5  17
+BRANCH   2  21
+ATOM     21  C15 FP0 d 520      15.938   6.812 -28.245  0.00  0.00     0.177 C 
+BRANCH  21  22
+ATOM     22  O12 FP0 d 520      14.757   7.449 -27.725  0.00  0.00    -0.400 OA
+ATOM     23  H   FP0 d 520      14.275   7.878 -28.450  0.00  0.00     0.209 HD
+ENDBRANCH  21  22
+ENDBRANCH   2  21
+TORSDOF 4

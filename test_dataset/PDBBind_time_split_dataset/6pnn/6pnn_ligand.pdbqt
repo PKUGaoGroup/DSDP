@@ -1,0 +1,45 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK       I    between atoms: CAC_2  and  NAE_4 
+REMARK    1  A    between atoms: NAE_4  and  CAF_5 
+REMARK    2  A    between atoms: CAJ_11  and  SAM_12 
+REMARK    3  A    between atoms: SAM_12  and  NAP_15 
+REMARK    4  A    between atoms: NAP_15  and  CAR_17 
+REMARK    5  A    between atoms: CAR_17  and  CAS_18 
+REMARK    6  A    between atoms: CAS_18  and  OAT_19 
+ROOT
+ATOM      1  CAF OR7 d   1      16.056  -5.526  15.642  0.00  0.00     0.036 A 
+ATOM      2  CAH OR7 d   1      16.933  -4.683  16.391  0.00  0.00     0.056 A 
+ATOM      3  CAG OR7 d   1      14.674  -5.378  15.789  0.00  0.00     0.031 A 
+ATOM      4  CAI OR7 d   1      14.205  -4.379  16.634  0.00  0.00     0.028 A 
+ATOM      5  CAK OR7 d   1      15.098  -3.539  17.344  0.00  0.00     0.057 A 
+ATOM      6 CLA  OR7 d   1      14.497  -2.332  18.323  0.00  0.00    -0.083 Cl
+ATOM      7  CAJ OR7 d   1      16.490  -3.659  17.234  0.00  0.00     0.098 A 
+ENDROOT
+BRANCH   7   8
+ATOM      8  SAM OR7 d   1      17.784  -2.465  18.251  0.00  0.00     0.245 S 
+ATOM      9  OAN OR7 d   1      17.360  -2.526  19.718  0.00  0.00    -0.206 OA
+ATOM     10  OAO OR7 d   1      19.298  -2.825  18.094  0.00  0.00    -0.206 OA
+BRANCH   8  11
+ATOM     11  NAP OR7 d   1      17.880  -0.716  17.817  0.00  0.00    -0.208 NA
+ATOM     12  CAQ OR7 d   1      16.572  -0.098  17.523  0.00  0.00     0.129 C 
+BRANCH  11  13
+ATOM     13  CAR OR7 d   1      18.906  -0.516  16.760  0.00  0.00     0.133 C 
+BRANCH  13  14
+ATOM     14  CAS OR7 d   1      18.517  -1.298  15.457  0.00  0.00     0.182 C 
+BRANCH  14  15
+ATOM     15  OAT OR7 d   1      19.274  -2.522  15.185  0.00  0.00    -0.395 OA
+ATOM     16  CAU OR7 d   1      18.976  -2.946  13.824  0.00  0.00     0.201 C 
+ENDBRANCH  14  15
+ENDBRANCH  13  14
+ENDBRANCH  11  13
+ENDBRANCH   8  11
+ENDBRANCH   7   8
+BRANCH   1  17
+ATOM     17  NAE OR7 d   1      16.547  -6.510  14.853  0.00  0.00    -0.327 N 
+ATOM     18  CAC OR7 d   1      17.836  -6.436  14.370  0.00  0.00     0.218 C 
+ATOM     19  CAA OR7 d   1      18.286  -7.622  13.629  0.00  0.00     0.117 C 
+ATOM     20  OAD OR7 d   1      18.581  -5.464  14.361  0.00  0.00    -0.274 OA
+ATOM     21  H4  OR7 d   1      15.972  -7.294  14.619  0.00  0.00     0.169 HD
+ENDBRANCH   1  17
+TORSDOF 6

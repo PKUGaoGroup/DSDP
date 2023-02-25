@@ -1,0 +1,72 @@
+REMARK  12 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O12_1  and  C12_2 
+REMARK    2  A    between atoms: C13_3  and  O13_4 
+REMARK    3  A    between atoms: C14_5  and  O14_6 
+REMARK    4  A    between atoms: C15_7  and  C16_8 
+REMARK    5  A    between atoms: C16_8  and  O16_9 
+REMARK    6  A    between atoms: C11_11  and  S22_12 
+REMARK    7  A    between atoms: S22_12  and  C22_13 
+REMARK    8  A    between atoms: C21_14  and  O21_15 
+REMARK    9  A    between atoms: C23_18  and  O23_19 
+REMARK   10  A    between atoms: C24_20  and  O24_21 
+REMARK   11  A    between atoms: C25_22  and  C26_23 
+REMARK   12  A    between atoms: C26_23  and  O26_24 
+ROOT
+ATOM      1  S22 JSV d   1      27.478  33.551  35.264  0.00  0.00    -0.122 SA
+ENDROOT
+BRANCH   1   2
+ATOM      2  C11 JSV d   1      26.042  32.474  34.945  0.00  0.00     0.215 C 
+ATOM      3  C12 JSV d   1      25.454  32.860  33.593  0.00  0.00     0.188 C 
+ATOM      4  C13 JSV d   1      24.339  31.819  33.225  0.00  0.00     0.181 C 
+ATOM      5  C14 JSV d   1      24.716  30.318  33.439  0.00  0.00     0.180 C 
+ATOM      6  C15 JSV d   1      25.385  30.168  34.839  0.00  0.00     0.178 C 
+ATOM      7  O15 JSV d   1      26.479  31.107  34.930  0.00  0.00    -0.363 OA
+BRANCH   3   8
+ATOM      8  O12 JSV d   1      24.921  34.242  33.619  0.00  0.00    -0.389 OA
+ATOM      9  H1  JSV d   1      25.619  34.845  33.844  0.00  0.00     0.210 HD
+ENDBRANCH   3   8
+BRANCH   4  10
+ATOM     10  O13 JSV d   1      24.053  32.113  31.840  0.00  0.00    -0.390 OA
+ATOM     11  H4  JSV d   1      24.842  31.998  31.324  0.00  0.00     0.210 HD
+ENDBRANCH   4  10
+BRANCH   5  12
+ATOM     12  O14 JSV d   1      23.638  29.288  33.399  0.00  0.00    -0.390 OA
+ATOM     13  H6  JSV d   1      24.017  28.429  33.544  0.00  0.00     0.210 HD
+ENDBRANCH   5  12
+BRANCH   6  14
+ATOM     14  C16 JSV d   1      25.811  28.750  35.116  0.00  0.00     0.198 C 
+BRANCH  14  15
+ATOM     15  O16 JSV d   1      26.305  28.683  36.505  0.00  0.00    -0.398 OA
+ATOM     16  H10 JSV d   1      26.579  27.795  36.700  0.00  0.00     0.209 HD
+ENDBRANCH  14  15
+ENDBRANCH   6  14
+ENDBRANCH   1   2
+BRANCH   1  17
+ATOM     17  C22 JSV d   1      28.448  33.563  33.762  0.00  0.00     0.136 C 
+ATOM     18  C21 JSV d   1      28.416  34.918  32.975  0.00  0.00     0.276 C 
+ATOM     19  O25 JSV d   1      29.435  34.932  31.927  0.00  0.00    -0.350 OA
+ATOM     20  C25 JSV d   1      30.835  34.767  32.326  0.00  0.00     0.179 C 
+ATOM     21  C24 JSV d   1      30.938  33.383  33.012  0.00  0.00     0.179 C 
+ATOM     22  C23 JSV d   1      29.920  33.299  34.175  0.00  0.00     0.168 C 
+BRANCH  18  23
+ATOM     23  O21 JSV d   1      27.141  35.309  32.432  0.00  0.00    -0.365 OA
+ATOM     24  C27 JSV d   1      27.078  36.594  31.795  0.00  0.00     0.204 C 
+ENDBRANCH  18  23
+BRANCH  20  25
+ATOM     25  C26 JSV d   1      31.885  34.937  31.165  0.00  0.00     0.198 C 
+BRANCH  25  26
+ATOM     26  O26 JSV d   1      31.437  35.876  30.174  0.00  0.00    -0.398 OA
+ATOM     27  H24 JSV d   1      30.621  35.571  29.796  0.00  0.00     0.209 HD
+ENDBRANCH  25  26
+ENDBRANCH  20  25
+BRANCH  21  28
+ATOM     28  O24 JSV d   1      32.275  33.087  33.464  0.00  0.00    -0.390 OA
+ATOM     29  H20 JSV d   1      32.299  32.208  33.825  0.00  0.00     0.210 HD
+ENDBRANCH  21  28
+BRANCH  22  30
+ATOM     30  O23 JSV d   1      30.098  32.084  34.943  0.00  0.00    -0.392 OA
+ATOM     31  H18 JSV d   1      31.016  31.981  35.163  0.00  0.00     0.210 HD
+ENDBRANCH  22  30
+ENDBRANCH   1  17
+TORSDOF 12

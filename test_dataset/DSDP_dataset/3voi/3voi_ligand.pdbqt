@@ -1,0 +1,118 @@
+REMARK  20 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1A_1  and  O1A_2 
+REMARK    2  A    between atoms: C4B_27  and  O1A_2 
+REMARK    3  A    between atoms: O1B_4  and  C1B_3 
+REMARK    4  A    between atoms: O1B_4  and  C4C_28 
+REMARK    5  A    between atoms: C1C_5  and  O1C_6 
+REMARK    6  A    between atoms: C1D_7  and  O1C_6 
+REMARK    7  A    between atoms: C4D_29  and  N1D_8 
+REMARK    8  A    between atoms: C2A_9  and  O2A_10 
+REMARK    9  A    between atoms: C2B_11  and  O2B_12 
+REMARK   10  A    between atoms: O2C_14  and  C2C_13 
+REMARK   11  A    between atoms: C3A_17  and  O3A_18 
+REMARK   12  A    between atoms: O3B_20  and  C3B_19 
+REMARK   13  A    between atoms: O3C_22  and  C3C_21 
+REMARK   14  A    between atoms: O4A_26  and  C4A_25 
+REMARK   15  A    between atoms: C6A_37  and  C5A_30 
+REMARK   16  A    between atoms: C6B_39  and  C5B_32 
+REMARK   17  A    between atoms: C5C_34  and  C6C_41 
+REMARK   18  A    between atoms: O6A_38  and  C6A_37 
+REMARK   19  A    between atoms: C6B_39  and  O6B_40 
+REMARK   20  A    between atoms: O6C_42  and  C6C_41 
+ROOT
+ATOM      1  C1B RCB d 503      23.689  27.971  22.139  0.00  0.00     0.292 C 
+ATOM      2  C2B RCB d 503      23.292  29.222  21.354  0.00  0.00     0.204 C 
+ATOM      3  C3B RCB d 503      21.965  29.764  21.861  0.00  0.00     0.183 C 
+ATOM      4  C4B RCB d 503      20.883  28.682  21.778  0.00  0.00     0.187 C 
+ATOM      5  C5B RCB d 503      21.357  27.436  22.520  0.00  0.00     0.180 C 
+ATOM      6  O5B RCB d 503      22.642  26.996  22.064  0.00  0.00    -0.348 OA
+ENDROOT
+BRANCH   1   7
+ATOM      7  O1B RCB d 503      24.889  27.483  21.539  0.00  0.00    -0.348 OA
+BRANCH   7   8
+ATOM      8  C4C RCB d 503      25.503  26.342  22.145  0.00  0.00     0.187 C 
+ATOM      9  C3C RCB d 503      25.328  25.152  21.188  0.00  0.00     0.183 C 
+ATOM     10  C2C RCB d 503      26.174  23.944  21.597  0.00  0.00     0.205 C 
+ATOM     11  C1C RCB d 503      27.605  24.398  21.832  0.00  0.00     0.298 C 
+ATOM     12  O5C RCB d 503      27.606  25.408  22.842  0.00  0.00    -0.348 OA
+ATOM     13  C5C RCB d 503      26.990  26.620  22.395  0.00  0.00     0.180 C 
+BRANCH   9  14
+ATOM     14  O3C RCB d 503      23.942  24.798  21.162  0.00  0.00    -0.390 OA
+ATOM     15  H   RCB d 503      23.658  24.536  22.052  0.00  0.00     0.210 HD
+ENDBRANCH   9  14
+BRANCH  10  16
+ATOM     16  O2C RCB d 503      26.190  22.950  20.573  0.00  0.00    -0.388 OA
+ATOM     17  H   RCB d 503      26.577  23.324  19.766  0.00  0.00     0.210 HD
+ENDBRANCH  10  16
+BRANCH  11  18
+ATOM     18  O1C RCB d 503      28.377  23.269  22.233  0.00  0.00    -0.318 OA
+BRANCH  18  19
+ATOM     19  C1D RCB d 503      29.745  23.242  22.208  0.00  0.00     0.072 A 
+ATOM     20  C2D RCB d 503      30.471  24.424  22.102  0.00  0.00     0.039 A 
+ATOM     21  C3D RCB d 503      31.854  24.386  22.089  0.00  0.00     0.039 A 
+ATOM     22  C4D RCB d 503      32.526  23.168  22.176  0.00  0.00     0.103 A 
+ATOM     23  C5D RCB d 503      31.800  21.976  22.283  0.00  0.00     0.039 A 
+ATOM     24  C6D RCB d 503      30.405  22.014  22.294  0.00  0.00     0.039 A 
+BRANCH  22  25
+ATOM     25  N1D RCB d 503      33.932  23.172  22.185  0.00  0.00    -0.116 N 
+ATOM     26  O3D RCB d 503      34.545  24.229  22.196  0.00  0.00    -0.532 OA
+ATOM     27  O2D RCB d 503      34.561  22.123  22.246  0.00  0.00    -0.532 OA
+ENDBRANCH  22  25
+ENDBRANCH  18  19
+ENDBRANCH  11  18
+BRANCH  13  28
+ATOM     28  C6C RCB d 503      27.250  27.726  23.420  0.00  0.00     0.198 C 
+BRANCH  28  29
+ATOM     29  O6C RCB d 503      28.607  28.181  23.252  0.00  0.00    -0.398 OA
+ATOM     30  H   RCB d 503      29.216  27.438  23.387  0.00  0.00     0.209 HD
+ENDBRANCH  28  29
+ENDBRANCH  13  28
+ENDBRANCH   7   8
+ENDBRANCH   1   7
+BRANCH   2  31
+ATOM     31  O2B RCB d 503      24.309  30.220  21.503  0.00  0.00    -0.388 OA
+ATOM     32  H   RCB d 503      24.402  30.450  22.441  0.00  0.00     0.210 HD
+ENDBRANCH   2  31
+BRANCH   3  33
+ATOM     33  O3B RCB d 503      21.570  30.895  21.080  0.00  0.00    -0.390 OA
+ATOM     34  H   RCB d 503      21.461  30.627  20.154  0.00  0.00     0.210 HD
+ENDBRANCH   3  33
+BRANCH   5  35
+ATOM     35  C6B RCB d 503      20.367  26.292  22.336  0.00  0.00     0.198 C 
+BRANCH  35  36
+ATOM     36  O6B RCB d 503      20.679  25.300  23.313  0.00  0.00    -0.398 OA
+ATOM     37  H   RCB d 503      21.593  25.000  23.188  0.00  0.00     0.209 HD
+ENDBRANCH  35  36
+ENDBRANCH   5  35
+BRANCH   4  38
+ATOM     38  O1A RCB d 503      19.681  29.162  22.383  0.00  0.00    -0.348 OA
+BRANCH  38  39
+ATOM     39  C1A RCB d 503      18.623  29.473  21.484  0.00  0.00     0.292 C 
+ATOM     40  O5A RCB d 503      18.805  30.831  21.050  0.00  0.00    -0.348 OA
+ATOM     41  C5A RCB d 503      17.804  31.310  20.141  0.00  0.00     0.179 C 
+ATOM     42  C4A RCB d 503      16.467  31.297  20.887  0.00  0.00     0.180 C 
+ATOM     43  C3A RCB d 503      16.132  29.869  21.365  0.00  0.00     0.183 C 
+ATOM     44  C2A RCB d 503      17.277  29.315  22.209  0.00  0.00     0.204 C 
+BRANCH  41  45
+ATOM     45  C6A RCB d 503      18.172  32.720  19.642  0.00  0.00     0.198 C 
+BRANCH  45  46
+ATOM     46  O6A RCB d 503      19.445  32.681  18.973  0.00  0.00    -0.398 OA
+ATOM     47  H   RCB d 503      19.394  32.077  18.216  0.00  0.00     0.209 HD
+ENDBRANCH  45  46
+ENDBRANCH  41  45
+BRANCH  42  48
+ATOM     48  O4A RCB d 503      15.443  31.859  20.062  0.00  0.00    -0.390 OA
+ATOM     49  H   RCB d 503      15.352  31.330  19.254  0.00  0.00     0.210 HD
+ENDBRANCH  42  48
+BRANCH  43  50
+ATOM     50  O3A RCB d 503      14.953  29.846  22.176  0.00  0.00    -0.390 OA
+ATOM     51  H   RCB d 503      15.097  30.384  22.971  0.00  0.00     0.210 HD
+ENDBRANCH  43  50
+BRANCH  44  52
+ATOM     52  O2A RCB d 503      16.994  27.947  22.551  0.00  0.00    -0.388 OA
+ATOM     53  H   RCB d 503      16.916  27.421  21.740  0.00  0.00     0.210 HD
+ENDBRANCH  44  52
+ENDBRANCH  38  39
+ENDBRANCH   4  38
+TORSDOF 20

@@ -1,0 +1,46 @@
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C12_2  and  C11_3 
+REMARK    2  A    between atoms: C11_3  and  C9_4 
+REMARK    3  A    between atoms: C9_4  and  C8_5 
+REMARK    4  A    between atoms: C8_5  and  C7_6 
+REMARK    5  A    between atoms: C6_8  and  C7_6 
+REMARK    6  A    between atoms: N6_18  and  C2_11 
+REMARK    7  A    between atoms: C4_13  and  N4_15 
+ROOT
+ATOM      1  C6  DNT d 306      87.317  95.435 107.458  0.00  0.00     0.116 A 
+ATOM      2  C1  DNT d 306      86.520  96.701 107.261  0.00  0.00     0.194 A 
+ATOM      3  O1  DNT d 306      87.151  97.794 107.090  0.00  0.00    -0.289 OA
+ATOM      4  C2  DNT d 306      84.991  96.692 107.241  0.00  0.00     0.151 A 
+ATOM      5  C3  DNT d 306      84.302  95.452 107.440  0.00  0.00     0.075 A 
+ATOM      6  C4  DNT d 306      85.086  94.151 107.651  0.00  0.00     0.102 A 
+ATOM      7  C5  DNT d 306      86.621  94.214 107.653  0.00  0.00     0.026 A 
+ENDROOT
+BRANCH   1   8
+ATOM      8  C7  DNT d 306      88.869  95.469 107.463  0.00  0.00    -0.069 C 
+ATOM      9  C10 DNT d 306      89.494  95.217 108.840  0.00  0.00     0.044 C 
+BRANCH   8  10
+ATOM     10  C8  DNT d 306      89.457  95.709 106.249  0.00  0.00     0.003 C 
+BRANCH  10  11
+ATOM     11  C9  DNT d 306      88.859  95.933 104.997  0.00  0.00    -0.004 C 
+BRANCH  11  12
+ATOM     12  C11 DNT d 306      89.739  96.174 103.777  0.00  0.00    -0.027 C 
+BRANCH  12  13
+ATOM     13  C12 DNT d 306      88.992  96.404 102.473  0.00  0.00     0.022 C 
+ATOM     14  C13 DNT d 306      89.813  96.632 101.251  0.00  0.00     0.009 C 
+ENDBRANCH  12  13
+ENDBRANCH  11  12
+ENDBRANCH  10  11
+ENDBRANCH   8  10
+ENDBRANCH   1   8
+BRANCH   4  15
+ATOM     15  N6  DNT d 306      84.372  97.781 107.070  0.00  0.00    -0.112 N 
+ATOM     16  O62 DNT d 306      84.983  98.901 106.890  0.00  0.00    -0.532 OA
+ATOM     17  O42 DNT d 306      83.080  97.796 107.059  0.00  0.00    -0.532 OA
+ENDBRANCH   4  15
+BRANCH   6  18
+ATOM     18  N4  DNT d 306      84.456  93.058 107.830  0.00  0.00    -0.116 N 
+ATOM     19  O61 DNT d 306      83.147  93.065 107.817  0.00  0.00    -0.532 OA
+ATOM     20  O41 DNT d 306      85.045  91.933 108.027  0.00  0.00    -0.532 OA
+ENDBRANCH   6  18
+TORSDOF 7

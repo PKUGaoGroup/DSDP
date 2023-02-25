@@ -1,0 +1,130 @@
+REMARK  21 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: PA_2  and  O3_1 
+REMARK    2  A    between atoms: PN_3  and  O3_1 
+REMARK    3  A    between atoms: O5B_36  and  PA_2 
+REMARK    4  A    between atoms: PA_2  and  O1A_5 
+REMARK    5  A    between atoms: PN_3  and  O2N_19 
+REMARK    6  A    between atoms: PN_3  and  O5D_38 
+REMARK    7  A    between atoms: C1B_6  and  N9A_49 
+REMARK    8  A    between atoms: C1D_7  and  N1N_8 
+REMARK    9  A    between atoms: O2B_14  and  C2B_13 
+REMARK   10  A    between atoms: O2B_14  and  P2B_15 
+REMARK   11  A    between atoms: P2B_15  and  O3X_27 
+REMARK   12  A    between atoms: P2B_15  and  O2X_20 
+REMARK   13  A    between atoms: C2D_16  and  O2D_17 
+REMARK   14  A    between atoms: O3B_23  and  C3B_22 
+REMARK   15  A    between atoms: C3D_24  and  O3D_25 
+REMARK   16  A    between atoms: C7N_44  and  C3N_26 
+REMARK   17  A    between atoms: C4B_29  and  C5B_35 
+REMARK   18  A    between atoms: C5D_37  and  C4D_31 
+REMARK   19  A    between atoms: O5B_36  and  C5B_35 
+REMARK   20  A    between atoms: C5D_37  and  O5D_38 
+REMARK   21  A    between atoms: C5N_39  and  O8N_48 
+REMARK       I    between atoms: N7N_45  and  C7N_44 
+ROOT
+ATOM      1  PA  NJP d 501     -37.856 -18.886 -17.330  0.00  0.00     0.401 P 
+ATOM      2  O2A NJP d 501     -38.615 -18.579 -18.599  0.00  0.00    -0.631 OA
+ENDROOT
+BRANCH   1   3
+ATOM      3  O5B NJP d 501     -36.431 -19.475 -17.769  0.00  0.00    -0.294 OA
+BRANCH   3   4
+ATOM      4  C5B NJP d 501     -35.526 -19.940 -16.772  0.00  0.00     0.215 C 
+BRANCH   4   5
+ATOM      5  C4B NJP d 501     -34.334 -20.518 -17.501  0.00  0.00     0.180 C 
+ATOM      6  C3B NJP d 501     -34.757 -21.674 -18.392  0.00  0.00     0.183 C 
+ATOM      7  C2B NJP d 501     -34.327 -22.912 -17.631  0.00  0.00     0.214 C 
+ATOM      8  C1B NJP d 501     -33.127 -22.385 -16.842  0.00  0.00     0.263 C 
+ATOM      9  O4B NJP d 501     -33.421 -21.034 -16.523  0.00  0.00    -0.353 OA
+BRANCH   6  10
+ATOM     10  O3B NJP d 501     -34.027 -21.595 -19.626  0.00  0.00    -0.390 OA
+ATOM     11  H   NJP d 501     -33.075 -21.595 -19.439  0.00  0.00     0.210 HD
+ENDBRANCH   6  10
+BRANCH   7  12
+ATOM     12  O2B NJP d 501     -33.971 -23.946 -18.552  0.00  0.00    -0.284 OA
+BRANCH  12  13
+ATOM     13  P2B NJP d 501     -34.253 -25.531 -18.364  0.00  0.00     0.391 P 
+ATOM     14  O1X NJP d 501     -34.323 -26.013 -19.793  0.00  0.00    -0.632 OA
+BRANCH  13  15
+ATOM     15  O3X NJP d 501     -33.044 -26.042 -17.616  0.00  0.00    -0.307 OA
+ATOM     16  H   NJP d 501     -32.249 -25.906 -18.155  0.00  0.00     0.222 HD
+ENDBRANCH  13  15
+BRANCH  13  17
+ATOM     17  O2X NJP d 501     -35.558 -25.696 -17.608  0.00  0.00    -0.307 OA
+ATOM     18  H   NJP d 501     -36.288 -25.349 -18.144  0.00  0.00     0.222 HD
+ENDBRANCH  13  17
+ENDBRANCH  12  13
+ENDBRANCH   7  12
+BRANCH   8  19
+ATOM     19  N9A NJP d 501     -32.887 -23.210 -15.644  0.00  0.00    -0.294 N 
+ATOM     20  C4A NJP d 501     -31.816 -23.991 -15.516  0.00  0.00     0.167 A 
+ATOM     21  N3A NJP d 501     -30.757 -24.219 -16.336  0.00  0.00    -0.222 NA
+ATOM     22  C5A NJP d 501     -31.912 -24.635 -14.295  0.00  0.00     0.149 A 
+ATOM     23  C2A NJP d 501     -29.796 -25.077 -15.966  0.00  0.00     0.237 A 
+ATOM     24  N1A NJP d 501     -29.868 -25.705 -14.787  0.00  0.00    -0.222 NA
+ATOM     25  C6A NJP d 501     -30.905 -25.520 -13.941  0.00  0.00     0.155 A 
+ATOM     26  N6A NJP d 501     -30.950 -26.187 -12.756  0.00  0.00    -0.382 N 
+ATOM     27  H   NJP d 501     -30.229 -26.813 -12.516  0.00  0.00     0.157 HD
+ATOM     28  H   NJP d 501     -31.703 -26.044 -12.139  0.00  0.00     0.157 HD
+ATOM     29  N7A NJP d 501     -33.064 -24.220 -13.700  0.00  0.00    -0.236 NA
+ATOM     30  C8A NJP d 501     -33.659 -23.338 -14.544  0.00  0.00     0.214 A 
+ENDBRANCH   8  19
+ENDBRANCH   4   5
+ENDBRANCH   3   4
+ENDBRANCH   1   3
+BRANCH   1  31
+ATOM     31  O3  NJP d 501     -37.484 -17.551 -16.510  0.00  0.00    -0.195 OA
+BRANCH  31  32
+ATOM     32  PN  NJP d 501     -36.642 -16.258 -16.970  0.00  0.00     0.401 P 
+ATOM     33  O1N NJP d 501     -36.098 -16.396 -18.381  0.00  0.00    -0.631 OA
+BRANCH  32  34
+ATOM     34  O2N NJP d 501     -37.482 -15.059 -16.618  0.00  0.00    -0.307 OA
+ATOM     35  H   NJP d 501     -38.226 -14.992 -17.237  0.00  0.00     0.222 HD
+ENDBRANCH  32  34
+BRANCH  32  36
+ATOM     36  O5D NJP d 501     -35.403 -16.383 -15.952  0.00  0.00    -0.294 OA
+BRANCH  36  37
+ATOM     37  C5D NJP d 501     -34.115 -15.916 -16.328  0.00  0.00     0.215 C 
+BRANCH  37  38
+ATOM     38  C4D NJP d 501     -33.543 -15.170 -15.128  0.00  0.00     0.180 C 
+ATOM     39  O4D NJP d 501     -34.273 -13.958 -14.918  0.00  0.00    -0.354 OA
+ATOM     40  C1D NJP d 501     -34.510 -13.780 -13.523  0.00  0.00     0.255 C 
+ATOM     41  C2D NJP d 501     -34.719 -15.200 -13.034  0.00  0.00     0.198 C 
+ATOM     42  C3D NJP d 501     -33.641 -15.940 -13.816  0.00  0.00     0.182 C 
+BRANCH  40  43
+ATOM     43  N1N NJP d 501     -35.614 -12.802 -13.448  0.00  0.00    -0.355 N 
+ATOM     44  C2N NJP d 501     -36.874 -13.152 -13.980  0.00  0.00     0.169 C 
+ATOM     45  C3N NJP d 501     -37.983 -12.370 -13.689  0.00  0.00     0.030 C 
+ATOM     46  C4N NJP d 501     -37.886 -11.309 -12.797  0.00  0.00     0.052 C 
+ATOM     47  C5N NJP d 501     -36.674 -10.994 -12.216  0.00  0.00     0.081 C 
+ATOM     48  C6N NJP d 501     -35.551 -11.774 -12.479  0.00  0.00     0.124 C 
+BRANCH  45  49
+ATOM     49  C7N NJP d 501     -39.313 -12.640 -14.322  0.00  0.00     0.247 C 
+ATOM     50  N7N NJP d 501     -39.384 -13.451 -15.381  0.00  0.00    -0.366 N 
+ATOM     51  H   NJP d 501     -40.254 -13.634 -15.803  0.00  0.00     0.159 HD
+ATOM     52  H   NJP d 501     -38.566 -13.866 -15.739  0.00  0.00     0.159 HD
+ATOM     53  O7N NJP d 501     -40.284 -12.052 -13.875  0.00  0.00    -0.268 OA
+ENDBRANCH  45  49
+BRANCH  47  54
+ATOM     54  O8N NJP d 501     -36.621  -9.952 -11.344  0.00  0.00    -0.359 OA
+ATOM     55  H   NJP d 501     -37.388  -9.439 -11.180  0.00  0.00     0.217 HD
+ENDBRANCH  47  54
+ENDBRANCH  40  43
+BRANCH  41  56
+ATOM     56  O2D NJP d 501     -34.512 -15.298 -11.625  0.00  0.00    -0.388 OA
+ATOM     57  H   NJP d 501     -33.627 -14.968 -11.405  0.00  0.00     0.210 HD
+ENDBRANCH  41  56
+BRANCH  42  58
+ATOM     58  O3D NJP d 501     -32.366 -15.800 -13.168  0.00  0.00    -0.390 OA
+ATOM     59  H   NJP d 501     -32.151 -14.858 -13.077  0.00  0.00     0.210 HD
+ENDBRANCH  42  58
+ENDBRANCH  37  38
+ENDBRANCH  36  37
+ENDBRANCH  32  36
+ENDBRANCH  31  32
+ENDBRANCH   1  31
+BRANCH   1  60
+ATOM     60  O1A NJP d 501     -38.456 -19.805 -16.290  0.00  0.00    -0.307 OA
+ATOM     61  H   NJP d 501     -38.710 -20.643 -16.707  0.00  0.00     0.222 HD
+ENDBRANCH   1  60
+TORSDOF 21

@@ -1,0 +1,48 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  N_9 
+REMARK    2  A    between atoms: N_9  and  C11_13 
+REMARK    3  A    between atoms: C9_11  and  S_10 
+REMARK    4  A    between atoms: O1_19  and  S_10 
+REMARK    5  A    between atoms: O2_20  and  S_10 
+REMARK    6  A    between atoms: S_10  and  O3_21 
+ROOT
+ATOM      1  C1  2AN d1160       4.407   4.937   9.886  0.00  0.00     0.045 A 
+ATOM      2  C2  2AN d1160       3.543   6.034   9.735  0.00  0.00     0.030 A 
+ATOM      3  C3  2AN d1160       3.804   7.032   8.816  0.00  0.00     0.003 A 
+ATOM      4  C4  2AN d1160       4.937   6.934   8.041  0.00  0.00     0.012 A 
+ATOM      5  C5  2AN d1160       5.804   5.857   8.190  0.00  0.00    -0.022 A 
+ATOM      6  C6  2AN d1160       6.903   5.844   7.356  0.00  0.00     0.012 A 
+ATOM      7  C7  2AN d1160       7.819   4.810   7.443  0.00  0.00     0.002 A 
+ATOM      8  C8  2AN d1160       7.615   3.782   8.350  0.00  0.00     0.024 A 
+ATOM      9  C9  2AN d1160       6.506   3.741   9.206  0.00  0.00     0.069 A 
+ATOM     10  C10 2AN d1160       5.569   4.816   9.116  0.00  0.00     0.022 A 
+ENDROOT
+BRANCH   1  11
+ATOM     11  N   2AN d1160       4.191   3.951  10.841  0.00  0.00    -0.355 N 
+ATOM     12  H   2AN d1160       4.950   3.442  11.208  0.00  0.00     0.166 HD
+BRANCH  11  13
+ATOM     13  C11 2AN d1160       2.896   3.687  11.276  0.00  0.00     0.032 A 
+ATOM     14  C16 2AN d1160       1.802   3.555  10.414  0.00  0.00     0.029 A 
+ATOM     15  C15 2AN d1160       0.552   3.214  10.916  0.00  0.00     0.002 A 
+ATOM     16  C14 2AN d1160       0.405   3.006  12.284  0.00  0.00     0.000 A 
+ATOM     17  C13 2AN d1160       1.512   3.124  13.123  0.00  0.00     0.002 A 
+ATOM     18  C12 2AN d1160       2.760   3.452  12.619  0.00  0.00     0.029 A 
+ENDBRANCH  11  13
+ENDBRANCH   1  11
+BRANCH   9  19
+ATOM     19  S   2AN d1160       6.447   2.452  10.210  0.00  0.00     0.116 S 
+BRANCH  19  20
+ATOM     20  O1  2AN d1160       7.664   1.633   9.978  0.00  0.00    -0.304 OA
+ATOM     21  H   2AN d1160       7.654   1.288   9.071  0.00  0.00     0.230 HD
+ENDBRANCH  19  20
+BRANCH  19  22
+ATOM     22  O2  2AN d1160       5.260   1.646  10.094  0.00  0.00    -0.304 OA
+ATOM     23  H   2AN d1160       5.175   1.325   9.183  0.00  0.00     0.230 HD
+ENDBRANCH  19  22
+BRANCH  19  24
+ATOM     24  O3  2AN d1160       6.565   2.980  11.757  0.00  0.00    -0.304 OA
+ATOM     25  H   2AN d1160       7.361   3.526  11.852  0.00  0.00     0.230 HD
+ENDBRANCH  19  24
+ENDBRANCH   9  19
+TORSDOF 6

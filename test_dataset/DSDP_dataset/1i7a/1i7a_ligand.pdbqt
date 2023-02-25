@@ -1,0 +1,35 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA_2  and  N_1 
+REMARK    2  A    between atoms: CB_5  and  CA_2 
+REMARK    3  A    between atoms: C_3  and  CA_2 
+REMARK    4  A    between atoms: C_3  and  OXT_12 
+REMARK    5  A    between atoms: CG_6  and  CB_5 
+ROOT
+ATOM      1  CA  PHE d   1       4.252  21.272   5.710  0.00  0.00     0.318 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  CB  PHE d   1       3.708  20.298   4.656  0.00  0.00     0.085 C 
+BRANCH   2   3
+ATOM      3  CG  PHE d   1       4.596  19.106   4.406  0.00  0.00    -0.056 A 
+ATOM      4  CD1 PHE d   1       4.927  18.732   3.109  0.00  0.00     0.007 A 
+ATOM      5  CE1 PHE d   1       5.718  17.618   2.867  0.00  0.00     0.001 A 
+ATOM      6  CZ  PHE d   1       6.193  16.860   3.932  0.00  0.00     0.000 A 
+ATOM      7  CE2 PHE d   1       5.874  17.219   5.237  0.00  0.00     0.001 A 
+ATOM      8  CD2 PHE d   1       5.077  18.339   5.467  0.00  0.00     0.007 A 
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1   9
+ATOM      9  C   PHE d   1       5.559  21.899   5.229  0.00  0.00     0.174 C 
+ATOM     10  O   PHE d   1       5.836  21.838   4.012  0.00  0.00    -0.648 OA
+BRANCH   9  11
+ATOM     11  OXT PHE d   1       6.283  22.460   6.079  0.00  0.00    -0.775 OA
+ATOM     12  HXT PHE d   1       6.024  22.474   6.979  0.00  0.00     0.167 HD
+ENDBRANCH   9  11
+ENDBRANCH   1   9
+BRANCH   1  13
+ATOM     13  N   PHE d   1       3.260  22.302   6.000  0.00  0.00     0.093 N 
+ATOM     14  H1  PHE d   1       2.397  21.862   6.319  0.00  0.00     0.314 HD
+ATOM     15  H2  PHE d   1       3.074  22.843   5.155  0.00  0.00     0.314 HD
+ENDBRANCH   1  13
+TORSDOF 5

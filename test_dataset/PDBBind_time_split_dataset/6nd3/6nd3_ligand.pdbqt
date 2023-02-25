@@ -1,0 +1,22 @@
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O1_1  and  C_2 
+REMARK    2  A    between atoms: C_2  and  CA_3 
+REMARK    3  A    between atoms: CA_3  and  N_4 
+ROOT
+ATOM      1  CA  BTL d   1      99.406 -40.514 123.098  0.00  0.00     0.262 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C   BTL d   1     100.700 -41.368 123.105  0.00  0.00     0.192 C 
+BRANCH   2   3
+ATOM      3  O1  BTL d   1     101.123 -41.631 124.425  0.00  0.00    -0.399 OA
+ATOM      4  H1  BTL d   1     101.916 -42.154 124.404  0.00  0.00     0.209 HD
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1   5
+ATOM      5  N   BTL d   1      99.479 -39.212 123.781  0.00  0.00    -0.077 N 
+ATOM      6  C3  BTL d   1      98.530 -38.329 123.160  0.00  0.00     0.271 C 
+ATOM      7  C2  BTL d   1     100.797 -38.613 123.684  0.00  0.00     0.271 C 
+ATOM      8  C1  BTL d   1      99.102 -39.372 125.184  0.00  0.00     0.271 C 
+ENDBRANCH   1   5
+TORSDOF 3

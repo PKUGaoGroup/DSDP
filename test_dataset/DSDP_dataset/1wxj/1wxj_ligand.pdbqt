@@ -1,0 +1,45 @@
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C3_3  and  C3'_12 
+REMARK    2  A    between atoms: O4P_17  and  C1'_10 
+REMARK    3  A    between atoms: C2'_11  and  C1'_10 
+REMARK    4  A    between atoms: C2'_11  and  C3'_12 
+REMARK    5  A    between atoms: O4P_17  and  P_13 
+REMARK    6  A    between atoms: P_13  and  O2P_15 
+REMARK    7  A    between atoms: P_13  and  O3P_16 
+ROOT
+ATOM      1  C3' IPL d1001      -4.420   5.171  13.878  0.00  0.00     0.043 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C2' IPL d1001      -3.231   5.397  12.920  0.00  0.00     0.031 C 
+BRANCH   2   3
+ATOM      3  C1' IPL d1001      -2.180   6.309  13.498  0.00  0.00     0.180 C 
+BRANCH   3   4
+ATOM      4  O4P IPL d1001      -1.833   7.350  12.572  0.00  0.00    -0.297 OA
+BRANCH   4   5
+ATOM      5  P   IPL d1001      -0.707   8.451  12.983  0.00  0.00     0.390 P 
+ATOM      6  O1P IPL d1001      -0.512   9.377  11.839  0.00  0.00    -0.632 OA
+BRANCH   5   7
+ATOM      7  O2P IPL d1001       0.548   7.687  13.306  0.00  0.00    -0.307 OA
+ATOM      8  H   IPL d1001       0.886   7.266  12.500  0.00  0.00     0.222 HD
+ENDBRANCH   5   7
+BRANCH   5   9
+ATOM      9  O3P IPL d1001      -1.252   9.115  14.222  0.00  0.00    -0.307 OA
+ATOM     10  H   IPL d1001      -2.060   9.603  13.998  0.00  0.00     0.222 HD
+ENDBRANCH   5   9
+ENDBRANCH   4   5
+ENDBRANCH   3   4
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1  11
+ATOM     11  C3  IPL d1001      -5.699   5.402  13.099  0.00  0.00    -0.032 A 
+ATOM     12  C2  IPL d1001      -6.128   4.836  11.926  0.00  0.00     0.119 A 
+ATOM     13  N1  IPL d1001      -7.366   5.320  11.550  0.00  0.00    -0.287 NA
+ATOM     14  C8  IPL d1001      -7.776   6.234  12.497  0.00  0.00     0.164 A 
+ATOM     15  C7  IPL d1001      -8.967   7.017  12.589  0.00  0.00     0.005 A 
+ATOM     16  C9  IPL d1001      -6.745   6.308  13.487  0.00  0.00    -0.022 A 
+ATOM     17  C6  IPL d1001      -9.098   7.874  13.695  0.00  0.00    -0.002 A 
+ATOM     18  C5  IPL d1001      -8.086   7.965  14.690  0.00  0.00     0.001 A 
+ATOM     19  C4  IPL d1001      -6.906   7.193  14.606  0.00  0.00     0.010 A 
+ENDBRANCH   1  11
+TORSDOF 7

@@ -1,0 +1,13 @@
+REMARK  0 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+ROOT
+ATOM      1  O5  PLQ d   1      45.380  49.379 465.291  0.00  0.00    -0.298 OA
+ATOM      2  C5  PLQ d   1      45.030  49.905 464.291  0.00  0.00     0.127 A 
+ATOM      3  C6  PLQ d   1      44.786  51.414 464.269  0.00  0.00     0.085 A 
+ATOM      4  C4  PLQ d   1      44.805  49.092 463.027  0.00  0.00     0.085 A 
+ATOM      5  C3  PLQ d   1      44.347  49.806 461.759  0.00  0.00     0.085 A 
+ATOM      6  C2  PLQ d   1      44.097  51.320 461.726  0.00  0.00     0.127 A 
+ATOM      7  O2  PLQ d   1      43.745  51.830 460.685  0.00  0.00    -0.298 OA
+ATOM      8  C1  PLQ d   1      44.311  52.137 463.016  0.00  0.00     0.085 A 
+ENDROOT
+TORSDOF 0

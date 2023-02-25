@@ -1,0 +1,66 @@
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O33_33  and  C2_2 
+REMARK    2  A    between atoms: C10_10  and  C2_2 
+REMARK    3  A    between atoms: C6_6  and  C19_19 
+REMARK    4  A    between atoms: C26_26  and  C8_8 
+REMARK    5  A    between atoms: C10_10  and  C11_11 
+REMARK    6  A    between atoms: C14_14  and  O17_17 
+REMARK    7  A    between atoms: C22_22  and  O25_25 
+REMARK    8  A    between atoms: C26_26  and  C27_27 
+ROOT
+ATOM      1  N1  CTZ d 197      27.144  12.821  22.471  0.00  0.00    -0.335 N 
+ATOM      2  C2  CTZ d 197      28.296  12.175  22.778  0.00  0.00     0.220 A 
+ATOM      3  C3  CTZ d 197      28.602  12.301  24.130  0.00  0.00     0.282 A 
+ATOM      4  N4  CTZ d 197      27.573  13.084  24.684  0.00  0.00    -0.292 N 
+ATOM      5  C5  CTZ d 197      27.335  13.560  26.017  0.00  0.00     0.194 A 
+ATOM      6  C6  CTZ d 197      26.179  14.351  26.228  0.00  0.00     0.063 A 
+ATOM      7  N7  CTZ d 197      25.309  14.634  25.136  0.00  0.00    -0.251 NA
+ATOM      8  C8  CTZ d 197      25.517  14.178  23.826  0.00  0.00     0.083 A 
+ATOM      9  C9  CTZ d 197      26.664  13.396  23.606  0.00  0.00     0.134 A 
+ATOM     10  O18 CTZ d 197      29.491  11.914  24.849  0.00  0.00    -0.267 OA
+ATOM     11  H   CTZ d 197      26.727  12.866  21.580  0.00  0.00     0.164 HD
+ENDROOT
+BRANCH   2  12
+ATOM     12  O33 CTZ d 197      29.359  12.696  21.911  0.00  0.00    -0.363 OA
+ATOM     13  H   CTZ d 197      29.101  12.587  20.982  0.00  0.00     0.213 HD
+ENDBRANCH   2  12
+BRANCH   2  14
+ATOM     14  C10 CTZ d 197      28.174  10.882  21.959  0.00  0.00     0.110 C 
+BRANCH  14  15
+ATOM     15  C11 CTZ d 197      29.252   9.818  22.061  0.00  0.00    -0.053 A 
+ATOM     16  C12 CTZ d 197      30.285   9.826  21.056  0.00  0.00     0.010 A 
+ATOM     17  C13 CTZ d 197      31.461   9.030  21.189  0.00  0.00     0.037 A 
+ATOM     18  C14 CTZ d 197      31.622   8.209  22.340  0.00  0.00     0.065 A 
+ATOM     19  C15 CTZ d 197      30.614   8.167  23.370  0.00  0.00     0.037 A 
+ATOM     20  C16 CTZ d 197      29.427   8.974  23.226  0.00  0.00     0.010 A 
+BRANCH  18  21
+ATOM     21  O17 CTZ d 197      32.747   7.455  22.463  0.00  0.00    -0.361 OA
+ATOM     22  H   CTZ d 197      33.404   7.481  21.795  0.00  0.00     0.217 HD
+ENDBRANCH  18  21
+ENDBRANCH  14  15
+ENDBRANCH   2  14
+BRANCH   8  23
+ATOM     23  C26 CTZ d 197      24.507  14.583  22.852  0.00  0.00     0.101 C 
+BRANCH  23  24
+ATOM     24  C27 CTZ d 197      23.243  13.779  22.965  0.00  0.00    -0.052 A 
+ATOM     25  C28 CTZ d 197      22.940  12.758  21.986  0.00  0.00     0.007 A 
+ATOM     26  C29 CTZ d 197      21.734  11.978  22.075  0.00  0.00     0.001 A 
+ATOM     27  C30 CTZ d 197      20.806  12.207  23.149  0.00  0.00     0.000 A 
+ATOM     28  C31 CTZ d 197      21.087  13.221  24.138  0.00  0.00     0.001 A 
+ATOM     29  C32 CTZ d 197      22.304  14.004  24.043  0.00  0.00     0.007 A 
+ENDBRANCH  23  24
+ENDBRANCH   8  23
+BRANCH   6  30
+ATOM     30  C19 CTZ d 197      25.867  14.907  27.521  0.00  0.00    -0.010 A 
+ATOM     31  C24 CTZ d 197      24.488  15.189  27.848  0.00  0.00     0.016 A 
+ATOM     32  C23 CTZ d 197      24.141  15.767  29.120  0.00  0.00     0.037 A 
+ATOM     33  C22 CTZ d 197      25.184  16.062  30.055  0.00  0.00     0.065 A 
+ATOM     34  C21 CTZ d 197      26.550  15.789  29.751  0.00  0.00     0.037 A 
+ATOM     35  C20 CTZ d 197      26.877  15.220  28.501  0.00  0.00     0.016 A 
+BRANCH  33  36
+ATOM     36  O25 CTZ d 197      24.879  16.616  31.257  0.00  0.00    -0.361 OA
+ATOM     37  H   CTZ d 197      23.987  16.802  31.474  0.00  0.00     0.217 HD
+ENDBRANCH  33  36
+ENDBRANCH   6  30
+TORSDOF 8

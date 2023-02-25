@@ -1,0 +1,42 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAM_2  and  CAP_4 
+REMARK    2  A    between atoms: CAQ_9  and  CAR_10 
+REMARK    3  A    between atoms: CAT_13  and  CAN_14 
+REMARK    4  A    between atoms: CAS_17  and  OAF_18 
+REMARK    5  A    between atoms: CAO_19  and  OAE_20 
+ROOT
+ATOM      1  CAR HOG d   1     -20.217  18.913  15.400  0.00  0.00     0.070 A 
+ATOM      2  CAJ HOG d   1     -20.800  18.916  14.127  0.00  0.00     0.072 A 
+ATOM      3  NAL HOG d   1     -19.177  18.086  15.677  0.00  0.00    -0.238 NA
+ATOM      4  CAT HOG d   1     -18.666  17.220  14.776  0.00  0.00     0.169 A 
+ATOM      5  CAS HOG d   1     -19.257  17.219  13.489  0.00  0.00     0.135 A 
+ATOM      6  CAO HOG d   1     -20.327  18.049  13.164  0.00  0.00     0.103 A 
+ENDROOT
+BRANCH   1   7
+ATOM      7  CAQ HOG d   1     -20.665  19.870  16.307  0.00  0.00    -0.006 A 
+ATOM      8  CAK HOG d   1     -21.986  20.297  16.317  0.00  0.00     0.032 A 
+ATOM      9  CAP HOG d   1     -22.382  21.312  17.183  0.00  0.00     0.041 A 
+ATOM     10  CAH HOG d   1     -21.451  21.946  18.023  0.00  0.00     0.018 A 
+ATOM     11  CAG HOG d   1     -20.111  21.556  17.985  0.00  0.00     0.002 A 
+ATOM     12  CAI HOG d   1     -19.721  20.536  17.111  0.00  0.00     0.014 A 
+BRANCH   9  13
+ATOM     13  CAM HOG d   1     -23.725  21.680  17.171  0.00  0.00     0.209 C 
+ATOM     14  OAA HOG d   1     -24.386  21.659  18.232  0.00  0.00    -0.644 OA
+ATOM     15  OAC HOG d   1     -24.263  22.030  16.083  0.00  0.00    -0.644 OA
+ENDBRANCH   9  13
+ENDBRANCH   1   7
+BRANCH   6  16
+ATOM     16  OAE HOG d   1     -20.884  18.011  11.912  0.00  0.00    -0.358 OA
+ATOM     17  H7  HOG d   1     -21.216  17.138  11.741  0.00  0.00     0.217 HD
+ENDBRANCH   6  16
+BRANCH   4  18
+ATOM     18  CAN HOG d   1     -17.600  16.397  15.220  0.00  0.00     0.232 C 
+ATOM     19  OAD HOG d   1     -17.409  16.232  16.435  0.00  0.00    -0.643 OA
+ATOM     20  OAB HOG d   1     -16.834  15.787  14.450  0.00  0.00    -0.643 OA
+ENDBRANCH   4  18
+BRANCH   5  21
+ATOM     21  OAF HOG d   1     -18.815  16.394  12.527  0.00  0.00    -0.356 OA
+ATOM     22  H6  HOG d   1     -17.899  16.577  12.351  0.00  0.00     0.218 HD
+ENDBRANCH   5  21
+TORSDOF 5

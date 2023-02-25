@@ -1,0 +1,36 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O10_10  and  C1_1 
+REMARK    2  A    between atoms: C7_7  and  C11_11 
+REMARK    3  A    between atoms: C11_11  and  C12_12 
+REMARK    4  A    between atoms: C12_12  and  N13_13 
+REMARK       I    between atoms: N13_13  and  C14_14 
+ROOT
+ATOM      1  C1  ASE d 801     -14.827  62.966  22.869  0.00  0.00     0.047 A 
+ATOM      2  C2  ASE d 801     -15.416  62.401  23.956  0.00  0.00     0.105 A 
+ATOM      3  C3  ASE d 801     -16.181  63.243  24.819  0.00  0.00    -0.016 A 
+ATOM      4  C4  ASE d 801     -14.959  64.315  22.591  0.00  0.00     0.034 A 
+ATOM      5  C5  ASE d 801     -15.689  65.152  23.384  0.00  0.00     0.034 A 
+ATOM      6  C6  ASE d 801     -16.298  64.634  24.508  0.00  0.00     0.063 A 
+ATOM      7  C7  ASE d 801     -16.911  63.043  26.022  0.00  0.00    -0.030 A 
+ATOM      8  C8  ASE d 801     -17.460  64.240  26.433  0.00  0.00     0.125 A 
+ATOM      9  N9  ASE d 801     -17.103  65.240  25.528  0.00  0.00    -0.260 NA
+ENDROOT
+BRANCH   7  10
+ATOM     10  C11 ASE d 801     -17.051  61.646  26.741  0.00  0.00     0.060 C 
+BRANCH  10  11
+ATOM     11  C12 ASE d 801     -15.785  61.360  27.522  0.00  0.00     0.127 C 
+BRANCH  11  12
+ATOM     12  N13 ASE d 801     -15.815  60.027  28.136  0.00  0.00    -0.361 N 
+ATOM     13  C14 ASE d 801     -16.014  60.224  29.506  0.00  0.00     0.213 C 
+ATOM     14  O16 ASE d 801     -16.610  61.224  29.875  0.00  0.00    -0.274 OA
+ATOM     15  C15 ASE d 801     -15.565  59.154  30.495  0.00  0.00     0.117 C 
+ATOM     16  H   ASE d 801     -15.715  59.163  27.674  0.00  0.00     0.162 HD
+ENDBRANCH  11  12
+ENDBRANCH  10  11
+ENDBRANCH   7  10
+BRANCH   1  17
+ATOM     17  O10 ASE d 801     -14.037  62.331  21.904  0.00  0.00    -0.365 OA
+ATOM     18  H   ASE d 801     -13.680  62.825  21.192  0.00  0.00     0.217 HD
+ENDBRANCH   1  17
+TORSDOF 4

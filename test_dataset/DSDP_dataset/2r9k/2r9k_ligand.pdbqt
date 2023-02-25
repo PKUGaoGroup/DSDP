@@ -1,0 +1,33 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK       I    between atoms: N_3  and  C_2 
+REMARK    1  A    between atoms: CA_4  and  C_2 
+REMARK    2  A    between atoms: CA_4  and  CB_5 
+REMARK    3  A    between atoms: CG_6  and  CB_5 
+REMARK    4  A    between atoms: OH_10  and  CZ_9 
+ROOT
+ATOM      1  CG  SGI d 600      48.674  47.885  -0.427  0.00  0.00    -0.058 C 
+ATOM      2  CD1 SGI d 600      49.232  46.624  -0.191  0.00  0.00     0.010 C 
+ATOM      3  CE1 SGI d 600      48.571  45.480  -0.629  0.00  0.00     0.037 C 
+ATOM      4  CZ  SGI d 600      47.398  45.602  -1.380  0.00  0.00     0.065 C 
+ATOM      5  CE2 SGI d 600      46.900  46.869  -1.709  0.00  0.00     0.037 C 
+ATOM      6  CD2 SGI d 600      47.464  47.996  -1.120  0.00  0.00     0.010 C 
+ENDROOT
+BRANCH   1   7
+ATOM      7  CB  SGI d 600      49.497  49.121  -0.141  0.00  0.00     0.047 C 
+BRANCH   7   8
+ATOM      8  CA  SGI d 600      50.062  49.678  -1.440  0.00  0.00     0.107 C 
+BRANCH   8   9
+ATOM      9  C   SGI d 600      51.058  50.775  -1.158  0.00  0.00     0.215 C 
+ATOM     10  N   SGI d 600      52.147  50.776  -1.918  0.00  0.00    -0.370 N 
+ATOM     11  H   SGI d 600      52.413  49.959  -2.398  0.00  0.00     0.159 HD
+ATOM     12  H   SGI d 600      52.689  51.594  -2.001  0.00  0.00     0.159 HD
+ATOM     13  O   SGI d 600      50.706  51.768  -0.554  0.00  0.00    -0.274 OA
+ENDBRANCH   8   9
+ENDBRANCH   7   8
+ENDBRANCH   1   7
+BRANCH   4  14
+ATOM     14  OH  SGI d 600      46.819  44.484  -1.917  0.00  0.00    -0.361 OA
+ATOM     15  H   SGI d 600      46.033  44.560  -2.421  0.00  0.00     0.217 HD
+ENDBRANCH   4  14
+TORSDOF 4

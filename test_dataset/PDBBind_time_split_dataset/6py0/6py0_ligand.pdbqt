@@ -1,0 +1,45 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C6_6  and  C7_7 
+REMARK    2  A    between atoms: C8_8  and  C9_9 
+REMARK    3  A    between atoms: C10_10  and  C11_11 
+REMARK    4  A    between atoms: C12_12  and  C13_13 
+REMARK    5  A    between atoms: C14_14  and  C15_15 
+REMARK    6  A    between atoms: C15_15  and  O1_16 
+ROOT
+ATOM      1  C7  RTL d   1      -7.580   0.807 -11.206  0.00  0.00    -0.020 C 
+ATOM      2  C8  RTL d   1      -7.445   0.443  -9.952  0.00  0.00     0.003 C 
+ENDROOT
+BRANCH   2   3
+ATOM      3  C9  RTL d   1      -8.476   0.499  -8.911  0.00  0.00    -0.062 C 
+ATOM      4  C10 RTL d   1      -8.326   1.406  -7.952  0.00  0.00     0.007 C 
+ATOM      5  C19 RTL d   1      -9.614  -0.463  -8.918  0.00  0.00     0.048 C 
+BRANCH   4   6
+ATOM      6  C11 RTL d   1      -9.201   1.539  -6.813  0.00  0.00     0.001 C 
+ATOM      7  C12 RTL d   1      -8.726   0.926  -5.734  0.00  0.00     0.006 C 
+BRANCH   7   8
+ATOM      8  C13 RTL d   1      -9.308   0.838  -4.394  0.00  0.00    -0.064 C 
+ATOM      9  C14 RTL d   1      -8.853  -0.087  -3.546  0.00  0.00     0.005 C 
+ATOM     10  C20 RTL d   1     -10.370   1.781  -3.968  0.00  0.00     0.048 C 
+BRANCH   9  11
+ATOM     11  C15 RTL d   1      -9.417  -0.204  -2.153  0.00  0.00     0.192 C 
+BRANCH  11  12
+ATOM     12  O1  RTL d   1      -8.663  -1.170  -1.404  0.00  0.00    -0.397 OA
+ATOM     13  H17 RTL d   1      -9.022  -1.240  -0.527  0.00  0.00     0.209 HD
+ENDBRANCH  11  12
+ENDBRANCH   9  11
+ENDBRANCH   7   8
+ENDBRANCH   4   6
+ENDBRANCH   2   3
+BRANCH   1  14
+ATOM     14  C6  RTL d   1      -6.435   0.714 -12.127  0.00  0.00     0.019 C 
+ATOM     15  C1  RTL d   1      -5.081   1.349 -11.894  0.00  0.00    -0.041 C 
+ATOM     16  C2  RTL d   1      -3.893   0.454 -12.245  0.00  0.00     0.009 C 
+ATOM     17  C16 RTL d   1      -4.990   2.574 -12.772  0.00  0.00     0.015 C 
+ATOM     18  C17 RTL d   1      -4.947   1.725 -10.436  0.00  0.00     0.015 C 
+ATOM     19  C3  RTL d   1      -4.206  -0.551 -13.368  0.00  0.00     0.001 C 
+ATOM     20  C4  RTL d   1      -5.600  -1.147 -13.240  0.00  0.00     0.005 C 
+ATOM     21  C5  RTL d   1      -6.522   0.037 -13.239  0.00  0.00    -0.010 C 
+ATOM     22  C18 RTL d   1      -7.346   0.493 -14.398  0.00  0.00     0.010 C 
+ENDBRANCH   1  14
+TORSDOF 6

@@ -1,0 +1,46 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C10_10  and  C2_2 
+REMARK    2  A    between atoms: N2_16  and  C3_3 
+REMARK    3  A    between atoms: C7_7  and  C11_11 
+REMARK    4  A    between atoms: C10_10  and  O3_20 
+REMARK    5  A    between atoms: C11_11  and  N3_17 
+REMARK    6  A    between atoms: N3_17  and  C14_14 
+ROOT
+ATOM      1  C1  OAQ d 302     111.974   7.299  14.862  0.00  0.00     0.021 A 
+ATOM      2  C2  OAQ d 302     112.443   7.797  13.621  0.00  0.00    -0.001 A 
+ATOM      3  C3  OAQ d 302     111.721   8.863  12.934  0.00  0.00     0.113 A 
+ATOM      4  C4  OAQ d 302     110.532   9.411  13.526  0.00  0.00     0.066 A 
+ATOM      5  C5  OAQ d 302     110.043   8.885  14.828  0.00  0.00     0.037 A 
+ATOM      6  C6  OAQ d 302     110.748   7.861  15.468  0.00  0.00    -0.031 A 
+ATOM      7  C7  OAQ d 302     108.206   8.709  16.528  0.00  0.00     0.110 C 
+ATOM      8  C8  OAQ d 302     108.858   7.531  17.126  0.00  0.00     0.031 C 
+ATOM      9  C9  OAQ d 302     110.284   7.269  16.821  0.00  0.00     0.043 C 
+ATOM     10  N1  OAQ d 302     108.824   9.434  15.448  0.00  0.00    -0.383 N 
+ATOM     11  H   OAQ d 302     108.439  10.282  15.129  0.00  0.00     0.160 HD
+ENDROOT
+BRANCH   7  12
+ATOM     12  C11 OAQ d 302     107.613   9.611  17.607  0.00  0.00     0.295 C 
+BRANCH  12  13
+ATOM     13  N3  OAQ d 302     106.202   9.301  17.675  0.00  0.00     0.089 N 
+ATOM     14  H   OAQ d 302     106.031   8.452  17.136  0.00  0.00     0.316 HD
+BRANCH  13  15
+ATOM     15  C14 OAQ d 302     105.719   9.090  19.037  0.00  0.00     0.212 C 
+ATOM     16  C13 OAQ d 302     104.204   9.258  19.055  0.00  0.00     0.042 C 
+ATOM     17  C12 OAQ d 302     106.075   7.722  19.487  0.00  0.00     0.042 C 
+ENDBRANCH  13  15
+ENDBRANCH  12  13
+ENDBRANCH   7  12
+BRANCH   3  18
+ATOM     18  N2  OAQ d 302     112.194   9.393  11.679  0.00  0.00    -0.115 N 
+ATOM     19  O2  OAQ d 302     112.535   8.618  10.684  0.00  0.00    -0.532 OA
+ATOM     20  O1  OAQ d 302     112.290  10.683  11.542  0.00  0.00    -0.532 OA
+ENDBRANCH   3  18
+BRANCH   2  21
+ATOM     21  C10 OAQ d 302     113.703   7.180  13.063  0.00  0.00     0.205 C 
+BRANCH  21  22
+ATOM     22  O3  OAQ d 302     114.243   6.396  14.038  0.00  0.00    -0.396 OA
+ATOM     23  H   OAQ d 302     114.435   6.938  14.819  0.00  0.00     0.209 HD
+ENDBRANCH  21  22
+ENDBRANCH   2  21
+TORSDOF 6

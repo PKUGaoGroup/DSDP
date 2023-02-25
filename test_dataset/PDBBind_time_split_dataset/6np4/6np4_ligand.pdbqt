@@ -1,0 +1,105 @@
+REMARK  16 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O11_2  and  C11_1 
+REMARK    2  A    between atoms: C42_17  and  O11_2 
+REMARK    3  A    between atoms: C21_3  and  N21_4 
+REMARK    4  A    between atoms: C41_6  and  O41_7 
+REMARK    5  A    between atoms: C51_8  and  C61_10 
+REMARK    6  A    between atoms: C61_10  and  N61_11 
+REMARK    7  A    between atoms: C12_12  and  N12_13 
+REMARK    8  A    between atoms: C32_15  and  N32_16 
+REMARK    9  A    between atoms: C52_18  and  O52_19 
+REMARK   10  A    between atoms: C62_20  and  O62_21 
+REMARK   11  A    between atoms: O62_21  and  C13_22 
+REMARK   12  A    between atoms: C23_23  and  O23_24 
+REMARK   13  A    between atoms: C33_25  and  N33_26 
+REMARK   14  A    between atoms: C43_27  and  O43_28 
+REMARK   15  A    between atoms: C53_29  and  C63_31 
+REMARK   16  A    between atoms: C63_31  and  O63_32 
+ROOT
+ATOM      1  C12 TOY d   1     113.210 -15.416  -5.627  0.00  0.00     0.217 C 
+ATOM      2  C22 TOY d   1     113.409 -16.888  -5.247  0.00  0.00     0.071 C 
+ATOM      3  C32 TOY d   1     112.070 -17.643  -5.358  0.00  0.00     0.217 C 
+ATOM      4  C42 TOY d   1     111.389 -17.546  -6.741  0.00  0.00     0.186 C 
+ATOM      5  C52 TOY d   1     111.320 -16.082  -7.192  0.00  0.00     0.180 C 
+ATOM      6  C62 TOY d   1     112.665 -15.346  -7.053  0.00  0.00     0.186 C 
+ENDROOT
+BRANCH   4   7
+ATOM      7  O11 TOY d   1     110.127 -18.192  -6.568  0.00  0.00    -0.349 OA
+BRANCH   7   8
+ATOM      8  C11 TOY d   1     109.193 -18.227  -7.601  0.00  0.00     0.291 C 
+ATOM      9  C21 TOY d   1     107.895 -18.855  -7.047  0.00  0.00     0.240 C 
+ATOM     10  C31 TOY d   1     108.072 -20.263  -6.680  0.00  0.00     0.072 C 
+ATOM     11  C41 TOY d   1     108.618 -21.046  -7.807  0.00  0.00     0.151 C 
+ATOM     12  C51 TOY d   1     109.867 -20.408  -8.402  0.00  0.00     0.178 C 
+ATOM     13  O51 TOY d   1     109.635 -19.003  -8.753  0.00  0.00    -0.350 OA
+BRANCH   9  14
+ATOM     14  N21 TOY d   1     107.467 -18.079  -5.847  0.00  0.00    -0.070 N 
+ATOM     15  H3  TOY d   1     106.620 -18.478  -5.474  0.00  0.00     0.274 HD
+ATOM     16  H4  TOY d   1     107.300 -17.120  -6.109  0.00  0.00     0.274 HD
+ATOM     17  H5  TOY d   1     108.192 -18.115  -5.147  0.00  0.00     0.274 HD
+ENDBRANCH   9  14
+BRANCH  11  18
+ATOM     18  O41 TOY d   1     109.024 -22.346  -7.356  0.00  0.00    -0.393 OA
+ATOM     19  H9  TOY d   1     109.373 -22.840  -8.089  0.00  0.00     0.210 HD
+ENDBRANCH  11  18
+BRANCH  12  20
+ATOM     20  C61 TOY d   1     110.262 -21.143  -9.645  0.00  0.00     0.264 C 
+BRANCH  20  21
+ATOM     21  N61 TOY d   1     111.505 -20.606 -10.173  0.00  0.00    -0.077 N 
+ATOM     22  H13 TOY d   1     111.760 -21.109 -11.009  0.00  0.00     0.274 HD
+ATOM     23  H14 TOY d   1     112.234 -20.707  -9.484  0.00  0.00     0.274 HD
+ATOM     24  H15 TOY d   1     111.383 -19.630 -10.392  0.00  0.00     0.274 HD
+ENDBRANCH  20  21
+ENDBRANCH  12  20
+ENDBRANCH   7   8
+ENDBRANCH   4   7
+BRANCH   3  25
+ATOM     25  N32 TOY d   1     112.272 -19.056  -5.070  0.00  0.00    -0.072 N 
+ATOM     26  H23 TOY d   1     111.393 -19.543  -5.144  0.00  0.00     0.274 HD
+ATOM     27  H24 TOY d   1     112.635 -19.160  -4.136  0.00  0.00     0.274 HD
+ATOM     28  H25 TOY d   1     112.927 -19.443  -5.731  0.00  0.00     0.274 HD
+ENDBRANCH   3  25
+BRANCH   5  29
+ATOM     29  O52 TOY d   1     110.937 -16.017  -8.543  0.00  0.00    -0.390 OA
+ATOM     30  H28 TOY d   1     110.896 -15.108  -8.816  0.00  0.00     0.210 HD
+ENDBRANCH   5  29
+BRANCH   6  31
+ATOM     31  O62 TOY d   1     112.475 -13.993  -7.391  0.00  0.00    -0.349 OA
+BRANCH  31  32
+ATOM     32  C13 TOY d   1     113.346 -13.435  -8.309  0.00  0.00     0.291 C 
+ATOM     33  C23 TOY d   1     113.456 -11.958  -7.967  0.00  0.00     0.206 C 
+ATOM     34  C33 TOY d   1     112.147 -11.258  -8.124  0.00  0.00     0.247 C 
+ATOM     35  C43 TOY d   1     111.595 -11.456  -9.511  0.00  0.00     0.182 C 
+ATOM     36  C53 TOY d   1     111.522 -12.954  -9.834  0.00  0.00     0.179 C 
+ATOM     37  O53 TOY d   1     112.855 -13.528  -9.682  0.00  0.00    -0.349 OA
+BRANCH  33  38
+ATOM     38  O23 TOY d   1     113.910 -11.874  -6.626  0.00  0.00    -0.388 OA
+ATOM     39  H32 TOY d   1     113.991 -10.961  -6.377  0.00  0.00     0.210 HD
+ENDBRANCH  33  38
+BRANCH  34  40
+ATOM     40  N33 TOY d   1     112.314  -9.792  -7.768  0.00  0.00    -0.070 N 
+ATOM     41  H34 TOY d   1     111.431  -9.318  -7.874  0.00  0.00     0.274 HD
+ATOM     42  H35 TOY d   1     112.996  -9.373  -8.381  0.00  0.00     0.274 HD
+ATOM     43  H36 TOY d   1     112.626  -9.712  -6.813  0.00  0.00     0.274 HD
+ENDBRANCH  34  40
+BRANCH  35  44
+ATOM     44  O43 TOY d   1     110.295 -10.880  -9.614  0.00  0.00    -0.391 OA
+ATOM     45  H38 TOY d   1     109.960 -11.012 -10.493  0.00  0.00     0.210 HD
+ENDBRANCH  35  44
+BRANCH  36  46
+ATOM     46  C63 TOY d   1     110.987 -13.242 -11.207  0.00  0.00     0.198 C 
+BRANCH  46  47
+ATOM     47  O63 TOY d   1     111.713 -12.551 -12.181  0.00  0.00    -0.398 OA
+ATOM     48  H42 TOY d   1     111.650 -11.617 -12.018  0.00  0.00     0.209 HD
+ENDBRANCH  46  47
+ENDBRANCH  36  46
+ENDBRANCH  31  32
+ENDBRANCH   6  31
+BRANCH   1  49
+ATOM     49  N12 TOY d   1     114.478 -14.697  -5.502  0.00  0.00    -0.072 N 
+ATOM     50  H17 TOY d   1     114.809 -14.762  -4.552  0.00  0.00     0.274 HD
+ATOM     51  H18 TOY d   1     114.340 -13.728  -5.744  0.00  0.00     0.274 HD
+ATOM     52  H19 TOY d   1     115.158 -15.105  -6.124  0.00  0.00     0.274 HD
+ENDBRANCH   1  49
+TORSDOF 16

@@ -1,0 +1,92 @@
+REMARK  15 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: PG_1  and  O3G_4 
+REMARK    2  A    between atoms: PG_1  and  O2G_3 
+REMARK    3  A    between atoms: PG_1  and  O3B_5 
+REMARK    4  A    between atoms: O3B_5  and  PB_6 
+REMARK    5  A    between atoms: O3A_9  and  PB_6 
+REMARK    6  A    between atoms: PB_6  and  O2B_8 
+REMARK    7  A    between atoms: O3A_9  and  PA_10 
+REMARK    8  A    between atoms: PA_10  and  O5'_13 
+REMARK    9  A    between atoms: PA_10  and  O2A_12 
+REMARK   10  A    between atoms: O5'_13  and  C5'_14 
+REMARK   11  A    between atoms: C5'_14  and  C4'_15 
+REMARK   12  A    between atoms: C3'_17  and  O3'_18 
+REMARK   13  A    between atoms: O2'_20  and  C2'_19 
+REMARK   14  A    between atoms: N9_22  and  C1'_21 
+REMARK   15  A    between atoms: C2_30  and  N2_31 
+ROOT
+ATOM      1  C4' MGT d 502      12.117  24.220  17.045  0.00  0.00     0.180 C 
+ATOM      2  O4' MGT d 502      13.380  24.470  16.450  0.00  0.00    -0.354 OA
+ATOM      3  C3' MGT d 502      11.139  25.187  16.371  0.00  0.00     0.182 C 
+ATOM      4  C2' MGT d 502      11.909  25.786  15.197  0.00  0.00     0.198 C 
+ATOM      5  C1' MGT d 502      13.280  25.746  15.831  0.00  0.00     0.258 C 
+ENDROOT
+BRANCH   1   6
+ATOM      6  C5' MGT d 502      11.800  22.733  16.871  0.00  0.00     0.215 C 
+BRANCH   6   7
+ATOM      7  O5' MGT d 502      11.425  22.457  15.523  0.00  0.00    -0.294 OA
+BRANCH   7   8
+ATOM      8  PA  MGT d 502      10.099  21.571  15.165  0.00  0.00     0.401 P 
+ATOM      9  O1A MGT d 502      10.535  20.661  14.049  0.00  0.00    -0.631 OA
+BRANCH   8  10
+ATOM     10  O3A MGT d 502       9.127  22.645  14.410  0.00  0.00    -0.195 OA
+BRANCH  10  11
+ATOM     11  PB  MGT d 502       7.600  23.113  14.740  0.00  0.00     0.410 P 
+ATOM     12  O1B MGT d 502       6.590  22.265  13.954  0.00  0.00    -0.631 OA
+BRANCH  11  13
+ATOM     13  O3B MGT d 502       7.838  24.578  14.118  0.00  0.00    -0.195 OA
+BRANCH  13  14
+ATOM     14  PG  MGT d 502       8.659  24.817  12.729  0.00  0.00     0.399 P 
+ATOM     15  O1G MGT d 502       7.652  24.245  11.731  0.00  0.00    -0.631 OA
+BRANCH  14  16
+ATOM     16  O3G MGT d 502       9.978  24.049  12.734  0.00  0.00    -0.307 OA
+ATOM     17  H   MGT d 502      10.447  24.206  11.900  0.00  0.00     0.222 HD
+ENDBRANCH  14  16
+BRANCH  14  18
+ATOM     18  O2G MGT d 502       8.868  26.326  12.748  0.00  0.00    -0.307 OA
+ATOM     19  H   MGT d 502       9.356  26.595  11.954  0.00  0.00     0.222 HD
+ENDBRANCH  14  18
+ENDBRANCH  13  14
+ENDBRANCH  11  13
+BRANCH  11  20
+ATOM     20  O2B MGT d 502       7.315  23.298  16.215  0.00  0.00    -0.307 OA
+ATOM     21  H   MGT d 502       6.393  23.575  16.334  0.00  0.00     0.222 HD
+ENDBRANCH  11  20
+ENDBRANCH  10  11
+ENDBRANCH   8  10
+BRANCH   8  22
+ATOM     22  O2A MGT d 502       9.455  21.124  16.484  0.00  0.00    -0.307 OA
+ATOM     23  H   MGT d 502       8.664  20.595  16.295  0.00  0.00     0.222 HD
+ENDBRANCH   8  22
+ENDBRANCH   7   8
+ENDBRANCH   6   7
+ENDBRANCH   1   6
+BRANCH   3  24
+ATOM     24  O3' MGT d 502      10.920  26.183  17.366  0.00  0.00    -0.390 OA
+ATOM     25  H   MGT d 502      11.772  26.547  17.652  0.00  0.00     0.210 HD
+ENDBRANCH   3  24
+BRANCH   4  26
+ATOM     26  O2' MGT d 502      11.621  27.149  14.897  0.00  0.00    -0.388 OA
+ATOM     27  H   MGT d 502      11.767  27.692  15.687  0.00  0.00     0.210 HD
+ENDBRANCH   4  26
+BRANCH   5  28
+ATOM     28  N9  MGT d 502      14.347  25.947  14.849  0.00  0.00    -0.319 N 
+ATOM     29  C8  MGT d 502      14.573  24.878  13.897  0.00  0.00     0.253 A 
+ATOM     30  N7  MGT d 502      15.641  25.578  13.220  0.00  0.00    -0.361 N 
+ATOM     31  CM7 MGT d 502      16.230  24.816  12.104  0.00  0.00     0.152 C 
+ATOM     32  C5  MGT d 502      15.923  26.772  13.709  0.00  0.00     0.147 A 
+ATOM     33  C6  MGT d 502      16.899  27.777  13.352  0.00  0.00     0.314 A 
+ATOM     34  C4  MGT d 502      15.036  27.050  14.811  0.00  0.00     0.155 A 
+ATOM     35  O6  MGT d 502      17.676  27.530  12.401  0.00  0.00    -0.263 OA
+ATOM     36  N1  MGT d 502      16.895  28.912  14.108  0.00  0.00    -0.021 NA
+ATOM     37  C2  MGT d 502      16.050  29.130  15.144  0.00  0.00     0.703 A 
+ATOM     38  N3  MGT d 502      15.125  28.207  15.510  0.00  0.00    -0.173 N 
+ATOM     39  H   MGT d 502      14.527  28.376  16.273  0.00  0.00     0.186 HD
+BRANCH  37  40
+ATOM     40  N2  MGT d 502      16.122  30.288  15.829  0.00  0.00    -0.233 N 
+ATOM     41  H   MGT d 502      16.787  30.969  15.577  0.00  0.00     0.174 HD
+ATOM     42  H   MGT d 502      15.509  30.454  16.582  0.00  0.00     0.174 HD
+ENDBRANCH  37  40
+ENDBRANCH   5  28
+TORSDOF 15

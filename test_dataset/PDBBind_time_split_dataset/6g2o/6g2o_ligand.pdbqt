@@ -1,0 +1,47 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C4_1  and  C7_4 
+REMARK    2  A    between atoms: C7_4  and  N19_26 
+REMARK    3  A    between atoms: C8_5  and  C1_13 
+REMARK    4  A    between atoms: C14_15  and  C10_6 
+ROOT
+ATOM      1  C8  EJE d   1      -4.122   6.710 -20.263  0.00  0.00     0.097 A 
+ATOM      2  C10 EJE d   1      -3.417   7.376 -19.286  0.00  0.00     0.076 A 
+ATOM      3  C13 EJE d   1      -2.726   6.687 -16.886  0.00  0.00     0.157 C 
+ATOM      4  C12 EJE d   1      -4.012   5.365 -18.583  0.00  0.00     0.210 A 
+ATOM      5  N11 EJE d   1      -4.475   5.443 -19.812  0.00  0.00    -0.241 NA
+ATOM      6  N9  EJE d   1      -3.346   6.474 -18.192  0.00  0.00    -0.343 N 
+ENDROOT
+BRANCH   1   7
+ATOM      7  C1  EJE d   1      -4.513   7.140 -21.630  0.00  0.00     0.007 A 
+ATOM      8  C6  EJE d   1      -5.875   7.350 -21.933  0.00  0.00    -0.048 A 
+ATOM      9  C5  EJE d   1      -6.219   7.709 -23.233  0.00  0.00     0.016 A 
+ATOM     10  C18 EJE d   1      -6.974   7.195 -20.911  0.00  0.00     0.049 C 
+ATOM     11  C4  EJE d   1      -5.268   7.893 -24.228  0.00  0.00    -0.032 A 
+ATOM     12  C3  EJE d   1      -3.934   7.680 -23.906  0.00  0.00     0.016 A 
+ATOM     13  C2  EJE d   1      -3.529   7.289 -22.632  0.00  0.00    -0.048 A 
+ATOM     14  C27 EJE d   1      -2.055   7.098 -22.373  0.00  0.00     0.049 C 
+BRANCH  11  15
+ATOM     15  C7  EJE d   1      -5.680   8.277 -25.623  0.00  0.00     0.268 C 
+BRANCH  15  16
+ATOM     16  N19 EJE d   1      -4.805   9.323 -26.214  0.00  0.00    -0.075 N 
+ATOM     17  H20 EJE d   1      -5.124   9.542 -27.145  0.00  0.00     0.274 HD
+ATOM     18  H21 EJE d   1      -3.857   8.984 -26.255  0.00  0.00     0.274 HD
+ATOM     19  H22 EJE d   1      -4.840  10.153 -25.643  0.00  0.00     0.274 HD
+ENDBRANCH  15  16
+ENDBRANCH  11  15
+ENDBRANCH   1   7
+BRANCH   2  20
+ATOM     20  C14 EJE d   1      -2.840   8.737 -19.263  0.00  0.00     0.007 A 
+ATOM     21  C21 EJE d   1      -1.427   8.971 -19.188  0.00  0.00     0.005 A 
+ATOM     22  C20 EJE d   1      -1.006  10.330 -19.144  0.00  0.00     0.070 A 
+ATOM     23  C22 EJE d   1      -0.433   7.953 -19.190  0.00  0.00     0.018 A 
+ATOM     24  C25 EJE d   1       0.377  10.623 -19.086  0.00  0.00     0.074 A 
+ATOM     25  N15 EJE d   1      -1.890  11.384 -19.150  0.00  0.00    -0.260 NA
+ATOM     26  C24 EJE d   1       1.267   9.595 -19.073  0.00  0.00     0.118 A 
+ATOM     27  C23 EJE d   1       0.893   8.266 -19.097  0.00  0.00     0.043 A 
+ATOM     28  F26 EJE d   1       2.594   9.879 -18.958  0.00  0.00    -0.206 F 
+ATOM     29  C17 EJE d   1      -3.182  11.094 -19.191  0.00  0.00     0.118 A 
+ATOM     30  C16 EJE d   1      -3.701   9.812 -19.281  0.00  0.00     0.034 A 
+ENDBRANCH   2  20
+TORSDOF 4

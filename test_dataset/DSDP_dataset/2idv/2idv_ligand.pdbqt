@@ -1,0 +1,78 @@
+REMARK  12 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O3A_4  and  PA_1 
+REMARK    2  A    between atoms: O5'_5  and  PA_1 
+REMARK    3  A    between atoms: PA_1  and  O2A_3 
+REMARK    4  A    between atoms: PB_6  and  O3A_4 
+REMARK    5  A    between atoms: C5'_10  and  O5'_5 
+REMARK    6  A    between atoms: O3B_9  and  PB_6 
+REMARK    7  A    between atoms: PB_6  and  O2B_8 
+REMARK    8  A    between atoms: C4'_11  and  C5'_10 
+REMARK    9  A    between atoms: O3'_14  and  C3'_13 
+REMARK   10  A    between atoms: O2'_16  and  C2'_15 
+REMARK   11  A    between atoms: C1'_17  and  N9_18 
+REMARK   12  A    between atoms: N2_27  and  C2_26 
+ROOT
+ATOM      1  C4' M7G d1000       2.559   6.016  -5.570  0.00  0.00     0.180 C 
+ATOM      2  O4' M7G d1000       1.450   6.253  -4.684  0.00  0.00    -0.354 OA
+ATOM      3  C3' M7G d1000       3.594   7.080  -5.200  0.00  0.00     0.182 C 
+ATOM      4  C2' M7G d1000       2.642   8.266  -5.065  0.00  0.00     0.198 C 
+ATOM      5  C1' M7G d1000       1.511   7.628  -4.253  0.00  0.00     0.258 C 
+ENDROOT
+BRANCH   5   6
+ATOM      6  N9  M7G d1000       1.830   7.658  -2.804  0.00  0.00    -0.319 N 
+ATOM      7  C8  M7G d1000       2.454   6.693  -2.125  0.00  0.00     0.253 A 
+ATOM      8  N7  M7G d1000       2.535   7.064  -0.850  0.00  0.00    -0.361 N 
+ATOM      9  C5  M7G d1000       1.972   8.256  -0.697  0.00  0.00     0.147 A 
+ATOM     10  CM7 M7G d1000       3.169   6.276   0.233  0.00  0.00     0.152 C 
+ATOM     11  C4  M7G d1000       1.516   8.636  -1.956  0.00  0.00     0.155 A 
+ATOM     12  C6  M7G d1000       1.757   9.088   0.396  0.00  0.00     0.314 A 
+ATOM     13  N3  M7G d1000       0.880   9.809  -2.119  0.00  0.00    -0.173 N 
+ATOM     14  C2  M7G d1000       0.659  10.643  -1.093  0.00  0.00     0.703 A 
+ATOM     15  H   M7G d1000       0.568  10.063  -3.018  0.00  0.00     0.186 HD
+ATOM     16  N1  M7G d1000       1.085  10.300   0.200  0.00  0.00    -0.021 NA
+ATOM     17  O6  M7G d1000       2.140   8.755   1.518  0.00  0.00    -0.263 OA
+BRANCH  14  18
+ATOM     18  N2  M7G d1000       0.015  11.790  -1.288  0.00  0.00    -0.233 N 
+ATOM     19  H   M7G d1000      -0.287  12.037  -2.192  0.00  0.00     0.174 HD
+ATOM     20  H   M7G d1000      -0.160  12.392  -0.529  0.00  0.00     0.174 HD
+ENDBRANCH  14  18
+ENDBRANCH   5   6
+BRANCH   4  21
+ATOM     21  O2' M7G d1000       2.172   8.641  -6.362  0.00  0.00    -0.388 OA
+ATOM     22  H   M7G d1000       1.781   7.869  -6.800  0.00  0.00     0.210 HD
+ENDBRANCH   4  21
+BRANCH   3  23
+ATOM     23  O3' M7G d1000       4.454   7.313  -6.318  0.00  0.00    -0.390 OA
+ATOM     24  H   M7G d1000       3.919   7.516  -7.101  0.00  0.00     0.210 HD
+ENDBRANCH   3  23
+BRANCH   1  25
+ATOM     25  C5' M7G d1000       3.097   4.588  -5.449  0.00  0.00     0.215 C 
+BRANCH  25  26
+ATOM     26  O5' M7G d1000       3.558   4.355  -4.116  0.00  0.00    -0.294 OA
+BRANCH  26  27
+ATOM     27  PA  M7G d1000       3.858   2.863  -3.583  0.00  0.00     0.401 P 
+ATOM     28  O1A M7G d1000       2.798   1.942  -4.052  0.00  0.00    -0.631 OA
+BRANCH  27  29
+ATOM     29  O3A M7G d1000       5.237   2.479  -4.332  0.00  0.00    -0.195 OA
+BRANCH  29  30
+ATOM     30  PB  M7G d1000       5.224   1.517  -5.631  0.00  0.00     0.399 P 
+ATOM     31  O1B M7G d1000       4.193   1.891  -6.629  0.00  0.00    -0.631 OA
+BRANCH  30  32
+ATOM     32  O3B M7G d1000       6.723   1.578  -6.227  0.00  0.00    -0.307 OA
+ATOM     33  H   M7G d1000       6.781   1.016  -7.016  0.00  0.00     0.222 HD
+ENDBRANCH  30  32
+BRANCH  30  34
+ATOM     34  O2B M7G d1000       5.038   0.018  -5.062  0.00  0.00    -0.307 OA
+ATOM     35  H   M7G d1000       5.023  -0.609  -5.802  0.00  0.00     0.222 HD
+ENDBRANCH  30  34
+ENDBRANCH  29  30
+ENDBRANCH  27  29
+BRANCH  27  36
+ATOM     36  O2A M7G d1000       4.133   2.926  -2.128  0.00  0.00    -0.307 OA
+ATOM     37  H   M7G d1000       4.845   3.564  -1.961  0.00  0.00     0.222 HD
+ENDBRANCH  27  36
+ENDBRANCH  26  27
+ENDBRANCH  25  26
+ENDBRANCH   1  25
+TORSDOF 12

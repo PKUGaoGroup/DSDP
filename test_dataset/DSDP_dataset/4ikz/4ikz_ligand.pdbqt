@@ -1,0 +1,41 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA1_3  and  N1_2 
+REMARK    2  A    between atoms: CA1_3  and  C1_4 
+REMARK       I    between atoms: N2_6  and  C1_4 
+REMARK    3  A    between atoms: N2_6  and  CA2_7 
+REMARK    4  A    between atoms: P_9  and  CA2_7 
+REMARK    5  A    between atoms: P_9  and  O22_11 
+REMARK    6  A    between atoms: P_9  and  O21_10 
+ROOT
+ATOM      1  O1  AFS d 607      14.103  15.391   3.149  0.00  0.00    -0.271 OA
+ATOM      2  C1  AFS d 607      14.237  14.575   2.249  0.00  0.00     0.251 C 
+ATOM      3  N2  AFS d 607      15.405  13.750   2.189  0.00  0.00    -0.344 N 
+ATOM      4  H   AFS d 607      15.508  13.096   1.460  0.00  0.00     0.163 HD
+ENDROOT
+BRANCH   3   5
+ATOM      5  CA2 AFS d 607      16.425  13.874   3.188  0.00  0.00     0.192 C 
+ATOM      6  CB2 AFS d 607      17.118  12.563   3.369  0.00  0.00     0.045 C 
+BRANCH   5   7
+ATOM      7  P   AFS d 607      17.638  15.142   2.686  0.00  0.00     0.258 P 
+ATOM      8  O23 AFS d 607      17.855  15.229   1.208  0.00  0.00    -0.652 OA
+BRANCH   7   9
+ATOM      9  O22 AFS d 607      17.284  16.536   3.098  0.00  0.00    -0.328 OA
+ATOM     10  H   AFS d 607      16.399  16.756   2.767  0.00  0.00     0.220 HD
+ENDBRANCH   7   9
+BRANCH   7  11
+ATOM     11  O21 AFS d 607      19.007  14.934   3.253  0.00  0.00    -0.328 OA
+ATOM     12  H   AFS d 607      19.595  15.641   2.946  0.00  0.00     0.220 HD
+ENDBRANCH   7  11
+ENDBRANCH   5   7
+ENDBRANCH   3   5
+BRANCH   2  13
+ATOM     13  CA1 AFS d 607      13.182  14.436   1.207  0.00  0.00     0.304 C 
+ATOM     14  CB1 AFS d 607      13.271  15.581   0.257  0.00  0.00     0.053 C 
+BRANCH  13  15
+ATOM     15  N1  AFS d 607      11.892  14.415   1.840  0.00  0.00     0.091 N 
+ATOM     16  H   AFS d 607      11.166  14.320   1.130  0.00  0.00     0.313 HD
+ATOM     17  H   AFS d 607      11.752  15.284   2.355  0.00  0.00     0.313 HD
+ENDBRANCH  13  15
+ENDBRANCH   2  13
+TORSDOF 6

@@ -1,0 +1,127 @@
+REMARK  21 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O3_23  and  PA_1 
+REMARK    2  A    between atoms: PA_1  and  O1A_2 
+REMARK    3  A    between atoms: PA_1  and  O5B_4 
+REMARK    4  A    between atoms: O5B_4  and  C5B_5 
+REMARK    5  A    between atoms: C5B_5  and  C4B_6 
+REMARK    6  A    between atoms: C3B_8  and  O3B_9 
+REMARK    7  A    between atoms: C2B_10  and  O2B_11 
+REMARK    8  A    between atoms: O2B_11  and  P2B_45 
+REMARK    9  A    between atoms: N9A_13  and  C1B_12 
+REMARK   10  A    between atoms: N6A_18  and  C6A_17 
+REMARK   11  A    between atoms: PN_24  and  O3_23 
+REMARK   12  A    between atoms: O5D_27  and  PN_24 
+REMARK   13  A    between atoms: O2N_26  and  PN_24 
+REMARK   14  A    between atoms: C5D_28  and  O5D_27 
+REMARK   15  A    between atoms: C4D_29  and  C5D_28 
+REMARK   16  A    between atoms: O3D_32  and  C3D_31 
+REMARK   17  A    between atoms: O2D_34  and  C2D_33 
+REMARK   18  A    between atoms: N1N_36  and  C1D_35 
+REMARK   19  A    between atoms: C7N_39  and  C3N_38 
+REMARK   20  A    between atoms: P2B_45  and  O1X_46 
+REMARK   21  A    between atoms: P2B_45  and  O2X_47 
+ROOT
+ATOM      1  PA  TAP d 191      21.925   5.227  17.932  0.00  0.00     0.401 P 
+ATOM      2  O2A TAP d 191      21.264   6.291  17.058  0.00  0.00    -0.631 OA
+ENDROOT
+BRANCH   1   3
+ATOM      3  O3  TAP d 191      23.353   5.044  17.334  0.00  0.00    -0.195 OA
+BRANCH   3   4
+ATOM      4  PN  TAP d 191      24.093   4.268  16.176  0.00  0.00     0.401 P 
+ATOM      5  O1N TAP d 191      23.798   2.864  16.071  0.00  0.00    -0.631 OA
+BRANCH   4   6
+ATOM      6  O5D TAP d 191      23.453   5.025  14.873  0.00  0.00    -0.294 OA
+BRANCH   6   7
+ATOM      7  C5D TAP d 191      23.800   6.410  14.557  0.00  0.00     0.215 C 
+BRANCH   7   8
+ATOM      8  C4D TAP d 191      24.774   6.289  13.370  0.00  0.00     0.180 C 
+ATOM      9  O4D TAP d 191      24.063   5.458  12.411  0.00  0.00    -0.354 OA
+ATOM     10  C1D TAP d 191      23.495   6.256  11.352  0.00  0.00     0.255 C 
+ATOM     11  C2D TAP d 191      23.677   7.699  11.748  0.00  0.00     0.198 C 
+ATOM     12  C3D TAP d 191      25.004   7.656  12.550  0.00  0.00     0.182 C 
+BRANCH  10  13
+ATOM     13  N1N TAP d 191      22.062   5.962  10.917  0.00  0.00    -0.357 N 
+ATOM     14  C2N TAP d 191      21.700   5.563   9.628  0.00  0.00     0.166 A 
+ATOM     15  C3N TAP d 191      20.435   5.270   9.303  0.00  0.00    -0.003 A 
+ATOM     16  C4N TAP d 191      19.258   5.319  10.319  0.00  0.00     0.013 A 
+ATOM     17  C5N TAP d 191      19.782   5.741  11.677  0.00  0.00     0.018 A 
+ATOM     18  C6N TAP d 191      21.067   6.006  11.921  0.00  0.00     0.088 A 
+BRANCH  15  19
+ATOM     19  C7N TAP d 191      20.201   4.812   7.928  0.00  0.00     0.102 C 
+ATOM     20  N7N TAP d 191      21.135   4.265   7.180  0.00  0.00    -0.390 N 
+ATOM     21  H   TAP d 191      20.924   3.975   6.263  0.00  0.00     0.157 HD
+ATOM     22  H   TAP d 191      22.045   4.146   7.537  0.00  0.00     0.157 HD
+ATOM     23  S7N TAP d 191      18.695   4.925   7.332  0.00  0.00    -0.060 SA
+ENDBRANCH  15  19
+ENDBRANCH  10  13
+BRANCH  11  24
+ATOM     24  O2D TAP d 191      23.901   8.458  10.544  0.00  0.00    -0.388 OA
+ATOM     25  H   TAP d 191      24.647   8.076  10.055  0.00  0.00     0.210 HD
+ENDBRANCH  11  24
+BRANCH  12  26
+ATOM     26  O3D TAP d 191      26.126   7.404  11.630  0.00  0.00    -0.390 OA
+ATOM     27  H   TAP d 191      25.946   6.604  11.113  0.00  0.00     0.210 HD
+ENDBRANCH  12  26
+ENDBRANCH   7   8
+ENDBRANCH   6   7
+ENDBRANCH   4   6
+BRANCH   4  28
+ATOM     28  O2N TAP d 191      25.520   4.524  16.173  0.00  0.00    -0.307 OA
+ATOM     29  H   TAP d 191      25.936   4.030  15.449  0.00  0.00     0.222 HD
+ENDBRANCH   4  28
+ENDBRANCH   3   4
+ENDBRANCH   1   3
+BRANCH   1  30
+ATOM     30  O1A TAP d 191      21.133   3.988  17.962  0.00  0.00    -0.307 OA
+ATOM     31  H   TAP d 191      20.962   3.691  17.054  0.00  0.00     0.222 HD
+ENDBRANCH   1  30
+BRANCH   1  32
+ATOM     32  O5B TAP d 191      22.297   5.856  19.387  0.00  0.00    -0.294 OA
+BRANCH  32  33
+ATOM     33  C5B TAP d 191      22.883   5.038  20.434  0.00  0.00     0.215 C 
+BRANCH  33  34
+ATOM     34  C4B TAP d 191      22.426   5.570  21.783  0.00  0.00     0.180 C 
+ATOM     35  O4B TAP d 191      21.252   5.624  21.767  0.00  0.00    -0.353 OA
+ATOM     36  C1B TAP d 191      20.585   5.151  22.962  0.00  0.00     0.263 C 
+ATOM     37  C2B TAP d 191      21.725   5.012  23.926  0.00  0.00     0.214 C 
+ATOM     38  C3B TAP d 191      22.849   4.605  22.939  0.00  0.00     0.183 C 
+BRANCH  36  39
+ATOM     39  N9A TAP d 191      19.890   3.873  22.715  0.00  0.00    -0.294 N 
+ATOM     40  C8A TAP d 191      20.097   3.109  21.627  0.00  0.00     0.214 A 
+ATOM     41  N7A TAP d 191      19.332   2.035  21.681  0.00  0.00    -0.236 NA
+ATOM     42  C5A TAP d 191      18.645   2.211  22.950  0.00  0.00     0.149 A 
+ATOM     43  C4A TAP d 191      19.028   3.342  23.514  0.00  0.00     0.167 A 
+ATOM     44  C6A TAP d 191      17.581   1.410  23.761  0.00  0.00     0.155 A 
+ATOM     45  N3A TAP d 191      18.595   3.844  24.698  0.00  0.00    -0.222 NA
+ATOM     46  C2A TAP d 191      17.713   3.050  25.316  0.00  0.00     0.237 A 
+ATOM     47  N1A TAP d 191      17.155   1.878  24.951  0.00  0.00    -0.222 NA
+BRANCH  44  48
+ATOM     48  N6A TAP d 191      17.056   0.238  23.317  0.00  0.00    -0.382 N 
+ATOM     49  H   TAP d 191      17.344  -0.134  22.452  0.00  0.00     0.157 HD
+ATOM     50  H   TAP d 191      16.388  -0.239  23.860  0.00  0.00     0.157 HD
+ENDBRANCH  44  48
+ENDBRANCH  36  39
+BRANCH  37  51
+ATOM     51  O2B TAP d 191      21.901   6.281  24.463  0.00  0.00    -0.284 OA
+BRANCH  51  52
+ATOM     52  P2B TAP d 191      22.612   6.510  25.865  0.00  0.00     0.391 P 
+ATOM     53  O3X TAP d 191      24.035   6.094  25.697  0.00  0.00    -0.632 OA
+BRANCH  52  54
+ATOM     54  O1X TAP d 191      22.452   7.972  26.242  0.00  0.00    -0.307 OA
+ATOM     55  H   TAP d 191      22.987   8.520  25.646  0.00  0.00     0.222 HD
+ENDBRANCH  52  54
+BRANCH  52  56
+ATOM     56  O2X TAP d 191      21.815   5.592  26.740  0.00  0.00    -0.307 OA
+ATOM     57  H   TAP d 191      21.953   4.675  26.457  0.00  0.00     0.222 HD
+ENDBRANCH  52  56
+ENDBRANCH  51  52
+ENDBRANCH  37  51
+BRANCH  38  58
+ATOM     58  O3B TAP d 191      24.161   5.108  23.411  0.00  0.00    -0.390 OA
+ATOM     59  H   TAP d 191      24.098   6.060  23.586  0.00  0.00     0.210 HD
+ENDBRANCH  38  58
+ENDBRANCH  33  34
+ENDBRANCH  32  33
+ENDBRANCH   1  32
+TORSDOF 21

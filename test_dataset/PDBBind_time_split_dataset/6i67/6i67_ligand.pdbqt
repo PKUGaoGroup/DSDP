@@ -1,0 +1,20 @@
+REMARK  1 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAI_8  and  OAA_11 
+ROOT
+ATOM      1  CAB H42 d   1     -17.306  -6.676 -25.010  0.00  0.00     0.037 A 
+ATOM      2  CAC H42 d   1     -17.828  -5.421 -25.312  0.00  0.00     0.010 A 
+ATOM      3  CAD H42 d   1     -15.420  -6.272 -26.477  0.00  0.00     0.044 A 
+ATOM      4  CAE H42 d   1     -16.635  -2.228 -27.135  0.00  0.00     0.005 C 
+ATOM      5  CAF H42 d   1     -16.003  -2.957 -28.339  0.00  0.00     0.005 C 
+ATOM      6  CAG H42 d   1     -17.606  -3.355 -26.577  0.00  0.00     0.039 C 
+ATOM      7  CAH H42 d   1     -15.297  -4.129 -27.588  0.00  0.00     0.039 C 
+ATOM      8  CAI H42 d   1     -16.106  -7.101 -25.586  0.00  0.00     0.066 A 
+ATOM      9  CAJ H42 d   1     -17.113  -4.587 -26.168  0.00  0.00    -0.052 A 
+ATOM     10  CAK H42 d   1     -15.972  -5.036 -26.802  0.00  0.00    -0.049 A 
+ENDROOT
+BRANCH   8  11
+ATOM     11  OAA H42 d   1     -15.605  -8.343 -25.289  0.00  0.00    -0.361 OA
+ATOM     12  H12 H42 d   1     -16.183  -8.778 -24.673  0.00  0.00     0.217 HD
+ENDBRANCH   8  11
+TORSDOF 1

@@ -1,0 +1,36 @@
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAU_2  and  CAR_4 
+REMARK    2  A    between atoms: CAS_6  and  OAT_7 
+ROOT
+ATOM      1  CAR HWJ d   1     -19.564  16.847 134.679  0.00  0.00     0.147 A 
+ATOM      2  NAQ HWJ d   1     -20.571  17.069 135.616  0.00  0.00    -0.242 NA
+ATOM      3  CAS HWJ d   1     -19.772  17.178 133.340  0.00  0.00     0.250 A 
+ATOM      4  CAO HWJ d   1     -20.963  17.745 132.902  0.00  0.00     0.186 A 
+ATOM      5  OAP HWJ d   1     -21.184  18.054 131.714  0.00  0.00    -0.290 OA
+ATOM      6  CAN HWJ d   1     -21.953  17.959 133.860  0.00  0.00     0.085 A 
+ATOM      7  CAM HWJ d   1     -21.772  17.608 135.197  0.00  0.00     0.071 A 
+ATOM      8  CAL HWJ d   1     -22.826  17.856 136.069  0.00  0.00    -0.001 A 
+ATOM      9  CAH HWJ d   1     -24.078  17.201 135.901  0.00  0.00    -0.049 A 
+ATOM     10  CAI HWJ d   1     -24.358  16.243 134.889  0.00  0.00     0.049 C 
+ATOM     11  CAG HWJ d   1     -25.119  17.516 136.749  0.00  0.00     0.023 A 
+ATOM     12  CAK HWJ d   1     -22.636  18.802 137.080  0.00  0.00     0.015 A 
+ATOM     13  CAJ HWJ d   1     -23.693  19.096 137.940  0.00  0.00     0.016 A 
+ATOM     14  CAF HWJ d   1     -24.933  18.442 137.772  0.00  0.00     0.014 A 
+ATOM     15  CAE HWJ d   1     -25.976  18.713 138.535  0.00  0.00     0.179 A 
+ATOM     16  NAD HWJ d   1     -27.244  18.465 138.158  0.00  0.00    -0.108 NA
+ATOM     17  NAA HWJ d   1     -27.952  18.877 139.045  0.00  0.00    -0.023 NA
+ATOM     18  NAB HWJ d   1     -27.171  19.403 140.019  0.00  0.00    -0.046 NA
+ATOM     19  NAC HWJ d   1     -25.949  19.321 139.720  0.00  0.00    -0.239 N 
+ATOM     20  H10 HWJ d   1     -25.132  19.644 140.258  0.00  0.00     0.192 HD
+ENDROOT
+BRANCH   1  21
+ATOM     21  CAU HWJ d   1     -18.407  16.350 135.241  0.00  0.00     0.227 C 
+ATOM     22  OAV HWJ d   1     -17.351  16.053 134.611  0.00  0.00    -0.643 OA
+ATOM     23  OAW HWJ d   1     -18.394  16.399 136.460  0.00  0.00    -0.643 OA
+ENDBRANCH   1  21
+BRANCH   3  24
+ATOM     24  OAT HWJ d   1     -18.815  16.966 132.439  0.00  0.00    -0.381 OA
+ATOM     25  H2  HWJ d   1     -19.119  17.245 131.584  0.00  0.00     0.211 HD
+ENDBRANCH   3  24
+TORSDOF 2

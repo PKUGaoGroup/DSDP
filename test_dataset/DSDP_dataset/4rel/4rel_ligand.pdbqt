@@ -1,0 +1,45 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2_2  and  O30_21 
+REMARK    2  A    between atoms: O29_20  and  C6_6 
+REMARK    3  A    between atoms: C10_8  and  O27_19 
+REMARK    4  A    between atoms: C14_10  and  C11_9 
+REMARK    5  A    between atoms: O24_18  and  C17_13 
+ROOT
+ATOM      1  C1  KMP d1001      56.537  -5.620  16.478  0.00  0.00     0.074 A 
+ATOM      2  C2  KMP d1001      55.848  -4.618  17.140  0.00  0.00     0.085 A 
+ATOM      3  C3  KMP d1001      54.520  -4.211  16.632  0.00  0.00     0.084 A 
+ATOM      4  C4  KMP d1001      53.965  -4.885  15.441  0.00  0.00     0.096 A 
+ATOM      5  C5  KMP d1001      54.734  -5.876  14.843  0.00  0.00     0.075 A 
+ATOM      6  C6  KMP d1001      55.986  -6.231  15.353  0.00  0.00     0.071 A 
+ATOM      7  C9  KMP d1001      53.736  -3.147  17.301  0.00  0.00     0.223 A 
+ATOM      8  C10 KMP d1001      52.417  -2.801  16.724  0.00  0.00     0.152 A 
+ATOM      9  C11 KMP d1001      51.947  -3.542  15.508  0.00  0.00     0.123 A 
+ATOM     10  O12 KMP d1001      52.732  -4.530  14.945  0.00  0.00    -0.306 OA
+ATOM     11  O13 KMP d1001      54.186  -2.566  18.317  0.00  0.00    -0.284 OA
+ENDROOT
+BRANCH   9  12
+ATOM     12  C14 KMP d1001      50.627  -3.260  14.862  0.00  0.00     0.001 A 
+ATOM     13  C19 KMP d1001      50.139  -4.160  13.923  0.00  0.00     0.017 A 
+ATOM     14  C18 KMP d1001      48.915  -3.939  13.306  0.00  0.00     0.037 A 
+ATOM     15  C17 KMP d1001      48.172  -2.809  13.622  0.00  0.00     0.065 A 
+ATOM     16  C16 KMP d1001      48.655  -1.902  14.552  0.00  0.00     0.037 A 
+ATOM     17  C15 KMP d1001      49.875  -2.128  15.170  0.00  0.00     0.017 A 
+BRANCH  15  18
+ATOM     18  O24 KMP d1001      46.970  -2.584  13.021  0.00  0.00    -0.361 OA
+ATOM     19  H   KMP d1001      46.639  -3.194  12.392  0.00  0.00     0.217 HD
+ENDBRANCH  15  18
+ENDBRANCH   9  12
+BRANCH   8  20
+ATOM     20  O27 KMP d1001      51.682  -1.831  17.335  0.00  0.00    -0.355 OA
+ATOM     21  H   KMP d1001      50.844  -1.592  16.991  0.00  0.00     0.218 HD
+ENDBRANCH   8  20
+BRANCH   6  22
+ATOM     22  O29 KMP d1001      56.695  -7.209  14.725  0.00  0.00    -0.361 OA
+ATOM     23  H   KMP d1001      56.341  -7.631  13.967  0.00  0.00     0.217 HD
+ENDBRANCH   6  22
+BRANCH   2  24
+ATOM     24  O30 KMP d1001      56.368  -4.007  18.240  0.00  0.00    -0.360 OA
+ATOM     25  H   KMP d1001      57.209  -4.263  18.564  0.00  0.00     0.217 HD
+ENDBRANCH   2  24
+TORSDOF 5

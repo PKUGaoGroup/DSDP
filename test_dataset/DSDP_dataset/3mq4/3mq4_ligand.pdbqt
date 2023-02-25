@@ -1,0 +1,59 @@
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAY_25  and  NAA_1 
+REMARK    2  A    between atoms: CAQ_17  and  OAD_4 
+REMARK    3  A    between atoms: CAR_18  and  OAE_5 
+REMARK    4  A    between atoms: CAW_23  and  CAN_14 
+REMARK    5  A    between atoms: CAN_14  and  CAY_25 
+REMARK    6  A    between atoms: CAX_24  and  CAQ_17 
+REMARK    7  A    between atoms: CAR_18  and  CAY_25 
+REMARK    8  A    between atoms: CAZ_26  and  CAY_25 
+ROOT
+ATOM      1  CAN Z99 d 514     -18.540 -40.589 -22.184  0.00  0.00     0.067 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  CAW Z99 d 514     -18.493 -42.140 -22.536  0.00  0.00     0.060 C 
+ATOM      3  CAU Z99 d 514     -18.315 -42.117 -24.116  0.00  0.00    -0.015 A 
+ATOM      4  CAS Z99 d 514     -19.470 -41.559 -24.968  0.00  0.00     0.083 A 
+ATOM      5  CAL Z99 d 514     -17.091 -42.580 -24.722  0.00  0.00     0.011 A 
+ATOM      6  CAJ Z99 d 514     -19.299 -41.497 -26.371  0.00  0.00     0.038 A 
+ATOM      7  OAP Z99 d 514     -20.703 -41.101 -24.367  0.00  0.00    -0.310 OA
+ATOM      8  CAF Z99 d 514     -18.060 -41.972 -26.930  0.00  0.00     0.003 A 
+ATOM      9  CAH Z99 d 514     -16.981 -42.496 -26.115  0.00  0.00     0.001 A 
+ATOM     10  CAT Z99 d 514     -21.053 -41.964 -23.297  0.00  0.00     0.083 A 
+ATOM     11  CAK Z99 d 514     -22.421 -42.343 -23.091  0.00  0.00     0.038 A 
+ATOM     12  CAV Z99 d 514     -19.981 -42.533 -22.314  0.00  0.00    -0.015 A 
+ATOM     13  CAG Z99 d 514     -22.771 -43.240 -21.968  0.00  0.00     0.003 A 
+ATOM     14  CAI Z99 d 514     -21.752 -43.773 -21.051  0.00  0.00     0.001 A 
+ATOM     15  CAM Z99 d 514     -20.358 -43.418 -21.203  0.00  0.00     0.011 A 
+ENDBRANCH   1   2
+BRANCH   1  16
+ATOM     16  CAY Z99 d 514     -17.356 -39.613 -21.960  0.00  0.00     0.244 C 
+BRANCH  16  17
+ATOM     17  CAR Z99 d 514     -16.223 -39.775 -23.060  0.00  0.00     0.180 C 
+ATOM     18  OAC Z99 d 514     -16.336 -39.469 -24.321  0.00  0.00    -0.648 OA
+BRANCH  17  19
+ATOM     19  OAE Z99 d 514     -15.186 -40.228 -22.614  0.00  0.00    -0.774 OA
+ATOM     20  H   Z99 d 514     -15.122 -40.443 -21.704  0.00  0.00     0.167 HD
+ENDBRANCH  17  19
+ENDBRANCH  16  17
+BRANCH  16  21
+ATOM     21  CAZ Z99 d 514     -17.518 -38.049 -22.007  0.00  0.00     0.050 A 
+ATOM     22  CAO Z99 d 514     -18.300 -37.288 -23.052  0.00  0.00     0.024 A 
+ATOM     23  CAX Z99 d 514     -18.794 -37.365 -21.636  0.00  0.00     0.091 A 
+BRANCH  23  24
+ATOM     24  CAQ Z99 d 514     -18.444 -36.307 -20.600  0.00  0.00     0.144 C 
+ATOM     25  OAB Z99 d 514     -18.347 -35.044 -21.017  0.00  0.00    -0.650 OA
+BRANCH  24  26
+ATOM     26  OAD Z99 d 514     -18.301 -36.877 -19.421  0.00  0.00    -0.776 OA
+ATOM     27  H   Z99 d 514     -18.413 -37.803 -19.332  0.00  0.00     0.167 HD
+ENDBRANCH  24  26
+ENDBRANCH  23  24
+ENDBRANCH  16  21
+BRANCH  16  28
+ATOM     28  NAA Z99 d 514     -17.084 -39.800 -20.459  0.00  0.00     0.099 N 
+ATOM     29  H   Z99 d 514     -16.952 -40.791 -20.258  0.00  0.00     0.314 HD
+ATOM     30  H   Z99 d 514     -17.877 -39.447 -19.923  0.00  0.00     0.314 HD
+ENDBRANCH  16  28
+ENDBRANCH   1  16
+TORSDOF 8

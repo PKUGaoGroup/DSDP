@@ -1,0 +1,57 @@
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CD_2  and  CG_4 
+REMARK    2  A    between atoms: CG_4  and  CB_5 
+REMARK    3  A    between atoms: CB_5  and  CA_6 
+REMARK    4  A    between atoms: CA_6  and  C_7 
+REMARK    5  A    between atoms: CA_6  and  N_10 
+REMARK       I    between atoms: N_10  and  CAR_11 
+REMARK       I    between atoms: CAR_11  and  NAN_13 
+REMARK    6  A    between atoms: NAN_13  and  CAU_14 
+REMARK    7  A    between atoms: CAU_14  and  CAQ_15 
+REMARK    8  A    between atoms: CAU_14  and  CAL_18 
+REMARK    9  A    between atoms: CAL_18  and  CAS_19 
+ROOT
+ATOM      1  N   D6E d   1      16.835  45.203  42.817  0.00  0.00    -0.329 N 
+ATOM      2  CAR D6E d   1      18.099  44.864  43.162  0.00  0.00     0.317 C 
+ATOM      3  OAF D6E d   1      18.593  43.810  42.730  0.00  0.00    -0.247 OA
+ATOM      4  NAN D6E d   1      18.678  45.637  44.059  0.00  0.00    -0.329 N 
+ATOM      5  H6  D6E d   1      16.357  45.908  43.341  0.00  0.00     0.165 HD
+ATOM      6  H7  D6E d   1      18.157  46.400  44.442  0.00  0.00     0.165 HD
+ENDROOT
+BRANCH   1   7
+ATOM      7  CA  D6E d   1      16.153  44.559  41.692  0.00  0.00     0.187 C 
+BRANCH   7   8
+ATOM      8  CB  D6E d   1      14.801  45.263  41.354  0.00  0.00     0.046 C 
+BRANCH   8   9
+ATOM      9  CG  D6E d   1      15.065  46.792  41.159  0.00  0.00     0.116 C 
+BRANCH   9  10
+ATOM     10  CD  D6E d   1      13.864  47.564  40.624  0.00  0.00     0.172 C 
+ATOM     11  OE1 D6E d   1      13.103  46.994  39.814  0.00  0.00    -0.648 OA
+ATOM     12  OE2 D6E d   1      13.856  48.794  40.841  0.00  0.00    -0.648 OA
+ENDBRANCH   9  10
+ENDBRANCH   8   9
+ENDBRANCH   7   8
+BRANCH   7  13
+ATOM     13  C   D6E d   1      17.109  44.685  40.457  0.00  0.00     0.196 C 
+ATOM     14  OXT D6E d   1      16.980  43.824  39.547  0.00  0.00    -0.646 OA
+ATOM     15  O   D6E d   1      17.992  45.585  40.431  0.00  0.00    -0.646 OA
+ENDBRANCH   7  13
+ENDBRANCH   1   7
+BRANCH   4  16
+ATOM     16  CAU D6E d   1      20.062  45.425  44.522  0.00  0.00     0.187 C 
+BRANCH  16  17
+ATOM     17  CAQ D6E d   1      20.222  46.007  45.909  0.00  0.00     0.196 C 
+ATOM     18  OAI D6E d   1      19.779  47.163  46.118  0.00  0.00    -0.646 OA
+ATOM     19  OAE D6E d   1      20.742  45.228  46.737  0.00  0.00    -0.646 OA
+ENDBRANCH  16  17
+BRANCH  16  20
+ATOM     20  CAL D6E d   1      20.943  46.170  43.477  0.00  0.00     0.040 C 
+BRANCH  20  21
+ATOM     21  CAS D6E d   1      22.410  46.299  43.905  0.00  0.00    -0.020 C 
+ATOM     22  CAB D6E d   1      23.179  47.141  42.867  0.00  0.00     0.009 C 
+ATOM     23  CAA D6E d   1      23.039  44.884  43.949  0.00  0.00     0.009 C 
+ENDBRANCH  20  21
+ENDBRANCH  16  20
+ENDBRANCH   4  16
+TORSDOF 9

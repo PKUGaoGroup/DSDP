@@ -1,0 +1,79 @@
+REMARK  13 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1'_9  and  N1_8 
+REMARK    2  A    between atoms: O3'_12  and  C3'_11 
+REMARK    3  A    between atoms: C5'_15  and  C4'_14 
+REMARK    4  A    between atoms: C5'_15  and  O5'_16 
+REMARK    5  A    between atoms: PA_17  and  O5'_16 
+REMARK    6  A    between atoms: N3A_20  and  PA_17 
+REMARK    7  A    between atoms: PA_17  and  O2A_19 
+REMARK    8  A    between atoms: PB_21  and  N3A_20 
+REMARK    9  A    between atoms: O3B_24  and  PB_21 
+REMARK   10  A    between atoms: PB_21  and  O1B_22 
+REMARK   11  A    between atoms: PG_25  and  O3B_24 
+REMARK   12  A    between atoms: O1G_27  and  PG_25 
+REMARK   13  A    between atoms: PG_25  and  O2G_26 
+ROOT
+ATOM      1  O5' DUP d1968      31.982  51.233   9.578  0.00  0.00    -0.304 OA
+ENDROOT
+BRANCH   1   2
+ATOM      2  PA  DUP d1968      33.261  51.850   8.816  0.00  0.00     0.330 P 
+ATOM      3  O1A DUP d1968      32.986  53.155   8.144  0.00  0.00    -0.641 OA
+BRANCH   2   4
+ATOM      4  N3A DUP d1968      33.761  50.654   7.829  0.00  0.00    -0.136 NA
+ATOM      5  H   DUP d1968      34.595  51.027   7.375  0.00  0.00     0.145 HD
+BRANCH   4   6
+ATOM      6  PB  DUP d1968      32.897  49.892   6.578  0.00  0.00     0.339 P 
+ATOM      7  O2B DUP d1968      31.961  50.937   6.041  0.00  0.00    -0.641 OA
+BRANCH   6   8
+ATOM      8  O3B DUP d1968      34.074  49.426   5.615  0.00  0.00    -0.205 OA
+BRANCH   8   9
+ATOM      9  PG  DUP d1968      35.310  49.970   4.799  0.00  0.00     0.398 P 
+ATOM     10  O3G DUP d1968      35.124  48.861   3.787  0.00  0.00    -0.631 OA
+BRANCH   9  11
+ATOM     11  O1G DUP d1968      35.105  51.346   4.232  0.00  0.00    -0.307 OA
+ATOM     12  H   DUP d1968      34.346  51.337   3.629  0.00  0.00     0.222 HD
+ENDBRANCH   9  11
+BRANCH   9  13
+ATOM     13  O2G DUP d1968      36.475  49.996   5.721  0.00  0.00    -0.307 OA
+ATOM     14  H   DUP d1968      37.254  50.327   5.248  0.00  0.00     0.222 HD
+ENDBRANCH   9  13
+ENDBRANCH   8   9
+ENDBRANCH   6   8
+BRANCH   6  15
+ATOM     15  O1B DUP d1968      32.283  48.656   7.105  0.00  0.00    -0.316 OA
+ATOM     16  H   DUP d1968      31.788  48.214   6.398  0.00  0.00     0.221 HD
+ENDBRANCH   6  15
+ENDBRANCH   4   6
+ENDBRANCH   2   4
+BRANCH   2  17
+ATOM     17  O2A DUP d1968      34.309  51.924   9.911  0.00  0.00    -0.317 OA
+ATOM     18  H   DUP d1968      35.131  52.289   9.548  0.00  0.00     0.221 HD
+ENDBRANCH   2  17
+ENDBRANCH   1   2
+BRANCH   1  19
+ATOM     19  C5' DUP d1968      30.655  51.527   9.120  0.00  0.00     0.214 C 
+BRANCH  19  20
+ATOM     20  C4' DUP d1968      29.706  50.921  10.106  0.00  0.00     0.177 C 
+ATOM     21  C3' DUP d1968      28.221  51.026   9.712  0.00  0.00     0.153 C 
+ATOM     22  C2' DUP d1968      27.489  51.545  10.967  0.00  0.00     0.088 C 
+ATOM     23  C1' DUP d1968      28.598  51.407  12.025  0.00  0.00     0.235 C 
+ATOM     24  O4' DUP d1968      29.880  51.570  11.397  0.00  0.00    -0.356 OA
+BRANCH  21  25
+ATOM     25  O3' DUP d1968      27.650  49.729   9.366  0.00  0.00    -0.393 OA
+ATOM     26  H   DUP d1968      27.728  49.129  10.124  0.00  0.00     0.210 HD
+ENDBRANCH  21  25
+BRANCH  23  27
+ATOM     27  N1  DUP d1968      28.510  52.379  13.124  0.00  0.00    -0.282 N 
+ATOM     28  C6  DUP d1968      29.575  53.171  13.391  0.00  0.00     0.104 A 
+ATOM     29  C5  DUP d1968      29.519  54.078  14.478  0.00  0.00     0.092 A 
+ATOM     30  C4  DUP d1968      28.366  54.057  15.292  0.00  0.00     0.250 A 
+ATOM     31  N3  DUP d1968      27.347  53.206  15.001  0.00  0.00    -0.275 N 
+ATOM     32  O4  DUP d1968      28.346  54.839  16.303  0.00  0.00    -0.268 OA
+ATOM     33  C2  DUP d1968      27.412  52.369  13.920  0.00  0.00     0.331 A 
+ATOM     34  H   DUP d1968      26.549  53.191  15.577  0.00  0.00     0.173 HD
+ATOM     35  O2  DUP d1968      26.472  51.629  13.664  0.00  0.00    -0.246 OA
+ENDBRANCH  23  27
+ENDBRANCH  19  20
+ENDBRANCH   1  19
+TORSDOF 13

@@ -1,0 +1,36 @@
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAP_15  and  CAG_7 
+REMARK    2  A    between atoms: CAI_8  and  CAJ_9 
+REMARK    3  A    between atoms: NAQ_20  and  CAP_15 
+ROOT
+ATOM      1  CAA P57 d   1     -15.110 -31.600  -2.320  0.00  0.00     0.014 A 
+ATOM      2  CAB P57 d   1     -14.486 -32.594  -1.576  0.00  0.00     0.001 A 
+ATOM      3  CAC P57 d   1     -13.578 -33.441  -2.212  0.00  0.00     0.002 A 
+ATOM      4  CAD P57 d   1     -13.286 -33.300  -3.565  0.00  0.00     0.030 A 
+ATOM      5  CAE P57 d   1     -13.918 -32.280  -4.319  0.00  0.00     0.043 A 
+ATOM      6  CAF P57 d   1     -14.822 -31.460  -3.703  0.00  0.00     0.001 A 
+ATOM      7  CAG P57 d   1     -15.287 -30.559  -4.703  0.00  0.00     0.000 A 
+ATOM      8  CAI P57 d   1     -14.635 -30.919  -5.881  0.00  0.00     0.051 A 
+ATOM      9  NAH P57 d   1     -13.833 -31.932  -5.636  0.00  0.00    -0.354 N 
+ATOM     10  H15 P57 d   1     -13.231 -32.393  -6.333  0.00  0.00     0.166 HD
+ENDROOT
+BRANCH   7  11
+ATOM     11  CAP P57 d   1     -16.325 -29.451  -4.479  0.00  0.00     0.171 C 
+BRANCH  11  12
+ATOM     12  NAQ P57 d   1     -15.732 -28.237  -3.937  0.00  0.00    -0.346 N 
+ATOM     13  CAR P57 d   1     -16.413 -27.222  -3.438  0.00  0.00     0.209 A 
+ATOM     14  NAS P57 d   1     -15.565 -26.293  -3.046  0.00  0.00    -0.255 NA
+ATOM     15  CAT P57 d   1     -14.328 -26.723  -3.255  0.00  0.00     0.135 A 
+ATOM     16  CAU P57 d   1     -14.436 -27.975  -3.831  0.00  0.00     0.111 A 
+ENDBRANCH  11  12
+ENDBRANCH   7  11
+BRANCH   8  17
+ATOM     17  CAJ P57 d   1     -14.752 -30.252  -7.230  0.00  0.00    -0.009 A 
+ATOM     18  CAK P57 d   1     -14.455 -30.966  -8.381  0.00  0.00     0.014 A 
+ATOM     19  CAL P57 d   1     -14.545 -30.310  -9.589  0.00  0.00     0.001 A 
+ATOM     20  CAM P57 d   1     -14.886 -28.970  -9.641  0.00  0.00     0.000 A 
+ATOM     21  CAN P57 d   1     -15.150 -28.254  -8.493  0.00  0.00     0.001 A 
+ATOM     22  CAO P57 d   1     -15.065 -28.908  -7.278  0.00  0.00     0.014 A 
+ENDBRANCH   8  17
+TORSDOF 3

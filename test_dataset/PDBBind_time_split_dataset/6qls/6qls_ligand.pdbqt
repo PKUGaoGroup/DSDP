@@ -1,0 +1,84 @@
+REMARK  13 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C02_1  and  O01_24 
+REMARK    2  A    between atoms: C03_2  and  C04_3 
+REMARK    3  A    between atoms: C04_3  and  O05_25 
+REMARK    4  A    between atoms: C07_4  and  S08_33 
+REMARK    5  A    between atoms: S08_33  and  C09_5 
+REMARK    6  A    between atoms: C10_6  and  O11_27 
+REMARK    7  A    between atoms: C12_7  and  O13_28 
+REMARK    8  A    between atoms: C14_8  and  O15_29 
+REMARK    9  A    between atoms: C16_9  and  C17_10 
+REMARK   10  A    between atoms: C17_10  and  O18_30 
+REMARK   11  A    between atoms: C20_11  and  O21_32 
+REMARK   12  A    between atoms: N23_21  and  C22_12 
+REMARK   13  A    between atoms: C25_14  and  C26_15 
+ROOT
+ATOM      1  C02 HRK d   1     -18.349   6.860  -0.865  0.00  0.00     0.176 C 
+ATOM      2  C03 HRK d   1     -19.837   6.718  -1.133  0.00  0.00     0.177 C 
+ATOM      3  C07 HRK d   1     -20.055   9.066  -1.508  0.00  0.00     0.216 C 
+ATOM      4  C20 HRK d   1     -18.590   9.365  -1.304  0.00  0.00     0.184 C 
+ATOM      5  C22 HRK d   1     -17.821   8.066  -1.670  0.00  0.00     0.174 C 
+ATOM      6  O06 HRK d   1     -20.481   7.937  -0.785  0.00  0.00    -0.363 OA
+ENDROOT
+BRANCH   3   7
+ATOM      7  S08 HRK d   1     -21.029  10.486  -0.947  0.00  0.00    -0.100 SA
+BRANCH   7   8
+ATOM      8  C09 HRK d   1     -22.728   9.981  -1.266  0.00  0.00     0.217 C 
+ATOM      9  C10 HRK d   1     -23.657  10.360  -0.093  0.00  0.00     0.188 C 
+ATOM     10  C12 HRK d   1     -25.106  10.033  -0.450  0.00  0.00     0.181 C 
+ATOM     11  C14 HRK d   1     -25.493  10.676  -1.868  0.00  0.00     0.180 C 
+ATOM     12  C16 HRK d   1     -24.476  10.191  -2.895  0.00  0.00     0.178 C 
+ATOM     13  O19 HRK d   1     -23.178  10.535  -2.491  0.00  0.00    -0.363 OA
+BRANCH   9  14
+ATOM     14  O11 HRK d   1     -23.271   9.701   1.098  0.00  0.00    -0.389 OA
+ATOM     15  H23 HRK d   1     -23.353   8.762   0.980  0.00  0.00     0.210 HD
+ENDBRANCH   9  14
+BRANCH  10  16
+ATOM     16  O13 HRK d   1     -25.956  10.599   0.540  0.00  0.00    -0.390 OA
+ATOM     17  H24 HRK d   1     -25.741  10.230   1.389  0.00  0.00     0.210 HD
+ENDBRANCH  10  16
+BRANCH  11  18
+ATOM     18  O15 HRK d   1     -26.777  10.149  -2.223  0.00  0.00    -0.390 OA
+ATOM     19  H25 HRK d   1     -27.016  10.457  -3.089  0.00  0.00     0.210 HD
+ENDBRANCH  11  18
+BRANCH  12  20
+ATOM     20  C17 HRK d   1     -24.717  10.725  -4.335  0.00  0.00     0.198 C 
+BRANCH  20  21
+ATOM     21  O18 HRK d   1     -24.749  12.141  -4.242  0.00  0.00    -0.398 OA
+ATOM     22  H26 HRK d   1     -23.920  12.454  -3.898  0.00  0.00     0.209 HD
+ENDBRANCH  20  21
+ENDBRANCH  12  20
+ENDBRANCH   7   8
+ENDBRANCH   3   7
+BRANCH   4  23
+ATOM     23  O21 HRK d   1     -18.193  10.369  -2.233  0.00  0.00    -0.390 OA
+ATOM     24  H27 HRK d   1     -17.255  10.507  -2.167  0.00  0.00     0.210 HD
+ENDBRANCH   4  23
+BRANCH   5  25
+ATOM     25  N23 HRK d   1     -16.392   8.179  -1.476  0.00  0.00    -0.250 N 
+ATOM     26  C24 HRK d   1     -15.686   8.485  -0.255  0.00  0.00     0.148 A 
+ATOM     27  C25 HRK d   1     -14.300   8.436  -0.635  0.00  0.00     0.108 A 
+ATOM     28  N32 HRK d   1     -14.333   8.099  -2.004  0.00  0.00    -0.130 NA
+ATOM     29  N33 HRK d   1     -15.520   7.946  -2.453  0.00  0.00    -0.065 NA
+BRANCH  27  30
+ATOM     30  C26 HRK d   1     -13.128   8.621   0.174  0.00  0.00    -0.004 A 
+ATOM     31  C27 HRK d   1     -13.189   8.538   1.547  0.00  0.00     0.014 A 
+ATOM     32  C28 HRK d   1     -12.078   8.689   2.359  0.00  0.00     0.001 A 
+ATOM     33  C29 HRK d   1     -10.842   8.907   1.786  0.00  0.00     0.000 A 
+ATOM     34  C30 HRK d   1     -10.736   8.962   0.403  0.00  0.00     0.001 A 
+ATOM     35  C31 HRK d   1     -11.877   8.823  -0.382  0.00  0.00     0.014 A 
+ENDBRANCH  27  30
+ENDBRANCH   5  25
+BRANCH   2  36
+ATOM     36  C04 HRK d   1     -20.446   5.594  -0.306  0.00  0.00     0.198 C 
+BRANCH  36  37
+ATOM     37  O05 HRK d   1     -21.832   5.479  -0.603  0.00  0.00    -0.398 OA
+ATOM     38  H22 HRK d   1     -22.268   6.297  -0.395  0.00  0.00     0.209 HD
+ENDBRANCH  36  37
+ENDBRANCH   2  36
+BRANCH   1  39
+ATOM     39  O01 HRK d   1     -18.095   7.112   0.513  0.00  0.00    -0.391 OA
+ATOM     40  H21 HRK d   1     -17.160   7.215   0.648  0.00  0.00     0.210 HD
+ENDBRANCH   1  39
+TORSDOF 13

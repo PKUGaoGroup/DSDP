@@ -1,0 +1,40 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C6_6  and  O5_20 
+REMARK    2  A    between atoms: C10_13  and  C8_10 
+REMARK    3  A    between atoms: C9_11  and  O3_12 
+REMARK    4  A    between atoms: O4_19  and  C13_16 
+ROOT
+ATOM      1  C1  2HI d 365     100.579  78.741  34.136  0.00  0.00     0.037 A 
+ATOM      2  C2  2HI d 365     101.875  78.407  33.706  0.00  0.00     0.021 A 
+ATOM      3  C3  2HI d 365     102.290  77.056  33.733  0.00  0.00     0.044 A 
+ATOM      4  C4  2HI d 365     101.415  76.012  34.214  0.00  0.00     0.088 A 
+ATOM      5  C5  2HI d 365     100.122  76.388  34.643  0.00  0.00     0.074 A 
+ATOM      6  C6  2HI d 365      99.691  77.747  34.602  0.00  0.00     0.068 A 
+ATOM      7  O1  2HI d 365     101.816  74.672  34.264  0.00  0.00    -0.318 OA
+ATOM      8  C7  2HI d 365     103.658  76.715  33.241  0.00  0.00     0.175 C 
+ATOM      9  O2  2HI d 365     104.442  77.568  32.836  0.00  0.00    -0.291 OA
+ATOM     10  C8  2HI d 365     104.012  75.220  33.204  0.00  0.00     0.149 C 
+ATOM     11  C9  2HI d 365     103.251  74.433  34.280  0.00  0.00     0.279 C 
+ENDROOT
+BRANCH  10  12
+ATOM     12  C10 2HI d 365     103.660  74.796  31.756  0.00  0.00    -0.042 A 
+ATOM     13  C15 2HI d 365     104.664  74.818  30.751  0.00  0.00     0.011 A 
+ATOM     14  C14 2HI d 365     104.352  74.462  29.406  0.00  0.00     0.037 A 
+ATOM     15  C13 2HI d 365     103.030  74.078  29.031  0.00  0.00     0.065 A 
+ATOM     16  C12 2HI d 365     102.025  74.051  30.023  0.00  0.00     0.037 A 
+ATOM     17  C11 2HI d 365     102.325  74.402  31.363  0.00  0.00     0.011 A 
+BRANCH  15  18
+ATOM     18  O4  2HI d 365     102.742  73.748  27.751  0.00  0.00    -0.361 OA
+ATOM     19  H   2HI d 365     103.415  73.769  27.099  0.00  0.00     0.217 HD
+ENDBRANCH  15  18
+ENDBRANCH  10  12
+BRANCH  11  20
+ATOM     20  O3  2HI d 365     103.617  74.818  35.601  0.00  0.00    -0.370 OA
+ATOM     21  H   2HI d 365     103.366  75.743  35.749  0.00  0.00     0.212 HD
+ENDBRANCH  11  20
+BRANCH   6  22
+ATOM     22  O5  2HI d 365      98.455  78.089  35.003  0.00  0.00    -0.361 OA
+ATOM     23  H   2HI d 365      98.183  78.985  34.971  0.00  0.00     0.217 HD
+ENDBRANCH   6  22
+TORSDOF 4

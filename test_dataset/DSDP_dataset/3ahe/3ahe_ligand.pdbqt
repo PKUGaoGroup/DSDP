@@ -1,0 +1,90 @@
+REMARK  16 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C4'_5  and  N4'_6 
+REMARK    2  A    between atoms: C5'_7  and  C7'_9 
+REMARK    3  A    between atoms: C7'_9  and  N3_10 
+REMARK    4  A    between atoms: C2_11  and  C8_27 
+REMARK    5  A    between atoms: C5_13  and  C6_16 
+REMARK    6  A    between atoms: C6_16  and  C7_17 
+REMARK    7  A    between atoms: O7_18  and  C7_17 
+REMARK    8  A    between atoms: O7_18  and  PA_19 
+REMARK    9  A    between atoms: O2A_21  and  PA_19 
+REMARK   10  A    between atoms: PA_19  and  O3A_22 
+REMARK   11  A    between atoms: O3A_22  and  PB_23 
+REMARK   12  A    between atoms: PB_23  and  O3B_26 
+REMARK   13  A    between atoms: PB_23  and  O2B_25 
+REMARK   14  A    between atoms: O9_28  and  C8_27 
+REMARK   15  A    between atoms: C8_27  and  C9_29 
+REMARK   16  A    between atoms: O10_30  and  C9_29 
+ROOT
+ATOM      1  N3  THD d 827      62.055  46.026  10.219  0.00  0.00    -0.363 N 
+ATOM      2  C2  THD d 827      61.858  46.061  11.605  0.00  0.00     0.182 A 
+ATOM      3  S1  THD d 827      63.166  47.166  12.320  0.00  0.00    -0.104 SA
+ATOM      4  C5  THD d 827      63.900  47.450  10.833  0.00  0.00     0.004 A 
+ATOM      5  C4  THD d 827      63.174  46.759   9.825  0.00  0.00     0.017 A 
+ATOM      6  CM4 THD d 827      63.644  46.733   8.367  0.00  0.00     0.069 C 
+ENDROOT
+BRANCH   4   7
+ATOM      7  C6  THD d 827      65.180  48.265  10.889  0.00  0.00     0.074 C 
+BRANCH   7   8
+ATOM      8  C7  THD d 827      64.859  49.657  11.364  0.00  0.00     0.185 C 
+BRANCH   8   9
+ATOM      9  O7  THD d 827      66.097  50.341  11.338  0.00  0.00    -0.296 OA
+BRANCH   9  10
+ATOM     10  PA  THD d 827      66.101  51.778  11.923  0.00  0.00     0.401 P 
+ATOM     11  O1A THD d 827      64.890  52.480  11.490  0.00  0.00    -0.631 OA
+BRANCH  10  12
+ATOM     12  O2A THD d 827      67.390  52.369  11.500  0.00  0.00    -0.307 OA
+ATOM     13  H   THD d 827      67.434  52.390  10.531  0.00  0.00     0.222 HD
+ENDBRANCH  10  12
+BRANCH  10  14
+ATOM     14  O3A THD d 827      65.867  51.670  13.487  0.00  0.00    -0.195 OA
+BRANCH  14  15
+ATOM     15  PB  THD d 827      67.042  51.406  14.594  0.00  0.00     0.399 P 
+ATOM     16  O1B THD d 827      68.391  51.328  14.044  0.00  0.00    -0.631 OA
+BRANCH  15  17
+ATOM     17  O3B THD d 827      66.740  50.054  15.365  0.00  0.00    -0.307 OA
+ATOM     18  H   THD d 827      66.885  49.303  14.769  0.00  0.00     0.222 HD
+ENDBRANCH  15  17
+BRANCH  15  19
+ATOM     19  O2B THD d 827      66.813  52.647  15.545  0.00  0.00    -0.307 OA
+ATOM     20  H   THD d 827      67.001  53.465  15.060  0.00  0.00     0.222 HD
+ENDBRANCH  15  19
+ENDBRANCH  14  15
+ENDBRANCH  10  14
+ENDBRANCH   9  10
+ENDBRANCH   8   9
+ENDBRANCH   7   8
+ENDBRANCH   4   7
+BRANCH   1  21
+ATOM     21  C7' THD d 827      61.209  45.382   9.147  0.00  0.00     0.168 C 
+BRANCH  21  22
+ATOM     22  C5' THD d 827      60.195  46.453   8.504  0.00  0.00     0.023 A 
+ATOM     23  C6' THD d 827      60.126  46.553   7.122  0.00  0.00     0.131 A 
+ATOM     24  N1' THD d 827      59.278  47.421   6.528  0.00  0.00    -0.245 NA
+ATOM     25  C2' THD d 827      58.434  48.235   7.204  0.00  0.00     0.124 A 
+ATOM     26  CM2 THD d 827      57.501  49.158   6.456  0.00  0.00     0.093 C 
+ATOM     27  N3' THD d 827      58.450  48.248   8.552  0.00  0.00    -0.216 NA
+ATOM     28  C4' THD d 827      59.309  47.352   9.202  0.00  0.00     0.132 A 
+BRANCH  28  29
+ATOM     29  N4' THD d 827      59.263  47.328  10.563  0.00  0.00    -0.383 N 
+ATOM     30  H   THD d 827      59.848  46.715  11.065  0.00  0.00     0.157 HD
+ATOM     31  H   THD d 827      58.645  47.924  11.045  0.00  0.00     0.157 HD
+ENDBRANCH  28  29
+ENDBRANCH  21  22
+ENDBRANCH   1  21
+BRANCH   2  32
+ATOM     32  C8  THD d 827      60.974  45.283  12.647  0.00  0.00     0.174 C 
+BRANCH  32  33
+ATOM     33  O9  THD d 827      60.146  44.299  12.073  0.00  0.00    -0.391 OA
+ATOM     34  H   THD d 827      59.421  44.727  11.592  0.00  0.00     0.210 HD
+ENDBRANCH  32  33
+BRANCH  32  35
+ATOM     35  C9  THD d 827      60.400  46.002  13.925  0.00  0.00     0.198 C 
+BRANCH  35  36
+ATOM     36  O10 THD d 827      59.142  46.692  13.740  0.00  0.00    -0.398 OA
+ATOM     37  H   THD d 827      59.259  47.411  13.100  0.00  0.00     0.209 HD
+ENDBRANCH  35  36
+ENDBRANCH  32  35
+ENDBRANCH   2  32
+TORSDOF 16

@@ -1,0 +1,42 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2_3  and  N2_2 
+REMARK    2  A    between atoms: C9_13  and  C6_11 
+REMARK    3  A    between atoms: C10_15  and  C9_13 
+REMARK    4  A    between atoms: C9_13  and  O9_14 
+REMARK    5  A    between atoms: O10_16  and  C10_15 
+ROOT
+ATOM      1  N1  HBI d 700      -7.547  22.660   7.322  0.00  0.00    -0.047 NA
+ATOM      2  C2  HBI d 700      -6.461  21.896   7.408  0.00  0.00     0.701 A 
+ATOM      3  N3  HBI d 700      -5.180  22.322   7.343  0.00  0.00    -0.167 N 
+ATOM      4  C4  HBI d 700      -4.925  23.657   7.175  0.00  0.00     0.202 A 
+ATOM      5  O4  HBI d 700      -3.597  23.994   7.123  0.00  0.00    -0.174 OA
+ATOM      6  C4A HBI d 700      -6.059  24.657   7.072  0.00  0.00     0.258 A 
+ATOM      7  C8A HBI d 700      -7.406  23.997   7.155  0.00  0.00     0.177 A 
+ATOM      8  N8  HBI d 700      -8.648  24.788   7.069  0.00  0.00    -0.240 NA
+ATOM      9  C7  HBI d 700      -8.539  26.306   6.892  0.00  0.00     0.148 A 
+ATOM     10  C6  HBI d 700      -7.125  26.973   6.808  0.00  0.00     0.079 A 
+ATOM     11  N5  HBI d 700      -5.987  26.165   6.896  0.00  0.00    -0.269 NA
+ATOM     12  H   HBI d 700      -4.438  21.679   7.416  0.00  0.00     0.186 HD
+ENDROOT
+BRANCH  10  13
+ATOM     13  C9  HBI d 700      -7.073  28.560   6.640  0.00  0.00     0.199 C 
+BRANCH  13  14
+ATOM     14  C10 HBI d 700      -6.273  29.063   5.304  0.00  0.00     0.149 C 
+ATOM     15  C11 HBI d 700      -4.793  28.503   5.236  0.00  0.00     0.042 C 
+BRANCH  14  16
+ATOM     16  O10 HBI d 700      -6.205  30.567   5.199  0.00  0.00    -0.393 OA
+ATOM     17  H   HBI d 700      -5.688  30.920   5.940  0.00  0.00     0.210 HD
+ENDBRANCH  14  16
+ENDBRANCH  13  14
+BRANCH  13  18
+ATOM     18  O9  HBI d 700      -6.575  29.120   7.847  0.00  0.00    -0.387 OA
+ATOM     19  H   HBI d 700      -5.674  28.797   8.006  0.00  0.00     0.210 HD
+ENDBRANCH  13  18
+ENDBRANCH  10  13
+BRANCH   2  20
+ATOM     20  N2  HBI d 700      -6.723  20.566   7.589  0.00  0.00    -0.233 N 
+ATOM     21  H   HBI d 700      -7.654  20.250   7.637  0.00  0.00     0.174 HD
+ATOM     22  H   HBI d 700      -5.981  19.925   7.671  0.00  0.00     0.174 HD
+ENDBRANCH   2  20
+TORSDOF 5

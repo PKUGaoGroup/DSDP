@@ -1,0 +1,56 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C15_3  and  N14_21 
+REMARK    2  A    between atoms: C16_22  and  C15_3 
+REMARK    3  A    between atoms: C19_24  and  C20_5 
+REMARK    4  A    between atoms: C20_5  and  N21_25 
+REMARK    5  A    between atoms: C02_11  and  N01_10 
+REMARK    6  A    between atoms: C06_15  and  C05_14 
+ROOT
+ATOM      1  C10 JDK d   1     -24.086 -19.205  11.742  0.00  0.00     0.014 A 
+ATOM      2  C13 JDK d   1     -24.717 -22.814  11.159  0.00  0.00     0.092 A 
+ATOM      3  C06 JDK d   1     -21.735 -19.532  12.278  0.00  0.00    -0.003 A 
+ATOM      4  C07 JDK d   1     -21.815 -20.917  12.066  0.00  0.00     0.044 A 
+ATOM      5  C08 JDK d   1     -23.083 -21.452  11.704  0.00  0.00     0.045 A 
+ATOM      6  C09 JDK d   1     -24.182 -20.618  11.551  0.00  0.00    -0.008 A 
+ATOM      7  C11 JDK d   1     -22.837 -18.654  12.101  0.00  0.00     0.015 A 
+ATOM      8  C12 JDK d   1     -25.227 -21.467  11.189  0.00  0.00     0.031 A 
+ATOM      9  N14 JDK d   1     -23.463 -22.768  11.453  0.00  0.00    -0.352 N 
+ENDROOT
+BRANCH   9  10
+ATOM     10  C15 JDK d   1     -22.547 -23.928  11.549  0.00  0.00     0.167 C 
+BRANCH  10  11
+ATOM     11  C16 JDK d   1     -21.853 -24.328  10.245  0.00  0.00    -0.040 A 
+ATOM     12  C17 JDK d   1     -21.850 -23.482   9.028  0.00  0.00     0.009 A 
+ATOM     13  C18 JDK d   1     -21.215 -23.909   7.906  0.00  0.00     0.009 A 
+ATOM     14  C19 JDK d   1     -20.547 -25.187   7.895  0.00  0.00    -0.033 A 
+ATOM     15  C27 JDK d   1     -20.573 -25.988   9.048  0.00  0.00     0.009 A 
+ATOM     16  C28 JDK d   1     -21.237 -25.535  10.227  0.00  0.00     0.009 A 
+BRANCH  14  17
+ATOM     17  C20 JDK d   1     -19.815 -25.710   6.640  0.00  0.00     0.273 C 
+BRANCH  17  18
+ATOM     18  N21 JDK d   1     -18.772 -25.085   6.353  0.00  0.00    -0.067 N 
+ATOM     19  C22 JDK d   1     -18.286 -25.498   5.084  0.00  0.00     0.235 C 
+ATOM     20  C23 JDK d   1     -16.769 -25.673   4.914  0.00  0.00     0.028 C 
+ATOM     21  C24 JDK d   1     -16.010 -24.863   5.800  0.00  0.00     0.003 C 
+ATOM     22  C25 JDK d   1     -16.352 -25.210   7.140  0.00  0.00     0.028 C 
+ATOM     23  C26 JDK d   1     -17.824 -24.967   7.447  0.00  0.00     0.235 C 
+ATOM     24  H22 JDK d   1     -19.073 -24.135   6.203  0.00  0.00     0.280 HD
+ENDBRANCH  17  18
+ENDBRANCH  14  17
+ENDBRANCH  10  11
+ENDBRANCH   9  10
+BRANCH   3  25
+ATOM     25  C05 JDK d   1     -20.398 -18.991  12.572  0.00  0.00     0.090 A 
+ATOM     26  N04 JDK d   1     -19.325 -19.731  12.833  0.00  0.00    -0.173 NA
+ATOM     27  N03 JDK d   1     -18.217 -18.892  12.954  0.00  0.00    -0.262 N 
+ATOM     28  C02 JDK d   1     -18.628 -17.592  12.727  0.00  0.00     0.117 A 
+ATOM     29  H17 JDK d   1     -17.256 -19.191  13.175  0.00  0.00     0.191 HD
+ATOM     30  C29 JDK d   1     -20.013 -17.627  12.444  0.00  0.00     0.083 A 
+BRANCH  28  31
+ATOM     31  N01 JDK d   1     -17.771 -16.438  12.769  0.00  0.00    -0.384 N 
+ATOM     32  H15 JDK d   1     -18.159 -15.501  12.587  0.00  0.00     0.157 HD
+ATOM     33  H16 JDK d   1     -16.769 -16.548  12.981  0.00  0.00     0.157 HD
+ENDBRANCH  28  31
+ENDBRANCH   3  25
+TORSDOF 6

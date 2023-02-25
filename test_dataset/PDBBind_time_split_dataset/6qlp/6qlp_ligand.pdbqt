@@ -1,0 +1,64 @@
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C09_13  and  C10_1 
+REMARK    2  A    between atoms: C10_1  and  O11_29 
+REMARK    3  A    between atoms: C17_2  and  C18_17 
+REMARK    4  A    between atoms: S06_32  and  C05_11 
+REMARK    5  A    between atoms: C07_12  and  S06_32 
+REMARK    6  A    between atoms: C12_14  and  O13_30 
+REMARK    7  A    between atoms: N15_25  and  C14_15 
+REMARK    8  A    between atoms: C29_19  and  O30_31 
+ROOT
+ATOM      1  C07 J3Q d   1     -19.574   8.859  -1.676  0.00  0.00     0.219 C 
+ATOM      2  C09 J3Q d   1     -19.469   6.644  -0.884  0.00  0.00     0.177 C 
+ATOM      3  C12 J3Q d   1     -17.966   6.795  -0.588  0.00  0.00     0.176 C 
+ATOM      4  C14 J3Q d   1     -17.345   7.840  -1.549  0.00  0.00     0.174 C 
+ATOM      5  C29 J3Q d   1     -18.106   9.167  -1.496  0.00  0.00     0.185 C 
+ATOM      6  O08 J3Q d   1     -20.112   7.896  -0.811  0.00  0.00    -0.362 OA
+ENDROOT
+BRANCH   4   7
+ATOM      7  N15 J3Q d   1     -15.940   7.973  -1.332  0.00  0.00    -0.250 N 
+ATOM      8  C16 J3Q d   1     -15.260   8.405  -0.232  0.00  0.00     0.148 A 
+ATOM      9  C17 J3Q d   1     -13.927   8.350  -0.531  0.00  0.00     0.108 A 
+ATOM     10  N27 J3Q d   1     -13.825   7.883  -1.832  0.00  0.00    -0.130 NA
+ATOM     11  N28 J3Q d   1     -15.018   7.643  -2.305  0.00  0.00    -0.065 NA
+BRANCH   9  12
+ATOM     12  C18 J3Q d   1     -12.779   8.631   0.258  0.00  0.00     0.002 A 
+ATOM     13  C26 J3Q d   1     -12.857   8.664   1.641  0.00  0.00     0.059 A 
+ATOM     14  C24 J3Q d   1     -11.753   8.917   2.384  0.00  0.00     0.158 A 
+ATOM     15  C22 J3Q d   1     -10.510   9.098   1.811  0.00  0.00     0.193 A 
+ATOM     16  F25 J3Q d   1     -11.799   8.916   3.710  0.00  0.00    -0.203 F 
+ATOM     17  C20 J3Q d   1     -10.415   9.062   0.443  0.00  0.00     0.158 A 
+ATOM     18  F23 J3Q d   1      -9.438   9.334   2.564  0.00  0.00    -0.200 F 
+ATOM     19  C19 J3Q d   1     -11.533   8.793  -0.327  0.00  0.00     0.059 A 
+ATOM     20  F21 J3Q d   1      -9.219   9.240  -0.111  0.00  0.00    -0.203 F 
+ENDBRANCH   9  12
+ENDBRANCH   4   7
+BRANCH   3  21
+ATOM     21  O13 J3Q d   1     -17.781   7.161   0.723  0.00  0.00    -0.391 OA
+ATOM     22  H19 J3Q d   1     -16.851   7.227   0.904  0.00  0.00     0.210 HD
+ENDBRANCH   3  21
+BRANCH   5  23
+ATOM     23  O30 J3Q d   1     -17.614  10.043  -2.460  0.00  0.00    -0.390 OA
+ATOM     24  H20 J3Q d   1     -16.692  10.206  -2.297  0.00  0.00     0.210 HD
+ENDBRANCH   5  23
+BRANCH   2  25
+ATOM     25  C10 J3Q d   1     -20.173   5.670   0.045  0.00  0.00     0.198 C 
+BRANCH  25  26
+ATOM     26  O11 J3Q d   1     -21.507   5.438  -0.439  0.00  0.00    -0.398 OA
+ATOM     27  H18 J3Q d   1     -21.982   6.260  -0.460  0.00  0.00     0.209 HD
+ENDBRANCH  25  26
+ENDBRANCH   2  25
+BRANCH   1  28
+ATOM     28  S06 J3Q d   1     -20.587  10.300  -1.759  0.00  0.00    -0.095 SA
+BRANCH  28  29
+ATOM     29  C05 J3Q d   1     -21.749   9.867  -3.023  0.00  0.00     0.003 A 
+ATOM     30  C04 J3Q d   1     -22.226   8.562  -3.290  0.00  0.00     0.019 A 
+ATOM     31  C03 J3Q d   1     -23.125   8.312  -4.306  0.00  0.00     0.008 A 
+ATOM     32  C02 J3Q d   1     -23.581   9.356  -5.109  0.00  0.00    -0.062 A 
+ATOM     33  C01 J3Q d   1     -24.557   9.130  -6.198  0.00  0.00     0.048 C 
+ATOM     34  C32 J3Q d   1     -23.094  10.663  -4.855  0.00  0.00     0.008 A 
+ATOM     35  C31 J3Q d   1     -22.173  10.886  -3.831  0.00  0.00     0.019 A 
+ENDBRANCH  28  29
+ENDBRANCH   1  28
+TORSDOF 8

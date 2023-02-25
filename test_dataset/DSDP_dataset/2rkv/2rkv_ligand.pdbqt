@@ -1,0 +1,69 @@
+REMARK  10 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C45_3  and  C44_2 
+REMARK    2  A    between atoms: C44_2  and  O17_7 
+REMARK    3  A    between atoms: C46_4  and  C45_3 
+REMARK    4  A    between atoms: O17_7  and  C31_8 
+REMARK    5  A    between atoms: C38_16  and  C29_15 
+REMARK    6  A    between atoms: O12_17  and  C38_16 
+REMARK    7  A    between atoms: C40_18  and  O12_17 
+REMARK    8  A    between atoms: C27_27  and  O14_30 
+REMARK    9  A    between atoms: C26_28  and  O16_29 
+REMARK   10  A    between atoms: O14_30  and  C42_31 
+ROOT
+ATOM      1  C31 ZBA d 454      29.081  30.178  13.175  0.00  0.00     0.161 C 
+ATOM      2  C30 ZBA d 454      30.288  30.180  14.052  0.00  0.00     0.052 C 
+ATOM      3  C32 ZBA d 454      27.890  30.849  13.749  0.00  0.00    -0.056 C 
+ATOM      4  C39 ZBA d 454      26.637  30.708  12.915  0.00  0.00     0.046 C 
+ATOM      5  C33 ZBA d 454      27.953  31.525  14.854  0.00  0.00     0.010 C 
+ATOM      6  C34 ZBA d 454      29.175  31.683  15.675  0.00  0.00     0.157 C 
+ATOM      7  O10 ZBA d 454      29.042  30.695  16.716  0.00  0.00    -0.370 OA
+ATOM      8  C29 ZBA d 454      30.490  31.426  14.914  0.00  0.00     0.027 C 
+ATOM      9  C28 ZBA d 454      31.670  31.249  15.960  0.00  0.00     0.034 C 
+ATOM     10  C37 ZBA d 454      33.067  31.146  15.317  0.00  0.00     0.022 C 
+ATOM     11  C35 ZBA d 454      31.313  30.045  16.822  0.00  0.00     0.121 A 
+ATOM     12  C25 ZBA d 454      30.133  30.539  17.575  0.00  0.00     0.191 C 
+ATOM     13  C36 ZBA d 454      31.801  28.697  16.748  0.00  0.00     0.210 A 
+ATOM     14  O11 ZBA d 454      32.390  29.596  17.657  0.00  0.00    -0.371 OA
+ATOM     15  C27 ZBA d 454      31.584  32.369  17.050  0.00  0.00     0.175 C 
+ATOM     16  C26 ZBA d 454      30.639  31.840  18.113  0.00  0.00     0.180 C 
+ENDROOT
+BRANCH   1  17
+ATOM     17  O17 ZBA d 454      29.324  30.836  11.922  0.00  0.00    -0.311 OA
+BRANCH  17  18
+ATOM     18  C44 ZBA d 454      29.862  30.184  10.886  0.00  0.00     0.259 C 
+ATOM     19  O18 ZBA d 454      30.289  29.109  11.008  0.00  0.00    -0.265 OA
+BRANCH  18  20
+ATOM     20  C45 ZBA d 454      29.801  30.967   9.625  0.00  0.00     0.115 C 
+BRANCH  20  21
+ATOM     21  C46 ZBA d 454      28.449  31.009   9.081  0.00  0.00    -0.013 C 
+ATOM     22  C47 ZBA d 454      28.259  31.677   7.754  0.00  0.00     0.010 C 
+ATOM     23  C48 ZBA d 454      27.970  29.677   8.813  0.00  0.00     0.010 C 
+ENDBRANCH  20  21
+ENDBRANCH  18  20
+ENDBRANCH  17  18
+ENDBRANCH   1  17
+BRANCH   8  24
+ATOM     24  C38 ZBA d 454      30.764  32.628  14.017  0.00  0.00     0.192 C 
+BRANCH  24  25
+ATOM     25  O12 ZBA d 454      31.536  32.241  12.891  0.00  0.00    -0.321 OA
+BRANCH  25  26
+ATOM     26  C40 ZBA d 454      32.480  33.025  12.397  0.00  0.00     0.254 C 
+ATOM     27  C41 ZBA d 454      33.119  32.376  11.192  0.00  0.00     0.126 C 
+ATOM     28  O13 ZBA d 454      32.813  34.034  12.800  0.00  0.00    -0.266 OA
+ENDBRANCH  25  26
+ENDBRANCH  24  25
+ENDBRANCH   8  24
+BRANCH  15  29
+ATOM     29  O14 ZBA d 454      32.891  32.446  17.628  0.00  0.00    -0.313 OA
+BRANCH  29  30
+ATOM     30  C42 ZBA d 454      33.436  33.511  18.203  0.00  0.00     0.255 C 
+ATOM     31  C43 ZBA d 454      32.519  34.620  18.235  0.00  0.00     0.126 C 
+ATOM     32  O15 ZBA d 454      34.531  33.499  18.664  0.00  0.00    -0.266 OA
+ENDBRANCH  29  30
+ENDBRANCH  15  29
+BRANCH  16  33
+ATOM     33  O16 ZBA d 454      29.607  32.733  18.425  0.00  0.00    -0.390 OA
+ATOM     34  H   ZBA d 454      29.085  32.915  17.628  0.00  0.00     0.210 HD
+ENDBRANCH  16  33
+TORSDOF 10

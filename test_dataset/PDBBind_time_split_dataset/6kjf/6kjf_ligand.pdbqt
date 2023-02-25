@@ -1,0 +1,77 @@
+REMARK  13 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C3_9  and  O3_3 
+REMARK    2  A    between atoms: C5_11  and  O5_4 
+REMARK    3  A    between atoms: C14_22  and  O14_5 
+REMARK    4  A    between atoms: O14_5  and  C18_25 
+REMARK    5  A    between atoms: C2_8  and  C1_7 
+REMARK    6  A    between atoms: C3_9  and  C2_8 
+REMARK    7  A    between atoms: C4_10  and  C3_9 
+REMARK    8  A    between atoms: C5_11  and  C4_10 
+REMARK    9  A    between atoms: C6_12  and  C5_11 
+REMARK   10  A    between atoms: C7_13  and  C6_12 
+REMARK   11  A    between atoms: C8_14  and  C7_13 
+REMARK   12  A    between atoms: C18_25  and  C19_26 
+REMARK   13  A    between atoms: C19_26  and  C20_27 
+ROOT
+ATOM      1  C8  SIM d   1      -8.218  35.000  -5.406  0.00  0.00     0.004 C 
+ATOM      2  C9  SIM d   1      -6.867  35.615  -5.110  0.00  0.00     0.009 C 
+ATOM      3  C10 SIM d   1      -5.879  34.555  -4.781  0.00  0.00    -0.022 C 
+ATOM      4  C11 SIM d   1      -6.275  33.477  -4.187  0.00  0.00     0.004 C 
+ATOM      5  C12 SIM d   1      -7.626  33.344  -3.672  0.00  0.00    -0.055 C 
+ATOM      6  C17 SIM d   1      -7.902  32.505  -2.704  0.00  0.00    -0.015 C 
+ATOM      7  C16 SIM d   1      -9.323  32.368  -2.290  0.00  0.00     0.007 C 
+ATOM      8  C15 SIM d   1     -10.225  32.294  -3.511  0.00  0.00     0.041 C 
+ATOM      9  C14 SIM d   1      -9.989  33.383  -4.531  0.00  0.00     0.141 C 
+ATOM     10  C13 SIM d   1      -8.719  34.183  -4.238  0.00  0.00     0.052 C 
+ATOM     11  C9A SIM d   1      -6.910  36.646  -3.994  0.00  0.00     0.014 C 
+ATOM     12  C24 SIM d   1      -9.455  31.118  -1.463  0.00  0.00     0.014 C 
+ENDROOT
+BRANCH   1  13
+ATOM     13  C7  SIM d   1      -9.221  36.064  -5.720  0.00  0.00     0.009 C 
+BRANCH  13  14
+ATOM     14  C6  SIM d   1      -8.892  36.731  -7.038  0.00  0.00     0.032 C 
+BRANCH  14  15
+ATOM     15  C5  SIM d   1      -9.996  37.697  -7.389  0.00  0.00     0.120 C 
+BRANCH  15  16
+ATOM     16  O5  SIM d   1     -10.247  38.567  -6.320  0.00  0.00    -0.395 OA
+ATOM     17  H2  SIM d   1     -10.920  39.189  -6.570  0.00  0.00     0.210 HD
+ENDBRANCH  15  16
+BRANCH  15  18
+ATOM     18  C4  SIM d   1      -9.543  38.542  -8.526  0.00  0.00     0.064 C 
+BRANCH  18  19
+ATOM     19  C3  SIM d   1      -9.730  37.810  -9.824  0.00  0.00     0.130 C 
+BRANCH  19  20
+ATOM     20  O3  SIM d   1     -11.039  38.049 -10.274  0.00  0.00    -0.395 OA
+ATOM     21  H1  SIM d   1     -11.181  38.985 -10.348  0.00  0.00     0.210 HD
+ENDBRANCH  19  20
+BRANCH  19  22
+ATOM     22  C2  SIM d   1      -8.793  38.407 -10.835  0.00  0.00     0.144 C 
+BRANCH  22  23
+ATOM     23  C1  SIM d   1      -9.648  38.821 -11.980  0.00  0.00     0.175 C 
+ATOM     24  O1A SIM d   1      -9.483  38.330 -13.074  0.00  0.00    -0.648 OA
+ATOM     25  O1B SIM d   1     -10.595  39.727 -11.778  0.00  0.00    -0.648 OA
+ENDBRANCH  22  23
+ENDBRANCH  19  22
+ENDBRANCH  18  19
+ENDBRANCH  15  18
+ENDBRANCH  14  15
+ENDBRANCH  13  14
+ENDBRANCH   1  13
+BRANCH   9  26
+ATOM     26  O14 SIM d   1     -10.113  32.942  -5.862  0.00  0.00    -0.315 OA
+BRANCH  26  27
+ATOM     27  C18 SIM d   1     -11.368  33.437  -6.504  0.00  0.00     0.267 C 
+ATOM     28  O18 SIM d   1     -12.212  34.097  -5.945  0.00  0.00    -0.264 OA
+BRANCH  27  29
+ATOM     29  C19 SIM d   1     -11.768  33.080  -7.869  0.00  0.00     0.040 C 
+ATOM     30  C22 SIM d   1     -11.819  31.528  -7.778  0.00  0.00     0.025 C 
+ATOM     31  C23 SIM d   1     -13.069  33.788  -8.030  0.00  0.00     0.025 C 
+BRANCH  29  32
+ATOM     32  C20 SIM d   1     -10.917  33.673  -9.011  0.00  0.00     0.014 C 
+ATOM     33  C21 SIM d   1     -11.742  34.440 -10.046  0.00  0.00     0.006 C 
+ENDBRANCH  29  32
+ENDBRANCH  27  29
+ENDBRANCH  26  27
+ENDBRANCH   9  26
+TORSDOF 13

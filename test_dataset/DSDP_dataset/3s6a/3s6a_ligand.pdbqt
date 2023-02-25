@@ -1,0 +1,76 @@
+REMARK  12 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N3B_4  and  PB_1 
+REMARK    2  A    between atoms: O3A_8  and  PB_1 
+REMARK    3  A    between atoms: PB_1  and  O1B_2 
+REMARK    4  A    between atoms: O3A_8  and  PA_5 
+REMARK    5  A    between atoms: O5'_9  and  PA_5 
+REMARK    6  A    between atoms: PA_5  and  O1A_6 
+REMARK    7  A    between atoms: C5'_10  and  O5'_9 
+REMARK    8  A    between atoms: C5'_10  and  C4'_11 
+REMARK    9  A    between atoms: O3'_14  and  C3'_13 
+REMARK   10  A    between atoms: C2'_15  and  O2'_16 
+REMARK   11  A    between atoms: N9_18  and  C1'_17 
+REMARK   12  A    between atoms: N6_23  and  C6_22 
+ROOT
+ATOM      1  C4' ANP d 300     -23.558  67.012  -4.614  0.00  0.00     0.180 C 
+ATOM      2  O4' ANP d 300     -24.958  66.741  -4.469  0.00  0.00    -0.353 OA
+ATOM      3  C3' ANP d 300     -23.136  66.229  -5.855  0.00  0.00     0.182 C 
+ATOM      4  C2' ANP d 300     -24.019  65.006  -5.738  0.00  0.00     0.198 C 
+ATOM      5  C1' ANP d 300     -25.308  65.530  -5.148  0.00  0.00     0.262 C 
+ENDROOT
+BRANCH   1   6
+ATOM      6  C5' ANP d 300     -23.359  68.514  -4.719  0.00  0.00     0.215 C 
+BRANCH   6   7
+ATOM      7  O5' ANP d 300     -23.294  69.114  -3.422  0.00  0.00    -0.294 OA
+BRANCH   7   8
+ATOM      8  PA  ANP d 300     -23.770  70.643  -3.228  0.00  0.00     0.401 P 
+ATOM      9  O2A ANP d 300     -25.192  70.621  -3.779  0.00  0.00    -0.631 OA
+BRANCH   8  10
+ATOM     10  O3A ANP d 300     -22.830  71.507  -4.216  0.00  0.00    -0.205 OA
+BRANCH  10  11
+ATOM     11  PB  ANP d 300     -21.303  71.954  -3.833  0.00  0.00     0.327 P 
+ATOM     12  O2B ANP d 300     -20.563  70.703  -3.325  0.00  0.00    -0.641 OA
+BRANCH  11  13
+ATOM     13  N3B ANP d 300     -20.530  72.554  -5.285  0.00  0.00    -0.241 NA
+ATOM     14  H   ANP d 300     -20.430  71.793  -5.956  0.00  0.00     0.130 HD
+ATOM     15  H   ANP d 300     -19.609  72.925  -5.051  0.00  0.00     0.130 HD
+ENDBRANCH  11  13
+BRANCH  11  16
+ATOM     16  O1B ANP d 300     -21.375  73.188  -2.956  0.00  0.00    -0.317 OA
+ATOM     17  H   ANP d 300     -21.871  73.883  -3.416  0.00  0.00     0.221 HD
+ENDBRANCH  11  16
+ENDBRANCH  10  11
+ENDBRANCH   8  10
+BRANCH   8  18
+ATOM     18  O1A ANP d 300     -23.588  71.065  -1.794  0.00  0.00    -0.307 OA
+ATOM     19  H   ANP d 300     -23.877  71.985  -1.688  0.00  0.00     0.222 HD
+ENDBRANCH   8  18
+ENDBRANCH   7   8
+ENDBRANCH   6   7
+ENDBRANCH   1   6
+BRANCH   3  20
+ATOM     20  O3' ANP d 300     -21.746  65.919  -5.909  0.00  0.00    -0.390 OA
+ATOM     21  H   ANP d 300     -21.497  65.410  -5.122  0.00  0.00     0.210 HD
+ENDBRANCH   3  20
+BRANCH   4  22
+ATOM     22  O2' ANP d 300     -23.507  64.106  -4.752  0.00  0.00    -0.388 OA
+ATOM     23  H   ANP d 300     -23.436  64.566  -3.901  0.00  0.00     0.210 HD
+ENDBRANCH   4  22
+BRANCH   5  24
+ATOM     24  N9  ANP d 300     -26.360  65.901  -6.112  0.00  0.00    -0.294 N 
+ATOM     25  C8  ANP d 300     -26.279  66.758  -7.157  0.00  0.00     0.214 A 
+ATOM     26  N7  ANP d 300     -27.489  66.860  -7.772  0.00  0.00    -0.236 NA
+ATOM     27  C5  ANP d 300     -28.361  66.058  -7.110  0.00  0.00     0.149 A 
+ATOM     28  C6  ANP d 300     -29.793  65.703  -7.215  0.00  0.00     0.155 A 
+ATOM     29  C4  ANP d 300     -27.616  65.445  -6.009  0.00  0.00     0.167 A 
+ATOM     30  N1  ANP d 300     -30.276  64.847  -6.292  0.00  0.00    -0.222 NA
+ATOM     31  C2  ANP d 300     -29.531  64.314  -5.315  0.00  0.00     0.237 A 
+ATOM     32  N3  ANP d 300     -28.236  64.595  -5.155  0.00  0.00    -0.222 NA
+BRANCH  28  33
+ATOM     33  N6  ANP d 300     -30.607  66.218  -8.195  0.00  0.00    -0.382 N 
+ATOM     34  H   ANP d 300     -30.240  66.842  -8.862  0.00  0.00     0.157 HD
+ATOM     35  H   ANP d 300     -31.557  65.963  -8.230  0.00  0.00     0.157 HD
+ENDBRANCH  28  33
+ENDBRANCH   5  24
+TORSDOF 12

@@ -1,0 +1,60 @@
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N11_20  and  C7_4 
+REMARK    2  A    between atoms: N11_20  and  C12_8 
+REMARK    3  A    between atoms: C15_10  and  C16_11 
+REMARK    4  A    between atoms: C16_11  and  C17_22 
+REMARK    5  A    between atoms: C19_12  and  C20_13 
+REMARK    6  A    between atoms: C28_30  and  N11_20 
+REMARK    7  A    between atoms: C25_28  and  O26_29 
+REMARK    8  A    between atoms: C28_30  and  C29_31 
+ROOT
+ATOM      1  C12 JUQ d   1       4.040  58.156  29.655  0.00  0.00     0.106 A 
+ATOM      2  C13 JUQ d   1       3.166  57.181  29.171  0.00  0.00     0.153 A 
+ATOM      3  C15 JUQ d   1       4.200  55.572  30.384  0.00  0.00     0.198 A 
+ATOM      4  N14 JUQ d   1       3.222  55.885  29.521  0.00  0.00    -0.236 NA
+ATOM      5  N24 JUQ d   1       5.102  56.402  30.937  0.00  0.00    -0.199 NA
+ATOM      6  C25 JUQ d   1       4.995  57.683  30.535  0.00  0.00     0.195 A 
+ENDROOT
+BRANCH   1   7
+ATOM      7  N11 JUQ d   1       3.965  59.522  29.267  0.00  0.00    -0.341 N 
+BRANCH   7   8
+ATOM      8  C7  JUQ d   1       5.010  60.476  29.073  0.00  0.00     0.046 A 
+ATOM      9  C8  JUQ d   1       5.222  61.552  29.956  0.00  0.00     0.030 A 
+ATOM     10  C9  JUQ d   1       6.223  62.500  29.745  0.00  0.00     0.003 A 
+ATOM     11  C10 JUQ d   1       7.035  62.394  28.626  0.00  0.00     0.012 A 
+ATOM     12  C4  JUQ d   1       6.859  61.318  27.756  0.00  0.00    -0.024 A 
+ATOM     13  C3  JUQ d   1       7.685  61.184  26.658  0.00  0.00     0.012 A 
+ATOM     14  C5  JUQ d   1       5.847  60.363  27.970  0.00  0.00     0.001 A 
+ATOM     15  C2  JUQ d   1       7.512  60.126  25.767  0.00  0.00     0.001 A 
+ATOM     16  C1  JUQ d   1       6.498  59.197  25.955  0.00  0.00     0.001 A 
+ATOM     17  C6  JUQ d   1       5.672  59.327  27.066  0.00  0.00     0.014 A 
+ENDBRANCH   7   8
+BRANCH   7  18
+ATOM     18  C28 JUQ d   1       2.622  60.120  29.126  0.00  0.00     0.134 C 
+BRANCH  18  19
+ATOM     19  C29 JUQ d   1       2.026  59.948  27.785  0.00  0.00     0.004 A 
+ATOM     20  C30 JUQ d   1       1.126  60.988  27.161  0.00  0.00     0.007 A 
+ATOM     21  C31 JUQ d   1       2.458  60.695  26.557  0.00  0.00     0.007 A 
+ENDBRANCH  18  19
+ENDBRANCH   7  18
+ENDBRANCH   1   7
+BRANCH   6  22
+ATOM     22  O26 JUQ d   1       5.866  58.627  31.007  0.00  0.00    -0.338 OA
+ATOM     23  C27 JUQ d   1       6.823  58.159  31.970  0.00  0.00     0.211 C 
+ENDBRANCH   6  22
+BRANCH   3  24
+ATOM     24  C16 JUQ d   1       4.344  54.177  30.792  0.00  0.00     0.202 C 
+ATOM     25  O23 JUQ d   1       5.414  53.830  31.314  0.00  0.00    -0.289 OA
+BRANCH  24  26
+ATOM     26  C17 JUQ d   1       3.188  53.233  30.575  0.00  0.00     0.079 A 
+ATOM     27  C19 JUQ d   1       3.229  51.887  31.254  0.00  0.00     0.099 A 
+ATOM     28  C18 JUQ d   1       3.298  51.985  29.727  0.00  0.00     0.029 A 
+BRANCH  27  29
+ATOM     29  C20 JUQ d   1       2.039  51.296  31.979  0.00  0.00     0.177 C 
+ATOM     30  O21 JUQ d   1       2.139  50.612  33.009  0.00  0.00    -0.648 OA
+ATOM     31  O22 JUQ d   1       0.862  51.554  31.352  0.00  0.00    -0.648 OA
+ENDBRANCH  27  29
+ENDBRANCH  24  26
+ENDBRANCH   3  24
+TORSDOF 8

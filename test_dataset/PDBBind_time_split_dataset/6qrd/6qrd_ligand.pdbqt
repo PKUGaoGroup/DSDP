@@ -1,0 +1,65 @@
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C23_25  and  C22_6 
+REMARK    2  A    between atoms: N27_28  and  C28_8 
+REMARK    3  A    between atoms: C02_10  and  N01_9 
+REMARK    4  A    between atoms: C09_17  and  C05_13 
+REMARK    5  A    between atoms: C18_23  and  N17_22 
+REMARK    6  A    between atoms: C19_24  and  C18_23 
+REMARK    7  A    between atoms: N24_26  and  C23_25 
+ROOT
+ATOM      1  C02 JEH d   1     -18.750 -17.532  12.640  0.00  0.00     0.138 A 
+ATOM      2  N03 JEH d   1     -18.484 -18.860  12.504  0.00  0.00    -0.261 N 
+ATOM      3  N04 JEH d   1     -19.652 -19.491  12.244  0.00  0.00    -0.171 NA
+ATOM      4  C05 JEH d   1     -20.662 -18.623  12.252  0.00  0.00     0.111 A 
+ATOM      5  C06 JEH d   1     -20.122 -17.361  12.462  0.00  0.00     0.120 A 
+ATOM      6  C07 JEH d   1     -20.797 -16.009  12.553  0.00  0.00     0.106 C 
+ATOM      7  N08 JEH d   1     -21.271 -14.976  12.634  0.00  0.00    -0.191 NA
+ATOM      8  H11 JEH d   1     -17.559 -19.305  12.585  0.00  0.00     0.191 HD
+ENDROOT
+BRANCH   1   9
+ATOM      9  N01 JEH d   1     -17.808 -16.496  12.926  0.00  0.00    -0.383 N 
+ATOM     10  H9  JEH d   1     -18.125 -15.519  13.007  0.00  0.00     0.157 HD
+ATOM     11  H10 JEH d   1     -16.812 -16.726  13.051  0.00  0.00     0.157 HD
+ENDBRANCH   1   9
+BRANCH   4  12
+ATOM     12  C09 JEH d   1     -22.086 -19.050  11.894  0.00  0.00    -0.002 A 
+ATOM     13  C10 JEH d   1     -22.283 -20.406  11.581  0.00  0.00     0.044 A 
+ATOM     14  C11 JEH d   1     -23.575 -20.848  11.161  0.00  0.00     0.045 A 
+ATOM     15  C12 JEH d   1     -24.604 -19.930  11.033  0.00  0.00    -0.008 A 
+ATOM     16  N17 JEH d   1     -24.050 -22.107  10.822  0.00  0.00    -0.352 N 
+ATOM     17  C13 JEH d   1     -24.384 -18.550  11.317  0.00  0.00     0.014 A 
+ATOM     18  C15 JEH d   1     -25.741 -20.705  10.587  0.00  0.00     0.031 A 
+ATOM     19  C14 JEH d   1     -23.111 -18.114  11.728  0.00  0.00     0.015 A 
+ATOM     20  C16 JEH d   1     -25.341 -22.042  10.484  0.00  0.00     0.092 A 
+BRANCH  16  21
+ATOM     21  C18 JEH d   1     -23.277 -23.334  10.853  0.00  0.00     0.167 C 
+BRANCH  21  22
+ATOM     22  C19 JEH d   1     -22.352 -23.540   9.630  0.00  0.00    -0.040 A 
+ATOM     23  C20 JEH d   1     -22.592 -22.933   8.389  0.00  0.00     0.009 A 
+ATOM     24  C21 JEH d   1     -21.708 -23.163   7.313  0.00  0.00     0.009 A 
+ATOM     25  C22 JEH d   1     -20.595 -23.999   7.483  0.00  0.00    -0.033 A 
+ATOM     26  C33 JEH d   1     -20.373 -24.589   8.737  0.00  0.00     0.009 A 
+ATOM     27  C34 JEH d   1     -21.248 -24.364   9.810  0.00  0.00     0.009 A 
+BRANCH  25  28
+ATOM     28  C23 JEH d   1     -19.617 -24.219   6.268  0.00  0.00     0.273 C 
+BRANCH  28  29
+ATOM     29  N24 JEH d   1     -18.956 -25.334   6.199  0.00  0.00    -0.064 N 
+ATOM     30  C25 JEH d   1     -17.899 -25.454   7.043  0.00  0.00     0.263 C 
+ATOM     31  C26 JEH d   1     -16.887 -24.336   6.887  0.00  0.00     0.263 C 
+ATOM     32  N27 JEH d   1     -16.559 -24.030   5.606  0.00  0.00    -0.064 N 
+ATOM     33  C31 JEH d   1     -17.216 -24.694   4.609  0.00  0.00     0.263 C 
+ATOM     34  H21 JEH d   1     -15.595 -24.313   5.521  0.00  0.00     0.280 HD
+ATOM     35  C32 JEH d   1     -18.483 -25.488   4.937  0.00  0.00     0.263 C 
+ATOM     36  H18 JEH d   1     -19.601 -26.081   6.405  0.00  0.00     0.280 HD
+BRANCH  32  37
+ATOM     37  C28 JEH d   1     -16.581 -22.754   5.356  0.00  0.00     0.180 C 
+ATOM     38  C29 JEH d   1     -15.456 -22.417   4.388  0.00  0.00     0.039 C 
+ATOM     39  C30 JEH d   1     -16.557 -21.836   6.581  0.00  0.00     0.039 C 
+ENDBRANCH  32  37
+ENDBRANCH  28  29
+ENDBRANCH  25  28
+ENDBRANCH  21  22
+ENDBRANCH  16  21
+ENDBRANCH   4  12
+TORSDOF 7

@@ -1,0 +1,144 @@
+REMARK  26 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C6A_6  and  N6A_7 
+REMARK    2  A    between atoms: C1B_11  and  N9A_10 
+REMARK    3  A    between atoms: O2B_13  and  C2B_12 
+REMARK    4  A    between atoms: O3B_15  and  C3B_14 
+REMARK    5  A    between atoms: O3B_15  and  P3B_16 
+REMARK    6  A    between atoms: P3B_16  and  O8A_18 
+REMARK    7  A    between atoms: P3B_16  and  O9A_19 
+REMARK    8  A    between atoms: C4B_20  and  C5B_22 
+REMARK    9  A    between atoms: C5B_22  and  O5B_23 
+REMARK   10  A    between atoms: P1A_24  and  O5B_23 
+REMARK   11  A    between atoms: O1A_25  and  P1A_24 
+REMARK   12  A    between atoms: P1A_24  and  O3A_27 
+REMARK   13  A    between atoms: O3A_27  and  P2A_28 
+REMARK   14  A    between atoms: P2A_28  and  O6A_31 
+REMARK   15  A    between atoms: P2A_28  and  O5A_30 
+REMARK   16  A    between atoms: CCP_33  and  O6A_31 
+REMARK   17  A    between atoms: CCP_33  and  CBP_32 
+REMARK   18  A    between atoms: CAP_36  and  CBP_32 
+REMARK   19  A    between atoms: OAP_37  and  CAP_36 
+REMARK   20  A    between atoms: CAP_36  and  C9P_38 
+REMARK       I    between atoms: N8P_40  and  C9P_38 
+REMARK   21  A    between atoms: N8P_40  and  C7P_41 
+REMARK   22  A    between atoms: C7P_41  and  C6P_42 
+REMARK   23  A    between atoms: C6P_42  and  C5P_43 
+REMARK       I    between atoms: C5P_43  and  N4P_45 
+REMARK   24  A    between atoms: N4P_45  and  C3P_46 
+REMARK   25  A    between atoms: C3P_46  and  C2P_47 
+REMARK   26  A    between atoms: C2P_47  and  S1P_48 
+ROOT
+ATOM      1  P1A COA d 401     -11.009 -43.273   0.013  0.00  0.00     0.401 P 
+ATOM      2  O2A COA d 401     -10.312 -44.098  -1.055  0.00  0.00    -0.631 OA
+ENDROOT
+BRANCH   1   3
+ATOM      3  O1A COA d 401     -11.012 -41.824  -0.418  0.00  0.00    -0.307 OA
+ATOM      4  H   COA d 401     -11.433 -41.746  -1.289  0.00  0.00     0.222 HD
+ENDBRANCH   1   3
+BRANCH   1   5
+ATOM      5  O5B COA d 401     -12.499 -43.748   0.079  0.00  0.00    -0.294 OA
+BRANCH   5   6
+ATOM      6  C5B COA d 401     -12.803 -45.118   0.006  0.00  0.00     0.215 C 
+BRANCH   6   7
+ATOM      7  C4B COA d 401     -13.510 -45.461  -1.287  0.00  0.00     0.180 C 
+ATOM      8  C3B COA d 401     -14.536 -44.468  -1.727  0.00  0.00     0.197 C 
+ATOM      9  C2B COA d 401     -15.195 -45.226  -2.790  0.00  0.00     0.199 C 
+ATOM     10  C1B COA d 401     -15.273 -46.589  -2.186  0.00  0.00     0.262 C 
+ATOM     11  O4B COA d 401     -14.256 -46.655  -1.211  0.00  0.00    -0.353 OA
+BRANCH   8  12
+ATOM     12  O3B COA d 401     -14.020 -43.276  -2.185  0.00  0.00    -0.286 OA
+BRANCH  12  13
+ATOM     13  P3B COA d 401     -14.814 -41.951  -1.882  0.00  0.00     0.391 P 
+ATOM     14  O7A COA d 401     -15.533 -41.485  -3.127  0.00  0.00    -0.632 OA
+BRANCH  13  15
+ATOM     15  O8A COA d 401     -13.844 -40.878  -1.442  0.00  0.00    -0.307 OA
+ATOM     16  H   COA d 401     -13.198 -40.718  -2.147  0.00  0.00     0.222 HD
+ENDBRANCH  13  15
+BRANCH  13  17
+ATOM     17  O9A COA d 401     -15.823 -42.197  -0.773  0.00  0.00    -0.307 OA
+ATOM     18  H   COA d 401     -16.448 -42.885  -1.051  0.00  0.00     0.222 HD
+ENDBRANCH  13  17
+ENDBRANCH  12  13
+ENDBRANCH   8  12
+BRANCH   9  19
+ATOM     19  O2B COA d 401     -14.433 -45.192  -3.950  0.00  0.00    -0.388 OA
+ATOM     20  H   COA d 401     -13.540 -45.520  -3.760  0.00  0.00     0.210 HD
+ENDBRANCH   9  19
+BRANCH  10  21
+ATOM     21  N9A COA d 401     -16.630 -46.925  -1.682  0.00  0.00    -0.294 N 
+ATOM     22  C8A COA d 401     -17.147 -48.170  -1.646  0.00  0.00     0.214 A 
+ATOM     23  N7A COA d 401     -18.389 -48.144  -1.144  0.00  0.00    -0.236 NA
+ATOM     24  C5A COA d 401     -18.723 -46.885  -0.838  0.00  0.00     0.149 A 
+ATOM     25  C4A COA d 401     -17.607 -46.062  -1.175  0.00  0.00     0.167 A 
+ATOM     26  C6A COA d 401     -19.866 -46.273  -0.292  0.00  0.00     0.155 C 
+ATOM     27  N3A COA d 401     -17.713 -44.726  -0.950  0.00  0.00    -0.222 NA
+ATOM     28  C2A COA d 401     -18.874 -44.165  -0.510  0.00  0.00     0.237 C 
+ATOM     29  N1A COA d 401     -19.862 -44.962  -0.037  0.00  0.00    -0.222 NA
+BRANCH  26  30
+ATOM     30  N6A COA d 401     -20.924 -47.110   0.283  0.00  0.00    -0.382 N 
+ATOM     31  H   COA d 401     -20.939 -48.078   0.103  0.00  0.00     0.157 HD
+ATOM     32  H   COA d 401     -21.620 -46.704   0.849  0.00  0.00     0.157 HD
+ENDBRANCH  26  30
+ENDBRANCH  10  21
+ENDBRANCH   6   7
+ENDBRANCH   5   6
+ENDBRANCH   1   5
+BRANCH   1  33
+ATOM     33  O3A COA d 401     -10.314 -43.389   1.448  0.00  0.00    -0.195 OA
+BRANCH  33  34
+ATOM     34  P2A COA d 401      -8.835 -43.905   1.763  0.00  0.00     0.401 P 
+ATOM     35  O4A COA d 401      -8.189 -44.466   0.527  0.00  0.00    -0.631 OA
+BRANCH  34  36
+ATOM     36  O6A COA d 401      -7.813 -42.815   2.473  0.00  0.00    -0.296 OA
+BRANCH  36  37
+ATOM     37  CCP COA d 401      -7.713 -41.435   2.115  0.00  0.00     0.192 C 
+BRANCH  37  38
+ATOM     38  CBP COA d 401      -7.873 -40.449   3.339  0.00  0.00     0.009 C 
+ATOM     39  CDP COA d 401      -9.360 -40.266   3.624  0.00  0.00     0.020 C 
+ATOM     40  CEP COA d 401      -7.314 -41.109   4.566  0.00  0.00     0.020 C 
+BRANCH  38  41
+ATOM     41  CAP COA d 401      -7.240 -39.045   3.096  0.00  0.00     0.219 C 
+BRANCH  41  42
+ATOM     42  OAP COA d 401      -8.193 -38.322   2.375  0.00  0.00    -0.385 OA
+ATOM     43  H   COA d 401      -8.955 -38.134   2.945  0.00  0.00     0.210 HD
+ENDBRANCH  41  42
+BRANCH  41  44
+ATOM     44  C9P COA d 401      -6.714 -38.028   4.162  0.00  0.00     0.247 C 
+ATOM     45  N8P COA d 401      -7.075 -36.635   3.940  0.00  0.00    -0.358 N 
+ATOM     46  H   COA d 401      -7.643 -36.469   3.153  0.00  0.00     0.162 HD
+ATOM     47  O9P COA d 401      -5.995 -38.323   5.111  0.00  0.00    -0.271 OA
+BRANCH  45  48
+ATOM     48  C7P COA d 401      -6.720 -35.451   4.710  0.00  0.00     0.132 C 
+BRANCH  48  49
+ATOM     49  C6P COA d 401      -6.750 -35.578   6.217  0.00  0.00     0.122 C 
+BRANCH  49  50
+ATOM     50  C5P COA d 401      -8.157 -35.321   6.783  0.00  0.00     0.219 C 
+ATOM     51  O5P COA d 401      -8.892 -34.460   6.283  0.00  0.00    -0.274 OA
+ATOM     52  N4P COA d 401      -8.639 -36.113   7.924  0.00  0.00    -0.360 N 
+ATOM     53  H   COA d 401      -8.059 -36.799   8.327  0.00  0.00     0.162 HD
+BRANCH  52  54
+ATOM     54  C3P COA d 401      -9.973 -35.885   8.459  0.00  0.00     0.132 C 
+BRANCH  54  55
+ATOM     55  C2P COA d 401      -9.940 -34.737   9.451  0.00  0.00     0.090 C 
+BRANCH  55  56
+ATOM     56  S1P COA d 401      -9.093 -35.255  10.923  0.00  0.00    -0.181 SA
+ATOM     57  H   COA d 401      -9.746 -36.314  11.473  0.00  0.00     0.101 HD
+ENDBRANCH  55  56
+ENDBRANCH  54  55
+ENDBRANCH  52  54
+ENDBRANCH  49  50
+ENDBRANCH  48  49
+ENDBRANCH  45  48
+ENDBRANCH  41  44
+ENDBRANCH  38  41
+ENDBRANCH  37  38
+ENDBRANCH  36  37
+ENDBRANCH  34  36
+BRANCH  34  58
+ATOM     58  O5A COA d 401      -9.073 -45.103   2.643  0.00  0.00    -0.307 OA
+ATOM     59  H   COA d 401      -9.675 -45.718   2.196  0.00  0.00     0.222 HD
+ENDBRANCH  34  58
+ENDBRANCH  33  34
+ENDBRANCH   1  33
+TORSDOF 26

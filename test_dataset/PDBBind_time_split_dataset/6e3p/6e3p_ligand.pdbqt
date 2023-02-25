@@ -1,0 +1,38 @@
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAO_2  and  CAU_4 
+REMARK    2  A    between atoms: CAS_6  and  OAD_7 
+REMARK    3  A    between atoms: CAQ_17  and  CAT_18 
+ROOT
+ATOM      1  CAU HO1 d   1     -19.156  17.069 135.727  0.00  0.00     0.147 A 
+ATOM      2  NAN HO1 d   1     -19.880  17.822 136.672  0.00  0.00    -0.242 NA
+ATOM      3  CAS HO1 d   1     -19.519  17.150 134.354  0.00  0.00     0.250 A 
+ATOM      4  CAV HO1 d   1     -20.592  17.957 133.947  0.00  0.00     0.186 A 
+ATOM      5  OAB HO1 d   1     -20.962  18.061 132.771  0.00  0.00    -0.290 OA
+ATOM      6  CAI HO1 d   1     -21.276  18.688 134.910  0.00  0.00     0.085 A 
+ATOM      7  CAR HO1 d   1     -20.947  18.648 136.274  0.00  0.00     0.071 A 
+ATOM      8  CAP HO1 d   1     -21.683  19.419 137.201  0.00  0.00    -0.006 A 
+ATOM      9  CAH HO1 d   1     -22.853  20.075 136.780  0.00  0.00     0.029 A 
+ATOM     10  CAF HO1 d   1     -21.310  19.580 138.545  0.00  0.00     0.014 A 
+ATOM     11  CAE HO1 d   1     -22.099  20.367 139.398  0.00  0.00     0.002 A 
+ATOM     12  CAG HO1 d   1     -23.262  21.007 138.951  0.00  0.00     0.015 A 
+ATOM     13  CAQ HO1 d   1     -23.658  20.869 137.615  0.00  0.00     0.014 A 
+ENDROOT
+BRANCH   1  14
+ATOM     14  CAO HO1 d   1     -18.125  16.241 136.199  0.00  0.00     0.227 C 
+ATOM     15  OAA HO1 d   1     -17.974  16.030 137.428  0.00  0.00    -0.643 OA
+ATOM     16  OAC HO1 d   1     -17.402  15.615 135.389  0.00  0.00    -0.643 OA
+ENDBRANCH   1  14
+BRANCH   3  17
+ATOM     17  OAD HO1 d   1     -18.839  16.418 133.393  0.00  0.00    -0.381 OA
+ATOM     18  H2  HO1 d   1     -18.916  15.492 133.589  0.00  0.00     0.211 HD
+ENDBRANCH   3  17
+BRANCH  13  19
+ATOM     19  CAT HO1 d   1     -24.781  21.448 137.088  0.00  0.00     0.179 A 
+ATOM     20  NAM HO1 d   1     -25.193  21.358 135.807  0.00  0.00    -0.108 NA
+ATOM     21  NAK HO1 d   1     -26.262  22.002 135.662  0.00  0.00    -0.023 NA
+ATOM     22  NAJ HO1 d   1     -26.589  22.516 136.773  0.00  0.00    -0.046 NA
+ATOM     23  NAL HO1 d   1     -25.691  22.191 137.713  0.00  0.00    -0.239 N 
+ATOM     24  H8  HO1 d   1     -25.703  22.459 138.707  0.00  0.00     0.192 HD
+ENDBRANCH  13  19
+TORSDOF 3

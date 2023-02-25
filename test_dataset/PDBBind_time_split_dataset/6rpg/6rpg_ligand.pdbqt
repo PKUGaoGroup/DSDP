@@ -1,0 +1,150 @@
+REMARK  23 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C4_3  and  N1_1 
+REMARK    2  A    between atoms: N1_1  and  C3_17 
+REMARK    3  A    between atoms: C5_4  and  C4_3 
+REMARK    4  A    between atoms: C6_5  and  O1_20 
+REMARK    5  A    between atoms: C7_6  and  C8_7 
+REMARK    6  A    between atoms: O1_20  and  C7_6 
+REMARK    7  A    between atoms: O2_21  and  C15_10 
+REMARK       I    between atoms: N_23  and  C1_11 
+REMARK    8  A    between atoms: C16_15  and  O2_21 
+REMARK    9  A    between atoms: C17_26  and  C16_15 
+REMARK   10  A    between atoms: C3_17  and  C2_16 
+REMARK   11  A    between atoms: C2_16  and  N_23 
+REMARK   12  A    between atoms: O3_22  and  C31_40 
+REMARK   13  A    between atoms: C32_41  and  O3_22 
+REMARK   14  A    between atoms: C24_33  and  C21_30 
+REMARK   15  A    between atoms: C31_40  and  C28_37 
+REMARK   16  A    between atoms: O5_68  and  C34_43 
+REMARK   17  A    between atoms: C35_44  and  C36_45 
+REMARK   18  A    between atoms: C36_45  and  N4_63 
+REMARK   19  A    between atoms: C37_46  and  C38_47 
+REMARK   20  A    between atoms: N4_63  and  C37_46 
+REMARK   21  A    between atoms: C38_47  and  N5_64 
+REMARK       I    between atoms: N5_64  and  C39_48 
+REMARK   22  A    between atoms: C45_54  and  C44_53 
+REMARK   23  A    between atoms: C44_53  and  O5_68 
+ROOT
+ATOM      1  N3  KDW d   1       4.009 -32.415  -8.505  0.00  0.00    -0.191 NA
+ATOM      2  C8  KDW d   1       1.709 -28.253  -7.707  0.00  0.00    -0.015 A 
+ATOM      3  C10 KDW d   1       3.762 -29.571  -6.481  0.00  0.00     0.138 A 
+ATOM      4  C13 KDW d   1       3.646 -31.400  -8.131  0.00  0.00     0.101 C 
+ATOM      5  C11 KDW d   1       3.207 -30.126  -7.623  0.00  0.00     0.062 A 
+ATOM      6  C12 KDW d   1       2.167 -29.446  -8.243  0.00  0.00     0.035 A 
+ATOM      7  C9  KDW d   1       2.330 -27.803  -6.558  0.00  0.00     0.125 A 
+ATOM      8  N2  KDW d   1       3.337 -28.431  -5.945  0.00  0.00    -0.271 NA
+ENDROOT
+BRANCH   2   9
+ATOM      9  C7  KDW d   1       0.603 -27.478  -8.349  0.00  0.00     0.215 C 
+BRANCH   9  10
+ATOM     10  O1  KDW d   1      -0.466 -27.356  -7.420  0.00  0.00    -0.346 OA
+BRANCH  10  11
+ATOM     11  C6  KDW d   1      -1.528 -26.593  -7.800  0.00  0.00     0.079 A 
+ATOM     12  C5  KDW d   1      -2.395 -26.227  -6.778  0.00  0.00     0.001 A 
+ATOM     13  C52 KDW d   1      -3.468 -25.413  -7.093  0.00  0.00     0.021 A 
+ATOM     14  C51 KDW d   1      -3.697 -24.961  -8.382  0.00  0.00    -0.028 A 
+ATOM     15  C15 KDW d   1      -2.820 -25.362  -9.372  0.00  0.00     0.077 A 
+ATOM     16  C53 KDW d   1      -4.847 -24.048  -8.689  0.00  0.00     0.051 C 
+ATOM     17  C14 KDW d   1      -1.742 -26.171  -9.092  0.00  0.00     0.074 A 
+BRANCH  12  18
+ATOM     18  C4  KDW d   1      -2.170 -26.708  -5.371  0.00  0.00     0.273 C 
+BRANCH  18  19
+ATOM     19  N1  KDW d   1      -1.752 -28.100  -5.309  0.00  0.00    -0.070 N 
+ATOM     20  H1  KDW d   1      -0.893 -28.157  -4.785  0.00  0.00     0.277 HD
+ATOM     21  H2  KDW d   1      -1.595 -28.433  -6.247  0.00  0.00     0.277 HD
+BRANCH  19  22
+ATOM     22  C3  KDW d   1      -2.748 -28.953  -4.670  0.00  0.00     0.252 C 
+BRANCH  22  23
+ATOM     23  C2  KDW d   1      -4.127 -28.649  -5.204  0.00  0.00     0.150 C 
+BRANCH  23  24
+ATOM     24  N   KDW d   1      -5.135 -29.342  -4.422  0.00  0.00    -0.360 N 
+ATOM     25  C1  KDW d   1      -4.817 -30.223  -3.477  0.00  0.00     0.213 C 
+ATOM     26  C   KDW d   1      -5.489 -30.040  -2.152  0.00  0.00     0.117 C 
+ATOM     27  O   KDW d   1      -4.012 -31.124  -3.678  0.00  0.00    -0.274 OA
+ATOM     28  H17 KDW d   1      -6.100 -29.151  -4.599  0.00  0.00     0.162 HD
+ENDBRANCH  23  24
+ENDBRANCH  22  23
+ENDBRANCH  19  22
+ENDBRANCH  18  19
+ENDBRANCH  12  18
+BRANCH  15  29
+ATOM     29  O2  KDW d   1      -3.143 -24.887 -10.605  0.00  0.00    -0.346 OA
+BRANCH  29  30
+ATOM     30  C16 KDW d   1      -2.200 -25.074 -11.645  0.00  0.00     0.215 C 
+BRANCH  30  31
+ATOM     31  C17 KDW d   1      -2.751 -24.482 -12.910  0.00  0.00    -0.027 A 
+ATOM     32  C18 KDW d   1      -3.350 -23.231 -12.889  0.00  0.00     0.010 A 
+ATOM     33  C19 KDW d   1      -3.827 -22.660 -14.047  0.00  0.00     0.002 A 
+ATOM     34  C20 KDW d   1      -3.718 -23.330 -15.245  0.00  0.00     0.013 A 
+ATOM     35  C21 KDW d   1      -3.126 -24.587 -15.286  0.00  0.00    -0.019 A 
+ATOM     36  C22 KDW d   1      -2.638 -25.180 -14.115  0.00  0.00    -0.043 A 
+ATOM     37  C23 KDW d   1      -2.005 -26.545 -14.142  0.00  0.00     0.049 C 
+BRANCH  35  38
+ATOM     38  C24 KDW d   1      -3.023 -25.292 -16.595  0.00  0.00    -0.019 A 
+ATOM     39  C25 KDW d   1      -4.000 -26.224 -16.914  0.00  0.00     0.013 A 
+ATOM     40  C26 KDW d   1      -3.959 -26.879 -18.124  0.00  0.00     0.002 A 
+ATOM     41  C27 KDW d   1      -2.954 -26.606 -19.023  0.00  0.00     0.010 A 
+ATOM     42  C28 KDW d   1      -1.968 -25.677 -18.726  0.00  0.00    -0.027 A 
+ATOM     43  C29 KDW d   1      -1.982 -25.015 -17.495  0.00  0.00    -0.043 A 
+ATOM     44  C30 KDW d   1      -0.878 -24.055 -17.140  0.00  0.00     0.049 C 
+BRANCH  42  45
+ATOM     45  C31 KDW d   1      -0.920 -25.380 -19.759  0.00  0.00     0.215 C 
+BRANCH  45  46
+ATOM     46  O3  KDW d   1      -1.488 -25.691 -21.027  0.00  0.00    -0.346 OA
+BRANCH  46  47
+ATOM     47  C32 KDW d   1      -0.836 -25.219 -22.123  0.00  0.00     0.077 A 
+ATOM     48  C33 KDW d   1       0.486 -24.851 -22.111  0.00  0.00     0.074 A 
+ATOM     49  C34 KDW d   1       1.075 -24.383 -23.260  0.00  0.00     0.079 A 
+ATOM     50  C35 KDW d   1       0.351 -24.274 -24.442  0.00  0.00     0.001 A 
+ATOM     51  C41 KDW d   1      -0.980 -24.657 -24.425  0.00  0.00     0.021 A 
+ATOM     52  C42 KDW d   1      -1.598 -25.130 -23.278  0.00  0.00    -0.028 A 
+ATOM     53  C43 KDW d   1      -3.046 -25.525 -23.288  0.00  0.00     0.051 C 
+BRANCH  49  54
+ATOM     54  O5  KDW d   1       2.375 -23.992 -23.324  0.00  0.00    -0.346 OA
+BRANCH  54  55
+ATOM     55  C44 KDW d   1       2.767 -22.937 -22.454  0.00  0.00     0.215 C 
+BRANCH  55  56
+ATOM     56  C45 KDW d   1       4.258 -22.955 -22.392  0.00  0.00    -0.015 A 
+ATOM     57  C46 KDW d   1       4.989 -23.984 -22.956  0.00  0.00     0.125 A 
+ATOM     58  N6  KDW d   1       6.322 -24.061 -22.943  0.00  0.00    -0.271 NA
+ATOM     59  C47 KDW d   1       6.985 -23.074 -22.343  0.00  0.00     0.138 A 
+ATOM     60  C48 KDW d   1       6.357 -21.988 -21.748  0.00  0.00     0.062 A 
+ATOM     61  C49 KDW d   1       4.971 -21.939 -21.777  0.00  0.00     0.035 A 
+ATOM     62  C50 KDW d   1       7.105 -20.930 -21.125  0.00  0.00     0.101 C 
+ATOM     63  N7  KDW d   1       7.670 -20.077 -20.621  0.00  0.00    -0.191 NA
+ENDBRANCH  55  56
+ENDBRANCH  54  55
+ENDBRANCH  49  54
+BRANCH  50  64
+ATOM     64  C36 KDW d   1       0.995 -23.745 -25.697  0.00  0.00     0.273 C 
+BRANCH  64  65
+ATOM     65  N4  KDW d   1       1.357 -22.332 -25.627  0.00  0.00    -0.070 N 
+ATOM     66  H58 KDW d   1       1.914 -22.101 -26.435  0.00  0.00     0.277 HD
+ATOM     67  H59 KDW d   1       1.898 -22.178 -24.791  0.00  0.00     0.277 HD
+BRANCH  65  68
+ATOM     68  C37 KDW d   1       0.190 -21.453 -25.597  0.00  0.00     0.252 C 
+BRANCH  68  69
+ATOM     69  C38 KDW d   1      -0.561 -21.509 -26.907  0.00  0.00     0.150 C 
+BRANCH  69  70
+ATOM     70  N5  KDW d   1       0.219 -20.929 -27.986  0.00  0.00    -0.360 N 
+ATOM     71  C39 KDW d   1       0.985 -19.855 -27.817  0.00  0.00     0.213 C 
+ATOM     72  C40 KDW d   1       0.728 -18.711 -28.747  0.00  0.00     0.117 C 
+ATOM     73  O4  KDW d   1       1.850 -19.805 -26.950  0.00  0.00    -0.274 OA
+ATOM     74  H60 KDW d   1       0.179 -21.353 -28.891  0.00  0.00     0.162 HD
+ENDBRANCH  69  70
+ENDBRANCH  68  69
+ENDBRANCH  65  68
+ENDBRANCH  64  65
+ENDBRANCH  50  64
+ENDBRANCH  46  47
+ENDBRANCH  45  46
+ENDBRANCH  42  45
+ENDBRANCH  35  38
+ENDBRANCH  30  31
+ENDBRANCH  29  30
+ENDBRANCH  15  29
+ENDBRANCH  10  11
+ENDBRANCH   9  10
+ENDBRANCH   2   9
+TORSDOF 23

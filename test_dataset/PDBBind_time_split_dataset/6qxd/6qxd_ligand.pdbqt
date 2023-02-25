@@ -1,0 +1,50 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C03_3  and  C07_7 
+REMARK    2  A    between atoms: C07_7  and  N08_8 
+REMARK       I    between atoms: N11_11  and  C14_14 
+REMARK    3  A    between atoms: C14_14  and  C15_15 
+REMARK    4  A    between atoms: C17_17  and  N26_25 
+REMARK    5  A    between atoms: C18_18  and  N23_22 
+ROOT
+ATOM      1  N08 JKB d   1      27.819  18.631  95.744  0.00  0.00    -0.064 N 
+ATOM      2  C09 JKB d   1      29.448  19.500  94.332  0.00  0.00     0.154 C 
+ATOM      3  C10 JKB d   1      28.280  19.790  95.240  0.00  0.00     0.255 C 
+ATOM      4  N11 JKB d   1      30.432  18.868  95.203  0.00  0.00    -0.345 N 
+ATOM      5  C12 JKB d   1      30.062  17.729  96.026  0.00  0.00     0.154 C 
+ATOM      6  C13 JKB d   1      28.632  17.921  96.543  0.00  0.00     0.255 C 
+ATOM      7  C14 JKB d   1      31.802  19.424  95.197  0.00  0.00     0.256 C 
+ATOM      8  O22 JKB d   1      31.994  20.374  94.500  0.00  0.00    -0.267 OA
+ATOM      9  H7  JKB d   1      27.588  18.041  94.960  0.00  0.00     0.280 HD
+ENDROOT
+BRANCH   7  10
+ATOM     10  C15 JKB d   1      32.993  18.966  96.101  0.00  0.00     0.065 A 
+ATOM     11  C17 JKB d   1      32.750  18.775  97.472  0.00  0.00     0.120 A 
+ATOM     12  C16 JKB d   1      33.773  18.428  98.340  0.00  0.00     0.073 A 
+ATOM     13  C18 JKB d   1      35.055  18.284  97.864  0.00  0.00     0.105 A 
+ATOM     14  C19 JKB d   1      35.328  18.496  96.497  0.00  0.00     0.037 A 
+ATOM     15  C20 JKB d   1      34.291  18.850  95.613  0.00  0.00     0.022 A 
+BRANCH  11  16
+ATOM     16  N26 JKB d   1      31.481  18.907  98.042  0.00  0.00    -0.115 N 
+ATOM     17  O28 JKB d   1      30.961  17.842  98.755  0.00  0.00    -0.532 OA
+ATOM     18  O27 JKB d   1      30.906  19.897  97.949  0.00  0.00    -0.532 OA
+ENDBRANCH  11  16
+BRANCH  13  19
+ATOM     19  N23 JKB d   1      36.059  17.931  98.890  0.00  0.00    -0.116 N 
+ATOM     20  O24 JKB d   1      35.663  18.045 100.236  0.00  0.00    -0.532 OA
+ATOM     21  O25 JKB d   1      37.166  17.596  98.628  0.00  0.00    -0.532 OA
+ENDBRANCH  13  19
+ENDBRANCH   7  10
+BRANCH   1  22
+ATOM     22  C07 JKB d   1      26.768  18.886  96.392  0.00  0.00     0.273 C 
+BRANCH  22  23
+ATOM     23  C03 JKB d   1      25.814  17.670  96.213  0.00  0.00    -0.032 A 
+ATOM     24  C01 JKB d   1      24.464  17.873  96.316  0.00  0.00     0.012 A 
+ATOM     25  C02 JKB d   1      23.560  16.780  96.157  0.00  0.00     0.043 A 
+ATOM     26  C04 JKB d   1      24.074  15.479  95.901  0.00  0.00     0.116 A 
+ATOM     27  C06 JKB d   1      25.425  15.267  95.790  0.00  0.00     0.043 A 
+ATOM     28  F21 JKB d   1      23.220  14.481  95.763  0.00  0.00    -0.206 F 
+ATOM     29  C05 JKB d   1      26.325  16.359  95.947  0.00  0.00     0.012 A 
+ENDBRANCH  22  23
+ENDBRANCH   1  22
+TORSDOF 5

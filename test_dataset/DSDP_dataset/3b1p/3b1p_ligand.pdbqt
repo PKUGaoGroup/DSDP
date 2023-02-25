@@ -1,0 +1,43 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1'_15  and  N9_1 
+REMARK    2  A    between atoms: C4'_13  and  C5'_11 
+REMARK    3  A    between atoms: C5'_11  and  O5'_12 
+REMARK    4  A    between atoms: O2'_17  and  C2'_16 
+REMARK    5  A    between atoms: O3'_19  and  C3'_18 
+ROOT
+ATOM      1  C4' NOS d 401      -8.881 -31.009   9.218  0.00  0.00     0.179 C 
+ATOM      2  O4' NOS d 401      -7.653 -30.469   9.694  0.00  0.00    -0.353 OA
+ATOM      3  C1' NOS d 401      -6.831 -30.283   8.488  0.00  0.00     0.262 C 
+ATOM      4  C2' NOS d 401      -7.092 -31.533   7.705  0.00  0.00     0.198 C 
+ATOM      5  C3' NOS d 401      -8.473 -32.007   8.140  0.00  0.00     0.182 C 
+ENDROOT
+BRANCH   3   6
+ATOM      6  N9  NOS d 401      -5.481 -30.153   9.048  0.00  0.00    -0.294 N 
+ATOM      7  C4  NOS d 401      -4.805 -29.002   9.089  0.00  0.00     0.167 A 
+ATOM      8  N3  NOS d 401      -5.005 -27.710   8.671  0.00  0.00    -0.223 NA
+ATOM      9  C5  NOS d 401      -3.594 -29.355   9.864  0.00  0.00     0.158 A 
+ATOM     10  C2  NOS d 401      -4.118 -26.730   8.894  0.00  0.00     0.211 A 
+ATOM     11  N1  NOS d 401      -2.947 -27.011   9.554  0.00  0.00    -0.327 N 
+ATOM     12  C6  NOS d 401      -2.636 -28.258   9.991  0.00  0.00     0.212 A 
+ATOM     13  H   NOS d 401      -2.308 -26.280   9.716  0.00  0.00     0.168 HD
+ATOM     14  O6  NOS d 401      -1.495 -28.447  10.703  0.00  0.00    -0.169 OA
+ATOM     15  N7  NOS d 401      -3.633 -30.665  10.170  0.00  0.00    -0.235 NA
+ATOM     16  C8  NOS d 401      -4.808 -31.175   9.668  0.00  0.00     0.214 A 
+ENDBRANCH   3   6
+BRANCH   4  17
+ATOM     17  O2' NOS d 401      -7.055 -31.131   6.331  0.00  0.00    -0.388 OA
+ATOM     18  H   NOS d 401      -7.687 -30.409   6.188  0.00  0.00     0.210 HD
+ENDBRANCH   4  17
+BRANCH   5  19
+ATOM     19  O3' NOS d 401      -9.423 -31.960   7.027  0.00  0.00    -0.390 OA
+ATOM     20  H   NOS d 401      -9.468 -31.056   6.678  0.00  0.00     0.210 HD
+ENDBRANCH   5  19
+BRANCH   1  21
+ATOM     21  C5' NOS d 401      -9.664 -31.643  10.379  0.00  0.00     0.198 C 
+BRANCH  21  22
+ATOM     22  O5' NOS d 401     -10.066 -30.581  11.279  0.00  0.00    -0.398 OA
+ATOM     23  H   NOS d 401      -9.278 -30.119  11.607  0.00  0.00     0.209 HD
+ENDBRANCH  21  22
+ENDBRANCH   1  21
+TORSDOF 5

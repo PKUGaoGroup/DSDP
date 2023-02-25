@@ -1,0 +1,84 @@
+REMARK  13 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  CA_2 
+REMARK    2  A    between atoms: CB_3  and  CA_2 
+REMARK    3  A    between atoms: CA_2  and  C_5 
+REMARK    4  A    between atoms: SG_4  and  CB_3 
+REMARK       I    between atoms: C_5  and  N3S_7 
+REMARK    5  A    between atoms: O1S_9  and  S_8 
+REMARK    6  A    between atoms: S_8  and  O5'_11 
+REMARK    7  A    between atoms: S_8  and  O2S_10 
+REMARK    8  A    between atoms: O5'_11  and  C5'_12 
+REMARK    9  A    between atoms: C5'_12  and  C4'_13 
+REMARK   10  A    between atoms: O3'_16  and  C3'_15 
+REMARK   11  A    between atoms: O2'_18  and  C2'_17 
+REMARK   12  A    between atoms: C1'_19  and  N9_20 
+REMARK   13  A    between atoms: C6_24  and  N6_25 
+ROOT
+ATOM      1  C4' 5CA d 200      20.874  41.083  35.479  0.00  0.00     0.180 C 
+ATOM      2  O4' 5CA d 200      20.404  42.421  35.724  0.00  0.00    -0.353 OA
+ATOM      3  C3' 5CA d 200      21.049  40.442  36.854  0.00  0.00     0.182 C 
+ATOM      4  C2' 5CA d 200      21.645  41.624  37.614  0.00  0.00     0.198 C 
+ATOM      5  C1' 5CA d 200      20.841  42.796  37.044  0.00  0.00     0.262 C 
+ENDROOT
+BRANCH   1   6
+ATOM      6  C5' 5CA d 200      19.872  40.326  34.605  0.00  0.00     0.224 C 
+BRANCH   6   7
+ATOM      7  O5' 5CA d 200      20.045  40.676  33.230  0.00  0.00    -0.279 OA
+BRANCH   7   8
+ATOM      8  S   5CA d 200      20.978  39.904  32.467  0.00  0.00     0.185 S 
+ATOM      9  N3S 5CA d 200      20.196  38.695  31.694  0.00  0.00    -0.254 N 
+ATOM     10  C   5CA d 200      19.271  38.940  30.769  0.00  0.00     0.265 C 
+ATOM     11  H   5CA d 200      20.415  37.762  31.918  0.00  0.00     0.181 HD
+ATOM     12  O   5CA d 200      18.947  40.068  30.406  0.00  0.00    -0.270 OA
+BRANCH   8  13
+ATOM     13  O1S 5CA d 200      21.635  40.780  31.548  0.00  0.00    -0.291 OA
+ATOM     14  H   5CA d 200      20.979  41.178  30.955  0.00  0.00     0.232 HD
+ENDBRANCH   8  13
+BRANCH  10  15
+ATOM     15  CA  5CA d 200      18.585  37.710  30.165  0.00  0.00     0.318 C 
+BRANCH  15  16
+ATOM     16  N   5CA d 200      17.581  38.150  29.185  0.00  0.00     0.092 N 
+ATOM     17  H   5CA d 200      17.121  37.335  28.780  0.00  0.00     0.313 HD
+ATOM     18  H   5CA d 200      18.038  38.684  28.446  0.00  0.00     0.313 HD
+ENDBRANCH  15  16
+BRANCH  15  19
+ATOM     19  CB  5CA d 200      19.549  36.710  29.520  0.00  0.00     0.116 C 
+BRANCH  19  20
+ATOM     20  SG  5CA d 200      20.300  37.330  27.966  0.00  0.00    -0.180 SA
+ATOM     21  H   5CA d 200      21.033  38.445  28.230  0.00  0.00     0.101 HD
+ENDBRANCH  19  20
+ENDBRANCH  15  19
+ENDBRANCH  10  15
+BRANCH   8  22
+ATOM     22  O2S 5CA d 200      21.971  39.273  33.399  0.00  0.00    -0.291 OA
+ATOM     23  H   5CA d 200      22.606  38.748  32.887  0.00  0.00     0.232 HD
+ENDBRANCH   8  22
+ENDBRANCH   7   8
+ENDBRANCH   6   7
+ENDBRANCH   1   6
+BRANCH   3  24
+ATOM     24  O3' 5CA d 200      22.013  39.386  36.784  0.00  0.00    -0.390 OA
+ATOM     25  H   5CA d 200      22.839  39.727  36.406  0.00  0.00     0.210 HD
+ENDBRANCH   3  24
+BRANCH   5  26
+ATOM     26  N9  5CA d 200      19.628  43.052  37.851  0.00  0.00    -0.294 N 
+ATOM     27  C8  5CA d 200      18.628  42.217  38.137  0.00  0.00     0.214 A 
+ATOM     28  N7  5CA d 200      17.779  42.808  38.981  0.00  0.00    -0.236 NA
+ATOM     29  C5  5CA d 200      18.243  44.029  39.228  0.00  0.00     0.149 A 
+ATOM     30  C4  5CA d 200      19.417  44.189  38.502  0.00  0.00     0.167 A 
+ATOM     31  C6  5CA d 200      17.832  45.095  40.019  0.00  0.00     0.155 A 
+ATOM     32  N3  5CA d 200      20.107  45.337  38.565  0.00  0.00    -0.222 NA
+ATOM     33  C2  5CA d 200      19.681  46.333  39.323  0.00  0.00     0.237 A 
+ATOM     34  N1  5CA d 200      18.572  46.214  40.033  0.00  0.00    -0.222 NA
+BRANCH  31  35
+ATOM     35  N6  5CA d 200      16.744  44.992  40.780  0.00  0.00    -0.382 N 
+ATOM     36  H   5CA d 200      16.207  44.167  40.763  0.00  0.00     0.157 HD
+ATOM     37  H   5CA d 200      16.476  45.741  41.360  0.00  0.00     0.157 HD
+ENDBRANCH  31  35
+ENDBRANCH   5  26
+BRANCH   4  38
+ATOM     38  O2' 5CA d 200      23.046  41.796  37.368  0.00  0.00    -0.388 OA
+ATOM     39  H   5CA d 200      23.196  41.907  36.416  0.00  0.00     0.210 HD
+ENDBRANCH   4  38
+TORSDOF 13

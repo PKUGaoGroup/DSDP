@@ -1,0 +1,120 @@
+REMARK  20 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N1U_1  and  C1D_9 
+REMARK    2  A    between atoms: O2D_11  and  C2D_10 
+REMARK    3  A    between atoms: C3D_12  and  O3D_15 
+REMARK    4  A    between atoms: C5D_16  and  C4D_13 
+REMARK    5  A    between atoms: O5D_17  and  C5D_16 
+REMARK    6  A    between atoms: PA_18  and  O5D_17 
+REMARK    7  A    between atoms: O1A_19  and  PA_18 
+REMARK    8  A    between atoms: PA_18  and  O3A_21 
+REMARK    9  A    between atoms: O3A_21  and  PB_22 
+REMARK   10  A    between atoms: O1_34  and  PB_22 
+REMARK   11  A    between atoms: PB_22  and  O1B_23 
+REMARK   12  A    between atoms: O1_34  and  C1_25 
+REMARK   13  A    between atoms: C2_26  and  N2_33 
+REMARK   14  A    between atoms: C3_27  and  O3_35 
+REMARK   15  A    between atoms: O4_36  and  C4_28 
+REMARK   16  A    between atoms: C6_30  and  C5_29 
+REMARK   17  A    between atoms: C6_30  and  O6_38 
+REMARK       I    between atoms: N2_33  and  C7_31 
+REMARK   18  A    between atoms: C2E_41  and  O3_35 
+REMARK   19  A    between atoms: C2E_41  and  C1E_40 
+REMARK   20  A    between atoms: C1E_40  and  O2E_45 
+ROOT
+ATOM      1  PB  EEB d 402      10.502  20.736  14.492  0.00  0.00     0.404 P 
+ATOM      2  O2B EEB d 402      11.914  20.206  14.617  0.00  0.00    -0.631 OA
+ENDROOT
+BRANCH   1   3
+ATOM      3  O3A EEB d 402      10.268  21.440  13.128  0.00  0.00    -0.195 OA
+BRANCH   3   4
+ATOM      4  PA  EEB d 402      11.419  22.196  12.516  0.00  0.00     0.401 P 
+ATOM      5  O2A EEB d 402      12.203  21.286  11.593  0.00  0.00    -0.631 OA
+BRANCH   4   6
+ATOM      6  O1A EEB d 402      10.882  23.404  11.761  0.00  0.00    -0.307 OA
+ATOM      7  H   EEB d 402      10.113  23.139  11.232  0.00  0.00     0.222 HD
+ENDBRANCH   4   6
+BRANCH   4   8
+ATOM      8  O5D EEB d 402      12.605  22.881  13.256  0.00  0.00    -0.294 OA
+BRANCH   8   9
+ATOM      9  C5D EEB d 402      12.317  23.739  14.429  0.00  0.00     0.215 C 
+BRANCH   9  10
+ATOM     10  C4D EEB d 402      13.671  24.480  14.767  0.00  0.00     0.180 C 
+ATOM     11  C3D EEB d 402      14.053  25.223  13.486  0.00  0.00     0.182 C 
+ATOM     12  C2D EEB d 402      15.119  24.407  12.896  0.00  0.00     0.198 C 
+ATOM     13  C1D EEB d 402      15.752  23.807  14.149  0.00  0.00     0.263 C 
+ATOM     14  O4D EEB d 402      14.669  23.519  14.991  0.00  0.00    -0.353 OA
+BRANCH  11  15
+ATOM     15  O3D EEB d 402      14.395  26.614  13.493  0.00  0.00    -0.390 OA
+ATOM     16  H   EEB d 402      15.227  26.740  13.975  0.00  0.00     0.210 HD
+ENDBRANCH  11  15
+BRANCH  12  17
+ATOM     17  O2D EEB d 402      15.929  25.015  11.979  0.00  0.00    -0.388 OA
+ATOM     18  H   EEB d 402      16.375  25.770  12.392  0.00  0.00     0.210 HD
+ENDBRANCH  12  17
+BRANCH  13  19
+ATOM     19  N1U EEB d 402      16.497  22.571  13.942  0.00  0.00    -0.280 N 
+ATOM     20  C2U EEB d 402      17.880  22.647  13.863  0.00  0.00     0.331 A 
+ATOM     21  N3U EEB d 402      18.529  21.488  13.661  0.00  0.00    -0.275 N 
+ATOM     22  O2U EEB d 402      18.460  23.704  13.968  0.00  0.00    -0.246 OA
+ATOM     23  C4U EEB d 402      17.948  20.281  13.564  0.00  0.00     0.250 A 
+ATOM     24  H   EEB d 402      19.509  21.527  13.577  0.00  0.00     0.173 HD
+ATOM     25  O4U EEB d 402      18.597  19.257  13.410  0.00  0.00    -0.268 OA
+ATOM     26  C5U EEB d 402      16.468  20.169  13.654  0.00  0.00     0.092 A 
+ATOM     27  C6U EEB d 402      15.751  21.304  13.863  0.00  0.00     0.104 A 
+ENDBRANCH  13  19
+ENDBRANCH   9  10
+ENDBRANCH   8   9
+ENDBRANCH   4   8
+ENDBRANCH   3   4
+ENDBRANCH   1   3
+BRANCH   1  28
+ATOM     28  O1  EEB d 402       9.538  19.578  14.356  0.00  0.00    -0.263 OA
+BRANCH  28  29
+ATOM     29  C1  EEB d 402       8.212  19.870  14.659  0.00  0.00     0.297 C 
+ATOM     30  O5  EEB d 402       7.588  20.771  13.786  0.00  0.00    -0.348 OA
+ATOM     31  C5  EEB d 402       7.436  20.317  12.455  0.00  0.00     0.179 C 
+ATOM     32  C4  EEB d 402       6.620  19.004  12.538  0.00  0.00     0.180 C 
+ATOM     33  C3  EEB d 402       7.283  17.890  13.490  0.00  0.00     0.188 C 
+ATOM     34  C2  EEB d 402       7.289  18.673  14.790  0.00  0.00     0.172 C 
+BRANCH  31  35
+ATOM     35  C6  EEB d 402       6.708  21.457  11.679  0.00  0.00     0.198 C 
+BRANCH  35  36
+ATOM     36  O6  EEB d 402       5.549  21.994  12.299  0.00  0.00    -0.398 OA
+ATOM     37  H   EEB d 402       5.796  22.415  13.137  0.00  0.00     0.209 HD
+ENDBRANCH  35  36
+ENDBRANCH  31  35
+BRANCH  32  38
+ATOM     38  O4  EEB d 402       6.436  18.542  11.234  0.00  0.00    -0.390 OA
+ATOM     39  H   EEB d 402       7.299  18.361  10.830  0.00  0.00     0.210 HD
+ENDBRANCH  32  38
+BRANCH  33  40
+ATOM     40  O3  EEB d 402       6.554  16.765  13.822  0.00  0.00    -0.335 OA
+BRANCH  40  41
+ATOM     41  C2E EEB d 402       7.027  15.569  13.389  0.00  0.00     0.138 C 
+ATOM     42  C3E EEB d 402       7.796  15.412  12.272  0.00  0.00     0.013 C 
+ATOM     43  C4E EEB d 402       8.345  14.118  11.758  0.00  0.00     0.039 C 
+BRANCH  41  44
+ATOM     44  C1E EEB d 402       6.572  14.455  14.299  0.00  0.00     0.200 C 
+ATOM     45  O1E EEB d 402       6.865  13.231  14.031  0.00  0.00    -0.645 OA
+BRANCH  44  46
+ATOM     46  O2E EEB d 402       5.880  14.736  15.349  0.00  0.00    -0.771 OA
+ATOM     47  H   EEB d 402       5.666  15.627  15.545  0.00  0.00     0.167 HD
+ENDBRANCH  44  46
+ENDBRANCH  41  44
+ENDBRANCH  40  41
+ENDBRANCH  33  40
+BRANCH  34  48
+ATOM     48  N2  EEB d 402       7.406  18.278  16.168  0.00  0.00    -0.349 N 
+ATOM     49  C7  EEB d 402       6.951  18.501  17.386  0.00  0.00     0.214 C 
+ATOM     50  O7  EEB d 402       6.156  19.280  17.763  0.00  0.00    -0.274 OA
+ATOM     51  C8  EEB d 402       7.665  17.522  18.339  0.00  0.00     0.117 C 
+ATOM     52  H   EEB d 402       8.087  17.569  16.224  0.00  0.00     0.163 HD
+ENDBRANCH  34  48
+ENDBRANCH  28  29
+ENDBRANCH   1  28
+BRANCH   1  53
+ATOM     53  O1B EEB d 402      10.071  21.634  15.629  0.00  0.00    -0.307 OA
+ATOM     54  H   EEB d 402       9.160  21.932  15.478  0.00  0.00     0.222 HD
+ENDBRANCH   1  53
+TORSDOF 20

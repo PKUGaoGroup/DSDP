@@ -1,0 +1,66 @@
+REMARK  11 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  OXT_22 
+REMARK    2  A    between atoms: C_1  and  CA_4 
+REMARK       I    between atoms: CAM_13  and  N_2 
+REMARK    3  A    between atoms: N_2  and  CA_4 
+REMARK    4  A    between atoms: CA_4  and  CB_5 
+REMARK    5  A    between atoms: CB_5  and  CG_6 
+REMARK    6  A    between atoms: OAA_7  and  CAK_11 
+REMARK    7  A    between atoms: CAJ_10  and  NAF_9 
+REMARK    8  A    between atoms: CAK_11  and  CAJ_10 
+REMARK    9  A    between atoms: CAL_12  and  CAJ_10 
+REMARK   10  A    between atoms: CAK_11  and  CAM_13 
+REMARK   11  A    between atoms: CAP_14  and  CAL_12 
+ROOT
+ATOM      1  CAK EBT d 241      -1.144 -38.242   8.300  0.00  0.00     0.243 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  OAA EBT d 241      -2.295 -39.078   8.130  0.00  0.00    -0.384 OA
+ATOM      3  H   EBT d 241      -2.927 -38.641   7.538  0.00  0.00     0.210 HD
+ENDBRANCH   1   2
+BRANCH   1   4
+ATOM      4  CAM EBT d 241      -1.640 -36.919   8.880  0.00  0.00     0.249 C 
+ATOM      5  OAB EBT d 241      -2.841 -36.791   9.109  0.00  0.00    -0.271 OA
+ATOM      6  N   EBT d 241      -0.715 -35.970   9.110  0.00  0.00    -0.344 N 
+ATOM      7  H   EBT d 241       0.226 -36.157   8.888  0.00  0.00     0.163 HD
+BRANCH   6   8
+ATOM      8  CA  EBT d 241      -1.071 -34.642   9.691  0.00  0.00     0.182 C 
+BRANCH   8   9
+ATOM      9  C   EBT d 241      -1.356 -33.601   8.595  0.00  0.00     0.163 C 
+ATOM     10  O   EBT d 241      -1.071 -33.918   7.416  0.00  0.00    -0.648 OA
+BRANCH   9  11
+ATOM     11  OXT EBT d 241      -1.837 -32.501   8.969  0.00  0.00    -0.775 OA
+ATOM     12  H   EBT d 241      -2.019 -32.353   9.876  0.00  0.00     0.167 HD
+ENDBRANCH   9  11
+ENDBRANCH   8   9
+BRANCH   8  13
+ATOM     13  CB  EBT d 241       0.015 -34.084  10.637  0.00  0.00     0.040 C 
+BRANCH  13  14
+ATOM     14  CG  EBT d 241      -0.606 -32.893  11.409  0.00  0.00    -0.020 C 
+ATOM     15  CD2 EBT d 241       0.002 -31.551  10.960  0.00  0.00     0.009 C 
+ATOM     16  CD1 EBT d 241      -0.554 -33.078  12.945  0.00  0.00     0.009 C 
+ENDBRANCH  13  14
+ENDBRANCH   8  13
+ENDBRANCH   6   8
+ENDBRANCH   1   4
+BRANCH   1  17
+ATOM     17  CAJ EBT d 241      -0.121 -38.919   9.241  0.00  0.00     0.259 C 
+BRANCH  17  18
+ATOM     18  CAL EBT d 241       1.322 -38.488   8.923  0.00  0.00     0.077 C 
+BRANCH  18  19
+ATOM     19  CAP EBT d 241       2.216 -39.673   8.509  0.00  0.00    -0.056 A 
+ATOM     20  CAR EBT d 241       2.117 -40.218   7.230  0.00  0.00     0.007 A 
+ATOM     21  CAT EBT d 241       2.922 -41.280   6.842  0.00  0.00     0.001 A 
+ATOM     22  CAV EBT d 241       3.838 -41.803   7.739  0.00  0.00     0.000 A 
+ATOM     23  CAU EBT d 241       3.938 -41.262   9.019  0.00  0.00     0.001 A 
+ATOM     24  CAS EBT d 241       3.135 -40.198   9.410  0.00  0.00     0.007 A 
+ENDBRANCH  18  19
+ENDBRANCH  17  18
+BRANCH  17  25
+ATOM     25  NAF EBT d 241      -0.424 -38.578  10.641  0.00  0.00     0.086 N 
+ATOM     26  H   EBT d 241      -1.379 -38.860  10.861  0.00  0.00     0.313 HD
+ATOM     27  H   EBT d 241      -0.328 -37.571  10.774  0.00  0.00     0.313 HD
+ENDBRANCH  17  25
+ENDBRANCH   1  17
+TORSDOF 11

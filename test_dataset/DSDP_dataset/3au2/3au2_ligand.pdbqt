@@ -1,0 +1,86 @@
+REMARK  14 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O1G_2  and  PG_1 
+REMARK    2  A    between atoms: PG_1  and  O3B_5 
+REMARK    3  A    between atoms: PG_1  and  O3G_4 
+REMARK    4  A    between atoms: PB_6  and  O3B_5 
+REMARK    5  A    between atoms: O3A_9  and  PB_6 
+REMARK    6  A    between atoms: PB_6  and  O1B_7 
+REMARK    7  A    between atoms: PA_10  and  O3A_9 
+REMARK    8  A    between atoms: O5'_13  and  PA_10 
+REMARK    9  A    between atoms: PA_10  and  O1A_11 
+REMARK   10  A    between atoms: O5'_13  and  C5'_14 
+REMARK   11  A    between atoms: C5'_14  and  C4'_15 
+REMARK   12  A    between atoms: C3'_17  and  O3'_18 
+REMARK   13  A    between atoms: N9_21  and  C1'_20 
+REMARK   14  A    between atoms: C2_28  and  N2_29 
+ROOT
+ATOM      1  C4' DGT d 576      16.458   9.282  -5.401  0.00  0.00     0.177 C 
+ATOM      2  O4' DGT d 576      16.306   9.993  -6.624  0.00  0.00    -0.356 OA
+ATOM      3  C3' DGT d 576      15.106   8.645  -5.161  0.00  0.00     0.153 C 
+ATOM      4  C2' DGT d 576      14.143   9.715  -5.639  0.00  0.00     0.088 C 
+ATOM      5  C1' DGT d 576      14.934  10.387  -6.761  0.00  0.00     0.233 C 
+ENDROOT
+BRANCH   1   6
+ATOM      6  C5' DGT d 576      17.597   8.298  -5.582  0.00  0.00     0.215 C 
+BRANCH   6   7
+ATOM      7  O5' DGT d 576      17.317   7.383  -6.662  0.00  0.00    -0.294 OA
+BRANCH   7   8
+ATOM      8  PA  DGT d 576      17.781   5.861  -6.552  0.00  0.00     0.401 P 
+ATOM      9  O2A DGT d 576      17.340   5.233  -7.832  0.00  0.00    -0.631 OA
+BRANCH   8  10
+ATOM     10  O1A DGT d 576      19.217   5.762  -6.158  0.00  0.00    -0.307 OA
+ATOM     11  H   DGT d 576      19.771   6.148  -6.854  0.00  0.00     0.222 HD
+ENDBRANCH   8  10
+BRANCH   8  12
+ATOM     12  O3A DGT d 576      16.803   5.240  -5.445  0.00  0.00    -0.195 OA
+BRANCH  12  13
+ATOM     13  PB  DGT d 576      16.856   5.079  -3.834  0.00  0.00     0.410 P 
+ATOM     14  O2B DGT d 576      18.191   5.546  -3.316  0.00  0.00    -0.631 OA
+BRANCH  13  15
+ATOM     15  O3B DGT d 576      16.700   3.491  -3.659  0.00  0.00    -0.195 OA
+BRANCH  15  16
+ATOM     16  PG  DGT d 576      17.792   2.322  -3.959  0.00  0.00     0.399 P 
+ATOM     17  O2G DGT d 576      17.047   1.337  -4.810  0.00  0.00    -0.631 OA
+BRANCH  16  18
+ATOM     18  O1G DGT d 576      18.986   2.982  -4.617  0.00  0.00    -0.307 OA
+ATOM     19  H   DGT d 576      18.727   3.325  -5.486  0.00  0.00     0.222 HD
+ENDBRANCH  16  18
+BRANCH  16  20
+ATOM     20  O3G DGT d 576      18.114   1.757  -2.591  0.00  0.00    -0.307 OA
+ATOM     21  H   DGT d 576      18.767   1.045  -2.681  0.00  0.00     0.222 HD
+ENDBRANCH  16  20
+ENDBRANCH  15  16
+ENDBRANCH  13  15
+BRANCH  13  22
+ATOM     22  O1B DGT d 576      15.627   5.724  -3.280  0.00  0.00    -0.307 OA
+ATOM     23  H   DGT d 576      14.842   5.334  -3.695  0.00  0.00     0.222 HD
+ENDBRANCH  13  22
+ENDBRANCH  12  13
+ENDBRANCH   8  12
+ENDBRANCH   7   8
+ENDBRANCH   6   7
+ENDBRANCH   1   6
+BRANCH   3  24
+ATOM     24  O3' DGT d 576      14.891   8.342  -3.793  0.00  0.00    -0.393 OA
+ATOM     25  H   DGT d 576      14.975   9.152  -3.265  0.00  0.00     0.210 HD
+ENDBRANCH   3  24
+BRANCH   5  26
+ATOM     26  N9  DGT d 576      14.471  10.000  -8.122  0.00  0.00    -0.297 N 
+ATOM     27  C8  DGT d 576      14.368  10.867  -9.147  0.00  0.00     0.214 A 
+ATOM     28  N7  DGT d 576      13.963  10.260 -10.286  0.00  0.00    -0.234 NA
+ATOM     29  C5  DGT d 576      13.792   8.955 -10.004  0.00  0.00     0.173 A 
+ATOM     30  C6  DGT d 576      13.348   7.760 -10.756  0.00  0.00     0.316 A 
+ATOM     31  C4  DGT d 576      14.120   8.779  -8.585  0.00  0.00     0.161 A 
+ATOM     32  O6  DGT d 576      13.059   7.820 -11.976  0.00  0.00    -0.263 OA
+ATOM     33  N1  DGT d 576      13.290   6.590 -10.095  0.00  0.00    -0.021 NA
+ATOM     34  C2  DGT d 576      13.591   6.477  -8.782  0.00  0.00     0.703 A 
+ATOM     35  N3  DGT d 576      13.987   7.539  -8.035  0.00  0.00    -0.172 N 
+ATOM     36  H   DGT d 576      14.182   7.411  -7.078  0.00  0.00     0.186 HD
+BRANCH  34  37
+ATOM     37  N2  DGT d 576      13.515   5.260  -8.177  0.00  0.00    -0.233 N 
+ATOM     38  H   DGT d 576      13.231   4.471  -8.693  0.00  0.00     0.174 HD
+ATOM     39  H   DGT d 576      13.744   5.169  -7.224  0.00  0.00     0.174 HD
+ENDBRANCH  34  37
+ENDBRANCH   5  26
+TORSDOF 14

@@ -1,0 +1,32 @@
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK       I    between atoms: N_5  and  C_6 
+REMARK    1  A    between atoms: C8_9  and  N_5 
+REMARK    2  A    between atoms: C_6  and  C1_7 
+REMARK    3  A    between atoms: C10_13  and  C9_12 
+ROOT
+ATOM      1  N1  JRM d   1      24.435   6.650  11.201  0.00  0.00    -0.223 NA
+ATOM      2  C8  JRM d   1      24.928   5.504  11.579  0.00  0.00     0.173 A 
+ATOM      3  S1  JRM d   1      25.348   5.367  13.255  0.00  0.00    -0.061 SA
+ATOM      4  C16 JRM d   1      24.748   6.963  13.469  0.00  0.00     0.085 A 
+ATOM      5  C9  JRM d   1      24.297   7.490  12.299  0.00  0.00     0.076 A 
+ENDROOT
+BRANCH   2   6
+ATOM      6  N   JRM d   1      24.900   4.421  10.732  0.00  0.00    -0.306 N 
+ATOM      7  C   JRM d   1      25.956   3.538  10.585  0.00  0.00     0.223 C 
+ATOM      8  O   JRM d   1      26.816   3.439  11.442  0.00  0.00    -0.273 OA
+ATOM      9  H6  JRM d   1      24.072   4.263  10.193  0.00  0.00     0.171 HD
+BRANCH   7  10
+ATOM     10  C1  JRM d   1      25.975   2.701   9.329  0.00  0.00     0.099 C 
+ATOM     11  C2  JRM d   1      26.580   1.341   9.570  0.00  0.00     0.014 C 
+ENDBRANCH   7  10
+ENDBRANCH   2   6
+BRANCH   5  12
+ATOM     12  C10 JRM d   1      23.611   8.783  12.116  0.00  0.00    -0.007 A 
+ATOM     13  C15 JRM d   1      23.622   9.749  13.125  0.00  0.00     0.014 A 
+ATOM     14  C14 JRM d   1      22.935  10.942  12.963  0.00  0.00     0.001 A 
+ATOM     15  C13 JRM d   1      22.253  11.201  11.792  0.00  0.00     0.000 A 
+ATOM     16  C12 JRM d   1      22.237  10.257  10.785  0.00  0.00     0.001 A 
+ATOM     17  C11 JRM d   1      22.906   9.054  10.941  0.00  0.00     0.014 A 
+ENDBRANCH   5  12
+TORSDOF 3

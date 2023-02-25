@@ -1,0 +1,48 @@
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_3  and  O1_1 
+REMARK    2  A    between atoms: C2_4  and  C1_3 
+REMARK    3  A    between atoms: C3_6  and  C2_4 
+REMARK    4  A    between atoms: N1_5  and  C2_4 
+REMARK    5  A    between atoms: C4_7  and  C3_6 
+REMARK    6  A    between atoms: O3_8  and  C4_7 
+REMARK    7  A    between atoms: C5_9  and  O3_8 
+REMARK    8  A    between atoms: C5_9  and  C6_10 
+REMARK    9  A    between atoms: C6_10  and  N2_11 
+ROOT
+ATOM      1  C2  AVG d 501      -0.120  45.043  16.939  0.00  0.00     0.316 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C3  AVG d 501       0.161  43.759  16.167  0.00  0.00     0.072 C 
+BRANCH   2   3
+ATOM      3  C4  AVG d 501      -0.502  43.496  14.919  0.00  0.00     0.170 C 
+BRANCH   3   4
+ATOM      4  O3  AVG d 501      -1.738  42.804  14.902  0.00  0.00    -0.389 OA
+BRANCH   4   5
+ATOM      5  C5  AVG d 501      -1.539  41.463  14.470  0.00  0.00     0.197 C 
+BRANCH   5   6
+ATOM      6  C6  AVG d 501      -2.262  40.500  15.438  0.00  0.00     0.292 C 
+BRANCH   6   7
+ATOM      7  N2  AVG d 501      -1.437  40.297  16.631  0.00  0.00     0.080 N 
+ATOM      8  H   AVG d 501      -0.539  39.896  16.359  0.00  0.00     0.312 HD
+ATOM      9  H   AVG d 501      -1.914  39.661  17.270  0.00  0.00     0.312 HD
+ENDBRANCH   6   7
+ENDBRANCH   5   6
+ENDBRANCH   4   5
+ENDBRANCH   3   4
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1  10
+ATOM     10  N1  AVG d 501       0.876  46.053  16.580  0.00  0.00     0.093 N 
+ATOM     11  H   AVG d 501       1.808  45.711  16.816  0.00  0.00     0.314 HD
+ATOM     12  H   AVG d 501       0.689  46.913  17.095  0.00  0.00     0.314 HD
+ENDBRANCH   1  10
+BRANCH   1  13
+ATOM     13  C1  AVG d 501      -0.056  44.762  18.449  0.00  0.00     0.173 C 
+ATOM     14  O2  AVG d 501      -1.065  44.179  19.043  0.00  0.00    -0.648 OA
+BRANCH  13  15
+ATOM     15  O1  AVG d 501       0.977  44.986  19.086  0.00  0.00    -0.775 OA
+ATOM     16  H   AVG d 501       1.704  45.403  18.668  0.00  0.00     0.167 HD
+ENDBRANCH  13  15
+ENDBRANCH   1  13
+TORSDOF 9

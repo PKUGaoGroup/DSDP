@@ -1,0 +1,88 @@
+REMARK  15 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O1_3  and  P1_4 
+REMARK    2  A    between atoms: O1_3  and  C9_14 
+REMARK    3  A    between atoms: O2S_25  and  P1_4 
+REMARK    4  A    between atoms: P1_4  and  O5'_31 
+REMARK    5  A    between atoms: N2_6  and  CA_16 
+REMARK    6  A    between atoms: N6_11  and  C6_10 
+REMARK    7  A    between atoms: CA_16  and  C9_14 
+REMARK    8  A    between atoms: N9_15  and  C1'_21 
+REMARK    9  A    between atoms: CA_16  and  CB_17 
+REMARK   10  A    between atoms: CG_20  and  CB_17 
+REMARK   11  A    between atoms: CG_20  and  SD_18 
+REMARK   12  A    between atoms: C2'_23  and  O2'_24 
+REMARK   13  A    between atoms: C3'_26  and  O3'_27 
+REMARK   14  A    between atoms: C5'_30  and  C4'_28 
+REMARK   15  A    between atoms: O5'_31  and  C5'_30 
+ROOT
+ATOM      1  C1' ME8 d 801      34.770  44.265  -2.996  0.00  0.00     0.262 C 
+ATOM      2  C2' ME8 d 801      33.709  45.165  -2.389  0.00  0.00     0.198 C 
+ATOM      3  C3' ME8 d 801      33.173  45.810  -3.659  0.00  0.00     0.182 C 
+ATOM      4  C4' ME8 d 801      33.036  44.572  -4.562  0.00  0.00     0.180 C 
+ATOM      5  O4' ME8 d 801      34.187  43.758  -4.230  0.00  0.00    -0.353 OA
+ENDROOT
+BRANCH   4   6
+ATOM      6  C5' ME8 d 801      33.064  44.936  -6.065  0.00  0.00     0.215 C 
+BRANCH   6   7
+ATOM      7  O5' ME8 d 801      33.201  43.753  -6.864  0.00  0.00    -0.294 OA
+BRANCH   7   8
+ATOM      8  P1  ME8 d 801      32.916  43.850  -8.465  0.00  0.00     0.400 P 
+ATOM      9  O1S ME8 d 801      33.489  42.663  -9.109  0.00  0.00    -0.631 OA
+BRANCH   8  10
+ATOM     10  O2S ME8 d 801      33.309  45.203  -8.945  0.00  0.00    -0.307 OA
+ATOM     11  H   ME8 d 801      33.142  45.269  -9.898  0.00  0.00     0.222 HD
+ENDBRANCH   8  10
+BRANCH   8  12
+ATOM     12  O1  ME8 d 801      31.301  43.558  -8.552  0.00  0.00    -0.218 OA
+BRANCH  12  13
+ATOM     13  C9  ME8 d 801      30.390  44.560  -8.412  0.00  0.00     0.300 C 
+ATOM     14  O   ME8 d 801      30.604  45.685  -7.974  0.00  0.00    -0.262 OA
+BRANCH  13  15
+ATOM     15  CA  ME8 d 801      28.995  44.085  -8.764  0.00  0.00     0.317 C 
+BRANCH  15  16
+ATOM     16  N2  ME8 d 801      29.158  42.840  -9.560  0.00  0.00     0.092 N 
+ATOM     17  H   ME8 d 801      29.641  43.055 -10.432  0.00  0.00     0.313 HD
+ATOM     18  H   ME8 d 801      28.240  42.447  -9.768  0.00  0.00     0.313 HD
+ENDBRANCH  15  16
+BRANCH  15  19
+ATOM     19  CB  ME8 d 801      28.276  43.797  -7.455  0.00  0.00     0.056 C 
+BRANCH  19  20
+ATOM     20  CG  ME8 d 801      26.840  43.342  -7.636  0.00  0.00     0.076 C 
+BRANCH  20  21
+ATOM     21  SD  ME8 d 801      26.112  42.907  -6.018  0.00  0.00    -0.173 SA
+ATOM     22  CE  ME8 d 801      24.447  42.467  -6.462  0.00  0.00     0.089 C 
+ENDBRANCH  20  21
+ENDBRANCH  19  20
+ENDBRANCH  15  19
+ENDBRANCH  13  15
+ENDBRANCH  12  13
+ENDBRANCH   8  12
+ENDBRANCH   7   8
+ENDBRANCH   6   7
+ENDBRANCH   4   6
+BRANCH   3  23
+ATOM     23  O3' ME8 d 801      31.892  46.339  -3.441  0.00  0.00    -0.390 OA
+ATOM     24  H   ME8 d 801      31.309  45.644  -3.098  0.00  0.00     0.210 HD
+ENDBRANCH   3  23
+BRANCH   1  25
+ATOM     25  N9  ME8 d 801      36.027  45.006  -3.286  0.00  0.00    -0.294 N 
+ATOM     26  C8  ME8 d 801      36.572  45.215  -4.487  0.00  0.00     0.214 A 
+ATOM     27  N7  ME8 d 801      37.707  45.906  -4.340  0.00  0.00    -0.236 NA
+ATOM     28  C5  ME8 d 801      37.889  46.128  -3.033  0.00  0.00     0.149 A 
+ATOM     29  C4  ME8 d 801      36.820  45.557  -2.371  0.00  0.00     0.167 A 
+ATOM     30  C6  ME8 d 801      38.872  46.774  -2.273  0.00  0.00     0.155 A 
+ATOM     31  N3  ME8 d 801      36.755  45.639  -1.036  0.00  0.00    -0.222 NA
+ATOM     32  C2  ME8 d 801      37.702  46.270  -0.345  0.00  0.00     0.237 A 
+ATOM     33  N1  ME8 d 801      38.752  46.830  -0.933  0.00  0.00    -0.222 NA
+BRANCH  30  34
+ATOM     34  N6  ME8 d 801      39.918  47.333  -2.852  0.00  0.00    -0.382 N 
+ATOM     35  H   ME8 d 801      40.016  47.298  -3.831  0.00  0.00     0.157 HD
+ATOM     36  H   ME8 d 801      40.600  47.785  -2.305  0.00  0.00     0.157 HD
+ENDBRANCH  30  34
+ENDBRANCH   1  25
+BRANCH   2  37
+ATOM     37  O2' ME8 d 801      32.728  44.313  -1.802  0.00  0.00    -0.388 OA
+ATOM     38  H   ME8 d 801      32.426  43.667  -2.459  0.00  0.00     0.210 HD
+ENDBRANCH   2  37
+TORSDOF 15

@@ -1,0 +1,142 @@
+REMARK  24 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O3A_4  and  PA_1 
+REMARK    2  A    between atoms: O1A_2  and  PA_1 
+REMARK    3  A    between atoms: PA_1  and  O5E_16 
+REMARK    4  A    between atoms: O3A_4  and  PB_5 
+REMARK    5  A    between atoms: PB_5  and  O3B_8 
+REMARK    6  A    between atoms: PB_5  and  O2B_7 
+REMARK    7  A    between atoms: O3B_8  and  PG_9 
+REMARK    8  A    between atoms: O3G_12  and  PG_9 
+REMARK    9  A    between atoms: PG_9  and  O2G_11 
+REMARK   10  A    between atoms: O3G_12  and  PD_13 
+REMARK   11  A    between atoms: O5F_35  and  PD_13 
+REMARK   12  A    between atoms: PD_13  and  O2D_15 
+REMARK   13  A    between atoms: O5E_16  and  C5E_17 
+REMARK   14  A    between atoms: C5E_17  and  C4E_18 
+REMARK   15  A    between atoms: C3E_20  and  O3E_21 
+REMARK   16  A    between atoms: C2E_22  and  O2E_23 
+REMARK   17  A    between atoms: C1E_24  and  N9A_25 
+REMARK   18  A    between atoms: C6A_29  and  N6A_30 
+REMARK   19  A    between atoms: C5F_36  and  O5F_35 
+REMARK   20  A    between atoms: C4F_37  and  C5F_36 
+REMARK   21  A    between atoms: C3F_39  and  O3F_40 
+REMARK   22  A    between atoms: O2F_42  and  C2F_41 
+REMARK   23  A    between atoms: N9B_44  and  C1F_43 
+REMARK   24  A    between atoms: N6B_49  and  C6B_48 
+ROOT
+ATOM      1  O3B B4P d1101      30.375 -16.620  74.518  0.00  0.00    -0.195 OA
+ENDROOT
+BRANCH   1   2
+ATOM      2  PB  B4P d1101      31.194 -17.981  74.255  0.00  0.00     0.410 P 
+ATOM      3  O1B B4P d1101      30.384 -18.756  73.099  0.00  0.00    -0.631 OA
+BRANCH   2   4
+ATOM      4  O3A B4P d1101      32.593 -17.547  73.583  0.00  0.00    -0.195 OA
+BRANCH   4   5
+ATOM      5  PA  B4P d1101      33.313 -16.147  73.928  0.00  0.00     0.401 P 
+ATOM      6  O2A B4P d1101      34.508 -15.904  73.090  0.00  0.00    -0.631 OA
+BRANCH   5   7
+ATOM      7  O1A B4P d1101      32.194 -15.003  73.750  0.00  0.00    -0.307 OA
+ATOM      8  H   B4P d1101      31.947 -14.935  72.814  0.00  0.00     0.222 HD
+ENDBRANCH   5   7
+BRANCH   5   9
+ATOM      9  O5E B4P d1101      33.664 -16.194  75.499  0.00  0.00    -0.294 OA
+BRANCH   9  10
+ATOM     10  C5E B4P d1101      34.515 -17.222  76.011  0.00  0.00     0.215 C 
+BRANCH  10  11
+ATOM     11  C4E B4P d1101      34.744 -17.055  77.515  0.00  0.00     0.180 C 
+ATOM     12  O4E B4P d1101      35.516 -18.138  78.068  0.00  0.00    -0.353 OA
+ATOM     13  C1E B4P d1101      34.773 -18.653  79.188  0.00  0.00     0.262 C 
+ATOM     14  C2E B4P d1101      33.916 -17.474  79.645  0.00  0.00     0.198 C 
+ATOM     15  C3E B4P d1101      33.415 -17.026  78.274  0.00  0.00     0.182 C 
+BRANCH  13  16
+ATOM     16  N9A B4P d1101      35.629 -19.196  80.267  0.00  0.00    -0.294 N 
+ATOM     17  C8A B4P d1101      35.544 -20.420  80.784  0.00  0.00     0.214 A 
+ATOM     18  N7A B4P d1101      36.445 -20.559  81.753  0.00  0.00    -0.236 NA
+ATOM     19  C5A B4P d1101      37.114 -19.413  81.855  0.00  0.00     0.149 A 
+ATOM     20  C4A B4P d1101      36.595 -18.544  80.907  0.00  0.00     0.167 A 
+ATOM     21  C6A B4P d1101      38.144 -18.966  82.670  0.00  0.00     0.155 A 
+ATOM     22  N3A B4P d1101      37.101 -17.305  80.804  0.00  0.00    -0.222 NA
+ATOM     23  C2A B4P d1101      38.082 -16.913  81.595  0.00  0.00     0.237 A 
+ATOM     24  N1A B4P d1101      38.600 -17.714  82.510  0.00  0.00    -0.222 NA
+BRANCH  21  25
+ATOM     25  N6A B4P d1101      38.668 -19.762  83.598  0.00  0.00    -0.382 N 
+ATOM     26  H   B4P d1101      38.328 -20.679  83.709  0.00  0.00     0.157 HD
+ATOM     27  H   B4P d1101      39.396 -19.434  84.174  0.00  0.00     0.157 HD
+ENDBRANCH  21  25
+ENDBRANCH  13  16
+BRANCH  14  28
+ATOM     28  O2E B4P d1101      32.844 -17.949  80.465  0.00  0.00    -0.388 OA
+ATOM     29  H   B4P d1101      32.360 -18.645  79.993  0.00  0.00     0.210 HD
+ENDBRANCH  14  28
+BRANCH  15  30
+ATOM     30  O3E B4P d1101      32.943 -15.679  78.358  0.00  0.00    -0.390 OA
+ATOM     31  H   B4P d1101      33.636 -15.117  78.738  0.00  0.00     0.210 HD
+ENDBRANCH  15  30
+ENDBRANCH  10  11
+ENDBRANCH   9  10
+ENDBRANCH   5   9
+ENDBRANCH   4   5
+ENDBRANCH   2   4
+BRANCH   2  32
+ATOM     32  O2B B4P d1101      31.365 -18.800  75.476  0.00  0.00    -0.307 OA
+ATOM     33  H   B4P d1101      31.863 -19.604  75.259  0.00  0.00     0.222 HD
+ENDBRANCH   2  32
+ENDBRANCH   1   2
+BRANCH   1  34
+ATOM     34  PG  B4P d1101      30.285 -15.994  76.000  0.00  0.00     0.410 P 
+ATOM     35  O1G B4P d1101      31.663 -15.193  76.228  0.00  0.00    -0.631 OA
+BRANCH  34  36
+ATOM     36  O3G B4P d1101      29.123 -14.879  75.952  0.00  0.00    -0.195 OA
+BRANCH  36  37
+ATOM     37  PD  B4P d1101      28.857 -13.955  77.244  0.00  0.00     0.401 P 
+ATOM     38  O1D B4P d1101      30.197 -13.084  77.439  0.00  0.00    -0.631 OA
+BRANCH  37  39
+ATOM     39  O5F B4P d1101      27.697 -12.900  76.875  0.00  0.00    -0.294 OA
+BRANCH  39  40
+ATOM     40  C5F B4P d1101      26.381 -13.359  76.554  0.00  0.00     0.215 C 
+BRANCH  40  41
+ATOM     41  C4F B4P d1101      26.376 -13.947  75.143  0.00  0.00     0.180 C 
+ATOM     42  O4F B4P d1101      26.498 -12.915  74.154  0.00  0.00    -0.353 OA
+ATOM     43  C1F B4P d1101      26.187 -13.557  72.903  0.00  0.00     0.262 C 
+ATOM     44  C2F B4P d1101      25.468 -14.864  73.251  0.00  0.00     0.198 C 
+ATOM     45  C3F B4P d1101      25.069 -14.600  74.701  0.00  0.00     0.182 C 
+BRANCH  43  46
+ATOM     46  N9B B4P d1101      27.450 -13.819  72.178  0.00  0.00    -0.294 N 
+ATOM     47  C4B B4P d1101      27.617 -13.827  70.860  0.00  0.00     0.167 A 
+ATOM     48  N3B B4P d1101      26.780 -13.691  69.822  0.00  0.00    -0.222 NA
+ATOM     49  C5B B4P d1101      28.972 -14.010  70.623  0.00  0.00     0.149 A 
+ATOM     50  C2B B4P d1101      27.238 -13.729  68.583  0.00  0.00     0.237 A 
+ATOM     51  N1B B4P d1101      28.522 -13.897  68.320  0.00  0.00    -0.222 NA
+ATOM     52  C6B B4P d1101      29.416 -14.038  69.308  0.00  0.00     0.155 A 
+ATOM     53  N7B B4P d1101      29.573 -14.120  71.804  0.00  0.00    -0.236 NA
+ATOM     54  C8B B4P d1101      28.640 -14.006  72.746  0.00  0.00     0.214 A 
+BRANCH  52  55
+ATOM     55  N6B B4P d1101      30.712 -14.168  69.035  0.00  0.00    -0.382 N 
+ATOM     56  H   B4P d1101      31.018 -14.187  68.100  0.00  0.00     0.157 HD
+ATOM     57  H   B4P d1101      31.364 -14.245  69.768  0.00  0.00     0.157 HD
+ENDBRANCH  52  55
+ENDBRANCH  43  46
+BRANCH  44  58
+ATOM     58  O2F B4P d1101      24.288 -14.993  72.454  0.00  0.00    -0.388 OA
+ATOM     59  H   B4P d1101      23.732 -14.207  72.570  0.00  0.00     0.210 HD
+ENDBRANCH  44  58
+BRANCH  45  60
+ATOM     60  O3F B4P d1101      24.866 -15.817  75.424  0.00  0.00    -0.390 OA
+ATOM     61  H   B4P d1101      25.653 -16.378  75.341  0.00  0.00     0.210 HD
+ENDBRANCH  45  60
+ENDBRANCH  40  41
+ENDBRANCH  39  40
+ENDBRANCH  37  39
+BRANCH  37  62
+ATOM     62  O2D B4P d1101      28.543 -14.767  78.442  0.00  0.00    -0.307 OA
+ATOM     63  H   B4P d1101      27.732 -15.275  78.285  0.00  0.00     0.222 HD
+ENDBRANCH  37  62
+ENDBRANCH  36  37
+ENDBRANCH  34  36
+BRANCH  34  64
+ATOM     64  O2G B4P d1101      30.072 -17.033  77.034  0.00  0.00    -0.307 OA
+ATOM     65  H   B4P d1101      29.235 -17.492  76.863  0.00  0.00     0.222 HD
+ENDBRANCH  34  64
+ENDBRANCH   1  34
+TORSDOF 24

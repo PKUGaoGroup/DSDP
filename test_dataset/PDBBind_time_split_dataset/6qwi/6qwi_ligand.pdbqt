@@ -1,0 +1,64 @@
+REMARK  10 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C13_2  and  C14_7 
+REMARK    2  A    between atoms: O03_17  and  C13_2 
+REMARK    3  A    between atoms: O04_20  and  C15_3 
+REMARK    4  A    between atoms: C01_9  and  C17_4 
+REMARK    5  A    between atoms: C11_5  and  O03_17 
+REMARK    6  A    between atoms: C14_7  and  O04_20 
+REMARK    7  A    between atoms: N02_13  and  C01_9 
+REMARK    8  A    between atoms: C05_21  and  O01_11 
+REMARK    9  A    between atoms: C04_18  and  O02_14 
+REMARK   10  A    between atoms: C07_23  and  C08_24 
+ROOT
+ATOM      1  N02 JJW d   1      38.181  -1.406  60.272  0.00  0.00    -0.258 N 
+ATOM      2  N03 JJW d   1      37.183  -0.740  59.800  0.00  0.00    -0.066 NA
+ATOM      3  N04 JJW d   1      36.426  -1.306  58.946  0.00  0.00    -0.130 NA
+ATOM      4  C08 JJW d   1      36.904  -2.523  58.751  0.00  0.00     0.108 A 
+ATOM      5  C09 JJW d   1      38.145  -2.748  59.619  0.00  0.00     0.148 A 
+ENDROOT
+BRANCH   1   6
+ATOM      6  C01 JJW d   1      39.326  -1.137  61.264  0.00  0.00     0.188 C 
+BRANCH   6   7
+ATOM      7  C17 JJW d   1      38.951  -1.425  62.707  0.00  0.00     0.236 C 
+ATOM      8  N01 JJW d   1      37.844  -0.416  62.923  0.00  0.00    -0.064 N 
+ATOM      9  C03 JJW d   1      37.282  -0.657  64.220  0.00  0.00     0.267 C 
+ATOM     10  H15 JJW d   1      37.135  -0.527  62.215  0.00  0.00     0.277 HD
+ATOM     11  H16 JJW d   1      38.218   0.519  62.879  0.00  0.00     0.277 HD
+ATOM     12  C04 JJW d   1      38.702  -0.724  64.969  0.00  0.00     0.174 C 
+ATOM     13  C05 JJW d   1      39.772  -1.061  63.921  0.00  0.00     0.180 C 
+BRANCH  12  14
+ATOM     14  O02 JJW d   1      38.710  -1.675  66.034  0.00  0.00    -0.391 OA
+ATOM     15  H19 JJW d   1      38.050  -1.437  66.675  0.00  0.00     0.210 HD
+ENDBRANCH  12  14
+BRANCH  13  16
+ATOM     16  O01 JJW d   1      40.596  -2.122  64.541  0.00  0.00    -0.391 OA
+ATOM     17  H17 JJW d   1      40.033  -2.833  64.825  0.00  0.00     0.210 HD
+ENDBRANCH  13  16
+ENDBRANCH   6   7
+ENDBRANCH   1   6
+BRANCH   4  18
+ATOM     18  C07 JJW d   1      36.411  -3.468  57.909  0.00  0.00    -0.004 A 
+ATOM     19  C02 JJW d   1      35.336  -3.070  57.070  0.00  0.00     0.016 A 
+ATOM     20  C10 JJW d   1      34.769  -3.983  56.168  0.00  0.00     0.037 A 
+ATOM     21  C11 JJW d   1      35.255  -5.284  56.068  0.00  0.00     0.068 A 
+ATOM     22  C12 JJW d   1      36.338  -5.703  56.884  0.00  0.00     0.037 A 
+ATOM     23  C06 JJW d   1      36.921  -4.808  57.806  0.00  0.00     0.016 A 
+BRANCH  21  24
+ATOM     24  O03 JJW d   1      34.546  -6.077  55.092  0.00  0.00    -0.349 OA
+BRANCH  24  25
+ATOM     25  C13 JJW d   1      35.091  -7.348  54.735  0.00  0.00     0.201 C 
+BRANCH  25  26
+ATOM     26  C14 JJW d   1      34.442  -7.788  53.399  0.00  0.00     0.194 C 
+BRANCH  26  27
+ATOM     27  O04 JJW d   1      35.414  -8.335  52.522  0.00  0.00    -0.389 OA
+BRANCH  27  28
+ATOM     28  C15 JJW d   1      35.153  -8.611  51.155  0.00  0.00     0.163 C 
+ATOM     29  C16 JJW d   1      34.933 -10.135  50.914  0.00  0.00     0.033 C 
+ENDBRANCH  27  28
+ENDBRANCH  26  27
+ENDBRANCH  25  26
+ENDBRANCH  24  25
+ENDBRANCH  21  24
+ENDBRANCH   4  18
+TORSDOF 10

@@ -1,0 +1,26 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C21_4  and  N1_1 
+REMARK    2  A    between atoms: C11_2  and  N1_1 
+REMARK    3  A    between atoms: N1_1  and  C31_6 
+REMARK    4  A    between atoms: N1_1  and  C41_8 
+ROOT
+ATOM      1  N1  TBA d 204      72.850  26.914  22.849  0.00  0.00    -0.068 N 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C21 TBA d 204      73.771  25.812  22.158  0.00  0.00     0.233 C 
+ATOM      3  C22 TBA d 204      73.520  24.313  22.651  0.00  0.00     0.035 C 
+ENDBRANCH   1   2
+BRANCH   1   4
+ATOM      4  C11 TBA d 204      73.218  28.374  22.319  0.00  0.00     0.233 C 
+ATOM      5  C12 TBA d 204      74.702  28.775  22.513  0.00  0.00     0.035 C 
+ENDBRANCH   1   4
+BRANCH   1   6
+ATOM      6  C31 TBA d 204      71.299  26.728  22.955  0.00  0.00     0.233 C 
+ATOM      7  C32 TBA d 204      70.499  27.619  24.043  0.00  0.00     0.035 C 
+ENDBRANCH   1   6
+BRANCH   1   8
+ATOM      8  C41 TBA d 204      73.476  26.919  24.250  0.00  0.00     0.233 C 
+ATOM      9  C42 TBA d 204      72.792  25.910  25.305  0.00  0.00     0.035 C 
+ENDBRANCH   1   8
+TORSDOF 4

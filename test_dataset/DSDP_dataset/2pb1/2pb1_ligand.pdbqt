@@ -1,0 +1,56 @@
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  O1_2 
+REMARK    2  A    between atoms: O1_2  and  C11_13 
+REMARK    3  A    between atoms: O3_6  and  C3_5 
+REMARK    4  A    between atoms: O4_8  and  C4_7 
+REMARK    5  A    between atoms: C5_9  and  C6_10 
+REMARK    6  A    between atoms: C6_10  and  O6_11 
+REMARK    7  A    between atoms: N1_15  and  C12_14 
+REMARK    8  A    between atoms: C14_19  and  N2_20 
+ROOT
+ATOM      1  C1  NFG d 402      32.631  43.642  58.187  0.00  0.00     0.303 C 
+ATOM      2  C2  NFG d 402      33.275  44.043  56.869  0.00  0.00     0.256 C 
+ATOM      3  F   NFG d 402      32.529  45.029  56.289  0.00  0.00    -0.241 F 
+ATOM      4  C3  NFG d 402      33.366  42.846  55.941  0.00  0.00     0.188 C 
+ATOM      5  C4  NFG d 402      33.999  41.675  56.680  0.00  0.00     0.180 C 
+ATOM      6  C5  NFG d 402      33.313  41.424  58.025  0.00  0.00     0.179 C 
+ATOM      7  O5  NFG d 402      33.312  42.585  58.818  0.00  0.00    -0.348 OA
+ENDROOT
+BRANCH   1   8
+ATOM      8  O1  NFG d 402      32.785  44.665  59.148  0.00  0.00    -0.315 OA
+BRANCH   8   9
+ATOM      9  C11 NFG d 402      31.751  45.007  59.961  0.00  0.00     0.105 A 
+ATOM     10  C12 NFG d 402      31.611  46.347  60.274  0.00  0.00     0.138 A 
+ATOM     11  C13 NFG d 402      30.561  46.745  61.101  0.00  0.00     0.075 A 
+ATOM     12  C14 NFG d 402      29.662  45.795  61.599  0.00  0.00     0.105 A 
+ATOM     13  C15 NFG d 402      29.818  44.452  61.263  0.00  0.00     0.039 A 
+ATOM     14  C16 NFG d 402      30.866  44.052  60.451  0.00  0.00     0.042 A 
+BRANCH  10  15
+ATOM     15  N1  NFG d 402      32.539  47.277  59.750  0.00  0.00    -0.113 N 
+ATOM     16  O12 NFG d 402      32.555  47.515  58.544  0.00  0.00    -0.532 OA
+ATOM     17  O11 NFG d 402      33.342  47.836  60.495  0.00  0.00    -0.532 OA
+ENDBRANCH  10  15
+BRANCH  12  18
+ATOM     18  N2  NFG d 402      28.595  46.183  62.426  0.00  0.00    -0.116 N 
+ATOM     19  O22 NFG d 402      28.225  47.351  62.445  0.00  0.00    -0.532 OA
+ATOM     20  O21 NFG d 402      28.022  45.357  63.119  0.00  0.00    -0.532 OA
+ENDBRANCH  12  18
+ENDBRANCH   8   9
+ENDBRANCH   1   8
+BRANCH   4  21
+ATOM     21  O3  NFG d 402      34.145  43.165  54.773  0.00  0.00    -0.390 OA
+ATOM     22  H   NFG d 402      35.045  43.409  55.041  0.00  0.00     0.210 HD
+ENDBRANCH   4  21
+BRANCH   6  23
+ATOM     23  C6  NFG d 402      33.990  40.389  58.898  0.00  0.00     0.198 C 
+BRANCH  23  24
+ATOM     24  O6  NFG d 402      33.110  40.093  60.001  0.00  0.00    -0.398 OA
+ATOM     25  H   NFG d 402      32.936  40.905  60.502  0.00  0.00     0.209 HD
+ENDBRANCH  23  24
+ENDBRANCH   6  23
+BRANCH   5  26
+ATOM     26  O4  NFG d 402      33.872  40.525  55.837  0.00  0.00    -0.390 OA
+ATOM     27  H   NFG d 402      32.933  40.354  55.662  0.00  0.00     0.210 HD
+ENDBRANCH   5  26
+TORSDOF 8

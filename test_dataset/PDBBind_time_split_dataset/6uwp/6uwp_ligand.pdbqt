@@ -1,0 +1,55 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK       I    between atoms: C5_5  and  N5_10 
+REMARK    1  A    between atoms: C11_15  and  C5_5 
+REMARK    2  A    between atoms: C4_6  and  N4_22 
+REMARK    3  A    between atoms: N3_24  and  C3_7 
+REMARK    4  A    between atoms: N5_10  and  C18_11 
+REMARK    5  A    between atoms: C18_11  and  C15_12 
+REMARK    6  A    between atoms: C16_17  and  C12_16 
+ROOT
+ATOM      1  C4  QKA d   1     -14.588 -19.319  -1.107  0.00  0.00     0.134 C 
+ATOM      2  C16 QKA d   1     -15.509 -19.977   1.110  0.00  0.00     0.059 C 
+ATOM      3  N2  QKA d   1     -15.573 -19.750  -0.336  0.00  0.00    -0.359 N 
+ATOM      4  C13 QKA d   1     -14.085 -20.250   1.652  0.00  0.00     0.044 C 
+ATOM      5  C10 QKA d   1     -13.036 -19.250   1.178  0.00  0.00     0.091 C 
+ATOM      6  S   QKA d   1     -12.936 -19.022  -0.617  0.00  0.00    -0.094 SA
+ATOM      7  C9  QKA d   1     -16.255 -21.297   1.452  0.00  0.00     0.173 C 
+ATOM      8  N3  QKA d   1     -15.217 -22.273   1.211  0.00  0.00    -0.211 N 
+ATOM      9  C8  QKA d   1     -13.856 -21.718   1.202  0.00  0.00     0.149 C 
+ATOM     10  H17 QKA d   1     -16.473 -19.945  -0.797  0.00  0.00     0.162 HD
+ENDROOT
+BRANCH   2  11
+ATOM     11  C12 QKA d   1     -16.192 -18.843   1.875  0.00  0.00     0.030 A 
+ATOM     12  C6  QKA d   1     -17.542 -18.297   1.445  0.00  0.00     0.022 A 
+ATOM     13  C11 QKA d   1     -16.269 -17.440   1.267  0.00  0.00     0.085 A 
+BRANCH  13  14
+ATOM     14  C5  QKA d   1     -16.113 -16.270   2.141  0.00  0.00     0.222 C 
+ATOM     15  O   QKA d   1     -16.488 -16.282   3.318  0.00  0.00    -0.273 OA
+ATOM     16  N5  QKA d   1     -15.509 -15.200   1.556  0.00  0.00    -0.360 N 
+ATOM     17  H7  QKA d   1     -15.183 -15.267   0.613  0.00  0.00     0.162 HD
+BRANCH  16  18
+ATOM     18  C18 QKA d   1     -15.334 -13.955   2.298  0.00  0.00     0.127 C 
+BRANCH  18  19
+ATOM     19  C15 QKA d   1     -14.853 -12.883   1.331  0.00  0.00     0.007 A 
+ATOM     20  C7  QKA d   1     -15.182 -11.457   1.648  0.00  0.00     0.011 A 
+ATOM     21  C14 QKA d   1     -15.877 -12.175   0.478  0.00  0.00    -0.013 A 
+ATOM     22  C17 QKA d   1     -15.526 -11.786  -0.934  0.00  0.00     0.010 C 
+ENDBRANCH  18  19
+ENDBRANCH  16  18
+ENDBRANCH  13  14
+ENDBRANCH   2  11
+BRANCH   1  23
+ATOM     23  N4  QKA d   1     -14.798 -19.076  -2.428  0.00  0.00    -0.380 N 
+ATOM     24  H21 QKA d   1     -14.024 -18.741  -3.019  0.00  0.00     0.158 HD
+ATOM     25  H22 QKA d   1     -15.731 -19.227  -2.837  0.00  0.00     0.158 HD
+ENDBRANCH   1  23
+BRANCH   8  26
+ATOM     26  C3  QKA d   1     -15.482 -23.577   0.915  0.00  0.00     0.724 A 
+ATOM     27  N1  QKA d   1     -16.822 -23.948   0.941  0.00  0.00    -0.075 NA
+ATOM     28  C2  QKA d   1     -17.079 -25.194   0.490  0.00  0.00     0.138 A 
+ATOM     29  C   QKA d   1     -16.050 -26.041   0.075  0.00  0.00     0.040 A 
+ATOM     30  C1  QKA d   1     -14.737 -25.611   0.147  0.00  0.00     0.138 A 
+ATOM     31  N   QKA d   1     -14.415 -24.331   0.560  0.00  0.00    -0.075 NA
+ENDBRANCH   8  26
+TORSDOF 6

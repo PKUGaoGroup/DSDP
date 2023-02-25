@@ -1,0 +1,128 @@
+REMARK  22 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C6_6  and  N6_7 
+REMARK    2  A    between atoms: N9_10  and  C1'_11 
+REMARK    3  A    between atoms: C2'_12  and  O2'_13 
+REMARK    4  A    between atoms: C3'_14  and  O3'_15 
+REMARK    5  A    between atoms: O3'_15  and  P3_21 
+REMARK    6  A    between atoms: C4'_16  and  C5'_18 
+REMARK    7  A    between atoms: C5'_18  and  O5'_19 
+REMARK    8  A    between atoms: O5'_19  and  P1_24 
+REMARK    9  A    between atoms: P1_24  and  O6_27 
+REMARK   10  A    between atoms: O6_27  and  P2_28 
+REMARK   11  A    between atoms: P2_28  and  O7_31 
+REMARK   12  A    between atoms: O7_31  and  CPB_32 
+REMARK   13  A    between atoms: CPB_32  and  CPA_33 
+REMARK   14  A    between atoms: CPA_33  and  CP7_36 
+REMARK   15  A    between atoms: CP7_36  and  OP3_37 
+REMARK   16  A    between atoms: CP7_36  and  CP6_38 
+REMARK       I    between atoms: CP6_38  and  NP2_40 
+REMARK   17  A    between atoms: NP2_40  and  CP5_41 
+REMARK   18  A    between atoms: CP5_41  and  CP4_42 
+REMARK   19  A    between atoms: CP4_42  and  CP3_43 
+REMARK       I    between atoms: CP3_43  and  NP1_45 
+REMARK   20  A    between atoms: NP1_45  and  CP2_46 
+REMARK   21  A    between atoms: CP2_46  and  CP1_47 
+REMARK   22  A    between atoms: CP1_47  and  O_48 
+ROOT
+ATOM      1  P1  KGA d   1      19.148  23.334  19.479  0.00  0.00     0.417 P 
+ATOM      2  O11 KGA d   1      18.087  24.355  19.119  0.00  0.00    -0.624 OA
+ATOM      3  O12 KGA d   1      18.961  21.906  18.962  0.00  0.00    -0.624 OA
+ENDROOT
+BRANCH   1   4
+ATOM      4  O5' KGA d   1      20.515  24.080  19.084  0.00  0.00    -0.287 OA
+BRANCH   4   5
+ATOM      5  C5' KGA d   1      20.775  25.498  19.144  0.00  0.00     0.216 C 
+BRANCH   5   6
+ATOM      6  C4' KGA d   1      21.451  25.872  17.808  0.00  0.00     0.180 C 
+ATOM      7  C3' KGA d   1      20.745  25.139  16.656  0.00  0.00     0.199 C 
+ATOM      8  C2' KGA d   1      21.526  23.843  16.455  0.00  0.00     0.199 C 
+ATOM      9  C1' KGA d   1      22.906  24.374  16.803  0.00  0.00     0.262 C 
+ATOM     10  O4' KGA d   1      22.835  25.415  17.832  0.00  0.00    -0.353 OA
+BRANCH   7  11
+ATOM     11  O3' KGA d   1      20.771  25.848  15.426  0.00  0.00    -0.272 OA
+BRANCH  11  12
+ATOM     12  P3  KGA d   1      19.536  26.792  14.902  0.00  0.00     0.422 P 
+ATOM     13  O31 KGA d   1      19.417  27.911  15.907  0.00  0.00    -0.617 OA
+ATOM     14  O33 KGA d   1      20.132  27.234  13.616  0.00  0.00    -0.617 OA
+ATOM     15  O32 KGA d   1      18.363  25.857  14.718  0.00  0.00    -0.617 OA
+ENDBRANCH  11  12
+ENDBRANCH   7  11
+BRANCH   8  16
+ATOM     16  O2' KGA d   1      21.472  23.261  15.135  0.00  0.00    -0.388 OA
+ATOM     17  H7  KGA d   1      21.703  23.919  14.490  0.00  0.00     0.210 HD
+ENDBRANCH   8  16
+BRANCH   9  18
+ATOM     18  N9  KGA d   1      23.776  23.246  17.191  0.00  0.00    -0.294 N 
+ATOM     19  C4  KGA d   1      24.877  22.974  16.509  0.00  0.00     0.167 A 
+ATOM     20  N3  KGA d   1      25.485  23.509  15.438  0.00  0.00    -0.222 NA
+ATOM     21  C5  KGA d   1      25.463  21.825  17.229  0.00  0.00     0.149 A 
+ATOM     22  C2  KGA d   1      26.629  22.933  15.037  0.00  0.00     0.237 A 
+ATOM     23  N1  KGA d   1      27.209  21.881  15.655  0.00  0.00    -0.222 NA
+ATOM     24  C6  KGA d   1      26.682  21.303  16.730  0.00  0.00     0.155 A 
+ATOM     25  N7  KGA d   1      24.659  21.512  18.254  0.00  0.00    -0.236 NA
+ATOM     26  C8  KGA d   1      23.621  22.390  18.229  0.00  0.00     0.214 A 
+BRANCH  24  27
+ATOM     27  N6  KGA d   1      27.243  20.272  17.382  0.00  0.00    -0.382 N 
+ATOM     28  H2  KGA d   1      26.779  19.872  18.210  0.00  0.00     0.157 HD
+ATOM     29  H3  KGA d   1      28.138  19.881  17.054  0.00  0.00     0.157 HD
+ENDBRANCH  24  27
+ENDBRANCH   9  18
+ENDBRANCH   5   6
+ENDBRANCH   4   5
+ENDBRANCH   1   4
+BRANCH   1  30
+ATOM     30  O6  KGA d   1      19.043  23.343  21.101  0.00  0.00    -0.180 OA
+BRANCH  30  31
+ATOM     31  P2  KGA d   1      18.590  22.124  22.049  0.00  0.00     0.417 P 
+ATOM     32  O21 KGA d   1      17.273  21.559  21.658  0.00  0.00    -0.624 OA
+ATOM     33  O22 KGA d   1      18.616  22.885  23.345  0.00  0.00    -0.624 OA
+BRANCH  31  34
+ATOM     34  O7  KGA d   1      19.509  20.790  22.146  0.00  0.00    -0.289 OA
+BRANCH  34  35
+ATOM     35  CPB KGA d   1      20.854  20.937  22.539  0.00  0.00     0.193 C 
+BRANCH  35  36
+ATOM     36  CPA KGA d   1      21.600  19.677  22.164  0.00  0.00     0.009 C 
+ATOM     37  CP9 KGA d   1      21.178  18.583  23.140  0.00  0.00     0.020 C 
+ATOM     38  CP8 KGA d   1      23.105  19.958  22.282  0.00  0.00     0.020 C 
+BRANCH  36  39
+ATOM     39  CP7 KGA d   1      21.210  19.327  20.713  0.00  0.00     0.219 C 
+BRANCH  39  40
+ATOM     40  OP3 KGA d   1      21.461  20.463  19.915  0.00  0.00    -0.385 OA
+ATOM     41  H21 KGA d   1      20.940  21.192  20.231  0.00  0.00     0.210 HD
+ENDBRANCH  39  40
+BRANCH  39  42
+ATOM     42  CP6 KGA d   1      22.079  18.280  20.191  0.00  0.00     0.247 C 
+ATOM     43  OP2 KGA d   1      22.103  17.147  20.685  0.00  0.00    -0.271 OA
+ATOM     44  NP2 KGA d   1      22.882  18.827  19.292  0.00  0.00    -0.358 N 
+ATOM     45  H22 KGA d   1      22.647  19.744  18.969  0.00  0.00     0.162 HD
+BRANCH  44  46
+ATOM     46  CP5 KGA d   1      24.073  18.215  18.733  0.00  0.00     0.132 C 
+BRANCH  46  47
+ATOM     47  CP4 KGA d   1      24.784  17.204  19.601  0.00  0.00     0.122 C 
+BRANCH  47  48
+ATOM     48  CP3 KGA d   1      25.774  16.436  18.744  0.00  0.00     0.219 C 
+ATOM     49  OP1 KGA d   1      25.469  15.358  18.256  0.00  0.00    -0.274 OA
+ATOM     50  NP1 KGA d   1      26.993  16.956  18.679  0.00  0.00    -0.359 N 
+ATOM     51  H27 KGA d   1      27.095  17.942  18.812  0.00  0.00     0.162 HD
+BRANCH  50  52
+ATOM     52  CP2 KGA d   1      28.176  16.175  18.427  0.00  0.00     0.148 C 
+BRANCH  52  53
+ATOM     53  CP1 KGA d   1      28.670  16.153  16.996  0.00  0.00     0.183 C 
+BRANCH  53  54
+ATOM     54  O   KGA d   1      29.534  15.028  16.728  0.00  0.00    -0.399 OA
+ATOM     55  H32 KGA d   1      29.817  15.057  15.822  0.00  0.00     0.209 HD
+ENDBRANCH  53  54
+ENDBRANCH  52  53
+ENDBRANCH  50  52
+ENDBRANCH  47  48
+ENDBRANCH  46  47
+ENDBRANCH  44  46
+ENDBRANCH  39  42
+ENDBRANCH  36  39
+ENDBRANCH  35  36
+ENDBRANCH  34  35
+ENDBRANCH  31  34
+ENDBRANCH  30  31
+ENDBRANCH   1  30
+TORSDOF 22

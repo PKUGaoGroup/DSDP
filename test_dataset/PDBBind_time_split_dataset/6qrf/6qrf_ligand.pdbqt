@@ -1,0 +1,33 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C09_12  and  C10_1 
+REMARK    2  A    between atoms: C02_5  and  C03_6 
+REMARK    3  A    between atoms: O08_11  and  C02_5 
+REMARK    4  A    between atoms: O08_11  and  C09_12 
+ROOT
+ATOM      1  O01 JF5 d   1     -20.273  20.182 -12.972  0.00  0.00    -0.259 OA
+ATOM      2  C02 JF5 d   1     -20.683  19.044 -12.873  0.00  0.00     0.296 C 
+ENDROOT
+BRANCH   2   3
+ATOM      3  C03 JF5 d   1     -19.722  17.852 -12.895  0.00  0.00     0.075 A 
+ATOM      4  C04 JF5 d   1     -20.091  16.530 -12.924  0.00  0.00     0.157 A 
+ATOM      5  N05 JF5 d   1     -18.971  15.807 -12.928  0.00  0.00    -0.187 NA
+ATOM      6  N06 JF5 d   1     -17.879  16.614 -12.882  0.00  0.00    -0.289 N 
+ATOM      7  C07 JF5 d   1     -18.330  17.897 -12.877  0.00  0.00     0.128 A 
+ATOM      8  H4  JF5 d   1     -16.895  16.311 -12.856  0.00  0.00     0.188 HD
+ENDBRANCH   2   3
+BRANCH   2   9
+ATOM      9  O08 JF5 d   1     -22.070  18.789 -12.709  0.00  0.00    -0.313 OA
+BRANCH   9  10
+ATOM     10  C09 JF5 d   1     -22.897  19.970 -12.634  0.00  0.00     0.217 C 
+BRANCH  10  11
+ATOM     11  C10 JF5 d   1     -23.048  20.394 -11.173  0.00  0.00    -0.034 A 
+ATOM     12  C15 JF5 d   1     -23.859  19.662 -10.314  0.00  0.00     0.009 A 
+ATOM     13  C14 JF5 d   1     -23.993  20.039  -8.985  0.00  0.00     0.001 A 
+ATOM     14  C13 JF5 d   1     -23.302  21.152  -8.518  0.00  0.00     0.000 A 
+ATOM     15  C12 JF5 d   1     -22.499  21.883  -9.378  0.00  0.00     0.001 A 
+ATOM     16  C11 JF5 d   1     -22.363  21.508 -10.705  0.00  0.00     0.009 A 
+ENDBRANCH  10  11
+ENDBRANCH   9  10
+ENDBRANCH   2   9
+TORSDOF 4

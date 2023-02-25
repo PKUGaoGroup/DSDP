@@ -1,0 +1,87 @@
+REMARK  14 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N3B_8  and  PG_1 
+REMARK    2  A    between atoms: PG_1  and  O2G_3 
+REMARK    3  A    between atoms: PG_1  and  O3G_4 
+REMARK    4  A    between atoms: O3A_12  and  PB_5 
+REMARK    5  A    between atoms: PB_5  and  O2B_7 
+REMARK    6  A    between atoms: PB_5  and  N3B_8 
+REMARK    7  A    between atoms: O5'_13  and  PA_9 
+REMARK    8  A    between atoms: PA_9  and  O3A_12 
+REMARK    9  A    between atoms: PA_9  and  O1A_10 
+REMARK   10  A    between atoms: C5'_14  and  O5'_13 
+REMARK   11  A    between atoms: C4'_15  and  C5'_14 
+REMARK   12  A    between atoms: O3'_18  and  C3'_17 
+REMARK   13  A    between atoms: O2'_20  and  C2'_19 
+REMARK   14  A    between atoms: C1'_21  and  N9_22 
+ROOT
+ATOM      1  C4' ANP d 380      -3.501  21.130  50.908  0.00  0.00     0.180 C 
+ATOM      2  O4' ANP d 380      -2.638  19.979  50.699  0.00  0.00    -0.353 OA
+ATOM      3  C3' ANP d 380      -4.629  20.678  51.831  0.00  0.00     0.182 C 
+ATOM      4  C2' ANP d 380      -4.849  19.240  51.389  0.00  0.00     0.198 C 
+ATOM      5  C1' ANP d 380      -3.411  18.813  50.981  0.00  0.00     0.262 C 
+ENDROOT
+BRANCH   1   6
+ATOM      6  C5' ANP d 380      -2.327  21.924  51.501  0.00  0.00     0.215 C 
+BRANCH   6   7
+ATOM      7  O5' ANP d 380      -1.937  21.858  52.832  0.00  0.00    -0.294 OA
+BRANCH   7   8
+ATOM      8  PA  ANP d 380      -1.536  23.074  53.768  0.00  0.00     0.401 P 
+ATOM      9  O2A ANP d 380      -0.512  23.793  52.997  0.00  0.00    -0.631 OA
+BRANCH   8  10
+ATOM     10  O3A ANP d 380      -2.863  23.960  53.806  0.00  0.00    -0.205 OA
+BRANCH  10  11
+ATOM     11  PB  ANP d 380      -4.279  23.727  54.491  0.00  0.00     0.339 P 
+ATOM     12  O1B ANP d 380      -5.293  23.799  53.447  0.00  0.00    -0.641 OA
+BRANCH  11  13
+ATOM     13  O2B ANP d 380      -4.304  22.494  55.207  0.00  0.00    -0.316 OA
+ATOM     14  H   ANP d 380      -4.192  21.757  54.586  0.00  0.00     0.221 HD
+ENDBRANCH  11  13
+BRANCH  11  15
+ATOM     15  N3B ANP d 380      -4.458  25.062  55.417  0.00  0.00    -0.136 NA
+ATOM     16  H   ANP d 380      -5.348  24.916  55.894  0.00  0.00     0.145 HD
+BRANCH  15  17
+ATOM     17  PG  ANP d 380      -3.463  25.692  56.598  0.00  0.00     0.328 P 
+ATOM     18  O1G ANP d 380      -2.502  26.652  56.006  0.00  0.00    -0.641 OA
+BRANCH  17  19
+ATOM     19  O2G ANP d 380      -2.834  24.693  57.278  0.00  0.00    -0.317 OA
+ATOM     20  H   ANP d 380      -2.188  24.263  56.696  0.00  0.00     0.221 HD
+ENDBRANCH  17  19
+BRANCH  17  21
+ATOM     21  O3G ANP d 380      -4.445  26.306  57.565  0.00  0.00    -0.317 OA
+ATOM     22  H   ANP d 380      -4.922  27.028  57.127  0.00  0.00     0.221 HD
+ENDBRANCH  17  21
+ENDBRANCH  15  17
+ENDBRANCH  11  15
+ENDBRANCH  10  11
+ENDBRANCH   8  10
+BRANCH   8  23
+ATOM     23  O1A ANP d 380      -1.229  22.602  55.058  0.00  0.00    -0.307 OA
+ATOM     24  H   ANP d 380      -0.422  22.066  55.022  0.00  0.00     0.222 HD
+ENDBRANCH   8  23
+ENDBRANCH   7   8
+ENDBRANCH   6   7
+ENDBRANCH   1   6
+BRANCH   3  25
+ATOM     25  O3' ANP d 380      -5.687  21.589  51.700  0.00  0.00    -0.390 OA
+ATOM     26  H   ANP d 380      -5.930  21.670  50.764  0.00  0.00     0.210 HD
+ENDBRANCH   3  25
+BRANCH   5  27
+ATOM     27  N9  ANP d 380      -2.575  18.063  51.998  0.00  0.00    -0.294 N 
+ATOM     28  C4  ANP d 380      -2.766  16.748  52.304  0.00  0.00     0.167 A 
+ATOM     29  N3  ANP d 380      -3.740  15.860  51.746  0.00  0.00    -0.222 NA
+ATOM     30  C5  ANP d 380      -1.765  16.439  53.291  0.00  0.00     0.149 A 
+ATOM     31  C2  ANP d 380      -3.711  14.553  52.236  0.00  0.00     0.237 A 
+ATOM     32  N1  ANP d 380      -2.796  14.120  53.200  0.00  0.00    -0.222 NA
+ATOM     33  C6  ANP d 380      -1.838  15.016  53.743  0.00  0.00     0.155 A 
+ATOM     34  N6  ANP d 380      -0.989  14.541  54.655  0.00  0.00    -0.382 N 
+ATOM     35  H   ANP d 380      -1.050  13.601  54.942  0.00  0.00     0.157 HD
+ATOM     36  H   ANP d 380      -0.301  15.130  55.041  0.00  0.00     0.157 HD
+ATOM     37  N7  ANP d 380      -0.993  17.525  53.599  0.00  0.00    -0.236 NA
+ATOM     38  C8  ANP d 380      -1.509  18.429  52.814  0.00  0.00     0.214 A 
+ENDBRANCH   5  27
+BRANCH   4  39
+ATOM     39  O2' ANP d 380      -5.844  19.231  50.370  0.00  0.00    -0.388 OA
+ATOM     40  H   ANP d 380      -5.585  19.838  49.660  0.00  0.00     0.210 HD
+ENDBRANCH   4  39
+TORSDOF 14

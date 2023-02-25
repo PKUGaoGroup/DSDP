@@ -1,0 +1,89 @@
+REMARK  10 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C9_18  and  N_1 
+REMARK    2  A    between atoms: C1_2  and  O1_3 
+REMARK    3  A    between atoms: C3_6  and  C2_4 
+REMARK    4  A    between atoms: O2_5  and  C3_6 
+REMARK    5  A    between atoms: C7_14  and  O4_9 
+REMARK    6  A    between atoms: C6_12  and  O4_9 
+REMARK    7  A    between atoms: C8_16  and  O5_11 
+REMARK    8  A    between atoms: O6_13  and  C10_20 
+REMARK    9  A    between atoms: C30_43  and  O10_21 
+REMARK   10  A    between atoms: O11_23  and  C32_45 
+ROOT
+ATOM      1  C1  XBK d1399      26.194  -3.376   7.949  0.00  0.00     0.140 C 
+ATOM      2  C2  XBK d1399      26.416  -4.099   6.603  0.00  0.00     0.141 C 
+ATOM      3  C4  XBK d1399      26.498  -3.037   5.527  0.00  0.00     0.144 C 
+ATOM      4  C5  XBK d1399      26.861  -3.719   4.203  0.00  0.00     0.065 C 
+ATOM      5  C6  XBK d1399      26.182  -3.062   2.982  0.00  0.00     0.127 C 
+ATOM      6  O8  XBK d1399      32.180   6.682   2.896  0.00  0.00    -0.313 OA
+ATOM      7  O9  XBK d1399      32.647   5.062   1.443  0.00  0.00    -0.260 OA
+ATOM      8  O12 XBK d1399      27.648  -2.180   5.855  0.00  0.00    -0.349 OA
+ATOM      9  C13 XBK d1399      26.892  -1.840   2.448  0.00  0.00     0.036 C 
+ATOM     10  C14 XBK d1399      26.852  -0.651   2.952  0.00  0.00     0.029 C 
+ATOM     11  C15 XBK d1399      27.640   0.244   2.149  0.00  0.00    -0.027 C 
+ATOM     12  C16 XBK d1399      27.671   1.521   2.440  0.00  0.00    -0.004 C 
+ATOM     13  C17 XBK d1399      28.485   2.405   1.623  0.00  0.00    -0.000 C 
+ATOM     14  C18 XBK d1399      28.575   3.706   1.909  0.00  0.00    -0.000 C 
+ATOM     15  C19 XBK d1399      29.356   4.732   1.190  0.00  0.00    -0.004 C 
+ATOM     16  C20 XBK d1399      29.524   5.948   1.782  0.00  0.00    -0.024 C 
+ATOM     17  C21 XBK d1399      30.238   7.243   1.358  0.00  0.00     0.059 C 
+ATOM     18  C22 XBK d1399      31.757   7.439   1.760  0.00  0.00     0.131 C 
+ATOM     19  C23 XBK d1399      32.225   8.867   2.111  0.00  0.00     0.040 C 
+ATOM     20  C24 XBK d1399      32.417   5.348   2.595  0.00  0.00     0.283 C 
+ATOM     21  C25 XBK d1399      32.318   4.433   3.736  0.00  0.00     0.082 C 
+ATOM     22  C26 XBK d1399      31.646   3.325   3.593  0.00  0.00     0.006 C 
+ATOM     23  C27 XBK d1399      31.490   2.414   4.738  0.00  0.00    -0.004 C 
+ATOM     24  C28 XBK d1399      30.825   1.287   4.540  0.00  0.00    -0.024 C 
+ATOM     25  C29 XBK d1399      30.667   0.324   5.670  0.00  0.00     0.059 C 
+ATOM     26  C30 XBK d1399      29.209   0.020   5.895  0.00  0.00     0.126 C 
+ATOM     27  C31 XBK d1399      29.052  -0.854   7.166  0.00  0.00     0.100 C 
+ATOM     28  C32 XBK d1399      27.657  -1.516   7.091  0.00  0.00     0.166 C 
+ATOM     29  C33 XBK d1399      27.373  -2.449   8.263  0.00  0.00     0.101 C 
+ENDROOT
+BRANCH   5  30
+ATOM     30  O4  XBK d1399      24.757  -2.816   3.000  0.00  0.00    -0.353 OA
+BRANCH  30  31
+ATOM     31  C7  XBK d1399      24.136  -3.891   2.253  0.00  0.00     0.291 C 
+ATOM     32  O7  XBK d1399      23.709  -3.487   0.940  0.00  0.00    -0.351 OA
+ATOM     33  C11 XBK d1399      23.154  -4.582   0.173  0.00  0.00     0.151 C 
+ATOM     34  C12 XBK d1399      22.644  -3.959  -1.110  0.00  0.00     0.042 C 
+ATOM     35  C10 XBK d1399      22.025  -5.288   0.916  0.00  0.00     0.182 C 
+ATOM     36  C9  XBK d1399      22.444  -5.770   2.311  0.00  0.00     0.282 C 
+ATOM     37  C8  XBK d1399      23.076  -4.605   3.097  0.00  0.00     0.208 C 
+BRANCH  35  38
+ATOM     38  O6  XBK d1399      21.511  -6.373   0.151  0.00  0.00    -0.391 OA
+ATOM     39  H   XBK d1399      21.250  -6.054  -0.727  0.00  0.00     0.210 HD
+ENDBRANCH  35  38
+BRANCH  36  40
+ATOM     40  N   XBK d1399      21.283  -6.146   3.060  0.00  0.00     0.088 N 
+ATOM     41  H   XBK d1399      20.812  -6.920   2.591  0.00  0.00     0.313 HD
+ATOM     42  H   XBK d1399      20.648  -5.351   3.125  0.00  0.00     0.313 HD
+ENDBRANCH  36  40
+BRANCH  37  43
+ATOM     43  O5  XBK d1399      22.076  -3.691   3.552  0.00  0.00    -0.388 OA
+ATOM     44  H   XBK d1399      22.498  -2.968   4.043  0.00  0.00     0.210 HD
+ENDBRANCH  37  43
+ENDBRANCH  30  31
+ENDBRANCH   5  30
+BRANCH   2  45
+ATOM     45  C3  XBK d1399      25.321  -5.077   6.285  0.00  0.00     0.148 C 
+ATOM     46  O3  XBK d1399      25.558  -6.347   6.057  0.00  0.00    -0.650 OA
+BRANCH  45  47
+ATOM     47  O2  XBK d1399      24.166  -4.721   6.220  0.00  0.00    -0.776 OA
+ATOM     48  H   XBK d1399      23.943  -3.824   6.374  0.00  0.00     0.167 HD
+ENDBRANCH  45  47
+ENDBRANCH   2  45
+BRANCH  28  49
+ATOM     49  O11 XBK d1399      26.582  -0.555   7.012  0.00  0.00    -0.365 OA
+ATOM     50  H   XBK d1399      26.743   0.050   6.271  0.00  0.00     0.213 HD
+ENDBRANCH  28  49
+BRANCH   1  51
+ATOM     51  O1  XBK d1399      26.095  -4.342   9.014  0.00  0.00    -0.394 OA
+ATOM     52  H   XBK d1399      26.920  -4.848   9.069  0.00  0.00     0.210 HD
+ENDBRANCH   1  51
+BRANCH  26  53
+ATOM     53  O10 XBK d1399      28.540   1.295   5.971  0.00  0.00    -0.395 OA
+ATOM     54  H   XBK d1399      28.681   1.784   5.145  0.00  0.00     0.210 HD
+ENDBRANCH  26  53
+TORSDOF 10

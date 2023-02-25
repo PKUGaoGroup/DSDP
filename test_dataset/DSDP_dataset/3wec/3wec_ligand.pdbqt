@@ -1,0 +1,61 @@
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C12_13  and  C2_12 
+REMARK    2  A    between atoms: C12_13  and  C14_14 
+REMARK    3  A    between atoms: C16_17  and  C15_15 
+REMARK    4  A    between atoms: C17_18  and  C16_17 
+REMARK    5  A    between atoms: C17_18  and  C18_19 
+REMARK    6  A    between atoms: C19_20  and  C20_22 
+REMARK    7  A    between atoms: C21_23  and  C20_22 
+REMARK    8  A    between atoms: C22_25  and  C21_23 
+REMARK    9  A    between atoms: C21_23  and  O28_24 
+ROOT
+ATOM      1  C14 AUI d 502       1.977   6.583  17.042  0.00  0.00    -0.023 C 
+ATOM      2  C15 AUI d 502       1.241   7.087  18.068  0.00  0.00    -0.087 C 
+ATOM      3  C26 AUI d 502       1.775   7.662  19.366  0.00  0.00     0.043 C 
+ENDROOT
+BRANCH   2   4
+ATOM      4  C16 AUI d 502      -0.249   7.002  17.852  0.00  0.00     0.037 C 
+BRANCH   4   5
+ATOM      5  C17 AUI d 502      -1.027   8.315  17.790  0.00  0.00     0.031 C 
+BRANCH   5   6
+ATOM      6  C18 AUI d 502      -0.272   9.489  18.349  0.00  0.00    -0.024 C 
+ATOM      7  C19 AUI d 502      -0.590  10.792  18.183  0.00  0.00    -0.085 C 
+ATOM      8  C27 AUI d 502      -1.803  11.297  17.442  0.00  0.00     0.043 C 
+BRANCH   7   9
+ATOM      9  C20 AUI d 502       0.306  11.808  18.846  0.00  0.00     0.069 C 
+BRANCH   9  10
+ATOM     10  C21 AUI d 502       1.545  12.223  18.044  0.00  0.00     0.145 C 
+BRANCH  10  11
+ATOM     11  C22 AUI d 502       2.436  11.106  17.541  0.00  0.00     0.007 C 
+ATOM     12  C23 AUI d 502       3.619  10.682  18.067  0.00  0.00    -0.089 C 
+ATOM     13  C24 AUI d 502       4.311   9.581  17.340  0.00  0.00     0.042 C 
+ATOM     14  C25 AUI d 502       4.328  11.179  19.318  0.00  0.00     0.042 C 
+ENDBRANCH  10  11
+BRANCH  10  15
+ATOM     15  O28 AUI d 502       2.356  12.970  18.942  0.00  0.00    -0.391 OA
+ATOM     16  H   AUI d 502       2.626  12.403  19.681  0.00  0.00     0.210 HD
+ENDBRANCH  10  15
+ENDBRANCH   9  10
+ENDBRANCH   7   9
+ENDBRANCH   5   6
+ENDBRANCH   4   5
+ENDBRANCH   2   4
+BRANCH   1  17
+ATOM     17  C12 AUI d 502       3.473   6.415  16.755  0.00  0.00     0.046 C 
+BRANCH  17  18
+ATOM     18  C2  AUI d 502       4.106   5.694  17.915  0.00  0.00     0.111 A 
+ATOM     19  C3  AUI d 502       3.755   4.261  18.192  0.00  0.00     0.021 A 
+ATOM     20  C11 AUI d 502       2.769   3.546  17.281  0.00  0.00     0.066 C 
+ATOM     21  N10 AUI d 502       4.311   3.630  19.247  0.00  0.00    -0.257 NA
+ATOM     22  C9  AUI d 502       5.210   4.218  20.095  0.00  0.00     0.070 A 
+ATOM     23  C4  AUI d 502       5.648   5.635  19.942  0.00  0.00     0.039 A 
+ATOM     24  C8  AUI d 502       5.752   3.529  21.169  0.00  0.00     0.032 A 
+ATOM     25  C1  AUI d 502       5.070   6.400  18.821  0.00  0.00     0.171 A 
+ATOM     26  C5  AUI d 502       6.525   6.239  20.838  0.00  0.00     0.017 A 
+ATOM     27  O13 AUI d 502       5.400   7.600  18.677  0.00  0.00    -0.291 OA
+ATOM     28  C6  AUI d 502       7.047   5.506  21.903  0.00  0.00     0.001 A 
+ATOM     29  C7  AUI d 502       6.637   4.172  22.037  0.00  0.00     0.002 A 
+ENDBRANCH  17  18
+ENDBRANCH   1  17
+TORSDOF 9

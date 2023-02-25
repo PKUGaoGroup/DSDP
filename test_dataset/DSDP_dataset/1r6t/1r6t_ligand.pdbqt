@@ -1,0 +1,88 @@
+REMARK  13 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: OPP_37  and  P_1 
+REMARK    2  A    between atoms: P_1  and  O2P_3 
+REMARK    3  A    between atoms: P_1  and  O5'_4 
+REMARK    4  A    between atoms: C5'_5  and  O5'_4 
+REMARK    5  A    between atoms: C5'_5  and  C4'_6 
+REMARK    6  A    between atoms: C1'_8  and  N9_9 
+REMARK    7  A    between atoms: C2'_19  and  O2'_20 
+REMARK    8  A    between atoms: C3'_21  and  O3'_22 
+REMARK    9  A    between atoms: NH3_23  and  CA_24 
+REMARK   10  A    between atoms: CB_25  and  CA_24 
+REMARK   11  A    between atoms: CA_24  and  C_35 
+REMARK   12  A    between atoms: CB_25  and  CG_26 
+REMARK   13  A    between atoms: C_35  and  OPP_37 
+ROOT
+ATOM      1  O5' TYM d 501      42.634  43.313  47.927  0.00  0.00    -0.294 OA
+ENDROOT
+BRANCH   1   2
+ATOM      2  P   TYM d 501      43.127  42.076  47.043  0.00  0.00     0.400 P 
+ATOM      3  O1P TYM d 501      42.643  42.290  45.649  0.00  0.00    -0.631 OA
+BRANCH   2   4
+ATOM      4  OPP TYM d 501      44.733  42.152  46.994  0.00  0.00    -0.218 OA
+BRANCH   4   5
+ATOM      5  C   TYM d 501      45.583  41.148  46.391  0.00  0.00     0.301 C 
+ATOM      6  O   TYM d 501      45.109  40.097  45.938  0.00  0.00    -0.262 OA
+BRANCH   5   7
+ATOM      7  CA  TYM d 501      47.089  41.388  46.383  0.00  0.00     0.321 C 
+BRANCH   7   8
+ATOM      8  CB  TYM d 501      47.353  42.613  45.497  0.00  0.00     0.082 C 
+BRANCH   8   9
+ATOM      9  CG  TYM d 501      48.554  43.433  45.852  0.00  0.00    -0.046 A 
+ATOM     10  CD1 TYM d 501      49.742  43.466  45.175  0.00  0.00     0.121 A 
+ATOM     11  NE1 TYM d 501      50.616  44.337  45.782  0.00  0.00    -0.264 NA
+ATOM     12  CE2 TYM d 501      50.007  44.895  46.877  0.00  0.00     0.046 A 
+ATOM     13  CD2 TYM d 501      48.690  44.346  46.955  0.00  0.00     0.090 A 
+ATOM     14  CZ2 TYM d 501      50.489  45.849  47.821  0.00  0.00     0.028 A 
+ATOM     15  CE3 TYM d 501      47.830  44.765  48.024  0.00  0.00    -0.011 A 
+ATOM     16  CZ3 TYM d 501      48.305  45.708  48.960  0.00  0.00    -0.003 A 
+ATOM     17  CH2 TYM d 501      49.627  46.239  48.852  0.00  0.00     0.002 A 
+ENDBRANCH   8   9
+ENDBRANCH   7   8
+BRANCH   7  18
+ATOM     18  NH3 TYM d 501      47.816  40.244  45.846  0.00  0.00     0.092 N 
+ATOM     19  H   TYM d 501      48.817  40.441  45.857  0.00  0.00     0.313 HD
+ATOM     20  H   TYM d 501      47.514  40.069  44.888  0.00  0.00     0.313 HD
+ENDBRANCH   7  18
+ENDBRANCH   5   7
+ENDBRANCH   4   5
+ENDBRANCH   2   4
+BRANCH   2  21
+ATOM     21  O2P TYM d 501      42.741  40.837  47.767  0.00  0.00    -0.307 OA
+ATOM     22  H   TYM d 501      43.026  40.062  47.257  0.00  0.00     0.222 HD
+ENDBRANCH   2  21
+ENDBRANCH   1   2
+BRANCH   1  23
+ATOM     23  C5' TYM d 501      43.055  44.648  47.614  0.00  0.00     0.215 C 
+BRANCH  23  24
+ATOM     24  C4' TYM d 501      43.222  45.478  48.863  0.00  0.00     0.180 C 
+ATOM     25  O4' TYM d 501      42.001  45.445  49.655  0.00  0.00    -0.353 OA
+ATOM     26  C1' TYM d 501      42.283  45.029  50.986  0.00  0.00     0.262 C 
+ATOM     27  C2' TYM d 501      43.595  44.230  50.869  0.00  0.00     0.198 C 
+ATOM     28  C3' TYM d 501      44.336  45.028  49.805  0.00  0.00     0.182 C 
+BRANCH  26  29
+ATOM     29  N9  TYM d 501      41.087  44.313  51.465  0.00  0.00    -0.294 N 
+ATOM     30  C8  TYM d 501      40.531  43.133  50.994  0.00  0.00     0.214 A 
+ATOM     31  N7  TYM d 501      39.440  42.759  51.632  0.00  0.00    -0.236 NA
+ATOM     32  C5  TYM d 501      39.257  43.749  52.585  0.00  0.00     0.149 A 
+ATOM     33  C4  TYM d 501      40.270  44.716  52.498  0.00  0.00     0.167 A 
+ATOM     34  C6  TYM d 501      38.270  43.965  53.598  0.00  0.00     0.155 A 
+ATOM     35  N3  TYM d 501      40.411  45.828  53.275  0.00  0.00    -0.222 NA
+ATOM     36  C2  TYM d 501      39.431  45.924  54.192  0.00  0.00     0.237 A 
+ATOM     37  N1  TYM d 501      38.394  45.079  54.395  0.00  0.00    -0.222 NA
+ATOM     38  N6  TYM d 501      37.233  43.149  53.816  0.00  0.00    -0.382 N 
+ATOM     39  H   TYM d 501      37.116  42.343  53.263  0.00  0.00     0.157 HD
+ATOM     40  H   TYM d 501      36.587  43.354  54.530  0.00  0.00     0.157 HD
+ENDBRANCH  26  29
+BRANCH  27  41
+ATOM     41  O2' TYM d 501      44.280  44.130  52.106  0.00  0.00    -0.388 OA
+ATOM     42  H   TYM d 501      44.453  45.019  52.452  0.00  0.00     0.210 HD
+ENDBRANCH  27  41
+BRANCH  28  43
+ATOM     43  O3' TYM d 501      44.942  46.176  50.380  0.00  0.00    -0.390 OA
+ATOM     44  H   TYM d 501      44.265  46.712  50.821  0.00  0.00     0.210 HD
+ENDBRANCH  28  43
+ENDBRANCH  23  24
+ENDBRANCH   1  23
+TORSDOF 13

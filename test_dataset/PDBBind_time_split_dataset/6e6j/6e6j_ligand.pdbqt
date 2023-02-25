@@ -1,0 +1,66 @@
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C6_4  and  C11_20 
+REMARK    2  A    between atoms: C13_8  and  C25_28 
+REMARK    3  A    between atoms: O2_35  and  C17_10 
+REMARK    4  A    between atoms: N_16  and  C1_19 
+REMARK       I    between atoms: C2_26  and  N_16 
+REMARK    5  A    between atoms: C16_23  and  O2_35 
+REMARK    6  A    between atoms: C2_26  and  C3_30 
+REMARK    7  A    between atoms: C25_28  and  O3_36 
+ROOT
+ATOM      1  C13 HWV d   1      22.491 -14.182  -5.693  0.00  0.00    -0.024 A 
+ATOM      2  C15 HWV d   1      20.290 -13.242  -6.056  0.00  0.00     0.039 A 
+ATOM      3  C11 HWV d   1      22.181 -11.754  -5.734  0.00  0.00     0.011 A 
+ATOM      4  C12 HWV d   1      23.002 -12.885  -5.600  0.00  0.00     0.025 A 
+ATOM      5  C14 HWV d   1      21.124 -14.337  -5.915  0.00  0.00     0.013 A 
+ATOM      6  C16 HWV d   1      20.814 -11.955  -5.968  0.00  0.00     0.087 A 
+ENDROOT
+BRANCH   3   7
+ATOM      7  C6  HWV d   1      22.736 -10.377  -5.616  0.00  0.00     0.005 A 
+ATOM      8  C5  HWV d   1      22.487  -9.402  -6.659  0.00  0.00     0.011 A 
+ATOM      9  C4  HWV d   1      21.769  -9.345  -7.882  0.00  0.00     0.050 A 
+ATOM     10  C10 HWV d   1      22.993  -8.112  -6.437  0.00  0.00     0.113 A 
+ATOM     11  C3  HWV d   1      21.832  -8.062  -8.357  0.00  0.00     0.102 A 
+ATOM     12  N2  HWV d   1      22.580  -7.316  -7.478  0.00  0.00    -0.347 N 
+ATOM     13  H29 HWV d   1      22.797  -6.315  -7.583  0.00  0.00     0.166 HD
+ATOM     14  C9  HWV d   1      23.752  -7.696  -5.286  0.00  0.00     0.274 A 
+ATOM     15  N1  HWV d   1      23.915  -8.711  -4.329  0.00  0.00    -0.326 N 
+ATOM     16  O1  HWV d   1      24.254  -6.588  -5.103  0.00  0.00    -0.265 OA
+ATOM     17  C7  HWV d   1      23.417  -9.976  -4.502  0.00  0.00     0.107 A 
+ATOM     18  C8  HWV d   1      24.643  -8.371  -3.106  0.00  0.00     0.159 C 
+BRANCH  11  19
+ATOM     19  C2  HWV d   1      21.168  -7.573  -9.576  0.00  0.00     0.268 C 
+ATOM     20  N   HWV d   1      21.224  -6.260  -9.799  0.00  0.00    -0.356 N 
+ATOM     21  H15 HWV d   1      21.687  -5.681  -9.128  0.00  0.00     0.162 HD
+ATOM     22  O   HWV d   1      20.652  -8.362 -10.362  0.00  0.00    -0.266 OA
+BRANCH  20  23
+ATOM     23  C1  HWV d   1      20.640  -5.629 -10.979  0.00  0.00     0.118 C 
+ATOM     24  C   HWV d   1      21.053  -4.192 -11.091  0.00  0.00     0.026 C 
+ENDBRANCH  20  23
+ENDBRANCH  11  19
+ENDBRANCH   3   7
+BRANCH   6  25
+ATOM     25  O2  HWV d   1      19.997 -10.826  -6.116  0.00  0.00    -0.309 OA
+BRANCH  25  26
+ATOM     26  C17 HWV d   1      18.610 -10.912  -6.093  0.00  0.00     0.088 A 
+ATOM     27  C18 HWV d   1      17.952 -10.762  -4.862  0.00  0.00    -0.025 A 
+ATOM     28  C20 HWV d   1      16.564 -10.875  -4.860  0.00  0.00     0.051 A 
+ATOM     29  C19 HWV d   1      18.682 -10.389  -3.598  0.00  0.00     0.051 C 
+ATOM     30  C21 HWV d   1      15.908 -11.093  -6.049  0.00  0.00     0.117 A 
+ATOM     31  C22 HWV d   1      16.549 -11.220  -7.258  0.00  0.00     0.051 A 
+ATOM     32  F   HWV d   1      14.551 -11.180  -6.028  0.00  0.00    -0.206 F 
+ATOM     33  C23 HWV d   1      17.937 -11.129  -7.304  0.00  0.00    -0.025 A 
+ATOM     34  C24 HWV d   1      18.662 -11.202  -8.624  0.00  0.00     0.051 C 
+ENDBRANCH  25  26
+ENDBRANCH   6  25
+BRANCH   1  35
+ATOM     35  C25 HWV d   1      23.397 -15.413  -5.612  0.00  0.00     0.077 C 
+ATOM     36  C26 HWV d   1      23.124 -16.247  -4.362  0.00  0.00     0.051 C 
+ATOM     37  C27 HWV d   1      23.254 -16.278  -6.862  0.00  0.00     0.051 C 
+BRANCH  35  38
+ATOM     38  O3  HWV d   1      24.784 -15.017  -5.540  0.00  0.00    -0.386 OA
+ATOM     39  H30 HWV d   1      24.926 -14.507  -4.751  0.00  0.00     0.211 HD
+ENDBRANCH  35  38
+ENDBRANCH   1  35
+TORSDOF 7

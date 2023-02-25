@@ -1,0 +1,26 @@
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAH_2  and  CAK_3 
+REMARK    2  A    between atoms: CAK_3  and  CAJ_5 
+REMARK    3  A    between atoms: CAI_8  and  OAC_9 
+ROOT
+ATOM      1  CAJ H4Q d   1     -16.666  -4.447 -26.847  0.00  0.00    -0.054 A 
+ATOM      2  CAF H4Q d   1     -15.493  -4.936 -27.404  0.00  0.00     0.010 A 
+ATOM      3  CAD H4Q d   1     -15.042  -6.200 -27.069  0.00  0.00     0.037 A 
+ATOM      4  CAI H4Q d   1     -15.758  -6.974 -26.170  0.00  0.00     0.065 A 
+ATOM      5  CAE H4Q d   1     -16.934  -6.488 -25.601  0.00  0.00     0.037 A 
+ATOM      6  CAG H4Q d   1     -17.389  -5.219 -25.938  0.00  0.00     0.010 A 
+ENDROOT
+BRANCH   1   7
+ATOM      7  CAK H4Q d   1     -17.094  -3.169 -27.169  0.00  0.00     0.014 C 
+ATOM      8  CAB H4Q d   1     -16.475  -2.720 -28.497  0.00  0.00     0.015 C 
+BRANCH   7   9
+ATOM      9  CAH H4Q d   1     -16.571  -2.274 -26.041  0.00  0.00     0.004 C 
+ATOM     10  CAA H4Q d   1     -16.982  -0.831 -26.263  0.00  0.00     0.006 C 
+ENDBRANCH   7   9
+ENDBRANCH   1   7
+BRANCH   4  11
+ATOM     11  OAC H4Q d   1     -15.299  -8.213 -25.851  0.00  0.00    -0.361 OA
+ATOM     12  H12 H4Q d   1     -15.891  -8.618 -25.229  0.00  0.00     0.217 HD
+ENDBRANCH   4  11
+TORSDOF 3

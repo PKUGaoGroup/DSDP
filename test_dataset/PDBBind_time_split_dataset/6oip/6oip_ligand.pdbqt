@@ -1,0 +1,45 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: S13_20  and  C16_1 
+REMARK    2  A    between atoms: C09_16  and  C05_12 
+REMARK       I    between atoms: N11_18  and  C09_16 
+REMARK    3  A    between atoms: N12_19  and  N11_18 
+REMARK    4  A    between atoms: N12_19  and  S13_20 
+ROOT
+ATOM      1  N12 MLS d   1       3.358  10.078  18.693  0.00  0.00    -0.220 N 
+ATOM      2  H12 MLS d   1       2.616  10.144  18.026  0.00  0.00     0.200 HD
+ENDROOT
+BRANCH   1   3
+ATOM      3  N11 MLS d   1       4.215  11.093  18.958  0.00  0.00    -0.256 N 
+ATOM      4  C09 MLS d   1       5.323  11.419  18.105  0.00  0.00     0.273 C 
+ATOM      5  O10 MLS d   1       5.565  10.795  17.086  0.00  0.00    -0.266 OA
+ATOM      6  H11 MLS d   1       4.070  11.639  19.783  0.00  0.00     0.191 HD
+BRANCH   4   7
+ATOM      7  C05 MLS d   1       6.170  12.588  18.473  0.00  0.00     0.072 A 
+ATOM      8  C03 MLS d   1       6.377  12.939  19.802  0.00  0.00     0.138 A 
+ATOM      9  C02 MLS d   1       7.129  14.048  20.111  0.00  0.00    -0.022 A 
+ATOM     10  F04 MLS d   1       5.858  12.230  20.803  0.00  0.00    -0.204 F 
+ATOM     11  C01 MLS d   1       7.342  14.379  21.549  0.00  0.00     0.051 C 
+ATOM     12  C08 MLS d   1       7.697  14.812  19.105  0.00  0.00     0.010 A 
+ATOM     13  C07 MLS d   1       7.478  14.474  17.775  0.00  0.00     0.002 A 
+ATOM     14  C06 MLS d   1       6.719  13.357  17.460  0.00  0.00     0.020 A 
+ENDBRANCH   4   7
+ENDBRANCH   1   3
+BRANCH   1  15
+ATOM     15  S13 MLS d   1       3.658   8.737  19.573  0.00  0.00     0.276 S 
+ATOM     16  O14 MLS d   1       5.062   8.528  19.783  0.00  0.00    -0.199 OA
+ATOM     17  O15 MLS d   1       3.085   7.608  18.920  0.00  0.00    -0.199 OA
+BRANCH  15  18
+ATOM     18  C16 MLS d   1       2.892   8.851  21.157  0.00  0.00     0.082 A 
+ATOM     19  C17 MLS d   1       1.867   7.976  21.508  0.00  0.00     0.037 A 
+ATOM     20  C18 MLS d   1       1.248   8.072  22.790  0.00  0.00    -0.025 A 
+ATOM     21  C19 MLS d   1       1.676   9.020  23.675  0.00  0.00    -0.026 A 
+ATOM     22  C23 MLS d   1       0.187   7.189  23.147  0.00  0.00     0.012 A 
+ATOM     23  C20 MLS d   1       1.081   9.123  24.974  0.00  0.00     0.012 A 
+ATOM     24  C24 MLS d   1       2.733   9.903  23.308  0.00  0.00     0.014 A 
+ATOM     25  C21 MLS d   1       0.045   8.257  25.321  0.00  0.00     0.001 A 
+ATOM     26  C22 MLS d   1      -0.405   7.294  24.407  0.00  0.00     0.001 A 
+ATOM     27  C25 MLS d   1       3.333   9.815  22.052  0.00  0.00     0.026 A 
+ENDBRANCH  15  18
+ENDBRANCH   1  15
+TORSDOF 4

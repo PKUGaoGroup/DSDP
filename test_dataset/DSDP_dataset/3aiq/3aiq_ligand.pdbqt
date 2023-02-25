@@ -1,0 +1,31 @@
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2B_7  and  O1A_1 
+REMARK    2  A    between atoms: N3B_3  and  OHB_12 
+REMARK    3  A    between atoms: O7B_14  and  C7B_13 
+ROOT
+ATOM      1  C3B HBO d4134      -0.566   2.947 -39.429  0.00  0.00     0.303 C 
+ATOM      2  N3B HBO d4134      -1.004   1.770 -40.032  0.00  0.00    -0.184 N 
+ATOM      3  C4B HBO d4134      -1.545   1.841 -41.353  0.00  0.00     0.099 A 
+ATOM      4  C1B HBO d4134      -1.291   3.009 -42.142  0.00  0.00     0.104 A 
+ATOM      5  O1B HBO d4134      -0.521   4.054 -41.648  0.00  0.00    -0.309 OA
+ATOM      6  C2B HBO d4134      -0.671   4.264 -40.210  0.00  0.00     0.360 C 
+ATOM      7  C5B HBO d4134      -2.334   0.778 -41.873  0.00  0.00     0.038 A 
+ATOM      8  C6B HBO d4134      -2.875   0.874 -43.174  0.00  0.00     0.039 A 
+ATOM      9  C8B HBO d4134      -1.841   3.093 -43.448  0.00  0.00     0.076 A 
+ATOM     10  O3B HBO d4134      -0.108   2.934 -38.286  0.00  0.00    -0.265 OA
+ATOM     11  C7B HBO d4134      -2.633   2.041 -43.976  0.00  0.00     0.070 A 
+ENDROOT
+BRANCH   2  12
+ATOM     12  OHB HBO d4134      -0.934   0.537 -39.344  0.00  0.00    -0.280 OA
+ATOM     13  H   HBO d4134      -1.279  -0.170 -39.911  0.00  0.00     0.245 HD
+ENDBRANCH   2  12
+BRANCH   6  14
+ATOM     14  O1A HBO d4134      -1.948   4.858 -39.954  0.00  0.00    -0.363 OA
+ATOM     15  H   HBO d4134      -2.021   5.691 -40.445  0.00  0.00     0.213 HD
+ENDBRANCH   6  14
+BRANCH  11  16
+ATOM     16  O7B HBO d4134      -3.145   2.201 -45.267  0.00  0.00    -0.356 OA
+ATOM     17  C9B HBO d4134      -3.939   1.063 -45.689  0.00  0.00     0.210 C 
+ENDBRANCH  11  16
+TORSDOF 3
