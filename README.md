@@ -80,7 +80,7 @@ For blind docking task, run:
 ### Redocking
 For redocking task, run:
 
-    ./DSDP_redocking/DSDP -ligand ./test_dataset/DSDP_dataset/1a2b/1a2b_ligand.pdbqt -protein ./test_dataset/DSDP_dataset/1a2b/1a2b_protein.pdbqt -box_min 2.241 20.008 21.314 -box_max 24.744 35.470 38.495  -exhaustiveness 384 -search_depth 40 -top_n 1  -out ./results/DSDP_dataset/redocking/1a2b_out.mol2 -log ./results/DSDP_dataset/redocking/1a2b_out.log
+    ./DSDP_redocking/DSDP -ligand ./test_dataset/DSDP_dataset/1a2b/1a2b_ligand.pdbqt -protein ./test_dataset/DSDP_dataset/1a2b/1a2b_protein.pdbqt -box_min 2.241 20.008 21.314 -box_max 24.744 35.470 38.495  -exhaustiveness 384 -search_depth 40 -top_n 1  -out ./results/DSDP_dataset/redocking/1a2b_out.pdbqt -log ./results/DSDP_dataset/redocking/1a2b_out.log
     
 Note: the box information (minima and maxima along x y z axis) of redocking needs to be provided by users. The box information of this example is only suitable for 1a2b protein.
 
