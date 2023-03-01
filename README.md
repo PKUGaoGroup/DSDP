@@ -14,9 +14,10 @@ Please set up the environment by [Anaconda](https://docs.anaconda.com/anaconda/i
 
 Create a new environment by `DSDP.yml` :
 
+**NOTE: Before this step, you need to check the version  of torch to match your cuda environment. If needed, please change the torch version directly in the `DSDP.yml`  file. For example, change the torch version to 1.13.1 if your cuda version is 11.6. The provided version in the current `DSDP.yml` file is suitable for cuda 11.2.**
+
     conda env create -f DSDP.yml
 
-You need to check the version  of torch to match your cuda environment. If needed, please change the torch version directly in the `DSDP.yml`  file.
 
 Activate the environment
 
