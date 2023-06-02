@@ -1,0 +1,115 @@
+REMARK  17 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O5'_9  and  PB_1 
+REMARK    2  A    between atoms: PB_1  and  O3B_4 
+REMARK    3  A    between atoms: PB_1  and  O2B_3 
+REMARK    4  A    between atoms: PA_6  and  O3B_4 
+REMARK    5  A    between atoms: O3A_5  and  C10_29 
+REMARK    6  A    between atoms: O3A_5  and  PA_6 
+REMARK    7  A    between atoms: PA_6  and  O2A_8 
+REMARK    8  A    between atoms: C5'_10  and  O5'_9 
+REMARK    9  A    between atoms: C5'_10  and  C4'_11 
+REMARK   10  A    between atoms: O3'_14  and  C3'_13 
+REMARK   11  A    between atoms: O2'_16  and  C2'_15 
+REMARK   12  A    between atoms: C1'_17  and  N9_18 
+REMARK   13  A    between atoms: C2_25  and  N2_26 
+REMARK   14  A    between atoms: C11_30  and  C10_29 
+REMARK   15  A    between atoms: C12_32  and  S12_33 
+REMARK   16  A    between atoms: C13_34  and  S13_35 
+REMARK   17  A    between atoms: N19_43  and  C19_42 
+ROOT
+ATOM      1  O3B MGD d1986      30.180  27.380  10.465  0.00  0.00    -0.195 OA
+ENDROOT
+BRANCH   1   2
+ATOM      2  PB  MGD d1986      29.217  26.410   9.679  0.00  0.00     0.401 P 
+ATOM      3  O1B MGD d1986      28.817  26.855   8.316  0.00  0.00    -0.631 OA
+BRANCH   2   4
+ATOM      4  O5' MGD d1986      30.148  25.103   9.571  0.00  0.00    -0.294 OA
+BRANCH   4   5
+ATOM      5  C5' MGD d1986      29.687  23.977   8.810  0.00  0.00     0.215 C 
+BRANCH   5   6
+ATOM      6  C4' MGD d1986      30.558  22.758   9.101  0.00  0.00     0.180 C 
+ATOM      7  C3' MGD d1986      29.928  21.674   8.258  0.00  0.00     0.182 C 
+ATOM      8  C2' MGD d1986      30.182  20.409   9.088  0.00  0.00     0.198 C 
+ATOM      9  C1' MGD d1986      30.784  20.949  10.396  0.00  0.00     0.262 C 
+ATOM     10  O4' MGD d1986      30.345  22.316  10.434  0.00  0.00    -0.353 OA
+BRANCH   7  11
+ATOM     11  O3' MGD d1986      30.623  21.656   7.017  0.00  0.00    -0.390 OA
+ATOM     12  H   MGD d1986      31.573  21.551   7.180  0.00  0.00     0.210 HD
+ENDBRANCH   7  11
+BRANCH   8  13
+ATOM     13  O2' MGD d1986      31.105  19.549   8.394  0.00  0.00    -0.388 OA
+ATOM     14  H   MGD d1986      31.924  20.035   8.210  0.00  0.00     0.210 HD
+ENDBRANCH   8  13
+BRANCH   9  15
+ATOM     15  N9  MGD d1986      30.200  20.209  11.540  0.00  0.00    -0.295 N 
+ATOM     16  C8  MGD d1986      28.906  20.038  11.851  0.00  0.00     0.214 A 
+ATOM     17  N7  MGD d1986      28.780  19.347  12.990  0.00  0.00    -0.234 NA
+ATOM     18  C5  MGD d1986      30.044  19.091  13.414  0.00  0.00     0.173 A 
+ATOM     19  C4  MGD d1986      30.933  19.684  12.490  0.00  0.00     0.161 A 
+ATOM     20  C6  MGD d1986      30.621  18.412  14.478  0.00  0.00     0.316 A 
+ATOM     21  N3  MGD d1986      32.296  19.650  12.602  0.00  0.00    -0.172 N 
+ATOM     22  C2  MGD d1986      32.875  18.980  13.608  0.00  0.00     0.703 A 
+ATOM     23  H   MGD d1986      32.854  20.120  11.941  0.00  0.00     0.186 HD
+ATOM     24  N1  MGD d1986      32.017  18.391  14.549  0.00  0.00    -0.021 NA
+ATOM     25  O6  MGD d1986      29.995  17.817  15.364  0.00  0.00    -0.263 OA
+BRANCH  22  26
+ATOM     26  N2  MGD d1986      34.241  18.888  13.758  0.00  0.00    -0.233 N 
+ATOM     27  H   MGD d1986      34.838  19.303  13.095  0.00  0.00     0.174 HD
+ATOM     28  H   MGD d1986      34.620  18.407  14.529  0.00  0.00     0.174 HD
+ENDBRANCH  22  26
+ENDBRANCH   9  15
+ENDBRANCH   5   6
+ENDBRANCH   4   5
+ENDBRANCH   2   4
+BRANCH   2  29
+ATOM     29  O2B MGD d1986      28.095  26.093  10.600  0.00  0.00    -0.307 OA
+ATOM     30  H   MGD d1986      27.473  25.495  10.158  0.00  0.00     0.222 HD
+ENDBRANCH   2  29
+ENDBRANCH   1   2
+BRANCH   1  31
+ATOM     31  PA  MGD d1986      31.239  28.498   9.945  0.00  0.00     0.401 P 
+ATOM     32  O1A MGD d1986      32.171  27.994   8.931  0.00  0.00    -0.631 OA
+BRANCH  31  33
+ATOM     33  O3A MGD d1986      30.340  29.586   9.201  0.00  0.00    -0.294 OA
+BRANCH  33  34
+ATOM     34  C10 MGD d1986      29.328  30.256   9.859  0.00  0.00     0.218 C 
+BRANCH  34  35
+ATOM     35  C11 MGD d1986      29.458  31.729   9.559  0.00  0.00     0.189 C 
+ATOM     36  O11 MGD d1986      29.401  31.886   8.201  0.00  0.00    -0.352 OA
+ATOM     37  C23 MGD d1986      29.677  33.265   7.951  0.00  0.00     0.253 C 
+ATOM     38  N22 MGD d1986      29.873  33.389   6.536  0.00  0.00    -0.344 N 
+ATOM     39  C14 MGD d1986      28.397  34.087   8.271  0.00  0.00     0.198 C 
+ATOM     40  C21 MGD d1986      28.870  33.127   5.608  0.00  0.00     0.179 A 
+ATOM     41  H   MGD d1986      30.756  33.672   6.207  0.00  0.00     0.163 HD
+ATOM     42  N20 MGD d1986      29.180  32.729   4.364  0.00  0.00    -0.043 NA
+ATOM     43  C16 MGD d1986      27.554  33.241   6.043  0.00  0.00     0.169 A 
+ATOM     44  C19 MGD d1986      28.237  32.482   3.443  0.00  0.00     0.725 A 
+ATOM     45  N18 MGD d1986      26.939  32.569   3.841  0.00  0.00    -0.019 NA
+ATOM     46  C17 MGD d1986      26.560  32.960   5.141  0.00  0.00     0.315 A 
+ATOM     47  O17 MGD d1986      25.349  33.019   5.463  0.00  0.00    -0.263 OA
+ATOM     48  N15 MGD d1986      27.298  33.636   7.370  0.00  0.00    -0.266 NA
+ATOM     49  C13 MGD d1986      27.971  33.752   9.659  0.00  0.00     0.020 C 
+ATOM     50  C12 MGD d1986      28.443  32.625  10.284  0.00  0.00     0.021 C 
+BRANCH  44  51
+ATOM     51  N19 MGD d1986      28.487  32.093   2.177  0.00  0.00    -0.231 N 
+ATOM     52  H   MGD d1986      27.741  31.930   1.556  0.00  0.00     0.174 HD
+ATOM     53  H   MGD d1986      29.416  31.972   1.873  0.00  0.00     0.174 HD
+ENDBRANCH  44  51
+BRANCH  49  54
+ATOM     54  S13 MGD d1986      26.849  34.774  10.489  0.00  0.00    -0.144 SA
+ATOM     55  H   MGD d1986      26.516  35.824   9.691  0.00  0.00     0.107 HD
+ENDBRANCH  49  54
+BRANCH  50  56
+ATOM     56  S12 MGD d1986      27.868  32.255  11.904  0.00  0.00    -0.143 SA
+ATOM     57  H   MGD d1986      28.452  31.107  12.341  0.00  0.00     0.107 HD
+ENDBRANCH  50  56
+ENDBRANCH  34  35
+ENDBRANCH  33  34
+ENDBRANCH  31  33
+BRANCH  31  58
+ATOM     58  O2A MGD d1986      31.788  29.056  11.167  0.00  0.00    -0.307 OA
+ATOM     59  H   MGD d1986      32.438  29.741  10.946  0.00  0.00     0.222 HD
+ENDBRANCH  31  58
+ENDBRANCH   1  31
+TORSDOF 17

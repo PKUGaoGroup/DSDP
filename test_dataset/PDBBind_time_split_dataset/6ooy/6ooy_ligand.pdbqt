@@ -1,0 +1,38 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C7_7  and  C1_1 
+REMARK    2  A    between atoms: N10_9  and  C7_7 
+REMARK    3  A    between atoms: C15_16  and  O16_15 
+REMARK    4  A    between atoms: C15_16  and  C14_17 
+ROOT
+ATOM      1  N10 A7M d   1     -12.176   0.278 -18.399  0.00  0.00    -0.327 N 
+ATOM      2  C12 A7M d   1     -13.951   0.353 -17.141  0.00  0.00     0.085 A 
+ATOM      3  C17 A7M d   1     -15.291   0.609 -16.909  0.00  0.00     0.034 A 
+ATOM      4  C18 A7M d   1     -16.101   1.098 -17.922  0.00  0.00     0.002 A 
+ATOM      5  C19 A7M d   1     -15.573   1.371 -19.173  0.00  0.00     0.002 A 
+ATOM      6  C20 A7M d   1     -14.240   1.118 -19.435  0.00  0.00     0.032 A 
+ATOM      7  C14 A7M d   1     -11.880  -0.170 -17.179  0.00  0.00     0.131 A 
+ATOM      8  C11 A7M d   1     -13.445   0.616 -18.410  0.00  0.00     0.065 A 
+ATOM      9  N13 A7M d   1     -12.968  -0.149 -16.366  0.00  0.00    -0.231 NA
+ENDROOT
+BRANCH   1  10
+ATOM     10  C7  A7M d   1     -11.255   0.391 -19.528  0.00  0.00     0.170 C 
+BRANCH  10  11
+ATOM     11  C1  A7M d   1     -11.059   1.827 -19.996  0.00  0.00    -0.034 A 
+ATOM     12  C2  A7M d   1     -10.798   2.818 -19.104  0.00  0.00     0.016 A 
+ATOM     13  C3  A7M d   1     -10.605   4.133 -19.545  0.00  0.00    -0.061 A 
+ATOM     14  C4  A7M d   1     -10.598   4.446 -20.910  0.00  0.00     0.007 A 
+ATOM     15  C21 A7M d   1     -10.354   5.205 -18.524  0.00  0.00     0.048 C 
+ATOM     16  C5  A7M d   1     -10.810   3.433 -21.833  0.00  0.00     0.008 A 
+ATOM     17  C6  A7M d   1     -11.026   2.112 -21.376  0.00  0.00    -0.054 A 
+ATOM     18  C9  A7M d   1     -11.284   0.964 -22.359  0.00  0.00     0.049 C 
+ENDBRANCH  10  11
+ENDBRANCH   1  10
+BRANCH   7  19
+ATOM     19  C15 A7M d   1     -10.512  -0.640 -16.837  0.00  0.00     0.242 C 
+BRANCH  19  20
+ATOM     20  O16 A7M d   1     -10.583  -1.121 -15.513  0.00  0.00    -0.393 OA
+ATOM     21  H13 A7M d   1     -11.211  -1.833 -15.469  0.00  0.00     0.209 HD
+ENDBRANCH  19  20
+ENDBRANCH   7  19
+TORSDOF 4

@@ -1,0 +1,23 @@
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CM5_9  and  O3_6 
+REMARK    2  A    between atoms: C5_8  and  CM5_9 
+ROOT
+ATOM      1  N1  HMU d 401     161.009 -67.675 350.996  0.00  0.00    -0.205 NA
+ATOM      2  C2  HMU d 401     160.557 -67.724 349.611  0.00  0.00     0.348 A 
+ATOM      3  O2  HMU d 401     160.314 -66.664 349.034  0.00  0.00    -0.245 OA
+ATOM      4  N3  HMU d 401     160.394 -69.005 348.925  0.00  0.00    -0.273 N 
+ATOM      5  C4  HMU d 401     160.678 -70.228 349.607  0.00  0.00     0.262 A 
+ATOM      6  O4  HMU d 401     160.537 -71.296 349.030  0.00  0.00    -0.267 OA
+ATOM      7  C5  HMU d 401     161.138 -70.188 351.005  0.00  0.00     0.071 A 
+ATOM      8  C6  HMU d 401     161.299 -68.894 351.684  0.00  0.00     0.141 A 
+ATOM      9  H   HMU d 401     160.087 -69.025 347.990  0.00  0.00     0.173 HD
+ENDROOT
+BRANCH   7  10
+ATOM     10  CM5 HMU d 401     161.445 -71.457 351.733  0.00  0.00     0.149 C 
+BRANCH  10  11
+ATOM     11  O3  HMU d 401     162.033 -71.370 352.978  0.00  0.00    -0.372 OA
+ATOM     12  H   HMU d 401     162.236 -72.150 353.456  0.00  0.00     0.216 HD
+ENDBRANCH  10  11
+ENDBRANCH   7  10
+TORSDOF 2

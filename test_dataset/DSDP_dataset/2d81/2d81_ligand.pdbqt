@@ -1,0 +1,62 @@
+REMARK  12 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2A_4  and  C1A_2 
+REMARK    2  A    between atoms: C1A_2  and  O1A_3 
+REMARK    3  A    between atoms: C2A_4  and  C3A_5 
+REMARK    4  A    between atoms: C3A_5  and  O3A_7 
+REMARK    5  A    between atoms: O3A_7  and  C1B_8 
+REMARK    6  A    between atoms: C1B_8  and  C2B_10 
+REMARK    7  A    between atoms: C2B_10  and  C3B_11 
+REMARK    8  A    between atoms: C3B_11  and  O3B_13 
+REMARK    9  A    between atoms: O3B_13  and  C1C_14 
+REMARK   10  A    between atoms: C1C_14  and  C2C_16 
+REMARK   11  A    between atoms: C2C_16  and  C3C_17 
+REMARK   12  A    between atoms: O3C_19  and  C3C_17 
+ROOT
+ATOM      1  C2B RB3 d 451      17.011  -8.098  28.118  0.00  0.00     0.143 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C1B RB3 d 451      17.345  -7.677  26.685  0.00  0.00     0.261 C 
+ATOM      3  O1B RB3 d 451      17.815  -6.566  26.445  0.00  0.00    -0.265 OA
+BRANCH   2   4
+ATOM      4  O3A RB3 d 451      17.111  -8.566  25.681  0.00  0.00    -0.316 OA
+BRANCH   4   5
+ATOM      5  C3A RB3 d 451      17.920  -8.311  24.521  0.00  0.00     0.137 C 
+ATOM      6  C4A RB3 d 451      17.101  -7.534  23.488  0.00  0.00     0.040 C 
+BRANCH   5   7
+ATOM      7  C2A RB3 d 451      18.346  -9.644  23.902  0.00  0.00     0.142 C 
+BRANCH   7   8
+ATOM      8  C1A RB3 d 451      19.153 -10.486  24.893  0.00  0.00     0.141 C 
+ATOM      9  O1M RB3 d 451      18.720 -11.631  25.148  0.00  0.00    -0.650 OA
+BRANCH   8  10
+ATOM     10  O1A RB3 d 451      20.185  -9.969  25.374  0.00  0.00    -0.776 OA
+ATOM     11  H   RB3 d 451      20.434  -9.101  25.124  0.00  0.00     0.167 HD
+ENDBRANCH   8  10
+ENDBRANCH   7   8
+ENDBRANCH   5   7
+ENDBRANCH   4   5
+ENDBRANCH   2   4
+ENDBRANCH   1   2
+BRANCH   1  12
+ATOM     12  C3B RB3 d 451      16.950  -6.922  29.098  0.00  0.00     0.137 C 
+ATOM     13  C4B RB3 d 451      15.824  -5.951  28.736  0.00  0.00     0.040 C 
+BRANCH  12  14
+ATOM     14  O3B RB3 d 451      16.703  -7.429  30.419  0.00  0.00    -0.316 OA
+BRANCH  14  15
+ATOM     15  C1C RB3 d 451      17.846  -7.805  31.054  0.00  0.00     0.261 C 
+ATOM     16  O1C RB3 d 451      18.776  -8.301  30.419  0.00  0.00    -0.265 OA
+BRANCH  15  17
+ATOM     17  C2C RB3 d 451      17.952  -7.616  32.569  0.00  0.00     0.142 C 
+BRANCH  17  18
+ATOM     18  C3C RB3 d 451      18.171  -8.955  33.276  0.00  0.00     0.123 C 
+ATOM     19  C4C RB3 d 451      18.245  -8.757  34.791  0.00  0.00     0.040 C 
+BRANCH  18  20
+ATOM     20  O3C RB3 d 451      17.109  -9.852  32.942  0.00  0.00    -0.395 OA
+ATOM     21  H   RB3 d 451      16.264  -9.477  33.236  0.00  0.00     0.210 HD
+ENDBRANCH  18  20
+ENDBRANCH  17  18
+ENDBRANCH  15  17
+ENDBRANCH  14  15
+ENDBRANCH  12  14
+ENDBRANCH   1  12
+TORSDOF 12

@@ -1,0 +1,22 @@
+REMARK  1 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2_8  and  N2_9 
+ROOT
+ATOM      1  N9  GUN d 602      35.978  39.007  75.436  0.00  0.00    -0.226 NA
+ATOM      2  C8  GUN d 602      34.983  38.637  74.543  0.00  0.00     0.230 A 
+ATOM      3  N7  GUN d 602      34.120  37.764  74.997  0.00  0.00    -0.260 NA
+ATOM      4  C5  GUN d 602      34.540  37.510  76.283  0.00  0.00     0.273 A 
+ATOM      5  C6  GUN d 602      33.974  36.630  77.268  0.00  0.00     0.292 A 
+ATOM      6  O6  GUN d 602      32.975  35.908  77.152  0.00  0.00    -0.268 OA
+ATOM      7  N1  GUN d 602      34.703  36.645  78.481  0.00  0.00    -0.025 NA
+ATOM      8  C2  GUN d 602      35.840  37.416  78.718  0.00  0.00     0.702 A 
+ATOM      9  N3  GUN d 602      36.389  38.258  77.803  0.00  0.00    -0.174 N 
+ATOM     10  C4  GUN d 602      35.686  38.261  76.591  0.00  0.00     0.155 A 
+ATOM     11  H   GUN d 602      37.190  38.804  77.973  0.00  0.00     0.185 HD
+ENDROOT
+BRANCH   8  12
+ATOM     12  N2  GUN d 602      36.379  37.282  79.931  0.00  0.00    -0.233 N 
+ATOM     13  H   GUN d 602      37.184  37.795  80.171  0.00  0.00     0.174 HD
+ATOM     14  H   GUN d 602      35.972  36.670  80.586  0.00  0.00     0.174 HD
+ENDBRANCH   8  12
+TORSDOF 1

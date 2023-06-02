@@ -1,0 +1,32 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C11_13  and  C12_1 
+REMARK    2  A    between atoms: C03_5  and  O02_4 
+REMARK    3  A    between atoms: C04_6  and  O05_7 
+REMARK    4  A    between atoms: C10_12  and  C08_10 
+ROOT
+ATOM      1  C03 GJK d   1     -22.276  12.506 -14.853  0.00  0.00     0.102 A 
+ATOM      2  C04 GJK d   1     -22.356  11.658 -13.749  0.00  0.00     0.099 A 
+ATOM      3  C06 GJK d   1     -22.591  12.149 -12.466  0.00  0.00     0.040 A 
+ATOM      4  C07 GJK d   1     -22.753  13.516 -12.295  0.00  0.00     0.014 A 
+ATOM      5  C08 GJK d   1     -22.672  14.374 -13.385  0.00  0.00    -0.033 A 
+ATOM      6  C09 GJK d   1     -22.440  13.881 -14.672  0.00  0.00     0.051 A 
+ENDROOT
+BRANCH   5   7
+ATOM      7  C10 GJK d   1     -22.859  15.860 -13.118  0.00  0.00     0.015 C 
+ATOM      8  C11 GJK d   1     -22.662  16.773 -14.084  0.00  0.00     0.050 C 
+BRANCH   8   9
+ATOM      9  C12 GJK d   1     -22.878  18.228 -13.742  0.00  0.00     0.145 C 
+ATOM     10  C13 GJK d   1     -23.361  18.611 -12.362  0.00  0.00     0.096 C 
+ATOM     11  O14 GJK d   1     -22.687  19.079 -14.584  0.00  0.00    -0.294 OA
+ENDBRANCH   8   9
+ENDBRANCH   5   7
+BRANCH   1  12
+ATOM     12  O02 GJK d   1     -22.043  11.919 -16.109  0.00  0.00    -0.353 OA
+ATOM     13  C01 GJK d   1     -21.985  12.777 -17.236  0.00  0.00     0.210 C 
+ENDBRANCH   1  12
+BRANCH   2  14
+ATOM     14  O05 GJK d   1     -22.198  10.281 -13.938  0.00  0.00    -0.358 OA
+ATOM     15  H7  GJK d   1     -22.277   9.837 -13.102  0.00  0.00     0.217 HD
+ENDBRANCH   2  14
+TORSDOF 4

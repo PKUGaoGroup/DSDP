@@ -1,0 +1,72 @@
+REMARK  12 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O1_7  and  C1_1 
+REMARK    2  A    between atoms: C2_2  and  O2_8 
+REMARK    3  A    between atoms: C3_3  and  O3_9 
+REMARK    4  A    between atoms: C4_4  and  O4_10 
+REMARK    5  A    between atoms: C5_5  and  C6_6 
+REMARK    6  A    between atoms: C6_6  and  O6_12 
+REMARK    7  A    between atoms: C4'_16  and  O1_7 
+REMARK    8  A    between atoms: C1'_13  and  O1'_19 
+REMARK    9  A    between atoms: C2'_14  and  O2'_20 
+REMARK   10  A    between atoms: C3'_15  and  O3'_21 
+REMARK   11  A    between atoms: C6'_18  and  C5'_17 
+REMARK   12  A    between atoms: O6'_23  and  C6'_18 
+ROOT
+ATOM      1  O1  MAL d   1      -6.857 -33.250 -15.215  0.00  0.00    -0.348 OA
+ENDROOT
+BRANCH   1   2
+ATOM      2  C1  MAL d   1      -6.568 -32.490 -14.056  0.00  0.00     0.292 C 
+ATOM      3  C2  MAL d   1      -7.894 -32.163 -13.311  0.00  0.00     0.204 C 
+ATOM      4  C3  MAL d   1      -8.723 -31.196 -14.111  0.00  0.00     0.183 C 
+ATOM      5  C4  MAL d   1      -7.927 -29.917 -14.287  0.00  0.00     0.180 C 
+ATOM      6  C5  MAL d   1      -6.634 -30.263 -15.039  0.00  0.00     0.179 C 
+ATOM      7  O5  MAL d   1      -5.895 -31.250 -14.283  0.00  0.00    -0.348 OA
+BRANCH   3   8
+ATOM      8  O2  MAL d   1      -8.680 -33.357 -13.146  0.00  0.00    -0.388 OA
+ATOM      9  H8  MAL d   1      -8.185 -33.993 -12.643  0.00  0.00     0.210 HD
+ENDBRANCH   3   8
+BRANCH   4  10
+ATOM     10  O3  MAL d   1      -9.930 -30.859 -13.348  0.00  0.00    -0.390 OA
+ATOM     11  H9  MAL d   1     -10.437 -30.214 -13.828  0.00  0.00     0.210 HD
+ENDBRANCH   4  10
+BRANCH   5  12
+ATOM     12  O4  MAL d   1      -8.651 -28.949 -15.049  0.00  0.00    -0.390 OA
+ATOM     13  H10 MAL d   1      -8.859 -29.311 -15.902  0.00  0.00     0.210 HD
+ENDBRANCH   5  12
+BRANCH   6  14
+ATOM     14  C6  MAL d   1      -5.730 -29.074 -15.091  0.00  0.00     0.198 C 
+BRANCH  14  15
+ATOM     15  O6  MAL d   1      -4.557 -29.250 -15.921  0.00  0.00    -0.398 OA
+ATOM     16  H11 MAL d   1      -4.827 -29.433 -16.813  0.00  0.00     0.209 HD
+ENDBRANCH  14  15
+ENDBRANCH   6  14
+ENDBRANCH   1   2
+BRANCH   1  17
+ATOM     17  C4' MAL d   1      -5.792 -34.125 -15.614  0.00  0.00     0.187 C 
+ATOM     18  C3' MAL d   1      -6.085 -35.457 -14.853  0.00  0.00     0.183 C 
+ATOM     19  C2' MAL d   1      -5.397 -36.576 -15.487  0.00  0.00     0.204 C 
+ATOM     20  C1' MAL d   1      -5.736 -36.670 -16.903  0.00  0.00     0.288 C 
+ATOM     21  O5' MAL d   1      -5.484 -35.455 -17.640  0.00  0.00    -0.349 OA
+ATOM     22  C5' MAL d   1      -6.174 -34.400 -17.045  0.00  0.00     0.180 C 
+BRANCH  18  23
+ATOM     23  O3' MAL d   1      -5.619 -35.482 -13.460  0.00  0.00    -0.390 OA
+ATOM     24  H21 MAL d   1      -5.834 -36.321 -13.070  0.00  0.00     0.210 HD
+ENDBRANCH  18  23
+BRANCH  19  25
+ATOM     25  O2' MAL d   1      -5.610 -37.853 -14.747  0.00  0.00    -0.388 OA
+ATOM     26  H20 MAL d   1      -5.148 -38.555 -15.190  0.00  0.00     0.210 HD
+ENDBRANCH  19  25
+BRANCH  20  27
+ATOM     27  O1' MAL d   1      -7.015 -37.217 -16.999  0.00  0.00    -0.369 OA
+ATOM     28  H19 MAL d   1      -7.202 -37.426 -17.907  0.00  0.00     0.212 HD
+ENDBRANCH  20  27
+BRANCH  22  29
+ATOM     29  C6' MAL d   1      -6.074 -33.276 -17.952  0.00  0.00     0.198 C 
+BRANCH  29  30
+ATOM     30  O6' MAL d   1      -4.613 -32.942 -17.875  0.00  0.00    -0.398 OA
+ATOM     31  H22 MAL d   1      -4.428 -32.203 -18.442  0.00  0.00     0.209 HD
+ENDBRANCH  29  30
+ENDBRANCH  22  29
+ENDBRANCH   1  17
+TORSDOF 12

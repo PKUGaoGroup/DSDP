@@ -1,0 +1,65 @@
+REMARK  10 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1'_9  and  N1_1 
+REMARK    2  A    between atoms: O3'_14  and  C3'_11 
+REMARK    3  A    between atoms: C4'_12  and  C5'_15 
+REMARK    4  A    between atoms: C5'_15  and  O5'_16 
+REMARK    5  A    between atoms: O5'_16  and  PA_17 
+REMARK    6  A    between atoms: N3A_24  and  PA_17 
+REMARK    7  A    between atoms: PA_17  and  O1A_18 
+REMARK    8  A    between atoms: PB_20  and  O1B_21 
+REMARK    9  A    between atoms: PB_20  and  O3B_23 
+REMARK   10  A    between atoms: PB_20  and  N3A_24 
+ROOT
+ATOM      1  C1' DUN d 303      -2.885  19.077  20.393  0.00  0.00     0.234 C 
+ATOM      2  C2' DUN d 303      -3.062  17.649  19.914  0.00  0.00     0.088 C 
+ATOM      3  C3' DUN d 303      -4.529  17.328  20.129  0.00  0.00     0.153 C 
+ATOM      4  C4' DUN d 303      -5.042  18.508  20.959  0.00  0.00     0.177 C 
+ATOM      5  O4' DUN d 303      -3.898  19.262  21.368  0.00  0.00    -0.356 OA
+ENDROOT
+BRANCH   4   6
+ATOM      6  C5' DUN d 303      -5.781  18.042  22.203  0.00  0.00     0.214 C 
+BRANCH   6   7
+ATOM      7  O5' DUN d 303      -6.241  19.177  22.924  0.00  0.00    -0.304 OA
+BRANCH   7   8
+ATOM      8  PA  DUN d 303      -7.210  19.060  24.184  0.00  0.00     0.330 P 
+ATOM      9  O2A DUN d 303      -6.962  17.792  24.918  0.00  0.00    -0.641 OA
+BRANCH   8  10
+ATOM     10  N3A DUN d 303      -8.796  19.172  23.654  0.00  0.00    -0.136 NA
+ATOM     11  H   DUN d 303      -9.360  19.238  24.501  0.00  0.00     0.145 HD
+BRANCH  10  12
+ATOM     12  PB  DUN d 303      -9.577  18.051  22.689  0.00  0.00     0.328 P 
+ATOM     13  O2B DUN d 303      -9.160  18.366  21.287  0.00  0.00    -0.641 OA
+BRANCH  12  14
+ATOM     14  O1B DUN d 303     -11.016  18.321  22.888  0.00  0.00    -0.317 OA
+ATOM     15  H   DUN d 303     -11.538  17.702  22.354  0.00  0.00     0.221 HD
+ENDBRANCH  12  14
+BRANCH  12  16
+ATOM     16  O3B DUN d 303      -9.177  16.641  23.137  0.00  0.00    -0.317 OA
+ATOM     17  H   DUN d 303      -9.627  15.985  22.581  0.00  0.00     0.221 HD
+ENDBRANCH  12  16
+ENDBRANCH  10  12
+ENDBRANCH   8  10
+BRANCH   8  18
+ATOM     18  O1A DUN d 303      -6.988  20.346  24.921  0.00  0.00    -0.317 OA
+ATOM     19  H   DUN d 303      -7.184  21.093  24.334  0.00  0.00     0.221 HD
+ENDBRANCH   8  18
+ENDBRANCH   7   8
+ENDBRANCH   6   7
+ENDBRANCH   4   6
+BRANCH   3  20
+ATOM     20  O3' DUN d 303      -5.169  17.309  18.840  0.00  0.00    -0.393 OA
+ATOM     21  H   DUN d 303      -5.014  18.154  18.390  0.00  0.00     0.210 HD
+ENDBRANCH   3  20
+BRANCH   1  22
+ATOM     22  N1  DUN d 303      -1.536  19.417  20.977  0.00  0.00    -0.294 N 
+ATOM     23  C2  DUN d 303      -0.467  19.411  20.179  0.00  0.00     0.262 A 
+ATOM     24  O2  DUN d 303      -0.588  19.044  18.920  0.00  0.00    -0.151 OA
+ATOM     25  N3  DUN d 303       0.759  19.741  20.636  0.00  0.00    -0.298 N 
+ATOM     26  C4  DUN d 303       0.943  20.132  21.903  0.00  0.00     0.183 A 
+ATOM     27  H   DUN d 303       1.531  19.693  20.027  0.00  0.00     0.171 HD
+ATOM     28  O4  DUN d 303       2.178  20.459  22.355  0.00  0.00    -0.172 OA
+ATOM     29  C5  DUN d 303      -0.140  20.163  22.754  0.00  0.00     0.076 A 
+ATOM     30  C6  DUN d 303      -1.373  19.809  22.241  0.00  0.00     0.102 A 
+ENDBRANCH   1  22
+TORSDOF 10

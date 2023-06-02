@@ -1,0 +1,65 @@
+REMARK  14 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  C2_4 
+REMARK    2  A    between atoms: C2_4  and  C3_5 
+REMARK    3  A    between atoms: C3_5  and  C4_6 
+REMARK    4  A    between atoms: C4_6  and  C5_7 
+REMARK    5  A    between atoms: C5_7  and  C6_8 
+REMARK    6  A    between atoms: C6_8  and  C7_9 
+REMARK    7  A    between atoms: C7_9  and  C8_10 
+REMARK    8  A    between atoms: C8_10  and  C9_11 
+REMARK    9  A    between atoms: C9_11  and  CA_12 
+REMARK   10  A    between atoms: CA_12  and  CB_13 
+REMARK   11  A    between atoms: CB_13  and  CC_14 
+REMARK   12  A    between atoms: CC_14  and  CD_15 
+REMARK   13  A    between atoms: CD_15  and  CE_16 
+REMARK   14  A    between atoms: CE_16  and  CF_17 
+ROOT
+ATOM      1  C7  PLM d   1      -4.990  -6.574 -18.299  0.00  0.00     0.000 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C6  PLM d   1      -4.198  -5.502 -17.611  0.00  0.00     0.000 C 
+BRANCH   2   3
+ATOM      3  C5  PLM d   1      -4.014  -4.262 -18.440  0.00  0.00     0.000 C 
+BRANCH   3   4
+ATOM      4  C4  PLM d   1      -4.310  -2.985 -17.693  0.00  0.00     0.001 C 
+BRANCH   4   5
+ATOM      5  C3  PLM d   1      -3.576  -1.768 -18.214  0.00  0.00     0.010 C 
+BRANCH   5   6
+ATOM      6  C2  PLM d   1      -2.099  -1.979 -18.288  0.00  0.00     0.113 C 
+BRANCH   6   7
+ATOM      7  C1  PLM d   1      -1.296  -1.350 -17.162  0.00  0.00     0.172 C 
+ATOM      8  O1  PLM d   1      -1.800  -0.406 -16.529  0.00  0.00    -0.648 OA
+ATOM      9  O2  PLM d   1      -0.166  -1.810 -16.917  0.00  0.00    -0.648 OA
+ENDBRANCH   6   7
+ENDBRANCH   5   6
+ENDBRANCH   4   5
+ENDBRANCH   3   4
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1  10
+ATOM     10  C8  PLM d   1      -6.291  -6.885 -17.637  0.00  0.00     0.000 C 
+BRANCH  10  11
+ATOM     11  C9  PLM d   1      -7.393  -7.169 -18.593  0.00  0.00     0.000 C 
+BRANCH  11  12
+ATOM     12  CA  PLM d   1      -8.021  -8.501 -18.415  0.00  0.00     0.000 C 
+BRANCH  12  13
+ATOM     13  CB  PLM d   1      -9.516  -8.477 -18.468  0.00  0.00     0.000 C 
+BRANCH  13  14
+ATOM     14  CC  PLM d   1     -10.088  -9.730 -19.016  0.00  0.00     0.000 C 
+BRANCH  14  15
+ATOM     15  CD  PLM d   1     -11.547  -9.648 -19.242  0.00  0.00     0.000 C 
+BRANCH  15  16
+ATOM     16  CE  PLM d   1     -12.238 -10.962 -19.143  0.00  0.00    -0.000 C 
+BRANCH  16  17
+ATOM     17  CF  PLM d   1     -12.584 -11.532 -20.461  0.00  0.00    -0.005 C 
+ATOM     18  CG  PLM d   1     -13.552 -12.666 -20.326  0.00  0.00     0.005 C 
+ENDBRANCH  16  17
+ENDBRANCH  15  16
+ENDBRANCH  14  15
+ENDBRANCH  13  14
+ENDBRANCH  12  13
+ENDBRANCH  11  12
+ENDBRANCH  10  11
+ENDBRANCH   1  10
+TORSDOF 14

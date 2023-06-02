@@ -1,0 +1,72 @@
+REMARK  10 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_26  and  C9_5 
+REMARK    2  A    between atoms: C7_10  and  C8_8 
+REMARK    3  A    between atoms: C8_8  and  O1_30 
+REMARK    4  A    between atoms: C1_29  and  C2_9 
+REMARK    5  A    between atoms: C15_12  and  C16_11 
+REMARK    6  A    between atoms: S_21  and  C15_12 
+REMARK       I    between atoms: N1_15  and  C13_13 
+REMARK    7  A    between atoms: C13_13  and  C14_24 
+REMARK    8  A    between atoms: N2_23  and  S_21 
+REMARK    9  A    between atoms: C14_24  and  N2_23 
+REMARK       I    between atoms: N_28  and  C_26 
+REMARK   10  A    between atoms: N_28  and  C1_29 
+ROOT
+ATOM      1  C9  KDQ d   1      17.739 -11.369  20.831  0.00  0.00     0.179 C 
+ATOM      2  C10 KDQ d   1      18.594 -11.277  19.562  0.00  0.00     0.037 C 
+ATOM      3  C11 KDQ d   1      19.865 -12.036  19.924  0.00  0.00     0.022 C 
+ATOM      4  C13 KDQ d   1      17.521 -13.190  22.459  0.00  0.00     0.238 C 
+ATOM      5  C12 KDQ d   1      19.388 -13.175  20.792  0.00  0.00     0.127 C 
+ATOM      6  N1  KDQ d   1      18.176 -12.633  21.430  0.00  0.00    -0.337 N 
+ATOM      7  O2  KDQ d   1      16.488 -12.714  22.924  0.00  0.00    -0.272 OA
+ENDROOT
+BRANCH   1   8
+ATOM      8  C   KDQ d   1      16.249 -11.409  20.502  0.00  0.00     0.240 C 
+ATOM      9  O   KDQ d   1      15.745 -12.402  19.973  0.00  0.00    -0.271 OA
+ATOM     10  N   KDQ d   1      15.559 -10.302  20.791  0.00  0.00    -0.355 N 
+ATOM     11  H23 KDQ d   1      16.027  -9.551  21.258  0.00  0.00     0.162 HD
+BRANCH  10  12
+ATOM     12  C1  KDQ d   1      14.150 -10.147  20.452  0.00  0.00     0.161 C 
+BRANCH  12  13
+ATOM     13  C2  KDQ d   1      13.243 -10.130  21.660  0.00  0.00    -0.030 A 
+ATOM     14  C3  KDQ d   1      13.173  -9.004  22.476  0.00  0.00     0.033 A 
+ATOM     15  C4  KDQ d   1      12.298  -8.976  23.539  0.00  0.00     0.034 A 
+ATOM     16  C5  KDQ d   1      11.482 -10.043  23.824  0.00  0.00     0.024 A 
+ATOM     17 CL   KDQ d   1      12.243  -7.563  24.549  0.00  0.00    -0.084 Cl
+ATOM     18  C6  KDQ d   1      11.555 -11.169  23.028  0.00  0.00     0.011 A 
+ATOM     19  C7  KDQ d   1      12.422 -11.233  21.940  0.00  0.00    -0.027 A 
+BRANCH  19  20
+ATOM     20  C8  KDQ d   1      12.439 -12.461  21.068  0.00  0.00     0.203 C 
+BRANCH  20  21
+ATOM     21  O1  KDQ d   1      13.273 -13.460  21.593  0.00  0.00    -0.396 OA
+ATOM     22  H26 KDQ d   1      12.962 -13.710  22.455  0.00  0.00     0.209 HD
+ENDBRANCH  20  21
+ENDBRANCH  19  20
+ENDBRANCH  12  13
+ENDBRANCH  10  12
+ENDBRANCH   1   8
+BRANCH   4  23
+ATOM     23  C14 KDQ d   1      18.128 -14.448  22.992  0.00  0.00     0.234 C 
+BRANCH  23  24
+ATOM     24  N2  KDQ d   1      17.202 -15.035  23.948  0.00  0.00    -0.310 N 
+ATOM     25  H20 KDQ d   1      16.293 -14.643  24.089  0.00  0.00     0.172 HD
+BRANCH  24  26
+ATOM     26  S   KDQ d   1      17.687 -16.355  24.787  0.00  0.00     0.231 S 
+ATOM     27  O4  KDQ d   1      18.597 -17.070  23.944  0.00  0.00    -0.206 OA
+ATOM     28  O3  KDQ d   1      16.494 -17.006  25.235  0.00  0.00    -0.206 OA
+BRANCH  26  29
+ATOM     29  C15 KDQ d   1      18.591 -15.780  26.218  0.00  0.00     0.201 C 
+BRANCH  29  30
+ATOM     30  C16 KDQ d   1      19.740 -14.868  25.880  0.00  0.00    -0.043 A 
+ATOM     31  C21 KDQ d   1      20.891 -15.368  25.286  0.00  0.00     0.008 A 
+ATOM     32  C20 KDQ d   1      21.899 -14.513  24.868  0.00  0.00     0.001 A 
+ATOM     33  C19 KDQ d   1      21.772 -13.151  25.045  0.00  0.00     0.000 A 
+ATOM     34  C18 KDQ d   1      20.645 -12.644  25.659  0.00  0.00     0.001 A 
+ATOM     35  C17 KDQ d   1      19.637 -13.497  26.079  0.00  0.00     0.008 A 
+ENDBRANCH  29  30
+ENDBRANCH  26  29
+ENDBRANCH  24  26
+ENDBRANCH  23  24
+ENDBRANCH   4  23
+TORSDOF 10

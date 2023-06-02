@@ -1,0 +1,48 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O5'_1  and  C5'_2 
+REMARK    2  A    between atoms: C5'_2  and  C4'_3 
+REMARK    3  A    between atoms: C1'_5  and  N9_6 
+REMARK    4  A    between atoms: C6_12  and  N6_13 
+REMARK    5  A    between atoms: C2'_17  and  O2'_18 
+REMARK    6  A    between atoms: O3'_20  and  C3'_19 
+ROOT
+ATOM      1  N9  2FA d 401      13.060  57.385  25.729  0.00  0.00    -0.294 N 
+ATOM      2  C4  2FA d 401      13.142  56.026  25.990  0.00  0.00     0.170 A 
+ATOM      3  N3  2FA d 401      12.559  54.942  25.413  0.00  0.00    -0.182 NA
+ATOM      4  C2  2FA d 401      12.826  53.743  25.897  0.00  0.00     0.313 A 
+ATOM      5  F   2FA d 401      12.249  52.644  25.304  0.00  0.00    -0.161 F 
+ATOM      6  N1  2FA d 401      13.620  53.546  26.914  0.00  0.00    -0.183 NA
+ATOM      7  C6  2FA d 401      14.233  54.581  27.519  0.00  0.00     0.159 A 
+ATOM      8  C5  2FA d 401      13.984  55.858  27.049  0.00  0.00     0.149 A 
+ATOM      9  N7  2FA d 401      14.445  57.167  27.442  0.00  0.00    -0.236 NA
+ATOM     10  C8  2FA d 401      13.903  58.039  26.638  0.00  0.00     0.214 A 
+ENDROOT
+BRANCH   1  11
+ATOM     11  C1' 2FA d 401      12.323  58.051  24.652  0.00  0.00     0.262 C 
+ATOM     12  O4' 2FA d 401      13.282  58.655  23.802  0.00  0.00    -0.353 OA
+ATOM     13  C4' 2FA d 401      12.646  59.723  23.099  0.00  0.00     0.179 C 
+ATOM     14  C3' 2FA d 401      11.667  60.333  24.105  0.00  0.00     0.182 C 
+ATOM     15  C2' 2FA d 401      11.403  59.193  25.124  0.00  0.00     0.198 C 
+BRANCH  13  16
+ATOM     16  C5' 2FA d 401      13.706  60.664  22.571  0.00  0.00     0.198 C 
+BRANCH  16  17
+ATOM     17  O5' 2FA d 401      14.703  59.968  21.814  0.00  0.00    -0.398 OA
+ATOM     18  H   2FA d 401      15.364  60.600  21.492  0.00  0.00     0.209 HD
+ENDBRANCH  16  17
+ENDBRANCH  13  16
+BRANCH  14  19
+ATOM     19  O3' 2FA d 401      10.456  60.676  23.439  0.00  0.00    -0.390 OA
+ATOM     20  H   2FA d 401      10.090  59.888  23.007  0.00  0.00     0.210 HD
+ENDBRANCH  14  19
+BRANCH  15  21
+ATOM     21  O2' 2FA d 401      10.049  58.785  25.219  0.00  0.00    -0.388 OA
+ATOM     22  H   2FA d 401       9.747  58.463  24.355  0.00  0.00     0.210 HD
+ENDBRANCH  15  21
+ENDBRANCH   1  11
+BRANCH   7  23
+ATOM     23  N6  2FA d 401      15.123  54.333  28.668  0.00  0.00    -0.382 N 
+ATOM     24  H   2FA d 401      15.280  53.412  28.979  0.00  0.00     0.157 HD
+ATOM     25  H   2FA d 401      15.560  55.088  29.124  0.00  0.00     0.157 HD
+ENDBRANCH   7  23
+TORSDOF 6

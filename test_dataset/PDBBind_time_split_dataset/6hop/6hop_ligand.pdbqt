@@ -1,0 +1,32 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C4_1  and  O4_13 
+REMARK    2  A    between atoms: C3_4  and  O3_14 
+REMARK    3  A    between atoms: C1_6  and  C7_8 
+REMARK    4  A    between atoms: C8_9  and  C9_10 
+ROOT
+ATOM      1  C4  FER d   1     -23.081  17.687 -11.112  0.00  0.00     0.099 A 
+ATOM      2  C5  FER d   1     -23.192  16.535 -10.347  0.00  0.00     0.040 A 
+ATOM      3  C6  FER d   1     -23.074  15.319 -10.985  0.00  0.00     0.014 A 
+ATOM      4  C3  FER d   1     -22.841  17.632 -12.475  0.00  0.00     0.102 A 
+ATOM      5  C2  FER d   1     -22.718  16.407 -13.108  0.00  0.00     0.051 A 
+ATOM      6  C1  FER d   1     -22.852  15.248 -12.344  0.00  0.00    -0.033 A 
+ENDROOT
+BRANCH   6   7
+ATOM      7  C7  FER d   1     -22.699  13.874 -12.929  0.00  0.00     0.018 C 
+ATOM      8  C8  FER d   1     -22.418  13.654 -14.212  0.00  0.00     0.085 C 
+BRANCH   8   9
+ATOM      9  C9  FER d   1     -22.240  12.213 -14.593  0.00  0.00     0.198 C 
+ATOM     10  O1  FER d   1     -22.196  11.906 -15.804  0.00  0.00    -0.645 OA
+ATOM     11  O2  FER d   1     -22.062  11.351 -13.677  0.00  0.00    -0.645 OA
+ENDBRANCH   8   9
+ENDBRANCH   6   7
+BRANCH   4  12
+ATOM     12  O3  FER d   1     -22.736  18.839 -13.196  0.00  0.00    -0.353 OA
+ATOM     13  C10 FER d   1     -22.684  18.705 -14.604  0.00  0.00     0.210 C 
+ENDBRANCH   4  12
+BRANCH   1  14
+ATOM     14  O4  FER d   1     -23.195  18.926 -10.471  0.00  0.00    -0.358 OA
+ATOM     15  H9  FER d   1     -23.358  18.788  -9.545  0.00  0.00     0.217 HD
+ENDBRANCH   1  14
+TORSDOF 4

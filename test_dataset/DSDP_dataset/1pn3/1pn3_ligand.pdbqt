@@ -1,0 +1,65 @@
+REMARK  10 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O5'_9  and  PA_1 
+REMARK    2  A    between atoms: O3A_4  and  PA_1 
+REMARK    3  A    between atoms: PA_1  and  O1A_2 
+REMARK    4  A    between atoms: PB_5  and  O3A_4 
+REMARK    5  A    between atoms: O2B_7  and  PB_5 
+REMARK    6  A    between atoms: PB_5  and  O3B_8 
+REMARK    7  A    between atoms: C5'_10  and  O5'_9 
+REMARK    8  A    between atoms: C4'_11  and  C5'_10 
+REMARK    9  A    between atoms: C3'_13  and  O3'_14 
+REMARK   10  A    between atoms: N1_17  and  C1'_16 
+ROOT
+ATOM      1  C4' TYD d 406      39.047  78.764  25.617  0.00  0.00     0.177 C 
+ATOM      2  O4' TYD d 406      39.356  77.973  24.452  0.00  0.00    -0.356 OA
+ATOM      3  C3' TYD d 406      38.549  77.704  26.584  0.00  0.00     0.153 C 
+ATOM      4  C2' TYD d 406      37.801  76.709  25.689  0.00  0.00     0.088 C 
+ATOM      5  C1' TYD d 406      38.302  77.050  24.282  0.00  0.00     0.235 C 
+ENDROOT
+BRANCH   1   6
+ATOM      6  C5' TYD d 406      40.198  79.647  26.082  0.00  0.00     0.215 C 
+BRANCH   6   7
+ATOM      7  O5' TYD d 406      41.218  78.887  26.731  0.00  0.00    -0.294 OA
+BRANCH   7   8
+ATOM      8  PA  TYD d 406      42.165  79.556  27.841  0.00  0.00     0.401 P 
+ATOM      9  O2A TYD d 406      42.976  78.476  28.448  0.00  0.00    -0.631 OA
+BRANCH   8  10
+ATOM     10  O3A TYD d 406      43.201  80.647  27.200  0.00  0.00    -0.195 OA
+BRANCH  10  11
+ATOM     11  PB  TYD d 406      44.515  80.627  26.231  0.00  0.00     0.399 P 
+ATOM     12  O1B TYD d 406      44.122  81.214  24.888  0.00  0.00    -0.631 OA
+BRANCH  11  13
+ATOM     13  O2B TYD d 406      44.936  79.172  26.142  0.00  0.00    -0.307 OA
+ATOM     14  H   TYD d 406      45.719  79.096  25.574  0.00  0.00     0.222 HD
+ENDBRANCH  11  13
+BRANCH  11  15
+ATOM     15  O3B TYD d 406      45.533  81.503  26.946  0.00  0.00    -0.307 OA
+ATOM     16  H   TYD d 406      46.350  81.540  26.425  0.00  0.00     0.222 HD
+ENDBRANCH  11  15
+ENDBRANCH  10  11
+ENDBRANCH   8  10
+BRANCH   8  17
+ATOM     17  O1A TYD d 406      41.312  80.381  28.726  0.00  0.00    -0.307 OA
+ATOM     18  H   TYD d 406      40.842  81.043  28.196  0.00  0.00     0.222 HD
+ENDBRANCH   8  17
+ENDBRANCH   7   8
+ENDBRANCH   6   7
+ENDBRANCH   1   6
+BRANCH   3  19
+ATOM     19  O3' TYD d 406      37.645  78.269  27.525  0.00  0.00    -0.393 OA
+ATOM     20  H   TYD d 406      36.906  78.685  27.054  0.00  0.00     0.210 HD
+ENDBRANCH   3  19
+BRANCH   5  21
+ATOM     21  N1  TYD d 406      38.761  75.899  23.483  0.00  0.00    -0.282 N 
+ATOM     22  C2  TYD d 406      37.801  75.204  22.781  0.00  0.00     0.331 A 
+ATOM     23  N3  TYD d 406      38.291  74.284  21.894  0.00  0.00    -0.275 N 
+ATOM     24  O2  TYD d 406      36.609  75.384  22.930  0.00  0.00    -0.246 OA
+ATOM     25  C4  TYD d 406      39.614  73.997  21.635  0.00  0.00     0.256 A 
+ATOM     26  H   TYD d 406      37.624  73.770  21.384  0.00  0.00     0.173 HD
+ATOM     27  O4  TYD d 406      39.900  73.149  20.792  0.00  0.00    -0.267 OA
+ATOM     28  C5  TYD d 406      40.572  74.758  22.408  0.00  0.00     0.022 A 
+ATOM     29  C5M TYD d 406      42.032  74.512  22.203  0.00  0.00     0.056 C 
+ATOM     30  C6  TYD d 406      40.101  75.657  23.283  0.00  0.00     0.110 A 
+ENDBRANCH   5  21
+TORSDOF 10

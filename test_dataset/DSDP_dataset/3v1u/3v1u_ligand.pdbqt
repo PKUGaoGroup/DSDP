@@ -1,0 +1,151 @@
+REMARK  28 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C6_4  and  N6_10 
+REMARK    2  A    between atoms: C1'_11  and  N9_6 
+REMARK    3  A    between atoms: O2'_13  and  C2'_12 
+REMARK    4  A    between atoms: O3'_15  and  C3'_14 
+REMARK    5  A    between atoms: C4'_16  and  C5'_18 
+REMARK    6  A    between atoms: C5'_18  and  O5'_19 
+REMARK    7  A    between atoms: O5'_19  and  P1_20 
+REMARK    8  A    between atoms: P1_20  and  O6_23 
+REMARK    9  A    between atoms: P1_20  and  O12_22 
+REMARK   10  A    between atoms: O6_23  and  P2_24 
+REMARK   11  A    between atoms: P2_24  and  O22_26 
+REMARK   12  A    between atoms: P2_24  and  O7_27 
+REMARK   13  A    between atoms: O7_27  and  CPB_28 
+REMARK   14  A    between atoms: CPB_28  and  CPA_29 
+REMARK   15  A    between atoms: CPA_29  and  CP7_30 
+REMARK   16  A    between atoms: CP7_30  and  OP3_33 
+REMARK   17  A    between atoms: CP7_30  and  CP6_34 
+REMARK       I    between atoms: CP6_34  and  NP2_36 
+REMARK   18  A    between atoms: NP2_36  and  CP5_37 
+REMARK   19  A    between atoms: CP5_37  and  CP4_38 
+REMARK   20  A    between atoms: CP4_38  and  CP3_39 
+REMARK       I    between atoms: CP3_39  and  NP1_41 
+REMARK   21  A    between atoms: NP1_41  and  CP2_42 
+REMARK   22  A    between atoms: CP2_42  and  CP1_43 
+REMARK   23  A    between atoms: CP1_43  and  S_44 
+REMARK   24  A    between atoms: S_44  and  CM1_45 
+REMARK   25  A    between atoms: CM1_45  and  CM2_46 
+REMARK   26  A    between atoms: CM2_46  and  CM3_47 
+REMARK   27  A    between atoms: CM4_49  and  CM3_47 
+REMARK   28  A    between atoms: CM4_49  and  CM5_50 
+ROOT
+ATOM      1  P2  HXC d 502      55.530 -18.493 -37.366  0.00  0.00     0.401 P 
+ATOM      2  O21 HXC d 502      54.049 -18.618 -38.019  0.00  0.00    -0.631 OA
+ENDROOT
+BRANCH   1   3
+ATOM      3  O6  HXC d 502      56.405 -17.750 -38.593  0.00  0.00    -0.195 OA
+BRANCH   3   4
+ATOM      4  P1  HXC d 502      58.062 -17.404 -38.744  0.00  0.00     0.401 P 
+ATOM      5  O11 HXC d 502      58.829 -18.840 -38.800  0.00  0.00    -0.631 OA
+BRANCH   4   6
+ATOM      6  O5' HXC d 502      58.237 -16.718 -40.241  0.00  0.00    -0.294 OA
+BRANCH   6   7
+ATOM      7  C5' HXC d 502      59.367 -16.978 -41.113  0.00  0.00     0.215 C 
+BRANCH   7   8
+ATOM      8  C4' HXC d 502      58.940 -17.383 -42.559  0.00  0.00     0.180 C 
+ATOM      9  C3' HXC d 502      59.647 -16.445 -43.570  0.00  0.00     0.182 C 
+ATOM     10  C2' HXC d 502      58.537 -15.877 -44.488  0.00  0.00     0.198 C 
+ATOM     11  C1' HXC d 502      57.174 -16.290 -43.857  0.00  0.00     0.262 C 
+ATOM     12  O4' HXC d 502      57.477 -17.332 -42.827  0.00  0.00    -0.353 OA
+BRANCH   9  13
+ATOM     13  O3' HXC d 502      60.653 -17.161 -44.334  0.00  0.00    -0.390 OA
+ATOM     14  H   HXC d 502      60.234 -17.893 -44.814  0.00  0.00     0.210 HD
+ENDBRANCH   9  13
+BRANCH  10  15
+ATOM     15  O2' HXC d 502      58.657 -16.356 -45.868  0.00  0.00    -0.388 OA
+ATOM     16  H   HXC d 502      58.588 -17.323 -45.882  0.00  0.00     0.210 HD
+ENDBRANCH  10  15
+BRANCH  11  17
+ATOM     17  N9  HXC d 502      56.330 -15.049 -43.414  0.00  0.00    -0.294 N 
+ATOM     18  C8  HXC d 502      55.097 -14.741 -43.849  0.00  0.00     0.214 A 
+ATOM     19  N7  HXC d 502      54.689 -13.605 -43.264  0.00  0.00    -0.236 NA
+ATOM     20  C5  HXC d 502      55.672 -13.188 -42.454  0.00  0.00     0.149 A 
+ATOM     21  C4  HXC d 502      56.693 -14.077 -42.549  0.00  0.00     0.167 A 
+ATOM     22  C6  HXC d 502      55.789 -12.119 -41.629  0.00  0.00     0.155 A 
+ATOM     23  N3  HXC d 502      57.833 -13.903 -41.823  0.00  0.00    -0.222 NA
+ATOM     24  C2  HXC d 502      57.979 -12.800 -40.960  0.00  0.00     0.237 A 
+ATOM     25  N1  HXC d 502      56.897 -11.898 -40.886  0.00  0.00    -0.222 NA
+BRANCH  22  26
+ATOM     26  N6  HXC d 502      54.757 -11.279 -41.566  0.00  0.00    -0.382 N 
+ATOM     27  H   HXC d 502      53.953 -11.445 -42.109  0.00  0.00     0.157 HD
+ATOM     28  H   HXC d 502      54.798 -10.492 -40.976  0.00  0.00     0.157 HD
+ENDBRANCH  22  26
+ENDBRANCH  11  17
+ENDBRANCH   7   8
+ENDBRANCH   6   7
+ENDBRANCH   4   6
+BRANCH   4  29
+ATOM     29  O12 HXC d 502      58.577 -16.551 -37.631  0.00  0.00    -0.307 OA
+ATOM     30  H   HXC d 502      59.523 -16.383 -37.764  0.00  0.00     0.222 HD
+ENDBRANCH   4  29
+ENDBRANCH   3   4
+ENDBRANCH   1   3
+BRANCH   1  31
+ATOM     31  O22 HXC d 502      56.046 -19.813 -36.899  0.00  0.00    -0.307 OA
+ATOM     32  H   HXC d 502      56.127 -20.415 -37.656  0.00  0.00     0.222 HD
+ENDBRANCH   1  31
+BRANCH   1  33
+ATOM     33  O7  HXC d 502      55.372 -17.428 -36.122  0.00  0.00    -0.296 OA
+BRANCH  33  34
+ATOM     34  CPB HXC d 502      56.181 -17.505 -34.937  0.00  0.00     0.192 C 
+BRANCH  34  35
+ATOM     35  CPA HXC d 502      56.307 -16.142 -34.216  0.00  0.00     0.009 C 
+ATOM     36  CP8 HXC d 502      55.541 -15.067 -35.008  0.00  0.00     0.020 C 
+ATOM     37  CP9 HXC d 502      57.803 -15.740 -34.112  0.00  0.00     0.020 C 
+BRANCH  35  38
+ATOM     38  CP7 HXC d 502      55.665 -16.294 -32.812  0.00  0.00     0.219 C 
+BRANCH  38  39
+ATOM     39  OP3 HXC d 502      56.262 -17.379 -32.074  0.00  0.00    -0.385 OA
+ATOM     40  H   HXC d 502      57.188 -17.166 -31.878  0.00  0.00     0.210 HD
+ENDBRANCH  38  39
+BRANCH  38  41
+ATOM     41  CP6 HXC d 502      55.626 -15.012 -31.916  0.00  0.00     0.247 C 
+ATOM     42  OP2 HXC d 502      55.951 -13.877 -32.303  0.00  0.00    -0.271 OA
+ATOM     43  NP2 HXC d 502      55.129 -15.297 -30.695  0.00  0.00    -0.358 N 
+ATOM     44  H   HXC d 502      54.916 -16.239 -30.503  0.00  0.00     0.162 HD
+BRANCH  43  45
+ATOM     45  CP5 HXC d 502      54.880 -14.321 -29.632  0.00  0.00     0.132 C 
+BRANCH  45  46
+ATOM     46  CP4 HXC d 502      53.376 -14.355 -29.373  0.00  0.00     0.122 C 
+BRANCH  46  47
+ATOM     47  CP3 HXC d 502      53.123 -14.096 -27.898  0.00  0.00     0.219 C 
+ATOM     48  OP1 HXC d 502      53.084 -12.942 -27.481  0.00  0.00    -0.274 OA
+ATOM     49  NP1 HXC d 502      52.970 -15.185 -27.126  0.00  0.00    -0.360 N 
+ATOM     50  H   HXC d 502      53.019 -16.077 -27.540  0.00  0.00     0.162 HD
+BRANCH  49  51
+ATOM     51  CP2 HXC d 502      52.731 -15.080 -25.679  0.00  0.00     0.133 C 
+BRANCH  51  52
+ATOM     52  CP1 HXC d 502      52.200 -16.405 -25.146  0.00  0.00     0.102 C 
+BRANCH  52  53
+ATOM     53  S   HXC d 502      52.092 -16.401 -23.316  0.00  0.00    -0.091 SA
+BRANCH  53  54
+ATOM     54  CM1 HXC d 502      50.401 -16.823 -23.079  0.00  0.00     0.186 C 
+ATOM     55  OM2 HXC d 502      49.458 -16.266 -23.663  0.00  0.00    -0.286 OA
+BRANCH  54  56
+ATOM     56  CM2 HXC d 502      50.224 -17.982 -22.074  0.00  0.00     0.091 C 
+BRANCH  56  57
+ATOM     57  CM3 HXC d 502      48.802 -18.113 -21.563  0.00  0.00     0.008 C 
+BRANCH  57  58
+ATOM     58  CM4 HXC d 502      48.120 -19.222 -22.329  0.00  0.00     0.000 C 
+BRANCH  58  59
+ATOM     59  CM5 HXC d 502      48.488 -20.539 -21.682  0.00  0.00    -0.005 C 
+ATOM     60  CM6 HXC d 502      47.176 -21.223 -21.320  0.00  0.00     0.005 C 
+ENDBRANCH  58  59
+ENDBRANCH  57  58
+ENDBRANCH  56  57
+ENDBRANCH  54  56
+ENDBRANCH  53  54
+ENDBRANCH  52  53
+ENDBRANCH  51  52
+ENDBRANCH  49  51
+ENDBRANCH  46  47
+ENDBRANCH  45  46
+ENDBRANCH  43  45
+ENDBRANCH  38  41
+ENDBRANCH  35  38
+ENDBRANCH  34  35
+ENDBRANCH  33  34
+ENDBRANCH   1  33
+TORSDOF 28

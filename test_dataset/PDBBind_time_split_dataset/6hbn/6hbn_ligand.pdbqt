@@ -1,0 +1,42 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N15_22  and  C16_4 
+REMARK    2  A    between atoms: C03_8  and  C02_7 
+REMARK    3  A    between atoms: O04_23  and  C03_8 
+REMARK    4  A    between atoms: C05_9  and  O04_23 
+ROOT
+ATOM      1  C11 FXB d   1     -20.251  17.999 -30.309  0.00  0.00     0.064 A 
+ATOM      2  C13 FXB d   1     -18.623  16.622 -29.528  0.00  0.00     0.049 A 
+ATOM      3  C14 FXB d   1     -18.596  16.642 -30.944  0.00  0.00     0.027 A 
+ATOM      4  C05 FXB d   1     -22.244  19.649 -30.746  0.00  0.00     0.082 A 
+ATOM      5  C06 FXB d   1     -23.223  20.445 -30.140  0.00  0.00     0.038 A 
+ATOM      6  C07 FXB d   1     -23.327  20.488 -28.737  0.00  0.00     0.004 A 
+ATOM      7  C08 FXB d   1     -22.445  19.743 -27.954  0.00  0.00     0.016 A 
+ATOM      8  C09 FXB d   1     -21.466  18.951 -28.556  0.00  0.00     0.030 A 
+ATOM      9  C10 FXB d   1     -21.353  18.895 -29.957  0.00  0.00     0.039 A 
+ATOM     10  C12 FXB d   1     -19.677  17.484 -29.140  0.00  0.00     0.059 A 
+ATOM     11  C19 FXB d   1     -17.514  15.773 -31.718  0.00  0.00     0.059 C 
+ATOM     12  C20 FXB d   1     -16.874  14.680 -30.833  0.00  0.00     0.014 C 
+ATOM     13  C21 FXB d   1     -16.526  15.115 -29.431  0.00  0.00     0.084 C 
+ATOM     14  C22 FXB d   1     -17.633  15.804 -28.738  0.00  0.00     0.162 C 
+ATOM     15  C24 FXB d   1     -20.408  18.051 -27.969  0.00  0.00     0.196 A 
+ATOM     16  N15 FXB d   1     -19.575  17.462 -31.380  0.00  0.00    -0.344 N 
+ATOM     17  O23 FXB d   1     -17.744  15.754 -27.559  0.00  0.00    -0.292 OA
+ATOM     18  O25 FXB d   1     -20.212  17.833 -26.816  0.00  0.00    -0.286 OA
+ENDROOT
+BRANCH   4  19
+ATOM     19  O04 FXB d   1     -22.155  19.609 -32.140  0.00  0.00    -0.347 OA
+BRANCH  19  20
+ATOM     20  C03 FXB d   1     -22.986  20.495 -32.843  0.00  0.00     0.202 C 
+BRANCH  20  21
+ATOM     21  C02 FXB d   1     -22.394  20.679 -34.241  0.00  0.00    -0.011 C 
+ATOM     22  C01 FXB d   1     -23.159  20.954 -35.279  0.00  0.00     0.009 C 
+ENDBRANCH  20  21
+ENDBRANCH  19  20
+ENDBRANCH   4  19
+BRANCH  16  23
+ATOM     23  C16 FXB d   1     -19.866  17.752 -32.779  0.00  0.00     0.082 C 
+ATOM     24  C17 FXB d   1     -18.662  18.385 -33.482  0.00  0.00     0.032 C 
+ATOM     25  C18 FXB d   1     -20.425  16.543 -33.521  0.00  0.00     0.032 C 
+ENDBRANCH  16  23
+TORSDOF 4

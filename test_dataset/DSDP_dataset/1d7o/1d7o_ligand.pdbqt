@@ -1,0 +1,32 @@
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O17_17  and  C6_3 
+REMARK    2  A    between atoms: O7_13  and  C5_4 
+REMARK    3  A    between atoms: C8_10  and  O7_13 
+ROOT
+ATOM      1  C1  TCL d 502      -2.113  15.245  45.597  0.00  0.00     0.063 A 
+ATOM      2  C2  TCL d 502      -2.736  16.446  45.811  0.00  0.00     0.036 A 
+ATOM      3  C6  TCL d 502      -1.385  15.106  44.475  0.00  0.00     0.101 A 
+ATOM      4  C5  TCL d 502      -1.326  16.182  43.561  0.00  0.00     0.109 A 
+ATOM      5  C4  TCL d 502      -1.969  17.358  43.795  0.00  0.00     0.042 A 
+ATOM      6  C3  TCL d 502      -2.686  17.527  44.921  0.00  0.00     0.027 A 
+ATOM      7 CL14 TCL d 502      -3.639  16.642  47.303  0.00  0.00    -0.084 Cl
+ENDROOT
+BRANCH   4   8
+ATOM      8  O7  TCL d 502      -0.581  16.018  42.444  0.00  0.00    -0.306 OA
+BRANCH   8   9
+ATOM      9  C8  TCL d 502      -1.177  15.516  41.285  0.00  0.00     0.098 A 
+ATOM     10  C9  TCL d 502      -0.486  15.708  40.065  0.00  0.00     0.069 A 
+ATOM     11  C10 TCL d 502      -0.989  15.239  38.879  0.00  0.00     0.050 A 
+ATOM     12 CL16 TCL d 502       1.042  16.556  40.032  0.00  0.00    -0.081 Cl
+ATOM     13  C11 TCL d 502      -2.208  14.552  38.895  0.00  0.00     0.035 A 
+ATOM     14 CL15 TCL d 502      -2.870  13.973  37.416  0.00  0.00    -0.084 Cl
+ATOM     15  C12 TCL d 502      -2.906  14.343  40.093  0.00  0.00     0.026 A 
+ATOM     16  C13 TCL d 502      -2.368  14.842  41.287  0.00  0.00     0.041 A 
+ENDBRANCH   8   9
+ENDBRANCH   4   8
+BRANCH   3  17
+ATOM     17  O17 TCL d 502      -0.749  13.975  44.227  0.00  0.00    -0.358 OA
+ATOM     18  H   TCL d 502      -0.243  13.884  43.444  0.00  0.00     0.217 HD
+ENDBRANCH   3  17
+TORSDOF 3

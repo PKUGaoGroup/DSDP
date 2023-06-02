@@ -1,0 +1,220 @@
+REMARK WARNING: 32 MAX_TORS EXCEEDED!!!
+REMARK  36 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  CN_2 
+REMARK    2  A    between atoms: CA_4  and  N_1 
+REMARK    3  A    between atoms: CA_4  and  CB_5 
+REMARK    4  A    between atoms: C_9  and  CA_4 
+REMARK    5  A    between atoms: CB_5  and  CG_6 
+REMARK    6  A    between atoms: CG_6  and  SD_7 
+REMARK       I    between atoms: N_11  and  C_9 
+REMARK    7  A    between atoms: CA_12  and  N_11 
+REMARK    8  A    between atoms: C_13  and  CA_12 
+REMARK    9  A    between atoms: CA_12  and  CB_15 
+REMARK       I    between atoms: N_22  and  C_13 
+REMARK   10  A    between atoms: CB_15  and  CG_16 
+REMARK   11  A    between atoms: CG_16  and  CD_17 
+REMARK   12  A    between atoms: CD_17  and  NE_18 
+REMARK       I    between atoms: NE_18  and  CZ_19 
+REMARK       I    between atoms: CZ_19  and  NH1_20 
+REMARK   13  A    between atoms: CA_23  and  N_22 
+REMARK   14  A    between atoms: C_24  and  CA_23 
+REMARK   15  A    between atoms: CA_23  and  CB_26 
+REMARK       I    between atoms: N_29  and  C_24 
+REMARK   16  A    between atoms: CB_26  and  OG1_27 
+REMARK   17  A    between atoms: CA_30  and  N_29 
+REMARK   18  A    between atoms: C_31  and  CA_30 
+REMARK       I    between atoms: N_33  and  C_31 
+REMARK   19  A    between atoms: CA_34  and  N_33 
+REMARK   20  A    between atoms: C_35  and  CA_34 
+REMARK   21  A    between atoms: CA_34  and  CB_37 
+REMARK       I    between atoms: N_41  and  C_35 
+REMARK   22  A    between atoms: CB_37  and  CG_38 
+REMARK       I    between atoms: CG_38  and  ND2_40 
+REMARK   23  A    between atoms: CA_42  and  N_41 
+REMARK   24  A    between atoms: C_43  and  CA_42 
+REMARK       I    between atoms: N_46  and  C_43 
+REMARK   25  A    between atoms: CA_47  and  N_46 
+REMARK   26  A    between atoms: C_48  and  CA_47 
+REMARK   27  A    between atoms: CA_47  and  CB_50 
+REMARK       I    between atoms: N3A_57  and  C_48 
+REMARK   28  A    between atoms: CB_50  and  CG_51 
+REMARK   29  A    between atoms: PA_55  and  N3A_57 
+REMARK   30  A    between atoms: PA_55  and  O5'_58 
+REMARK   31  A    between atoms: O5'_58  and  C5'_59 
+REMARK   32  A    between atoms: C5'_59  and  C4'_60 
+REMARK   33  A    between atoms: C3'_61  and  O3'_62 
+REMARK   34  A    between atoms: C2'_63  and  O2'_64 
+REMARK   35  A    between atoms: C1'_65  and  N9_67 
+REMARK   36  A    between atoms: C6_75  and  N6_76 
+ROOT
+ATOM      1  CA  FME d   1     -16.730   4.773 -14.957  0.00  0.00     0.185 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N   FME d   1     -16.295   5.936 -14.199  0.00  0.00    -0.346 N 
+ATOM      3  C   FME d   1     -17.299   6.387 -13.300  0.00  0.00     0.236 C 
+ATOM      4  O   FME d   1     -18.349   5.795 -13.159  0.00  0.00    -0.272 OA
+ATOM      5  H34 FME d   1     -15.398   6.366 -14.299  0.00  0.00     0.163 HD
+BRANCH   3   6
+ATOM      6  CA  FME d   1     -16.869   7.561 -12.449  0.00  0.00     0.225 C 
+BRANCH   6   7
+ATOM      7  N   FME d   1     -17.923   8.321 -11.886  0.00  0.00    -0.350 N 
+ATOM      8  C   FME d   1     -18.780   9.105 -12.745  0.00  0.00     0.243 C 
+ATOM      9  O   FME d   1     -18.647   9.123 -13.964  0.00  0.00    -0.271 OA
+ATOM     10  H31 FME d   1     -18.073   8.315 -10.897  0.00  0.00     0.163 HD
+BRANCH   8  11
+ATOM     11  CA  FME d   1     -19.856   9.872 -11.943  0.00  0.00     0.205 C 
+BRANCH  11  12
+ATOM     12  N   FME d   1     -20.419  10.743 -12.930  0.00  0.00    -0.344 N 
+ATOM     13  C   FME d   1     -20.422  12.191 -12.801  0.00  0.00     0.241 C 
+ATOM     14  O   FME d   1     -20.109  12.701 -11.760  0.00  0.00    -0.271 OA
+ATOM     15  H24 FME d   1     -20.829  10.336 -13.746  0.00  0.00     0.163 HD
+BRANCH  13  16
+ATOM     16  CA  FME d   1     -20.915  13.035 -13.953  0.00  0.00     0.176 C 
+BRANCH  16  17
+ATOM     17  N   FME d   1     -21.445  12.158 -15.035  0.00  0.00    -0.346 N 
+ATOM     18  C   FME d   1     -20.607  11.620 -16.103  0.00  0.00     0.241 C 
+ATOM     19  O   FME d   1     -19.436  11.847 -16.111  0.00  0.00    -0.271 OA
+ATOM     20  H11 FME d   1     -22.418  11.928 -15.029  0.00  0.00     0.163 HD
+BRANCH  18  21
+ATOM     21  CA  FME d   1     -21.296  10.669 -17.097  0.00  0.00     0.176 C 
+BRANCH  21  22
+ATOM     22  N   FME d   1     -22.734  11.007 -17.237  0.00  0.00    -0.355 N 
+ATOM     23  H1  FME d   1     -23.017  11.904 -17.576  0.00  0.00     0.162 HD
+BRANCH  22  24
+ATOM     24  CN  FME d   1     -23.718  10.011 -16.872  0.00  0.00     0.349 C 
+ATOM     25  O1  FME d   1     -23.378   8.949 -16.478  0.00  0.00    -0.284 OA
+ENDBRANCH  22  24
+ENDBRANCH  21  22
+BRANCH  21  26
+ATOM     26  CB  FME d   1     -20.518  10.723 -18.425  0.00  0.00     0.045 C 
+BRANCH  26  27
+ATOM     27  CG  FME d   1     -20.783  12.023 -19.222  0.00  0.00     0.076 C 
+BRANCH  27  28
+ATOM     28  SD  FME d   1     -19.740  12.134 -20.679  0.00  0.00    -0.173 SA
+ATOM     29  CE  FME d   1     -18.044  11.718 -20.108  0.00  0.00     0.089 C 
+ENDBRANCH  27  28
+ENDBRANCH  26  27
+ENDBRANCH  21  26
+ENDBRANCH  18  21
+ENDBRANCH  16  17
+BRANCH  16  30
+ATOM     30  CB  FME d   1     -21.994  14.040 -13.567  0.00  0.00     0.036 C 
+BRANCH  30  31
+ATOM     31  CG  FME d   1     -22.063  14.973 -14.840  0.00  0.00     0.023 C 
+BRANCH  31  32
+ATOM     32  CD  FME d   1     -22.954  16.214 -14.883  0.00  0.00     0.138 C 
+BRANCH  32  33
+ATOM     33  NE  FME d   1     -21.952  17.232 -14.783  0.00  0.00    -0.227 N 
+ATOM     34  CZ  FME d   1     -21.626  18.314 -15.642  0.00  0.00     0.665 C 
+ATOM     35  NH1 FME d   1     -20.508  19.070 -15.138  0.00  0.00    -0.235 N 
+ATOM     36  NH2 FME d   1     -22.193  18.642 -16.756  0.00  0.00    -0.235 N 
+ATOM     37  H20 FME d   1     -20.161  19.887 -15.661  0.00  0.00     0.174 HD
+ATOM     38  H21 FME d   1     -20.056  18.794 -14.255  0.00  0.00     0.174 HD
+ATOM     39  H22 FME d   1     -22.992  18.095 -17.108  0.00  0.00     0.174 HD
+ATOM     40  H23 FME d   1     -21.846  19.450 -17.292  0.00  0.00     0.174 HD
+ATOM     41  H19 FME d   1     -21.364  17.168 -13.939  0.00  0.00     0.177 HD
+ENDBRANCH  32  33
+ENDBRANCH  31  32
+ENDBRANCH  30  31
+ENDBRANCH  16  30
+ENDBRANCH  13  16
+ENDBRANCH  11  12
+BRANCH  11  42
+ATOM     42  CB  FME d   1     -20.817   8.922 -11.257  0.00  0.00     0.146 C 
+ATOM     43  CG2 FME d   1     -21.792   9.788 -10.427  0.00  0.00     0.042 C 
+BRANCH  42  44
+ATOM     44  OG1 FME d   1     -21.437   8.187 -12.261  0.00  0.00    -0.393 OA
+ATOM     45  H27 FME d   1     -21.902   8.777 -12.843  0.00  0.00     0.210 HD
+ENDBRANCH  42  44
+ENDBRANCH  11  42
+ENDBRANCH   8  11
+ENDBRANCH   6   7
+ENDBRANCH   3   6
+ENDBRANCH   1   2
+BRANCH   1  46
+ATOM     46  C   FME d   1     -16.319   3.423 -14.353  0.00  0.00     0.241 C 
+ATOM     47  O   FME d   1     -15.544   3.252 -13.435  0.00  0.00    -0.271 OA
+ATOM     48  N   FME d   1     -17.071   2.318 -14.939  0.00  0.00    -0.346 N 
+ATOM     49  H40 FME d   1     -17.818   2.517 -15.574  0.00  0.00     0.163 HD
+BRANCH  48  50
+ATOM     50  CA  FME d   1     -16.762   0.954 -14.624  0.00  0.00     0.172 C 
+ATOM     51  CB  FME d   1     -18.007   0.207 -14.179  0.00  0.00     0.042 C 
+BRANCH  50  52
+ATOM     52  C   FME d   1     -16.171   0.437 -15.929  0.00  0.00     0.240 C 
+ATOM     53  O   FME d   1     -16.297   1.025 -16.964  0.00  0.00    -0.271 OA
+ATOM     54  N   FME d   1     -15.468  -0.808 -15.931  0.00  0.00    -0.346 N 
+ATOM     55  H45 FME d   1     -15.399  -1.350 -15.094  0.00  0.00     0.163 HD
+BRANCH  54  56
+ATOM     56  CA  FME d   1     -14.849  -1.282 -17.175  0.00  0.00     0.187 C 
+BRANCH  56  57
+ATOM     57  C   FME d   1     -14.567  -2.758 -17.243  0.00  0.00     0.250 C 
+ATOM     58  O   FME d   1     -13.914  -3.247 -18.139  0.00  0.00    -0.271 OA
+ATOM     59  N3A FME d   1     -15.203  -3.505 -16.211  0.00  0.00    -0.260 N 
+ATOM     60  H49 FME d   1     -15.768  -3.015 -15.547  0.00  0.00     0.175 HD
+BRANCH  59  61
+ATOM     61  PA  FME d   1     -15.046  -5.189 -16.056  0.00  0.00     0.366 P 
+ATOM     62  O1A FME d   1     -15.742  -5.500 -14.762  0.00  0.00    -0.629 OA
+ATOM     63  O2A FME d   1     -15.561  -5.865 -17.319  0.00  0.00    -0.629 OA
+BRANCH  61  64
+ATOM     64  O5' FME d   1     -13.491  -5.498 -16.022  0.00  0.00    -0.293 OA
+BRANCH  64  65
+ATOM     65  C5' FME d   1     -12.751  -4.927 -14.900  0.00  0.00     0.215 C 
+BRANCH  65  66
+ATOM     66  C4' FME d   1     -11.496  -5.824 -14.747  0.00  0.00     0.180 C 
+ATOM     67  C3' FME d   1     -11.932  -7.186 -14.108  0.00  0.00     0.182 C 
+ATOM     68  C2' FME d   1     -11.457  -6.982 -12.607  0.00  0.00     0.198 C 
+ATOM     69  C1' FME d   1     -10.410  -6.149 -12.679  0.00  0.00     0.262 C 
+ATOM     70  O4' FME d   1     -10.693  -5.188 -13.953  0.00  0.00    -0.353 OA
+BRANCH  67  71
+ATOM     71  O3' FME d   1     -11.440  -8.273 -14.791  0.00  0.00    -0.390 OA
+ATOM     72  H54 FME d   1     -10.491  -8.242 -14.792  0.00  0.00     0.210 HD
+ENDBRANCH  67  71
+BRANCH  68  73
+ATOM     73  O2' FME d   1     -10.993  -8.267 -12.037  0.00  0.00    -0.388 OA
+ATOM     74  H56 FME d   1     -10.265  -8.596 -12.552  0.00  0.00     0.210 HD
+ENDBRANCH  68  73
+BRANCH  69  75
+ATOM     75  N9  FME d   1     -10.208  -5.247 -11.581  0.00  0.00    -0.294 N 
+ATOM     76  C4  FME d   1      -9.038  -5.055 -10.911  0.00  0.00     0.167 A 
+ATOM     77  C5  FME d   1      -9.261  -4.114  -9.970  0.00  0.00     0.149 A 
+ATOM     78  N3  FME d   1      -7.826  -5.632 -11.051  0.00  0.00    -0.222 NA
+ATOM     79  N7  FME d   1     -10.551  -3.716 -10.063  0.00  0.00    -0.236 NA
+ATOM     80  C6  FME d   1      -8.207  -3.758  -9.155  0.00  0.00     0.155 A 
+ATOM     81  C8  FME d   1     -11.100  -4.398 -11.049  0.00  0.00     0.214 A 
+ATOM     82  N1  FME d   1      -7.050  -4.342  -9.319  0.00  0.00    -0.222 NA
+ATOM     83  C2  FME d   1      -6.855  -5.259 -10.273  0.00  0.00     0.237 A 
+BRANCH  80  84
+ATOM     84  N6  FME d   1      -8.392  -2.766  -8.111  0.00  0.00    -0.382 N 
+ATOM     85  H60 FME d   1      -7.602  -2.503  -7.505  0.00  0.00     0.157 HD
+ATOM     86  H61 FME d   1      -9.313  -2.325  -7.977  0.00  0.00     0.157 HD
+ENDBRANCH  80  84
+ENDBRANCH  69  75
+ENDBRANCH  65  66
+ENDBRANCH  64  65
+ENDBRANCH  61  64
+ENDBRANCH  59  61
+ENDBRANCH  56  57
+BRANCH  56  87
+ATOM     87  CB  FME d   1     -13.491  -0.568 -17.355  0.00  0.00     0.148 C 
+BRANCH  87  88
+ATOM     88  CG  FME d   1     -12.839  -0.031 -16.083  0.00  0.00     0.175 C 
+ATOM     89  OD1 FME d   1     -12.337  -0.966 -15.375  0.00  0.00    -0.648 OA
+ATOM     90  OD2 FME d   1     -12.846   1.245 -15.845  0.00  0.00    -0.648 OA
+ENDBRANCH  87  88
+ENDBRANCH  56  87
+ENDBRANCH  54  56
+ENDBRANCH  50  52
+ENDBRANCH  48  50
+ENDBRANCH   1  46
+BRANCH   1  91
+ATOM     91  CB  FME d   1     -16.239   4.904 -16.320  0.00  0.00     0.137 C 
+BRANCH  91  92
+ATOM     92  CG  FME d   1     -14.909   5.479 -16.596  0.00  0.00     0.217 C 
+ATOM     93  OD1 FME d   1     -14.811   6.610 -16.877  0.00  0.00    -0.274 OA
+ATOM     94  ND2 FME d   1     -13.852   4.581 -16.525  0.00  0.00    -0.370 N 
+ATOM     95  H38 FME d   1     -12.918   4.893 -16.699  0.00  0.00     0.159 HD
+ATOM     96  H39 FME d   1     -14.025   3.622 -16.300  0.00  0.00     0.159 HD
+ENDBRANCH  91  92
+ENDBRANCH   1  91
+TORSDOF 36

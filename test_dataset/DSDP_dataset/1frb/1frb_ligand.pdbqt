@@ -1,0 +1,53 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C4_5  and  C17_22 
+REMARK    2  A    between atoms: C9_12  and  N1_10 
+REMARK    3  A    between atoms: C9_12  and  C10_13 
+REMARK    4  A    between atoms: C15_18  and  C19_26 
+REMARK    5  A    between atoms: C17_22  and  C18_23 
+REMARK    6  A    between atoms: C18_23  and  O3_25 
+ROOT
+ATOM      1  C1  ZST d 351      76.725  -4.266  23.811  0.00  0.00     0.275 A 
+ATOM      2  O1  ZST d 351      76.264  -3.705  22.811  0.00  0.00    -0.266 OA
+ATOM      3  C2  ZST d 351      76.204  -5.494  24.390  0.00  0.00     0.046 A 
+ATOM      4  C3  ZST d 351      76.878  -6.100  25.458  0.00  0.00     0.006 A 
+ATOM      5  C4  ZST d 351      78.091  -5.467  25.933  0.00  0.00     0.076 A 
+ATOM      6  C5  ZST d 351      75.025  -6.058  23.903  0.00  0.00     0.018 A 
+ATOM      7  C6  ZST d 351      74.514  -7.192  24.496  0.00  0.00     0.001 A 
+ATOM      8  C7  ZST d 351      75.179  -7.794  25.551  0.00  0.00     0.001 A 
+ATOM      9  C8  ZST d 351      76.351  -7.263  26.033  0.00  0.00     0.014 A 
+ATOM     10  N1  ZST d 351      77.843  -3.770  24.418  0.00  0.00    -0.228 N 
+ATOM     11  N2  ZST d 351      78.548  -4.353  25.459  0.00  0.00    -0.172 NA
+ENDROOT
+BRANCH  10  12
+ATOM     12  C9  ZST d 351      78.266  -2.398  24.128  0.00  0.00     0.221 C 
+BRANCH  12  13
+ATOM     13  C10 ZST d 351      77.451  -1.451  24.990  0.00  0.00     0.096 A 
+ATOM     14  N3  ZST d 351      77.681  -0.183  25.106  0.00  0.00    -0.243 NA
+ATOM     15  C12 ZST d 351      76.749   0.432  25.968  0.00  0.00     0.075 A 
+ATOM     16  C16 ZST d 351      76.726   1.788  26.317  0.00  0.00     0.049 A 
+ATOM     17  C11 ZST d 351      75.793  -0.445  26.496  0.00  0.00     0.035 A 
+ATOM     18  C15 ZST d 351      75.752   2.223  27.190  0.00  0.00     0.050 A 
+ATOM     19  C14 ZST d 351      74.789   1.348  27.704  0.00  0.00     0.017 A 
+ATOM     20  C13 ZST d 351      74.798   0.021  27.372  0.00  0.00     0.022 A 
+ATOM     21  S1  ZST d 351      76.095  -2.033  25.925  0.00  0.00    -0.071 SA
+BRANCH  18  22
+ATOM     22  C19 ZST d 351      75.748   3.643  27.698  0.00  0.00     0.417 C 
+ATOM     23  F3  ZST d 351      76.667   4.423  27.139  0.00  0.00    -0.166 F 
+ATOM     24  F2  ZST d 351      74.592   4.248  27.462  0.00  0.00    -0.166 F 
+ATOM     25  F1  ZST d 351      75.972   3.724  29.001  0.00  0.00    -0.166 F 
+ENDBRANCH  18  22
+ENDBRANCH  12  13
+ENDBRANCH  10  12
+BRANCH   5  26
+ATOM     26  C17 ZST d 351      78.922  -6.096  27.014  0.00  0.00     0.171 C 
+BRANCH  26  27
+ATOM     27  C18 ZST d 351      78.454  -5.738  28.390  0.00  0.00     0.145 C 
+ATOM     28  O2  ZST d 351      77.544  -4.887  28.507  0.00  0.00    -0.650 OA
+BRANCH  27  29
+ATOM     29  O3  ZST d 351      78.967  -6.271  29.399  0.00  0.00    -0.776 OA
+ATOM     30  H   ZST d 351      79.648  -6.907  29.298  0.00  0.00     0.167 HD
+ENDBRANCH  27  29
+ENDBRANCH  26  27
+ENDBRANCH   5  26
+TORSDOF 6

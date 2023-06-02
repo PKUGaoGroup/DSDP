@@ -1,0 +1,98 @@
+REMARK  16 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O5'_2  and  PA_1 
+REMARK    2  A    between atoms: PA_1  and  CX_21 
+REMARK    3  A    between atoms: PA_1  and  O2A_34 
+REMARK    4  A    between atoms: C5'_3  and  O5'_2 
+REMARK    5  A    between atoms: C5'_3  and  C4'_4 
+REMARK    6  A    between atoms: O3'_7  and  C3'_6 
+REMARK    7  A    between atoms: O2'_9  and  C2'_8 
+REMARK    8  A    between atoms: C1'_10  and  N9_11 
+REMARK    9  A    between atoms: C6_15  and  N6_16 
+REMARK   10  A    between atoms: CX_21  and  PB_22 
+REMARK   11  A    between atoms: O2B_35  and  PB_22 
+REMARK   12  A    between atoms: PB_22  and  OR5_24 
+REMARK   13  A    between atoms: OR5_24  and  CR5_25 
+REMARK   14  A    between atoms: OR3_29  and  CR3_28 
+REMARK   15  A    between atoms: CR2_30  and  OR2_31 
+REMARK   16  A    between atoms: OR1_33  and  CR1_32 
+ROOT
+ATOM      1  O5' RBY d 186      11.647  32.901  61.141  0.00  0.00    -0.316 OA
+ENDROOT
+BRANCH   1   2
+ATOM      2  C5' RBY d 186      11.164  33.698  60.109  0.00  0.00     0.213 C 
+BRANCH   2   3
+ATOM      3  C4' RBY d 186      12.503  34.587  60.232  0.00  0.00     0.179 C 
+ATOM      4  C3' RBY d 186      13.751  35.012  59.314  0.00  0.00     0.182 C 
+ATOM      5  C2' RBY d 186      14.843  35.893  60.173  0.00  0.00     0.198 C 
+ATOM      6  C1' RBY d 186      14.070  36.257  61.437  0.00  0.00     0.262 C 
+ATOM      7  O4' RBY d 186      13.164  34.942  61.546  0.00  0.00    -0.353 OA
+BRANCH   4   8
+ATOM      8  O3' RBY d 186      13.475  35.493  58.132  0.00  0.00    -0.390 OA
+ATOM      9  H   RBY d 186      13.035  36.352  58.227  0.00  0.00     0.210 HD
+ENDBRANCH   4   8
+BRANCH   5  10
+ATOM     10  O2' RBY d 186      15.463  36.982  59.572  0.00  0.00    -0.388 OA
+ATOM     11  H   RBY d 186      14.797  37.652  59.351  0.00  0.00     0.210 HD
+ENDBRANCH   5  10
+BRANCH   6  12
+ATOM     12  N9  RBY d 186      14.925  36.294  62.515  0.00  0.00    -0.294 N 
+ATOM     13  C4  RBY d 186      15.686  37.320  63.000  0.00  0.00     0.167 A 
+ATOM     14  N3  RBY d 186      15.909  38.665  62.683  0.00  0.00    -0.222 NA
+ATOM     15  C5  RBY d 186      16.370  36.719  64.097  0.00  0.00     0.149 A 
+ATOM     16  C2  RBY d 186      16.773  39.379  63.419  0.00  0.00     0.237 A 
+ATOM     17  N1  RBY d 186      17.431  38.825  64.443  0.00  0.00    -0.222 NA
+ATOM     18  C6  RBY d 186      17.278  37.567  64.807  0.00  0.00     0.155 A 
+ATOM     19  N7  RBY d 186      15.985  35.414  64.217  0.00  0.00    -0.236 NA
+ATOM     20  C8  RBY d 186      15.121  35.150  63.288  0.00  0.00     0.214 A 
+BRANCH  18  21
+ATOM     21  N6  RBY d 186      18.008  37.122  65.847  0.00  0.00    -0.382 N 
+ATOM     22  H   RBY d 186      17.920  36.188  66.147  0.00  0.00     0.157 HD
+ATOM     23  H   RBY d 186      18.630  37.730  66.308  0.00  0.00     0.157 HD
+ENDBRANCH  18  21
+ENDBRANCH   6  12
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1  24
+ATOM     24  PA  RBY d 186      11.435  31.554  62.078  0.00  0.00     0.249 P 
+ATOM     25  O1A RBY d 186      11.336  30.234  61.145  0.00  0.00    -0.653 OA
+BRANCH  24  26
+ATOM     26  CX  RBY d 186      12.674  31.563  63.009  0.00  0.00     0.250 C 
+BRANCH  26  27
+ATOM     27  PB  RBY d 186      13.867  30.267  63.536  0.00  0.00     0.249 P 
+ATOM     28  O1B RBY d 186      14.750  31.498  62.754  0.00  0.00    -0.653 OA
+BRANCH  27  29
+ATOM     29  O2B RBY d 186      14.005  28.815  62.759  0.00  0.00    -0.329 OA
+ATOM     30  H   RBY d 186      13.751  28.921  61.829  0.00  0.00     0.220 HD
+ENDBRANCH  27  29
+BRANCH  27  31
+ATOM     31  OR5 RBY d 186      14.204  30.292  64.921  0.00  0.00    -0.312 OA
+BRANCH  31  32
+ATOM     32  CR5 RBY d 186      13.801  29.618  66.081  0.00  0.00     0.245 C 
+ATOM     33  CR4 RBY d 186      14.589  30.221  67.090  0.00  0.00     0.105 C 
+ATOM     34  CR3 RBY d 186      13.517  31.120  67.399  0.00  0.00     0.108 C 
+ATOM     35  OR4 RBY d 186      15.761  30.538  67.703  0.00  0.00    -0.317 OA
+ATOM     36  CR2 RBY d 186      13.948  32.030  68.412  0.00  0.00     0.232 C 
+ATOM     37  CR1 RBY d 186      15.406  31.569  68.683  0.00  0.00     0.298 C 
+BRANCH  34  38
+ATOM     38  OR3 RBY d 186      12.292  31.380  66.927  0.00  0.00    -0.360 OA
+ATOM     39  H   RBY d 186      11.922  30.837  66.259  0.00  0.00     0.217 HD
+ENDBRANCH  34  38
+BRANCH  36  40
+ATOM     40  OR2 RBY d 186      13.046  32.231  69.547  0.00  0.00    -0.384 OA
+ATOM     41  H   RBY d 186      12.913  31.388  70.008  0.00  0.00     0.210 HD
+ENDBRANCH  36  40
+BRANCH  37  42
+ATOM     42  OR1 RBY d 186      16.269  32.693  68.471  0.00  0.00    -0.368 OA
+ATOM     43  H   RBY d 186      16.162  33.016  67.562  0.00  0.00     0.212 HD
+ENDBRANCH  37  42
+ENDBRANCH  31  32
+ENDBRANCH  27  31
+ENDBRANCH  26  27
+ENDBRANCH  24  26
+BRANCH  24  44
+ATOM     44  O2A RBY d 186      10.227  31.710  63.094  0.00  0.00    -0.329 OA
+ATOM     45  H   RBY d 186       9.390  31.716  62.603  0.00  0.00     0.220 HD
+ENDBRANCH  24  44
+ENDBRANCH   1  24
+TORSDOF 16

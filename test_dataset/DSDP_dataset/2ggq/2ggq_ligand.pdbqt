@@ -1,0 +1,79 @@
+REMARK  13 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O3A_4  and  PA_1 
+REMARK    2  A    between atoms: PA_1  and  O1A_2 
+REMARK    3  A    between atoms: PA_1  and  O5'_13 
+REMARK    4  A    between atoms: O3A_4  and  PB_5 
+REMARK    5  A    between atoms: PB_5  and  O2B_7 
+REMARK    6  A    between atoms: PB_5  and  O3B_8 
+REMARK    7  A    between atoms: O3B_8  and  PG_9 
+REMARK    8  A    between atoms: PG_9  and  O3G_12 
+REMARK    9  A    between atoms: PG_9  and  O2G_11 
+REMARK   10  A    between atoms: O5'_13  and  C5'_14 
+REMARK   11  A    between atoms: C5'_14  and  C4'_15 
+REMARK   12  A    between atoms: C3'_17  and  O3'_18 
+REMARK   13  A    between atoms: N1_21  and  C1'_20 
+ROOT
+ATOM      1  C5' TTP d 500      -0.695  40.105  13.539  0.00  0.00     0.215 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  O5' TTP d 500      -0.626  40.292  12.104  0.00  0.00    -0.294 OA
+BRANCH   2   3
+ATOM      3  PA  TTP d 500      -1.636  39.461  11.127  0.00  0.00     0.401 P 
+ATOM      4  O2A TTP d 500      -1.728  40.009   9.700  0.00  0.00    -0.631 OA
+BRANCH   3   5
+ATOM      5  O3A TTP d 500      -1.016  37.933  11.055  0.00  0.00    -0.195 OA
+BRANCH   5   6
+ATOM      6  PB  TTP d 500       0.458  37.634  11.638  0.00  0.00     0.410 P 
+ATOM      7  O1B TTP d 500       1.375  36.762  10.842  0.00  0.00    -0.631 OA
+BRANCH   6   8
+ATOM      8  O2B TTP d 500       1.231  38.924  11.759  0.00  0.00    -0.307 OA
+ATOM      9  H   TTP d 500       1.437  39.262  10.873  0.00  0.00     0.222 HD
+ENDBRANCH   6   8
+BRANCH   6  10
+ATOM     10  O3B TTP d 500       0.188  37.195  13.150  0.00  0.00    -0.195 OA
+BRANCH  10  11
+ATOM     11  PG  TTP d 500      -0.060  35.745  13.745  0.00  0.00     0.399 P 
+ATOM     12  O1G TTP d 500      -0.144  34.725  12.617  0.00  0.00    -0.631 OA
+BRANCH  11  13
+ATOM     13  O3G TTP d 500      -1.344  35.910  14.527  0.00  0.00    -0.307 OA
+ATOM     14  H   TTP d 500      -2.064  36.143  13.921  0.00  0.00     0.222 HD
+ENDBRANCH  11  13
+BRANCH  11  15
+ATOM     15  O2G TTP d 500       1.039  35.383  14.717  0.00  0.00    -0.307 OA
+ATOM     16  H   TTP d 500       1.873  35.272  14.235  0.00  0.00     0.222 HD
+ENDBRANCH  11  15
+ENDBRANCH  10  11
+ENDBRANCH   6  10
+ENDBRANCH   5   6
+ENDBRANCH   3   5
+BRANCH   3  17
+ATOM     17  O1A TTP d 500      -3.016  39.444  11.781  0.00  0.00    -0.307 OA
+ATOM     18  H   TTP d 500      -3.635  38.954  11.217  0.00  0.00     0.222 HD
+ENDBRANCH   3  17
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1  19
+ATOM     19  C4' TTP d 500       0.583  40.290  14.387  0.00  0.00     0.177 C 
+ATOM     20  O4' TTP d 500       1.812  40.650  13.719  0.00  0.00    -0.356 OA
+ATOM     21  C1' TTP d 500       2.184  42.047  13.941  0.00  0.00     0.235 C 
+ATOM     22  C2' TTP d 500       0.933  42.671  14.541  0.00  0.00     0.088 C 
+ATOM     23  C3' TTP d 500       0.349  41.467  15.296  0.00  0.00     0.153 C 
+BRANCH  21  24
+ATOM     24  N1  TTP d 500       2.786  42.655  12.714  0.00  0.00    -0.282 N 
+ATOM     25  C6  TTP d 500       2.199  42.478  11.516  0.00  0.00     0.110 A 
+ATOM     26  C5  TTP d 500       2.802  42.989  10.365  0.00  0.00     0.022 A 
+ATOM     27  C5M TTP d 500       2.166  42.804   9.006  0.00  0.00     0.056 C 
+ATOM     28  C4  TTP d 500       4.082  43.710  10.511  0.00  0.00     0.256 A 
+ATOM     29  O4  TTP d 500       4.679  44.181   9.527  0.00  0.00    -0.267 OA
+ATOM     30  N3  TTP d 500       4.632  43.868  11.714  0.00  0.00    -0.275 N 
+ATOM     31  C2  TTP d 500       4.037  43.369  12.803  0.00  0.00     0.331 A 
+ATOM     32  H   TTP d 500       5.483  44.356  11.802  0.00  0.00     0.173 HD
+ATOM     33  O2  TTP d 500       4.631  43.561  13.895  0.00  0.00    -0.246 OA
+ENDBRANCH  21  24
+BRANCH  23  34
+ATOM     34  O3' TTP d 500       1.085  41.217  16.507  0.00  0.00    -0.393 OA
+ATOM     35  H   TTP d 500       2.018  41.063  16.292  0.00  0.00     0.210 HD
+ENDBRANCH  23  34
+ENDBRANCH   1  19
+TORSDOF 13

@@ -1,0 +1,102 @@
+REMARK  19 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  CA1_5 
+REMARK    2  A    between atoms: C1_1  and  O11_6 
+REMARK    3  A    between atoms: CA2_13  and  C2_2 
+REMARK       I    between atoms: C2_2  and  N3_17 
+REMARK    4  A    between atoms: CA3_18  and  C3_3 
+REMARK    5  A    between atoms: C3_3  and  O31_19 
+REMARK    6  A    between atoms: N1_4  and  CA1_5 
+REMARK    7  A    between atoms: CA1_5  and  CB1_8 
+REMARK    8  A    between atoms: CB1_8  and  CG1_9 
+REMARK    9  A    between atoms: CG1_9  and  CD1_10 
+REMARK       I    between atoms: CD1_10  and  N2_12 
+REMARK   10  A    between atoms: N2_12  and  CA2_13 
+REMARK   11  A    between atoms: CB2_15  and  CA2_13 
+REMARK   12  A    between atoms: CB2_15  and  SG2_16 
+REMARK   13  A    between atoms: C41_21  and  SG2_16 
+REMARK   14  A    between atoms: N3_17  and  CA3_18 
+REMARK   15  A    between atoms: O42_23  and  C43_24 
+REMARK   16  A    between atoms: C44_26  and  C45_27 
+REMARK   17  A    between atoms: C46_28  and  C45_27 
+REMARK   18  A    between atoms: C47_29  and  C46_28 
+REMARK   19  A    between atoms: C47_29  and  C48_30 
+ROOT
+ATOM      1  CA2 HAG d 223      32.473  18.882  35.386  0.00  0.00     0.185 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N2  HAG d 223      33.103  18.670  34.045  0.00  0.00    -0.347 N 
+ATOM      3  CD1 HAG d 223      34.430  19.024  33.962  0.00  0.00     0.218 C 
+ATOM      4  OE1 HAG d 223      34.914  19.752  34.883  0.00  0.00    -0.274 OA
+ATOM      5  H   HAG d 223      32.605  18.304  33.279  0.00  0.00     0.163 HD
+BRANCH   3   6
+ATOM      6  CG1 HAG d 223      35.160  18.489  32.770  0.00  0.00     0.105 C 
+BRANCH   6   7
+ATOM      7  CB1 HAG d 223      34.733  19.124  31.463  0.00  0.00     0.056 C 
+BRANCH   7   8
+ATOM      8  CA1 HAG d 223      35.205  18.142  30.325  0.00  0.00     0.315 C 
+BRANCH   8   9
+ATOM      9  N1  HAG d 223      35.146  19.051  29.072  0.00  0.00     0.093 N 
+ATOM     10  H   HAG d 223      35.435  18.518  28.252  0.00  0.00     0.314 HD
+ATOM     11  H   HAG d 223      35.772  19.846  29.199  0.00  0.00     0.314 HD
+ENDBRANCH   8   9
+BRANCH   8  12
+ATOM     12  C1  HAG d 223      34.358  16.888  30.163  0.00  0.00     0.173 C 
+ATOM     13  O12 HAG d 223      33.966  16.404  28.898  0.00  0.00    -0.648 OA
+BRANCH  12  14
+ATOM     14  O11 HAG d 223      33.892  16.093  31.061  0.00  0.00    -0.775 OA
+ATOM     15  H   HAG d 223      34.057  16.262  31.968  0.00  0.00     0.167 HD
+ENDBRANCH  12  14
+ENDBRANCH   8  12
+ENDBRANCH   7   8
+ENDBRANCH   6   7
+ENDBRANCH   3   6
+ENDBRANCH   1   2
+BRANCH   1  16
+ATOM     16  CB2 HAG d 223      31.020  19.406  35.206  0.00  0.00     0.109 C 
+BRANCH  16  17
+ATOM     17  SG2 HAG d 223      30.801  20.570  36.534  0.00  0.00    -0.159 SA
+BRANCH  17  18
+ATOM     18  C41 HAG d 223      31.253  22.301  36.208  0.00  0.00     0.081 C 
+ATOM     19  C44 HAG d 223      30.320  22.781  35.055  0.00  0.00     0.138 C 
+ATOM     20  O43 HAG d 223      31.237  22.917  33.902  0.00  0.00    -0.355 OA
+ATOM     21  C43 HAG d 223      32.590  22.593  34.223  0.00  0.00     0.258 C 
+ATOM     22  C42 HAG d 223      32.653  22.586  35.773  0.00  0.00     0.078 C 
+BRANCH  19  23
+ATOM     23  C45 HAG d 223      29.738  24.187  35.414  0.00  0.00     0.033 C 
+BRANCH  23  24
+ATOM     24  C46 HAG d 223      28.769  24.763  34.305  0.00  0.00     0.002 C 
+BRANCH  24  25
+ATOM     25  C47 HAG d 223      27.867  23.898  33.366  0.00  0.00    -0.000 C 
+BRANCH  25  26
+ATOM     26  C48 HAG d 223      27.081  22.749  34.002  0.00  0.00    -0.005 C 
+ATOM     27  C49 HAG d 223      26.551  22.847  35.407  0.00  0.00     0.005 C 
+ENDBRANCH  25  26
+ENDBRANCH  24  25
+ENDBRANCH  23  24
+ENDBRANCH  19  23
+BRANCH  21  28
+ATOM     28  O42 HAG d 223      33.504  23.586  33.581  0.00  0.00    -0.371 OA
+ATOM     29  H   HAG d 223      33.412  23.534  32.617  0.00  0.00     0.212 HD
+ENDBRANCH  21  28
+ENDBRANCH  17  18
+ENDBRANCH  16  17
+ENDBRANCH   1  16
+BRANCH   1  30
+ATOM     30  C2  HAG d 223      32.489  17.479  36.098  0.00  0.00     0.241 C 
+ATOM     31  O2  HAG d 223      32.034  16.620  35.344  0.00  0.00    -0.271 OA
+ATOM     32  N3  HAG d 223      32.995  17.515  37.346  0.00  0.00    -0.349 N 
+ATOM     33  H   HAG d 223      32.606  16.916  38.024  0.00  0.00     0.163 HD
+BRANCH  32  34
+ATOM     34  CA3 HAG d 223      34.108  18.410  37.754  0.00  0.00     0.232 C 
+BRANCH  34  35
+ATOM     35  C3  HAG d 223      35.257  17.588  38.329  0.00  0.00     0.158 C 
+ATOM     36  O32 HAG d 223      36.217  17.257  37.451  0.00  0.00    -0.649 OA
+BRANCH  35  37
+ATOM     37  O31 HAG d 223      35.268  17.258  39.573  0.00  0.00    -0.775 OA
+ATOM     38  H   HAG d 223      34.565  17.522  40.134  0.00  0.00     0.167 HD
+ENDBRANCH  35  37
+ENDBRANCH  34  35
+ENDBRANCH  32  34
+ENDBRANCH   1  30
+TORSDOF 19

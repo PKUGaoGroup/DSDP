@@ -1,0 +1,35 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2_2  and  O2_8 
+REMARK    2  A    between atoms: C4_4  and  C5_5 
+REMARK    3  A    between atoms: C6_6  and  C5_5 
+REMARK    4  A    between atoms: C5_5  and  O5_11 
+REMARK    5  A    between atoms: C6_6  and  O6_12 
+ROOT
+ATOM      1  C1  ASC d 389      33.717  31.743  57.401  0.00  0.00     0.296 C 
+ATOM      2  C2  ASC d 389      34.077  33.050  58.042  0.00  0.00     0.289 C 
+ATOM      3  C3  ASC d 389      35.280  33.433  57.641  0.00  0.00     0.197 C 
+ATOM      4  C4  ASC d 389      35.827  32.357  56.765  0.00  0.00     0.235 C 
+ATOM      5  O1  ASC d 389      32.647  31.164  57.342  0.00  0.00    -0.262 OA
+ATOM      6  O3  ASC d 389      35.742  34.565  57.482  0.00  0.00    -0.292 OA
+ATOM      7  O4  ASC d 389      34.830  31.296  56.744  0.00  0.00    -0.303 OA
+ENDROOT
+BRANCH   4   8
+ATOM      8  C5  ASC d 389      37.070  31.657  57.335  0.00  0.00     0.178 C 
+BRANCH   8   9
+ATOM      9  C6  ASC d 389      37.466  30.196  57.025  0.00  0.00     0.198 C 
+BRANCH   9  10
+ATOM     10  O6  ASC d 389      38.928  30.224  57.283  0.00  0.00    -0.398 OA
+ATOM     11  H   ASC d 389      39.090  30.525  58.191  0.00  0.00     0.209 HD
+ENDBRANCH   9  10
+ENDBRANCH   8   9
+BRANCH   8  12
+ATOM     12  O5  ASC d 389      37.001  31.833  58.754  0.00  0.00    -0.390 OA
+ATOM     13  H   ASC d 389      36.242  31.341  59.104  0.00  0.00     0.210 HD
+ENDBRANCH   8  12
+ENDBRANCH   4   8
+BRANCH   2  14
+ATOM     14  O2  ASC d 389      33.312  33.794  58.871  0.00  0.00    -0.378 OA
+ATOM     15  H   ASC d 389      33.422  34.733  58.656  0.00  0.00     0.211 HD
+ENDBRANCH   2  14
+TORSDOF 5

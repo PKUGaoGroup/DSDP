@@ -1,0 +1,128 @@
+REMARK  21 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O5B_4  and  PA_1 
+REMARK    2  A    between atoms: PA_1  and  O1A_2 
+REMARK    3  A    between atoms: PA_1  and  O3_23 
+REMARK    4  A    between atoms: C5B_5  and  O5B_4 
+REMARK    5  A    between atoms: C4B_6  and  C5B_5 
+REMARK    6  A    between atoms: C3B_8  and  O3B_9 
+REMARK    7  A    between atoms: O2B_11  and  C2B_10 
+REMARK    8  A    between atoms: P2B_45  and  O2B_11 
+REMARK    9  A    between atoms: N9A_13  and  C1B_12 
+REMARK   10  A    between atoms: N6A_18  and  C6A_17 
+REMARK   11  A    between atoms: O3_23  and  PN_24 
+REMARK   12  A    between atoms: O5D_27  and  PN_24 
+REMARK   13  A    between atoms: PN_24  and  O2N_26 
+REMARK   14  A    between atoms: C5D_28  and  O5D_27 
+REMARK   15  A    between atoms: C5D_28  and  C4D_29 
+REMARK   16  A    between atoms: O3D_32  and  C3D_31 
+REMARK   17  A    between atoms: C2D_33  and  O2D_34 
+REMARK   18  A    between atoms: C1D_35  and  N1N_36 
+REMARK   19  A    between atoms: C3N_38  and  C7N_39 
+REMARK       I    between atoms: N7N_41  and  C7N_39 
+REMARK   20  A    between atoms: O1X_46  and  P2B_45 
+REMARK   21  A    between atoms: O3X_48  and  P2B_45 
+ROOT
+ATOM      1  PA  NAP d 801      20.880 -10.836 -18.906  0.00  0.00     0.401 P 
+ATOM      2  O2A NAP d 801      21.583  -9.905 -19.789  0.00  0.00    -0.631 OA
+ENDROOT
+BRANCH   1   3
+ATOM      3  O5B NAP d 801      20.608 -12.262 -19.659  0.00  0.00    -0.294 OA
+BRANCH   3   4
+ATOM      4  C5B NAP d 801      21.743 -12.904 -20.194  0.00  0.00     0.215 C 
+BRANCH   4   5
+ATOM      5  C4B NAP d 801      21.713 -12.730 -21.698  0.00  0.00     0.180 C 
+ATOM      6  C3B NAP d 801      20.646 -13.554 -22.436  0.00  0.00     0.183 C 
+ATOM      7  C2B NAP d 801      21.112 -13.532 -23.915  0.00  0.00     0.214 C 
+ATOM      8  C1B NAP d 801      22.588 -13.072 -23.774  0.00  0.00     0.263 C 
+ATOM      9  O4B NAP d 801      22.942 -12.887 -22.380  0.00  0.00    -0.353 OA
+BRANCH   6  10
+ATOM     10  O3B NAP d 801      19.368 -13.018 -22.194  0.00  0.00    -0.390 OA
+ATOM     11  H   NAP d 801      19.352 -12.086 -22.463  0.00  0.00     0.210 HD
+ENDBRANCH   6  10
+BRANCH   7  12
+ATOM     12  O2B NAP d 801      20.318 -12.661 -24.711  0.00  0.00    -0.284 OA
+BRANCH  12  13
+ATOM     13  P2B NAP d 801      20.411 -12.469 -26.371  0.00  0.00     0.391 P 
+ATOM     14  O2X NAP d 801      19.042 -13.080 -27.072  0.00  0.00    -0.632 OA
+BRANCH  13  15
+ATOM     15  O1X NAP d 801      21.660 -13.327 -26.977  0.00  0.00    -0.307 OA
+ATOM     16  H   NAP d 801      21.700 -13.205 -27.939  0.00  0.00     0.222 HD
+ENDBRANCH  13  15
+BRANCH  13  17
+ATOM     17  O3X NAP d 801      20.499 -11.032 -26.622  0.00  0.00    -0.307 OA
+ATOM     18  H   NAP d 801      20.555 -10.873 -27.577  0.00  0.00     0.222 HD
+ENDBRANCH  13  17
+ENDBRANCH  12  13
+ENDBRANCH   7  12
+BRANCH   8  19
+ATOM     19  N9A NAP d 801      23.443 -14.162 -24.231  0.00  0.00    -0.294 N 
+ATOM     20  C4A NAP d 801      24.386 -14.027 -25.323  0.00  0.00     0.167 A 
+ATOM     21  N3A NAP d 801      24.665 -12.998 -26.134  0.00  0.00    -0.222 NA
+ATOM     22  C5A NAP d 801      25.024 -15.236 -25.431  0.00  0.00     0.149 A 
+ATOM     23  C2A NAP d 801      25.668 -13.153 -27.175  0.00  0.00     0.237 A 
+ATOM     24  N1A NAP d 801      26.321 -14.396 -27.292  0.00  0.00    -0.222 NA
+ATOM     25  C6A NAP d 801      26.039 -15.391 -26.483  0.00  0.00     0.155 A 
+ATOM     26  N7A NAP d 801      24.528 -16.122 -24.437  0.00  0.00    -0.236 NA
+ATOM     27  C8A NAP d 801      23.532 -15.418 -23.681  0.00  0.00     0.214 A 
+BRANCH  25  28
+ATOM     28  N6A NAP d 801      26.740 -16.644 -26.592  0.00  0.00    -0.382 N 
+ATOM     29  H   NAP d 801      27.423 -16.767 -27.290  0.00  0.00     0.157 HD
+ATOM     30  H   NAP d 801      26.536 -17.378 -25.968  0.00  0.00     0.157 HD
+ENDBRANCH  25  28
+ENDBRANCH   8  19
+ENDBRANCH   4   5
+ENDBRANCH   3   4
+ENDBRANCH   1   3
+BRANCH   1  31
+ATOM     31  O1A NAP d 801      19.509 -10.161 -18.311  0.00  0.00    -0.307 OA
+ATOM     32  H   NAP d 801      18.924  -9.916 -19.045  0.00  0.00     0.222 HD
+ENDBRANCH   1  31
+BRANCH   1  33
+ATOM     33  O3  NAP d 801      21.824 -11.228 -17.622  0.00  0.00    -0.195 OA
+BRANCH  33  34
+ATOM     34  PN  NAP d 801      22.547  -9.990 -16.776  0.00  0.00     0.401 P 
+ATOM     35  O1N NAP d 801      22.129  -8.496 -17.260  0.00  0.00    -0.631 OA
+BRANCH  34  36
+ATOM     36  O5D NAP d 801      24.178 -10.081 -17.029  0.00  0.00    -0.294 OA
+BRANCH  36  37
+ATOM     37  C5D NAP d 801      24.631  -9.767 -18.322  0.00  0.00     0.215 C 
+BRANCH  37  38
+ATOM     38  C4D NAP d 801      26.153  -9.627 -18.261  0.00  0.00     0.180 C 
+ATOM     39  C3D NAP d 801      26.907 -10.964 -17.918  0.00  0.00     0.182 C 
+ATOM     40  C2D NAP d 801      27.152 -10.849 -16.443  0.00  0.00     0.198 C 
+ATOM     41  C1D NAP d 801      27.545  -9.404 -16.365  0.00  0.00     0.255 C 
+ATOM     42  O4D NAP d 801      26.584  -8.685 -17.159  0.00  0.00    -0.354 OA
+BRANCH  39  43
+ATOM     43  O3D NAP d 801      28.081 -11.130 -18.651  0.00  0.00    -0.390 OA
+ATOM     44  H   NAP d 801      28.674 -10.381 -18.485  0.00  0.00     0.210 HD
+ENDBRANCH  39  43
+BRANCH  40  45
+ATOM     45  O2D NAP d 801      28.056 -11.779 -15.943  0.00  0.00    -0.388 OA
+ATOM     46  H   NAP d 801      28.897 -11.701 -16.419  0.00  0.00     0.210 HD
+ENDBRANCH  40  45
+BRANCH  41  47
+ATOM     47  N1N NAP d 801      27.466  -8.885 -14.981  0.00  0.00    -0.357 N 
+ATOM     48  C2N NAP d 801      28.642  -8.222 -14.416  0.00  0.00     0.169 C 
+ATOM     49  C3N NAP d 801      28.605  -7.650 -12.995  0.00  0.00     0.027 C 
+ATOM     50  C4N NAP d 801      27.315  -7.646 -12.155  0.00  0.00     0.015 C 
+ATOM     51  C5N NAP d 801      26.079  -8.214 -12.904  0.00  0.00     0.018 C 
+ATOM     52  C6N NAP d 801      26.188  -8.820 -14.296  0.00  0.00     0.088 C 
+BRANCH  49  53
+ATOM     53  C7N NAP d 801      29.929  -7.104 -12.425  0.00  0.00     0.247 C 
+ATOM     54  N7N NAP d 801      30.953  -6.820 -13.413  0.00  0.00    -0.366 N 
+ATOM     55  H   NAP d 801      30.819  -7.085 -14.351  0.00  0.00     0.159 HD
+ATOM     56  H   NAP d 801      31.782  -6.362 -13.145  0.00  0.00     0.159 HD
+ATOM     57  O7N NAP d 801      30.071  -6.789 -11.271  0.00  0.00    -0.268 OA
+ENDBRANCH  49  53
+ENDBRANCH  41  47
+ENDBRANCH  37  38
+ENDBRANCH  36  37
+ENDBRANCH  34  36
+BRANCH  34  58
+ATOM     58  O2N NAP d 801      22.230 -10.214 -15.360  0.00  0.00    -0.307 OA
+ATOM     59  H   NAP d 801      21.270 -10.157 -15.231  0.00  0.00     0.222 HD
+ENDBRANCH  34  58
+ENDBRANCH  33  34
+ENDBRANCH   1  33
+TORSDOF 21

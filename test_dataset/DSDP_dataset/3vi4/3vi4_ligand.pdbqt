@@ -1,0 +1,55 @@
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA_2  and  N_1 
+REMARK    2  A    between atoms: C_3  and  CA_2 
+REMARK    3  A    between atoms: CA_2  and  CB_5 
+REMARK       I    between atoms: N_9  and  C_3 
+REMARK    4  A    between atoms: CG_6  and  CB_5 
+REMARK       I    between atoms: CG_6  and  ND2_8 
+REMARK    5  A    between atoms: CA_10  and  N_9 
+REMARK    6  A    between atoms: CB_13  and  CA_10 
+REMARK    7  A    between atoms: CA_10  and  C_11 
+REMARK    8  A    between atoms: CG_14  and  CB_13 
+REMARK       I    between atoms: ND2_16  and  CG_14 
+ROOT
+ATOM      1  C   ASN d   1      10.933 -29.614 -12.706  0.00  0.00     0.252 C 
+ATOM      2  O   ASN d   1       9.841 -30.037 -13.094  0.00  0.00    -0.271 OA
+ATOM      3  N   ASN d   2      11.503 -28.501 -13.165  0.00  0.00    -0.348 N 
+ATOM      4  H   ASN d   2      12.400 -28.259 -12.839  0.00  0.00     0.163 HD
+ENDROOT
+BRANCH   1   5
+ATOM      5  CA  ASN d   1      11.710 -30.357 -11.649  0.00  0.00     0.317 C 
+BRANCH   5   6
+ATOM      6  CB  ASN d   1      10.787 -31.317 -10.908  0.00  0.00     0.147 C 
+BRANCH   6   7
+ATOM      7  CG  ASN d   1      11.296 -32.734 -10.930  0.00  0.00     0.217 C 
+ATOM      8  OD1 ASN d   1      11.302 -33.381 -11.980  0.00  0.00    -0.274 OA
+ATOM      9  ND2 ASN d   1      11.726 -33.232  -9.769  0.00  0.00    -0.370 N 
+ATOM     10 1HD2 ASN d   1      12.069 -34.154  -9.726  0.00  0.00     0.159 HD
+ATOM     11 2HD2 ASN d   1      11.700 -32.678  -8.956  0.00  0.00     0.159 HD
+ENDBRANCH   6   7
+ENDBRANCH   5   6
+BRANCH   5  12
+ATOM     12  N   ASN d   1      12.399 -29.452 -10.728  0.00  0.00     0.092 N 
+ATOM     13  H1  ASN d   1      13.006 -28.826 -11.257  0.00  0.00     0.313 HD
+ATOM     14  H2  ASN d   1      12.960 -29.996 -10.073  0.00  0.00     0.313 HD
+ENDBRANCH   5  12
+ENDBRANCH   1   5
+BRANCH   3  15
+ATOM     15  CA  ASN d   2      10.847 -27.623 -14.136  0.00  0.00     0.154 C 
+BRANCH  15  16
+ATOM     16  CB  ASN d   2      10.784 -28.302 -15.495  0.00  0.00     0.134 C 
+BRANCH  16  17
+ATOM     17  CG  ASN d   2      12.129 -28.795 -15.943  0.00  0.00     0.217 C 
+ATOM     18  ND2 ASN d   2      12.175 -30.040 -16.394  0.00  0.00    -0.370 N 
+ATOM     19 1HD2 ASN d   2      13.029 -30.421 -16.702  0.00  0.00     0.159 HD
+ATOM     20 2HD2 ASN d   2      11.355 -30.584 -16.421  0.00  0.00     0.159 HD
+ATOM     21  OD1 ASN d   2      13.125 -28.070 -15.873  0.00  0.00    -0.274 OA
+ENDBRANCH  16  17
+ENDBRANCH  15  16
+BRANCH  15  22
+ATOM     22  C   ASN d   2       9.453 -27.162 -13.706  0.00  0.00     0.256 C 
+ATOM     23  O   ASN d   2       8.558 -26.991 -14.544  0.00  0.00    -0.305 OA
+ENDBRANCH  15  22
+ENDBRANCH   3  15
+TORSDOF 8

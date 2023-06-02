@@ -1,0 +1,112 @@
+REMARK  18 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O3P_4  and  PN_1 
+REMARK    2  A    between atoms: PN_1  and  O5D_5 
+REMARK    3  A    between atoms: PN_1  and  O11_2 
+REMARK    4  A    between atoms: O3P_4  and  PA_23 
+REMARK    5  A    between atoms: O5D_5  and  C5D_6 
+REMARK    6  A    between atoms: C4D_7  and  C5D_6 
+REMARK    7  A    between atoms: C3D_9  and  O3D_10 
+REMARK    8  A    between atoms: O2D_12  and  C2D_11 
+REMARK    9  A    between atoms: N1N_14  and  C1D_13 
+REMARK   10  A    between atoms: C3N_18  and  C7N_20 
+REMARK   11  A    between atoms: C7N_20  and  O7N_21 
+REMARK   12  A    between atoms: O5B_26  and  PA_23 
+REMARK   13  A    between atoms: PA_23  and  O14_25 
+REMARK   14  A    between atoms: O5B_26  and  C5B_27 
+REMARK   15  A    between atoms: C4B_28  and  C5B_27 
+REMARK   16  A    between atoms: O3B_31  and  C3B_30 
+REMARK   17  A    between atoms: O2B_33  and  C2B_32 
+REMARK   18  A    between atoms: C1B_34  and  N9A_35 
+ROOT
+ATOM      1  PA  DND d 502      11.523  32.883  26.932  0.00  0.00     0.401 P 
+ATOM      2  O13 DND d 502      12.562  33.666  26.329  0.00  0.00    -0.631 OA
+ENDROOT
+BRANCH   1   3
+ATOM      3  O5B DND d 502      10.247  32.479  26.110  0.00  0.00    -0.294 OA
+BRANCH   3   4
+ATOM      4  C5B DND d 502       8.976  32.811  26.495  0.00  0.00     0.215 C 
+BRANCH   4   5
+ATOM      5  C4B DND d 502       8.441  33.826  25.545  0.00  0.00     0.180 C 
+ATOM      6  C3B DND d 502       9.158  35.211  25.476  0.00  0.00     0.182 C 
+ATOM      7  C2B DND d 502       8.038  36.214  25.844  0.00  0.00     0.198 C 
+ATOM      8  C1B DND d 502       6.977  35.420  26.544  0.00  0.00     0.262 C 
+ATOM      9  O4B DND d 502       7.094  34.126  25.993  0.00  0.00    -0.353 OA
+BRANCH   6  10
+ATOM     10  O3B DND d 502       9.876  35.499  24.277  0.00  0.00    -0.390 OA
+ATOM     11  H   DND d 502       9.263  35.500  23.525  0.00  0.00     0.210 HD
+ENDBRANCH   6  10
+BRANCH   7  12
+ATOM     12  O2B DND d 502       7.506  36.840  24.647  0.00  0.00    -0.388 OA
+ATOM     13  H   DND d 502       7.160  36.157  24.051  0.00  0.00     0.210 HD
+ENDBRANCH   7  12
+BRANCH   8  14
+ATOM     14  N9A DND d 502       7.210  35.505  28.029  0.00  0.00    -0.294 N 
+ATOM     15  C4A DND d 502       6.715  36.528  28.809  0.00  0.00     0.167 A 
+ATOM     16  N3A DND d 502       5.947  37.611  28.396  0.00  0.00    -0.222 NA
+ATOM     17  C5A DND d 502       7.167  36.236  30.140  0.00  0.00     0.149 A 
+ATOM     18  C2A DND d 502       5.636  38.428  29.413  0.00  0.00     0.237 A 
+ATOM     19  N1A DND d 502       6.007  38.270  30.760  0.00  0.00    -0.222 NA
+ATOM     20  C6A DND d 502       6.784  37.169  31.161  0.00  0.00     0.155 A 
+ATOM     21  N6A DND d 502       7.146  37.006  32.435  0.00  0.00    -0.382 N 
+ATOM     22  H   DND d 502       7.690  36.228  32.696  0.00  0.00     0.157 HD
+ATOM     23  H   DND d 502       6.869  37.663  33.114  0.00  0.00     0.157 HD
+ATOM     24  N7A DND d 502       7.912  35.078  30.207  0.00  0.00    -0.236 NA
+ATOM     25  C8A DND d 502       7.905  34.686  28.932  0.00  0.00     0.214 A 
+ENDBRANCH   8  14
+ENDBRANCH   4   5
+ENDBRANCH   3   4
+ENDBRANCH   1   3
+BRANCH   1  26
+ATOM     26  O3P DND d 502      12.072  31.557  26.192  0.00  0.00    -0.195 OA
+BRANCH  26  27
+ATOM     27  PN  DND d 502      11.550  30.007  26.207  0.00  0.00     0.401 P 
+ATOM     28  O12 DND d 502      11.531  29.283  24.911  0.00  0.00    -0.631 OA
+BRANCH  27  29
+ATOM     29  O5D DND d 502      13.086  29.557  26.476  0.00  0.00    -0.294 OA
+BRANCH  29  30
+ATOM     30  C5D DND d 502      13.909  29.925  27.671  0.00  0.00     0.215 C 
+BRANCH  30  31
+ATOM     31  C4D DND d 502      15.380  30.157  27.248  0.00  0.00     0.180 C 
+ATOM     32  C3D DND d 502      15.614  31.336  26.281  0.00  0.00     0.182 C 
+ATOM     33  C2D DND d 502      15.618  30.643  24.933  0.00  0.00     0.198 C 
+ATOM     34  C1D DND d 502      16.292  29.339  25.259  0.00  0.00     0.255 C 
+ATOM     35  O4D DND d 502      15.841  28.960  26.541  0.00  0.00    -0.354 OA
+BRANCH  32  36
+ATOM     36  O3D DND d 502      16.818  32.086  26.556  0.00  0.00    -0.390 OA
+ATOM     37  H   DND d 502      17.585  31.493  26.514  0.00  0.00     0.210 HD
+ENDBRANCH  32  36
+BRANCH  33  38
+ATOM     38  O2D DND d 502      16.246  31.430  23.907  0.00  0.00    -0.388 OA
+ATOM     39  H   DND d 502      17.154  31.644  24.174  0.00  0.00     0.210 HD
+ENDBRANCH  33  38
+BRANCH  34  40
+ATOM     40  N1N DND d 502      15.934  28.320  24.250  0.00  0.00    -0.357 N 
+ATOM     41  C6N DND d 502      16.862  28.134  23.186  0.00  0.00     0.152 A 
+ATOM     42  C5N DND d 502      16.453  27.163  22.285  0.00  0.00    -0.006 A 
+ATOM     43  C4N DND d 502      15.253  26.394  22.358  0.00  0.00     0.017 A 
+ATOM     44  C3N DND d 502      14.384  26.678  23.495  0.00  0.00     0.052 A 
+ATOM     45  C2N DND d 502      14.713  27.639  24.445  0.00  0.00     0.106 A 
+BRANCH  44  46
+ATOM     46  C7N DND d 502      13.100  25.875  23.588  0.00  0.00     0.177 C 
+ATOM     47  O8N DND d 502      12.848  24.958  22.713  0.00  0.00    -0.646 OA
+BRANCH  46  48
+ATOM     48  O7N DND d 502      12.277  26.090  24.576  0.00  0.00    -0.773 OA
+ATOM     49  H   DND d 502      12.466  26.757  25.207  0.00  0.00     0.167 HD
+ENDBRANCH  46  48
+ENDBRANCH  44  46
+ENDBRANCH  34  40
+ENDBRANCH  30  31
+ENDBRANCH  29  30
+ENDBRANCH  27  29
+BRANCH  27  50
+ATOM     50  O11 DND d 502      11.147  29.358  27.481  0.00  0.00    -0.307 OA
+ATOM     51  H   DND d 502      10.192  29.468  27.612  0.00  0.00     0.222 HD
+ENDBRANCH  27  50
+ENDBRANCH  26  27
+ENDBRANCH   1  26
+BRANCH   1  52
+ATOM     52  O14 DND d 502      11.569  32.292  28.278  0.00  0.00    -0.307 OA
+ATOM     53  H   DND d 502      10.744  31.811  28.448  0.00  0.00     0.222 HD
+ENDBRANCH   1  52
+TORSDOF 18

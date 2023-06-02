@@ -1,0 +1,57 @@
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  CA_2 
+REMARK       I    between atoms: CAB_8  and  N_1 
+REMARK    2  A    between atoms: CA_2  and  C_3 
+REMARK    3  A    between atoms: CA_2  and  CB_5 
+REMARK    4  A    between atoms: C_3  and  OAF_29 
+REMARK    5  A    between atoms: CAM_11  and  CAB_8 
+REMARK    6  A    between atoms: CAP_12  and  CAQ_13 
+REMARK    7  A    between atoms: NAO_27  and  CAP_12 
+ROOT
+ATOM      1  CAM KCA d   1      90.532 131.162 119.893  0.00  0.00     0.157 A 
+ATOM      2  CAX KCA d   1      91.971 130.859 118.333  0.00  0.00     0.066 A 
+ATOM      3  CAY KCA d   1      90.799 131.413 118.604  0.00  0.00     0.028 A 
+ATOM      4  CAZ KCA d   1      90.154 132.057 117.638  0.00  0.00     0.016 A 
+ATOM      5  CBA KCA d   1      90.687 132.179 116.375  0.00  0.00     0.001 A 
+ATOM      6  CBB KCA d   1      91.924 131.618 116.121  0.00  0.00     0.002 A 
+ATOM      7  CBC KCA d   1      92.567 130.957 117.149  0.00  0.00     0.032 A 
+ATOM      8  NAN KCA d   1      91.533 130.465 120.418  0.00  0.00    -0.165 NA
+ATOM      9  NAO KCA d   1      92.428 130.298 119.445  0.00  0.00    -0.264 N 
+ENDROOT
+BRANCH   1  10
+ATOM     10  CAB KCA d   1      89.418 131.480 120.588  0.00  0.00     0.273 C 
+ATOM     11  N   KCA d   1      89.376 131.042 121.850  0.00  0.00    -0.341 N 
+ATOM     12  H1  KCA d   1      90.129 130.503 122.228  0.00  0.00     0.163 HD
+ATOM     13  OAA KCA d   1      88.440 132.050 120.095  0.00  0.00    -0.266 OA
+BRANCH  11  14
+ATOM     14  CA  KCA d   1      88.196 131.370 122.675  0.00  0.00     0.192 C 
+BRANCH  14  15
+ATOM     15  C   KCA d   1      88.164 132.892 122.980  0.00  0.00     0.282 C 
+ATOM     16  O   KCA d   1      87.319 133.561 122.384  0.00  0.00    -0.263 OA
+BRANCH  15  17
+ATOM     17  OAF KCA d   1      89.075 133.446 123.826  0.00  0.00    -0.325 OA
+ATOM     18  CAG KCA d   1      88.847 134.859 123.986  0.00  0.00     0.213 C 
+ENDBRANCH  15  17
+ENDBRANCH  14  15
+BRANCH  14  19
+ATOM     19  CB  KCA d   1      88.165 130.418 123.895  0.00  0.00    -0.022 C 
+ATOM     20  CG1 KCA d   1      86.883 130.675 124.671  0.00  0.00     0.017 C 
+ATOM     21  CG2 KCA d   1      88.133 129.001 123.332  0.00  0.00     0.017 C 
+ATOM     22  CAL KCA d   1      89.379 130.473 124.835  0.00  0.00     0.017 C 
+ENDBRANCH  14  19
+ENDBRANCH  11  14
+ENDBRANCH   1  10
+BRANCH   9  23
+ATOM     23  CAP KCA d   1      93.719 129.635 119.481  0.00  0.00     0.190 C 
+BRANCH  23  24
+ATOM     24  CAQ KCA d   1      94.686 130.566 119.862  0.00  0.00    -0.038 A 
+ATOM     25  CAR KCA d   1      94.540 131.941 119.852  0.00  0.00     0.012 A 
+ATOM     26  CAS KCA d   1      95.552 132.786 120.241  0.00  0.00     0.043 A 
+ATOM     27  CAT KCA d   1      96.744 132.236 120.668  0.00  0.00     0.116 A 
+ATOM     28  CAV KCA d   1      96.937 130.879 120.705  0.00  0.00     0.043 A 
+ATOM     29  FAU KCA d   1      97.563 132.898 120.989  0.00  0.00    -0.206 F 
+ATOM     30  CAW KCA d   1      95.879 130.123 120.289  0.00  0.00     0.012 A 
+ENDBRANCH  23  24
+ENDBRANCH   9  23
+TORSDOF 7

@@ -1,0 +1,79 @@
+REMARK  11 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N2_32  and  C2_2 
+REMARK    2  A    between atoms: C6_9  and  C9_11 
+REMARK    3  A    between atoms: C9_11  and  N10_12 
+REMARK    4  A    between atoms: C11_19  and  C1'_16 
+REMARK       I    between atoms: C11_19  and  N_20 
+REMARK    5  A    between atoms: N_20  and  CA_21 
+REMARK    6  A    between atoms: CB_25  and  CA_21 
+REMARK    7  A    between atoms: CA_21  and  C_22 
+REMARK    8  A    between atoms: C_22  and  OX2_23 
+REMARK    9  A    between atoms: CG_26  and  CB_25 
+REMARK   10  A    between atoms: CD_27  and  CG_26 
+REMARK   11  A    between atoms: OE1_28  and  CD_27 
+ROOT
+ATOM      1  N10 THG d2887       1.418  25.102  15.753  0.00  0.00    -0.388 N 
+ATOM      2  C4' THG d2887       0.935  26.373  15.850  0.00  0.00     0.028 A 
+ATOM      3  C3' THG d2887      -0.002  26.716  16.911  0.00  0.00     0.030 A 
+ATOM      4  C2' THG d2887      -0.534  28.071  17.011  0.00  0.00     0.019 A 
+ATOM      5  C1' THG d2887      -0.119  29.059  16.046  0.00  0.00     0.032 A 
+ATOM      6  C6' THG d2887       0.816  28.700  15.005  0.00  0.00     0.019 A 
+ATOM      7  C5' THG d2887       1.336  27.392  14.902  0.00  0.00     0.030 A 
+ATOM      8  H   THG d2887       1.753  24.635  16.552  0.00  0.00     0.159 HD
+ENDROOT
+BRANCH   1   9
+ATOM      9  C9  THG d2887       1.433  24.440  14.452  0.00  0.00     0.157 C 
+BRANCH   9  10
+ATOM     10  C6  THG d2887       2.755  23.726  14.116  0.00  0.00     0.257 C 
+ATOM     11  C7  THG d2887       2.617  23.119  12.684  0.00  0.00     0.158 C 
+ATOM     12  N8  THG d2887       2.854  24.138  11.627  0.00  0.00    -0.373 N 
+ATOM     13  C8A THG d2887       3.559  25.343  11.700  0.00  0.00     0.162 A 
+ATOM     14  H   THG d2887       2.457  23.935  10.749  0.00  0.00     0.161 HD
+ATOM     15  N1  THG d2887       3.695  26.195  10.628  0.00  0.00    -0.047 NA
+ATOM     16  C4A THG d2887       4.148  25.676  13.033  0.00  0.00     0.384 A 
+ATOM     17  C2  THG d2887       4.390  27.365  10.718  0.00  0.00     0.725 A 
+ATOM     18  N3  THG d2887       4.985  27.768  11.913  0.00  0.00    -0.024 NA
+ATOM     19  C4  THG d2887       4.917  26.995  13.070  0.00  0.00     0.301 A 
+ATOM     20  O4  THG d2887       5.460  27.365  14.149  0.00  0.00    -0.268 OA
+ATOM     21  N5  THG d2887       3.926  24.682  14.111  0.00  0.00     0.112 NA
+ATOM     22  H   THG d2887       3.857  25.216  14.977  0.00  0.00     0.318 HD
+BRANCH  17  23
+ATOM     23  N2  THG d2887       4.454  28.119   9.569  0.00  0.00    -0.231 N 
+ATOM     24  H   THG d2887       4.020  27.799   8.745  0.00  0.00     0.174 HD
+ATOM     25  H   THG d2887       4.934  28.979   9.570  0.00  0.00     0.174 HD
+ENDBRANCH  17  23
+ENDBRANCH   9  10
+ENDBRANCH   1   9
+BRANCH   5  26
+ATOM     26  C11 THG d2887      -0.615  30.492  16.035  0.00  0.00     0.252 C 
+ATOM     27  O11 THG d2887       0.016  31.393  15.473  0.00  0.00    -0.268 OA
+ATOM     28  N   THG d2887      -1.810  30.758  16.655  0.00  0.00    -0.343 N 
+ATOM     29  H   THG d2887      -2.278  30.009  17.089  0.00  0.00     0.163 HD
+BRANCH  28  30
+ATOM     30  CA  THG d2887      -2.436  32.079  16.715  0.00  0.00     0.183 C 
+BRANCH  30  31
+ATOM     31  CB  THG d2887      -3.162  32.178  15.359  0.00  0.00     0.046 C 
+BRANCH  31  32
+ATOM     32  CG  THG d2887      -3.907  33.485  15.129  0.00  0.00     0.112 C 
+BRANCH  32  33
+ATOM     33  CD  THG d2887      -4.616  33.570  13.782  0.00  0.00     0.139 C 
+ATOM     34  OE2 THG d2887      -4.588  32.583  12.871  0.00  0.00    -0.650 OA
+BRANCH  33  35
+ATOM     35  OE1 THG d2887      -5.233  34.601  13.537  0.00  0.00    -0.776 OA
+ATOM     36  H   THG d2887      -5.257  35.294  14.168  0.00  0.00     0.167 HD
+ENDBRANCH  33  35
+ENDBRANCH  32  33
+ENDBRANCH  31  32
+ENDBRANCH  30  31
+BRANCH  30  37
+ATOM     37  C   THG d2887      -3.375  32.088  17.915  0.00  0.00     0.163 C 
+ATOM     38  OX1 THG d2887      -3.944  30.943  18.290  0.00  0.00    -0.648 OA
+BRANCH  37  39
+ATOM     39  OX2 THG d2887      -3.630  33.110  18.549  0.00  0.00    -0.775 OA
+ATOM     40  H   THG d2887      -3.240  33.925  18.301  0.00  0.00     0.167 HD
+ENDBRANCH  37  39
+ENDBRANCH  30  37
+ENDBRANCH  28  30
+ENDBRANCH   5  26
+TORSDOF 11

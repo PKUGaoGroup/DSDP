@@ -1,0 +1,82 @@
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CBK_6  and  CBN_7 
+REMARK    2  A    between atoms: CBO_17  and  CBL_18 
+REMARK    3  A    between atoms: CBH_23  and  CAZ_24 
+REMARK    4  A    between atoms: CAZ_24  and  NBT_25 
+REMARK    5  A    between atoms: CBS_30  and  NBD_31 
+REMARK       I    between atoms: NBD_31  and  CBG_32 
+REMARK       I    between atoms: CBG_32  and  NBB_34 
+REMARK    6  A    between atoms: NBB_34  and  CBJ_35 
+REMARK    7  A    between atoms: CBM_41  and  NBC_42 
+REMARK       I    between atoms: NBC_42  and  CBF_43 
+REMARK    8  A    between atoms: CBF_43  and  CAF_45 
+ROOT
+ATOM      1  NBT G4T d   1      12.845 -14.674 -13.978  0.00  0.00    -0.067 N 
+ATOM      2  CAY G4T d   1      12.053 -15.777 -13.392  0.00  0.00     0.237 C 
+ATOM      3  CAW G4T d   1      11.901 -16.926 -14.379  0.00  0.00     0.053 C 
+ATOM      4  CAX G4T d   1      12.156 -14.167 -15.171  0.00  0.00     0.237 C 
+ATOM      5  CAV G4T d   1      12.013 -15.262 -16.218  0.00  0.00     0.053 C 
+ATOM      6  CBS G4T d   1      11.209 -16.411 -15.635  0.00  0.00     0.089 C 
+ATOM      7  H16 G4T d   1      13.761 -15.013 -14.226  0.00  0.00     0.280 HD
+ENDROOT
+BRANCH   1   8
+ATOM      8  CAZ G4T d   1      12.967 -13.560 -13.023  0.00  0.00     0.273 C 
+BRANCH   8   9
+ATOM      9  CBH G4T d   1      13.857 -13.846 -11.992  0.00  0.00    -0.033 A 
+ATOM     10  CAN G4T d   1      13.501 -13.537 -10.686  0.00  0.00     0.010 A 
+ATOM     11  CAR G4T d   1      14.373 -13.816  -9.642  0.00  0.00     0.014 A 
+ATOM     12  CBL G4T d   1      15.621 -14.383  -9.894  0.00  0.00    -0.006 A 
+ATOM     13  CAQ G4T d   1      15.971 -14.702 -11.202  0.00  0.00     0.014 A 
+ATOM     14  CAM G4T d   1      15.096 -14.426 -12.250  0.00  0.00     0.010 A 
+BRANCH  12  15
+ATOM     15  CBO G4T d   1      16.497 -14.679  -8.847  0.00  0.00     0.078 A 
+ATOM     16  CBN G4T d   1      16.920 -13.753  -7.876  0.00  0.00     0.005 A 
+ATOM     17  CAU G4T d   1      17.784 -14.181  -6.874  0.00  0.00     0.033 A 
+ATOM     18  CBR G4T d   1      18.209 -15.501  -6.845  0.00  0.00     0.060 A 
+ATOM     19  CBP G4T d   1      19.073 -15.958  -5.855  0.00  0.00     0.278 A 
+ATOM     20  CBQ G4T d   1      17.762 -16.378  -7.820  0.00  0.00     0.056 A 
+ATOM     21  OAD G4T d   1      19.485 -15.201  -4.978  0.00  0.00    -0.265 OA
+ATOM     22  NBE G4T d   1      19.480 -17.299  -5.857  0.00  0.00    -0.226 NA
+ATOM     23  CAJ G4T d   1      19.051 -18.132  -6.789  0.00  0.00     0.099 A 
+ATOM     24  CAS G4T d   1      18.186 -17.701  -7.790  0.00  0.00     0.107 A 
+ATOM     25  NBA G4T d   1      16.929 -15.951  -8.781  0.00  0.00    -0.251 NA
+BRANCH  16  26
+ATOM     26  CBK G4T d   1      16.542 -12.408  -7.845  0.00  0.00    -0.024 A 
+ATOM     27  CAK G4T d   1      16.704 -11.581  -8.956  0.00  0.00     0.012 A 
+ATOM     28  CAH G4T d   1      16.328 -10.245  -8.896  0.00  0.00     0.001 A 
+ATOM     29  CAG G4T d   1      15.805  -9.722  -7.718  0.00  0.00     0.000 A 
+ATOM     30  CAI G4T d   1      15.657 -10.542  -6.605  0.00  0.00     0.001 A 
+ATOM     31  CAL G4T d   1      16.032 -11.879  -6.668  0.00  0.00     0.012 A 
+ENDBRANCH  16  26
+ENDBRANCH  12  15
+ENDBRANCH   8   9
+ENDBRANCH   1   8
+BRANCH   6  32
+ATOM     32  NBD G4T d   1      11.135 -17.465 -16.655  0.00  0.00    -0.338 N 
+ATOM     33  CBG G4T d   1      10.009 -17.723 -17.331  0.00  0.00     0.321 C 
+ATOM     34  OAC G4T d   1       8.975 -17.101 -17.087  0.00  0.00    -0.247 OA
+ATOM     35  NBB G4T d   1      10.076 -18.697 -18.259  0.00  0.00    -0.309 N 
+ATOM     36  H27 G4T d   1      10.939 -19.178 -18.414  0.00  0.00     0.170 HD
+ATOM     37  H26 G4T d   1      11.952 -18.007 -16.851  0.00  0.00     0.164 HD
+BRANCH  35  38
+ATOM     38  CBJ G4T d   1       8.994 -19.024 -18.974  0.00  0.00     0.038 A 
+ATOM     39  CAT G4T d   1       8.263 -18.065 -19.675  0.00  0.00     0.061 A 
+ATOM     40  CBM G4T d   1       7.146 -18.447 -20.407  0.00  0.00     0.058 A 
+ATOM     41  CBI G4T d   1       6.763 -19.780 -20.476  0.00  0.00     0.060 A 
+ATOM     42  CAO G4T d   1       7.500 -20.737 -19.789  0.00  0.00     0.028 A 
+ATOM     43 CL   G4T d   1       5.382 -20.251 -21.396  0.00  0.00    -0.082 Cl
+ATOM     44  CAP G4T d   1       8.614 -20.359 -19.046  0.00  0.00     0.031 A 
+BRANCH  40  45
+ATOM     45  NBC G4T d   1       6.406 -17.574 -21.088  0.00  0.00    -0.326 N 
+ATOM     46  CBF G4T d   1       5.728 -16.638 -20.400  0.00  0.00     0.221 C 
+ATOM     47  OAB G4T d   1       5.726 -16.535 -19.174  0.00  0.00    -0.273 OA
+ATOM     48  H31 G4T d   1       6.356 -17.613 -22.086  0.00  0.00     0.169 HD
+BRANCH  46  49
+ATOM     49  CAF G4T d   1       4.913 -15.676 -21.270  0.00  0.00     0.098 C 
+ATOM     50  CAA G4T d   1       4.125 -14.604 -20.520  0.00  0.00     0.014 C 
+ENDBRANCH  46  49
+ENDBRANCH  40  45
+ENDBRANCH  35  38
+ENDBRANCH   6  32
+TORSDOF 8

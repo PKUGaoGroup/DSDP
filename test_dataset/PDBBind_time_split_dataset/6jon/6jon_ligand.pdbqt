@@ -1,0 +1,68 @@
+REMARK  10 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O3B_8  and  PG_1 
+REMARK    2  A    between atoms: PB_5  and  O3B_8 
+REMARK    3  A    between atoms: O3A_12  and  PB_5 
+REMARK    4  A    between atoms: PA_9  and  O3A_12 
+REMARK    5  A    between atoms: PA_9  and  O5'_13 
+REMARK    6  A    between atoms: O5'_13  and  C5'_14 
+REMARK    7  A    between atoms: C5'_14  and  C4'_15 
+REMARK    8  A    between atoms: C3'_17  and  O3'_18 
+REMARK    9  A    between atoms: C1'_20  and  N9_21 
+REMARK   10  A    between atoms: C6_25  and  N6_26 
+ROOT
+ATOM      1  C4' DTP d   1     -17.151  21.590  -1.414  0.00  0.00     0.177 C 
+ATOM      2  O4' DTP d   1     -17.298  21.770  -2.831  0.00  0.00    -0.356 OA
+ATOM      3  C3' DTP d   1     -15.878  20.810  -1.185  0.00  0.00     0.153 C 
+ATOM      4  C2' DTP d   1     -15.832  19.956  -2.482  0.00  0.00     0.088 C 
+ATOM      5  C1' DTP d   1     -16.519  20.869  -3.570  0.00  0.00     0.233 C 
+ENDROOT
+BRANCH   1   6
+ATOM      6  C5' DTP d   1     -17.059  22.973  -0.597  0.00  0.00     0.216 C 
+BRANCH   6   7
+ATOM      7  O5' DTP d   1     -16.114  23.783  -1.136  0.00  0.00    -0.287 OA
+BRANCH   7   8
+ATOM      8  PA  DTP d   1     -14.758  24.464  -0.013  0.00  0.00     0.417 P 
+ATOM      9  O1A DTP d   1     -14.305  25.560  -0.935  0.00  0.00    -0.624 OA
+ATOM     10  O2A DTP d   1     -15.574  24.922   1.180  0.00  0.00    -0.624 OA
+BRANCH   8  11
+ATOM     11  O3A DTP d   1     -13.810  23.256   0.217  0.00  0.00    -0.180 OA
+BRANCH  11  12
+ATOM     12  PB  DTP d   1     -13.781  22.134   1.696  0.00  0.00     0.428 P 
+ATOM     13  O1B DTP d   1     -13.485  20.858   0.961  0.00  0.00    -0.624 OA
+ATOM     14  O2B DTP d   1     -15.201  22.215   2.217  0.00  0.00    -0.624 OA
+BRANCH  12  15
+ATOM     15  O3B DTP d   1     -12.687  22.540   2.739  0.00  0.00    -0.173 OA
+BRANCH  15  16
+ATOM     16  PG  DTP d   1     -12.407  24.203   3.459  0.00  0.00     0.431 P 
+ATOM     17  O1G DTP d   1     -11.377  24.856   2.555  0.00  0.00    -0.616 OA
+ATOM     18  O2G DTP d   1     -13.769  24.850   3.380  0.00  0.00    -0.616 OA
+ATOM     19  O3G DTP d   1     -11.925  24.072   4.893  0.00  0.00    -0.616 OA
+ENDBRANCH  15  16
+ENDBRANCH  12  15
+ENDBRANCH  11  12
+ENDBRANCH   8  11
+ENDBRANCH   7   8
+ENDBRANCH   6   7
+ENDBRANCH   1   6
+BRANCH   3  20
+ATOM     20  O3' DTP d   1     -16.016  20.025  -0.014  0.00  0.00    -0.393 OA
+ATOM     21  H5  DTP d   1     -15.216  19.533   0.132  0.00  0.00     0.210 HD
+ENDBRANCH   3  20
+BRANCH   5  22
+ATOM     22  N9  DTP d   1     -15.573  21.659  -4.505  0.00  0.00    -0.296 N 
+ATOM     23  C8  DTP d   1     -14.666  22.627  -4.039  0.00  0.00     0.214 A 
+ATOM     24  N7  DTP d   1     -13.940  23.191  -5.037  0.00  0.00    -0.236 NA
+ATOM     25  C5  DTP d   1     -14.374  22.579  -6.238  0.00  0.00     0.149 A 
+ATOM     26  C6  DTP d   1     -13.994  22.740  -7.632  0.00  0.00     0.155 A 
+ATOM     27  C4  DTP d   1     -15.399  21.617  -5.913  0.00  0.00     0.167 A 
+ATOM     28  N1  DTP d   1     -14.629  21.969  -8.569  0.00  0.00    -0.222 NA
+ATOM     29  C2  DTP d   1     -15.607  21.067  -8.151  0.00  0.00     0.237 A 
+ATOM     30  N3  DTP d   1     -16.026  20.850  -6.878  0.00  0.00    -0.222 NA
+BRANCH  26  31
+ATOM     31  N6  DTP d   1     -13.004  23.653  -8.061  0.00  0.00    -0.382 N 
+ATOM     32  H10 DTP d   1     -12.772  23.728  -9.062  0.00  0.00     0.157 HD
+ATOM     33  H11 DTP d   1     -12.515  24.243  -7.373  0.00  0.00     0.157 HD
+ENDBRANCH  26  31
+ENDBRANCH   5  22
+TORSDOF 10

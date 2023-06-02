@@ -1,0 +1,92 @@
+REMARK  15 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1'_1  and  O3B_13 
+REMARK    2  A    between atoms: O2'_3  and  C2'_2 
+REMARK    3  A    between atoms: O3'_5  and  C3'_4 
+REMARK    4  A    between atoms: C4'_6  and  O4'_7 
+REMARK    5  A    between atoms: O3B_13  and  PB_10 
+REMARK    6  A    between atoms: O3A_14  and  PB_10 
+REMARK    7  A    between atoms: PB_10  and  O2B_12 
+REMARK    8  A    between atoms: PA_15  and  O3A_14 
+REMARK    9  A    between atoms: O5D_18  and  PA_15 
+REMARK   10  A    between atoms: O1A_16  and  PA_15 
+REMARK   11  A    between atoms: O5D_18  and  C5D_19 
+REMARK   12  A    between atoms: C4D_20  and  C5D_19 
+REMARK   13  A    between atoms: C3D_22  and  O3D_23 
+REMARK   14  A    between atoms: C2D_24  and  O2D_25 
+REMARK   15  A    between atoms: N1_27  and  C1D_26 
+ROOT
+ATOM      1  PA  UDX d 404     -14.523  17.870  55.021  0.00  0.00     0.401 P 
+ATOM      2  O2A UDX d 404     -15.264  16.969  54.124  0.00  0.00    -0.631 OA
+ENDROOT
+BRANCH   1   3
+ATOM      3  O5D UDX d 404     -12.954  17.628  54.826  0.00  0.00    -0.294 OA
+BRANCH   3   4
+ATOM      4  C5D UDX d 404     -12.403  16.317  54.909  0.00  0.00     0.215 C 
+BRANCH   4   5
+ATOM      5  C4D UDX d 404     -10.889  16.375  54.817  0.00  0.00     0.180 C 
+ATOM      6  O4D UDX d 404     -10.505  16.734  53.457  0.00  0.00    -0.353 OA
+ATOM      7  C1D UDX d 404      -9.773  17.985  53.505  0.00  0.00     0.263 C 
+ATOM      8  C2D UDX d 404     -10.174  18.654  54.803  0.00  0.00     0.198 C 
+ATOM      9  C3D UDX d 404     -10.336  17.459  55.732  0.00  0.00     0.182 C 
+BRANCH   7  10
+ATOM     10  N1  UDX d 404     -10.084  18.893  52.413  0.00  0.00    -0.280 N 
+ATOM     11  C2  UDX d 404      -9.048  19.467  51.754  0.00  0.00     0.331 A 
+ATOM     12  N3  UDX d 404      -9.418  20.295  50.715  0.00  0.00    -0.275 N 
+ATOM     13  O2  UDX d 404      -7.880  19.268  52.071  0.00  0.00    -0.246 OA
+ATOM     14  C4  UDX d 404     -10.709  20.581  50.316  0.00  0.00     0.250 A 
+ATOM     15  H   UDX d 404      -8.691  20.724  50.208  0.00  0.00     0.173 HD
+ATOM     16  O4  UDX d 404     -10.931  21.356  49.395  0.00  0.00    -0.268 OA
+ATOM     17  C5  UDX d 404     -11.711  19.933  51.076  0.00  0.00     0.092 A 
+ATOM     18  C6  UDX d 404     -11.380  19.132  52.068  0.00  0.00     0.104 A 
+ENDBRANCH   7  10
+BRANCH   8  19
+ATOM     19  O2D UDX d 404      -9.117  19.488  55.229  0.00  0.00    -0.388 OA
+ATOM     20  H   UDX d 404      -8.300  18.969  55.291  0.00  0.00     0.210 HD
+ENDBRANCH   8  19
+BRANCH   9  21
+ATOM     21  O3D UDX d 404      -9.053  17.031  56.212  0.00  0.00    -0.390 OA
+ATOM     22  H   UDX d 404      -8.477  16.828  55.458  0.00  0.00     0.210 HD
+ENDBRANCH   9  21
+ENDBRANCH   4   5
+ENDBRANCH   3   4
+ENDBRANCH   1   3
+BRANCH   1  23
+ATOM     23  O1A UDX d 404     -14.778  19.330  54.983  0.00  0.00    -0.307 OA
+ATOM     24  H   UDX d 404     -14.624  19.662  54.085  0.00  0.00     0.222 HD
+ENDBRANCH   1  23
+BRANCH   1  25
+ATOM     25  O3A UDX d 404     -14.807  17.451  56.530  0.00  0.00    -0.195 OA
+BRANCH  25  26
+ATOM     26  PB  UDX d 404     -15.543  16.266  57.292  0.00  0.00     0.404 P 
+ATOM     27  O1B UDX d 404     -14.624  15.114  57.402  0.00  0.00    -0.631 OA
+BRANCH  26  28
+ATOM     28  O3B UDX d 404     -16.769  15.850  56.371  0.00  0.00    -0.263 OA
+BRANCH  28  29
+ATOM     29  C1' UDX d 404     -16.704  14.729  55.547  0.00  0.00     0.302 C 
+ATOM     30  C2' UDX d 404     -17.756  14.850  54.469  0.00  0.00     0.205 C 
+ATOM     31  C3' UDX d 404     -19.160  14.623  55.062  0.00  0.00     0.182 C 
+ATOM     32  C4' UDX d 404     -19.182  13.257  55.697  0.00  0.00     0.173 C 
+ATOM     33  C5' UDX d 404     -18.150  13.244  56.818  0.00  0.00     0.205 C 
+ATOM     34  O5' UDX d 404     -16.842  13.506  56.269  0.00  0.00    -0.355 OA
+BRANCH  30  35
+ATOM     35  O2' UDX d 404     -17.668  16.155  53.934  0.00  0.00    -0.388 OA
+ATOM     36  H   UDX d 404     -17.817  16.804  54.639  0.00  0.00     0.210 HD
+ENDBRANCH  30  35
+BRANCH  31  37
+ATOM     37  O3' UDX d 404     -20.147  14.667  54.040  0.00  0.00    -0.390 OA
+ATOM     38  H   UDX d 404     -19.964  13.976  53.384  0.00  0.00     0.210 HD
+ENDBRANCH  31  37
+BRANCH  32  39
+ATOM     39  O4' UDX d 404     -20.488  12.974  56.189  0.00  0.00    -0.391 OA
+ATOM     40  H   UDX d 404     -20.740  13.646  56.842  0.00  0.00     0.210 HD
+ENDBRANCH  32  39
+ENDBRANCH  28  29
+ENDBRANCH  26  28
+BRANCH  26  41
+ATOM     41  O2B UDX d 404     -16.106  16.883  58.529  0.00  0.00    -0.307 OA
+ATOM     42  H   UDX d 404     -16.686  17.622  58.287  0.00  0.00     0.222 HD
+ENDBRANCH  26  41
+ENDBRANCH  25  26
+ENDBRANCH   1  25
+TORSDOF 15

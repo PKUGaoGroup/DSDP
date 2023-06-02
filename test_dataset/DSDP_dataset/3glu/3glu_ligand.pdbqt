@@ -1,0 +1,30 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA_2  and  N_1 
+REMARK    2  A    between atoms: CB_5  and  CA_2 
+REMARK    3  A    between atoms: CA_2  and  C_3 
+REMARK    4  A    between atoms: CG_6  and  CB_5 
+REMARK    5  A    between atoms: SD_7  and  CG_6 
+ROOT
+ATOM      1  CA  MET d   1     -20.434 -16.561 -11.912  0.00  0.00     0.279 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  CB  MET d   1     -20.386 -16.491 -13.463  0.00  0.00     0.052 C 
+BRANCH   2   3
+ATOM      3  CG  MET d   1     -21.315 -15.447 -14.125  0.00  0.00     0.076 C 
+BRANCH   3   4
+ATOM      4  SD  MET d   1     -20.968 -15.217 -15.893  0.00  0.00    -0.173 SA
+ATOM      5  CE  MET d   1     -20.873 -16.918 -16.479  0.00  0.00     0.089 C 
+ENDBRANCH   3   4
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1   6
+ATOM      6  C   MET d   1     -19.481 -17.652 -11.446  0.00  0.00     0.266 C 
+ATOM      7  O   MET d   1     -18.256 -17.467 -11.579  0.00  0.00    -0.305 OA
+ENDBRANCH   1   6
+BRANCH   1   8
+ATOM      8  N   MET d   1     -19.960 -15.326 -11.295  0.00  0.00     0.089 N 
+ATOM      9  H1  MET d   1     -20.565 -14.553 -11.573  0.00  0.00     0.313 HD
+ATOM     10  H2  MET d   1     -19.005 -15.138 -11.601  0.00  0.00     0.313 HD
+ENDBRANCH   1   8
+TORSDOF 5

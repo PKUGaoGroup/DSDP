@@ -1,0 +1,40 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N08_17  and  C07_5 
+REMARK    2  A    between atoms: C09_6  and  C10_7 
+REMARK    3  A    between atoms: C09_6  and  N08_17 
+REMARK    4  A    between atoms: C12_9  and  O13_19 
+ROOT
+ATOM      1  C02 KTV d   1      -8.454 103.245 -40.958  0.00  0.00     0.261 A 
+ATOM      2  C04 KTV d   1      -6.983 103.717 -42.722  0.00  0.00     0.259 A 
+ATOM      3  C05 KTV d   1      -8.276 104.518 -42.981  0.00  0.00     0.050 A 
+ATOM      4  C06 KTV d   1      -9.150 104.228 -41.929  0.00  0.00     0.074 A 
+ATOM      5  C07 KTV d   1     -10.434 104.807 -41.903  0.00  0.00     0.045 A 
+ATOM      6  C17 KTV d   1     -10.824 105.676 -42.921  0.00  0.00     0.030 A 
+ATOM      7  C18 KTV d   1      -9.948 105.961 -43.978  0.00  0.00     0.003 A 
+ATOM      8  C19 KTV d   1      -8.671 105.388 -44.017  0.00  0.00     0.018 A 
+ATOM      9  N03 KTV d   1      -7.150 102.983 -41.497  0.00  0.00    -0.289 N 
+ATOM     10  O01 KTV d   1      -8.834 102.738 -39.939  0.00  0.00    -0.267 OA
+ATOM     11  O20 KTV d   1      -6.018 103.686 -43.388  0.00  0.00    -0.267 OA
+ATOM     12  H10 KTV d   1      -6.464 102.383 -41.085  0.00  0.00     0.172 HD
+ENDROOT
+BRANCH   5  13
+ATOM     13  N08 KTV d   1     -11.271 104.466 -40.762  0.00  0.00    -0.385 N 
+ATOM     14  H11 KTV d   1     -10.858 103.906 -40.002  0.00  0.00     0.160 HD
+BRANCH  13  15
+ATOM     15  C09 KTV d   1     -12.650 104.873 -40.643  0.00  0.00     0.158 C 
+BRANCH  15  16
+ATOM     16  C10 KTV d   1     -13.110 104.450 -39.250  0.00  0.00    -0.038 A 
+ATOM     17  C11 KTV d   1     -13.300 103.109 -38.927  0.00  0.00     0.045 A 
+ATOM     18  C12 KTV d   1     -13.715 102.772 -37.636  0.00  0.00     0.066 A 
+ATOM     19  C14 KTV d   1     -13.939 103.763 -36.696  0.00  0.00     0.036 A 
+ATOM     20  C15 KTV d   1     -13.755 105.092 -37.026  0.00  0.00     0.003 A 
+ATOM     21  C16 KTV d   1     -13.337 105.433 -38.300  0.00  0.00     0.009 A 
+BRANCH  18  22
+ATOM     22  O13 KTV d   1     -13.910 101.435 -37.266  0.00  0.00    -0.361 OA
+ATOM     23  H12 KTV d   1     -14.812 101.311 -36.995  0.00  0.00     0.217 HD
+ENDBRANCH  18  22
+ENDBRANCH  15  16
+ENDBRANCH  13  15
+ENDBRANCH   5  13
+TORSDOF 4

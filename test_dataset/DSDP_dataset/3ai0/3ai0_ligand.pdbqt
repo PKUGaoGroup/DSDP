@@ -1,0 +1,54 @@
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O1_3  and  C1_1 
+REMARK    2  A    between atoms: N1_2  and  C10_19 
+REMARK    3  A    between atoms: C7_14  and  O1_3 
+REMARK    4  A    between atoms: C2_4  and  O2_5 
+REMARK    5  A    between atoms: C3_6  and  O3_7 
+REMARK    6  A    between atoms: C4_8  and  O4_9 
+REMARK    7  A    between atoms: C6_12  and  C5_10 
+REMARK    8  A    between atoms: O6_13  and  C6_12 
+ROOT
+ATOM      1  C1  PNW d2001     -26.927  82.102  14.623  0.00  0.00     0.298 C 
+ATOM      2  C2  PNW d2001     -28.340  82.186  15.195  0.00  0.00     0.205 C 
+ATOM      3  C3  PNW d2001     -28.566  81.298  16.415  0.00  0.00     0.183 C 
+ATOM      4  C4  PNW d2001     -27.970  79.920  16.117  0.00  0.00     0.180 C 
+ATOM      5  C5  PNW d2001     -26.491  80.104  15.761  0.00  0.00     0.179 C 
+ATOM      6  O5  PNW d2001     -26.495  80.742  14.483  0.00  0.00    -0.348 OA
+ENDROOT
+BRANCH   1   7
+ATOM      7  O1  PNW d2001     -27.028  82.587  13.292  0.00  0.00    -0.318 OA
+BRANCH   7   8
+ATOM      8  C7  PNW d2001     -25.897  82.836  12.561  0.00  0.00     0.072 A 
+ATOM      9  C8  PNW d2001     -26.082  83.411  11.306  0.00  0.00     0.039 A 
+ATOM     10  C9  PNW d2001     -24.984  83.755  10.524  0.00  0.00     0.039 A 
+ATOM     11  C10 PNW d2001     -23.701  83.443  10.983  0.00  0.00     0.103 A 
+ATOM     12  C11 PNW d2001     -23.517  82.893  12.256  0.00  0.00     0.039 A 
+ATOM     13  C12 PNW d2001     -24.616  82.564  13.052  0.00  0.00     0.039 A 
+BRANCH  11  14
+ATOM     14  N1  PNW d2001     -22.600  83.764  10.169  0.00  0.00    -0.116 N 
+ATOM     15  O7  PNW d2001     -22.783  84.337   9.103  0.00  0.00    -0.532 OA
+ATOM     16  O8  PNW d2001     -21.468  83.486  10.528  0.00  0.00    -0.532 OA
+ENDBRANCH  11  14
+ENDBRANCH   7   8
+ENDBRANCH   1   7
+BRANCH   2  17
+ATOM     17  O2  PNW d2001     -28.650  83.537  15.554  0.00  0.00    -0.388 OA
+ATOM     18  H   PNW d2001     -28.051  83.830  16.259  0.00  0.00     0.210 HD
+ENDBRANCH   2  17
+BRANCH   5  19
+ATOM     19  C6  PNW d2001     -25.724  78.794  15.573  0.00  0.00     0.198 C 
+BRANCH  19  20
+ATOM     20  O6  PNW d2001     -26.364  77.880  14.675  0.00  0.00    -0.398 OA
+ATOM     21  H   PNW d2001     -26.423  78.281  13.793  0.00  0.00     0.209 HD
+ENDBRANCH  19  20
+ENDBRANCH   5  19
+BRANCH   3  22
+ATOM     22  O3  PNW d2001     -29.989  81.203  16.577  0.00  0.00    -0.390 OA
+ATOM     23  H   PNW d2001     -30.384  80.851  15.764  0.00  0.00     0.210 HD
+ENDBRANCH   3  22
+BRANCH   4  24
+ATOM     24  O4  PNW d2001     -28.112  79.130  17.303  0.00  0.00    -0.390 OA
+ATOM     25  H   PNW d2001     -27.664  79.572  18.041  0.00  0.00     0.210 HD
+ENDBRANCH   4  24
+TORSDOF 8

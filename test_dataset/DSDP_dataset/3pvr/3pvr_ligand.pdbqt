@@ -1,0 +1,157 @@
+REMARK  28 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O2A_8  and  P1A_3 
+REMARK    2  A    between atoms: P1A_3  and  O3A_15 
+REMARK    3  A    between atoms: P1A_3  and  O5D_31 
+REMARK    4  A    between atoms: S1P_6  and  C1B_4 
+REMARK    5  A    between atoms: C1B_4  and  C2B_10 
+REMARK    6  A    between atoms: C1D_5  and  N9A_47 
+REMARK    7  A    between atoms: C2P_13  and  S1P_6 
+REMARK    8  A    between atoms: P2A_9  and  O6A_37 
+REMARK    9  A    between atoms: P2A_9  and  O4A_22 
+REMARK   10  A    between atoms: P2A_9  and  O3A_15 
+REMARK   11  A    between atoms: C2D_11  and  O2D_12 
+REMARK   12  A    between atoms: C3P_20  and  C2P_13 
+REMARK   13  A    between atoms: C3D_17  and  O3D_18 
+REMARK   14  A    between atoms: P3D_19  and  O3D_18 
+REMARK   15  A    between atoms: P3D_19  and  O9A_48 
+REMARK   16  A    between atoms: P3D_19  and  O7A_41 
+REMARK   17  A    between atoms: N4P_26  and  C3P_20 
+REMARK   18  A    between atoms: C5D_30  and  C4D_24 
+REMARK       I    between atoms: C5P_33  and  N4P_26 
+REMARK   19  A    between atoms: O5D_31  and  C5D_30 
+REMARK   20  A    between atoms: C6P_39  and  C5P_33 
+REMARK   21  A    between atoms: N6A_36  and  C6A_35 
+REMARK   22  A    between atoms: O6A_37  and  CCP_54 
+REMARK   23  A    between atoms: C7P_43  and  C6P_39 
+REMARK   24  A    between atoms: N8P_46  and  C7P_43 
+REMARK       I    between atoms: C9P_49  and  N8P_46 
+REMARK   25  A    between atoms: CAP_51  and  C9P_49 
+REMARK   26  A    between atoms: CAP_51  and  CBP_53 
+REMARK   27  A    between atoms: CAP_51  and  OAP_52 
+REMARK   28  A    between atoms: CCP_54  and  CBP_53 
+ROOT
+ATOM      1  P2A BYC d 310     -35.564  54.021 -37.449  0.00  0.00     0.401 P 
+ATOM      2  O5A BYC d 310     -35.634  54.250 -38.919  0.00  0.00    -0.631 OA
+ENDROOT
+BRANCH   1   3
+ATOM      3  O6A BYC d 310     -36.527  52.776 -37.069  0.00  0.00    -0.296 OA
+BRANCH   3   4
+ATOM      4  CCP BYC d 310     -36.639  52.291 -35.697  0.00  0.00     0.192 C 
+BRANCH   4   5
+ATOM      5  CBP BYC d 310     -36.172  50.835 -35.525  0.00  0.00     0.009 C 
+ATOM      6  CEP BYC d 310     -37.054  49.905 -36.380  0.00  0.00     0.020 C 
+ATOM      7  CDP BYC d 310     -36.367  50.448 -34.055  0.00  0.00     0.020 C 
+BRANCH   5   8
+ATOM      8  CAP BYC d 310     -34.685  50.747 -35.940  0.00  0.00     0.219 C 
+BRANCH   8   9
+ATOM      9  C9P BYC d 310     -34.067  49.362 -35.750  0.00  0.00     0.247 C 
+ATOM     10  O9P BYC d 310     -34.364  48.428 -36.489  0.00  0.00    -0.271 OA
+ATOM     11  N8P BYC d 310     -33.157  49.284 -34.781  0.00  0.00    -0.358 N 
+ATOM     12  H   BYC d 310     -32.966  50.080 -34.234  0.00  0.00     0.162 HD
+BRANCH  11  13
+ATOM     13  C7P BYC d 310     -32.434  48.040 -34.512  0.00  0.00     0.132 C 
+BRANCH  13  14
+ATOM     14  C6P BYC d 310     -33.321  47.110 -33.690  0.00  0.00     0.122 C 
+BRANCH  14  15
+ATOM     15  C5P BYC d 310     -33.257  47.373 -32.187  0.00  0.00     0.219 C 
+ATOM     16  O5P BYC d 310     -32.772  48.401 -31.691  0.00  0.00    -0.274 OA
+ATOM     17  N4P BYC d 310     -33.828  46.415 -31.494  0.00  0.00    -0.360 N 
+ATOM     18  H   BYC d 310     -34.215  45.643 -31.966  0.00  0.00     0.162 HD
+BRANCH  17  19
+ATOM     19  C3P BYC d 310     -33.899  46.473 -30.043  0.00  0.00     0.133 C 
+BRANCH  19  20
+ATOM     20  C2P BYC d 310     -33.158  45.262 -29.611  0.00  0.00     0.102 C 
+BRANCH  20  21
+ATOM     21  S1P BYC d 310     -34.321  44.092 -28.868  0.00  0.00    -0.086 SA
+BRANCH  21  22
+ATOM     22  C1B BYC d 310     -33.249  43.568 -27.660  0.00  0.00     0.219 C 
+ATOM     23  O57 BYC d 310     -32.155  44.124 -27.620  0.00  0.00    -0.280 OA
+BRANCH  22  24
+ATOM     24  C2B BYC d 310     -33.706  42.530 -26.631  0.00  0.00     0.021 A 
+ATOM     25  C3B BYC d 310     -34.871  41.792 -26.864  0.00  0.00     0.016 A 
+ATOM     26  C4B BYC d 310     -35.308  40.861 -25.928  0.00  0.00     0.001 A 
+ATOM     27  C5B BYC d 310     -34.579  40.681 -24.757  0.00  0.00     0.000 A 
+ATOM     28  C6B BYC d 310     -33.421  41.420 -24.519  0.00  0.00     0.001 A 
+ATOM     29  C7B BYC d 310     -32.980  42.345 -25.454  0.00  0.00     0.016 A 
+ENDBRANCH  22  24
+ENDBRANCH  21  22
+ENDBRANCH  20  21
+ENDBRANCH  19  20
+ENDBRANCH  17  19
+ENDBRANCH  14  15
+ENDBRANCH  13  14
+ENDBRANCH  11  13
+ENDBRANCH   8   9
+BRANCH   8  30
+ATOM     30  OAP BYC d 310     -33.877  51.677 -35.195  0.00  0.00    -0.385 OA
+ATOM     31  H   BYC d 310     -33.894  51.439 -34.255  0.00  0.00     0.210 HD
+ENDBRANCH   8  30
+ENDBRANCH   5   8
+ENDBRANCH   4   5
+ENDBRANCH   3   4
+ENDBRANCH   1   3
+BRANCH   1  32
+ATOM     32  O4A BYC d 310     -34.226  53.853 -36.838  0.00  0.00    -0.307 OA
+ATOM     33  H   BYC d 310     -33.776  53.097 -37.247  0.00  0.00     0.222 HD
+ENDBRANCH   1  32
+BRANCH   1  34
+ATOM     34  O3A BYC d 310     -36.255  55.283 -36.733  0.00  0.00    -0.195 OA
+BRANCH  34  35
+ATOM     35  P1A BYC d 310     -37.672  55.903 -37.144  0.00  0.00     0.401 P 
+ATOM     36  O1A BYC d 310     -37.412  57.120 -37.944  0.00  0.00    -0.631 OA
+BRANCH  35  37
+ATOM     37  O2A BYC d 310     -38.575  54.837 -37.663  0.00  0.00    -0.307 OA
+ATOM     38  H   BYC d 310     -38.255  54.535 -38.528  0.00  0.00     0.222 HD
+ENDBRANCH  35  37
+BRANCH  35  39
+ATOM     39  O5D BYC d 310     -38.247  56.387 -35.679  0.00  0.00    -0.294 OA
+BRANCH  39  40
+ATOM     40  C5D BYC d 310     -38.143  57.758 -35.194  0.00  0.00     0.215 C 
+BRANCH  40  41
+ATOM     41  C4D BYC d 310     -37.337  57.831 -33.876  0.00  0.00     0.180 C 
+ATOM     42  C3D BYC d 310     -35.879  57.388 -34.044  0.00  0.00     0.197 C 
+ATOM     43  C2D BYC d 310     -35.922  55.893 -33.663  0.00  0.00     0.199 C 
+ATOM     44  C1D BYC d 310     -36.883  55.934 -32.500  0.00  0.00     0.262 C 
+ATOM     45  O4D BYC d 310     -37.893  56.907 -32.889  0.00  0.00    -0.353 OA
+BRANCH  42  46
+ATOM     46  O3D BYC d 310     -35.211  58.171 -33.087  0.00  0.00    -0.286 OA
+BRANCH  46  47
+ATOM     47  P3D BYC d 310     -33.655  58.529 -33.246  0.00  0.00     0.391 P 
+ATOM     48  O8A BYC d 310     -33.543  59.282 -34.646  0.00  0.00    -0.632 OA
+BRANCH  47  49
+ATOM     49  O9A BYC d 310     -32.863  57.256 -33.128  0.00  0.00    -0.307 OA
+ATOM     50  H   BYC d 310     -33.103  56.658 -33.853  0.00  0.00     0.222 HD
+ENDBRANCH  47  49
+BRANCH  47  51
+ATOM     51  O7A BYC d 310     -33.378  59.636 -32.117  0.00  0.00    -0.307 OA
+ATOM     52  H   BYC d 310     -32.447  59.906 -32.150  0.00  0.00     0.222 HD
+ENDBRANCH  47  51
+ENDBRANCH  46  47
+ENDBRANCH  42  46
+BRANCH  43  53
+ATOM     53  O2D BYC d 310     -34.663  55.344 -33.233  0.00  0.00    -0.388 OA
+ATOM     54  H   BYC d 310     -34.334  55.847 -32.472  0.00  0.00     0.210 HD
+ENDBRANCH  43  53
+BRANCH  44  55
+ATOM     55  N9A BYC d 310     -37.646  54.663 -32.265  0.00  0.00    -0.294 N 
+ATOM     56  C8A BYC d 310     -38.457  54.048 -33.138  0.00  0.00     0.214 A 
+ATOM     57  N7A BYC d 310     -38.993  52.959 -32.566  0.00  0.00    -0.236 NA
+ATOM     58  C5M BYC d 310     -38.516  52.882 -31.312  0.00  0.00     0.149 A 
+ATOM     59  C4A BYC d 310     -37.662  53.970 -31.122  0.00  0.00     0.167 A 
+ATOM     60  C6A BYC d 310     -38.692  51.990 -30.255  0.00  0.00     0.155 A 
+ATOM     61  N3A BYC d 310     -37.044  54.137 -29.927  0.00  0.00    -0.222 NA
+ATOM     62  C2A BYC d 310     -37.234  53.264 -28.942  0.00  0.00     0.237 A 
+ATOM     63  N1A BYC d 310     -38.037  52.210 -29.101  0.00  0.00    -0.222 NA
+BRANCH  60  64
+ATOM     64  N6A BYC d 310     -39.495  50.936 -30.373  0.00  0.00    -0.382 N 
+ATOM     65  H   BYC d 310     -39.975  50.775 -31.218  0.00  0.00     0.157 HD
+ATOM     66  H   BYC d 310     -39.610  50.317 -29.616  0.00  0.00     0.157 HD
+ENDBRANCH  60  64
+ENDBRANCH  44  55
+ENDBRANCH  40  41
+ENDBRANCH  39  40
+ENDBRANCH  35  39
+ENDBRANCH  34  35
+ENDBRANCH   1  34
+TORSDOF 28

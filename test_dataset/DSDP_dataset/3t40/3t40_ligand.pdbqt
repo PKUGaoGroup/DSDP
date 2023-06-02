@@ -1,0 +1,40 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  OXT_14 
+REMARK    2  A    between atoms: C_1  and  CA_4 
+REMARK    3  A    between atoms: CA_4  and  N_2 
+REMARK    4  A    between atoms: N_2  and  CAM_12 
+REMARK    5  A    between atoms: CAL_11  and  OAB_5 
+REMARK    6  A    between atoms: CAL_11  and  CAN_13 
+ROOT
+ATOM      1  CAE 3RG d 273      12.727   2.831  13.989  0.00  0.00     0.002 A 
+ATOM      2  CAF 3RG d 273      12.117   1.425  14.259  0.00  0.00     0.001 A 
+ATOM      3  CAG 3RG d 273      13.504   3.108  12.679  0.00  0.00     0.030 A 
+ATOM      4  CAH 3RG d 273      12.283   0.297  13.209  0.00  0.00     0.020 A 
+ATOM      5  CAM 3RG d 273      13.670   1.976  11.631  0.00  0.00     0.045 A 
+ATOM      6  CAN 3RG d 273      13.057   0.580  11.908  0.00  0.00     0.064 A 
+ENDROOT
+BRANCH   5   7
+ATOM      7  N   3RG d 273      14.391   2.172  10.368  0.00  0.00    -0.379 N 
+ATOM      8  H   3RG d 273      14.099   1.667   9.575  0.00  0.00     0.160 HD
+BRANCH   7   9
+ATOM      9  CA  3RG d 273      15.522   3.083  10.239  0.00  0.00     0.229 C 
+BRANCH   9  10
+ATOM     10  C   3RG d 273      15.003   4.370   9.593  0.00  0.00     0.158 C 
+ATOM     11  O   3RG d 273      13.839   4.464   9.360  0.00  0.00    -0.649 OA
+BRANCH  10  12
+ATOM     12  OXT 3RG d 273      15.819   5.511   9.600  0.00  0.00    -0.775 OA
+ATOM     13  H   3RG d 273      16.734   5.431   9.784  0.00  0.00     0.167 HD
+ENDBRANCH  10  12
+ENDBRANCH   9  10
+ENDBRANCH   7   9
+ENDBRANCH   5   7
+BRANCH   6  14
+ATOM     14  CAL 3RG d 273      13.232  -0.525  10.859  0.00  0.00     0.178 C 
+ATOM     15  OAD 3RG d 273      13.321  -0.245   9.707  0.00  0.00    -0.646 OA
+BRANCH  14  16
+ATOM     16  OAB 3RG d 273      12.951  -1.839  11.240  0.00  0.00    -0.773 OA
+ATOM     17  H   3RG d 273      12.881  -2.059  12.148  0.00  0.00     0.167 HD
+ENDBRANCH  14  16
+ENDBRANCH   6  14
+TORSDOF 6

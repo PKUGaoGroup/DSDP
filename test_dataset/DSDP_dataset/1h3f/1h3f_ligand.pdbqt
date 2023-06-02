@@ -1,0 +1,35 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  CA_4 
+REMARK    2  A    between atoms: N_2  and  CA_4 
+REMARK    3  A    between atoms: CA_4  and  CB_5 
+REMARK    4  A    between atoms: CG_6  and  CB_5 
+REMARK    5  A    between atoms: OH_7  and  CZ_8 
+ROOT
+ATOM      1  CG  TYR d   1       4.822  49.950  15.157  0.00  0.00    -0.056 A 
+ATOM      2  CZ  TYR d   1       6.843  48.667  13.692  0.00  0.00     0.065 A 
+ATOM      3  CD1 TYR d   1       5.832  50.686  14.529  0.00  0.00     0.010 A 
+ATOM      4  CD2 TYR d   1       4.849  48.555  15.039  0.00  0.00     0.010 A 
+ATOM      5  CE1 TYR d   1       6.839  50.054  13.801  0.00  0.00     0.037 A 
+ATOM      6  CE2 TYR d   1       5.854  47.911  14.310  0.00  0.00     0.037 A 
+ENDROOT
+BRANCH   1   7
+ATOM      7  CB  TYR d   1       3.712  50.643  15.915  0.00  0.00     0.081 C 
+BRANCH   7   8
+ATOM      8  CA  TYR d   1       2.732  51.422  15.028  0.00  0.00     0.282 C 
+BRANCH   8   9
+ATOM      9  N   TYR d   1       2.149  50.517  14.002  0.00  0.00     0.089 N 
+ATOM     10  H1  TYR d   1       1.499  51.041  13.416  0.00  0.00     0.313 HD
+ATOM     11  H2  TYR d   1       1.652  49.755  14.464  0.00  0.00     0.313 HD
+ENDBRANCH   8   9
+BRANCH   8  12
+ATOM     12  C   TYR d   1       3.446  52.612  14.381  0.00  0.00     0.266 C 
+ATOM     13  O   TYR d   1       3.753  53.566  15.142  0.00  0.00    -0.305 OA
+ENDBRANCH   8  12
+ENDBRANCH   7   8
+ENDBRANCH   1   7
+BRANCH   2  14
+ATOM     14  OH  TYR d   1       7.819  48.042  12.954  0.00  0.00    -0.361 OA
+ATOM     15  HH  TYR d   1       8.487  48.549  12.536  0.00  0.00     0.217 HD
+ENDBRANCH   2  14
+TORSDOF 5

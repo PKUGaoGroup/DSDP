@@ -1,0 +1,142 @@
+REMARK  24 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C6_6  and  N6_7 
+REMARK    2  A    between atoms: N9_10  and  C1'_11 
+REMARK    3  A    between atoms: C2'_12  and  O2'_13 
+REMARK    4  A    between atoms: C3'_14  and  O3'_15 
+REMARK    5  A    between atoms: O3'_15  and  P3_21 
+REMARK    6  A    between atoms: C4'_16  and  C5'_18 
+REMARK    7  A    between atoms: C5'_18  and  O5'_19 
+REMARK    8  A    between atoms: O5'_19  and  P1_24 
+REMARK    9  A    between atoms: P1_24  and  O6_27 
+REMARK   10  A    between atoms: O6_27  and  P2_28 
+REMARK   11  A    between atoms: P2_28  and  O7_31 
+REMARK   12  A    between atoms: O7_31  and  CPB_32 
+REMARK   13  A    between atoms: CPB_32  and  CPA_33 
+REMARK   14  A    between atoms: CPA_33  and  CP7_36 
+REMARK   15  A    between atoms: CP7_36  and  OP3_37 
+REMARK   16  A    between atoms: CP7_36  and  CP6_38 
+REMARK       I    between atoms: CP6_38  and  NP2_40 
+REMARK   17  A    between atoms: NP2_40  and  CP5_41 
+REMARK   18  A    between atoms: CP5_41  and  CP4_42 
+REMARK   19  A    between atoms: CP4_42  and  CP3_43 
+REMARK       I    between atoms: CP3_43  and  NP1_45 
+REMARK   20  A    between atoms: NP1_45  and  CP2_46 
+REMARK   21  A    between atoms: CP2_46  and  CP1_47 
+REMARK   22  A    between atoms: CP1_47  and  N_48 
+REMARK       I    between atoms: N_48  and  CS1_49 
+REMARK   23  A    between atoms: CS1_49  and  CS2_51 
+REMARK   24  A    between atoms: CS2_51  and  NS4_53 
+ROOT
+ATOM      1  P2  KGJ d   1      18.344  22.828  22.086  0.00  0.00     0.417 P 
+ATOM      2  O21 KGJ d   1      16.947  22.475  21.696  0.00  0.00    -0.624 OA
+ATOM      3  O22 KGJ d   1      18.422  23.471  23.434  0.00  0.00    -0.624 OA
+ENDROOT
+BRANCH   1   4
+ATOM      4  O6  KGJ d   1      18.904  24.051  21.181  0.00  0.00    -0.180 OA
+BRANCH   4   5
+ATOM      5  P1  KGJ d   1      19.112  24.191  19.567  0.00  0.00     0.417 P 
+ATOM      6  O11 KGJ d   1      18.833  22.789  19.050  0.00  0.00    -0.624 OA
+ATOM      7  O12 KGJ d   1      18.232  25.308  19.048  0.00  0.00    -0.624 OA
+BRANCH   5   8
+ATOM      8  O5' KGJ d   1      20.517  24.818  19.157  0.00  0.00    -0.287 OA
+BRANCH   8   9
+ATOM      9  C5' KGJ d   1      20.975  26.170  19.230  0.00  0.00     0.216 C 
+BRANCH   9  10
+ATOM     10  C4' KGJ d   1      21.639  26.460  17.887  0.00  0.00     0.180 C 
+ATOM     11  C3' KGJ d   1      20.836  25.790  16.755  0.00  0.00     0.199 C 
+ATOM     12  C2' KGJ d   1      21.492  24.437  16.534  0.00  0.00     0.199 C 
+ATOM     13  C1' KGJ d   1      22.925  24.863  16.836  0.00  0.00     0.262 C 
+ATOM     14  O4' KGJ d   1      22.997  25.920  17.863  0.00  0.00    -0.353 OA
+BRANCH  11  15
+ATOM     15  O3' KGJ d   1      20.916  26.522  15.539  0.00  0.00    -0.272 OA
+BRANCH  15  16
+ATOM     16  P3  KGJ d   1      19.704  27.523  15.058  0.00  0.00     0.422 P 
+ATOM     17  O31 KGJ d   1      20.292  27.982  13.743  0.00  0.00    -0.617 OA
+ATOM     18  O32 KGJ d   1      19.722  28.658  16.077  0.00  0.00    -0.617 OA
+ATOM     19  O33 KGJ d   1      18.460  26.639  15.063  0.00  0.00    -0.617 OA
+ENDBRANCH  15  16
+ENDBRANCH  11  15
+BRANCH  12  20
+ATOM     20  O2' KGJ d   1      21.283  23.786  15.241  0.00  0.00    -0.388 OA
+ATOM     21  H7  KGJ d   1      21.538  24.379  14.544  0.00  0.00     0.210 HD
+ENDBRANCH  12  20
+BRANCH  13  22
+ATOM     22  N9  KGJ d   1      23.741  23.676  17.256  0.00  0.00    -0.294 N 
+ATOM     23  C4  KGJ d   1      24.785  23.314  16.550  0.00  0.00     0.167 A 
+ATOM     24  N3  KGJ d   1      25.344  23.787  15.410  0.00  0.00    -0.222 NA
+ATOM     25  C5  KGJ d   1      25.325  22.163  17.294  0.00  0.00     0.149 A 
+ATOM     26  C2  KGJ d   1      26.452  23.191  14.969  0.00  0.00     0.237 A 
+ATOM     27  N1  KGJ d   1      26.989  22.089  15.596  0.00  0.00    -0.222 NA
+ATOM     28  C6  KGJ d   1      26.501  21.569  16.742  0.00  0.00     0.155 A 
+ATOM     29  N7  KGJ d   1      24.525  21.911  18.369  0.00  0.00    -0.236 NA
+ATOM     30  C8  KGJ d   1      23.562  22.852  18.347  0.00  0.00     0.214 A 
+BRANCH  28  31
+ATOM     31  N6  KGJ d   1      27.056  20.544  17.397  0.00  0.00    -0.382 N 
+ATOM     32  H2  KGJ d   1      26.629  20.198  18.268  0.00  0.00     0.157 HD
+ATOM     33  H3  KGJ d   1      27.910  20.101  17.031  0.00  0.00     0.157 HD
+ENDBRANCH  28  31
+ENDBRANCH  13  22
+ENDBRANCH   9  10
+ENDBRANCH   8   9
+ENDBRANCH   5   8
+ENDBRANCH   4   5
+ENDBRANCH   1   4
+BRANCH   1  34
+ATOM     34  O7  KGJ d   1      19.162  21.430  22.154  0.00  0.00    -0.289 OA
+BRANCH  34  35
+ATOM     35  CPB KGJ d   1      20.511  21.455  22.512  0.00  0.00     0.193 C 
+BRANCH  35  36
+ATOM     36  CPA KGJ d   1      21.114  20.193  21.973  0.00  0.00     0.009 C 
+ATOM     37  CP9 KGJ d   1      20.547  19.011  22.750  0.00  0.00     0.020 C 
+ATOM     38  CP8 KGJ d   1      22.607  20.309  22.257  0.00  0.00     0.020 C 
+BRANCH  36  39
+ATOM     39  CP7 KGJ d   1      20.847  20.061  20.456  0.00  0.00     0.219 C 
+BRANCH  39  40
+ATOM     40  OP3 KGJ d   1      21.221  21.250  19.787  0.00  0.00    -0.385 OA
+ATOM     41  H21 KGJ d   1      20.715  21.977  20.130  0.00  0.00     0.210 HD
+ENDBRANCH  39  40
+BRANCH  39  42
+ATOM     42  CP6 KGJ d   1      21.658  18.968  19.866  0.00  0.00     0.247 C 
+ATOM     43  OP2 KGJ d   1      21.456  17.781  20.166  0.00  0.00    -0.271 OA
+ATOM     44  NP2 KGJ d   1      22.675  19.364  19.112  0.00  0.00    -0.358 N 
+ATOM     45  H22 KGJ d   1      22.814  20.337  18.931  0.00  0.00     0.162 HD
+BRANCH  44  46
+ATOM     46  CP5 KGJ d   1      23.581  18.388  18.553  0.00  0.00     0.132 C 
+BRANCH  46  47
+ATOM     47  CP4 KGJ d   1      24.441  17.772  19.625  0.00  0.00     0.122 C 
+BRANCH  47  48
+ATOM     48  CP3 KGJ d   1      25.412  16.812  18.979  0.00  0.00     0.219 C 
+ATOM     49  OP1 KGJ d   1      24.981  15.789  18.511  0.00  0.00    -0.274 OA
+ATOM     50  NP1 KGJ d   1      26.696  17.130  18.928  0.00  0.00    -0.359 N 
+ATOM     51  H27 KGJ d   1      26.972  18.030  19.265  0.00  0.00     0.162 HD
+BRANCH  50  52
+ATOM     52  CP2 KGJ d   1      27.708  16.265  18.421  0.00  0.00     0.142 C 
+BRANCH  52  53
+ATOM     53  CP1 KGJ d   1      28.435  16.813  17.253  0.00  0.00     0.142 C 
+BRANCH  53  54
+ATOM     54  N   KGJ d   1      29.300  15.714  16.812  0.00  0.00    -0.358 N 
+ATOM     55  CS1 KGJ d   1      30.708  15.634  17.230  0.00  0.00     0.246 C 
+ATOM     56  OS1 KGJ d   1      31.212  16.420  18.009  0.00  0.00    -0.271 OA
+ATOM     57  H32 KGJ d   1      28.925  15.005  16.215  0.00  0.00     0.162 HD
+BRANCH  55  58
+ATOM     58  CS2 KGJ d   1      31.541  14.589  16.587  0.00  0.00     0.243 C 
+ATOM     59  CS3 KGJ d   1      33.043  14.716  16.731  0.00  0.00     0.049 C 
+BRANCH  58  60
+ATOM     60  NS4 KGJ d   1      31.027  13.681  15.846  0.00  0.00    -0.142 N 
+ATOM     61  OS4 KGJ d   1      29.850  13.710  15.538  0.00  0.00    -0.536 OA
+ATOM     62  OS5 KGJ d   1      31.740  12.849  15.337  0.00  0.00    -0.536 OA
+ENDBRANCH  58  60
+ENDBRANCH  55  58
+ENDBRANCH  53  54
+ENDBRANCH  52  53
+ENDBRANCH  50  52
+ENDBRANCH  47  48
+ENDBRANCH  46  47
+ENDBRANCH  44  46
+ENDBRANCH  39  42
+ENDBRANCH  36  39
+ENDBRANCH  35  36
+ENDBRANCH  34  35
+ENDBRANCH   1  34
+TORSDOF 24

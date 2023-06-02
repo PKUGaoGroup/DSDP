@@ -1,0 +1,42 @@
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C7_1  and  C5_4 
+REMARK       I    between atoms: N19_11  and  C7_1 
+REMARK    2  A    between atoms: C14_12  and  N19_11 
+REMARK    3  A    between atoms: C15_15  and  C12_14 
+ROOT
+ATOM      1  C14 QJJ d   1      24.480  55.879  86.587  0.00  0.00     0.091 A 
+ATOM      2  C8  QJJ d   1      23.740  55.607  85.326  0.00  0.00     0.035 A 
+ATOM      3  C12 QJJ d   1      23.270  55.030  86.632  0.00  0.00     0.041 A 
+ENDROOT
+BRANCH   3   4
+ATOM      4  C15 QJJ d   1      21.975  55.354  87.391  0.00  0.00     0.065 C 
+ATOM      5  N17 QJJ d   1      22.138  54.621  88.671  0.00  0.00    -0.359 N 
+ATOM      6  C6  QJJ d   1      22.484  55.019  89.863  0.00  0.00     0.134 C 
+ATOM      7  H9  QJJ d   1      21.942  53.612  88.605  0.00  0.00     0.162 HD
+ATOM      8  S23 QJJ d   1      22.556  56.711  90.283  0.00  0.00    -0.094 SA
+ATOM      9  N18 QJJ d   1      22.798  54.141  90.803  0.00  0.00    -0.380 N 
+ATOM     10  C11 QJJ d   1      21.566  57.480  88.961  0.00  0.00     0.091 C 
+ATOM     11  C13 QJJ d   1      21.464  56.800  87.618  0.00  0.00     0.050 C 
+ATOM     12  C9  QJJ d   1      20.006  56.725  87.191  0.00  0.00     0.175 C 
+ATOM     13  O21 QJJ d   1      19.614  55.360  87.243  0.00  0.00    -0.388 OA
+ATOM     14  C10 QJJ d   1      20.756  54.746  86.695  0.00  0.00     0.199 C 
+ATOM     15  H17 QJJ d   1      23.070  54.467  91.742  0.00  0.00     0.158 HD
+ATOM     16  H18 QJJ d   1      22.770  53.133  90.596  0.00  0.00     0.158 HD
+ENDBRANCH   3   4
+BRANCH   1  17
+ATOM     17  N19 QJJ d   1      25.788  55.470  87.027  0.00  0.00    -0.351 N 
+ATOM     18  C7  QJJ d   1      27.010  55.747  86.396  0.00  0.00     0.270 C 
+ATOM     19  O20 QJJ d   1      27.136  56.333  85.346  0.00  0.00    -0.266 OA
+ATOM     20  H4  QJJ d   1      25.830  54.933  87.870  0.00  0.00     0.163 HD
+BRANCH  18  21
+ATOM     21  C5  QJJ d   1      28.231  55.314  87.135  0.00  0.00     0.124 A 
+ATOM     22  C2  QJJ d   1      29.399  56.075  87.061  0.00  0.00     0.040 A 
+ATOM     23  C1  QJJ d   1      30.488  55.648  87.820  0.00  0.00     0.046 A 
+ATOM     24  C4  QJJ d   1      30.363  54.525  88.637  0.00  0.00     0.133 A 
+ATOM     25  C3  QJJ d   1      29.164  53.860  88.664  0.00  0.00     0.159 A 
+ATOM     26  F22 QJJ d   1      31.320  54.038  89.406  0.00  0.00    -0.205 F 
+ATOM     27  N16 QJJ d   1      28.112  54.250  87.935  0.00  0.00    -0.252 NA
+ENDBRANCH  18  21
+ENDBRANCH   1  17
+TORSDOF 3

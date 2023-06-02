@@ -1,0 +1,39 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C3_3  and  C11_7 
+REMARK    2  A    between atoms: N15_11  and  C6_6 
+REMARK       I    between atoms: C16_12  and  N15_11 
+REMARK    3  A    between atoms: C17_13  and  C16_12 
+REMARK    4  A    between atoms: C19_15  and  O20_16 
+ROOT
+ATOM      1  C17 A26 d1001      37.034  37.950  35.294  0.00  0.00     0.141 C 
+ATOM      2  C18 A26 d1001      36.533  38.355  34.001  0.00  0.00     0.107 C 
+ATOM      3  C19 A26 d1001      37.125  38.766  36.401  0.00  0.00     0.065 C 
+ATOM      4  C21 A26 d1001      36.725  40.219  36.515  0.00  0.00     0.077 C 
+ATOM      5  N26 A26 d1001      36.160  38.686  32.971  0.00  0.00    -0.191 NA
+ENDROOT
+BRANCH   1   6
+ATOM      6  C16 A26 d1001      37.482  36.498  35.374  0.00  0.00     0.269 C 
+ATOM      7  O25 A26 d1001      37.368  35.831  34.315  0.00  0.00    -0.266 OA
+ATOM      8  N15 A26 d1001      37.961  35.999  36.529  0.00  0.00    -0.322 N 
+ATOM      9  H   A26 d1001      38.131  36.672  37.227  0.00  0.00     0.169 HD
+BRANCH   8  10
+ATOM     10  C6  A26 d1001      38.253  34.706  36.898  0.00  0.00     0.035 A 
+ATOM     11  C5  A26 d1001      38.454  33.612  35.963  0.00  0.00     0.030 A 
+ATOM     12  C4  A26 d1001      38.753  32.357  36.444  0.00  0.00     0.018 A 
+ATOM     13  C3  A26 d1001      38.876  32.084  37.818  0.00  0.00     0.048 A 
+ATOM     14  C2  A26 d1001      38.676  33.159  38.764  0.00  0.00     0.018 A 
+ATOM     15  C1  A26 d1001      38.368  34.453  38.283  0.00  0.00     0.030 A 
+BRANCH  13  16
+ATOM     16  C11 A26 d1001      39.215  30.662  38.247  0.00  0.00     0.417 C 
+ATOM     17  F14 A26 d1001      40.247  30.481  37.945  0.00  0.00    -0.166 F 
+ATOM     18  F12 A26 d1001      38.335  29.907  37.994  0.00  0.00    -0.166 F 
+ATOM     19  F13 A26 d1001      39.416  30.689  39.519  0.00  0.00    -0.166 F 
+ENDBRANCH  13  16
+ENDBRANCH   8  10
+ENDBRANCH   1   6
+BRANCH   3  20
+ATOM     20  O20 A26 d1001      37.621  38.308  37.587  0.00  0.00    -0.364 OA
+ATOM     21  H   A26 d1001      37.910  37.420  37.662  0.00  0.00     0.217 HD
+ENDBRANCH   3  20
+TORSDOF 4

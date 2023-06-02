@@ -1,0 +1,128 @@
+REMARK  21 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O3_23  and  PA_1 
+REMARK    2  A    between atoms: PA_1  and  O5B_4 
+REMARK    3  A    between atoms: PA_1  and  O2A_3 
+REMARK    4  A    between atoms: O5B_4  and  C5B_5 
+REMARK    5  A    between atoms: C5B_5  and  C4B_6 
+REMARK    6  A    between atoms: O3B_9  and  C3B_8 
+REMARK    7  A    between atoms: C2B_10  and  O2B_11 
+REMARK    8  A    between atoms: O2B_11  and  P2B_45 
+REMARK    9  A    between atoms: C1B_12  and  N9A_13 
+REMARK   10  A    between atoms: C6A_17  and  N6A_18 
+REMARK   11  A    between atoms: PN_24  and  O3_23 
+REMARK   12  A    between atoms: PN_24  and  O5D_27 
+REMARK   13  A    between atoms: PN_24  and  O1N_25 
+REMARK   14  A    between atoms: O5D_27  and  C5D_28 
+REMARK   15  A    between atoms: C4D_29  and  C5D_28 
+REMARK   16  A    between atoms: C3D_31  and  O3D_32 
+REMARK   17  A    between atoms: C2D_33  and  O2D_34 
+REMARK   18  A    between atoms: N1N_36  and  C1D_35 
+REMARK   19  A    between atoms: C7N_39  and  C3N_38 
+REMARK       I    between atoms: C7N_39  and  N7N_41 
+REMARK   20  A    between atoms: O2X_47  and  P2B_45 
+REMARK   21  A    between atoms: P2B_45  and  O3X_48 
+ROOT
+ATOM      1  PA  NAP d 350      23.507  28.260  72.234  0.00  0.00     0.401 P 
+ATOM      2  O1A NAP d 350      24.435  29.290  71.690  0.00  0.00    -0.631 OA
+ENDROOT
+BRANCH   1   3
+ATOM      3  O3  NAP d 350      22.862  27.461  70.984  0.00  0.00    -0.195 OA
+BRANCH   3   4
+ATOM      4  PN  NAP d 350      21.483  27.473  70.162  0.00  0.00     0.401 P 
+ATOM      5  O2N NAP d 350      21.920  27.454  68.720  0.00  0.00    -0.631 OA
+BRANCH   4   6
+ATOM      6  O5D NAP d 350      20.776  28.902  70.329  0.00  0.00    -0.294 OA
+BRANCH   6   7
+ATOM      7  C5D NAP d 350      19.913  29.173  71.466  0.00  0.00     0.215 C 
+BRANCH   7   8
+ATOM      8  C4D NAP d 350      18.419  29.079  71.113  0.00  0.00     0.180 C 
+ATOM      9  O4D NAP d 350      18.164  30.015  70.084  0.00  0.00    -0.354 OA
+ATOM     10  C1D NAP d 350      17.070  29.561  69.283  0.00  0.00     0.255 C 
+ATOM     11  C2D NAP d 350      16.711  28.128  69.805  0.00  0.00     0.198 C 
+ATOM     12  C3D NAP d 350      18.035  27.772  70.423  0.00  0.00     0.182 C 
+BRANCH  10  13
+ATOM     13  N1N NAP d 350      17.493  29.484  67.878  0.00  0.00    -0.357 N 
+ATOM     14  C2N NAP d 350      16.645  30.085  66.960  0.00  0.00     0.169 A 
+ATOM     15  C3N NAP d 350      17.008  29.989  65.592  0.00  0.00     0.027 A 
+ATOM     16  C4N NAP d 350      18.170  29.331  65.244  0.00  0.00     0.015 A 
+ATOM     17  C5N NAP d 350      18.956  28.743  66.144  0.00  0.00     0.018 A 
+ATOM     18  C6N NAP d 350      18.628  28.826  67.461  0.00  0.00     0.088 A 
+BRANCH  15  19
+ATOM     19  C7N NAP d 350      16.187  30.596  64.553  0.00  0.00     0.247 C 
+ATOM     20  O7N NAP d 350      16.441  30.458  63.353  0.00  0.00    -0.268 OA
+ATOM     21  N7N NAP d 350      15.139  31.368  64.875  0.00  0.00    -0.366 N 
+ATOM     22  H   NAP d 350      14.590  31.774  64.166  0.00  0.00     0.159 HD
+ATOM     23  H   NAP d 350      14.918  31.529  65.821  0.00  0.00     0.159 HD
+ENDBRANCH  15  19
+ENDBRANCH  10  13
+BRANCH  11  24
+ATOM     24  O2D NAP d 350      15.727  28.193  70.802  0.00  0.00    -0.388 OA
+ATOM     25  H   NAP d 350      16.017  28.796  71.504  0.00  0.00     0.210 HD
+ENDBRANCH  11  24
+BRANCH  12  26
+ATOM     26  O3D NAP d 350      17.890  26.653  71.310  0.00  0.00    -0.390 OA
+ATOM     27  H   NAP d 350      17.215  26.854  71.977  0.00  0.00     0.210 HD
+ENDBRANCH  12  26
+ENDBRANCH   7   8
+ENDBRANCH   6   7
+ENDBRANCH   4   6
+BRANCH   4  28
+ATOM     28  O1N NAP d 350      20.703  26.328  70.653  0.00  0.00    -0.307 OA
+ATOM     29  H   NAP d 350      19.854  26.290  70.185  0.00  0.00     0.222 HD
+ENDBRANCH   4  28
+ENDBRANCH   3   4
+ENDBRANCH   1   3
+BRANCH   1  30
+ATOM     30  O5B NAP d 350      24.447  27.076  72.831  0.00  0.00    -0.294 OA
+BRANCH  30  31
+ATOM     31  C5B NAP d 350      23.866  25.866  73.349  0.00  0.00     0.215 C 
+BRANCH  31  32
+ATOM     32  C4B NAP d 350      24.983  24.943  73.748  0.00  0.00     0.180 C 
+ATOM     33  C3B NAP d 350      24.529  23.609  74.261  0.00  0.00     0.183 C 
+ATOM     34  C2B NAP d 350      24.562  23.792  75.760  0.00  0.00     0.214 C 
+ATOM     35  C1B NAP d 350      25.740  24.725  75.930  0.00  0.00     0.263 C 
+ATOM     36  O4B NAP d 350      25.698  25.588  74.797  0.00  0.00    -0.353 OA
+BRANCH  33  37
+ATOM     37  O3B NAP d 350      25.494  22.610  73.896  0.00  0.00    -0.390 OA
+ATOM     38  H   NAP d 350      26.367  22.866  74.232  0.00  0.00     0.210 HD
+ENDBRANCH  33  37
+BRANCH  34  39
+ATOM     39  O2B NAP d 350      24.910  22.568  76.439  0.00  0.00    -0.284 OA
+BRANCH  39  40
+ATOM     40  P2B NAP d 350      23.839  21.705  77.250  0.00  0.00     0.391 P 
+ATOM     41  O1X NAP d 350      22.499  21.835  76.622  0.00  0.00    -0.632 OA
+BRANCH  40  42
+ATOM     42  O2X NAP d 350      24.464  20.382  77.126  0.00  0.00    -0.307 OA
+ATOM     43  H   NAP d 350      24.369  20.064  76.215  0.00  0.00     0.222 HD
+ENDBRANCH  40  42
+BRANCH  40  44
+ATOM     44  O3X NAP d 350      23.939  22.260  78.604  0.00  0.00    -0.307 OA
+ATOM     45  H   NAP d 350      23.512  23.131  78.629  0.00  0.00     0.222 HD
+ENDBRANCH  40  44
+ENDBRANCH  39  40
+ENDBRANCH  34  39
+BRANCH  35  46
+ATOM     46  N9A NAP d 350      25.695  25.581  77.150  0.00  0.00    -0.294 N 
+ATOM     47  C8A NAP d 350      24.625  26.273  77.689  0.00  0.00     0.214 A 
+ATOM     48  N7A NAP d 350      24.941  26.921  78.774  0.00  0.00    -0.236 NA
+ATOM     49  C5A NAP d 350      26.282  26.666  78.957  0.00  0.00     0.149 A 
+ATOM     50  C4A NAP d 350      26.764  25.881  77.973  0.00  0.00     0.167 A 
+ATOM     51  C6A NAP d 350      27.178  27.061  79.949  0.00  0.00     0.155 A 
+ATOM     52  N3A NAP d 350      28.028  25.407  77.867  0.00  0.00    -0.222 NA
+ATOM     53  C2A NAP d 350      28.805  25.830  78.846  0.00  0.00     0.237 A 
+ATOM     54  N1A NAP d 350      28.442  26.615  79.861  0.00  0.00    -0.222 NA
+BRANCH  51  55
+ATOM     55  N6A NAP d 350      26.811  27.829  80.960  0.00  0.00    -0.382 N 
+ATOM     56  H   NAP d 350      25.884  28.154  81.020  0.00  0.00     0.157 HD
+ATOM     57  H   NAP d 350      27.465  28.077  81.653  0.00  0.00     0.157 HD
+ENDBRANCH  51  55
+ENDBRANCH  35  46
+ENDBRANCH  31  32
+ENDBRANCH  30  31
+ENDBRANCH   1  30
+BRANCH   1  58
+ATOM     58  O2A NAP d 350      22.507  28.670  73.193  0.00  0.00    -0.307 OA
+ATOM     59  H   NAP d 350      21.962  29.376  72.811  0.00  0.00     0.222 HD
+ENDBRANCH   1  58
+TORSDOF 21

@@ -1,0 +1,14 @@
+REMARK  0 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+ROOT
+ATOM      1  N1  IND d 505      13.262  52.278  83.026  0.00  0.00    -0.261 NA
+ATOM      2  C2  IND d 505      13.048  53.331  82.165  0.00  0.00     0.118 A 
+ATOM      3  C3  IND d 505      13.349  53.018  80.839  0.00  0.00     0.029 A 
+ATOM      4  C4  IND d 505      14.201  50.826  79.940  0.00  0.00     0.068 A 
+ATOM      5  C5  IND d 505      14.586  49.531  80.283  0.00  0.00    -0.022 A 
+ATOM      6  C6  IND d 505      14.531  49.090  81.606  0.00  0.00    -0.001 A 
+ATOM      7  C7  IND d 505      14.099  49.911  82.650  0.00  0.00     0.032 A 
+ATOM      8  C8  IND d 505      13.715  51.205  82.350  0.00  0.00     0.063 A 
+ATOM      9  C9  IND d 505      13.770  51.660  80.961  0.00  0.00    -0.025 A 
+ENDROOT
+TORSDOF 0

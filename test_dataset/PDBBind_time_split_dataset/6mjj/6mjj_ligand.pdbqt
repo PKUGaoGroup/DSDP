@@ -1,0 +1,238 @@
+REMARK WARNING: 32 MAX_TORS EXCEEDED!!!
+REMARK  52 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C4_1  and  O4_32 
+REMARK    2  A    between atoms: C5_2  and  O3_29 
+REMARK    3  A    between atoms: C6_3  and  O5_28 
+REMARK    4  A    between atoms: C3_30  and  C2_5 
+REMARK    5  A    between atoms: C2_5  and  O6_31 
+REMARK    6  A    between atoms: CBR_8  and  CBS_7 
+REMARK    7  A    between atoms: CBQ_9  and  CBR_8 
+REMARK    8  A    between atoms: CBP_10  and  CBQ_9 
+REMARK    9  A    between atoms: CBO_11  and  CBP_10 
+REMARK   10  A    between atoms: CBN_12  and  CBO_11 
+REMARK   11  A    between atoms: CBM_13  and  CBN_12 
+REMARK   12  A    between atoms: CBL_14  and  CBM_13 
+REMARK   13  A    between atoms: CBK_15  and  CBL_14 
+REMARK   14  A    between atoms: CBJ_16  and  CBK_15 
+REMARK   15  A    between atoms: CBI_17  and  CBJ_16 
+REMARK   16  A    between atoms: CBH_18  and  CBI_17 
+REMARK   17  A    between atoms: CBG_19  and  CBH_18 
+REMARK   18  A    between atoms: CAQ_20  and  CBG_19 
+REMARK   19  A    between atoms: CAQ_20  and  OAR_21 
+REMARK   20  A    between atoms: CAP_22  and  CAQ_20 
+REMARK   21  A    between atoms: CAP_22  and  OAS_23 
+REMARK   22  A    between atoms: CAN_24  and  CAP_22 
+REMARK   23  A    between atoms: CAM_25  and  CAN_24 
+REMARK   24  A    between atoms: CAN_24  and  NAO_42 
+REMARK   25  A    between atoms: O1_26  and  CAM_25 
+REMARK   26  A    between atoms: O1_26  and  C1_27 
+REMARK   27  A    between atoms: O4_32  and  CAT_33 
+REMARK   28  A    between atoms: CAT_33  and  CAU_34 
+REMARK       I    between atoms: NAO_42  and  CBE_43 
+REMARK   29  A    between atoms: CBE_43  and  CBU_45 
+REMARK   30  A    between atoms: CBU_45  and  CBV_46 
+REMARK   31  A    between atoms: CBV_46  and  CBW_47 
+REMARK   32  A    between atoms: CBW_47  and  CBX_48 
+REMARK   33  A    between atoms: CBX_48  and  CBY_49 
+REMARK   34  A    between atoms: CBY_49  and  CBZ_50 
+REMARK   35  A    between atoms: CBZ_50  and  CCA_51 
+REMARK   36  A    between atoms: CCA_51  and  CCB_52 
+REMARK   37  A    between atoms: CCB_52  and  CCC_53 
+REMARK   38  A    between atoms: CCC_53  and  CCD_54 
+REMARK   39  A    between atoms: CCD_54  and  CCE_55 
+REMARK   40  A    between atoms: CCE_55  and  CCF_56 
+REMARK   41  A    between atoms: CCF_56  and  CCG_57 
+REMARK   42  A    between atoms: CCG_57  and  CCH_58 
+REMARK   43  A    between atoms: CCH_58  and  CCI_59 
+REMARK   44  A    between atoms: CCI_59  and  CCJ_60 
+REMARK   45  A    between atoms: CCJ_60  and  CCK_61 
+REMARK   46  A    between atoms: CCK_61  and  CCL_62 
+REMARK   47  A    between atoms: CCL_62  and  CCM_63 
+REMARK   48  A    between atoms: CCM_63  and  CCN_64 
+REMARK   49  A    between atoms: CCN_64  and  CCO_65 
+REMARK   50  A    between atoms: CCO_65  and  CCP_66 
+REMARK   51  A    between atoms: CCP_66  and  CCQ_67 
+REMARK   52  A    between atoms: CCQ_67  and  CCR_68 
+ROOT
+ATOM      1  CAN JU4 d   1      92.558 219.065 321.545  0.00  0.00     0.139 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  CAP JU4 d   1      92.542 219.743 320.177  0.00  0.00     0.171 C 
+BRANCH   2   3
+ATOM      3  CAQ JU4 d   1      91.610 219.043 319.168  0.00  0.00     0.149 C 
+BRANCH   3   4
+ATOM      4  CBG JU4 d   1      90.169 218.955 319.694  0.00  0.00     0.034 C 
+BRANCH   4   5
+ATOM      5  CBH JU4 d   1      89.182 218.558 318.569  0.00  0.00     0.002 C 
+BRANCH   5   6
+ATOM      6  CBI JU4 d   1      89.487 217.150 318.033  0.00  0.00     0.000 C 
+BRANCH   6   7
+ATOM      7  CBJ JU4 d   1      88.273 216.561 317.278  0.00  0.00     0.000 C 
+BRANCH   7   8
+ATOM      8  CBK JU4 d   1      88.084 217.241 315.919  0.00  0.00     0.000 C 
+BRANCH   8   9
+ATOM      9  CBL JU4 d   1      86.967 216.507 315.137  0.00  0.00     0.000 C 
+BRANCH   9  10
+ATOM     10  CBM JU4 d   1      86.943 216.963 313.676  0.00  0.00     0.000 C 
+BRANCH  10  11
+ATOM     11  CBN JU4 d   1      86.125 218.245 313.573  0.00  0.00     0.000 C 
+BRANCH  11  12
+ATOM     12  CBO JU4 d   1      85.993 218.705 312.119  0.00  0.00     0.000 C 
+BRANCH  12  13
+ATOM     13  CBP JU4 d   1      85.401 220.109 312.197  0.00  0.00     0.000 C 
+BRANCH  13  14
+ATOM     14  CBQ JU4 d   1      85.168 220.713 310.823  0.00  0.00     0.000 C 
+BRANCH  14  15
+ATOM     15  CBR JU4 d   1      84.178 221.878 310.967  0.00  0.00    -0.000 C 
+BRANCH  15  16
+ATOM     16  CBS JU4 d   1      84.730 223.127 310.305  0.00  0.00    -0.005 C 
+ATOM     17  CBT JU4 d   1      83.736 224.290 310.446  0.00  0.00     0.005 C 
+ENDBRANCH  15  16
+ENDBRANCH  14  15
+ENDBRANCH  13  14
+ENDBRANCH  12  13
+ENDBRANCH  11  12
+ENDBRANCH  10  11
+ENDBRANCH   9  10
+ENDBRANCH   8   9
+ENDBRANCH   7   8
+ENDBRANCH   6   7
+ENDBRANCH   5   6
+ENDBRANCH   4   5
+ENDBRANCH   3   4
+BRANCH   3  18
+ATOM     18  OAR JU4 d   1      91.654 219.779 317.926  0.00  0.00    -0.393 OA
+ATOM     19  H36 JU4 d   1      91.324 220.658 318.068  0.00  0.00     0.210 HD
+ENDBRANCH   3  18
+ENDBRANCH   2   3
+BRANCH   2  20
+ATOM     20  OAS JU4 d   1      92.126 221.089 320.368  0.00  0.00    -0.391 OA
+ATOM     21  H38 JU4 d   1      92.159 221.550 319.538  0.00  0.00     0.210 HD
+ENDBRANCH   2  20
+ENDBRANCH   1   2
+BRANCH   1  22
+ATOM     22  CAM JU4 d   1      93.584 219.770 322.440  0.00  0.00     0.199 C 
+BRANCH  22  23
+ATOM     23  O1  JU4 d   1      94.871 219.600 321.841  0.00  0.00    -0.356 OA
+BRANCH  23  24
+ATOM     24  C1  JU4 d   1      95.919 220.262 322.545  0.00  0.00     0.291 C 
+ATOM     25  C6  JU4 d   1      97.173 220.160 321.716  0.00  0.00     0.204 C 
+ATOM     26  C5  JU4 d   1      97.547 218.684 321.570  0.00  0.00     0.183 C 
+ATOM     27  C4  JU4 d   1      97.774 218.087 322.957  0.00  0.00     0.184 C 
+ATOM     28  C3  JU4 d   1      96.487 218.263 323.784  0.00  0.00     0.179 C 
+ATOM     29  O2  JU4 d   1      96.123 219.639 323.838  0.00  0.00    -0.348 OA
+BRANCH  25  30
+ATOM     30  O5  JU4 d   1      96.958 220.770 320.418  0.00  0.00    -0.388 OA
+ATOM     31  H43 JU4 d   1      96.250 220.321 319.972  0.00  0.00     0.210 HD
+ENDBRANCH  25  30
+BRANCH  26  32
+ATOM     32  O3  JU4 d   1      98.740 218.573 320.789  0.00  0.00    -0.390 OA
+ATOM     33  H44 JU4 d   1      98.591 218.950 319.930  0.00  0.00     0.210 HD
+ENDBRANCH  26  32
+BRANCH  27  34
+ATOM     34  O4  JU4 d   1      98.894 218.784 323.545  0.00  0.00    -0.376 OA
+BRANCH  34  35
+ATOM     35  CAT JU4 d   1      99.775 218.030 324.408  0.00  0.00     0.207 C 
+BRANCH  35  36
+ATOM     36  CAU JU4 d   1     100.583 217.135 323.699  0.00  0.00    -0.033 A 
+ATOM     37  CAV JU4 d   1     100.280 215.771 323.715  0.00  0.00     0.035 A 
+ATOM     38  CAW JU4 d   1     101.087 214.875 323.025  0.00  0.00     0.056 A 
+ATOM     39 CL1  JU4 d   1     100.709 213.182 323.038  0.00  0.00    -0.083 Cl
+ATOM     40  CAX JU4 d   1     102.199 215.333 322.325  0.00  0.00     0.055 A 
+ATOM     41 CL2  JU4 d   1     103.181 214.184 321.466  0.00  0.00    -0.083 Cl
+ATOM     42  CAY JU4 d   1     102.508 216.692 322.309  0.00  0.00     0.026 A 
+ATOM     43  CAZ JU4 d   1     101.701 217.596 322.998  0.00  0.00     0.011 A 
+ENDBRANCH  35  36
+ENDBRANCH  34  35
+ENDBRANCH  27  34
+BRANCH  28  44
+ATOM     44  C2  JU4 d   1      96.635 217.801 325.248  0.00  0.00     0.198 C 
+BRANCH  44  45
+ATOM     45  O6  JU4 d   1      97.027 216.420 325.290  0.00  0.00    -0.398 OA
+ATOM     46  H46 JU4 d   1      96.365 215.891 324.860  0.00  0.00     0.209 HD
+ENDBRANCH  44  45
+ENDBRANCH  28  44
+ENDBRANCH  23  24
+ENDBRANCH  22  23
+ENDBRANCH   1  22
+BRANCH   1  47
+ATOM     47  NAO JU4 d   1      92.951 217.654 321.434  0.00  0.00    -0.352 N 
+ATOM     48  CBE JU4 d   1      92.587 216.765 322.383  0.00  0.00     0.218 C 
+ATOM     49  OBF JU4 d   1      91.885 217.035 323.361  0.00  0.00    -0.274 OA
+ATOM     50  H52 JU4 d   1      93.492 217.350 320.650  0.00  0.00     0.163 HD
+BRANCH  48  51
+ATOM     51  CBU JU4 d   1      93.126 215.345 322.178  0.00  0.00     0.103 C 
+BRANCH  51  52
+ATOM     52  CBV JU4 d   1      92.031 214.302 322.413  0.00  0.00     0.009 C 
+BRANCH  52  53
+ATOM     53  CBW JU4 d   1      91.098 214.211 321.213  0.00  0.00     0.000 C 
+BRANCH  53  54
+ATOM     54  CBX JU4 d   1      89.966 213.243 321.584  0.00  0.00     0.000 C 
+BRANCH  54  55
+ATOM     55  CBY JU4 d   1      88.964 213.100 320.442  0.00  0.00     0.000 C 
+BRANCH  55  56
+ATOM     56  CBZ JU4 d   1      87.915 212.062 320.884  0.00  0.00     0.000 C 
+BRANCH  56  57
+ATOM     57  CCA JU4 d   1      86.586 212.286 320.183  0.00  0.00     0.000 C 
+BRANCH  57  58
+ATOM     58  CCB JU4 d   1      85.533 211.328 320.778  0.00  0.00     0.000 C 
+BRANCH  58  59
+ATOM     59  CCC JU4 d   1      84.606 212.088 321.723  0.00  0.00     0.000 C 
+BRANCH  59  60
+ATOM     60  CCD JU4 d   1      83.474 211.174 322.191  0.00  0.00     0.000 C 
+BRANCH  60  61
+ATOM     61  CCE JU4 d   1      82.548 211.931 323.143  0.00  0.00     0.000 C 
+BRANCH  61  62
+ATOM     62  CCF JU4 d   1      83.137 211.978 324.552  0.00  0.00     0.000 C 
+BRANCH  62  63
+ATOM     63  CCG JU4 d   1      82.428 210.973 325.445  0.00  0.00     0.000 C 
+BRANCH  63  64
+ATOM     64  CCH JU4 d   1      83.188 210.851 326.764  0.00  0.00     0.000 C 
+BRANCH  64  65
+ATOM     65  CCI JU4 d   1      82.726 209.602 327.512  0.00  0.00     0.000 C 
+BRANCH  65  66
+ATOM     66  CCJ JU4 d   1      83.825 208.539 327.465  0.00  0.00     0.000 C 
+BRANCH  66  67
+ATOM     67  CCK JU4 d   1      83.372 207.270 328.197  0.00  0.00     0.000 C 
+BRANCH  67  68
+ATOM     68  CCL JU4 d   1      84.560 206.338 328.441  0.00  0.00     0.000 C 
+BRANCH  68  69
+ATOM     69  CCM JU4 d   1      85.117 205.751 327.124  0.00  0.00     0.000 C 
+BRANCH  69  70
+ATOM     70  CCN JU4 d   1      86.448 206.410 326.776  0.00  0.00     0.000 C 
+BRANCH  70  71
+ATOM     71  CCO JU4 d   1      87.485 205.423 326.214  0.00  0.00     0.000 C 
+BRANCH  71  72
+ATOM     72  CCP JU4 d   1      87.222 205.011 324.757  0.00  0.00     0.000 C 
+BRANCH  72  73
+ATOM     73  CCQ JU4 d   1      86.857 206.193 323.870  0.00  0.00    -0.000 C 
+BRANCH  73  74
+ATOM     74  CCR JU4 d   1      87.055 205.811 322.407  0.00  0.00    -0.005 C 
+ATOM     75  CCS JU4 d   1      86.606 206.964 321.512  0.00  0.00     0.005 C 
+ENDBRANCH  73  74
+ENDBRANCH  72  73
+ENDBRANCH  71  72
+ENDBRANCH  70  71
+ENDBRANCH  69  70
+ENDBRANCH  68  69
+ENDBRANCH  67  68
+ENDBRANCH  66  67
+ENDBRANCH  65  66
+ENDBRANCH  64  65
+ENDBRANCH  63  64
+ENDBRANCH  62  63
+ENDBRANCH  61  62
+ENDBRANCH  60  61
+ENDBRANCH  59  60
+ENDBRANCH  58  59
+ENDBRANCH  57  58
+ENDBRANCH  56  57
+ENDBRANCH  55  56
+ENDBRANCH  54  55
+ENDBRANCH  53  54
+ENDBRANCH  52  53
+ENDBRANCH  51  52
+ENDBRANCH  48  51
+ENDBRANCH   1  47
+TORSDOF 52

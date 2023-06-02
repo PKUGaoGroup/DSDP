@@ -1,0 +1,36 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAG_7  and  CAE_5 
+REMARK    2  A    between atoms: OAH_11  and  CAG_7 
+REMARK       I    between atoms: NAK_10  and  CAI_8 
+REMARK    3  A    between atoms: CAI_8  and  OAH_11 
+REMARK    4  A    between atoms: OAL_13  and  CAM_9 
+REMARK    5  A    between atoms: NAK_10  and  OAL_13 
+ROOT
+ATOM      1  OAH N9M d   1       6.059 -11.135 -31.094  0.00  0.00    -0.298 OA
+ENDROOT
+BRANCH   1   2
+ATOM      2  CAG N9M d   1       5.201 -11.924 -31.937  0.00  0.00     0.219 C 
+BRANCH   2   3
+ATOM      3  CAE N9M d   1       3.883 -11.703 -31.539  0.00  0.00    -0.034 A 
+ATOM      4  CAD N9M d   1       3.623 -11.272 -30.234  0.00  0.00     0.009 A 
+ATOM      5  CAC N9M d   1       2.318 -11.042 -29.811  0.00  0.00     0.001 A 
+ATOM      6  CAB N9M d   1       1.269 -11.254 -30.702  0.00  0.00     0.000 A 
+ATOM      7  CAA N9M d   1       1.525 -11.678 -32.006  0.00  0.00     0.001 A 
+ATOM      8  CAF N9M d   1       2.835 -11.907 -32.430  0.00  0.00     0.009 A 
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1   9
+ATOM      9  CAI N9M d   1       7.378 -11.441 -31.256  0.00  0.00     0.385 C 
+ATOM     10  NAK N9M d   1       8.267 -10.445 -31.390  0.00  0.00    -0.202 N 
+ATOM     11  H9  N9M d   1       7.970  -9.491 -31.366  0.00  0.00     0.200 HD
+ATOM     12  OAJ N9M d   1       7.748 -12.617 -31.253  0.00  0.00    -0.236 OA
+BRANCH  10  13
+ATOM     13  OAL N9M d   1       9.682 -10.782 -31.573  0.00  0.00    -0.205 OA
+BRANCH  13  14
+ATOM     14  CAM N9M d   1      10.365  -9.700 -31.129  0.00  0.00     0.425 C 
+ATOM     15  OAN N9M d   1      11.599  -9.674 -31.161  0.00  0.00    -0.274 OA
+ENDBRANCH  13  14
+ENDBRANCH  10  13
+ENDBRANCH   1   9
+TORSDOF 5

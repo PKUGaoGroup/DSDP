@@ -1,0 +1,42 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N1_1  and  C13_9 
+REMARK    2  A    between atoms: C18_22  and  N3_2 
+REMARK    3  A    between atoms: C10_8  and  C18_22 
+REMARK    4  A    between atoms: C15_10  and  C3_14 
+ROOT
+ATOM      1  N1  EYB d   1      91.465  94.315 -42.534  0.00  0.00    -0.346 N 
+ATOM      2  C4  EYB d   1      91.181  93.247 -44.793  0.00  0.00     0.043 A 
+ATOM      3  C5  EYB d   1      91.212  94.313 -43.888  0.00  0.00     0.046 A 
+ATOM      4  C6  EYB d   1      90.970  95.633 -44.263  0.00  0.00     0.003 A 
+ATOM      5  C7  EYB d   1      91.400  95.602 -42.025  0.00  0.00     0.046 A 
+ATOM      6  C8  EYB d   1      91.088  96.444 -43.096  0.00  0.00     0.004 A 
+ATOM      7  C10 EYB d   1      91.138  98.338 -41.574  0.00  0.00    -0.032 A 
+ATOM      8  C1  EYB d   1      90.680  95.911 -45.610  0.00  0.00     0.015 A 
+ATOM      9  C2  EYB d   1      90.638  94.847 -46.528  0.00  0.00     0.013 A 
+ATOM     10  C3  EYB d   1      90.878  93.521 -46.134  0.00  0.00    -0.020 A 
+ATOM     11  C9  EYB d   1      90.962  97.826 -42.868  0.00  0.00     0.023 A 
+ATOM     12  C11 EYB d   1      91.461  97.469 -40.519  0.00  0.00     0.011 A 
+ATOM     13  C12 EYB d   1      91.590  96.091 -40.721  0.00  0.00     0.031 A 
+ENDROOT
+BRANCH   7  14
+ATOM     14  C18 EYB d   1      91.010  99.817 -41.354  0.00  0.00     0.270 C 
+BRANCH  14  15
+ATOM     15  N3  EYB d   1      89.638 100.270 -40.993  0.00  0.00    -0.075 N 
+ATOM     16  C19 EYB d   1      89.587 101.709 -40.627  0.00  0.00     0.267 C 
+ATOM     17  H1  EYB d   1      89.315  99.726 -40.208  0.00  0.00     0.277 HD
+ATOM     18  H2  EYB d   1      89.030 100.116 -41.782  0.00  0.00     0.277 HD
+ENDBRANCH  14  15
+ENDBRANCH   7  14
+BRANCH   1  19
+ATOM     19  C13 EYB d   1      91.774  93.109 -41.782  0.00  0.00     0.125 C 
+ATOM     20  C14 EYB d   1      93.276  92.905 -41.673  0.00  0.00     0.027 C 
+ENDBRANCH   1  19
+BRANCH  10  21
+ATOM     21  C15 EYB d   1      90.856  92.425 -47.081  0.00  0.00     0.018 A 
+ATOM     22  C17 EYB d   1      90.448  92.357 -48.428  0.00  0.00     0.161 A 
+ATOM     23  N2  EYB d   1      90.621  91.140 -48.949  0.00  0.00    -0.141 NA
+ATOM     24  O1  EYB d   1      91.165  90.375 -47.923  0.00  0.00    -0.225 OA
+ATOM     25  C16 EYB d   1      91.308  91.152 -46.817  0.00  0.00     0.183 A 
+ENDBRANCH  10  21
+TORSDOF 4

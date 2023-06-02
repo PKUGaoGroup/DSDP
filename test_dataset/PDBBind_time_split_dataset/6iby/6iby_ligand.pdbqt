@@ -1,0 +1,60 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CBE_6  and  NBD_7 
+REMARK       I    between atoms: NBD_7  and  CBB_8 
+REMARK    2  A    between atoms: CBB_8  and  CAW_10 
+REMARK    3  A    between atoms: CAV_15  and  NAQ_16 
+REMARK    4  A    between atoms: NAQ_16  and  CAA_17 
+REMARK    5  A    between atoms: CAC_26  and  CAG_27 
+ROOT
+ATOM      1  CAA HAT d   1     142.321 -40.995 265.487  0.00  0.00     0.035 A 
+ATOM      2  CAB HAT d   1     142.594 -39.779 266.143  0.00  0.00     0.044 A 
+ATOM      3  CAF HAT d   1     143.374 -41.894 265.310  0.00  0.00     0.063 A 
+ATOM      4  CAE HAT d   1     144.657 -41.530 265.715  0.00  0.00     0.088 A 
+ATOM      5  NAM HAT d   1     145.666 -42.394 265.505  0.00  0.00    -0.257 NA
+ATOM      6  CAN HAT d   1     146.987 -42.126 265.858  0.00  0.00     0.136 A 
+ATOM      7  CAO HAT d   1     147.252 -40.935 266.501  0.00  0.00     0.136 A 
+ATOM      8  NAP HAT d   1     146.196 -40.046 266.729  0.00  0.00    -0.256 NA
+ATOM      9  CAD HAT d   1     144.927 -40.319 266.341  0.00  0.00     0.096 A 
+ATOM     10  CAC HAT d   1     143.886 -39.404 266.585  0.00  0.00     0.007 A 
+ENDROOT
+BRANCH   1  11
+ATOM     11  NAQ HAT d   1     141.035 -41.286 265.185  0.00  0.00    -0.354 N 
+ATOM     12  H16 HAT d   1     140.328 -41.114 265.914  0.00  0.00     0.166 HD
+BRANCH  11  13
+ATOM     13  CAV HAT d   1     140.601 -41.784 264.007  0.00  0.00     0.066 A 
+ATOM     14  CAW HAT d   1     139.233 -42.060 263.922  0.00  0.00     0.061 A 
+ATOM     15  CAX HAT d   1     138.788 -42.537 262.694  0.00  0.00     0.038 A 
+ATOM     16  CAY HAT d   1     139.626 -42.731 261.594  0.00  0.00     0.117 A 
+ATOM     17  NAZ HAT d   1     140.971 -42.451 261.697  0.00  0.00    -0.271 NA
+ATOM     18  CBA HAT d   1     141.434 -41.974 262.897  0.00  0.00     0.146 A 
+BRANCH  14  19
+ATOM     19  CBB HAT d   1     138.324 -41.882 265.010  0.00  0.00     0.254 C 
+ATOM     20  NBD HAT d   1     137.203 -42.618 265.033  0.00  0.00    -0.351 N 
+ATOM     21  H12 HAT d   1     137.041 -43.260 264.283  0.00  0.00     0.163 HD
+ATOM     22  OBC HAT d   1     138.580 -41.155 265.956  0.00  0.00    -0.268 OA
+BRANCH  20  23
+ATOM     23  CBE HAT d   1     136.216 -42.530 266.089  0.00  0.00     0.112 C 
+ATOM     24  CBF HAT d   1     134.809 -42.650 265.488  0.00  0.00     0.054 C 
+ATOM     25  CBG HAT d   1     134.266 -43.993 265.960  0.00  0.00     0.236 C 
+ATOM     26  NBH HAT d   1     135.479 -44.730 266.309  0.00  0.00    -0.073 N 
+ATOM     27  CBJ HAT d   1     135.244 -45.961 267.105  0.00  0.00     0.269 C 
+ATOM     28  CBI HAT d   1     136.344 -43.730 266.969  0.00  0.00     0.259 C 
+ATOM     29  H5  HAT d   1     135.928 -45.024 265.456  0.00  0.00     0.279 HD
+ENDBRANCH  20  23
+ENDBRANCH  14  19
+ENDBRANCH  11  13
+ENDBRANCH   1  11
+BRANCH  10  30
+ATOM     30  CAG HAT d   1     144.109 -38.121 267.203  0.00  0.00    -0.021 A 
+ATOM     31  CAH HAT d   1     143.447 -37.687 268.356  0.00  0.00     0.043 A 
+ATOM     32  CAI HAT d   1     143.688 -36.477 268.859  0.00  0.00     0.045 A 
+ATOM     33  NAT HAT d   1     143.184 -35.844 269.907  0.00  0.00    -0.360 N 
+ATOM     34  CAJ HAT d   1     144.578 -35.636 268.293  0.00  0.00    -0.008 A 
+ATOM     35  CAU HAT d   1     142.166 -36.327 270.802  0.00  0.00     0.155 C 
+ATOM     36  CAS HAT d   1     143.728 -34.642 270.016  0.00  0.00     0.091 A 
+ATOM     37  CAR HAT d   1     144.614 -34.509 269.026  0.00  0.00     0.031 A 
+ATOM     38  CAK HAT d   1     145.269 -35.992 267.211  0.00  0.00     0.014 A 
+ATOM     39  CAL HAT d   1     145.030 -37.230 266.648  0.00  0.00     0.013 A 
+ENDBRANCH  10  30
+TORSDOF 5

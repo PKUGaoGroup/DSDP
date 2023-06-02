@@ -1,0 +1,34 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  C7_8 
+REMARK    2  A    between atoms: O4_5  and  C4_4 
+REMARK    3  A    between atoms: C7_8  and  C8_9 
+REMARK    4  A    between atoms: C9_10  and  C8_9 
+REMARK    5  A    between atoms: C9_10  and  O1_11 
+ROOT
+ATOM      1  C1  HPP d 600     -23.292  16.687   4.040  0.00  0.00    -0.058 A 
+ATOM      2  C2  HPP d 600     -23.131  17.275   2.787  0.00  0.00     0.010 A 
+ATOM      3  C3  HPP d 600     -24.221  17.708   2.049  0.00  0.00     0.037 A 
+ATOM      4  C4  HPP d 600     -25.491  17.550   2.565  0.00  0.00     0.065 A 
+ATOM      5  C5  HPP d 600     -25.680  16.971   3.805  0.00  0.00     0.037 A 
+ATOM      6  C6  HPP d 600     -24.587  16.540   4.532  0.00  0.00     0.010 A 
+ENDROOT
+BRANCH   1   7
+ATOM      7  C7  HPP d 600     -22.107  16.220   4.842  0.00  0.00     0.049 C 
+BRANCH   7   8
+ATOM      8  C8  HPP d 600     -21.430  17.190   5.796  0.00  0.00     0.114 C 
+BRANCH   8   9
+ATOM      9  C9  HPP d 600     -20.978  18.472   5.114  0.00  0.00     0.139 C 
+ATOM     10  O2  HPP d 600     -19.909  18.505   4.473  0.00  0.00    -0.650 OA
+BRANCH   9  11
+ATOM     11  O1  HPP d 600     -21.732  19.468   5.223  0.00  0.00    -0.776 OA
+ATOM     12  H   HPP d 600     -22.527  19.402   5.714  0.00  0.00     0.167 HD
+ENDBRANCH   9  11
+ENDBRANCH   8   9
+ENDBRANCH   7   8
+ENDBRANCH   1   7
+BRANCH   4  13
+ATOM     13  O4  HPP d 600     -26.603  17.973   1.863  0.00  0.00    -0.361 OA
+ATOM     14  H   HPP d 600     -26.502  18.369   1.020  0.00  0.00     0.217 HD
+ENDBRANCH   4  13
+TORSDOF 5

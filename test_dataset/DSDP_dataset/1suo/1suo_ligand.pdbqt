@@ -1,0 +1,20 @@
+REMARK  1 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C6_6  and  C4_7 
+ROOT
+ATOM      1  C11 CPZ d 600     -17.741  89.481   5.350  0.00  0.00     0.015 A 
+ATOM      2  C10 CPZ d 600     -16.650  88.861   4.744  0.00  0.00     0.024 A 
+ATOM      3  C9  CPZ d 600     -16.579  88.745   3.358  0.00  0.00     0.034 A 
+ATOM      4  C8  CPZ d 600     -17.619  89.244   2.576  0.00  0.00     0.024 A 
+ATOM      5  C7  CPZ d 600     -18.707  89.865   3.189  0.00  0.00     0.015 A 
+ATOM      6  C6  CPZ d 600     -18.780  89.993   4.574  0.00  0.00    -0.010 A 
+ATOM      7 CL   CPZ d 600     -15.159  88.101   2.604  0.00  0.00    -0.084 Cl
+ENDROOT
+BRANCH   6   8
+ATOM      8  C4  CPZ d 600     -19.878  90.626   5.156  0.00  0.00     0.066 A 
+ATOM      9  N3  CPZ d 600     -20.689  91.488   4.548  0.00  0.00    -0.244 NA
+ATOM     10  C5  CPZ d 600     -21.637  91.849   5.406  0.00  0.00     0.227 A 
+ATOM     11  N1  CPZ d 600     -21.429  91.220   6.560  0.00  0.00    -0.277 NA
+ATOM     12  C2  CPZ d 600     -20.340  90.470   6.394  0.00  0.00     0.210 A 
+ENDBRANCH   6   8
+TORSDOF 1

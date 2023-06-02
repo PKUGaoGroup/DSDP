@@ -1,0 +1,55 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C02_1  and  C03_2 
+REMARK       I    between atoms: N15_26  and  C02_1 
+REMARK    2  A    between atoms: C06_4  and  N07_23 
+REMARK    3  A    between atoms: C17_10  and  C16_9 
+REMARK    4  A    between atoms: C16_9  and  N15_26 
+REMARK    5  A    between atoms: O23_29  and  C22_15 
+REMARK    6  A    between atoms: C24_16  and  O23_29 
+ROOT
+ATOM      1  C02 LUW d   1       6.614  22.694  28.726  0.00  0.00     0.257 C 
+ATOM      2  N15 LUW d   1       7.457  21.538  28.814  0.00  0.00    -0.352 N 
+ATOM      3  O01 LUW d   1       6.359  23.291  29.713  0.00  0.00    -0.267 OA
+ATOM      4  H17 LUW d   1       7.706  21.022  27.995  0.00  0.00     0.163 HD
+ENDROOT
+BRANCH   2   5
+ATOM      5  C16 LUW d   1       7.940  21.136  30.121  0.00  0.00     0.161 C 
+BRANCH   5   6
+ATOM      6  C17 LUW d   1       9.189  21.863  30.569  0.00  0.00    -0.040 A 
+ATOM      7  C18 LUW d   1       9.794  21.445  31.739  0.00  0.00     0.011 A 
+ATOM      8  C19 LUW d   1      10.936  22.086  32.175  0.00  0.00     0.038 A 
+ATOM      9  C22 LUW d   1      11.455  23.143  31.451  0.00  0.00     0.076 A 
+ATOM     10  C21 LUW d   1      10.844  23.552  30.279  0.00  0.00     0.038 A 
+ATOM     11  C20 LUW d   1       9.700  22.911  29.832  0.00  0.00     0.011 A 
+BRANCH   9  12
+ATOM     12  O23 LUW d   1      12.617  23.804  31.857  0.00  0.00    -0.311 OA
+BRANCH  12  13
+ATOM     13  C24 LUW d   1      12.792  23.863  33.249  0.00  0.00     0.076 A 
+ATOM     14  C25 LUW d   1      13.962  23.372  33.785  0.00  0.00     0.037 A 
+ATOM     15  C26 LUW d   1      14.173  23.428  35.148  0.00  0.00     0.003 A 
+ATOM     16  C27 LUW d   1      13.210  23.979  35.975  0.00  0.00     0.000 A 
+ATOM     17  C28 LUW d   1      12.034  24.476  35.440  0.00  0.00     0.003 A 
+ATOM     18  C29 LUW d   1      11.827  24.423  34.070  0.00  0.00     0.037 A 
+ENDBRANCH  12  13
+ENDBRANCH   9  12
+ENDBRANCH   5   6
+ENDBRANCH   2   5
+BRANCH   1  19
+ATOM     19  C03 LUW d   1       6.023  23.119  27.387  0.00  0.00     0.104 A 
+ATOM     20  C04 LUW d   1       5.291  24.285  27.260  0.00  0.00     0.158 A 
+ATOM     21  N05 LUW d   1       4.769  24.605  26.093  0.00  0.00    -0.074 NA
+ATOM     22  C06 LUW d   1       4.907  23.824  25.050  0.00  0.00     0.728 A 
+ATOM     23  N12 LUW d   1       5.583  22.690  25.111  0.00  0.00    -0.163 N 
+ATOM     24  C13 LUW d   1       6.130  22.315  26.258  0.00  0.00     0.210 A 
+ATOM     25  H16 LUW d   1       5.681  22.118  24.296  0.00  0.00     0.186 HD
+ATOM     26  O14 LUW d   1       6.844  21.124  26.333  0.00  0.00    -0.171 OA
+BRANCH  22  27
+ATOM     27  N07 LUW d   1       4.304  24.226  23.796  0.00  0.00    -0.073 N 
+ATOM     28  C11 LUW d   1       4.274  23.492  22.710  0.00  0.00     0.139 A 
+ATOM     29  C10 LUW d   1       3.618  24.225  21.756  0.00  0.00     0.041 A 
+ATOM     30  C09 LUW d   1       3.254  25.443  22.324  0.00  0.00     0.141 A 
+ATOM     31  N08 LUW d   1       3.680  25.435  23.590  0.00  0.00    -0.166 NA
+ENDBRANCH  22  27
+ENDBRANCH   1  19
+TORSDOF 6

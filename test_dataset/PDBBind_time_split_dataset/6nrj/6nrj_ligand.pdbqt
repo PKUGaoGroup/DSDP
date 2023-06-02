@@ -1,0 +1,63 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK       I    between atoms: C_2  and  N_1 
+REMARK    1  A    between atoms: C1_4  and  C_2 
+REMARK    2  A    between atoms: C12_7  and  C13_8 
+REMARK       I    between atoms: C13_8  and  N1_17 
+REMARK    3  A    between atoms: C8_15  and  C9_16 
+REMARK    4  A    between atoms: N1_17  and  C14_20 
+REMARK    5  A    between atoms: C14_20  and  C15_21 
+REMARK    6  A    between atoms: C15_21  and  C16_22 
+ROOT
+ATOM      1  C10 KYJ d   1      26.137  -8.033   7.445  0.00  0.00     0.012 A 
+ATOM      2  C11 KYJ d   1      25.302  -9.096   7.150  0.00  0.00     0.018 A 
+ATOM      3  C12 KYJ d   1      25.542  -9.904   6.041  0.00  0.00     0.032 A 
+ATOM      4  C9  KYJ d   1      27.246  -7.751   6.652  0.00  0.00    -0.033 A 
+ATOM      5  C23 KYJ d   1      26.624  -9.599   5.219  0.00  0.00     0.018 A 
+ATOM      6  C24 KYJ d   1      27.467  -8.550   5.527  0.00  0.00     0.012 A 
+ENDROOT
+BRANCH   3   7
+ATOM      7  C13 KYJ d   1      24.695 -11.117   5.806  0.00  0.00     0.251 C 
+ATOM      8  N1  KYJ d   1      25.172 -12.040   4.965  0.00  0.00    -0.356 N 
+ATOM      9  H9  KYJ d   1      26.076 -11.900   4.561  0.00  0.00     0.162 HD
+ATOM     10  O2  KYJ d   1      23.627 -11.256   6.394  0.00  0.00    -0.268 OA
+BRANCH   8  11
+ATOM     11  C14 KYJ d   1      24.425 -13.244   4.614  0.00  0.00     0.130 C 
+BRANCH  11  12
+ATOM     12  C15 KYJ d   1      25.275 -14.493   4.747  0.00  0.00     0.098 C 
+BRANCH  12  13
+ATOM     13  C16 KYJ d   1      25.482 -14.887   6.168  0.00  0.00     0.106 A 
+ATOM     14  N3  KYJ d   1      25.016 -16.055   6.672  0.00  0.00    -0.233 NA
+ATOM     15  C22 KYJ d   1      25.388 -16.102   8.002  0.00  0.00     0.085 A 
+ATOM     16  C21 KYJ d   1      25.214 -17.056   8.996  0.00  0.00     0.034 A 
+ATOM     17  C17 KYJ d   1      26.091 -14.922   8.235  0.00  0.00     0.062 A 
+ATOM     18  C20 KYJ d   1      25.773 -16.812  10.244  0.00  0.00     0.002 A 
+ATOM     19  C19 KYJ d   1      26.467 -15.633  10.494  0.00  0.00     0.002 A 
+ATOM     20  C18 KYJ d   1      26.635 -14.681   9.495  0.00  0.00     0.032 A 
+ATOM     21  N2  KYJ d   1      26.136 -14.168   7.061  0.00  0.00    -0.343 N 
+ATOM     22  H18 KYJ d   1      26.582 -13.250   6.922  0.00  0.00     0.167 HD
+ENDBRANCH  12  13
+ENDBRANCH  11  12
+ENDBRANCH   8  11
+ENDBRANCH   3   7
+BRANCH   4  23
+ATOM     23  C8  KYJ d   1      28.268  -6.741   6.867  0.00  0.00     0.053 C 
+ATOM     24  C7  KYJ d   1      28.430  -5.808   7.805  0.00  0.00     0.128 A 
+ATOM     25  C6  KYJ d   1      29.487  -4.799   7.822  0.00  0.00     0.218 A 
+ATOM     26  O3  KYJ d   1      27.643  -5.675   8.940  0.00  0.00    -0.305 OA
+ATOM     27  C5  KYJ d   1      29.278  -4.079   9.086  0.00  0.00     0.052 A 
+ATOM     28  O1  KYJ d   1      30.309  -4.572   6.910  0.00  0.00    -0.284 OA
+ATOM     29  C4  KYJ d   1      30.024  -3.100   9.735  0.00  0.00     0.018 A 
+ATOM     30  C25 KYJ d   1      28.154  -4.634   9.698  0.00  0.00     0.106 A 
+ATOM     31  C3  KYJ d   1      29.623  -2.674  10.989  0.00  0.00     0.002 A 
+ATOM     32  C2  KYJ d   1      28.482  -3.195  11.582  0.00  0.00     0.020 A 
+ATOM     33  C1  KYJ d   1      27.715  -4.177  10.947  0.00  0.00     0.066 A 
+BRANCH  33  34
+ATOM     34  C   KYJ d   1      26.467  -4.649  11.643  0.00  0.00     0.252 C 
+ATOM     35  N   KYJ d   1      25.857  -5.735  11.170  0.00  0.00    -0.366 N 
+ATOM     36  H1  KYJ d   1      26.229  -6.210  10.373  0.00  0.00     0.159 HD
+ATOM     37  H2  KYJ d   1      25.027  -6.075  11.612  0.00  0.00     0.159 HD
+ATOM     38  O   KYJ d   1      26.022  -4.027  12.647  0.00  0.00    -0.268 OA
+ENDBRANCH  33  34
+ENDBRANCH   4  23
+TORSDOF 6

@@ -1,0 +1,86 @@
+REMARK  14 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C3B_8  and  PG_1 
+REMARK    2  A    between atoms: PG_1  and  O1G_2 
+REMARK    3  A    between atoms: PG_1  and  O3G_4 
+REMARK    4  A    between atoms: O3A_12  and  PB_5 
+REMARK    5  A    between atoms: PB_5  and  C3B_8 
+REMARK    6  A    between atoms: PB_5  and  O2B_7 
+REMARK    7  A    between atoms: O5'_13  and  PA_9 
+REMARK    8  A    between atoms: PA_9  and  O3A_12 
+REMARK    9  A    between atoms: PA_9  and  O2A_11 
+REMARK   10  A    between atoms: C5'_14  and  O5'_13 
+REMARK   11  A    between atoms: C4'_15  and  C5'_14 
+REMARK   12  A    between atoms: C3'_17  and  O3'_18 
+REMARK   13  A    between atoms: O2'_20  and  C2'_19 
+REMARK   14  A    between atoms: N9_22  and  C1'_21 
+ROOT
+ATOM      1  C4' ACP d 399      40.936  19.984  20.702  0.00  0.00     0.180 C 
+ATOM      2  O4' ACP d 399      39.697  20.213  20.102  0.00  0.00    -0.353 OA
+ATOM      3  C3' ACP d 399      41.981  20.708  19.939  0.00  0.00     0.182 C 
+ATOM      4  C2' ACP d 399      41.352  20.932  18.537  0.00  0.00     0.198 C 
+ATOM      5  C1' ACP d 399      39.919  20.739  18.806  0.00  0.00     0.262 C 
+ENDROOT
+BRANCH   1   6
+ATOM      6  C5' ACP d 399      41.065  20.606  22.134  0.00  0.00     0.215 C 
+BRANCH   6   7
+ATOM      7  O5' ACP d 399      41.019  21.984  22.560  0.00  0.00    -0.294 OA
+BRANCH   7   8
+ATOM      8  PA  ACP d 399      41.199  22.162  24.151  0.00  0.00     0.400 P 
+ATOM      9  O1A ACP d 399      41.107  23.661  24.302  0.00  0.00    -0.631 OA
+BRANCH   8  10
+ATOM     10  O3A ACP d 399      42.722  21.684  24.302  0.00  0.00    -0.218 OA
+BRANCH  10  11
+ATOM     11  PB  ACP d 399      44.138  22.016  25.103  0.00  0.00     0.258 P 
+ATOM     12  O1B ACP d 399      45.030  22.465  23.986  0.00  0.00    -0.653 OA
+BRANCH  11  13
+ATOM     13  C3B ACP d 399      44.983  20.771  25.774  0.00  0.00     0.250 C 
+BRANCH  13  14
+ATOM     14  PG  ACP d 399      44.253  19.962  27.137  0.00  0.00     0.247 P 
+ATOM     15  O2G ACP d 399      42.836  19.578  26.871  0.00  0.00    -0.653 OA
+BRANCH  14  16
+ATOM     16  O1G ACP d 399      45.047  18.739  27.574  0.00  0.00    -0.329 OA
+ATOM     17  H   ACP d 399      44.929  18.028  26.925  0.00  0.00     0.220 HD
+ENDBRANCH  14  16
+BRANCH  14  18
+ATOM     18  O3G ACP d 399      44.398  21.126  28.123  0.00  0.00    -0.329 OA
+ATOM     19  H   ACP d 399      43.879  21.883  27.809  0.00  0.00     0.220 HD
+ENDBRANCH  14  18
+ENDBRANCH  13  14
+ENDBRANCH  11  13
+BRANCH  11  20
+ATOM     20  O2B ACP d 399      43.789  23.162  25.950  0.00  0.00    -0.328 OA
+ATOM     21  H   ACP d 399      43.297  23.813  25.426  0.00  0.00     0.220 HD
+ENDBRANCH  11  20
+ENDBRANCH  10  11
+ENDBRANCH   8  10
+BRANCH   8  22
+ATOM     22  O2A ACP d 399      40.345  21.401  25.113  0.00  0.00    -0.307 OA
+ATOM     23  H   ACP d 399      40.454  20.450  24.959  0.00  0.00     0.222 HD
+ENDBRANCH   8  22
+ENDBRANCH   7   8
+ENDBRANCH   6   7
+ENDBRANCH   1   6
+BRANCH   3  24
+ATOM     24  O3' ACP d 399      43.174  19.964  19.987  0.00  0.00    -0.390 OA
+ATOM     25  H   ACP d 399      43.011  19.069  19.650  0.00  0.00     0.210 HD
+ENDBRANCH   3  24
+BRANCH   4  26
+ATOM     26  O2' ACP d 399      41.912  20.033  17.602  0.00  0.00    -0.388 OA
+ATOM     27  H   ACP d 399      41.797  19.123  17.919  0.00  0.00     0.210 HD
+ENDBRANCH   4  26
+BRANCH   5  28
+ATOM     28  N9  ACP d 399      38.992  21.935  18.634  0.00  0.00    -0.294 N 
+ATOM     29  C4  ACP d 399      37.994  21.953  17.717  0.00  0.00     0.167 A 
+ATOM     30  N3  ACP d 399      37.659  20.955  16.829  0.00  0.00    -0.222 NA
+ATOM     31  C5  ACP d 399      37.370  23.204  17.858  0.00  0.00     0.149 A 
+ATOM     32  C2  ACP d 399      36.609  21.208  16.002  0.00  0.00     0.237 A 
+ATOM     33  N1  ACP d 399      35.909  22.381  16.025  0.00  0.00    -0.222 NA
+ATOM     34  C6  ACP d 399      36.261  23.382  16.928  0.00  0.00     0.155 A 
+ATOM     35  N6  ACP d 399      35.524  24.528  16.901  0.00  0.00    -0.382 N 
+ATOM     36  H   ACP d 399      34.781  24.620  16.262  0.00  0.00     0.157 HD
+ATOM     37  H   ACP d 399      35.735  25.264  17.520  0.00  0.00     0.157 HD
+ATOM     38  N7  ACP d 399      37.937  23.944  18.815  0.00  0.00    -0.236 NA
+ATOM     39  C8  ACP d 399      38.909  23.136  19.252  0.00  0.00     0.214 A 
+ENDBRANCH   5  28
+TORSDOF 14

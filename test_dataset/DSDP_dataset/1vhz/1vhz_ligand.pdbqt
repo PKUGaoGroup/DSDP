@@ -1,0 +1,36 @@
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1'_11  and  N9_10 
+REMARK    2  A    between atoms: O2'_13  and  C2'_12 
+REMARK    3  A    between atoms: O3'_15  and  C3'_14 
+ROOT
+ATOM      1  N1  APR d 197      44.106  15.136 150.622  0.00  0.00    -0.222 NA
+ATOM      2  C2  APR d 197      44.538  16.419 150.236  0.00  0.00     0.237 A 
+ATOM      3  N3  APR d 197      43.998  17.210 149.307  0.00  0.00    -0.222 NA
+ATOM      4  C4  APR d 197      42.871  16.637 148.675  0.00  0.00     0.167 A 
+ATOM      5  C5  APR d 197      42.304  15.373 148.937  0.00  0.00     0.149 A 
+ATOM      6  C6  APR d 197      42.974  14.574 149.985  0.00  0.00     0.155 A 
+ATOM      7  N6  APR d 197      42.561  13.357 150.346  0.00  0.00    -0.382 N 
+ATOM      8  N7  APR d 197      41.206  15.156 148.121  0.00  0.00    -0.236 NA
+ATOM      9  C8  APR d 197      41.112  16.269 147.382  0.00  0.00     0.214 A 
+ATOM     10  N9  APR d 197      42.088  17.182 147.680  0.00  0.00    -0.294 N 
+ATOM     11  H   APR d 197      41.775  12.955 149.911  0.00  0.00     0.157 HD
+ATOM     12  H   APR d 197      43.042  12.862 151.048  0.00  0.00     0.157 HD
+ENDROOT
+BRANCH  10  13
+ATOM     13  C1' APR d 197      42.385  18.658 147.066  0.00  0.00     0.262 C 
+ATOM     14  C2' APR d 197      42.688  18.508 145.548  0.00  0.00     0.198 C 
+ATOM     15  C3' APR d 197      41.330  18.808 144.813  0.00  0.00     0.179 C 
+ATOM     16  C4' APR d 197      40.351  19.174 145.853  0.00  0.00     0.151 C 
+ATOM     17  C5' APR d 197      39.749  20.463 145.453  0.00  0.00     0.042 C 
+ATOM     18  O4' APR d 197      41.190  19.380 147.094  0.00  0.00    -0.356 OA
+BRANCH  14  19
+ATOM     19  O2' APR d 197      43.643  19.484 145.180  0.00  0.00    -0.388 OA
+ATOM     20  H   APR d 197      43.305  20.366 145.401  0.00  0.00     0.210 HD
+ENDBRANCH  14  19
+BRANCH  15  21
+ATOM     21  O3' APR d 197      41.467  19.882 143.894  0.00  0.00    -0.390 OA
+ATOM     22  H   APR d 197      41.750  20.679 144.368  0.00  0.00     0.210 HD
+ENDBRANCH  15  21
+ENDBRANCH  10  13
+TORSDOF 3

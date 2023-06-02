@@ -1,0 +1,44 @@
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O3_1  and  S1_2 
+REMARK    2  A    between atoms: S1_2  and  O2_4 
+REMARK    3  A    between atoms: S1_2  and  C4_5 
+REMARK    4  A    between atoms: S1_2  and  O1_3 
+REMARK    5  A    between atoms: C3_6  and  C4_5 
+REMARK    6  A    between atoms: C3_6  and  C2_7 
+REMARK    7  A    between atoms: N1_8  and  C2_7 
+REMARK    8  A    between atoms: N1_8  and  C5_11 
+ROOT
+ATOM      1  C4  NDS d 612      -3.839 -17.540  83.045  0.00  0.00     0.138 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C3  NDS d 612      -2.920 -16.655  82.214  0.00  0.00     0.043 C 
+BRANCH   2   3
+ATOM      3  C2  NDS d 612      -2.990 -15.218  82.726  0.00  0.00     0.237 C 
+BRANCH   3   4
+ATOM      4  N1  NDS d 612      -1.732 -14.493  82.447  0.00  0.00    -0.075 N 
+ATOM      5  C7  NDS d 612      -1.308 -14.766  81.084  0.00  0.00     0.272 C 
+ATOM      6  C1  NDS d 612      -0.712 -14.926  83.386  0.00  0.00     0.272 C 
+BRANCH   4   7
+ATOM      7  C5  NDS d 612      -1.985 -13.055  82.625  0.00  0.00     0.232 C 
+ATOM      8  C6  NDS d 612      -0.694 -12.269  82.669  0.00  0.00     0.034 C 
+ENDBRANCH   4   7
+ENDBRANCH   3   4
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1   9
+ATOM      9  S1  NDS d 612      -5.480 -17.514  82.343  0.00  0.00     0.081 S 
+BRANCH   9  10
+ATOM     10  O3  NDS d 612      -5.446 -17.989  80.956  0.00  0.00    -0.308 OA
+ATOM     11  H   NDS d 612      -4.817 -17.454  80.447  0.00  0.00     0.230 HD
+ENDBRANCH   9  10
+BRANCH   9  12
+ATOM     12  O2  NDS d 612      -6.060 -16.193  82.436  0.00  0.00    -0.308 OA
+ATOM     13  H   NDS d 612      -5.519 -15.566  81.931  0.00  0.00     0.230 HD
+ENDBRANCH   9  12
+BRANCH   9  14
+ATOM     14  O1  NDS d 612      -6.405 -18.283  83.139  0.00  0.00    -0.308 OA
+ATOM     15  H   NDS d 612      -7.285 -18.250  82.734  0.00  0.00     0.230 HD
+ENDBRANCH   9  14
+ENDBRANCH   1   9
+TORSDOF 8

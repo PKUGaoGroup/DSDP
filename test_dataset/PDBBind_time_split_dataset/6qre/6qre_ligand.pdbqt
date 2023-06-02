@@ -1,0 +1,38 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C03_8  and  O02_7 
+REMARK    2  A    between atoms: C06_11  and  C05_10 
+REMARK    3  A    between atoms: O07_12  and  C06_11 
+REMARK    4  A    between atoms: C08_13  and  O07_12 
+REMARK    5  A    between atoms: C08_13  and  C09_14 
+ROOT
+ATOM      1  C06 JCQ d   1     -22.766  20.106 -12.694  0.00  0.00     0.217 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C05 JCQ d   1     -22.917  20.525 -11.266  0.00  0.00    -0.031 A 
+ATOM      3  C15 JCQ d   1     -22.154  21.557 -10.758  0.00  0.00     0.009 A 
+ATOM      4  C16 JCQ d   1     -22.284  21.937  -9.420  0.00  0.00     0.003 A 
+ATOM      5  C17 JCQ d   1     -23.194  21.259  -8.583  0.00  0.00     0.037 A 
+ATOM      6  C03 JCQ d   1     -23.954  20.247  -9.087  0.00  0.00     0.068 A 
+ATOM      7  C04 JCQ d   1     -23.822  19.863 -10.438  0.00  0.00     0.046 A 
+BRANCH   6   8
+ATOM      8  O02 JCQ d   1     -24.877  19.563  -8.241  0.00  0.00    -0.356 OA
+ATOM      9  C01 JCQ d   1     -25.732  18.689  -8.899  0.00  0.00     0.210 C 
+ENDBRANCH   6   8
+ENDBRANCH   1   2
+BRANCH   1  10
+ATOM     10  O07 JCQ d   1     -21.956  18.900 -12.760  0.00  0.00    -0.313 OA
+BRANCH  10  11
+ATOM     11  C08 JCQ d   1     -20.571  19.138 -12.926  0.00  0.00     0.296 C 
+ATOM     12  O14 JCQ d   1     -20.150  20.292 -13.054  0.00  0.00    -0.259 OA
+BRANCH  11  13
+ATOM     13  C09 JCQ d   1     -19.592  17.955 -12.918  0.00  0.00     0.075 A 
+ATOM     14  C10 JCQ d   1     -19.933  16.617 -12.923  0.00  0.00     0.157 A 
+ATOM     15  N11 JCQ d   1     -18.808  15.916 -12.902  0.00  0.00    -0.187 NA
+ATOM     16  N12 JCQ d   1     -17.734  16.754 -12.875  0.00  0.00    -0.289 N 
+ATOM     17  C13 JCQ d   1     -18.210  18.031 -12.900  0.00  0.00     0.128 A 
+ATOM     18  H2  JCQ d   1     -16.743  16.474 -12.842  0.00  0.00     0.188 HD
+ENDBRANCH  11  13
+ENDBRANCH  10  11
+ENDBRANCH   1  10
+TORSDOF 5

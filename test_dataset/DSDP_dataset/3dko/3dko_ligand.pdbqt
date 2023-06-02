@@ -1,0 +1,59 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CBB_5  and  CBD_2 
+REMARK    2  A    between atoms: NAS_11  and  CAX_10 
+REMARK       I    between atoms: CAV_12  and  NAS_11 
+REMARK    3  A    between atoms: CAZ_14  and  CAV_12 
+REMARK    4  A    between atoms: NAT_21  and  CBC_20 
+REMARK    5  A    between atoms: CAY_22  and  NAT_21 
+REMARK    6  A    between atoms: CAU_28  and  CBA_27 
+REMARK       I    between atoms: NAB_30  and  CAU_28 
+ROOT
+ATOM      1  CAZ IHZ d1001     -20.266   9.754 -10.250  0.00  0.00     0.034 A 
+ATOM      2  CAQ IHZ d1001     -19.635  10.293 -11.376  0.00  0.00     0.047 A 
+ATOM      3  CAL IHZ d1001     -21.602   9.358 -10.337  0.00  0.00     0.018 A 
+ATOM      4  CAJ IHZ d1001     -22.269   9.523 -11.552  0.00  0.00     0.010 A 
+ATOM      5  CAW IHZ d1001     -21.629  10.068 -12.675  0.00  0.00    -0.035 A 
+ATOM      6  CAA IHZ d1001     -22.442  10.224 -13.965  0.00  0.00     0.050 C 
+ATOM      7  CBC IHZ d1001     -20.284  10.449 -12.608  0.00  0.00     0.039 A 
+ENDROOT
+BRANCH   1   8
+ATOM      8  CAV IHZ d1001     -19.457   9.604  -8.948  0.00  0.00     0.256 C 
+ATOM      9  OAD IHZ d1001     -18.253   9.359  -9.034  0.00  0.00    -0.267 OA
+ATOM     10  NAS IHZ d1001     -20.132   9.785  -7.790  0.00  0.00    -0.323 N 
+ATOM     11  H   IHZ d1001     -21.089  10.002  -7.867  0.00  0.00     0.169 HD
+BRANCH  10  12
+ATOM     12  CAX IHZ d1001     -19.627   9.699  -6.530  0.00  0.00     0.035 A 
+ATOM     13  CAP IHZ d1001     -18.282   9.943  -6.230  0.00  0.00     0.045 A 
+ATOM     14  CBB IHZ d1001     -17.804   9.857  -4.921  0.00  0.00     0.050 A 
+ATOM     15  CAK IHZ d1001     -18.675   9.501  -3.881  0.00  0.00     0.016 A 
+ATOM     16  CAH IHZ d1001     -20.014   9.247  -4.163  0.00  0.00     0.003 A 
+ATOM     17  CAI IHZ d1001     -20.477   9.351  -5.479  0.00  0.00     0.029 A 
+BRANCH  14  18
+ATOM     18  CBD IHZ d1001     -16.306  10.129  -4.647  0.00  0.00     0.417 C 
+ATOM     19  FAG IHZ d1001     -15.591   9.159  -5.219  0.00  0.00    -0.166 F 
+ATOM     20  FAE IHZ d1001     -15.951  11.295  -5.196  0.00  0.00    -0.166 F 
+ATOM     21  FAF IHZ d1001     -16.039  10.116  -3.331  0.00  0.00    -0.166 F 
+ENDBRANCH  14  18
+ENDBRANCH  10  12
+ENDBRANCH   1   8
+BRANCH   7  22
+ATOM     22  NAT IHZ d1001     -19.592  11.009 -13.640  0.00  0.00    -0.355 N 
+ATOM     23  H   IHZ d1001     -19.227  11.905 -13.454  0.00  0.00     0.166 HD
+BRANCH  22  24
+ATOM     24  CAY IHZ d1001     -19.324  10.532 -14.882  0.00  0.00     0.051 A 
+ATOM     25  CAM IHZ d1001     -18.465  11.269 -15.725  0.00  0.00     0.145 A 
+ATOM     26  NAR IHZ d1001     -18.176  10.853 -16.959  0.00  0.00    -0.270 NA
+ATOM     27  CAN IHZ d1001     -18.683   9.715 -17.443  0.00  0.00     0.133 A 
+ATOM     28  CBA IHZ d1001     -19.551   8.920 -16.674  0.00  0.00     0.051 A 
+ATOM     29  CAO IHZ d1001     -19.865   9.338 -15.376  0.00  0.00     0.049 A 
+BRANCH  28  30
+ATOM     30  CAU IHZ d1001     -20.154   7.592 -17.199  0.00  0.00     0.250 C 
+ATOM     31  NAB IHZ d1001     -19.663   7.123 -18.351  0.00  0.00    -0.366 N 
+ATOM     32  H   IHZ d1001     -18.956   7.620 -18.823  0.00  0.00     0.159 HD
+ATOM     33  H   IHZ d1001     -20.008   6.281 -18.727  0.00  0.00     0.159 HD
+ATOM     34  OAC IHZ d1001     -21.038   7.016 -16.562  0.00  0.00    -0.268 OA
+ENDBRANCH  28  30
+ENDBRANCH  22  24
+ENDBRANCH   7  22
+TORSDOF 6

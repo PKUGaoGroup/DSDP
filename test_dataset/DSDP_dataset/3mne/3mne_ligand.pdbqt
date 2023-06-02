@@ -1,0 +1,51 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O2_25  and  C11_11 
+REMARK    2  A    between atoms: C17_17  and  O3_26 
+REMARK    3  A    between atoms: C17_17  and  C20_20 
+REMARK    4  A    between atoms: C20_20  and  C21_21 
+REMARK    5  A    between atoms: C21_21  and  O5_28 
+ROOT
+ATOM      1  C1  DEX d 784     -27.821  27.080   7.500  0.00  0.00    -0.006 A 
+ATOM      2  C2  DEX d 784     -26.544  26.704   7.194  0.00  0.00     0.052 A 
+ATOM      3  C3  DEX d 784     -26.378  25.874   5.926  0.00  0.00     0.172 A 
+ATOM      4  C4  DEX d 784     -27.533  25.480   5.051  0.00  0.00     0.058 A 
+ATOM      5  C5  DEX d 784     -28.811  25.888   5.385  0.00  0.00    -0.061 A 
+ATOM      6  C6  DEX d 784     -30.020  25.494   4.473  0.00  0.00     0.036 C 
+ATOM      7  C7  DEX d 784     -31.070  24.734   5.409  0.00  0.00     0.013 C 
+ATOM      8  C8  DEX d 784     -31.356  25.623   6.754  0.00  0.00     0.035 C 
+ATOM      9  C9  DEX d 784     -30.042  25.951   7.664  0.00  0.00     0.147 C 
+ATOM     10  C10 DEX d 784     -29.071  26.730   6.649  0.00  0.00     0.036 A 
+ATOM     11  C11 DEX d 784     -30.238  26.678   9.063  0.00  0.00     0.160 C 
+ATOM     12  C12 DEX d 784     -31.494  26.019   9.833  0.00  0.00     0.048 C 
+ATOM     13  C13 DEX d 784     -32.740  25.691   8.849  0.00  0.00     0.001 C 
+ATOM     14  C14 DEX d 784     -32.388  24.785   7.682  0.00  0.00     0.005 C 
+ATOM     15  C15 DEX d 784     -33.705  24.500   6.893  0.00  0.00     0.013 C 
+ATOM     16  C16 DEX d 784     -34.652  24.314   8.173  0.00  0.00     0.025 C 
+ATOM     17  C17 DEX d 784     -33.762  24.649   9.461  0.00  0.00     0.131 C 
+ATOM     18  C18 DEX d 784     -33.365  27.121   8.746  0.00  0.00     0.019 C 
+ATOM     19  C19 DEX d 784     -29.559  28.143   6.100  0.00  0.00     0.028 C 
+ATOM     20  C22 DEX d 784     -35.119  22.878   8.415  0.00  0.00     0.013 C 
+ATOM     21  F1  DEX d 784     -29.543  24.604   7.834  0.00  0.00    -0.238 F 
+ATOM     22  O1  DEX d 784     -25.252  25.495   5.609  0.00  0.00    -0.289 OA
+ENDROOT
+BRANCH  17  23
+ATOM     23  O3  DEX d 784     -33.154  23.477  10.140  0.00  0.00    -0.381 OA
+ATOM     24  H   DEX d 784     -32.641  22.962   9.498  0.00  0.00     0.211 HD
+ENDBRANCH  17  23
+BRANCH  17  25
+ATOM     25  C20 DEX d 784     -34.543  25.368  10.608  0.00  0.00     0.185 C 
+ATOM     26  O4  DEX d 784     -35.745  25.715  10.443  0.00  0.00    -0.292 OA
+BRANCH  25  27
+ATOM     27  C21 DEX d 784     -34.149  25.276  12.064  0.00  0.00     0.245 C 
+BRANCH  27  28
+ATOM     28  O5  DEX d 784     -34.633  26.480  12.750  0.00  0.00    -0.393 OA
+ATOM     29  H   DEX d 784     -34.238  27.266  12.341  0.00  0.00     0.209 HD
+ENDBRANCH  27  28
+ENDBRANCH  25  27
+ENDBRANCH  17  25
+BRANCH  11  30
+ATOM     30  O2  DEX d 784     -30.719  28.052   8.902  0.00  0.00    -0.392 OA
+ATOM     31  H   DEX d 784     -31.577  28.043   8.449  0.00  0.00     0.210 HD
+ENDBRANCH  11  30
+TORSDOF 5

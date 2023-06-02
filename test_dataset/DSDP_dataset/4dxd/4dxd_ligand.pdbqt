@@ -1,0 +1,43 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK       I    between atoms: N_3  and  C_9 
+REMARK    1  A    between atoms: C1_5  and  C_9 
+REMARK    2  A    between atoms: O1_14  and  C5_11 
+REMARK    3  A    between atoms: C6_15  and  O1_14 
+REMARK    4  A    between atoms: C7_16  and  C6_15 
+ROOT
+ATOM      1  C13 9PC d 402     -15.439  44.212  18.875  0.00  0.00     0.168 A 
+ATOM      2  C1  9PC d 402     -15.688  45.548  19.189  0.00  0.00     0.111 A 
+ATOM      3  C2  9PC d 402     -14.686  46.497  18.994  0.00  0.00     0.135 A 
+ATOM      4  C3  9PC d 402     -13.430  46.121  18.475  0.00  0.00     0.046 A 
+ATOM      5  F1  9PC d 402     -16.402  43.301  19.080  0.00  0.00    -0.202 F 
+ATOM      6  C5  9PC d 402     -14.206  43.816  18.355  0.00  0.00     0.109 A 
+ATOM      7  C4  9PC d 402     -13.194  44.782  18.149  0.00  0.00     0.043 A 
+ATOM      8  F   9PC d 402     -14.953  47.785  19.282  0.00  0.00    -0.205 F 
+ENDROOT
+BRANCH   6   9
+ATOM      9  O1  9PC d 402     -14.018  42.480  18.071  0.00  0.00    -0.342 OA
+BRANCH   9  10
+ATOM     10  C6  9PC d 402     -12.725  42.000  17.690  0.00  0.00     0.243 C 
+BRANCH  10  11
+ATOM     11  C7  9PC d 402     -12.544  40.499  17.631  0.00  0.00     0.102 A 
+ATOM     12  N1  9PC d 402     -11.602  39.837  16.924  0.00  0.00    -0.241 NA
+ATOM     13  C8  9PC d 402     -11.631  38.500  17.113  0.00  0.00     0.095 A 
+ATOM     14  C12 9PC d 402     -10.875  37.487  16.531  0.00  0.00     0.060 A 
+ATOM     15  C9  9PC d 402     -12.660  38.185  17.994  0.00  0.00     0.128 A 
+ATOM     16  C11 9PC d 402     -11.161  36.175  16.872  0.00  0.00     0.053 A 
+ATOM     17 CL   9PC d 402     -10.173  34.883  16.149  0.00  0.00    -0.083 Cl
+ATOM     18  C10 9PC d 402     -12.197  35.886  17.761  0.00  0.00     0.142 A 
+ATOM     19  N2  9PC d 402     -12.926  36.885  18.300  0.00  0.00    -0.250 NA
+ATOM     20  S   9PC d 402     -13.563  39.470  18.626  0.00  0.00    -0.051 SA
+ENDBRANCH  10  11
+ENDBRANCH   9  10
+ENDBRANCH   6   9
+BRANCH   2  21
+ATOM     21  C   9PC d 402     -17.048  45.966  19.701  0.00  0.00     0.255 C 
+ATOM     22  N   9PC d 402     -18.127  45.696  18.956  0.00  0.00    -0.366 N 
+ATOM     23  H   9PC d 402     -18.026  45.231  18.094  0.00  0.00     0.159 HD
+ATOM     24  H   9PC d 402     -19.021  45.962  19.270  0.00  0.00     0.159 HD
+ATOM     25  O   9PC d 402     -17.143  46.539  20.770  0.00  0.00    -0.268 OA
+ENDBRANCH   2  21
+TORSDOF 4

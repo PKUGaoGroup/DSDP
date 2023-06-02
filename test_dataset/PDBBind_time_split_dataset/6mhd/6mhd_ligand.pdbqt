@@ -1,0 +1,44 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_2  and  C1_3 
+REMARK       I    between atoms: C_2  and  N_5 
+REMARK    2  A    between atoms: N_5  and  C5_6 
+REMARK    3  A    between atoms: N_5  and  C10_13 
+REMARK    4  A    between atoms: C5_6  and  C6_7 
+REMARK    5  A    between atoms: C11_16  and  C12_18 
+ROOT
+ATOM      1  O   JRD d   1      28.462   3.952  10.363  0.00  0.00    -0.273 OA
+ATOM      2  C   JRD d   1      27.592   4.113   9.520  0.00  0.00     0.225 C 
+ATOM      3  N   JRD d   1      26.772   5.259   9.574  0.00  0.00    -0.290 N 
+ENDROOT
+BRANCH   3   4
+ATOM      4  C5  JRD d   1      26.424   5.900   8.305  0.00  0.00     0.201 C 
+BRANCH   4   5
+ATOM      5  C6  JRD d   1      24.982   6.253   8.201  0.00  0.00     0.099 A 
+ATOM      6  O1  JRD d   1      24.603   7.538   8.354  0.00  0.00    -0.216 OA
+ATOM      7  N1  JRD d   1      23.186   7.596   8.285  0.00  0.00    -0.133 NA
+ATOM      8  C8  JRD d   1      22.780   6.322   8.084  0.00  0.00     0.060 A 
+ATOM      9  C9  JRD d   1      21.331   5.953   7.998  0.00  0.00     0.072 C 
+ATOM     10  C7  JRD d   1      23.903   5.481   8.019  0.00  0.00     0.065 A 
+ENDBRANCH   4   5
+ENDBRANCH   3   4
+BRANCH   3  11
+ATOM     11  C10 JRD d   1      26.589   5.993  10.746  0.00  0.00     0.176 A 
+ATOM     12  S1  JRD d   1      26.937   5.366  12.331  0.00  0.00    -0.061 SA
+ATOM     13  C18 JRD d   1      26.175   6.769  12.978  0.00  0.00     0.085 A 
+ATOM     14  C11 JRD d   1      25.729   7.593  11.992  0.00  0.00     0.076 A 
+ATOM     15  N2  JRD d   1      25.998   7.154  10.716  0.00  0.00    -0.223 NA
+BRANCH  14  16
+ATOM     16  C12 JRD d   1      24.921   8.815  12.144  0.00  0.00    -0.007 A 
+ATOM     17  C17 JRD d   1      23.992   8.926  13.176  0.00  0.00     0.014 A 
+ATOM     18  C16 JRD d   1      23.070   9.959  13.180  0.00  0.00     0.001 A 
+ATOM     19  C15 JRD d   1      23.116  10.940  12.212  0.00  0.00     0.000 A 
+ATOM     20  C14 JRD d   1      24.057  10.867  11.208  0.00  0.00     0.001 A 
+ATOM     21  C13 JRD d   1      24.948   9.809  11.161  0.00  0.00     0.014 A 
+ENDBRANCH  14  16
+ENDBRANCH   3  11
+BRANCH   2  22
+ATOM     22  C1  JRD d   1      27.402   3.126   8.388  0.00  0.00     0.099 C 
+ATOM     23  C2  JRD d   1      28.160   1.835   8.612  0.00  0.00     0.014 C 
+ENDBRANCH   2  22
+TORSDOF 5

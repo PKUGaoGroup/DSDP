@@ -1,0 +1,30 @@
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C3_16  and  C11_10 
+REMARK    2  A    between atoms: C1_11  and  C2_13 
+ROOT
+ATOM      1  C10 EHQ d   1      -3.235   6.935 -17.922  0.00  0.00     0.124 A 
+ATOM      2  N9  EHQ d   1      -3.780   5.771 -18.215  0.00  0.00    -0.288 N 
+ATOM      3  C1  EHQ d   1      -4.065   7.068 -20.004  0.00  0.00     0.104 A 
+ATOM      4  N7  EHQ d   1      -4.279   5.828 -19.508  0.00  0.00    -0.174 NA
+ATOM      5  C3  EHQ d   1      -3.385   7.792 -19.028  0.00  0.00     0.023 A 
+ATOM      6  H7  EHQ d   1      -3.827   4.955 -17.588  0.00  0.00     0.188 HD
+ENDROOT
+BRANCH   3   7
+ATOM      7  C2  EHQ d   1      -4.489   7.483 -21.355  0.00  0.00     0.053 A 
+ATOM      8  C5  EHQ d   1      -5.737   7.350 -21.915  0.00  0.00     0.089 A 
+ATOM      9  C13 EHQ d   1      -6.978   6.747 -21.293  0.00  0.00     0.080 C 
+ATOM     10  O6  EHQ d   1      -5.636   7.819 -23.154  0.00  0.00    -0.217 OA
+ATOM     11  N4  EHQ d   1      -4.502   8.210 -23.398  0.00  0.00    -0.132 NA
+ATOM     12  C8  EHQ d   1      -3.704   8.065 -22.383  0.00  0.00     0.073 A 
+ATOM     13  C14 EHQ d   1      -2.241   8.422 -22.311  0.00  0.00     0.074 C 
+ENDBRANCH   3   7
+BRANCH   5  14
+ATOM     14  C11 EHQ d   1      -2.893   9.185 -19.122  0.00  0.00    -0.019 A 
+ATOM     15  C17 EHQ d   1      -1.567   9.470 -18.765  0.00  0.00     0.031 A 
+ATOM     16  C15 EHQ d   1      -1.087  10.752 -18.955  0.00  0.00     0.117 A 
+ATOM     17  N12 EHQ d   1      -1.874  11.720 -19.416  0.00  0.00    -0.273 NA
+ATOM     18  C16 EHQ d   1      -3.138  11.494 -19.760  0.00  0.00     0.117 A 
+ATOM     19  C18 EHQ d   1      -3.676  10.221 -19.650  0.00  0.00     0.031 A 
+ENDBRANCH   5  14
+TORSDOF 2

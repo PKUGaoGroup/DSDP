@@ -1,0 +1,55 @@
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O1_8  and  C1_1 
+REMARK    2  A    between atoms: O2_9  and  C2_2 
+REMARK    3  A    between atoms: O3_10  and  C3_3 
+REMARK    4  A    between atoms: C4_4  and  O4_11 
+REMARK    5  A    between atoms: C5_5  and  O5_12 
+REMARK    6  A    between atoms: C6_6  and  O6_13 
+REMARK    7  A    between atoms: O1_8  and  P1_7 
+REMARK    8  A    between atoms: P1_7  and  O9_16 
+REMARK    9  A    between atoms: P1_7  and  O8_15 
+ROOT
+ATOM      1  C1  LIP d 601      99.541  43.252 -11.277  0.00  0.00     0.196 C 
+ATOM      2  C2  LIP d 601      98.811  42.544 -12.459  0.00  0.00     0.181 C 
+ATOM      3  C3  LIP d 601      97.354  42.147 -12.079  0.00  0.00     0.180 C 
+ATOM      4  C4  LIP d 601      97.379  41.179 -10.871  0.00  0.00     0.180 C 
+ATOM      5  C5  LIP d 601      98.071  41.848  -9.665  0.00  0.00     0.180 C 
+ATOM      6  C6  LIP d 601      99.476  42.408  -9.976  0.00  0.00     0.181 C 
+ENDROOT
+BRANCH   1   7
+ATOM      7  O1  LIP d 601     100.919  43.488 -11.654  0.00  0.00    -0.286 OA
+BRANCH   7   8
+ATOM      8  P1  LIP d 601     101.950  44.566 -10.978  0.00  0.00     0.391 P 
+ATOM      9  O7  LIP d 601     103.220  44.799 -11.984  0.00  0.00    -0.632 OA
+BRANCH   8  10
+ATOM     10  O9  LIP d 601     101.141  45.993 -10.906  0.00  0.00    -0.307 OA
+ATOM     11  H   LIP d 601     100.850  46.245 -11.796  0.00  0.00     0.222 HD
+ENDBRANCH   8  10
+BRANCH   8  12
+ATOM     12  O8  LIP d 601     102.451  44.067  -9.673  0.00  0.00    -0.307 OA
+ATOM     13  H   LIP d 601     102.914  43.225  -9.805  0.00  0.00     0.222 HD
+ENDBRANCH   8  12
+ENDBRANCH   7   8
+ENDBRANCH   1   7
+BRANCH   2  14
+ATOM     14  O2  LIP d 601      99.566  41.380 -12.882  0.00  0.00    -0.390 OA
+ATOM     15  H   LIP d 601      99.625  40.749 -12.148  0.00  0.00     0.210 HD
+ENDBRANCH   2  14
+BRANCH   6  16
+ATOM     16  O6  LIP d 601      99.874  43.191  -8.855  0.00  0.00    -0.390 OA
+ATOM     17  H   LIP d 601      99.251  43.924  -8.735  0.00  0.00     0.210 HD
+ENDBRANCH   6  16
+BRANCH   3  18
+ATOM     18  O3  LIP d 601      96.609  41.599 -13.195  0.00  0.00    -0.390 OA
+ATOM     19  H   LIP d 601      97.034  40.781 -13.497  0.00  0.00     0.210 HD
+ENDBRANCH   3  18
+BRANCH   5  20
+ATOM     20  O5  LIP d 601      98.169  40.905  -8.597  0.00  0.00    -0.390 OA
+ATOM     21  H   LIP d 601      98.725  40.160  -8.874  0.00  0.00     0.210 HD
+ENDBRANCH   5  20
+BRANCH   4  22
+ATOM     22  O4  LIP d 601      96.060  40.755 -10.497  0.00  0.00    -0.390 OA
+ATOM     23  H   LIP d 601      95.538  41.525 -10.223  0.00  0.00     0.210 HD
+ENDBRANCH   4  22
+TORSDOF 9

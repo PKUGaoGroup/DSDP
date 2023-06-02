@@ -1,0 +1,75 @@
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CBJ_6  and  CBM_7 
+REMARK    2  A    between atoms: CBL_17  and  CBI_18 
+REMARK    3  A    between atoms: CBF_23  and  CBC_24 
+REMARK    4  A    between atoms: CBC_24  and  NBB_25 
+REMARK    5  A    between atoms: CAY_30  and  NAQ_31 
+REMARK    6  A    between atoms: CAG_41  and  NAC_42 
+REMARK       I    between atoms: NAC_42  and  CAB_43 
+REMARK    7  A    between atoms: CAB_43  and  CAA_45 
+ROOT
+ATOM      1  NBB G4H d   1      12.599 -14.838 -14.188  0.00  0.00    -0.067 N 
+ATOM      2  CBA G4H d   1      11.412 -15.518 -13.643  0.00  0.00     0.237 C 
+ATOM      3  CAZ G4H d   1      10.986 -16.706 -14.504  0.00  0.00     0.053 C 
+ATOM      4  CAW G4H d   1      12.292 -14.375 -15.551  0.00  0.00     0.237 C 
+ATOM      5  CAX G4H d   1      11.968 -15.545 -16.462  0.00  0.00     0.053 C 
+ATOM      6  CAY G4H d   1      10.724 -16.233 -15.940  0.00  0.00     0.098 C 
+ATOM      7  H16 G4H d   1      13.387 -15.466 -14.197  0.00  0.00     0.280 HD
+ENDROOT
+BRANCH   1   8
+ATOM      8  CBC G4H d   1      12.896 -13.651 -13.371  0.00  0.00     0.273 C 
+BRANCH   8   9
+ATOM      9  CBF G4H d   1      13.752 -13.909 -12.300  0.00  0.00    -0.033 A 
+ATOM     10  CBG G4H d   1      13.337 -13.618 -11.006  0.00  0.00     0.010 A 
+ATOM     11  CBH G4H d   1      14.183 -13.863  -9.927  0.00  0.00     0.014 A 
+ATOM     12  CBI G4H d   1      15.459 -14.383 -10.139  0.00  0.00    -0.006 A 
+ATOM     13  CBD G4H d   1      15.871 -14.681 -11.433  0.00  0.00     0.014 A 
+ATOM     14  CBE G4H d   1      15.025 -14.436 -12.513  0.00  0.00     0.010 A 
+BRANCH  12  15
+ATOM     15  CBL G4H d   1      16.313 -14.652  -9.068  0.00  0.00     0.078 A 
+ATOM     16  CBM G4H d   1      16.726 -13.700  -8.122  0.00  0.00     0.005 A 
+ATOM     17  CBN G4H d   1      17.568 -14.104  -7.092  0.00  0.00     0.033 A 
+ATOM     18  CBS G4H d   1      17.985 -15.423  -7.016  0.00  0.00     0.060 A 
+ATOM     19  CBQ G4H d   1      18.828 -15.844  -5.996  0.00  0.00     0.278 A 
+ATOM     20  CBP G4H d   1      17.551 -16.327  -7.968  0.00  0.00     0.056 A 
+ATOM     21  OAN G4H d   1      19.222 -15.053  -5.143  0.00  0.00    -0.265 OA
+ATOM     22  NBT G4H d   1      19.234 -17.183  -5.938  0.00  0.00    -0.226 NA
+ATOM     23  CBR G4H d   1      18.819 -18.047  -6.848  0.00  0.00     0.099 A 
+ATOM     24  CBO G4H d   1      17.972 -17.649  -7.881  0.00  0.00     0.107 A 
+ATOM     25  NBK G4H d   1      16.737 -15.924  -8.954  0.00  0.00    -0.251 NA
+BRANCH  16  26
+ATOM     26  CBJ G4H d   1      16.360 -12.354  -8.127  0.00  0.00    -0.024 A 
+ATOM     27  CAR G4H d   1      15.858 -11.802  -6.954  0.00  0.00     0.012 A 
+ATOM     28  CAS G4H d   1      15.494 -10.462  -6.913  0.00  0.00     0.001 A 
+ATOM     29  CAT G4H d   1      15.645  -9.663  -8.039  0.00  0.00     0.000 A 
+ATOM     30  CAU G4H d   1      16.160 -10.206  -9.211  0.00  0.00     0.001 A 
+ATOM     31  CAV G4H d   1      16.525 -11.547  -9.251  0.00  0.00     0.012 A 
+ENDBRANCH  16  26
+ENDBRANCH  12  15
+ENDBRANCH   8   9
+ENDBRANCH   1   8
+BRANCH   6  32
+ATOM     32  NAQ G4H d   1      10.311 -17.333 -16.862  0.00  0.00    -0.292 N 
+ATOM     33  CAL G4H d   1       9.289 -17.315 -17.728  0.00  0.00     0.068 A 
+ATOM     34  CAH G4H d   1       8.372 -16.381 -18.005  0.00  0.00     0.061 A 
+ATOM     35  CAK G4H d   1       9.267 -18.491 -18.375  0.00  0.00     0.065 A 
+ATOM     36  CAG G4H d   1       7.388 -16.623 -18.964  0.00  0.00     0.037 A 
+ATOM     37  CAF G4H d   1       7.377 -17.841 -19.623  0.00  0.00     0.032 A 
+ATOM     38  CAE G4H d   1       8.350 -18.770 -19.298  0.00  0.00     0.034 A 
+ATOM     39  NAJ G4H d   1      10.272 -19.231 -17.922  0.00  0.00    -0.302 N 
+ATOM     40  CAI G4H d   1      10.904 -18.513 -17.010  0.00  0.00     0.330 A 
+ATOM     41  CAO G4H d   1      10.621 -20.599 -18.359  0.00  0.00     0.161 C 
+ATOM     42  OAD G4H d   1      11.889 -18.912 -16.393  0.00  0.00    -0.246 OA
+BRANCH  36  43
+ATOM     43  NAC G4H d   1       6.447 -15.728 -19.272  0.00  0.00    -0.327 N 
+ATOM     44  CAB G4H d   1       5.564 -15.403 -18.315  0.00  0.00     0.221 C 
+ATOM     45  OAP G4H d   1       5.577 -15.863 -17.176  0.00  0.00    -0.273 OA
+ATOM     46  H32 G4H d   1       6.402 -15.315 -20.182  0.00  0.00     0.169 HD
+BRANCH  44  47
+ATOM     47  CAA G4H d   1       4.490 -14.400 -18.732  0.00  0.00     0.098 C 
+ATOM     48  CAM G4H d   1       4.374 -14.158 -20.237  0.00  0.00     0.014 C 
+ENDBRANCH  44  47
+ENDBRANCH  36  43
+ENDBRANCH   6  32
+TORSDOF 7

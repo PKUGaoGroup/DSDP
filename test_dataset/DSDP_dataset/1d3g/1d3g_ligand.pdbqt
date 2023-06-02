@@ -1,0 +1,45 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C3_3  and  C23_7 
+REMARK    2  A    between atoms: C5_6  and  C4_4 
+REMARK    3  A    between atoms: O1_12  and  C5_6 
+REMARK    4  A    between atoms: C16_20  and  C17_22 
+ROOT
+ATOM      1  C1  BRE d 397      50.033  43.306  -5.250  0.00  0.00     0.052 C 
+ATOM      2  C2  BRE d 397      49.712  42.458  -4.037  0.00  0.00    -0.015 A 
+ATOM      3  C3  BRE d 397      50.234  42.754  -2.792  0.00  0.00     0.074 A 
+ATOM      4  C4  BRE d 397      48.851  41.372  -4.163  0.00  0.00     0.058 A 
+ATOM      5  N1  BRE d 397      49.967  41.949  -1.727  0.00  0.00    -0.247 NA
+ATOM      6  C6  BRE d 397      48.524  40.594  -3.052  0.00  0.00     0.013 A 
+ATOM      7  C7  BRE d 397      49.113  40.919  -1.836  0.00  0.00     0.069 A 
+ATOM      8  C10 BRE d 397      47.599  39.556  -3.078  0.00  0.00     0.057 A 
+ATOM      9  C11 BRE d 397      48.781  40.210  -0.686  0.00  0.00     0.035 A 
+ATOM     10  C14 BRE d 397      47.269  38.855  -1.932  0.00  0.00     0.117 A 
+ATOM     11  C15 BRE d 397      47.872  39.167  -0.723  0.00  0.00     0.044 A 
+ATOM     12  F1  BRE d 397      46.397  37.974  -1.962  0.00  0.00    -0.206 F 
+ENDROOT
+BRANCH   3  13
+ATOM     13  C23 BRE d 397      51.170  43.872  -2.483  0.00  0.00    -0.007 A 
+ATOM     14  C8  BRE d 397      52.283  44.062  -3.309  0.00  0.00     0.014 A 
+ATOM     15  C12 BRE d 397      53.165  45.055  -2.944  0.00  0.00     0.013 A 
+ATOM     16  C16 BRE d 397      52.996  45.860  -1.829  0.00  0.00    -0.026 A 
+ATOM     17  C13 BRE d 397      51.886  45.630  -1.000  0.00  0.00     0.013 A 
+ATOM     18  C9  BRE d 397      50.984  44.641  -1.357  0.00  0.00     0.014 A 
+BRANCH  16  19
+ATOM     19  C17 BRE d 397      54.072  46.885  -1.423  0.00  0.00    -0.026 A 
+ATOM     20  C19 BRE d 397      54.616  47.788  -2.329  0.00  0.00     0.012 A 
+ATOM     21  C22 BRE d 397      55.639  48.629  -1.915  0.00  0.00     0.001 A 
+ATOM     22  C21 BRE d 397      56.186  48.532  -0.653  0.00  0.00     0.000 A 
+ATOM     23  C20 BRE d 397      55.678  47.613   0.247  0.00  0.00     0.001 A 
+ATOM     24  C18 BRE d 397      54.651  46.771  -0.148  0.00  0.00     0.012 A 
+ENDBRANCH  16  19
+ENDBRANCH   3  13
+BRANCH   4  25
+ATOM     25  C5  BRE d 397      48.299  41.031  -5.521  0.00  0.00     0.177 C 
+ATOM     26  O2  BRE d 397      49.169  40.460  -6.379  0.00  0.00    -0.646 OA
+BRANCH  25  27
+ATOM     27  O1  BRE d 397      47.171  41.232  -5.868  0.00  0.00    -0.773 OA
+ATOM     28  H   BRE d 397      46.562  41.628  -5.276  0.00  0.00     0.167 HD
+ENDBRANCH  25  27
+ENDBRANCH   4  25
+TORSDOF 4

@@ -1,0 +1,243 @@
+REMARK WARNING: 32 MAX_TORS EXCEEDED!!!
+REMARK  53 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O1_8  and  C1_1 
+REMARK    2  A    between atoms: C5_2  and  O3_9 
+REMARK    3  A    between atoms: C4_3  and  O4_7 
+REMARK    4  A    between atoms: C3_4  and  C2_5 
+REMARK    5  A    between atoms: C2_5  and  O6_32 
+REMARK    6  A    between atoms: C6_6  and  O5_30 
+REMARK    7  A    between atoms: O4_7  and  CAT_33 
+REMARK    8  A    between atoms: CAM_29  and  O1_8 
+REMARK    9  A    between atoms: CBR_12  and  CBS_11 
+REMARK   10  A    between atoms: CBQ_13  and  CBR_12 
+REMARK   11  A    between atoms: CBP_14  and  CBQ_13 
+REMARK   12  A    between atoms: CBO_15  and  CBP_14 
+REMARK   13  A    between atoms: CBN_16  and  CBO_15 
+REMARK   14  A    between atoms: CBM_17  and  CBN_16 
+REMARK   15  A    between atoms: CBL_18  and  CBM_17 
+REMARK   16  A    between atoms: CBK_19  and  CBL_18 
+REMARK   17  A    between atoms: CBJ_20  and  CBK_19 
+REMARK   18  A    between atoms: CBI_21  and  CBJ_20 
+REMARK   19  A    between atoms: CBH_22  and  CBI_21 
+REMARK   20  A    between atoms: CBG_23  and  CBH_22 
+REMARK   21  A    between atoms: CAQ_24  and  CBG_23 
+REMARK   22  A    between atoms: CAQ_24  and  OAR_25 
+REMARK   23  A    between atoms: CAP_26  and  CAQ_24 
+REMARK   24  A    between atoms: CAP_26  and  OAS_27 
+REMARK   25  A    between atoms: CAN_28  and  CAP_26 
+REMARK   26  A    between atoms: CAN_28  and  CAM_29 
+REMARK   27  A    between atoms: CAN_28  and  NAO_44 
+REMARK   28  A    between atoms: CAT_33  and  CAU_34 
+REMARK   29  A    between atoms: CAX_37  and  CBA_38 
+REMARK       I    between atoms: NAO_44  and  CBE_45 
+REMARK   30  A    between atoms: CBE_45  and  CBU_47 
+REMARK   31  A    between atoms: CBU_47  and  CBV_48 
+REMARK   32  A    between atoms: CBV_48  and  CBW_49 
+REMARK   33  A    between atoms: CBW_49  and  CBX_50 
+REMARK   34  A    between atoms: CBX_50  and  CBY_51 
+REMARK   35  A    between atoms: CBY_51  and  CBZ_52 
+REMARK   36  A    between atoms: CBZ_52  and  CCA_53 
+REMARK   37  A    between atoms: CCA_53  and  CCB_54 
+REMARK   38  A    between atoms: CCB_54  and  CCC_55 
+REMARK   39  A    between atoms: CCC_55  and  CCD_56 
+REMARK   40  A    between atoms: CCD_56  and  CCE_57 
+REMARK   41  A    between atoms: CCE_57  and  CCF_58 
+REMARK   42  A    between atoms: CCF_58  and  CCG_59 
+REMARK   43  A    between atoms: CCG_59  and  CCH_60 
+REMARK   44  A    between atoms: CCH_60  and  CCI_61 
+REMARK   45  A    between atoms: CCI_61  and  CCJ_62 
+REMARK   46  A    between atoms: CCJ_62  and  CCK_63 
+REMARK   47  A    between atoms: CCK_63  and  CCL_64 
+REMARK   48  A    between atoms: CCL_64  and  CCM_65 
+REMARK   49  A    between atoms: CCM_65  and  CCN_66 
+REMARK   50  A    between atoms: CCN_66  and  CCO_67 
+REMARK   51  A    between atoms: CCO_67  and  CCP_68 
+REMARK   52  A    between atoms: CCP_68  and  CCQ_69 
+REMARK   53  A    between atoms: CCQ_69  and  CCR_70 
+ROOT
+ATOM      1  CAN JUD d   1     -53.059 -30.961 207.676  0.00  0.00     0.139 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  CAP JUD d   1     -53.085 -31.599 206.272  0.00  0.00     0.171 C 
+BRANCH   2   3
+ATOM      3  CAQ JUD d   1     -52.142 -30.890 205.279  0.00  0.00     0.149 C 
+BRANCH   3   4
+ATOM      4  CBG JUD d   1     -50.672 -30.961 205.734  0.00  0.00     0.034 C 
+BRANCH   4   5
+ATOM      5  CBH JUD d   1     -49.711 -30.566 204.597  0.00  0.00     0.002 C 
+BRANCH   5   6
+ATOM      6  CBI JUD d   1     -49.993 -29.132 204.119  0.00  0.00     0.000 C 
+BRANCH   6   7
+ATOM      7  CBJ JUD d   1     -48.773 -28.555 203.383  0.00  0.00     0.000 C 
+BRANCH   7   8
+ATOM      8  CBK JUD d   1     -48.694 -29.115 201.956  0.00  0.00     0.000 C 
+BRANCH   8   9
+ATOM      9  CBL JUD d   1     -47.579 -28.395 201.185  0.00  0.00     0.000 C 
+BRANCH   9  10
+ATOM     10  CBM JUD d   1     -47.562 -28.841 199.716  0.00  0.00     0.000 C 
+BRANCH  10  11
+ATOM     11  CBN JUD d   1     -46.624 -30.038 199.544  0.00  0.00     0.000 C 
+BRANCH  11  12
+ATOM     12  CBO JUD d   1     -46.576 -30.454 198.069  0.00  0.00     0.000 C 
+BRANCH  12  13
+ATOM     13  CBP JUD d   1     -45.420 -31.441 197.849  0.00  0.00     0.000 C 
+BRANCH  13  14
+ATOM     14  CBQ JUD d   1     -45.885 -32.618 196.983  0.00  0.00     0.000 C 
+BRANCH  14  15
+ATOM     15  CBR JUD d   1     -44.719 -33.591 196.753  0.00  0.00    -0.000 C 
+BRANCH  15  16
+ATOM     16  CBS JUD d   1     -45.233 -35.036 196.762  0.00  0.00    -0.005 C 
+ATOM     17  CBT JUD d   1     -44.062 -36.005 196.568  0.00  0.00     0.005 C 
+ENDBRANCH  15  16
+ENDBRANCH  14  15
+ENDBRANCH  13  14
+ENDBRANCH  12  13
+ENDBRANCH  11  12
+ENDBRANCH  10  11
+ENDBRANCH   9  10
+ENDBRANCH   8   9
+ENDBRANCH   7   8
+ENDBRANCH   6   7
+ENDBRANCH   5   6
+ENDBRANCH   4   5
+ENDBRANCH   3   4
+BRANCH   3  18
+ATOM     18  OAR JUD d   1     -52.289 -31.522 204.003  0.00  0.00    -0.393 OA
+ATOM     19  H39 JUD d   1     -52.025 -32.432 204.069  0.00  0.00     0.210 HD
+ENDBRANCH   3  18
+ENDBRANCH   2   3
+BRANCH   2  20
+ATOM     20  OAS JUD d   1     -52.720 -32.980 206.366  0.00  0.00    -0.391 OA
+ATOM     21  H41 JUD d   1     -52.795 -33.385 205.510  0.00  0.00     0.210 HD
+ENDBRANCH   2  20
+ENDBRANCH   1   2
+BRANCH   1  22
+ATOM     22  CAM JUD d   1     -54.086 -31.657 208.580  0.00  0.00     0.199 C 
+BRANCH  22  23
+ATOM     23  O1  JUD d   1     -55.398 -31.409 208.064  0.00  0.00    -0.356 OA
+BRANCH  23  24
+ATOM     24  C1  JUD d   1     -56.446 -31.996 208.857  0.00  0.00     0.291 C 
+ATOM     25  C6  JUD d   1     -57.760 -31.843 208.116  0.00  0.00     0.204 C 
+ATOM     26  C5  JUD d   1     -58.108 -30.365 207.964  0.00  0.00     0.183 C 
+ATOM     27  C4  JUD d   1     -58.118 -29.654 209.321  0.00  0.00     0.184 C 
+ATOM     28  C3  JUD d   1     -56.793 -29.949 210.059  0.00  0.00     0.179 C 
+ATOM     29  O2  JUD d   1     -56.572 -31.373 210.149  0.00  0.00    -0.348 OA
+BRANCH  25  30
+ATOM     30  O5  JUD d   1     -57.637 -32.432 206.816  0.00  0.00    -0.388 OA
+ATOM     31  H45 JUD d   1     -56.949 -31.989 206.333  0.00  0.00     0.210 HD
+ENDBRANCH  25  30
+BRANCH  26  32
+ATOM     32  O3  JUD d   1     -59.398 -30.262 207.359  0.00  0.00    -0.390 OA
+ATOM     33  H8  JUD d   1     -59.381 -30.681 206.506  0.00  0.00     0.210 HD
+ENDBRANCH  26  32
+BRANCH  27  34
+ATOM     34  O4  JUD d   1     -59.274 -30.095 210.078  0.00  0.00    -0.376 OA
+BRANCH  34  35
+ATOM     35  CAT JUD d   1     -59.983 -29.029 210.746  0.00  0.00     0.207 C 
+BRANCH  35  36
+ATOM     36  CAU JUD d   1     -61.010 -28.495 209.952  0.00  0.00    -0.035 A 
+ATOM     37  CAV JUD d   1     -61.138 -27.112 209.801  0.00  0.00     0.010 A 
+ATOM     38  CAW JUD d   1     -62.163 -26.574 209.023  0.00  0.00     0.017 A 
+ATOM     39  CAX JUD d   1     -63.083 -27.410 208.381  0.00  0.00     0.047 A 
+ATOM     40  CAY JUD d   1     -62.958 -28.795 208.543  0.00  0.00     0.017 A 
+ATOM     41  CAZ JUD d   1     -61.931 -29.331 209.322  0.00  0.00     0.010 A 
+BRANCH  39  42
+ATOM     42  CBA JUD d   1     -64.123 -26.867 207.598  0.00  0.00     0.417 C 
+ATOM     43  FBS JUD d   1     -63.722 -25.686 207.024  0.00  0.00    -0.166 F 
+ATOM     44  FBT JUD d   1     -65.207 -26.630 208.392  0.00  0.00    -0.166 F 
+ATOM     45  FBR JUD d   1     -64.488 -27.741 206.591  0.00  0.00    -0.166 F 
+ENDBRANCH  39  42
+ENDBRANCH  35  36
+ENDBRANCH  34  35
+ENDBRANCH  27  34
+BRANCH  28  46
+ATOM     46  C2  JUD d   1     -56.769 -29.377 211.484  0.00  0.00     0.198 C 
+BRANCH  46  47
+ATOM     47  O6  JUD d   1     -56.654 -27.953 211.432  0.00  0.00    -0.398 OA
+ATOM     48  H46 JUD d   1     -56.640 -27.605 212.316  0.00  0.00     0.209 HD
+ENDBRANCH  46  47
+ENDBRANCH  28  46
+ENDBRANCH  23  24
+ENDBRANCH  22  23
+ENDBRANCH   1  22
+BRANCH   1  49
+ATOM     49  NAO JUD d   1     -53.405 -29.530 207.595  0.00  0.00    -0.352 N 
+ATOM     50  CBE JUD d   1     -53.111 -28.673 208.589  0.00  0.00     0.218 C 
+ATOM     51  OBF JUD d   1     -52.547 -28.997 209.634  0.00  0.00    -0.274 OA
+ATOM     52  H53 JUD d   1     -53.871 -29.188 206.779  0.00  0.00     0.163 HD
+BRANCH  50  53
+ATOM     53  CBU JUD d   1     -53.560 -27.223 208.355  0.00  0.00     0.103 C 
+BRANCH  53  54
+ATOM     54  CBV JUD d   1     -52.435 -26.232 208.684  0.00  0.00     0.009 C 
+BRANCH  54  55
+ATOM     55  CBW JUD d   1     -51.544 -25.991 207.460  0.00  0.00     0.000 C 
+BRANCH  55  56
+ATOM     56  CBX JUD d   1     -50.668 -24.764 207.736  0.00  0.00     0.000 C 
+BRANCH  56  57
+ATOM     57  CBY JUD d   1     -49.479 -24.701 206.771  0.00  0.00     0.000 C 
+BRANCH  57  58
+ATOM     58  CBZ JUD d   1     -48.323 -23.981 207.468  0.00  0.00     0.000 C 
+BRANCH  58  59
+ATOM     59  CCA JUD d   1     -47.232 -23.630 206.450  0.00  0.00     0.000 C 
+BRANCH  59  60
+ATOM     60  CCB JUD d   1     -45.995 -23.065 207.165  0.00  0.00     0.000 C 
+BRANCH  60  61
+ATOM     61  CCC JUD d   1     -45.302 -24.168 207.979  0.00  0.00     0.000 C 
+BRANCH  61  62
+ATOM     62  CCD JUD d   1     -43.792 -23.927 208.088  0.00  0.00     0.000 C 
+BRANCH  62  63
+ATOM     63  CCE JUD d   1     -43.490 -22.820 209.100  0.00  0.00     0.000 C 
+BRANCH  63  64
+ATOM     64  CCF JUD d   1     -43.441 -23.394 210.520  0.00  0.00     0.000 C 
+BRANCH  64  65
+ATOM     65  CCG JUD d   1     -43.036 -22.283 211.492  0.00  0.00     0.000 C 
+BRANCH  65  66
+ATOM     66  CCH JUD d   1     -43.526 -22.611 212.905  0.00  0.00     0.000 C 
+BRANCH  66  67
+ATOM     67  CCI JUD d   1     -43.253 -21.414 213.821  0.00  0.00     0.000 C 
+BRANCH  67  68
+ATOM     68  CCJ JUD d   1     -44.452 -20.460 213.800  0.00  0.00     0.000 C 
+BRANCH  68  69
+ATOM     69  CCK JUD d   1     -43.989 -19.034 214.119  0.00  0.00     0.000 C 
+BRANCH  69  70
+ATOM     70  CCL JUD d   1     -45.203 -18.138 214.388  0.00  0.00     0.000 C 
+BRANCH  70  71
+ATOM     71  CCM JUD d   1     -45.797 -17.624 213.066  0.00  0.00     0.000 C 
+BRANCH  71  72
+ATOM     72  CCN JUD d   1     -47.329 -17.712 213.110  0.00  0.00     0.000 C 
+BRANCH  72  73
+ATOM     73  CCO JUD d   1     -47.990 -16.682 212.175  0.00  0.00     0.000 C 
+BRANCH  73  74
+ATOM     74  CCP JUD d   1     -47.474 -16.772 210.729  0.00  0.00     0.000 C 
+BRANCH  74  75
+ATOM     75  CCQ JUD d   1     -47.728 -18.158 210.138  0.00  0.00    -0.000 C 
+BRANCH  75  76
+ATOM     76  CCR JUD d   1     -47.585 -18.086 208.617  0.00  0.00    -0.005 C 
+ATOM     77  CCS JUD d   1     -47.585 -19.502 208.032  0.00  0.00     0.005 C 
+ENDBRANCH  75  76
+ENDBRANCH  74  75
+ENDBRANCH  73  74
+ENDBRANCH  72  73
+ENDBRANCH  71  72
+ENDBRANCH  70  71
+ENDBRANCH  69  70
+ENDBRANCH  68  69
+ENDBRANCH  67  68
+ENDBRANCH  66  67
+ENDBRANCH  65  66
+ENDBRANCH  64  65
+ENDBRANCH  63  64
+ENDBRANCH  62  63
+ENDBRANCH  61  62
+ENDBRANCH  60  61
+ENDBRANCH  59  60
+ENDBRANCH  58  59
+ENDBRANCH  57  58
+ENDBRANCH  56  57
+ENDBRANCH  55  56
+ENDBRANCH  54  55
+ENDBRANCH  53  54
+ENDBRANCH  50  53
+ENDBRANCH   1  49
+TORSDOF 53

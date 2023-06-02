@@ -1,0 +1,42 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA5_3  and  CA6_2 
+REMARK    2  A    between atoms: CA6_2  and  CB1_12 
+REMARK    3  A    between atoms: CA3_5  and  CA4_4 
+REMARK    4  A    between atoms: OA3_8  and  CA2_7 
+REMARK    5  A    between atoms: CA2_7  and  CA1_9 
+REMARK    6  A    between atoms: CA1_9  and  OA1_11 
+ROOT
+ATOM      1  CA5 C1E d 301     -19.043  19.812   8.366  0.00  0.00     0.057 C 
+ATOM      2  CA4 C1E d 301     -20.305  20.147   8.226  0.00  0.00     0.031 C 
+ENDROOT
+BRANCH   2   3
+ATOM      3  CA3 C1E d 301     -21.199  19.341   7.390  0.00  0.00     0.074 C 
+ATOM      4 CLA1 C1E d 301     -20.564  17.967   6.453  0.00  0.00    -0.081 Cl
+ATOM      5  CA2 C1E d 301     -22.493  19.669   7.329  0.00  0.00     0.162 C 
+BRANCH   5   6
+ATOM      6  OA3 C1E d 301     -23.280  18.919   6.578  0.00  0.00    -0.354 OA
+ATOM      7  H   C1E d 301     -22.924  18.189   6.110  0.00  0.00     0.218 HD
+ENDBRANCH   5   6
+BRANCH   5   8
+ATOM      8  CA1 C1E d 301     -23.058  20.818   8.065  0.00  0.00     0.202 C 
+ATOM      9  OA2 C1E d 301     -23.109  21.949   7.486  0.00  0.00    -0.645 OA
+BRANCH   8  10
+ATOM     10  OA1 C1E d 301     -23.471  20.645   9.244  0.00  0.00    -0.771 OA
+ATOM     11  H   C1E d 301     -23.418  19.797   9.639  0.00  0.00     0.167 HD
+ENDBRANCH   8  10
+ENDBRANCH   5   8
+ENDBRANCH   2   3
+BRANCH   1  12
+ATOM     12  CA6 C1E d 301     -18.188  20.626   9.221  0.00  0.00     0.182 C 
+ATOM     13  OA4 C1E d 301     -18.515  21.719   9.725  0.00  0.00    -0.288 OA
+BRANCH  12  14
+ATOM     14  CB1 C1E d 301     -16.865  19.992   9.463  0.00  0.00     0.014 A 
+ATOM     15  CB2 C1E d 301     -15.792  20.291   8.624  0.00  0.00     0.015 A 
+ATOM     16  CB3 C1E d 301     -14.572  19.671   8.879  0.00  0.00     0.001 A 
+ATOM     17  CB4 C1E d 301     -14.463  18.762   9.942  0.00  0.00     0.000 A 
+ATOM     18  CB5 C1E d 301     -15.552  18.457  10.767  0.00  0.00     0.001 A 
+ATOM     19  CB6 C1E d 301     -16.768  19.077  10.525  0.00  0.00     0.015 A 
+ENDBRANCH  12  14
+ENDBRANCH   1  12
+TORSDOF 6

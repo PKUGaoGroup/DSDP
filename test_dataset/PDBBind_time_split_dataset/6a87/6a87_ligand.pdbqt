@@ -1,0 +1,68 @@
+REMARK  10 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  S_26 
+REMARK    2  A    between atoms: N2_9  and  C2_2 
+REMARK    3  A    between atoms: C3_3  and  O3_10 
+REMARK    4  A    between atoms: C4_4  and  O4_11 
+REMARK    5  A    between atoms: C5_5  and  C6_6 
+REMARK    6  A    between atoms: C6_6  and  O6_13 
+REMARK       I    between atoms: C7_7  and  N2_9 
+REMARK    7  A    between atoms: O6_13  and  C1_15 
+REMARK    8  A    between atoms: C2_16  and  O2_21 
+REMARK    9  A    between atoms: C3_17  and  O3_22 
+REMARK   10  A    between atoms: C4_18  and  O4_23 
+ROOT
+ATOM      1  C1  NAG d   1     -22.121  41.271   7.582  0.00  0.00     0.208 C 
+ATOM      2  C2  NAG d   1     -22.491  42.490   6.705  0.00  0.00     0.154 C 
+ATOM      3  C3  NAG d   1     -23.309  41.965   5.503  0.00  0.00     0.175 C 
+ATOM      4  C4  NAG d   1     -22.522  40.900   4.747  0.00  0.00     0.180 C 
+ATOM      5  C5  NAG d   1     -22.072  39.795   5.740  0.00  0.00     0.178 C 
+ATOM      6  O5  NAG d   1     -21.350  40.311   6.859  0.00  0.00    -0.363 OA
+ENDROOT
+BRANCH   5   7
+ATOM      7  C6  NAG d   1     -21.187  38.696   5.156  0.00  0.00     0.205 C 
+BRANCH   7   8
+ATOM      8  O6  NAG d   1     -19.886  39.213   4.877  0.00  0.00    -0.356 OA
+BRANCH   8   9
+ATOM      9  C1  NAG d   1     -19.709  39.350   3.450  0.00  0.00     0.291 C 
+ATOM     10  C2  NAG d   1     -18.441  40.168   3.266  0.00  0.00     0.204 C 
+ATOM     11  C3  NAG d   1     -17.207  39.350   3.656  0.00  0.00     0.183 C 
+ATOM     12  C4  NAG d   1     -17.203  38.049   2.867  0.00  0.00     0.178 C 
+ATOM     13  C5  NAG d   1     -18.505  37.317   3.171  0.00  0.00     0.152 C 
+ATOM     14  C6  NAG d   1     -18.497  35.982   2.470  0.00  0.00     0.042 C 
+ATOM     15  O5  NAG d   1     -19.640  38.093   2.754  0.00  0.00    -0.351 OA
+BRANCH  10  16
+ATOM     16  O2  NAG d   1     -18.525  41.322   4.108  0.00  0.00    -0.388 OA
+ATOM     17  H22 NAG d   1     -18.597  41.047   5.014  0.00  0.00     0.210 HD
+ENDBRANCH  10  16
+BRANCH  11  18
+ATOM     18  O3  NAG d   1     -16.005  40.064   3.374  0.00  0.00    -0.390 OA
+ATOM     19  H23 NAG d   1     -15.960  40.252   2.444  0.00  0.00     0.210 HD
+ENDBRANCH  11  18
+BRANCH  12  20
+ATOM     20  O4  NAG d   1     -17.062  38.324   1.462  0.00  0.00    -0.390 OA
+ATOM     21  H24 NAG d   1     -16.242  38.779   1.310  0.00  0.00     0.210 HD
+ENDBRANCH  12  20
+ENDBRANCH   8   9
+ENDBRANCH   7   8
+ENDBRANCH   5   7
+BRANCH   4  22
+ATOM     22  O4  NAG d   1     -23.389  40.401   3.691  0.00  0.00    -0.390 OA
+ATOM     23  H13 NAG d   1     -23.631  41.118   3.117  0.00  0.00     0.210 HD
+ENDBRANCH   4  22
+BRANCH   3  24
+ATOM     24  O3  NAG d   1     -23.792  42.941   4.563  0.00  0.00    -0.391 OA
+ATOM     25  H12 NAG d   1     -23.055  43.341   4.117  0.00  0.00     0.210 HD
+ENDBRANCH   3  24
+BRANCH   1  26
+ATOM     26  S   NAG d   1     -21.399  41.489   9.240  0.00  0.00    -0.140 SA
+ATOM     27  C   NAG d   1     -21.064  39.777   9.717  0.00  0.00     0.092 C 
+ENDBRANCH   1  26
+BRANCH   2  28
+ATOM     28  N2  NAG d   1     -23.229  43.538   7.412  0.00  0.00    -0.351 N 
+ATOM     29  C7  NAG d   1     -22.766  44.788   7.642  0.00  0.00     0.214 C 
+ATOM     30  C8  NAG d   1     -23.735  45.696   8.388  0.00  0.00     0.117 C 
+ATOM     31  O7  NAG d   1     -21.643  45.180   7.277  0.00  0.00    -0.274 OA
+ATOM     32  H11 NAG d   1     -24.143  43.313   7.750  0.00  0.00     0.163 HD
+ENDBRANCH   2  28
+TORSDOF 10

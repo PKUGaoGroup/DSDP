@@ -1,0 +1,43 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C7_2  and  C6_4 
+REMARK       I    between atoms: C6_4  and  N1_6 
+REMARK    2  A    between atoms: N1_6  and  C5_7 
+REMARK    3  A    between atoms: C5_7  and  C4_8 
+REMARK    4  A    between atoms: C9_16  and  C10_18 
+ROOT
+ATOM      1  O2  QJP d   1      19.366  55.325  88.060  0.00  0.00    -0.388 OA
+ATOM      2  C11 QJP d   1      22.480  54.837  89.964  0.00  0.00     0.134 C 
+ATOM      3  C14 QJP d   1      19.909  56.520  88.666  0.00  0.00     0.175 C 
+ATOM      4  C15 QJP d   1      20.328  54.763  87.153  0.00  0.00     0.199 C 
+ATOM      5  C12 QJP d   1      22.305  57.411  88.901  0.00  0.00     0.091 C 
+ATOM      6  C13 QJP d   1      21.281  56.716  88.029  0.00  0.00     0.050 C 
+ATOM      7  C10 QJP d   1      21.667  55.314  87.610  0.00  0.00     0.064 C 
+ATOM      8  N2  QJP d   1      22.057  54.473  88.762  0.00  0.00    -0.359 N 
+ATOM      9  N3  QJP d   1      22.803  53.923  90.883  0.00  0.00    -0.380 N 
+ATOM     10  S1  QJP d   1      22.621  56.487  90.423  0.00  0.00    -0.094 SA
+ATOM     11  H22 QJP d   1      21.990  53.457  88.608  0.00  0.00     0.162 HD
+ATOM     12  H23 QJP d   1      23.130  54.221  91.813  0.00  0.00     0.158 HD
+ATOM     13  H24 QJP d   1      22.725  52.920  90.662  0.00  0.00     0.158 HD
+ENDROOT
+BRANCH   7  14
+ATOM     14  C9  QJP d   1      22.692  55.325  86.518  0.00  0.00     0.030 A 
+ATOM     15  C7  QJP d   1      24.128  54.917  86.786  0.00  0.00     0.085 A 
+ATOM     16  C8  QJP d   1      23.219  54.029  85.973  0.00  0.00     0.022 A 
+BRANCH  15  17
+ATOM     17  C6  QJP d   1      25.249  55.620  86.137  0.00  0.00     0.222 C 
+ATOM     18  O1  QJP d   1      25.177  56.063  84.992  0.00  0.00    -0.273 OA
+ATOM     19  N1  QJP d   1      26.359  55.727  86.949  0.00  0.00    -0.360 N 
+ATOM     20  H5  QJP d   1      26.300  55.429  87.902  0.00  0.00     0.162 HD
+BRANCH  19  21
+ATOM     21  C5  QJP d   1      27.606  56.262  86.448  0.00  0.00     0.127 C 
+BRANCH  21  22
+ATOM     22  C4  QJP d   1      28.637  56.165  87.535  0.00  0.00     0.007 A 
+ATOM     23  C3  QJP d   1      30.069  56.087  87.076  0.00  0.00     0.011 A 
+ATOM     24  C2  QJP d   1      29.384  54.867  87.615  0.00  0.00    -0.013 A 
+ATOM     25  C1  QJP d   1      29.800  54.326  88.955  0.00  0.00     0.010 C 
+ENDBRANCH  21  22
+ENDBRANCH  19  21
+ENDBRANCH  15  17
+ENDBRANCH   7  14
+TORSDOF 4

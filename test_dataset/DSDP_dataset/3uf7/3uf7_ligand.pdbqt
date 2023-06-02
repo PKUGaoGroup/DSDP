@@ -1,0 +1,55 @@
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  CA_2 
+REMARK    2  A    between atoms: CB_5  and  CA_2 
+REMARK    3  A    between atoms: CA_2  and  C_3 
+REMARK       I    between atoms: N_12  and  C_3 
+REMARK    4  A    between atoms: CB_5  and  CG_6 
+REMARK    5  A    between atoms: N_12  and  CA_13 
+REMARK    6  A    between atoms: CB_16  and  CA_13 
+REMARK    7  A    between atoms: CA_13  and  C_14 
+REMARK    8  A    between atoms: CG_17  and  CB_16 
+ROOT
+ATOM      1  C   PHE d   1     -32.655 -41.547  10.230  0.00  0.00     0.251 C 
+ATOM      2  O   PHE d   1     -32.443 -41.605  11.460  0.00  0.00    -0.271 OA
+ATOM      3  N   PHE d   2     -33.748 -40.971   9.763  0.00  0.00    -0.348 N 
+ATOM      4  H   PHE d   2     -33.839 -40.792   8.799  0.00  0.00     0.163 HD
+ENDROOT
+BRANCH   1   5
+ATOM      5  CA  PHE d   1     -31.626 -42.068   9.225  0.00  0.00     0.313 C 
+BRANCH   5   6
+ATOM      6  N   PHE d   1     -32.305 -42.947   8.255  0.00  0.00     0.092 N 
+ATOM      7  H1  PHE d   1     -31.625 -43.299   7.581  0.00  0.00     0.313 HD
+ATOM      8  H2  PHE d   1     -33.027 -42.419   7.765  0.00  0.00     0.313 HD
+ENDBRANCH   5   6
+BRANCH   5   9
+ATOM      9  CB  PHE d   1     -30.871 -40.907   8.557  0.00  0.00     0.083 C 
+BRANCH   9  10
+ATOM     10  CG  PHE d   1     -30.203 -40.036   9.586  0.00  0.00    -0.056 A 
+ATOM     11  CD1 PHE d   1     -30.850 -38.861  10.029  0.00  0.00     0.007 A 
+ATOM     12  CE1 PHE d   1     -30.293 -38.119  11.076  0.00  0.00     0.001 A 
+ATOM     13  CZ  PHE d   1     -29.089 -38.523  11.630  0.00  0.00     0.000 A 
+ATOM     14  CE2 PHE d   1     -28.421 -39.663  11.196  0.00  0.00     0.001 A 
+ATOM     15  CD2 PHE d   1     -28.981 -40.414  10.148  0.00  0.00     0.007 A 
+ENDBRANCH   9  10
+ENDBRANCH   5   9
+ENDBRANCH   1   5
+BRANCH   3  16
+ATOM     16  CA  PHE d   2     -34.818 -40.602  10.678  0.00  0.00     0.150 C 
+BRANCH  16  17
+ATOM     17  CB  PHE d   2     -35.954 -39.898   9.947  0.00  0.00     0.070 C 
+BRANCH  17  18
+ATOM     18  CG  PHE d   2     -35.554 -38.612   9.324  0.00  0.00    -0.056 A 
+ATOM     19  CD1 PHE d   2     -35.841 -38.391   7.992  0.00  0.00     0.007 A 
+ATOM     20  CE1 PHE d   2     -35.535 -37.194   7.372  0.00  0.00     0.001 A 
+ATOM     21  CZ  PHE d   2     -34.878 -36.205   8.065  0.00  0.00     0.000 A 
+ATOM     22  CE2 PHE d   2     -34.562 -36.404   9.395  0.00  0.00     0.001 A 
+ATOM     23  CD2 PHE d   2     -34.927 -37.603  10.036  0.00  0.00     0.007 A 
+ENDBRANCH  17  18
+ENDBRANCH  16  17
+BRANCH  16  24
+ATOM     24  C   PHE d   2     -35.354 -41.870  11.342  0.00  0.00     0.256 C 
+ATOM     25  O   PHE d   2     -35.664 -42.886  10.676  0.00  0.00    -0.305 OA
+ENDBRANCH  16  24
+ENDBRANCH   3  16
+TORSDOF 8

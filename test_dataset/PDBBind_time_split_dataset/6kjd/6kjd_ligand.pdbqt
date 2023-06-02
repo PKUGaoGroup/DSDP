@@ -1,0 +1,76 @@
+REMARK  13 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C13_14  and  O2_2 
+REMARK    2  A    between atoms: C7_8  and  O8_4 
+REMARK    3  A    between atoms: C15_16  and  O4_5 
+REMARK    4  A    between atoms: O4_5  and  C24_25 
+REMARK    5  A    between atoms: C16_17  and  C7_8 
+REMARK    6  A    between atoms: C7_8  and  C17_18 
+REMARK    7  A    between atoms: C21_22  and  C10_11 
+REMARK    8  A    between atoms: C18_19  and  C12_13 
+REMARK    9  A    between atoms: C17_18  and  C13_14 
+REMARK   10  A    between atoms: C13_14  and  C21_22 
+REMARK   11  A    between atoms: C16_17  and  C18_19 
+REMARK   12  A    between atoms: C24_25  and  C25_26 
+REMARK   13  A    between atoms: C25_26  and  C27_28 
+ROOT
+ATOM      1  C5  LVA d   1       6.229  32.976   4.211  0.00  0.00     0.004 C 
+ATOM      2  C6  LVA d   1       7.662  32.792   3.851  0.00  0.00    -0.055 C 
+ATOM      3  C8  LVA d   1       5.863  34.009   4.977  0.00  0.00    -0.022 C 
+ATOM      4  C9  LVA d   1       8.769  33.615   4.473  0.00  0.00     0.052 C 
+ATOM      5  C11 LVA d   1       6.879  35.074   5.364  0.00  0.00     0.009 C 
+ATOM      6  C12 LVA d   1       8.250  34.437   5.652  0.00  0.00     0.004 C 
+ATOM      7  C14 LVA d   1       7.997  31.881   2.938  0.00  0.00    -0.015 C 
+ATOM      8  C15 LVA d   1      10.043  32.794   4.828  0.00  0.00     0.141 C 
+ATOM      9  C19 LVA d   1      10.296  31.684   3.796  0.00  0.00     0.041 C 
+ATOM     10  C20 LVA d   1       6.935  36.141   4.267  0.00  0.00     0.014 C 
+ATOM     11  C22 LVA d   1       9.445  31.810   2.532  0.00  0.00     0.007 C 
+ATOM     12  C23 LVA d   1       9.623  30.611   1.610  0.00  0.00     0.014 C 
+ENDROOT
+BRANCH   6  13
+ATOM     13  C18 LVA d   1       9.305  35.474   6.020  0.00  0.00     0.009 C 
+BRANCH  13  14
+ATOM     14  C16 LVA d   1       8.960  36.169   7.335  0.00  0.00     0.032 C 
+BRANCH  14  15
+ATOM     15  C7  LVA d   1      10.003  37.231   7.676  0.00  0.00     0.120 C 
+BRANCH  15  16
+ATOM     16  O8  LVA d   1      10.145  38.088   6.536  0.00  0.00    -0.395 OA
+ATOM     17  H2  LVA d   1      10.791  38.759   6.724  0.00  0.00     0.210 HD
+ENDBRANCH  15  16
+BRANCH  15  18
+ATOM     18  C17 LVA d   1       9.561  38.041   8.899  0.00  0.00     0.064 C 
+BRANCH  18  19
+ATOM     19  C13 LVA d   1       9.774  37.288  10.213  0.00  0.00     0.130 C 
+BRANCH  19  20
+ATOM     20  O2  LVA d   1      11.161  37.202  10.558  0.00  0.00    -0.395 OA
+ATOM     21  H1  LVA d   1      11.517  38.078  10.654  0.00  0.00     0.210 HD
+ENDBRANCH  19  20
+BRANCH  19  22
+ATOM     22  C21 LVA d   1       9.049  37.998  11.353  0.00  0.00     0.144 C 
+BRANCH  22  23
+ATOM     23  C10 LVA d   1       9.625  39.371  11.604  0.00  0.00     0.175 C 
+ATOM     24  O1  LVA d   1      10.850  39.704  11.186  0.00  0.00    -0.648 OA
+ATOM     25  O3  LVA d   1       8.953  40.195  12.209  0.00  0.00    -0.648 OA
+ENDBRANCH  22  23
+ENDBRANCH  19  22
+ENDBRANCH  18  19
+ENDBRANCH  15  18
+ENDBRANCH  14  15
+ENDBRANCH  13  14
+ENDBRANCH   6  13
+BRANCH   8  26
+ATOM     26  O4  LVA d   1      10.107  32.281   6.194  0.00  0.00    -0.315 OA
+BRANCH  26  27
+ATOM     27  C24 LVA d   1      11.135  32.879   7.180  0.00  0.00     0.263 C 
+ATOM     28  O26 LVA d   1      12.315  33.228   6.977  0.00  0.00    -0.265 OA
+BRANCH  27  29
+ATOM     29  C25 LVA d   1      10.836  33.103   8.636  0.00  0.00     0.081 C 
+ATOM     30  C28 LVA d   1      10.302  31.820   9.262  0.00  0.00     0.020 C 
+BRANCH  29  31
+ATOM     31  C27 LVA d   1      12.153  33.594   9.281  0.00  0.00     0.010 C 
+ATOM     32  C29 LVA d   1      12.005  34.151  10.687  0.00  0.00     0.006 C 
+ENDBRANCH  29  31
+ENDBRANCH  27  29
+ENDBRANCH  26  27
+ENDBRANCH   8  26
+TORSDOF 13

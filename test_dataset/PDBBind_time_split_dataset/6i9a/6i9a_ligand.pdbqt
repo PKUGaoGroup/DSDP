@@ -1,0 +1,126 @@
+REMARK  21 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CBO_6  and  CBA_7 
+REMARK    2  A    between atoms: CBA_7  and  NBE_8 
+REMARK       I    between atoms: NBE_8  and  CBL_9 
+REMARK    3  A    between atoms: CBL_9  and  CBN_11 
+REMARK    4  A    between atoms: CBN_11  and  OAG_12 
+REMARK    5  A    between atoms: CBN_11  and  CBS_13 
+REMARK    6  A    between atoms: CBS_13  and  CBB_14 
+REMARK    7  A    between atoms: CBS_13  and  NBG_19 
+REMARK    8  A    between atoms: CBB_14  and  CAY_15 
+REMARK    9  A    between atoms: CAY_15  and  CAX_16 
+REMARK   10  A    between atoms: CAX_16  and  CAW_17 
+REMARK   11  A    between atoms: CAW_17  and  NAB_18 
+REMARK       I    between atoms: NBG_19  and  C_20 
+REMARK   12  A    between atoms: C_20  and  CA_22 
+REMARK   13  A    between atoms: CA_22  and  N_23 
+REMARK   14  A    between atoms: CA_22  and  CB_34 
+REMARK       I    between atoms: N_23  and  CBK_24 
+REMARK   15  A    between atoms: CBK_24  and  OBI_26 
+REMARK   16  A    between atoms: OBI_26  and  CBD_27 
+REMARK   17  A    between atoms: CBD_27  and  CBP_28 
+REMARK   18  A    between atoms: CB_34  and  CG_35 
+REMARK   19  A    between atoms: CG_35  and  CD_36 
+REMARK       I    between atoms: CD_36  and  NE2_38 
+REMARK   20  A    between atoms: NE2_38  and  NBT_39 
+REMARK   21  A    between atoms: NBT_39  and  CBQ_41 
+ROOT
+ATOM      1  NBG H8E d   1       2.937 -13.229   9.348  0.00  0.00    -0.352 N 
+ATOM      2  C   H8E d   1       2.412 -13.369  10.565  0.00  0.00     0.240 C 
+ATOM      3  O   H8E d   1       3.042 -13.544  11.600  0.00  0.00    -0.271 OA
+ATOM      4  H23 H8E d   1       2.300 -13.046   8.599  0.00  0.00     0.163 HD
+ENDROOT
+BRANCH   2   5
+ATOM      5  CA  H8E d   1       0.914 -13.096  10.596  0.00  0.00     0.179 C 
+BRANCH   5   6
+ATOM      6  N   H8E d   1       0.254 -13.729  11.734  0.00  0.00    -0.324 N 
+ATOM      7  CBK H8E d   1       0.125 -15.075  11.845  0.00  0.00     0.361 C 
+ATOM      8  OAD H8E d   1       0.689 -15.814  11.025  0.00  0.00    -0.238 OA
+ATOM      9  H25 H8E d   1      -0.117 -13.149  12.459  0.00  0.00     0.165 HD
+BRANCH   7  10
+ATOM     10  OBI H8E d   1      -0.585 -15.480  12.829  0.00  0.00    -0.299 OA
+BRANCH  10  11
+ATOM     11  CBD H8E d   1      -0.703 -16.928  13.081  0.00  0.00     0.219 C 
+BRANCH  11  12
+ATOM     12  CBP H8E d   1      -1.337 -17.188  14.373  0.00  0.00    -0.034 A 
+ATOM     13  CAS H8E d   1      -2.693 -17.500  14.482  0.00  0.00     0.009 A 
+ATOM     14  CAM H8E d   1      -3.329 -17.778  15.730  0.00  0.00     0.001 A 
+ATOM     15  CAI H8E d   1      -2.519 -17.645  16.871  0.00  0.00     0.000 A 
+ATOM     16  CAN H8E d   1      -1.189 -17.268  16.763  0.00  0.00     0.001 A 
+ATOM     17  CAT H8E d   1      -0.584 -17.041  15.539  0.00  0.00     0.009 A 
+ENDBRANCH  11  12
+ENDBRANCH  10  11
+ENDBRANCH   7  10
+ENDBRANCH   5   6
+BRANCH   5  18
+ATOM     18  CB  H8E d   1       0.673 -11.579  10.662  0.00  0.00     0.044 C 
+BRANCH  18  19
+ATOM     19  CG  H8E d   1       1.304 -10.912  11.913  0.00  0.00     0.107 C 
+BRANCH  19  20
+ATOM     20  CD  H8E d   1       1.373  -9.422  11.755  0.00  0.00     0.236 C 
+ATOM     21  OE1 H8E d   1       0.393  -8.719  12.006  0.00  0.00    -0.272 OA
+ATOM     22  NE2 H8E d   1       2.575  -8.928  11.443  0.00  0.00    -0.268 N 
+ATOM     23  H37 H8E d   1       3.280  -9.533  11.073  0.00  0.00     0.190 HD
+BRANCH  22  24
+ATOM     24  NBT H8E d   1       2.856  -7.550  11.634  0.00  0.00    -0.294 N 
+ATOM     25  CAA H8E d   1       3.306  -7.231  13.016  0.00  0.00     0.178 C 
+BRANCH  24  26
+ATOM     26  CBQ H8E d   1       3.412  -6.879  10.513  0.00  0.00     0.050 A 
+ATOM     27  CAU H8E d   1       4.223  -5.736  10.682  0.00  0.00     0.031 A 
+ATOM     28  CAO H8E d   1       4.734  -5.075   9.564  0.00  0.00     0.002 A 
+ATOM     29  CAJ H8E d   1       4.506  -5.604   8.292  0.00  0.00     0.000 A 
+ATOM     30  CAP H8E d   1       3.738  -6.765   8.127  0.00  0.00     0.002 A 
+ATOM     31  CAV H8E d   1       3.176  -7.406   9.231  0.00  0.00     0.031 A 
+ENDBRANCH  24  26
+ENDBRANCH  22  24
+ENDBRANCH  19  20
+ENDBRANCH  18  19
+ENDBRANCH   5  18
+ENDBRANCH   2   5
+BRANCH   1  32
+ATOM     32  CBS H8E d   1       4.361 -13.318   9.001  0.00  0.00     0.122 C 
+BRANCH  32  33
+ATOM     33  CBN H8E d   1       4.921 -12.009   8.361  0.00  0.00     0.232 C 
+BRANCH  33  34
+ATOM     34  CBL H8E d   1       5.110 -10.908   9.400  0.00  0.00     0.248 C 
+ATOM     35  NBE H8E d   1       6.073  -9.985   9.125  0.00  0.00    -0.355 N 
+ATOM     36  H8  H8E d   1       6.653 -10.123   8.322  0.00  0.00     0.162 HD
+ATOM     37  OAE H8E d   1       4.440 -10.854  10.439  0.00  0.00    -0.271 OA
+BRANCH  35  38
+ATOM     38  CBA H8E d   1       6.297  -8.792   9.959  0.00  0.00     0.161 C 
+BRANCH  38  39
+ATOM     39  CBO H8E d   1       7.648  -8.388   9.995  0.00  0.00    -0.041 A 
+ATOM     40  CAQ H8E d   1       8.153  -7.362   9.183  0.00  0.00     0.009 A 
+ATOM     41  CAK H8E d   1       9.499  -6.965   9.326  0.00  0.00     0.001 A 
+ATOM     42  CAH H8E d   1      10.311  -7.585  10.277  0.00  0.00     0.000 A 
+ATOM     43  CAL H8E d   1       9.814  -8.583  11.110  0.00  0.00     0.001 A 
+ATOM     44  CAR H8E d   1       8.482  -8.938  10.958  0.00  0.00     0.009 A 
+ENDBRANCH  38  39
+ENDBRANCH  35  38
+ENDBRANCH  33  34
+BRANCH  33  45
+ATOM     45  OAG H8E d   1       5.918 -12.154   7.588  0.00  0.00    -0.384 OA
+ATOM     46  H10 H8E d   1       5.738 -12.851   6.968  0.00  0.00     0.210 HD
+ENDBRANCH  33  45
+ENDBRANCH  32  33
+BRANCH  32  47
+ATOM     47  CBB H8E d   1       4.611 -14.564   8.143  0.00  0.00     0.028 C 
+BRANCH  47  48
+ATOM     48  CAY H8E d   1       4.168 -15.859   8.829  0.00  0.00     0.004 C 
+BRANCH  48  49
+ATOM     49  CAX H8E d   1       4.157 -17.094   7.922  0.00  0.00     0.027 C 
+BRANCH  49  50
+ATOM     50  CAW H8E d   1       5.562 -17.577   7.587  0.00  0.00     0.229 C 
+BRANCH  50  51
+ATOM     51  NAB H8E d   1       5.468 -18.799   6.733  0.00  0.00    -0.079 N 
+ATOM     52  H20 H8E d   1       6.395 -19.124   6.508  0.00  0.00     0.274 HD
+ATOM     53  H21 H8E d   1       4.974 -18.578   5.883  0.00  0.00     0.274 HD
+ATOM     54  H22 H8E d   1       4.971 -19.520   7.232  0.00  0.00     0.274 HD
+ENDBRANCH  50  51
+ENDBRANCH  49  50
+ENDBRANCH  48  49
+ENDBRANCH  47  48
+ENDBRANCH  32  47
+ENDBRANCH   1  32
+TORSDOF 21

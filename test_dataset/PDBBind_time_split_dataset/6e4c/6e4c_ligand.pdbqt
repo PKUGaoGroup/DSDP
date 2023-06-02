@@ -1,0 +1,40 @@
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAO_2  and  CAV_4 
+REMARK    2  A    between atoms: CAT_6  and  OAF_7 
+REMARK    3  A    between atoms: CAQ_18  and  CAS_19 
+ROOT
+ATOM      1  CAV HRJ d   1     -19.573  16.957  14.767  0.00  0.00     0.147 A 
+ATOM      2  NAL HRJ d   1     -20.578  17.115  15.728  0.00  0.00    -0.242 NA
+ATOM      3  CAT HRJ d   1     -19.808  17.285  13.447  0.00  0.00     0.250 A 
+ATOM      4  CAW HRJ d   1     -21.028  17.826  13.055  0.00  0.00     0.186 A 
+ATOM      5  OAC HRJ d   1     -21.288  18.155  11.883  0.00  0.00    -0.290 OA
+ATOM      6  CAJ HRJ d   1     -22.004  17.984  14.046  0.00  0.00     0.085 A 
+ATOM      7  CAR HRJ d   1     -21.818  17.603  15.382  0.00  0.00     0.071 A 
+ATOM      8  CAU HRJ d   1     -22.903  17.853  16.266  0.00  0.00    -0.001 A 
+ATOM      9  CAP HRJ d   1     -24.159  17.287  16.016  0.00  0.00    -0.049 A 
+ATOM     10  CAA HRJ d   1     -24.383  16.366  14.949  0.00  0.00     0.049 C 
+ATOM     11  CAI HRJ d   1     -25.243  17.612  16.821  0.00  0.00     0.023 A 
+ATOM     12  CAH HRJ d   1     -22.783  18.750  17.331  0.00  0.00     0.015 A 
+ATOM     13  CAG HRJ d   1     -23.883  19.061  18.150  0.00  0.00     0.016 A 
+ATOM     14  CAQ HRJ d   1     -25.141  18.487  17.913  0.00  0.00     0.013 A 
+ENDROOT
+BRANCH   1  15
+ATOM     15  CAO HRJ d   1     -18.387  16.456  15.248  0.00  0.00     0.227 C 
+ATOM     16  OAB HRJ d   1     -17.393  16.171  14.534  0.00  0.00    -0.643 OA
+ATOM     17  OAE HRJ d   1     -18.304  16.417  16.473  0.00  0.00    -0.643 OA
+ENDBRANCH   1  15
+BRANCH  14  18
+ATOM     18  CAS HRJ d   1     -26.255  18.783  18.648  0.00  0.00     0.170 A 
+ATOM     19  NAK HRJ d   1     -26.305  19.238  19.909  0.00  0.00    -0.104 NA
+ATOM     20  OAN HRJ d   1     -27.883  19.425  20.170  0.00  0.00    -0.153 OA
+ATOM     21  CAX HRJ d   1     -28.457  19.091  19.033  0.00  0.00     0.390 A 
+ATOM     22  OAD HRJ d   1     -29.684  19.112  18.820  0.00  0.00    -0.236 OA
+ATOM     23  NAM HRJ d   1     -27.521  18.728  18.133  0.00  0.00    -0.283 N 
+ATOM     24  H10 HRJ d   1     -27.729  18.450  17.195  0.00  0.00     0.172 HD
+ENDBRANCH  14  18
+BRANCH   3  25
+ATOM     25  OAF HRJ d   1     -18.842  17.086  12.553  0.00  0.00    -0.381 OA
+ATOM     26  H2  HRJ d   1     -19.146  17.356  11.694  0.00  0.00     0.211 HD
+ENDBRANCH   3  25
+TORSDOF 3

@@ -1,0 +1,40 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N1_4  and  S_1 
+REMARK    2  A    between atoms: S_1  and  C4_10 
+REMARK    3  A    between atoms: C11_17  and  N1_4 
+REMARK    4  A    between atoms: C11_17  and  C12_18 
+ROOT
+ATOM      1  S   PYV d   1     -21.984  -3.493  30.267  0.00  0.00     0.260 S 
+ATOM      2  O1  PYV d   1     -20.587  -3.929  30.288  0.00  0.00    -0.201 OA
+ATOM      3  O2  PYV d   1     -21.945  -2.404  29.288  0.00  0.00    -0.201 OA
+ENDROOT
+BRANCH   1   4
+ATOM      4  N1  PYV d   1     -23.033  -4.756  29.787  0.00  0.00    -0.310 N 
+ATOM      5  H1  PYV d   1     -22.666  -5.667  29.597  0.00  0.00     0.172 HD
+BRANCH   4   6
+ATOM      6  C11 PYV d   1     -24.458  -4.504  29.655  0.00  0.00     0.191 C 
+BRANCH   6   7
+ATOM      7  C12 PYV d   1     -25.258  -5.096  30.815  0.00  0.00     0.052 A 
+ATOM      8  N2  PYV d   1     -25.672  -6.380  30.757  0.00  0.00    -0.264 NA
+ATOM      9  C13 PYV d   1     -26.385  -6.908  31.777  0.00  0.00     0.117 A 
+ATOM     10  C14 PYV d   1     -26.701  -6.134  32.880  0.00  0.00     0.019 A 
+ATOM     11  C15 PYV d   1     -26.293  -4.843  32.939  0.00  0.00     0.003 A 
+ATOM     12  C16 PYV d   1     -25.580  -4.315  31.915  0.00  0.00     0.029 A 
+ENDBRANCH   6   7
+ENDBRANCH   4   6
+ENDBRANCH   1   4
+BRANCH   1  13
+ATOM     13  C4  PYV d   1     -22.527  -2.945  31.906  0.00  0.00     0.090 A 
+ATOM     14  C3  PYV d   1     -22.584  -3.660  33.110  0.00  0.00    -0.001 A 
+ATOM     15  C2  PYV d   1     -23.040  -3.049  34.250  0.00  0.00    -0.007 A 
+ATOM     16  C7  PYV d   1     -22.177  -5.006  33.132  0.00  0.00     0.014 A 
+ATOM     17  C1  PYV d   1     -23.447  -1.703  34.203  0.00  0.00     0.022 A 
+ATOM     18  C10 PYV d   1     -23.094  -3.779  35.451  0.00  0.00     0.013 A 
+ATOM     19 BR   PYV d   1     -24.121  -0.640  35.679  0.00  0.00    -0.050 Br
+ATOM     20  C6  PYV d   1     -23.390  -0.995  33.007  0.00  0.00     0.021 A 
+ATOM     21  C5  PYV d   1     -22.929  -1.618  31.851  0.00  0.00     0.027 A 
+ATOM     22  C9  PYV d   1     -22.688  -5.108  35.472  0.00  0.00     0.001 A 
+ATOM     23  C8  PYV d   1     -22.231  -5.725  34.315  0.00  0.00     0.001 A 
+ENDBRANCH   1  13
+TORSDOF 4

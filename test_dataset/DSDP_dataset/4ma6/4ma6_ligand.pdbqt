@@ -1,0 +1,49 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAT_2  and  OAB_1 
+REMARK    2  A    between atoms: OAG_5  and  CAY_4 
+REMARK    3  A    between atoms: CBF_11  and  CBA_14 
+REMARK    4  A    between atoms: OAQ_13  and  CBE_12 
+REMARK    5  A    between atoms: CAV_16  and  OAD_17 
+REMARK    6  A    between atoms: CAU_18  and  OAC_19 
+ROOT
+ATOM      1  CAT 28E d 202      14.274   0.773  14.490  0.00  0.00     0.071 A 
+ATOM      2  CAK 28E d 202      13.948  -0.172  13.548  0.00  0.00     0.073 A 
+ATOM      3  CAY 28E d 202      12.658  -0.645  13.448  0.00  0.00     0.077 A 
+ATOM      4  CBD 28E d 202      11.652  -0.211  14.281  0.00  0.00     0.011 A 
+ATOM      5  CAP 28E d 202      10.221  -0.722  14.145  0.00  0.00     0.079 C 
+ATOM      6  CAN 28E d 202      13.284   1.241  15.331  0.00  0.00     0.074 A 
+ATOM      7  CBC 28E d 202      11.980   0.754  15.224  0.00  0.00     0.081 A 
+ATOM      8  OAR 28E d 202      11.041   1.243  16.080  0.00  0.00    -0.338 OA
+ATOM      9  CBF 28E d 202       9.662   0.783  16.050  0.00  0.00     0.191 C 
+ATOM     10  CBE 28E d 202       9.268   0.392  14.624  0.00  0.00     0.156 C 
+ENDROOT
+BRANCH   9  11
+ATOM     11  CBA 28E d 202       9.462  -0.282  17.084  0.00  0.00    -0.024 A 
+ATOM     12  CAJ 28E d 202      10.411  -1.240  17.394  0.00  0.00     0.013 A 
+ATOM     13  CAI 28E d 202      10.173  -2.179  18.399  0.00  0.00     0.040 A 
+ATOM     14  CAU 28E d 202       8.961  -2.117  19.107  0.00  0.00     0.098 A 
+ATOM     15  CAV 28E d 202       8.007  -1.182  18.799  0.00  0.00     0.099 A 
+ATOM     16  CAO 28E d 202       8.261  -0.267  17.796  0.00  0.00     0.049 A 
+BRANCH  14  17
+ATOM     17  OAC 28E d 202       8.666  -2.990  20.085  0.00  0.00    -0.358 OA
+ATOM     18  H   28E d 202       9.288  -3.647  20.330  0.00  0.00     0.217 HD
+ENDBRANCH  14  17
+BRANCH  15  19
+ATOM     19  OAD 28E d 202       6.816  -1.138  19.468  0.00  0.00    -0.358 OA
+ATOM     20  H   28E d 202       6.176  -0.491  19.243  0.00  0.00     0.217 HD
+ENDBRANCH  15  19
+ENDBRANCH   9  11
+BRANCH  10  21
+ATOM     21  OAQ 28E d 202       7.847   0.117  14.561  0.00  0.00    -0.392 OA
+ATOM     22  H   28E d 202       7.630  -0.604  15.173  0.00  0.00     0.210 HD
+ENDBRANCH  10  21
+BRANCH   3  23
+ATOM     23  OAG 28E d 202      12.425  -1.563  12.500  0.00  0.00    -0.360 OA
+ATOM     24  H   28E d 202      13.122  -1.847  11.942  0.00  0.00     0.217 HD
+ENDBRANCH   3  23
+BRANCH   1  25
+ATOM     25  OAB 28E d 202      15.559   1.220  14.580  0.00  0.00    -0.361 OA
+ATOM     26  H   28E d 202      16.213   0.887  13.998  0.00  0.00     0.217 HD
+ENDBRANCH   1  25
+TORSDOF 6

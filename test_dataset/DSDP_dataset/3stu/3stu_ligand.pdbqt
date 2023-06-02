@@ -1,0 +1,58 @@
+REMARK  12 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C10_16  and  C11_3 
+REMARK    2  A    between atoms: C3_5  and  O3_4 
+REMARK    3  A    between atoms: C2_6  and  C3_5 
+REMARK    4  A    between atoms: C3_5  and  C4_10 
+REMARK    5  A    between atoms: C1_7  and  C2_6 
+REMARK    6  A    between atoms: O1_8  and  C1_7 
+REMARK    7  A    between atoms: C4_10  and  C5_11 
+REMARK    8  A    between atoms: C5_11  and  C6_12 
+REMARK    9  A    between atoms: C6_12  and  C7_13 
+REMARK   10  A    between atoms: C7_13  and  C8_14 
+REMARK   11  A    between atoms: C9_15  and  C8_14 
+REMARK   12  A    between atoms: C9_15  and  C10_16 
+ROOT
+ATOM      1  C4  DK3 d 266     -36.975  -2.897   5.796  0.00  0.00     0.032 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C3  DK3 d 266     -37.841  -4.009   5.182  0.00  0.00     0.127 C 
+BRANCH   2   3
+ATOM      3  C2  DK3 d 266     -37.027  -5.041   4.395  0.00  0.00     0.142 C 
+BRANCH   3   4
+ATOM      4  C1  DK3 d 266     -37.135  -4.761   2.917  0.00  0.00     0.260 C 
+ATOM      5  O2  DK3 d 266     -37.249  -3.613   2.523  0.00  0.00    -0.265 OA
+BRANCH   4   6
+ATOM      6  O1  DK3 d 266     -37.120  -5.865   1.960  0.00  0.00    -0.326 OA
+ATOM      7  C13 DK3 d 266     -36.078  -6.019   0.995  0.00  0.00     0.213 C 
+ENDBRANCH   4   6
+ENDBRANCH   3   4
+ENDBRANCH   2   3
+BRANCH   2   8
+ATOM      8  O3  DK3 d 266     -38.599  -4.677   6.200  0.00  0.00    -0.395 OA
+ATOM      9  H   DK3 d 266     -39.139  -5.374   5.796  0.00  0.00     0.210 HD
+ENDBRANCH   2   8
+ENDBRANCH   1   2
+BRANCH   1  10
+ATOM     10  C5  DK3 d 266     -35.529  -3.292   6.098  0.00  0.00     0.002 C 
+BRANCH  10  11
+ATOM     11  C6  DK3 d 266     -35.067  -2.752   7.447  0.00  0.00     0.000 C 
+BRANCH  11  12
+ATOM     12  C7  DK3 d 266     -33.620  -3.152   7.728  0.00  0.00     0.000 C 
+BRANCH  12  13
+ATOM     13  C8  DK3 d 266     -33.172  -2.696   9.114  0.00  0.00     0.000 C 
+BRANCH  13  14
+ATOM     14  C9  DK3 d 266     -32.201  -1.521   9.033  0.00  0.00     0.000 C 
+BRANCH  14  15
+ATOM     15  C10 DK3 d 266     -31.111  -1.630  10.093  0.00  0.00    -0.000 C 
+BRANCH  15  16
+ATOM     16  C11 DK3 d 266     -30.999  -0.338  10.895  0.00  0.00    -0.005 C 
+ATOM     17  C12 DK3 d 266     -31.434  -0.548  12.330  0.00  0.00     0.005 C 
+ENDBRANCH  15  16
+ENDBRANCH  14  15
+ENDBRANCH  13  14
+ENDBRANCH  12  13
+ENDBRANCH  11  12
+ENDBRANCH  10  11
+ENDBRANCH   1  10
+TORSDOF 12

@@ -1,0 +1,89 @@
+REMARK  15 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: P_2  and  O2P_1 
+REMARK    2  A    between atoms: O5'_16  and  P_2 
+REMARK    3  A    between atoms: P_2  and  O3P_4 
+REMARK    4  A    between atoms: C10_5  and  O3P_4 
+REMARK    5  A    between atoms: C10_5  and  C11_6 
+REMARK    6  A    between atoms: C11_6  and  C12_7 
+REMARK    7  A    between atoms: C12_7  and  C13_8 
+REMARK    8  A    between atoms: C13_8  and  C14_9 
+REMARK    9  A    between atoms: C14_9  and  C15_10 
+REMARK   10  A    between atoms: O5'_16  and  C5'_17 
+REMARK   11  A    between atoms: C4'_18  and  C5'_17 
+REMARK   12  A    between atoms: O3'_20  and  C3'_19 
+REMARK   13  A    between atoms: O2'_22  and  C2'_21 
+REMARK   14  A    between atoms: C1'_23  and  N9_25 
+REMARK   15  A    between atoms: C6_29  and  N6_30 
+ROOT
+ATOM      1  C4' LAQ d2001      42.835  24.419   4.947  0.00  0.00     0.180 C 
+ATOM      2  C3' LAQ d2001      44.031  23.592   5.387  0.00  0.00     0.182 C 
+ATOM      3  C2' LAQ d2001      45.101  24.038   4.407  0.00  0.00     0.198 C 
+ATOM      4  C1' LAQ d2001      44.805  25.517   4.271  0.00  0.00     0.262 C 
+ATOM      5  O4' LAQ d2001      43.405  25.666   4.540  0.00  0.00    -0.353 OA
+ENDROOT
+BRANCH   1   6
+ATOM      6  C5' LAQ d2001      41.789  24.648   6.036  0.00  0.00     0.215 C 
+BRANCH   6   7
+ATOM      7  O5' LAQ d2001      40.678  25.306   5.428  0.00  0.00    -0.294 OA
+BRANCH   7   8
+ATOM      8  P   LAQ d2001      39.210  25.298   6.068  0.00  0.00     0.400 P 
+ATOM      9  O1P LAQ d2001      38.278  25.988   5.119  0.00  0.00    -0.631 OA
+BRANCH   8  10
+ATOM     10  O2P LAQ d2001      38.867  23.939   6.621  0.00  0.00    -0.307 OA
+ATOM     11  H   LAQ d2001      38.717  23.320   5.889  0.00  0.00     0.222 HD
+ENDBRANCH   8  10
+BRANCH   8  12
+ATOM     12  O3P LAQ d2001      39.428  26.206   7.379  0.00  0.00    -0.220 OA
+BRANCH  12  13
+ATOM     13  C10 LAQ d2001      39.750  27.618   7.372  0.00  0.00     0.267 C 
+ATOM     14  O10 LAQ d2001      40.200  28.148   6.357  0.00  0.00    -0.265 OA
+BRANCH  13  15
+ATOM     15  C11 LAQ d2001      39.510  28.357   8.674  0.00  0.00     0.111 C 
+BRANCH  15  16
+ATOM     16  C12 LAQ d2001      40.170  29.729   8.698  0.00  0.00     0.010 C 
+BRANCH  16  17
+ATOM     17  C13 LAQ d2001      40.306  30.224  10.129  0.00  0.00     0.002 C 
+BRANCH  17  18
+ATOM     18  C14 LAQ d2001      40.947  31.604  10.167  0.00  0.00     0.016 C 
+BRANCH  18  19
+ATOM     19  C15 LAQ d2001      41.167  32.098  11.597  0.00  0.00     0.059 C 
+ATOM     20  C16 LAQ d2001      41.753  33.514  11.582  0.00  0.00     0.027 C 
+ATOM     21  C17 LAQ d2001      42.222  33.977  12.967  0.00  0.00     0.087 C 
+ATOM     22  S17 LAQ d2001      42.472  32.556  13.977  0.00  0.00    -0.097 SA
+ATOM     23  S15 LAQ d2001      42.318  31.145  12.535  0.00  0.00    -0.093 SA
+ENDBRANCH  18  19
+ENDBRANCH  17  18
+ENDBRANCH  16  17
+ENDBRANCH  15  16
+ENDBRANCH  13  15
+ENDBRANCH  12  13
+ENDBRANCH   8  12
+ENDBRANCH   7   8
+ENDBRANCH   6   7
+ENDBRANCH   1   6
+BRANCH   2  24
+ATOM     24  O3' LAQ d2001      43.754  22.195   5.308  0.00  0.00    -0.390 OA
+ATOM     25  H   LAQ d2001      43.484  21.970   4.404  0.00  0.00     0.210 HD
+ENDBRANCH   2  24
+BRANCH   4  26
+ATOM     26  N9  LAQ d2001      45.525  26.375   5.243  0.00  0.00    -0.294 N 
+ATOM     27  C4  LAQ d2001      45.525  27.696   5.164  0.00  0.00     0.167 A 
+ATOM     28  N3  LAQ d2001      44.980  28.588   4.301  0.00  0.00    -0.222 NA
+ATOM     29  C5  LAQ d2001      46.308  28.180   6.304  0.00  0.00     0.149 A 
+ATOM     30  C2  LAQ d2001      45.148  29.912   4.466  0.00  0.00     0.237 A 
+ATOM     31  N1  LAQ d2001      45.861  30.421   5.483  0.00  0.00    -0.222 NA
+ATOM     32  C6  LAQ d2001      46.456  29.651   6.423  0.00  0.00     0.155 A 
+ATOM     33  N7  LAQ d2001      46.725  27.091   6.978  0.00  0.00    -0.236 NA
+ATOM     34  C8  LAQ d2001      46.235  26.007   6.330  0.00  0.00     0.214 A 
+BRANCH  32  35
+ATOM     35  N6  LAQ d2001      47.158  30.217   7.435  0.00  0.00    -0.382 N 
+ATOM     36  H   LAQ d2001      47.240  31.197   7.489  0.00  0.00     0.157 HD
+ATOM     37  H   LAQ d2001      47.586  29.648   8.116  0.00  0.00     0.157 HD
+ENDBRANCH  32  35
+ENDBRANCH   4  26
+BRANCH   3  38
+ATOM     38  O2' LAQ d2001      44.800  23.497   3.121  0.00  0.00    -0.388 OA
+ATOM     39  H   LAQ d2001      43.901  23.755   2.864  0.00  0.00     0.210 HD
+ENDBRANCH   3  38
+TORSDOF 15

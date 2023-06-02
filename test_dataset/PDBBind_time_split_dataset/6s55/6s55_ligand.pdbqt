@@ -1,0 +1,51 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C26_5  and  N27_14 
+REMARK    2  A    between atoms: S20_10  and  N16_9 
+REMARK    3  A    between atoms: S20_10  and  C23_13 
+REMARK       I    between atoms: N27_14  and  C29_15 
+REMARK    4  A    between atoms: C29_15  and  C31_17 
+REMARK    5  A    between atoms: C31_17  and  N34_18 
+ROOT
+ATOM      1  C24 KW5 d   1     -23.358  45.792   9.093  0.00  0.00     0.056 A 
+ATOM      2  C26 KW5 d   1     -22.652  46.699   8.308  0.00  0.00     0.036 A 
+ATOM      3  C23 KW5 d   1     -22.741  44.650   9.580  0.00  0.00     0.099 A 
+ATOM      4  C44 KW5 d   1     -21.314  46.452   8.009  0.00  0.00     0.031 A 
+ATOM      5  C46 KW5 d   1     -20.690  45.312   8.483  0.00  0.00     0.023 A 
+ATOM      6  C48 KW5 d   1     -21.395  44.408   9.263  0.00  0.00     0.034 A 
+ATOM      7 BR1  KW5 d   1     -20.448  42.880   9.869  0.00  0.00    -0.049 Br
+ENDROOT
+BRANCH   2   8
+ATOM      8  N27 KW5 d   1     -23.232  47.886   7.798  0.00  0.00    -0.326 N 
+ATOM      9  C29 KW5 d   1     -24.511  48.314   7.888  0.00  0.00     0.240 C 
+ATOM     10  O30 KW5 d   1     -25.416  47.699   8.450  0.00  0.00    -0.271 OA
+ATOM     11  H14 KW5 d   1     -22.609  48.491   7.303  0.00  0.00     0.169 HD
+BRANCH   9  12
+ATOM     12  C31 KW5 d   1     -24.753  49.658   7.225  0.00  0.00     0.240 C 
+BRANCH  12  13
+ATOM     13  N34 KW5 d   1     -26.102  50.186   7.344  0.00  0.00    -0.260 N 
+ATOM     14  C35 KW5 d   1     -26.596  50.875   8.465  0.00  0.00     0.245 A 
+ATOM     15  O36 KW5 d   1     -25.960  51.099   9.491  0.00  0.00    -0.271 OA
+ATOM     16  C37 KW5 d   1     -28.016  51.252   8.141  0.00  0.00     0.227 A 
+ATOM     17  N40 KW5 d   1     -28.174  50.711   6.807  0.00  0.00    -0.334 N 
+ATOM     18  C42 KW5 d   1     -27.063  50.105   6.350  0.00  0.00     0.325 A 
+ATOM     19  H19 KW5 d   1     -29.021  50.781   6.280  0.00  0.00     0.164 HD
+ATOM     20  O43 KW5 d   1     -26.904  49.562   5.262  0.00  0.00    -0.247 OA
+ENDBRANCH  12  13
+ENDBRANCH   9  12
+ENDBRANCH   2   8
+BRANCH   3  21
+ATOM     21  S20 KW5 d   1     -23.740  43.549  10.571  0.00  0.00     0.262 S 
+ATOM     22  O21 KW5 d   1     -23.991  42.394   9.771  0.00  0.00    -0.200 OA
+ATOM     23  O22 KW5 d   1     -23.102  43.400  11.842  0.00  0.00    -0.200 OA
+BRANCH  21  24
+ATOM     24  N16 KW5 d   1     -25.194  44.220  10.865  0.00  0.00    -0.306 N 
+ATOM     25  C13 KW5 d   1     -26.209  44.189   9.805  0.00  0.00     0.135 C 
+ATOM     26  C10 KW5 d   1     -27.565  44.146  10.448  0.00  0.00     0.021 C 
+ATOM     27  C07 KW5 d   1     -27.758  45.355  11.347  0.00  0.00     0.007 C 
+ATOM     28  C05 KW5 d   1     -26.665  45.436  12.400  0.00  0.00     0.000 C 
+ATOM     29  C17 KW5 d   1     -25.303  45.412  11.721  0.00  0.00     0.139 C 
+ATOM     30  C01 KW5 d   1     -26.808  46.680  13.260  0.00  0.00     0.011 C 
+ENDBRANCH  21  24
+ENDBRANCH   3  21
+TORSDOF 5

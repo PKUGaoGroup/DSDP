@@ -1,0 +1,89 @@
+REMARK  15 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: S1G_2  and  PG_1 
+REMARK    2  A    between atoms: PG_1  and  O3G_4 
+REMARK    3  A    between atoms: PG_1  and  O3B_8 
+REMARK    4  A    between atoms: O3B_8  and  PB_5 
+REMARK    5  A    between atoms: PB_5  and  O2B_7 
+REMARK    6  A    between atoms: PB_5  and  O3A_12 
+REMARK    7  A    between atoms: O3A_12  and  PA_9 
+REMARK    8  A    between atoms: O2A_11  and  PA_9 
+REMARK    9  A    between atoms: PA_9  and  O5'_13 
+REMARK   10  A    between atoms: O5'_13  and  C5'_14 
+REMARK   11  A    between atoms: C5'_14  and  C4'_15 
+REMARK   12  A    between atoms: C3'_17  and  O3'_18 
+REMARK   13  A    between atoms: C2'_19  and  O2'_20 
+REMARK   14  A    between atoms: N9_22  and  C1'_21 
+REMARK   15  A    between atoms: N6_27  and  C6_26 
+ROOT
+ATOM      1  C4' AGS d 500      55.054  52.000  63.100  0.00  0.00     0.180 C 
+ATOM      2  O4' AGS d 500      54.318  53.121  63.482  0.00  0.00    -0.353 OA
+ATOM      3  C3' AGS d 500      54.867  50.924  64.173  0.00  0.00     0.182 C 
+ATOM      4  C2' AGS d 500      53.533  51.382  64.793  0.00  0.00     0.198 C 
+ATOM      5  C1' AGS d 500      53.699  52.915  64.701  0.00  0.00     0.262 C 
+ENDROOT
+BRANCH   1   6
+ATOM      6  C5' AGS d 500      54.657  51.604  61.673  0.00  0.00     0.215 C 
+BRANCH   6   7
+ATOM      7  O5' AGS d 500      55.020  52.695  60.868  0.00  0.00    -0.294 OA
+BRANCH   7   8
+ATOM      8  PA  AGS d 500      54.787  52.673  59.295  0.00  0.00     0.401 P 
+ATOM      9  O1A AGS d 500      55.886  52.011  58.553  0.00  0.00    -0.631 OA
+BRANCH   8  10
+ATOM     10  O3A AGS d 500      55.039  54.317  59.013  0.00  0.00    -0.195 OA
+BRANCH  10  11
+ATOM     11  PB  AGS d 500      54.982  55.076  57.658  0.00  0.00     0.409 P 
+ATOM     12  O1B AGS d 500      54.227  54.225  56.710  0.00  0.00    -0.631 OA
+BRANCH  11  13
+ATOM     13  O3B AGS d 500      56.328  55.495  56.952  0.00  0.00    -0.209 OA
+BRANCH  13  14
+ATOM     14  PG  AGS d 500      56.636  55.440  55.352  0.00  0.00     0.309 P 
+ATOM     15  O2G AGS d 500      55.728  54.405  54.766  0.00  0.00    -0.645 OA
+BRANCH  14  16
+ATOM     16  S1G AGS d 500      56.282  56.994  54.525  0.00  0.00    -0.064 SA
+ATOM     17  H   AGS d 500      56.561  56.876  53.199  0.00  0.00     0.113 HD
+ENDBRANCH  14  16
+BRANCH  14  18
+ATOM     18  O3G AGS d 500      58.061  55.042  55.384  0.00  0.00    -0.321 OA
+ATOM     19  H   AGS d 500      58.396  54.966  54.477  0.00  0.00     0.221 HD
+ENDBRANCH  14  18
+ENDBRANCH  13  14
+ENDBRANCH  11  13
+BRANCH  11  20
+ATOM     20  O2B AGS d 500      54.339  56.352  58.064  0.00  0.00    -0.307 OA
+ATOM     21  H   AGS d 500      54.244  56.927  57.289  0.00  0.00     0.222 HD
+ENDBRANCH  11  20
+ENDBRANCH  10  11
+ENDBRANCH   8  10
+BRANCH   8  22
+ATOM     22  O2A AGS d 500      53.374  52.273  59.130  0.00  0.00    -0.307 OA
+ATOM     23  H   AGS d 500      53.156  52.237  58.185  0.00  0.00     0.222 HD
+ENDBRANCH   8  22
+ENDBRANCH   7   8
+ENDBRANCH   6   7
+ENDBRANCH   1   6
+BRANCH   3  24
+ATOM     24  O3' AGS d 500      55.842  51.126  65.176  0.00  0.00    -0.390 OA
+ATOM     25  H   AGS d 500      55.791  52.040  65.497  0.00  0.00     0.210 HD
+ENDBRANCH   3  24
+BRANCH   5  26
+ATOM     26  N9  AGS d 500      52.369  53.545  64.622  0.00  0.00    -0.294 N 
+ATOM     27  C8  AGS d 500      51.121  53.015  64.352  0.00  0.00     0.214 A 
+ATOM     28  N7  AGS d 500      50.067  53.802  64.441  0.00  0.00    -0.236 NA
+ATOM     29  C5  AGS d 500      50.682  54.985  64.781  0.00  0.00     0.149 A 
+ATOM     30  C4  AGS d 500      52.106  54.866  64.816  0.00  0.00     0.167 A 
+ATOM     31  C6  AGS d 500      50.181  56.268  65.082  0.00  0.00     0.155 C 
+ATOM     32  N3  AGS d 500      53.022  55.849  65.144  0.00  0.00    -0.222 NA
+ATOM     33  C2  AGS d 500      52.399  57.010  65.449  0.00  0.00     0.237 C 
+ATOM     34  N1  AGS d 500      51.049  57.230  65.496  0.00  0.00    -0.222 NA
+BRANCH  31  35
+ATOM     35  N6  AGS d 500      48.762  56.564  64.951  0.00  0.00    -0.382 N 
+ATOM     36  H   AGS d 500      48.139  55.864  64.651  0.00  0.00     0.157 HD
+ATOM     37  H   AGS d 500      48.425  57.465  65.162  0.00  0.00     0.157 HD
+ENDBRANCH  31  35
+ENDBRANCH   5  26
+BRANCH   4  38
+ATOM     38  O2' AGS d 500      53.294  50.906  66.137  0.00  0.00    -0.388 OA
+ATOM     39  H   AGS d 500      54.017  51.194  66.715  0.00  0.00     0.210 HD
+ENDBRANCH   4  38
+TORSDOF 15

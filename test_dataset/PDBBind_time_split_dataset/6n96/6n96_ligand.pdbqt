@@ -1,0 +1,66 @@
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O6_6  and  P2_8 
+REMARK    2  A    between atoms: P1_11  and  O6_6 
+REMARK    3  A    between atoms: O5'_14  and  P1_11 
+REMARK    4  A    between atoms: C5'_15  and  O5'_14 
+REMARK    5  A    between atoms: C4'_16  and  C5'_15 
+REMARK    6  A    between atoms: C1'_18  and  N9_27 
+REMARK    7  A    between atoms: C2'_19  and  O2'_20 
+REMARK    8  A    between atoms: C3'_21  and  O3'_22 
+REMARK    9  A    between atoms: O3'_22  and  P3_23 
+ROOT
+ATOM      1  C4' LCV d   1      33.468 -23.644  42.942  0.00  0.00     0.180 C 
+ATOM      2  O4' LCV d   1      32.858 -22.928  41.857  0.00  0.00    -0.353 OA
+ATOM      3  C1' LCV d   1      33.247 -23.553  40.639  0.00  0.00     0.262 C 
+ATOM      4  C2' LCV d   1      34.518 -24.310  40.865  0.00  0.00     0.199 C 
+ATOM      5  C3' LCV d   1      34.392 -24.690  42.320  0.00  0.00     0.199 C 
+ENDROOT
+BRANCH   3   6
+ATOM      6  N9  LCV d   1      33.371 -22.607  39.513  0.00  0.00    -0.294 N 
+ATOM      7  C4  LCV d   1      32.318 -21.940  39.096  0.00  0.00     0.167 A 
+ATOM      8  C5  LCV d   1      32.780 -21.114  37.954  0.00  0.00     0.149 A 
+ATOM      9  N3  LCV d   1      31.032 -21.931  39.496  0.00  0.00    -0.222 NA
+ATOM     10  C6  LCV d   1      31.761 -20.261  37.316  0.00  0.00     0.155 A 
+ATOM     11  N7  LCV d   1      34.092 -21.373  37.781  0.00  0.00    -0.236 NA
+ATOM     12  N1  LCV d   1      30.513 -20.316  37.804  0.00  0.00    -0.222 NA
+ATOM     13  N6  LCV d   1      32.053 -19.466  36.274  0.00  0.00    -0.382 N 
+ATOM     14  C2  LCV d   1      30.156 -21.103  38.856  0.00  0.00     0.237 A 
+ATOM     15  H10 LCV d   1      31.318 -18.882  35.850  0.00  0.00     0.157 HD
+ATOM     16  H11 LCV d   1      33.012 -19.441  35.898  0.00  0.00     0.157 HD
+ATOM     17  C8  LCV d   1      34.452 -22.276  38.748  0.00  0.00     0.214 A 
+ENDBRANCH   3   6
+BRANCH   4  18
+ATOM     18  O2' LCV d   1      34.426 -25.481  40.050  0.00  0.00    -0.388 OA
+ATOM     19  H7  LCV d   1      33.669 -25.991  40.315  0.00  0.00     0.210 HD
+ENDBRANCH   4  18
+BRANCH   1  20
+ATOM     20  C5' LCV d   1      34.209 -22.626  43.760  0.00  0.00     0.216 C 
+BRANCH  20  21
+ATOM     21  O5' LCV d   1      35.496 -22.518  43.153  0.00  0.00    -0.287 OA
+BRANCH  21  22
+ATOM     22  P1  LCV d   1      36.737 -22.165  44.123  0.00  0.00     0.418 P 
+ATOM     23  O11 LCV d   1      37.636 -21.170  43.490  0.00  0.00    -0.624 OA
+ATOM     24  O12 LCV d   1      37.348 -23.516  44.508  0.00  0.00    -0.624 OA
+BRANCH  22  25
+ATOM     25  O6  LCV d   1      36.113 -21.481  45.443  0.00  0.00    -0.173 OA
+BRANCH  25  26
+ATOM     26  P2  LCV d   1      35.895 -19.916  45.792  0.00  0.00     0.431 P 
+ATOM     27  O7  LCV d   1      35.437 -19.875  47.337  0.00  0.00    -0.616 OA
+ATOM     28  O21 LCV d   1      34.792 -19.316  44.991  0.00  0.00    -0.616 OA
+ATOM     29  O22 LCV d   1      37.191 -19.102  45.831  0.00  0.00    -0.616 OA
+ENDBRANCH  25  26
+ENDBRANCH  22  25
+ENDBRANCH  21  22
+ENDBRANCH  20  21
+ENDBRANCH   1  20
+BRANCH   5  30
+ATOM     30  O3' LCV d   1      33.761 -25.942  42.173  0.00  0.00    -0.272 OA
+BRANCH  30  31
+ATOM     31  P3  LCV d   1      33.866 -27.189  43.183  0.00  0.00     0.422 P 
+ATOM     32  O31 LCV d   1      32.835 -26.822  44.217  0.00  0.00    -0.617 OA
+ATOM     33  O32 LCV d   1      33.483 -28.456  42.440  0.00  0.00    -0.617 OA
+ATOM     34  O33 LCV d   1      35.255 -27.399  43.776  0.00  0.00    -0.617 OA
+ENDBRANCH  30  31
+ENDBRANCH   5  30
+TORSDOF 9

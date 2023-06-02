@@ -1,0 +1,24 @@
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAE_2  and  CAD_4 
+REMARK    2  A    between atoms: CAI_11  and  OAJ_12 
+ROOT
+ATOM      1  CAD HWA d   1     -19.209  17.343  14.796  0.00  0.00     0.147 A 
+ATOM      2  NAC HWA d   1     -19.911  18.077  15.778  0.00  0.00    -0.248 NA
+ATOM      3  CAB HWA d   1     -21.035  18.872  15.458  0.00  0.00     0.035 A 
+ATOM      4  CAA HWA d   1     -21.729  19.606  16.492  0.00  0.00     0.070 C 
+ATOM      5  CAG HWA d   1     -21.456  18.930  14.121  0.00  0.00     0.080 A 
+ATOM      6  CAH HWA d   1     -20.798  18.205  13.120  0.00  0.00     0.185 A 
+ATOM      7  OAL HWA d   1     -21.247  18.306  11.954  0.00  0.00    -0.290 OA
+ATOM      8  CAI HWA d   1     -19.667  17.419  13.472  0.00  0.00     0.250 A 
+ENDROOT
+BRANCH   1   9
+ATOM      9  CAE HWA d   1     -18.145  16.584  15.314  0.00  0.00     0.227 C 
+ATOM     10  OAF HWA d   1     -18.104  16.563  16.558  0.00  0.00    -0.643 OA
+ATOM     11  OAK HWA d   1     -17.262  15.934  14.649  0.00  0.00    -0.643 OA
+ENDBRANCH   1   9
+BRANCH   8  12
+ATOM     12  OAJ HWA d   1     -19.032  16.703  12.522  0.00  0.00    -0.381 OA
+ATOM     13  H6  HWA d   1     -18.303  16.236  12.913  0.00  0.00     0.211 HD
+ENDBRANCH   8  12
+TORSDOF 2

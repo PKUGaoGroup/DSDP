@@ -1,0 +1,49 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAV_6  and  CAW_7 
+REMARK    2  A    between atoms: CAY_13  and  CAT_14 
+REMARK       I    between atoms: CAT_14  and  NAR_16 
+REMARK    3  A    between atoms: NAR_16  and  NAS_17 
+REMARK    4  A    between atoms: NAS_17  and  SAZ_18 
+REMARK    5  A    between atoms: SAZ_18  and  CAX_21 
+ROOT
+ATOM      1  CAT MNJ d   1       5.188  10.841  17.975  0.00  0.00     0.273 C 
+ATOM      2  OAA MNJ d   1       5.493  10.100  17.020  0.00  0.00    -0.266 OA
+ATOM      3  NAR MNJ d   1       4.034  10.646  18.726  0.00  0.00    -0.256 N 
+ATOM      4  H9  MNJ d   1       3.855  11.200  19.539  0.00  0.00     0.191 HD
+ENDROOT
+BRANCH   1   5
+ATOM      5  CAY MNJ d   1       6.020  11.959  18.325  0.00  0.00     0.073 A 
+ATOM      6  CAQ MNJ d   1       6.532  12.815  17.352  0.00  0.00     0.032 A 
+ATOM      7  CAW MNJ d   1       7.363  13.911  17.672  0.00  0.00    -0.025 A 
+ATOM      8  CAP MNJ d   1       7.654  14.186  19.047  0.00  0.00     0.015 A 
+ATOM      9  CAO MNJ d   1       7.130  13.338  20.064  0.00  0.00     0.044 A 
+ATOM     10  CAU MNJ d   1       6.318  12.257  19.685  0.00  0.00     0.132 A 
+ATOM     11  FAD MNJ d   1       5.782  11.419  20.634  0.00  0.00    -0.205 F 
+BRANCH   7  12
+ATOM     12  CAV MNJ d   1       7.829  14.771  16.614  0.00  0.00    -0.026 A 
+ATOM     13  CAK MNJ d   1       8.315  14.322  15.371  0.00  0.00     0.012 A 
+ATOM     14  CAG MNJ d   1       8.745  15.209  14.347  0.00  0.00     0.001 A 
+ATOM     15  CAE MNJ d   1       8.627  16.596  14.547  0.00  0.00     0.000 A 
+ATOM     16  CAH MNJ d   1       8.096  17.130  15.753  0.00  0.00     0.001 A 
+ATOM     17  CAL MNJ d   1       7.755  16.221  16.773  0.00  0.00     0.012 A 
+ENDBRANCH   7  12
+ENDBRANCH   1   5
+BRANCH   3  18
+ATOM     18  NAS MNJ d   1       3.163   9.698  18.337  0.00  0.00    -0.220 N 
+ATOM     19  H10 MNJ d   1       2.510   9.810  17.588  0.00  0.00     0.200 HD
+BRANCH  18  20
+ATOM     20  SAZ MNJ d   1       3.315   8.207  19.326  0.00  0.00     0.276 S 
+ATOM     21  OAB MNJ d   1       4.747   7.836  19.679  0.00  0.00    -0.199 OA
+ATOM     22  OAC MNJ d   1       2.655   7.055  18.684  0.00  0.00    -0.199 OA
+BRANCH  20  23
+ATOM     23  CAX MNJ d   1       2.605   8.519  20.978  0.00  0.00     0.081 A 
+ATOM     24  CAM MNJ d   1       3.237   9.476  21.763  0.00  0.00     0.025 A 
+ATOM     25  CAI MNJ d   1       2.699   9.670  23.044  0.00  0.00     0.002 A 
+ATOM     26  CAF MNJ d   1       1.569   8.949  23.487  0.00  0.00     0.000 A 
+ATOM     27  CAJ MNJ d   1       0.963   7.970  22.670  0.00  0.00     0.002 A 
+ATOM     28  CAN MNJ d   1       1.515   7.781  21.396  0.00  0.00     0.025 A 
+ENDBRANCH  20  23
+ENDBRANCH  18  20
+ENDBRANCH   3  18
+TORSDOF 5

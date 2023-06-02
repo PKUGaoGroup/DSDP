@@ -1,0 +1,55 @@
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: S7_2  and  C8_1 
+REMARK    2  A    between atoms: C8_1  and  C10_12 
+REMARK    3  A    between atoms: C8_1  and  C9_9 
+REMARK    4  A    between atoms: C6_3  and  S7_2 
+REMARK    5  A    between atoms: C6_3  and  C5_4 
+REMARK    6  A    between atoms: C5_4  and  N3_5 
+REMARK       I    between atoms: N3_5  and  C1_6 
+REMARK       I    between atoms: N4_7  and  C1_6 
+REMARK    7  A    between atoms: C9_9  and  O15_11 
+REMARK    8  A    between atoms: C11_13  and  C10_12 
+REMARK    9  A    between atoms: C11_13  and  O13_15 
+ROOT
+ATOM      1  S7  GEM d1377      -2.734  -7.329   6.858  0.00  0.00    -0.151 SA
+ENDROOT
+BRANCH   1   2
+ATOM      2  C6  GEM d1377      -1.270  -8.078   6.056  0.00  0.00     0.097 C 
+BRANCH   2   3
+ATOM      3  C5  GEM d1377       0.060  -7.790   6.758  0.00  0.00     0.179 C 
+BRANCH   3   4
+ATOM      4  N3  GEM d1377       0.143  -8.528   8.026  0.00  0.00    -0.107 NA
+ATOM      5  C1  GEM d1377       1.061  -9.482   8.170  0.00  0.00     0.686 C 
+ATOM      6  N4  GEM d1377       1.881  -9.762   7.160  0.00  0.00    -0.234 N 
+ATOM      7  N2  GEM d1377       1.158 -10.162   9.308  0.00  0.00    -0.234 N 
+ATOM      8  H   GEM d1377       1.812  -9.260   6.316  0.00  0.00     0.174 HD
+ATOM      9  H   GEM d1377       2.557 -10.471   7.257  0.00  0.00     0.174 HD
+ATOM     10  H   GEM d1377       1.840 -10.865   9.405  0.00  0.00     0.174 HD
+ATOM     11  H   GEM d1377       0.548  -9.962  10.054  0.00  0.00     0.174 HD
+ENDBRANCH   3   4
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1  12
+ATOM     12  C8  GEM d1377      -2.181  -7.298   8.602  0.00  0.00     0.154 C 
+BRANCH  12  13
+ATOM     13  C10 GEM d1377      -2.028  -5.860   9.102  0.00  0.00     0.136 C 
+BRANCH  13  14
+ATOM     14  C11 GEM d1377      -3.356  -5.099   9.068  0.00  0.00     0.141 C 
+ATOM     15  O12 GEM d1377      -3.370  -3.991   8.487  0.00  0.00    -0.650 OA
+BRANCH  14  16
+ATOM     16  O13 GEM d1377      -4.327  -5.635   9.641  0.00  0.00    -0.776 OA
+ATOM     17  H   GEM d1377      -4.225  -6.471  10.052  0.00  0.00     0.167 HD
+ENDBRANCH  14  16
+ENDBRANCH  13  14
+ENDBRANCH  12  13
+BRANCH  12  18
+ATOM     18  C9  GEM d1377      -3.130  -8.087   9.507  0.00  0.00     0.154 C 
+ATOM     19  O14 GEM d1377      -4.062  -8.720   8.961  0.00  0.00    -0.649 OA
+BRANCH  18  20
+ATOM     20  O15 GEM d1377      -2.902  -8.040  10.733  0.00  0.00    -0.775 OA
+ATOM     21  H   GEM d1377      -2.179  -7.539  11.056  0.00  0.00     0.167 HD
+ENDBRANCH  18  20
+ENDBRANCH  12  18
+ENDBRANCH   1  12
+TORSDOF 9

@@ -1,0 +1,91 @@
+REMARK  15 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: PG_1  and  O3B_5 
+REMARK    2  A    between atoms: PG_1  and  O1G_2 
+REMARK    3  A    between atoms: PG_1  and  O3G_4 
+REMARK    4  A    between atoms: O3B_5  and  PB_6 
+REMARK    5  A    between atoms: O3A_9  and  PB_6 
+REMARK    6  A    between atoms: PB_6  and  O2B_8 
+REMARK    7  A    between atoms: O3A_9  and  PA_10 
+REMARK    8  A    between atoms: O5'_13  and  PA_10 
+REMARK    9  A    between atoms: PA_10  and  O2A_12 
+REMARK   10  A    between atoms: C5'_14  and  O5'_13 
+REMARK   11  A    between atoms: C4'_15  and  C5'_14 
+REMARK   12  A    between atoms: O3'_18  and  C3'_17 
+REMARK   13  A    between atoms: O2'_20  and  C2'_19 
+REMARK   14  A    between atoms: N9_22  and  C1'_21 
+REMARK   15  A    between atoms: N2_30  and  C2_29 
+ROOT
+ATOM      1  C4' GTP d5001       4.565 104.800  72.470  0.00  0.00     0.180 C 
+ATOM      2  O4' GTP d5001       5.850 104.203  72.324  0.00  0.00    -0.353 OA
+ATOM      3  C3' GTP d5001       3.931 104.629  71.164  0.00  0.00     0.182 C 
+ATOM      4  C2' GTP d5001       5.003 104.874  70.231  0.00  0.00     0.198 C 
+ATOM      5  C1' GTP d5001       6.277 104.447  70.971  0.00  0.00     0.262 C 
+ENDROOT
+BRANCH   1   6
+ATOM      6  C5' GTP d5001       3.678 104.337  73.617  0.00  0.00     0.215 C 
+BRANCH   6   7
+ATOM      7  O5' GTP d5001       4.293 104.258  74.926  0.00  0.00    -0.294 OA
+BRANCH   7   8
+ATOM      8  PA  GTP d5001       3.402 103.991  76.280  0.00  0.00     0.401 P 
+ATOM      9  O1A GTP d5001       3.141 102.545  76.354  0.00  0.00    -0.631 OA
+BRANCH   8  10
+ATOM     10  O3A GTP d5001       1.929 104.710  76.051  0.00  0.00    -0.195 OA
+BRANCH  10  11
+ATOM     11  PB  GTP d5001       1.465 106.270  76.111  0.00  0.00     0.410 P 
+ATOM     12  O1B GTP d5001       2.613 107.153  76.113  0.00  0.00    -0.631 OA
+BRANCH  11  13
+ATOM     13  O3B GTP d5001       0.605 106.503  74.825  0.00  0.00    -0.195 OA
+BRANCH  13  14
+ATOM     14  PG  GTP d5001      -0.944 106.432  74.544  0.00  0.00     0.399 P 
+ATOM     15  O2G GTP d5001      -1.137 106.581  73.095  0.00  0.00    -0.631 OA
+BRANCH  14  16
+ATOM     16  O1G GTP d5001      -1.368 105.108  75.080  0.00  0.00    -0.307 OA
+ATOM     17  H   GTP d5001      -0.961 104.401  74.555  0.00  0.00     0.222 HD
+ENDBRANCH  14  16
+BRANCH  14  18
+ATOM     18  O3G GTP d5001      -1.540 107.537  75.314  0.00  0.00    -0.307 OA
+ATOM     19  H   GTP d5001      -1.247 108.384  74.943  0.00  0.00     0.222 HD
+ENDBRANCH  14  18
+ENDBRANCH  13  14
+ENDBRANCH  11  13
+BRANCH  11  20
+ATOM     20  O2B GTP d5001       0.504 106.415  77.287  0.00  0.00    -0.307 OA
+ATOM     21  H   GTP d5001      -0.225 105.782  77.189  0.00  0.00     0.222 HD
+ENDBRANCH  11  20
+ENDBRANCH  10  11
+ENDBRANCH   8  10
+BRANCH   8  22
+ATOM     22  O2A GTP d5001       4.015 104.613  77.451  0.00  0.00    -0.307 OA
+ATOM     23  H   GTP d5001       4.138 105.561  77.287  0.00  0.00     0.222 HD
+ENDBRANCH   8  22
+ENDBRANCH   7   8
+ENDBRANCH   6   7
+ENDBRANCH   1   6
+BRANCH   3  24
+ATOM     24  O3' GTP d5001       2.822 105.467  70.972  0.00  0.00    -0.390 OA
+ATOM     25  H   GTP d5001       3.097 106.393  71.061  0.00  0.00     0.210 HD
+ENDBRANCH   3  24
+BRANCH   4  26
+ATOM     26  O2' GTP d5001       5.019 106.254  69.882  0.00  0.00    -0.388 OA
+ATOM     27  H   GTP d5001       5.111 106.790  70.686  0.00  0.00     0.210 HD
+ENDBRANCH   4  26
+BRANCH   5  28
+ATOM     28  N9  GTP d5001       6.920 103.205  70.386  0.00  0.00    -0.295 N 
+ATOM     29  C4  GTP d5001       6.713 102.551  69.151  0.00  0.00     0.161 A 
+ATOM     30  N3  GTP d5001       5.812 102.891  68.135  0.00  0.00    -0.172 N 
+ATOM     31  C5  GTP d5001       7.553 101.462  69.162  0.00  0.00     0.173 A 
+ATOM     32  C2  GTP d5001       5.831 102.071  67.059  0.00  0.00     0.703 A 
+ATOM     33  H   GTP d5001       5.210 103.668  68.199  0.00  0.00     0.186 HD
+ATOM     34  N1  GTP d5001       6.661 100.965  66.991  0.00  0.00    -0.021 NA
+ATOM     35  C6  GTP d5001       7.583 100.579  67.992  0.00  0.00     0.316 A 
+ATOM     36  O6  GTP d5001       8.295  99.577  67.872  0.00  0.00    -0.263 OA
+ATOM     37  N7  GTP d5001       8.302 101.427  70.320  0.00  0.00    -0.234 NA
+ATOM     38  C8  GTP d5001       7.870 102.454  70.984  0.00  0.00     0.214 A 
+BRANCH  32  39
+ATOM     39  N2  GTP d5001       4.999 102.364  66.069  0.00  0.00    -0.233 N 
+ATOM     40  H   GTP d5001       4.974 101.799  65.263  0.00  0.00     0.174 HD
+ATOM     41  H   GTP d5001       4.406 103.147  66.139  0.00  0.00     0.174 HD
+ENDBRANCH  32  39
+ENDBRANCH   5  28
+TORSDOF 15

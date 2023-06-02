@@ -1,0 +1,84 @@
+REMARK  13 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: S26_26  and  C5_5 
+REMARK    2  A    between atoms: N7_7  and  C24_24 
+REMARK    3  A    between atoms: C8_8  and  N20_20 
+REMARK    4  A    between atoms: C14_14  and  S23_23 
+REMARK    5  A    between atoms: N16_16  and  C21_21 
+REMARK    6  A    between atoms: N19_19  and  C17_17 
+REMARK    7  A    between atoms: N19_19  and  N20_20 
+REMARK    8  A    between atoms: O48_31  and  S23_23 
+REMARK    9  A    between atoms: S23_23  and  O49_32 
+REMARK   10  A    between atoms: S23_23  and  O39_27 
+REMARK   11  A    between atoms: O46_29  and  S26_26 
+REMARK   12  A    between atoms: O47_30  and  S26_26 
+REMARK   13  A    between atoms: S26_26  and  O45_28 
+ROOT
+ATOM      1  N19 EBS d1518      -4.246  35.538  40.698  0.00  0.00    -0.231 NA
+ATOM      2  H   EBS d1518      -4.370  34.810  39.995  0.00  0.00     0.143 HD
+ENDROOT
+BRANCH   1   3
+ATOM      3  N20 EBS d1518      -2.820  35.630  40.984  0.00  0.00    -0.227 NA
+ATOM      4  H   EBS d1518      -2.538  36.524  40.582  0.00  0.00     0.143 HD
+BRANCH   3   5
+ATOM      5  C8  EBS d1518      -1.851  34.801  40.650  0.00  0.00     0.240 A 
+ATOM      6  S9  EBS d1518      -1.933  33.733  39.283  0.00  0.00    -0.086 SA
+ATOM      7  C1  EBS d1518      -0.321  33.119  39.693  0.00  0.00     0.032 A 
+ATOM      8  C3  EBS d1518       0.421  32.075  38.977  0.00  0.00     0.044 A 
+ATOM      9  C2  EBS d1518       0.247  33.733  40.838  0.00  0.00     0.049 A 
+ATOM     10  C5  EBS d1518       1.729  31.687  39.455  0.00  0.00     0.057 A 
+ATOM     11  C6  EBS d1518       2.316  32.314  40.620  0.00  0.00     0.026 A 
+ATOM     12  C4  EBS d1518       1.599  33.332  41.319  0.00  0.00     0.032 A 
+ATOM     13  N7  EBS d1518      -0.642  34.728  41.417  0.00  0.00    -0.353 N 
+BRANCH  10  14
+ATOM     14  S26 EBS d1518       2.622  30.410  38.609  0.00  0.00     0.115 S 
+BRANCH  14  15
+ATOM     15  O46 EBS d1518       4.015  29.677  37.570  0.00  0.00    -0.304 OA
+ATOM     16  H   EBS d1518       3.865  28.726  37.453  0.00  0.00     0.230 HD
+ENDBRANCH  14  15
+BRANCH  14  17
+ATOM     17  O47 EBS d1518       3.821  31.850  38.374  0.00  0.00    -0.304 OA
+ATOM     18  H   EBS d1518       4.594  31.549  37.871  0.00  0.00     0.230 HD
+ENDBRANCH  14  17
+BRANCH  14  19
+ATOM     19  O45 EBS d1518       1.946  28.755  38.905  0.00  0.00    -0.304 OA
+ATOM     20  H   EBS d1518       2.471  28.100  38.420  0.00  0.00     0.230 HD
+ENDBRANCH  14  19
+ENDBRANCH  10  14
+BRANCH  13  21
+ATOM     21  C24 EBS d1518      -0.346  35.569  42.658  0.00  0.00     0.121 C 
+ATOM     22  C25 EBS d1518      -0.444  34.743  43.952  0.00  0.00     0.026 C 
+ENDBRANCH  13  21
+ENDBRANCH   3   5
+ENDBRANCH   1   3
+BRANCH   1  23
+ATOM     23  C17 EBS d1518      -5.074  35.250  41.732  0.00  0.00     0.218 A 
+ATOM     24  S18 EBS d1518      -6.135  33.829  41.710  0.00  0.00    -0.091 SA
+ATOM     25  C10 EBS d1518      -6.778  34.243  43.290  0.00  0.00     0.026 A 
+ATOM     26  C11 EBS d1518      -6.231  35.433  43.881  0.00  0.00     0.029 A 
+ATOM     27  C12 EBS d1518      -7.783  33.475  43.980  0.00  0.00     0.043 A 
+ATOM     28  N16 EBS d1518      -5.164  36.156  43.028  0.00  0.00    -0.255 NA
+ATOM     29  C13 EBS d1518      -6.701  35.871  45.203  0.00  0.00     0.026 A 
+ATOM     30  C15 EBS d1518      -7.693  35.123  45.904  0.00  0.00     0.025 A 
+ATOM     31  C14 EBS d1518      -8.234  33.935  45.301  0.00  0.00     0.057 A 
+BRANCH  28  32
+ATOM     32  C21 EBS d1518      -3.676  36.152  43.700  0.00  0.00     0.093 C 
+ATOM     33  C22 EBS d1518      -3.461  36.696  45.135  0.00  0.00     0.021 C 
+ENDBRANCH  28  32
+BRANCH  31  34
+ATOM     34  S23 EBS d1518      -9.452  33.055  46.204  0.00  0.00     0.115 S 
+BRANCH  34  35
+ATOM     35  O48 EBS d1518     -10.457  32.854  44.519  0.00  0.00    -0.304 OA
+ATOM     36  H   EBS d1518      -9.930  32.341  43.887  0.00  0.00     0.230 HD
+ENDBRANCH  34  35
+BRANCH  34  37
+ATOM     37  O49 EBS d1518     -11.021  32.205  46.614  0.00  0.00    -0.304 OA
+ATOM     38  H   EBS d1518     -11.247  31.583  45.904  0.00  0.00     0.230 HD
+ENDBRANCH  34  37
+BRANCH  34  39
+ATOM     39  O39 EBS d1518      -9.794  33.913  47.900  0.00  0.00    -0.304 OA
+ATOM     40  H   EBS d1518      -9.083  34.544  48.092  0.00  0.00     0.230 HD
+ENDBRANCH  34  39
+ENDBRANCH  31  34
+ENDBRANCH   1  23
+TORSDOF 13

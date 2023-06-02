@@ -1,0 +1,54 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2_1  and  N25_27 
+REMARK    2  A    between atoms: C20_9  and  O24_26 
+REMARK    3  A    between atoms: N25_27  and  C23_12 
+REMARK    4  A    between atoms: C8_21  and  N7_20 
+REMARK    5  A    between atoms: C9_22  and  C8_21 
+REMARK    6  A    between atoms: C9_22  and  C10_23 
+ROOT
+ATOM      1  C2  EKT d   1     -11.814  12.630  20.448  0.00  0.00     0.728 C 
+ATOM      2  C13 EKT d   1      -7.328  11.337  19.183  0.00  0.00     0.108 C 
+ATOM      3  C15 EKT d   1      -7.085  12.800  18.751  0.00  0.00     0.252 C 
+ATOM      4  C16 EKT d   1      -6.052  10.807  19.905  0.00  0.00     0.049 C 
+ATOM      5  C28 EKT d   1      -7.907  15.113  18.294  0.00  0.00     0.159 C 
+ATOM      6  C29 EKT d   1      -7.541  10.571  17.823  0.00  0.00     0.049 C 
+ATOM      7  N1  EKT d   1     -11.733  13.735  19.681  0.00  0.00    -0.073 NA
+ATOM      8  N3  EKT d   1     -10.760  11.775  20.481  0.00  0.00    -0.043 NA
+ATOM      9  C4  EKT d   1      -9.551  12.087  19.934  0.00  0.00     0.174 C 
+ATOM     10  C5  EKT d   1      -9.428  13.282  19.172  0.00  0.00     0.102 C 
+ATOM     11  C6  EKT d   1     -10.571  14.111  19.103  0.00  0.00     0.170 C 
+ATOM     12  N7  EKT d   1      -8.556  11.162  19.994  0.00  0.00    -0.346 N 
+ATOM     13  N14 EKT d   1      -8.134  13.683  18.682  0.00  0.00    -0.316 N 
+ATOM     14  O17 EKT d   1      -5.925  13.115  18.490  0.00  0.00    -0.270 OA
+ENDROOT
+BRANCH   1  15
+ATOM     15  N25 EKT d   1     -13.017  12.319  20.988  0.00  0.00    -0.188 N 
+ATOM     16  H25 EKT d   1     -13.823  12.807  20.572  0.00  0.00     0.184 HD
+BRANCH  15  17
+ATOM     17  C23 EKT d   1     -13.319  11.460  21.996  0.00  0.00     0.055 A 
+ATOM     18  C18 EKT d   1     -12.412  10.527  22.540  0.00  0.00     0.075 A 
+ATOM     19  C19 EKT d   1     -12.845   9.607  23.506  0.00  0.00     0.154 A 
+ATOM     20  C20 EKT d   1     -14.205   9.541  23.854  0.00  0.00     0.143 A 
+ATOM     21  F27 EKT d   1     -11.985   8.784  24.080  0.00  0.00    -0.203 F 
+ATOM     22  C21 EKT d   1     -15.119  10.395  23.245  0.00  0.00     0.154 A 
+ATOM     23  C22 EKT d   1     -14.688  11.365  22.331  0.00  0.00     0.075 A 
+ATOM     24  F26 EKT d   1     -16.403  10.349  23.583  0.00  0.00    -0.203 F 
+BRANCH  20  25
+ATOM     25  O24 EKT d   1     -14.617   8.605  24.810  0.00  0.00    -0.355 OA
+ATOM     26  H24 EKT d   1     -13.864   8.113  25.115  0.00  0.00     0.218 HD
+ENDBRANCH  20  25
+ENDBRANCH  15  17
+ENDBRANCH   1  15
+BRANCH  12  27
+ATOM     27  C8  EKT d   1      -8.802   9.926  20.791  0.00  0.00     0.126 C 
+BRANCH  27  28
+ATOM     28  C9  EKT d   1      -8.468  10.142  22.287  0.00  0.00     0.024 C 
+BRANCH  28  29
+ATOM     29  C10 EKT d   1      -8.693   8.821  23.055  0.00  0.00    -0.021 C 
+ATOM     30  C11 EKT d   1      -7.697   7.728  22.556  0.00  0.00     0.009 C 
+ATOM     31  C12 EKT d   1      -8.524   9.056  24.579  0.00  0.00     0.009 C 
+ENDBRANCH  28  29
+ENDBRANCH  27  28
+ENDBRANCH  12  27
+TORSDOF 6

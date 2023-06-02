@@ -1,0 +1,67 @@
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C13_12  and  C14_1 
+REMARK    2  A    between atoms: O17_7  and  N16_8 
+REMARK    3  A    between atoms: C4'_9  and  C4_15 
+REMARK    4  A    between atoms: C4'_9  and  O4B_22 
+REMARK    5  A    between atoms: C3_14  and  C3'_10 
+REMARK    6  A    between atoms: C3'_10  and  O3'_26 
+REMARK       I    between atoms: C11_11  and  N10_19 
+REMARK    7  A    between atoms: C11_11  and  C13_12 
+REMARK    8  A    between atoms: C7_17  and  N10_19 
+REMARK    9  A    between atoms: O3'_26  and  C31_27 
+REMARK       I    between atoms: C31_27  and  N31_29 
+ROOT
+ATOM      1  C2  KEF d 900     100.947  61.744  49.049  0.00  0.00     0.115 C 
+ATOM      2  C3  KEF d 900     100.970  63.284  48.753  0.00  0.00    -0.013 C 
+ATOM      3  C4  KEF d 900     102.102  63.957  48.413  0.00  0.00     0.117 C 
+ATOM      4  C6  KEF d 900     103.334  61.724  48.031  0.00  0.00     0.187 C 
+ATOM      5  C7  KEF d 900     104.951  61.917  47.958  0.00  0.00     0.211 C 
+ATOM      6  C8  KEF d 900     104.631  63.415  48.290  0.00  0.00     0.251 C 
+ATOM      7  N5  KEF d 900     103.301  63.222  48.187  0.00  0.00    -0.293 N 
+ATOM      8  O9  KEF d 900     105.324  64.359  48.588  0.00  0.00    -0.271 OA
+ATOM      9  S1  KEF d 900     102.557  60.973  49.458  0.00  0.00    -0.136 SA
+ENDROOT
+BRANCH   5  10
+ATOM     10  N10 KEF d 900     105.697  61.274  49.000  0.00  0.00    -0.339 N 
+ATOM     11  C11 KEF d 900     106.344  60.094  48.816  0.00  0.00     0.276 C 
+ATOM     12  O12 KEF d 900     106.346  59.473  47.757  0.00  0.00    -0.266 OA
+ATOM     13  H   KEF d 900     105.742  61.705  49.884  0.00  0.00     0.163 HD
+BRANCH  11  14
+ATOM     14  C13 KEF d 900     107.090  59.572  50.017  0.00  0.00     0.185 C 
+ATOM     15  N16 KEF d 900     108.238  59.974  50.356  0.00  0.00    -0.126 NA
+BRANCH  15  16
+ATOM     16  O17 KEF d 900     109.122  60.418  49.261  0.00  0.00    -0.261 OA
+ATOM     17  C18 KEF d 900     110.251  61.054  49.850  0.00  0.00     0.240 C 
+ENDBRANCH  15  16
+BRANCH  14  18
+ATOM     18  C14 KEF d 900     106.428  58.529  50.856  0.00  0.00     0.111 A 
+ATOM     19  C19 KEF d 900     106.573  57.180  50.683  0.00  0.00     0.042 A 
+ATOM     20  C17 KEF d 900     105.910  56.380  51.517  0.00  0.00     0.027 A 
+ATOM     21  C16 KEF d 900     105.303  57.385  52.275  0.00  0.00     0.142 A 
+ATOM     22  O15 KEF d 900     105.536  58.702  51.977  0.00  0.00    -0.320 OA
+ENDBRANCH  14  18
+ENDBRANCH  11  14
+ENDBRANCH   5  10
+BRANCH   3  23
+ATOM     23  C4' KEF d 900     102.229  65.467  48.189  0.00  0.00     0.194 C 
+ATOM     24  O4A KEF d 900     102.651  65.903  47.096  0.00  0.00    -0.645 OA
+BRANCH  23  25
+ATOM     25  O4B KEF d 900     101.911  66.235  49.103  0.00  0.00    -0.772 OA
+ATOM     26  H   KEF d 900     101.597  65.891  49.916  0.00  0.00     0.167 HD
+ENDBRANCH  23  25
+ENDBRANCH   3  23
+BRANCH   2  27
+ATOM     27  C3' KEF d 900      99.576  63.891  48.835  0.00  0.00     0.218 C 
+BRANCH  27  28
+ATOM     28  O3' KEF d 900      99.361  64.039  50.262  0.00  0.00    -0.300 OA
+BRANCH  28  29
+ATOM     29  C31 KEF d 900      98.218  64.734  50.696  0.00  0.00     0.358 C 
+ATOM     30  O31 KEF d 900      97.401  65.056  49.922  0.00  0.00    -0.239 OA
+ATOM     31  N31 KEF d 900      98.196  64.817  52.221  0.00  0.00    -0.346 N 
+ATOM     32  H   KEF d 900      97.455  65.276  52.678  0.00  0.00     0.161 HD
+ATOM     33  H   KEF d 900      98.923  64.412  52.747  0.00  0.00     0.161 HD
+ENDBRANCH  28  29
+ENDBRANCH  27  28
+ENDBRANCH   2  27
+TORSDOF 9

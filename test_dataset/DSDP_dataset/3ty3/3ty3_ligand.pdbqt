@@ -1,0 +1,46 @@
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  CA_2 
+REMARK    2  A    between atoms: C_3  and  CA_2 
+REMARK       I    between atoms: C_3  and  N_5 
+REMARK    3  A    between atoms: N_5  and  CA_6 
+REMARK    4  A    between atoms: C_7  and  CA_6 
+REMARK       I    between atoms: N_9  and  C_7 
+REMARK    5  A    between atoms: CA_10  and  N_9 
+REMARK    6  A    between atoms: CA_10  and  C_11 
+REMARK    7  A    between atoms: C_11  and  OXT_13 
+ROOT
+ATOM      1  CA  GLY d   2     -10.793  -2.026  11.471  0.00  0.00     0.225 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N   GLY d   2      -9.722  -1.032  11.401  0.00  0.00    -0.351 N 
+ATOM      3  C   GLY d   1      -9.382  -0.438  10.255  0.00  0.00     0.245 C 
+ATOM      4  O   GLY d   1      -9.918  -0.687   9.186  0.00  0.00    -0.272 OA
+ATOM      5  H   GLY d   2      -9.237  -0.794  12.224  0.00  0.00     0.163 HD
+BRANCH   3   6
+ATOM      6  CA  GLY d   1      -8.252   0.588  10.319  0.00  0.00     0.368 C 
+BRANCH   6   7
+ATOM      7  N   GLY d   1      -7.804   1.046   8.966  0.00  0.00     0.087 N 
+ATOM      8  H1  GLY d   1      -7.052   1.727   9.069  0.00  0.00     0.313 HD
+ATOM      9  H2  GLY d   1      -8.588   1.477   8.476  0.00  0.00     0.313 HD
+ENDBRANCH   6   7
+ENDBRANCH   3   6
+ENDBRANCH   1   2
+BRANCH   1  10
+ATOM     10  C   GLY d   2     -10.298  -3.464  11.434  0.00  0.00     0.235 C 
+ATOM     11  N   GLY d   3      -8.987  -3.636  11.320  0.00  0.00    -0.350 N 
+ATOM     12  H   GLY d   3      -8.403  -2.844  11.291  0.00  0.00     0.163 HD
+ATOM     13  O   GLY d   2     -11.096  -4.411  11.529  0.00  0.00    -0.272 OA
+BRANCH  11  14
+ATOM     14  CA  GLY d   3      -8.380  -4.969  11.236  0.00  0.00     0.232 C 
+BRANCH  14  15
+ATOM     15  C   GLY d   3      -7.233  -5.157  12.209  0.00  0.00     0.158 C 
+ATOM     16  O   GLY d   3      -6.187  -5.683  11.825  0.00  0.00    -0.649 OA
+BRANCH  15  17
+ATOM     17  OXT GLY d   3      -7.319  -4.768  13.388  0.00  0.00    -0.775 OA
+ATOM     18  HXT GLY d   3      -8.109  -4.366  13.692  0.00  0.00     0.167 HD
+ENDBRANCH  15  17
+ENDBRANCH  14  15
+ENDBRANCH  11  14
+ENDBRANCH   1  10
+TORSDOF 7

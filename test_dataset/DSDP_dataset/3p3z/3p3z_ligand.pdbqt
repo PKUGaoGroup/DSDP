@@ -1,0 +1,40 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: OAB_2  and  CAS_19 
+REMARK    2  A    between atoms: OAN_14  and  CAO_15 
+REMARK    3  A    between atoms: CAP_16  and  CAS_19 
+REMARK    4  A    between atoms: CAS_19  and  CAQ_17 
+REMARK    5  A    between atoms: CAR_18  and  CAS_19 
+ROOT
+ATOM      1  CAS P3Z d 502      22.898  13.283  43.188  0.00  0.00     0.118 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  CAR P3Z d 502      21.711  13.937  42.441  0.00  0.00     0.030 A 
+ATOM      3  CAK P3Z d 502      22.044  14.684  41.146  0.00  0.00     0.009 A 
+ATOM      4  CAJ P3Z d 502      21.700  15.471  42.412  0.00  0.00     0.009 A 
+ENDBRANCH   1   2
+BRANCH   1   5
+ATOM      5  OAB P3Z d 502      24.125  13.922  42.808  0.00  0.00    -0.380 OA
+ATOM      6  H   P3Z d 502      24.264  13.814  41.854  0.00  0.00     0.211 HD
+ENDBRANCH   1   5
+BRANCH   1   7
+ATOM      7  CAP P3Z d 502      23.024  11.775  42.870  0.00  0.00    -0.019 A 
+ATOM      8  CAF P3Z d 502      22.108  11.130  42.033  0.00  0.00     0.013 A 
+ATOM      9  CAD P3Z d 502      22.242   9.770  41.752  0.00  0.00     0.037 A 
+ATOM     10  CAO P3Z d 502      23.292   9.037  42.312  0.00  0.00     0.068 A 
+ATOM     11  CAC P3Z d 502      24.210   9.677  43.146  0.00  0.00     0.037 A 
+ATOM     12  CAE P3Z d 502      24.076  11.038  43.422  0.00  0.00     0.013 A 
+BRANCH  10  13
+ATOM     13  OAN P3Z d 502      23.439   7.704  42.046  0.00  0.00    -0.356 OA
+ATOM     14  CAA P3Z d 502      22.270   6.936  42.389  0.00  0.00     0.210 C 
+ENDBRANCH  10  13
+ENDBRANCH   1   7
+BRANCH   1  15
+ATOM     15  CAQ P3Z d 502      22.707  13.471  44.702  0.00  0.00     0.016 A 
+ATOM     16  CAH P3Z d 502      21.507  13.156  45.335  0.00  0.00     0.130 A 
+ATOM     17  NAL P3Z d 502      21.402  13.346  46.641  0.00  0.00    -0.253 NA
+ATOM     18  CAG P3Z d 502      22.416  13.819  47.349  0.00  0.00     0.232 A 
+ATOM     19  NAM P3Z d 502      23.569  14.131  46.783  0.00  0.00    -0.253 NA
+ATOM     20  CAI P3Z d 502      23.744  13.968  45.482  0.00  0.00     0.130 A 
+ENDBRANCH   1  15
+TORSDOF 5

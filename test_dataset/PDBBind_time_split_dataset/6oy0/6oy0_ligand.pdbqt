@@ -1,0 +1,106 @@
+REMARK  18 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C13_1  and  C15_2 
+REMARK    2  A    between atoms: C12_16  and  C13_1 
+REMARK    3  A    between atoms: C13_1  and  O14_35 
+REMARK    4  A    between atoms: C15_2  and  C28_8 
+REMARK    5  A    between atoms: C15_2  and  N16_32 
+REMARK       I    between atoms: N16_32  and  C17_3 
+REMARK    6  A    between atoms: C17_3  and  O19_37 
+REMARK    7  A    between atoms: O19_37  and  C20_4 
+REMARK    8  A    between atoms: C28_8  and  C29_19 
+REMARK    9  A    between atoms: C01_9  and  C40_30 
+REMARK   10  A    between atoms: S07_42  and  C04_12 
+REMARK   11  A    between atoms: C11_15  and  C37_27 
+REMARK   12  A    between atoms: N10_31  and  C11_15 
+REMARK   13  A    between atoms: N10_31  and  C12_16 
+REMARK   14  A    between atoms: C40_30  and  C35_25 
+REMARK   15  A    between atoms: C35_25  and  O42_41 
+REMARK   16  A    between atoms: C37_27  and  C38_28 
+REMARK   17  A    between atoms: C40_30  and  O41_40 
+REMARK   18  A    between atoms: N10_31  and  S07_42 
+ROOT
+ATOM      1  C13 NJ7 d   1      71.231  57.690  14.960  0.00  0.00     0.159 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C15 NJ7 d   1      70.849  58.046  16.415  0.00  0.00     0.117 C 
+BRANCH   2   3
+ATOM      3  C28 NJ7 d   1      69.457  58.683  16.472  0.00  0.00     0.032 C 
+BRANCH   3   4
+ATOM      4  C29 NJ7 d   1      69.226  59.146  17.922  0.00  0.00    -0.013 A 
+ATOM      5  C30 NJ7 d   1      68.879  58.091  19.033  0.00  0.00     0.005 A 
+ATOM      6  C31 NJ7 d   1      68.661  58.548  20.472  0.00  0.00     0.000 A 
+ATOM      7  C32 NJ7 d   1      68.780  60.050  20.832  0.00  0.00     0.000 A 
+ATOM      8  C33 NJ7 d   1      69.126  61.096  19.723  0.00  0.00     0.000 A 
+ATOM      9  C34 NJ7 d   1      69.353  60.636  18.276  0.00  0.00     0.005 A 
+ENDBRANCH   3   4
+ENDBRANCH   2   3
+BRANCH   2  10
+ATOM     10  N16 NJ7 d   1      71.783  59.009  16.892  0.00  0.00    -0.330 N 
+ATOM     11  C17 NJ7 d   1      72.768  58.693  17.953  0.00  0.00     0.361 C 
+ATOM     12  O18 NJ7 d   1      72.794  57.646  18.517  0.00  0.00    -0.238 OA
+ATOM     13  H51 NJ7 d   1      71.774  59.928  16.498  0.00  0.00     0.165 HD
+BRANCH  11  14
+ATOM     14  O19 NJ7 d   1      73.705  59.782  18.253  0.00  0.00    -0.296 OA
+BRANCH  14  15
+ATOM     15  C20 NJ7 d   1      74.484  59.691  19.457  0.00  0.00     0.166 C 
+ATOM     16  C21 NJ7 d   1      75.949  60.319  19.067  0.00  0.00     0.204 C 
+ATOM     17  O22 NJ7 d   1      75.683  61.613  18.912  0.00  0.00    -0.358 OA
+ATOM     18  C24 NJ7 d   1      74.646  61.909  20.014  0.00  0.00     0.266 C 
+ATOM     19  C23 NJ7 d   1      74.050  60.489  20.401  0.00  0.00     0.075 C 
+ATOM     20  O27 NJ7 d   1      73.701  62.611  19.573  0.00  0.00    -0.361 OA
+ATOM     21  C25 NJ7 d   1      72.553  60.698  20.438  0.00  0.00     0.038 C 
+ATOM     22  C26 NJ7 d   1      72.303  61.761  19.714  0.00  0.00     0.171 C 
+ENDBRANCH  14  15
+ENDBRANCH  11  14
+ENDBRANCH   2  10
+ENDBRANCH   1   2
+BRANCH   1  23
+ATOM     23  C12 NJ7 d   1      70.337  56.558  14.441  0.00  0.00     0.168 C 
+BRANCH  23  24
+ATOM     24  N10 NJ7 d   1      70.694  55.318  15.185  0.00  0.00    -0.308 N 
+BRANCH  24  25
+ATOM     25  C11 NJ7 d   1      71.566  54.302  14.493  0.00  0.00     0.139 C 
+BRANCH  25  26
+ATOM     26  C37 NJ7 d   1      73.043  54.688  14.594  0.00  0.00    -0.000 C 
+ATOM     27  C39 NJ7 d   1      73.487  54.764  16.065  0.00  0.00     0.011 C 
+BRANCH  26  28
+ATOM     28  C38 NJ7 d   1      73.888  53.676  13.824  0.00  0.00     0.001 C 
+ATOM     29  C36 NJ7 d   1      73.765  52.285  14.403  0.00  0.00     0.005 C 
+ENDBRANCH  26  28
+ENDBRANCH  25  26
+ENDBRANCH  24  25
+BRANCH  24  30
+ATOM     30  S07 NJ7 d   1      69.455  54.649  16.211  0.00  0.00     0.232 S 
+ATOM     31  O08 NJ7 d   1      68.542  55.679  16.714  0.00  0.00    -0.205 OA
+ATOM     32  O09 NJ7 d   1      70.025  54.013  17.417  0.00  0.00    -0.205 OA
+BRANCH  30  33
+ATOM     33  C04 NJ7 d   1      68.627  53.428  15.135  0.00  0.00     0.129 A 
+ATOM     34  C03 NJ7 d   1      69.060  51.976  15.230  0.00  0.00     0.022 A 
+ATOM     35  C02 NJ7 d   1      68.397  50.934  14.315  0.00  0.00     0.008 A 
+ATOM     36  C01 NJ7 d   1      67.306  51.397  13.316  0.00  0.00     0.017 A 
+ATOM     37  C06 NJ7 d   1      66.882  52.851  13.212  0.00  0.00     0.008 A 
+ATOM     38  C05 NJ7 d   1      67.552  53.900  14.126  0.00  0.00     0.022 A 
+BRANCH  36  39
+ATOM     39  C40 NJ7 d   1      66.666  50.351  12.407  0.00  0.00     0.145 C 
+BRANCH  39  40
+ATOM     40  C35 NJ7 d   1      65.348  49.919  12.973  0.00  0.00     0.196 C 
+BRANCH  40  41
+ATOM     41  O42 NJ7 d   1      64.762  49.005  12.096  0.00  0.00    -0.398 OA
+ATOM     42  H54 NJ7 d   1      64.631  49.418  11.251  0.00  0.00     0.209 HD
+ENDBRANCH  40  41
+ENDBRANCH  39  40
+BRANCH  39  43
+ATOM     43  O41 NJ7 d   1      66.499  50.929  11.140  0.00  0.00    -0.393 OA
+ATOM     44  H53 NJ7 d   1      66.106  50.294  10.553  0.00  0.00     0.210 HD
+ENDBRANCH  39  43
+ENDBRANCH  36  39
+ENDBRANCH  30  33
+ENDBRANCH  24  30
+ENDBRANCH  23  24
+ENDBRANCH   1  23
+BRANCH   1  45
+ATOM     45  O14 NJ7 d   1      71.095  58.824  14.153  0.00  0.00    -0.392 OA
+ATOM     46  H52 NJ7 d   1      71.349  58.610  13.263  0.00  0.00     0.210 HD
+ENDBRANCH   1  45
+TORSDOF 18

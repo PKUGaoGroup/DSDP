@@ -1,0 +1,89 @@
+REMARK  15 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: S1G_2  and  PG_1 
+REMARK    2  A    between atoms: O3B_8  and  PG_1 
+REMARK    3  A    between atoms: PG_1  and  O3G_4 
+REMARK    4  A    between atoms: O3A_12  and  PB_5 
+REMARK    5  A    between atoms: O3B_8  and  PB_5 
+REMARK    6  A    between atoms: PB_5  and  O2B_7 
+REMARK    7  A    between atoms: O5'_13  and  PA_9 
+REMARK    8  A    between atoms: PA_9  and  O3A_12 
+REMARK    9  A    between atoms: PA_9  and  O2A_11 
+REMARK   10  A    between atoms: C5'_14  and  O5'_13 
+REMARK   11  A    between atoms: C4'_15  and  C5'_14 
+REMARK   12  A    between atoms: O3'_18  and  C3'_17 
+REMARK   13  A    between atoms: O2'_20  and  C2'_19 
+REMARK   14  A    between atoms: C1'_21  and  N9_22 
+REMARK   15  A    between atoms: C6_26  and  N6_27 
+ROOT
+ATOM      1  C4' AGS d 400      19.685  19.821   2.065  0.00  0.00     0.180 C 
+ATOM      2  O4' AGS d 400      21.054  20.260   1.991  0.00  0.00    -0.353 OA
+ATOM      3  C3' AGS d 400      19.585  18.646   1.093  0.00  0.00     0.182 C 
+ATOM      4  C2' AGS d 400      20.475  19.182  -0.025  0.00  0.00     0.198 C 
+ATOM      5  C1' AGS d 400      21.651  19.708   0.801  0.00  0.00     0.262 C 
+ENDROOT
+BRANCH   1   6
+ATOM      6  C5' AGS d 400      19.258  19.480   3.494  0.00  0.00     0.215 C 
+BRANCH   6   7
+ATOM      7  O5' AGS d 400      20.051  18.417   4.031  0.00  0.00    -0.294 OA
+BRANCH   7   8
+ATOM      8  PA  AGS d 400      20.472  18.401   5.587  0.00  0.00     0.401 P 
+ATOM      9  O1A AGS d 400      21.213  17.182   5.984  0.00  0.00    -0.631 OA
+BRANCH   8  10
+ATOM     10  O3A AGS d 400      18.999  17.956   6.073  0.00  0.00    -0.195 OA
+BRANCH  10  11
+ATOM     11  PB  AGS d 400      18.640  17.690   7.623  0.00  0.00     0.409 P 
+ATOM     12  O1B AGS d 400      17.696  18.739   8.070  0.00  0.00    -0.631 OA
+BRANCH  11  13
+ATOM     13  O3B AGS d 400      17.851  16.286   7.585  0.00  0.00    -0.209 OA
+BRANCH  13  14
+ATOM     14  PG  AGS d 400      18.551  14.880   7.948  0.00  0.00     0.309 P 
+ATOM     15  O2G AGS d 400      17.505  13.976   8.479  0.00  0.00    -0.645 OA
+BRANCH  14  16
+ATOM     16  S1G AGS d 400      19.139  14.212   6.229  0.00  0.00    -0.064 SA
+ATOM     17  H   AGS d 400      18.056  13.957   5.447  0.00  0.00     0.113 HD
+ENDBRANCH  14  16
+BRANCH  14  18
+ATOM     18  O3G AGS d 400      19.733  15.156   8.796  0.00  0.00    -0.321 OA
+ATOM     19  H   AGS d 400      20.333  15.758   8.329  0.00  0.00     0.221 HD
+ENDBRANCH  14  18
+ENDBRANCH  13  14
+ENDBRANCH  11  13
+BRANCH  11  20
+ATOM     20  O2B AGS d 400      19.907  17.531   8.371  0.00  0.00    -0.307 OA
+ATOM     21  H   AGS d 400      20.428  16.814   7.976  0.00  0.00     0.222 HD
+ENDBRANCH  11  20
+ENDBRANCH  10  11
+ENDBRANCH   8  10
+BRANCH   8  22
+ATOM     22  O2A AGS d 400      20.527  19.701   6.291  0.00  0.00    -0.307 OA
+ATOM     23  H   AGS d 400      21.377  20.132   6.109  0.00  0.00     0.222 HD
+ENDBRANCH   8  22
+ENDBRANCH   7   8
+ENDBRANCH   6   7
+ENDBRANCH   1   6
+BRANCH   3  24
+ATOM     24  O3' AGS d 400      18.251  18.494   0.599  0.00  0.00    -0.390 OA
+ATOM     25  H   AGS d 400      17.953  19.331   0.209  0.00  0.00     0.210 HD
+ENDBRANCH   3  24
+BRANCH   4  26
+ATOM     26  O2' AGS d 400      19.850  20.262  -0.724  0.00  0.00    -0.388 OA
+ATOM     27  H   AGS d 400      19.603  20.956  -0.093  0.00  0.00     0.210 HD
+ENDBRANCH   4  26
+BRANCH   5  28
+ATOM     28  N9  AGS d 400      22.563  18.612   1.208  0.00  0.00    -0.294 N 
+ATOM     29  C4  AGS d 400      23.598  18.158   0.506  0.00  0.00     0.167 A 
+ATOM     30  N3  AGS d 400      24.100  18.463  -0.700  0.00  0.00    -0.222 NA
+ATOM     31  C5  AGS d 400      24.211  17.174   1.271  0.00  0.00     0.149 A 
+ATOM     32  C2  AGS d 400      25.168  17.841  -1.170  0.00  0.00     0.237 A 
+ATOM     33  N1  AGS d 400      25.777  16.900  -0.468  0.00  0.00    -0.222 NA
+ATOM     34  C6  AGS d 400      25.333  16.540   0.746  0.00  0.00     0.155 A 
+ATOM     35  N7  AGS d 400      23.527  17.067   2.405  0.00  0.00    -0.236 NA
+ATOM     36  C8  AGS d 400      22.526  17.943   2.359  0.00  0.00     0.214 A 
+BRANCH  34  37
+ATOM     37  N6  AGS d 400      25.958  15.588   1.433  0.00  0.00    -0.382 N 
+ATOM     38  H   AGS d 400      26.751  15.146   1.052  0.00  0.00     0.157 HD
+ATOM     39  H   AGS d 400      25.628  15.325   2.322  0.00  0.00     0.157 HD
+ENDBRANCH  34  37
+ENDBRANCH   5  28
+TORSDOF 15

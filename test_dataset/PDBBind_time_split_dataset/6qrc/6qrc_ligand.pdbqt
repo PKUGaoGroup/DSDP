@@ -1,0 +1,47 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C15_2  and  C14_19 
+REMARK    2  A    between atoms: C02_8  and  N01_7 
+REMARK    3  A    between atoms: C07_13  and  C05_11 
+REMARK    4  A    between atoms: C14_19  and  N13_18 
+REMARK    5  A    between atoms: C19_22  and  O21_23 
+ROOT
+ATOM      1  C10 JFE d   1     -24.420 -20.192  11.235  0.00  0.00    -0.008 A 
+ATOM      2  C24 JFE d   1     -25.499 -21.042  10.821  0.00  0.00     0.031 A 
+ATOM      3  C07 JFE d   1     -21.972 -19.082  11.978  0.00  0.00    -0.006 A 
+ATOM      4  C08 JFE d   1     -23.089 -18.250  11.936  0.00  0.00     0.014 A 
+ATOM      5  C09 JFE d   1     -24.325 -18.810  11.562  0.00  0.00     0.014 A 
+ATOM      6  C11 JFE d   1     -23.290 -21.004  11.268  0.00  0.00     0.045 A 
+ATOM      7  C12 JFE d   1     -22.049 -20.433  11.633  0.00  0.00     0.044 A 
+ATOM      8  N13 JFE d   1     -23.658 -22.268  10.914  0.00  0.00    -0.352 N 
+ATOM      9  C23 JFE d   1     -24.987 -22.313  10.642  0.00  0.00     0.092 A 
+ENDROOT
+BRANCH   3  10
+ATOM     10  C05 JFE d   1     -20.593 -18.523  12.292  0.00  0.00     0.064 A 
+ATOM     11  N04 JFE d   1     -19.530 -19.279  12.543  0.00  0.00    -0.276 N 
+ATOM     12  N03 JFE d   1     -18.450 -18.481  12.707  0.00  0.00    -0.157 NA
+ATOM     13  H9  JFE d   1     -19.528 -20.307  12.603  0.00  0.00     0.189 HD
+ATOM     14  C02 JFE d   1     -18.821 -17.191  12.521  0.00  0.00     0.143 A 
+ATOM     15  C06 JFE d   1     -20.197 -17.195  12.228  0.00  0.00     0.083 A 
+BRANCH  14  16
+ATOM     16  N01 JFE d   1     -17.964 -16.090  12.615  0.00  0.00    -0.383 N 
+ATOM     17  H7  JFE d   1     -18.328 -15.139  12.458  0.00  0.00     0.157 HD
+ATOM     18  H8  JFE d   1     -16.969 -16.230  12.841  0.00  0.00     0.157 HD
+ENDBRANCH  14  16
+ENDBRANCH   3  10
+BRANCH   8  19
+ATOM     19  C14 JFE d   1     -22.776 -23.388  10.824  0.00  0.00     0.167 C 
+BRANCH  19  20
+ATOM     20  C15 JFE d   1     -22.154 -23.448   9.427  0.00  0.00    -0.037 A 
+ATOM     21  C20 JFE d   1     -22.468 -22.471   8.477  0.00  0.00     0.045 A 
+ATOM     22  C19 JFE d   1     -21.892 -22.527   7.185  0.00  0.00     0.068 A 
+ATOM     23  C18 JFE d   1     -21.027 -23.541   6.874  0.00  0.00     0.037 A 
+ATOM     24  C17 JFE d   1     -20.713 -24.520   7.826  0.00  0.00     0.003 A 
+ATOM     25  C16 JFE d   1     -21.281 -24.469   9.110  0.00  0.00     0.009 A 
+BRANCH  22  26
+ATOM     26  O21 JFE d   1     -22.191 -21.536   6.221  0.00  0.00    -0.356 OA
+ATOM     27  C22 JFE d   1     -23.319 -20.678   6.506  0.00  0.00     0.210 C 
+ENDBRANCH  22  26
+ENDBRANCH  19  20
+ENDBRANCH   8  19
+TORSDOF 5

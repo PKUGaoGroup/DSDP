@@ -1,0 +1,55 @@
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O3_5  and  C3_4 
+REMARK    2  A    between atoms: C4A_7  and  C4_6 
+REMARK    3  A    between atoms: C5A_10  and  C5_8 
+REMARK    4  A    between atoms: O4P_11  and  C5A_10 
+REMARK    5  A    between atoms: P_12  and  O4P_11 
+REMARK    6  A    between atoms: O2P_14  and  P_12 
+REMARK    7  A    between atoms: P_12  and  O3P_15 
+REMARK    8  A    between atoms: CA_17  and  N_16 
+ROOT
+ATOM      1  N1  DCS d 301      15.325  12.785  22.987  0.00  0.00    -0.262 NA
+ATOM      2  C2  DCS d 301      15.059  11.837  22.001  0.00  0.00     0.064 A 
+ATOM      3  C2A DCS d 301      14.801  10.407  22.390  0.00  0.00     0.073 C 
+ATOM      4  C3  DCS d 301      15.047  12.300  20.626  0.00  0.00     0.102 A 
+ATOM      5  C4  DCS d 301      15.299  13.664  20.324  0.00  0.00     0.026 A 
+ATOM      6  C5  DCS d 301      15.568  14.557  21.441  0.00  0.00    -0.002 A 
+ATOM      7  C6  DCS d 301      15.578  14.114  22.746  0.00  0.00     0.127 A 
+ENDROOT
+BRANCH   5   8
+ATOM      8  C4A DCS d 301      15.300  14.195  18.947  0.00  0.00     0.126 C 
+ATOM      9  N   DCS d 301      14.273  14.145  18.136  0.00  0.00    -0.285 NA
+BRANCH   9  10
+ATOM     10  CA  DCS d 301      14.283  14.760  16.727  0.00  0.00     0.213 A 
+ATOM     11  C   DCS d 301      13.592  13.613  16.284  0.00  0.00     0.202 A 
+ATOM     12  ND  DCS d 301      12.377  13.978  15.972  0.00  0.00    -0.244 N 
+ATOM     13  O   DCS d 301      13.832  12.346  16.104  0.00  0.00    -0.173 OA
+ATOM     14  OG  DCS d 301      12.265  15.388  16.209  0.00  0.00    -0.276 OA
+ATOM     15  H   DCS d 301      11.664  13.389  15.634  0.00  0.00     0.196 HD
+ATOM     16  CB  DCS d 301      13.450  15.878  16.678  0.00  0.00     0.237 A 
+ENDBRANCH   9  10
+ENDBRANCH   5   8
+BRANCH   4  17
+ATOM     17  O3  DCS d 301      14.788  11.359  19.702  0.00  0.00    -0.358 OA
+ATOM     18  H   DCS d 301      14.765  11.588  18.794  0.00  0.00     0.217 HD
+ENDBRANCH   4  17
+BRANCH   6  19
+ATOM     19  C5A DCS d 301      15.859  16.036  21.139  0.00  0.00     0.221 C 
+BRANCH  19  20
+ATOM     20  O4P DCS d 301      17.054  16.505  20.522  0.00  0.00    -0.292 OA
+BRANCH  20  21
+ATOM     21  P   DCS d 301      17.138  17.797  19.580  0.00  0.00     0.391 P 
+ATOM     22  O1P DCS d 301      16.237  17.576  18.435  0.00  0.00    -0.632 OA
+BRANCH  21  23
+ATOM     23  O2P DCS d 301      18.584  17.775  19.074  0.00  0.00    -0.307 OA
+ATOM     24  H   DCS d 301      18.732  18.532  18.486  0.00  0.00     0.222 HD
+ENDBRANCH  21  23
+BRANCH  21  25
+ATOM     25  O3P DCS d 301      16.859  18.957  20.410  0.00  0.00    -0.307 OA
+ATOM     26  H   DCS d 301      16.902  19.760  19.868  0.00  0.00     0.222 HD
+ENDBRANCH  21  25
+ENDBRANCH  20  21
+ENDBRANCH  19  20
+ENDBRANCH   6  19
+TORSDOF 8

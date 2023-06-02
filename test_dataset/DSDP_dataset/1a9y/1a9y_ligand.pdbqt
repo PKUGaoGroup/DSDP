@@ -1,0 +1,101 @@
+REMARK  17 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1C_9  and  N1_1 
+REMARK    2  A    between atoms: O2C_11  and  C2C_10 
+REMARK    3  A    between atoms: C3C_12  and  O3C_15 
+REMARK    4  A    between atoms: C5C_16  and  C4C_13 
+REMARK    5  A    between atoms: O5C_17  and  C5C_16 
+REMARK    6  A    between atoms: PA_18  and  O5C_17 
+REMARK    7  A    between atoms: O3A_21  and  PA_18 
+REMARK    8  A    between atoms: PA_18  and  O2A_20 
+REMARK    9  A    between atoms: PB_22  and  O3A_21 
+REMARK   10  A    between atoms: O3B_25  and  PB_22 
+REMARK   11  A    between atoms: PB_22  and  O1B_23 
+REMARK   12  A    between atoms: O3B_25  and  C1'_26 
+REMARK   13  A    between atoms: C2'_27  and  O2'_32 
+REMARK   14  A    between atoms: O3'_33  and  C3'_28 
+REMARK   15  A    between atoms: O4'_34  and  C4'_29 
+REMARK   16  A    between atoms: C5'_30  and  C6'_31 
+REMARK   17  A    between atoms: C6'_31  and  O6'_36 
+ROOT
+ATOM      1  PA  UPG d 341     -23.092  63.336   2.125  0.00  0.00     0.401 P 
+ATOM      2  O1A UPG d 341     -22.009  63.060   1.151  0.00  0.00    -0.631 OA
+ENDROOT
+BRANCH   1   3
+ATOM      3  O3A UPG d 341     -24.606  63.034   1.537  0.00  0.00    -0.195 OA
+BRANCH   3   4
+ATOM      4  PB  UPG d 341     -25.258  63.070   0.144  0.00  0.00     0.404 P 
+ATOM      5  O2B UPG d 341     -24.555  63.943  -0.815  0.00  0.00    -0.631 OA
+BRANCH   4   6
+ATOM      6  O3B UPG d 341     -25.406  61.639  -0.439  0.00  0.00    -0.263 OA
+BRANCH   6   7
+ATOM      7  C1' UPG d 341     -25.980  60.503   0.258  0.00  0.00     0.303 C 
+ATOM      8  C2' UPG d 341     -25.539  59.164  -0.356  0.00  0.00     0.205 C 
+ATOM      9  C3' UPG d 341     -26.020  59.057  -1.828  0.00  0.00     0.183 C 
+ATOM     10  C4' UPG d 341     -27.569  59.186  -1.891  0.00  0.00     0.180 C 
+ATOM     11  C5' UPG d 341     -28.052  60.423  -1.102  0.00  0.00     0.179 C 
+ATOM     12  O5' UPG d 341     -27.420  60.576   0.203  0.00  0.00    -0.348 OA
+BRANCH   8  13
+ATOM     13  O2' UPG d 341     -24.081  59.071  -0.321  0.00  0.00    -0.388 OA
+ATOM     14  H   UPG d 341     -23.698  59.797  -0.837  0.00  0.00     0.210 HD
+ENDBRANCH   8  13
+BRANCH   9  15
+ATOM     15  O3' UPG d 341     -25.548  57.803  -2.369  0.00  0.00    -0.390 OA
+ATOM     16  H   UPG d 341     -25.902  57.070  -1.842  0.00  0.00     0.210 HD
+ENDBRANCH   9  15
+BRANCH  10  17
+ATOM     17  O4' UPG d 341     -28.187  59.379  -3.178  0.00  0.00    -0.390 OA
+ATOM     18  H   UPG d 341     -27.932  60.245  -3.532  0.00  0.00     0.210 HD
+ENDBRANCH  10  17
+BRANCH  11  19
+ATOM     19  C6' UPG d 341     -29.564  60.423  -0.856  0.00  0.00     0.198 C 
+BRANCH  19  20
+ATOM     20  O6' UPG d 341     -29.949  61.659  -0.187  0.00  0.00    -0.398 OA
+ATOM     21  H   UPG d 341     -29.484  61.725   0.662  0.00  0.00     0.209 HD
+ENDBRANCH  19  20
+ENDBRANCH  11  19
+ENDBRANCH   6   7
+ENDBRANCH   4   6
+BRANCH   4  22
+ATOM     22  O1B UPG d 341     -26.602  63.603   0.472  0.00  0.00    -0.307 OA
+ATOM     23  H   UPG d 341     -27.128  63.677  -0.340  0.00  0.00     0.222 HD
+ENDBRANCH   4  22
+ENDBRANCH   3   4
+ENDBRANCH   1   3
+BRANCH   1  24
+ATOM     24  O5C UPG d 341     -23.421  64.902   2.328  0.00  0.00    -0.294 OA
+BRANCH  24  25
+ATOM     25  C5C UPG d 341     -24.506  65.276   3.219  0.00  0.00     0.215 C 
+BRANCH  25  26
+ATOM     26  C4C UPG d 341     -24.297  66.742   3.373  0.00  0.00     0.180 C 
+ATOM     27  C3C UPG d 341     -24.218  67.490   2.051  0.00  0.00     0.182 C 
+ATOM     28  C2C UPG d 341     -22.687  67.606   1.851  0.00  0.00     0.198 C 
+ATOM     29  C1C UPG d 341     -22.150  67.797   3.261  0.00  0.00     0.263 C 
+ATOM     30  O4C UPG d 341     -22.970  66.907   3.963  0.00  0.00    -0.353 OA
+BRANCH  27  31
+ATOM     31  O3C UPG d 341     -24.838  68.821   2.085  0.00  0.00    -0.390 OA
+ATOM     32  H   UPG d 341     -24.417  69.356   2.776  0.00  0.00     0.210 HD
+ENDBRANCH  27  31
+BRANCH  28  33
+ATOM     33  O2C UPG d 341     -22.415  68.859   1.149  0.00  0.00    -0.388 OA
+ATOM     34  H   UPG d 341     -22.798  69.598   1.647  0.00  0.00     0.210 HD
+ENDBRANCH  28  33
+BRANCH  29  35
+ATOM     35  N1  UPG d 341     -20.760  67.330   3.455  0.00  0.00    -0.280 N 
+ATOM     36  C6  UPG d 341     -20.451  65.971   3.304  0.00  0.00     0.104 A 
+ATOM     37  C5  UPG d 341     -19.235  65.438   3.516  0.00  0.00     0.092 A 
+ATOM     38  C4  UPG d 341     -18.185  66.283   3.932  0.00  0.00     0.250 A 
+ATOM     39  N3  UPG d 341     -18.550  67.627   4.070  0.00  0.00    -0.275 N 
+ATOM     40  O4  UPG d 341     -17.035  65.956   4.172  0.00  0.00    -0.268 OA
+ATOM     41  C2  UPG d 341     -19.781  68.216   3.860  0.00  0.00     0.331 A 
+ATOM     42  H   UPG d 341     -17.831  68.236   4.356  0.00  0.00     0.173 HD
+ATOM     43  O2  UPG d 341     -19.943  69.415   4.002  0.00  0.00    -0.246 OA
+ENDBRANCH  29  35
+ENDBRANCH  25  26
+ENDBRANCH  24  25
+ENDBRANCH   1  24
+BRANCH   1  44
+ATOM     44  O2A UPG d 341     -23.027  62.499   3.368  0.00  0.00    -0.307 OA
+ATOM     45  H   UPG d 341     -22.824  61.581   3.129  0.00  0.00     0.222 HD
+ENDBRANCH   1  44
+TORSDOF 17

@@ -1,0 +1,85 @@
+REMARK  12 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C3_3  and  O3_21 
+REMARK    2  A    between atoms: C7_7  and  C6_6 
+REMARK    3  A    between atoms: C9_9  and  C8_8 
+REMARK    4  A    between atoms: C11_11  and  C10_10 
+REMARK    5  A    between atoms: C13_13  and  C12_12 
+REMARK    6  A    between atoms: C14_14  and  C15_15 
+REMARK    7  A    between atoms: O23_42  and  C23_24 
+REMARK    8  A    between atoms: C26_27  and  C27_28 
+REMARK    9  A    between atoms: C28_29  and  C29_30 
+REMARK   10  A    between atoms: C30_31  and  C31_32 
+REMARK   11  A    between atoms: C32_33  and  C33_34 
+REMARK   12  A    between atoms: C35_36  and  C34_35 
+ROOT
+ATOM      1  C15 LUT d 620      31.190   0.839   9.708  0.00  0.00     0.001 C 
+ATOM      2  C35 LUT d 620      30.333   1.483  10.505  0.00  0.00     0.001 C 
+ENDROOT
+BRANCH   1   3
+ATOM      3  C14 LUT d 620      32.563   1.217   9.682  0.00  0.00     0.007 C 
+ATOM      4  C13 LUT d 620      33.569   0.670   8.971  0.00  0.00    -0.062 C 
+ATOM      5  C20 LUT d 620      33.418  -0.500   8.045  0.00  0.00     0.048 C 
+BRANCH   4   6
+ATOM      6  C12 LUT d 620      34.878   1.312   9.079  0.00  0.00     0.007 C 
+ATOM      7  C11 LUT d 620      36.023   1.027   8.438  0.00  0.00     0.001 C 
+BRANCH   7   8
+ATOM      8  C10 LUT d 620      37.164   1.885   8.616  0.00  0.00     0.007 C 
+ATOM      9  C9  LUT d 620      38.318   1.851   7.914  0.00  0.00    -0.062 C 
+ATOM     10  C19 LUT d 620      38.596   0.887   6.801  0.00  0.00     0.048 C 
+BRANCH   9  11
+ATOM     11  C8  LUT d 620      39.307   2.901   8.186  0.00  0.00     0.007 C 
+ATOM     12  C7  LUT d 620      40.434   3.163   7.506  0.00  0.00     0.009 C 
+BRANCH  12  13
+ATOM     13  C6  LUT d 620      41.447   4.201   7.804  0.00  0.00    -0.048 C 
+ATOM     14  C1  LUT d 620      41.310   5.597   7.080  0.00  0.00    -0.018 C 
+ATOM     15  C16 LUT d 620      40.923   5.415   5.596  0.00  0.00     0.020 C 
+ATOM     16  C2  LUT d 620      42.518   6.553   7.117  0.00  0.00     0.045 C 
+ATOM     17  C17 LUT d 620      40.200   6.434   7.729  0.00  0.00     0.020 C 
+ATOM     18  C3  LUT d 620      43.689   6.252   8.057  0.00  0.00     0.123 C 
+ATOM     19  C4  LUT d 620      43.523   5.037   8.976  0.00  0.00     0.066 C 
+ATOM     20  C5  LUT d 620      42.491   4.004   8.669  0.00  0.00    -0.074 C 
+ATOM     21  C18 LUT d 620      42.840   2.794   9.445  0.00  0.00     0.044 C 
+BRANCH  18  22
+ATOM     22  O3  LUT d 620      44.012   7.401   8.824  0.00  0.00    -0.395 OA
+ATOM     23  H   LUT d 620      43.269   7.619   9.408  0.00  0.00     0.210 HD
+ENDBRANCH  18  22
+ENDBRANCH  12  13
+ENDBRANCH   9  11
+ENDBRANCH   7   8
+ENDBRANCH   4   6
+ENDBRANCH   1   3
+BRANCH   2  24
+ATOM     24  C34 LUT d 620      28.943   1.110  10.565  0.00  0.00     0.007 C 
+ATOM     25  C33 LUT d 620      27.992   1.620  11.376  0.00  0.00    -0.062 C 
+ATOM     26  C40 LUT d 620      28.242   2.679  12.384  0.00  0.00     0.048 C 
+BRANCH  25  27
+ATOM     27  C32 LUT d 620      26.635   1.057  11.285  0.00  0.00     0.007 C 
+ATOM     28  C31 LUT d 620      25.529   1.362  11.994  0.00  0.00     0.001 C 
+BRANCH  28  29
+ATOM     29  C30 LUT d 620      24.285   0.660  11.800  0.00  0.00     0.007 C 
+ATOM     30  C29 LUT d 620      23.124   0.853  12.465  0.00  0.00    -0.062 C 
+ATOM     31  C39 LUT d 620      22.937   1.885  13.528  0.00  0.00     0.048 C 
+BRANCH  30  32
+ATOM     32  C28 LUT d 620      21.969  -0.014  12.136  0.00  0.00     0.003 C 
+ATOM     33  C27 LUT d 620      20.739   0.021  12.694  0.00  0.00    -0.016 C 
+BRANCH  33  34
+ATOM     34  C26 LUT d 620      19.541  -0.767  12.207  0.00  0.00     0.044 C 
+ATOM     35  C21 LUT d 620      18.423   0.127  11.595  0.00  0.00    -0.035 C 
+ATOM     36  C37 LUT d 620      18.793   0.505  10.153  0.00  0.00     0.016 C 
+ATOM     37  C22 LUT d 620      17.034  -0.550  11.525  0.00  0.00     0.045 C 
+ATOM     38  C36 LUT d 620      18.272   1.448  12.411  0.00  0.00     0.016 C 
+ATOM     39  C23 LUT d 620      16.567  -1.206  12.828  0.00  0.00     0.142 C 
+ATOM     40  C24 LUT d 620      17.713  -1.914  13.577  0.00  0.00     0.007 C 
+ATOM     41  C25 LUT d 620      19.022  -1.704  13.291  0.00  0.00    -0.077 C 
+ATOM     42  C38 LUT d 620      19.966  -2.494  14.122  0.00  0.00     0.044 C 
+BRANCH  39  43
+ATOM     43  O23 LUT d 620      15.496  -2.104  12.564  0.00  0.00    -0.392 OA
+ATOM     44  H   LUT d 620      15.805  -2.812  11.978  0.00  0.00     0.210 HD
+ENDBRANCH  39  43
+ENDBRANCH  33  34
+ENDBRANCH  30  32
+ENDBRANCH  28  29
+ENDBRANCH  25  27
+ENDBRANCH   2  24
+TORSDOF 12

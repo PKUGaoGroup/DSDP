@@ -1,0 +1,38 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK       I    between atoms: CAP_2  and  NAH_4 
+REMARK    1  A    between atoms: NAH_4  and  CAC_5 
+REMARK    2  A    between atoms: CAE_11  and  SAI_12 
+REMARK    3  A    between atoms: SAI_12  and  NAL_15 
+REMARK    4  A    between atoms: NAL_15  and  CAM_16 
+ROOT
+ATOM      1  CAC ORM d   1      16.469  -5.526  15.838  0.00  0.00     0.036 A 
+ATOM      2  CAD ORM d   1      17.304  -4.665  16.564  0.00  0.00     0.056 A 
+ATOM      3  CAB ORM d   1      15.102  -5.532  16.010  0.00  0.00     0.031 A 
+ATOM      4  CAA ORM d   1      14.526  -4.610  16.874  0.00  0.00     0.028 A 
+ATOM      5  CAF ORM d   1      15.343  -3.761  17.598  0.00  0.00     0.057 A 
+ATOM      6 CLA  ORM d   1      14.625  -2.709  18.516  0.00  0.00    -0.083 Cl
+ATOM      7  CAE ORM d   1      16.732  -3.772  17.430  0.00  0.00     0.103 A 
+ENDROOT
+BRANCH   7   8
+ATOM      8  SAI ORM d   1      17.774  -2.704  18.295  0.00  0.00     0.260 S 
+ATOM      9  OAJ ORM d   1      19.183  -2.838  17.905  0.00  0.00    -0.200 OA
+ATOM     10  OAK ORM d   1      17.538  -3.138  19.790  0.00  0.00    -0.200 OA
+BRANCH   8  11
+ATOM     11  NAL ORM d   1      17.223  -1.121  18.188  0.00  0.00    -0.311 N 
+ATOM     12  H8  ORM d   1      16.992  -0.614  19.019  0.00  0.00     0.172 HD
+BRANCH  11  13
+ATOM     13  CAM ORM d   1      17.078  -0.470  16.850  0.00  0.00     0.085 C 
+ATOM     14  CAO ORM d   1      15.605  -0.081  16.635  0.00  0.00     0.032 C 
+ATOM     15  CAN ORM d   1      17.595  -1.227  15.618  0.00  0.00     0.032 C 
+ENDBRANCH  11  13
+ENDBRANCH   8  11
+ENDBRANCH   7   8
+BRANCH   1  16
+ATOM     16  NAH ORM d   1      16.974  -6.468  15.023  0.00  0.00    -0.327 N 
+ATOM     17  CAP ORM d   1      18.129  -6.249  14.392  0.00  0.00     0.218 C 
+ATOM     18  CAR ORM d   1      18.537  -7.460  13.577  0.00  0.00     0.117 C 
+ATOM     19  OAQ ORM d   1      18.816  -5.193  14.348  0.00  0.00    -0.274 OA
+ATOM     20  H4  ORM d   1      16.485  -7.330  14.890  0.00  0.00     0.169 HD
+ENDBRANCH   1  16
+TORSDOF 4

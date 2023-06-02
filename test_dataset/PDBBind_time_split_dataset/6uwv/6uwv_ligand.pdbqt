@@ -1,0 +1,57 @@
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C5_4  and  N26_26 
+REMARK    2  A    between atoms: N25_25  and  C4_5 
+REMARK    3  A    between atoms: C11_11  and  C16_16 
+REMARK    4  A    between atoms: C21_21  and  C13_13 
+REMARK    5  A    between atoms: C20_20  and  C15_15 
+REMARK    6  A    between atoms: O27_27  and  C20_20 
+REMARK    7  A    between atoms: C21_21  and  O27_27 
+ROOT
+ATOM      1  C5  QK7 d   1      22.315  55.052  89.948  0.00  0.00     0.134 C 
+ATOM      2  C8  QK7 d   1      19.801  56.837  88.625  0.00  0.00     0.149 C 
+ATOM      3  C9  QK7 d   1      20.297  55.098  86.990  0.00  0.00     0.173 C 
+ATOM      4  C10 QK7 d   1      22.195  57.665  89.052  0.00  0.00     0.091 C 
+ATOM      5  C12 QK7 d   1      21.222  57.030  88.060  0.00  0.00     0.044 C 
+ATOM      6  C16 QK7 d   1      21.613  55.616  87.623  0.00  0.00     0.059 C 
+ATOM      7  N24 QK7 d   1      21.946  54.706  88.725  0.00  0.00    -0.359 N 
+ATOM      8  N25 QK7 d   1      19.266  55.732  87.829  0.00  0.00    -0.211 N 
+ATOM      9  S28 QK7 d   1      22.493  56.695  90.551  0.00  0.00    -0.094 SA
+ATOM     10  H30 QK7 d   1      21.887  53.697  88.527  0.00  0.00     0.162 HD
+ENDROOT
+BRANCH   6  11
+ATOM     11  C11 QK7 d   1      22.714  55.590  86.579  0.00  0.00     0.023 A 
+ATOM     12  C6  QK7 d   1      23.633  54.394  86.414  0.00  0.00     0.015 A 
+ATOM     13  C13 QK7 d   1      24.184  55.705  86.937  0.00  0.00     0.026 A 
+BRANCH  13  14
+ATOM     14  C21 QK7 d   1      25.076  56.615  86.134  0.00  0.00     0.058 C 
+ATOM     15  C18 QK7 d   1      25.167  56.219  84.644  0.00  0.00     0.046 C 
+ATOM     16  C19 QK7 d   1      24.620  58.090  86.188  0.00  0.00     0.046 C 
+BRANCH  14  17
+ATOM     17  O27 QK7 d   1      26.420  56.651  86.696  0.00  0.00    -0.380 OA
+BRANCH  17  18
+ATOM     18  C20 QK7 d   1      27.034  55.373  86.861  0.00  0.00     0.173 C 
+BRANCH  18  19
+ATOM     19  C15 QK7 d   1      28.223  55.534  87.797  0.00  0.00     0.014 A 
+ATOM     20  C7  QK7 d   1      29.598  55.800  87.213  0.00  0.00     0.012 A 
+ATOM     21  C14 QK7 d   1      29.290  54.464  87.840  0.00  0.00    -0.012 A 
+ATOM     22  C17 QK7 d   1      29.891  54.110  89.160  0.00  0.00     0.010 C 
+ENDBRANCH  18  19
+ENDBRANCH  17  18
+ENDBRANCH  14  17
+ENDBRANCH  13  14
+ENDBRANCH   6  11
+BRANCH   8  23
+ATOM     23  C4  QK7 d   1      17.949  55.309  87.899  0.00  0.00     0.724 A 
+ATOM     24  N22 QK7 d   1      17.164  55.990  88.752  0.00  0.00    -0.075 NA
+ATOM     25  C2  QK7 d   1      15.888  55.566  88.788  0.00  0.00     0.138 A 
+ATOM     26  C1  QK7 d   1      15.416  54.502  88.043  0.00  0.00     0.040 A 
+ATOM     27  C3  QK7 d   1      16.323  53.888  87.200  0.00  0.00     0.138 A 
+ATOM     28  N23 QK7 d   1      17.613  54.276  87.109  0.00  0.00    -0.075 NA
+ENDBRANCH   8  23
+BRANCH   1  29
+ATOM     29  N26 QK7 d   1      22.597  54.106  90.902  0.00  0.00    -0.380 N 
+ATOM     30  H31 QK7 d   1      22.883  54.398  91.848  0.00  0.00     0.158 HD
+ATOM     31  H32 QK7 d   1      22.523  53.105  90.672  0.00  0.00     0.158 HD
+ENDBRANCH   1  29
+TORSDOF 7

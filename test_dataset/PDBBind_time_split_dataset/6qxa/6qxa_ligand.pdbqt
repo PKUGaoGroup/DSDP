@@ -1,0 +1,45 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C02_3  and  C03_4 
+REMARK       I    between atoms: N12_19  and  C02_3 
+REMARK    2  A    between atoms: C14_12  and  C13_11 
+REMARK    3  A    between atoms: C13_11  and  N12_19 
+REMARK    4  A    between atoms: C18_15  and  N19_20 
+ROOT
+ATOM      1  C02 GQB d   1     -55.488  12.269  -3.327  0.00  0.00     0.268 C 
+ATOM      2  N12 GQB d   1     -55.127  13.274  -4.310  0.00  0.00    -0.351 N 
+ATOM      3  O01 GQB d   1     -56.500  11.595  -3.632  0.00  0.00    -0.266 OA
+ATOM      4  H12 GQB d   1     -54.333  13.854  -4.128  0.00  0.00     0.163 HD
+ENDROOT
+BRANCH   2   5
+ATOM      5  C13 GQB d   1     -55.893  13.486  -5.595  0.00  0.00     0.161 C 
+BRANCH   5   6
+ATOM      6  C14 GQB d   1     -56.388  12.137  -6.304  0.00  0.00    -0.039 A 
+ATOM      7  C15 GQB d   1     -55.573  11.167  -6.928  0.00  0.00     0.030 A 
+ATOM      8  C16 GQB d   1     -56.149  10.003  -7.500  0.00  0.00     0.037 A 
+ATOM      9  C21 GQB d   1     -57.524   9.732  -7.470  0.00  0.00     0.076 A 
+ATOM     10  S17 GQB d   1     -55.376   8.657  -8.352  0.00  0.00    -0.050 SA
+ATOM     11  C22 GQB d   1     -58.342  10.696  -6.825  0.00  0.00     0.034 A 
+ATOM     12  N20 GQB d   1     -57.989   8.501  -8.093  0.00  0.00    -0.224 NA
+ATOM     13  C23 GQB d   1     -57.763  11.851  -6.259  0.00  0.00     0.011 A 
+ATOM     14  C18 GQB d   1     -57.000   7.809  -8.609  0.00  0.00     0.165 A 
+BRANCH  14  15
+ATOM     15  N19 GQB d   1     -57.060   6.601  -9.270  0.00  0.00    -0.378 N 
+ATOM     16  H13 GQB d   1     -57.968   6.135  -9.409  0.00  0.00     0.158 HD
+ATOM     17  H14 GQB d   1     -56.197   6.165  -9.625  0.00  0.00     0.158 HD
+ENDBRANCH  14  15
+ENDBRANCH   5   6
+ENDBRANCH   2   5
+BRANCH   1  18
+ATOM     18  C03 GQB d   1     -54.843  11.853  -1.994  0.00  0.00     0.102 A 
+ATOM     19  C04 GQB d   1     -54.593  12.620  -0.831  0.00  0.00     0.049 A 
+ATOM     20  C05 GQB d   1     -53.968  11.727   0.170  0.00  0.00    -0.007 A 
+ATOM     21  C10 GQB d   1     -53.858  10.453  -0.400  0.00  0.00     0.043 A 
+ATOM     22  C06 GQB d   1     -53.505  11.965   1.509  0.00  0.00     0.014 A 
+ATOM     23  C09 GQB d   1     -53.276   9.367   0.362  0.00  0.00     0.030 A 
+ATOM     24  N11 GQB d   1     -54.380  10.528  -1.679  0.00  0.00    -0.351 N 
+ATOM     25  C08 GQB d   1     -52.838   9.618   1.649  0.00  0.00     0.002 A 
+ATOM     26  C07 GQB d   1     -52.943  10.896   2.223  0.00  0.00     0.001 A 
+ATOM     27  H11 GQB d   1     -54.431   9.730  -2.328  0.00  0.00     0.166 HD
+ENDBRANCH   1  18
+TORSDOF 4

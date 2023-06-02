@@ -1,0 +1,119 @@
+REMARK  20 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N1U_1  and  C1D_9 
+REMARK    2  A    between atoms: O2D_11  and  C2D_10 
+REMARK    3  A    between atoms: C3D_12  and  O3D_15 
+REMARK    4  A    between atoms: C5D_16  and  C4D_13 
+REMARK    5  A    between atoms: O5D_17  and  C5D_16 
+REMARK    6  A    between atoms: PA_18  and  O5D_17 
+REMARK    7  A    between atoms: O3A_21  and  PA_18 
+REMARK    8  A    between atoms: PA_18  and  O2A_20 
+REMARK    9  A    between atoms: PB_22  and  O3A_21 
+REMARK   10  A    between atoms: O1_34  and  PB_22 
+REMARK   11  A    between atoms: PB_22  and  O1B_23 
+REMARK   12  A    between atoms: O1_34  and  C1_25 
+REMARK   13  A    between atoms: N2_33  and  C2_26 
+REMARK   14  A    between atoms: O3_35  and  C3_27 
+REMARK   15  A    between atoms: O4_36  and  C4_28 
+REMARK   16  A    between atoms: C5_29  and  C6_30 
+REMARK   17  A    between atoms: C6_30  and  O6_38 
+REMARK       I    between atoms: C7_31  and  N2_33 
+REMARK   18  A    between atoms: C2E_43  and  O3_35 
+REMARK   19  A    between atoms: O2E_42  and  C1E_40 
+REMARK   20  A    between atoms: C1E_40  and  C2E_43 
+ROOT
+ATOM      1  PB  EPU d 501      95.751  42.342   6.411  0.00  0.00     0.404 P 
+ATOM      2  O2B EPU d 501      97.143  42.814   5.782  0.00  0.00    -0.631 OA
+ENDROOT
+BRANCH   1   3
+ATOM      3  O1  EPU d 501      94.584  42.691   5.349  0.00  0.00    -0.263 OA
+BRANCH   3   4
+ATOM      4  C1  EPU d 501      93.331  42.059   5.712  0.00  0.00     0.297 C 
+ATOM      5  C2  EPU d 501      92.292  42.378   4.606  0.00  0.00     0.172 C 
+ATOM      6  C3  EPU d 501      92.086  43.912   4.561  0.00  0.00     0.188 C 
+ATOM      7  C4  EPU d 501      91.540  44.355   5.935  0.00  0.00     0.180 C 
+ATOM      8  C5  EPU d 501      92.569  43.974   7.023  0.00  0.00     0.179 C 
+ATOM      9  O5  EPU d 501      92.827  42.533   7.011  0.00  0.00    -0.348 OA
+BRANCH   5  10
+ATOM     10  N2  EPU d 501      92.808  41.897   3.315  0.00  0.00    -0.349 N 
+ATOM     11  C7  EPU d 501      92.628  40.605   2.922  0.00  0.00     0.214 C 
+ATOM     12  C8  EPU d 501      93.133  40.157   1.574  0.00  0.00     0.117 C 
+ATOM     13  O7  EPU d 501      92.064  39.806   3.649  0.00  0.00    -0.274 OA
+ATOM     14  H   EPU d 501      93.292  42.519   2.725  0.00  0.00     0.163 HD
+ENDBRANCH   5  10
+BRANCH   6  15
+ATOM     15  O3  EPU d 501      91.124  44.266   3.547  0.00  0.00    -0.335 OA
+BRANCH  15  16
+ATOM     16  C2E EPU d 501      91.699  45.024   2.537  0.00  0.00     0.133 C 
+ATOM     17  C3E EPU d 501      92.294  46.211   2.781  0.00  0.00     0.058 C 
+BRANCH  16  18
+ATOM     18  C1E EPU d 501      91.568  44.547   1.145  0.00  0.00     0.199 C 
+ATOM     19  O1E EPU d 501      92.527  44.516   0.394  0.00  0.00    -0.645 OA
+BRANCH  18  20
+ATOM     20  O2E EPU d 501      90.366  44.147   0.712  0.00  0.00    -0.771 OA
+ATOM     21  H   EPU d 501      89.628  44.171   1.289  0.00  0.00     0.167 HD
+ENDBRANCH  18  20
+ENDBRANCH  16  18
+ENDBRANCH  15  16
+ENDBRANCH   6  15
+BRANCH   7  22
+ATOM     22  O4  EPU d 501      91.342  45.771   5.928  0.00  0.00    -0.390 OA
+ATOM     23  H   EPU d 501      92.185  46.215   5.745  0.00  0.00     0.210 HD
+ENDBRANCH   7  22
+BRANCH   8  24
+ATOM     24  C6  EPU d 501      92.048  44.370   8.419  0.00  0.00     0.198 C 
+BRANCH  24  25
+ATOM     25  O6  EPU d 501      90.778  43.761   8.678  0.00  0.00    -0.398 OA
+ATOM     26  H   EPU d 501      90.135  44.060   8.016  0.00  0.00     0.209 HD
+ENDBRANCH  24  25
+ENDBRANCH   8  24
+ENDBRANCH   3   4
+ENDBRANCH   1   3
+BRANCH   1  27
+ATOM     27  O1B EPU d 501      95.799  40.887   6.685  0.00  0.00    -0.307 OA
+ATOM     28  H   EPU d 501      95.992  40.409   5.863  0.00  0.00     0.222 HD
+ENDBRANCH   1  27
+BRANCH   1  29
+ATOM     29  O3A EPU d 501      95.431  43.185   7.758  0.00  0.00    -0.195 OA
+BRANCH  29  30
+ATOM     30  PA  EPU d 501      96.382  42.806   9.005  0.00  0.00     0.401 P 
+ATOM     31  O1A EPU d 501      97.427  41.827   8.637  0.00  0.00    -0.631 OA
+BRANCH  30  32
+ATOM     32  O5D EPU d 501      97.115  44.173   9.460  0.00  0.00    -0.294 OA
+BRANCH  32  33
+ATOM     33  C5D EPU d 501      96.540  44.790  10.633  0.00  0.00     0.215 C 
+BRANCH  33  34
+ATOM     34  C4D EPU d 501      97.640  45.713  11.201  0.00  0.00     0.180 C 
+ATOM     35  C3D EPU d 501      98.127  46.668  10.068  0.00  0.00     0.182 C 
+ATOM     36  C2D EPU d 501      99.548  46.161   9.732  0.00  0.00     0.198 C 
+ATOM     37  C1D EPU d 501      99.964  45.359  10.989  0.00  0.00     0.263 C 
+ATOM     38  O4D EPU d 501      98.738  44.861  11.566  0.00  0.00    -0.353 OA
+BRANCH  35  39
+ATOM     39  O3D EPU d 501      98.224  48.005  10.589  0.00  0.00    -0.390 OA
+ATOM     40  H   EPU d 501      98.816  48.010  11.358  0.00  0.00     0.210 HD
+ENDBRANCH  35  39
+BRANCH  36  41
+ATOM     41  O2D EPU d 501     100.465  47.186   9.372  0.00  0.00    -0.388 OA
+ATOM     42  H   EPU d 501     100.551  47.815  10.105  0.00  0.00     0.210 HD
+ENDBRANCH  36  41
+BRANCH  37  43
+ATOM     43  N1U EPU d 501     100.843  44.235  10.613  0.00  0.00    -0.280 N 
+ATOM     44  C6U EPU d 501     100.291  43.108   9.986  0.00  0.00     0.104 A 
+ATOM     45  C5U EPU d 501     101.081  42.055   9.629  0.00  0.00     0.092 A 
+ATOM     46  C4U EPU d 501     102.483  42.135   9.913  0.00  0.00     0.250 A 
+ATOM     47  O4U EPU d 501     103.217  41.214   9.608  0.00  0.00    -0.268 OA
+ATOM     48  N3U EPU d 501     102.992  43.254  10.527  0.00  0.00    -0.275 N 
+ATOM     49  C2U EPU d 501     102.184  44.296  10.876  0.00  0.00     0.331 A 
+ATOM     50  H   EPU d 501     103.956  43.304  10.718  0.00  0.00     0.173 HD
+ATOM     51  O2U EPU d 501     102.666  45.281  11.423  0.00  0.00    -0.246 OA
+ENDBRANCH  37  43
+ENDBRANCH  33  34
+ENDBRANCH  32  33
+ENDBRANCH  30  32
+BRANCH  30  52
+ATOM     52  O2A EPU d 501      95.476  42.193  10.180  0.00  0.00    -0.307 OA
+ATOM     53  H   EPU d 501      95.054  41.376   9.870  0.00  0.00     0.222 HD
+ENDBRANCH  30  52
+ENDBRANCH  29  30
+ENDBRANCH   1  29
+TORSDOF 20

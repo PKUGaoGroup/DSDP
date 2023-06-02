@@ -1,0 +1,70 @@
+REMARK  11 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O1_20  and  C1_1 
+REMARK    2  A    between atoms: O2_7  and  C2_2 
+REMARK    3  A    between atoms: O3_8  and  C3_3 
+REMARK    4  A    between atoms: C4_4  and  O4_9 
+REMARK    5  A    between atoms: C5_5  and  C6_6 
+REMARK    6  A    between atoms: C6_6  and  O6_11 
+REMARK    7  A    between atoms: C2B_13  and  O2B_18 
+REMARK    8  A    between atoms: C3B_14  and  O3B_19 
+REMARK    9  A    between atoms: O1_20  and  C4B_15 
+REMARK   10  A    between atoms: C6B_17  and  C5B_16 
+REMARK   11  A    between atoms: C6B_17  and  O6B_22 
+ROOT
+ATOM      1  C1B IDC d 600       1.584  14.082  23.264  0.00  0.00     0.138 A 
+ATOM      2  C2B IDC d 600       1.827  13.446  24.594  0.00  0.00     0.219 C 
+ATOM      3  C3B IDC d 600       3.083  12.608  24.438  0.00  0.00     0.185 C 
+ATOM      4  C4B IDC d 600       2.894  11.617  23.279  0.00  0.00     0.181 C 
+ATOM      5  C5B IDC d 600       2.703  12.307  21.929  0.00  0.00     0.146 C 
+ATOM      6  N1B IDC d 600       1.960  13.551  22.114  0.00  0.00    -0.332 N 
+ATOM      7  N2B IDC d 600       0.950  15.231  23.040  0.00  0.00    -0.243 NA
+ATOM      8  C7B IDC d 600       0.955  15.400  21.714  0.00  0.00     0.136 A 
+ATOM      9  C8B IDC d 600       1.585  14.366  21.135  0.00  0.00     0.112 A 
+ENDROOT
+BRANCH   4  10
+ATOM     10  O1  IDC d 600       4.065  10.821  23.174  0.00  0.00    -0.348 OA
+BRANCH  10  11
+ATOM     11  C1  IDC d 600       3.975   9.438  23.473  0.00  0.00     0.292 C 
+ATOM     12  C2  IDC d 600       5.062   8.690  22.715  0.00  0.00     0.204 C 
+ATOM     13  C3  IDC d 600       5.032   7.220  23.096  0.00  0.00     0.183 C 
+ATOM     14  C4  IDC d 600       5.182   7.073  24.614  0.00  0.00     0.180 C 
+ATOM     15  C5  IDC d 600       4.116   7.892  25.341  0.00  0.00     0.179 C 
+ATOM     16  O5  IDC d 600       4.165   9.231  24.862  0.00  0.00    -0.348 OA
+BRANCH  12  17
+ATOM     17  O2  IDC d 600       4.896   8.866  21.316  0.00  0.00    -0.388 OA
+ATOM     18  H   IDC d 600       4.033   8.514  21.046  0.00  0.00     0.210 HD
+ENDBRANCH  12  17
+BRANCH  13  19
+ATOM     19  O3  IDC d 600       6.048   6.523  22.369  0.00  0.00    -0.390 OA
+ATOM     20  H   IDC d 600       6.916   6.897  22.587  0.00  0.00     0.210 HD
+ENDBRANCH  13  19
+BRANCH  14  21
+ATOM     21  O4  IDC d 600       5.027   5.716  25.012  0.00  0.00    -0.390 OA
+ATOM     22  H   IDC d 600       4.137   5.410  24.777  0.00  0.00     0.210 HD
+ENDBRANCH  14  21
+BRANCH  15  23
+ATOM     23  C6  IDC d 600       4.394   7.895  26.835  0.00  0.00     0.198 C 
+BRANCH  23  24
+ATOM     24  O6  IDC d 600       5.707   8.410  27.034  0.00  0.00    -0.398 OA
+ATOM     25  H   IDC d 600       6.347   7.853  26.565  0.00  0.00     0.209 HD
+ENDBRANCH  23  24
+ENDBRANCH  15  23
+ENDBRANCH  10  11
+ENDBRANCH   4  10
+BRANCH   5  26
+ATOM     26  C6B IDC d 600       1.901  11.464  20.926  0.00  0.00     0.192 C 
+BRANCH  26  27
+ATOM     27  O6B IDC d 600       0.795  10.758  21.483  0.00  0.00    -0.399 OA
+ATOM     28  H   IDC d 600       0.152  11.392  21.837  0.00  0.00     0.209 HD
+ENDBRANCH  26  27
+ENDBRANCH   5  26
+BRANCH   3  29
+ATOM     29  O3B IDC d 600       3.330  11.949  25.682  0.00  0.00    -0.390 OA
+ATOM     30  H   IDC d 600       2.567  11.396  25.912  0.00  0.00     0.210 HD
+ENDBRANCH   3  29
+BRANCH   2  31
+ATOM     31  O2B IDC d 600       2.054  14.423  25.600  0.00  0.00    -0.385 OA
+ATOM     32  H   IDC d 600       2.822  14.964  25.358  0.00  0.00     0.210 HD
+ENDBRANCH   2  31
+TORSDOF 11

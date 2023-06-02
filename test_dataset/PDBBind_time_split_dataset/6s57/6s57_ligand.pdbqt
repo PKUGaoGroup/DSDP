@@ -1,0 +1,53 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N11_10  and  C10_1 
+REMARK    2  A    between atoms: C15_3  and  C13_2 
+REMARK       I    between atoms: C13_2  and  N11_10 
+REMARK    3  A    between atoms: N18_12  and  C15_3 
+REMARK    4  A    between atoms: C36_20  and  S37_21 
+REMARK    5  A    between atoms: S37_21  and  N40_24 
+ROOT
+ATOM      1  C10 KVT d   1     -22.714  46.885   8.441  0.00  0.00     0.036 A 
+ATOM      2  C01 KVT d   1     -20.816  43.240   9.822  0.00  0.00     0.050 C 
+ATOM      3  C05 KVT d   1     -21.511  44.496   9.366  0.00  0.00    -0.039 A 
+ATOM      4  C06 KVT d   1     -20.823  45.409   8.568  0.00  0.00     0.010 A 
+ATOM      5  C08 KVT d   1     -21.402  46.578   8.108  0.00  0.00     0.030 A 
+ATOM      6  C34 KVT d   1     -23.432  45.991   9.228  0.00  0.00     0.055 A 
+ATOM      7  C36 KVT d   1     -22.842  44.820   9.687  0.00  0.00     0.087 A 
+ENDROOT
+BRANCH   1   8
+ATOM      8  N11 KVT d   1     -23.264  48.094   7.942  0.00  0.00    -0.326 N 
+ATOM      9  C13 KVT d   1     -24.545  48.530   8.004  0.00  0.00     0.240 C 
+ATOM     10  O14 KVT d   1     -25.463  47.917   8.541  0.00  0.00    -0.271 OA
+ATOM     11  H14 KVT d   1     -22.620  48.706   7.483  0.00  0.00     0.169 HD
+BRANCH   9  12
+ATOM     12  C15 KVT d   1     -24.781  49.881   7.352  0.00  0.00     0.240 C 
+BRANCH  12  13
+ATOM     13  N18 KVT d   1     -26.142  50.368   7.512  0.00  0.00    -0.259 N 
+ATOM     14  C19 KVT d   1     -26.578  51.153   8.574  0.00  0.00     0.326 A 
+ATOM     15  O20 KVT d   1     -25.888  51.536   9.510  0.00  0.00    -0.247 OA
+ATOM     16  N21 KVT d   1     -27.895  51.406   8.378  0.00  0.00    -0.325 N 
+ATOM     17  C23 KVT d   1     -28.415  50.789   7.155  0.00  0.00     0.108 A 
+ATOM     18  H15 KVT d   1     -28.452  51.955   9.001  0.00  0.00     0.165 HD
+ATOM     19  C24 KVT d   1     -29.498  49.757   7.479  0.00  0.00     0.049 C 
+ATOM     20  C28 KVT d   1     -28.916  51.850   6.172  0.00  0.00     0.049 C 
+ATOM     21  C32 KVT d   1     -27.162  50.106   6.625  0.00  0.00     0.256 A 
+ATOM     22  O33 KVT d   1     -27.063  49.444   5.608  0.00  0.00    -0.270 OA
+ENDBRANCH  12  13
+ENDBRANCH   9  12
+ENDBRANCH   1   8
+BRANCH   7  23
+ATOM     23  S37 KVT d   1     -23.837  43.745  10.692  0.00  0.00     0.261 S 
+ATOM     24  O38 KVT d   1     -23.134  43.522  11.916  0.00  0.00    -0.200 OA
+ATOM     25  O39 KVT d   1     -24.214  42.632   9.881  0.00  0.00    -0.200 OA
+BRANCH  23  26
+ATOM     26  N40 KVT d   1     -25.214  44.532  11.081  0.00  0.00    -0.307 N 
+ATOM     27  C41 KVT d   1     -25.164  45.518  12.180  0.00  0.00     0.135 C 
+ATOM     28  C44 KVT d   1     -26.442  46.303  12.407  0.00  0.00     0.021 C 
+ATOM     29  C47 KVT d   1     -27.668  45.461  12.690  0.00  0.00     0.002 C 
+ATOM     30  C50 KVT d   1     -28.403  44.976  11.469  0.00  0.00     0.002 C 
+ATOM     31  C53 KVT d   1     -27.599  44.099  10.534  0.00  0.00     0.021 C 
+ATOM     32  C56 KVT d   1     -26.280  44.658  10.067  0.00  0.00     0.135 C 
+ENDBRANCH  23  26
+ENDBRANCH   7  23
+TORSDOF 5

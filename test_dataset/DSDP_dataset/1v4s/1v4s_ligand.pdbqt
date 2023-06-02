@@ -1,0 +1,44 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C5_5  and  N6_6 
+REMARK       I    between atoms: N6_6  and  C7_7 
+REMARK    2  A    between atoms: C7_7  and  C10_10 
+REMARK    3  A    between atoms: S16_16  and  C12_12 
+REMARK    4  A    between atoms: S16_16  and  C18_18 
+ROOT
+ATOM      1  C9  MRK d 501      40.441  16.362  64.107  0.00  0.00     0.044 A 
+ATOM      2  C10 MRK d 501      39.663  16.227  62.887  0.00  0.00     0.060 A 
+ATOM      3  C11 MRK d 501      39.866  15.037  62.099  0.00  0.00     0.041 A 
+ATOM      4  C12 MRK d 501      40.785  14.043  62.492  0.00  0.00     0.048 A 
+ATOM      5  C13 MRK d 501      41.542  14.192  63.688  0.00  0.00     0.135 A 
+ATOM      6  F14 MRK d 501      42.441  13.247  64.096  0.00  0.00    -0.205 F 
+ATOM      7  C15 MRK d 501      41.362  15.351  64.484  0.00  0.00     0.073 A 
+ATOM      8  N23 MRK d 501      40.341  17.411  64.928  0.00  0.00    -0.398 N 
+ATOM      9  H   MRK d 501      39.718  18.143  64.717  0.00  0.00     0.156 HD
+ATOM     10  H   MRK d 501      40.891  17.452  65.744  0.00  0.00     0.156 HD
+ENDROOT
+BRANCH   2  11
+ATOM     11  C7  MRK d 501      38.615  17.204  62.311  0.00  0.00     0.260 C 
+ATOM     12  N6  MRK d 501      38.339  17.172  60.899  0.00  0.00    -0.301 N 
+ATOM     13  H   MRK d 501      38.860  16.522  60.374  0.00  0.00     0.171 HD
+ATOM     14  O8  MRK d 501      38.021  17.987  63.065  0.00  0.00    -0.267 OA
+BRANCH  12  15
+ATOM     15  C5  MRK d 501      37.446  17.928  60.194  0.00  0.00     0.173 A 
+ATOM     16  N4  MRK d 501      37.353  17.814  58.862  0.00  0.00    -0.236 NA
+ATOM     17  C3  MRK d 501      36.389  18.655  58.364  0.00  0.00     0.126 A 
+ATOM     18  C2  MRK d 501      35.738  19.415  59.292  0.00  0.00     0.072 A 
+ATOM     19  S1  MRK d 501      36.355  19.067  60.867  0.00  0.00    -0.062 SA
+ENDBRANCH  12  15
+ENDBRANCH   2  11
+BRANCH   4  20
+ATOM     20  S16 MRK d 501      40.935  12.630  61.445  0.00  0.00    -0.049 SA
+BRANCH  20  21
+ATOM     21  C18 MRK d 501      42.526  11.887  61.522  0.00  0.00     0.172 A 
+ATOM     22  N19 MRK d 501      43.569  12.325  60.738  0.00  0.00    -0.235 NA
+ATOM     23  C20 MRK d 501      44.550  11.441  61.165  0.00  0.00     0.136 A 
+ATOM     24  C21 MRK d 501      44.057  10.565  62.137  0.00  0.00     0.112 A 
+ATOM     25  N17 MRK d 501      42.721  10.829  62.401  0.00  0.00    -0.339 N 
+ATOM     26  C22 MRK d 501      41.782  10.176  63.341  0.00  0.00     0.158 C 
+ENDBRANCH  20  21
+ENDBRANCH   4  20
+TORSDOF 4

@@ -1,0 +1,64 @@
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O1_2  and  C12_3 
+REMARK    2  A    between atoms: C12_3  and  C9_4 
+REMARK    3  A    between atoms: C1_11  and  C2_13 
+REMARK    4  A    between atoms: C4_20  and  N3_21 
+REMARK       I    between atoms: N3_21  and  C15_22 
+REMARK    5  A    between atoms: C15_22  and  C16_24 
+REMARK    6  A    between atoms: C18_29  and  O3_30 
+REMARK    7  A    between atoms: O3_30  and  C20_31 
+ROOT
+ATOM      1  C20 P6J d   1      72.236  43.686  -0.815  0.00  0.00     0.270 C 
+ATOM      2  C21 P6J d   1      73.343  44.501  -1.324  0.00  0.00    -0.091 C 
+ATOM      3  C22 P6J d   1      74.205  45.159  -1.724  0.00  0.00     0.014 C 
+ENDROOT
+BRANCH   1   4
+ATOM      4  O3  P6J d   1      71.260  44.517  -0.156  0.00  0.00    -0.321 OA
+BRANCH   4   5
+ATOM      5  C18 P6J d   1      71.590  45.060   1.045  0.00  0.00     0.182 A 
+ATOM      6  N5  P6J d   1      72.742  44.801   1.700  0.00  0.00    -0.233 NA
+ATOM      7  C19 P6J d   1      72.994  45.382   2.867  0.00  0.00     0.157 A 
+ATOM      8  C16 P6J d   1      72.075  46.263   3.426  0.00  0.00     0.141 A 
+ATOM      9  N4  P6J d   1      70.932  46.508   2.772  0.00  0.00    -0.250 NA
+ATOM     10  C17 P6J d   1      70.674  45.935   1.611  0.00  0.00     0.175 A 
+BRANCH   8  11
+ATOM     11  C15 P6J d   1      72.344  46.928   4.781  0.00  0.00     0.276 C 
+ATOM     12  N3  P6J d   1      71.259  47.485   5.353  0.00  0.00    -0.322 N 
+ATOM     13  H17 P6J d   1      70.424  47.490   4.803  0.00  0.00     0.169 HD
+ATOM     14  O2  P6J d   1      73.498  46.944   5.226  0.00  0.00    -0.266 OA
+BRANCH  12  15
+ATOM     15  C4  P6J d   1      71.168  48.036   6.579  0.00  0.00     0.038 A 
+ATOM     16  C3  P6J d   1      69.909  48.444   7.038  0.00  0.00     0.042 A 
+ATOM     17  C2  P6J d   1      69.701  48.957   8.318  0.00  0.00     0.014 A 
+ATOM     18  C7  P6J d   1      70.812  49.075   9.159  0.00  0.00     0.163 A 
+ATOM     19  F1  P6J d   1      70.686  49.563  10.405  0.00  0.00    -0.202 F 
+ATOM     20  C6  P6J d   1      72.063  48.670   8.733  0.00  0.00     0.157 A 
+ATOM     21  F2  P6J d   1      73.102  48.791   9.594  0.00  0.00    -0.203 F 
+ATOM     22  C5  P6J d   1      72.261  48.152   7.455  0.00  0.00     0.075 A 
+BRANCH  17  23
+ATOM     23  C1  P6J d   1      68.316  49.436   8.806  0.00  0.00     0.064 C 
+ATOM     24  C8  P6J d   1      67.861  48.695  10.074  0.00  0.00     0.041 A 
+ATOM     25  C9  P6J d   1      67.105  47.396   9.903  0.00  0.00     0.044 A 
+ATOM     26  C14 P6J d   1      68.528  47.359  10.458  0.00  0.00     0.032 A 
+ATOM     27  S1  P6J d   1      66.932  46.724   8.228  0.00  0.00    -0.082 SA
+ATOM     28  C10 P6J d   1      66.683  48.195   7.323  0.00  0.00     0.135 C 
+ATOM     29  N2  P6J d   1      65.865  48.207   6.287  0.00  0.00    -0.380 N 
+ATOM     30  N1  P6J d   1      67.316  49.367   7.708  0.00  0.00    -0.357 N 
+ATOM     31  H9  P6J d   1      65.720  49.077   5.755  0.00  0.00     0.158 HD
+ATOM     32  H10 P6J d   1      65.371  47.346   6.011  0.00  0.00     0.158 HD
+ATOM     33  H11 P6J d   1      67.081  50.236   7.207  0.00  0.00     0.162 HD
+ATOM     34  C11 P6J d   1      68.424  50.945   9.098  0.00  0.00     0.044 C 
+BRANCH  25  35
+ATOM     35  C12 P6J d   1      65.941  47.203  10.844  0.00  0.00     0.188 C 
+BRANCH  35  36
+ATOM     36  O1  P6J d   1      64.741  47.690  10.189  0.00  0.00    -0.394 OA
+ATOM     37  C13 P6J d   1      64.531  49.093  10.407  0.00  0.00     0.201 C 
+ENDBRANCH  35  36
+ENDBRANCH  25  35
+ENDBRANCH  17  23
+ENDBRANCH  12  15
+ENDBRANCH   8  11
+ENDBRANCH   4   5
+ENDBRANCH   1   4
+TORSDOF 7

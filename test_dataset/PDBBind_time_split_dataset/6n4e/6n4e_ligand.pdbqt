@@ -1,0 +1,53 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C05_3  and  C02_18 
+REMARK    2  A    between atoms: C14_7  and  C16_8 
+REMARK       I    between atoms: N13_22  and  C14_7 
+REMARK    3  A    between atoms: C21_12  and  O22_25 
+REMARK    4  A    between atoms: O22_25  and  C23_13 
+REMARK    5  A    between atoms: C02_18  and  O04_19 
+REMARK    6  A    between atoms: C09_21  and  N13_22 
+ROOT
+ATOM      1  C14 KCD d   1       9.479  28.367 -13.608  0.00  0.00     0.253 C 
+ATOM      2  N13 KCD d   1      10.332  28.234 -14.699  0.00  0.00    -0.352 N 
+ATOM      3  O15 KCD d   1       9.635  29.201 -12.713  0.00  0.00    -0.268 OA
+ATOM      4  H24 KCD d   1      10.145  27.516 -15.370  0.00  0.00     0.163 HD
+ENDROOT
+BRANCH   1   5
+ATOM      5  C16 KCD d   1       8.344  27.408 -13.503  0.00  0.00     0.050 A 
+ATOM      6  C17 KCD d   1       7.947  26.989 -12.241  0.00  0.00     0.134 A 
+ATOM      7  N18 KCD d   1       6.935  26.115 -12.028  0.00  0.00    -0.259 NA
+ATOM      8  C19 KCD d   1       6.277  25.622 -13.089  0.00  0.00     0.069 A 
+ATOM      9  C20 KCD d   1       5.237  24.742 -12.871  0.00  0.00     0.069 A 
+ATOM     10  C28 KCD d   1       6.586  25.976 -14.426  0.00  0.00    -0.006 A 
+ATOM     11  C21 KCD d   1       4.489  24.190 -13.926  0.00  0.00     0.077 A 
+ATOM     12  C26 KCD d   1       4.798  24.512 -15.242  0.00  0.00     0.038 A 
+ATOM     13  C27 KCD d   1       5.845  25.414 -15.494  0.00  0.00     0.016 A 
+ATOM     14  C29 KCD d   1       7.651  26.884 -14.607  0.00  0.00     0.032 A 
+BRANCH  11  15
+ATOM     15  O22 KCD d   1       3.519  23.274 -13.632  0.00  0.00    -0.290 OA
+BRANCH  15  16
+ATOM     16  C23 KCD d   1       4.120  22.270 -12.793  0.00  0.00     0.505 C 
+ATOM     17  F24 KCD d   1       3.320  22.151 -11.713  0.00  0.00    -0.184 F 
+ATOM     18  F25 KCD d   1       4.350  21.129 -13.475  0.00  0.00    -0.184 F 
+ENDBRANCH  15  16
+ENDBRANCH  11  15
+ENDBRANCH   1   5
+BRANCH   2  19
+ATOM     19  C09 KCD d   1      11.480  29.093 -14.903  0.00  0.00     0.084 C 
+ATOM     20  C08 KCD d   1      12.734  28.279 -15.214  0.00  0.00     0.026 C 
+ATOM     21  C07 KCD d   1      13.920  29.206 -15.510  0.00  0.00     0.009 C 
+ATOM     22  C05 KCD d   1      13.616  30.152 -16.687  0.00  0.00     0.019 C 
+ATOM     23  C12 KCD d   1      12.380  30.986 -16.312  0.00  0.00     0.009 C 
+ATOM     24  C11 KCD d   1      11.174  30.099 -16.006  0.00  0.00     0.026 C 
+BRANCH  22  25
+ATOM     25  C02 KCD d   1      14.807  31.047 -17.096  0.00  0.00     0.054 C 
+ATOM     26  C01 KCD d   1      14.459  32.108 -18.152  0.00  0.00     0.045 C 
+ATOM     27  C03 KCD d   1      15.964  30.206 -17.639  0.00  0.00     0.045 C 
+BRANCH  25  28
+ATOM     28  O04 KCD d   1      15.269  31.739 -15.937  0.00  0.00    -0.390 OA
+ATOM     29  H20 KCD d   1      14.564  32.268 -15.584  0.00  0.00     0.210 HD
+ENDBRANCH  25  28
+ENDBRANCH  22  25
+ENDBRANCH   2  19
+TORSDOF 6

@@ -1,0 +1,56 @@
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N6_7  and  C6_6 
+REMARK    2  A    between atoms: C10_12  and  C7_8 
+REMARK    3  A    between atoms: N9_10  and  C1'_11 
+REMARK       I    between atoms: N11_13  and  C10_12 
+REMARK    4  A    between atoms: C2'_15  and  O2'_16 
+REMARK    5  A    between atoms: C3'_17  and  O3'_18 
+REMARK    6  A    between atoms: C5'_21  and  C4'_19 
+REMARK    7  A    between atoms: O5'_22  and  C5'_21 
+ROOT
+ATOM      1  N1  SGV d 601      27.654 -31.033  26.954  0.00  0.00    -0.224 NA
+ATOM      2  C2  SGV d 601      28.483 -31.276  28.023  0.00  0.00     0.237 A 
+ATOM      3  N3  SGV d 601      28.923 -32.556  28.260  0.00  0.00    -0.223 NA
+ATOM      4  C4  SGV d 601      28.526 -33.570  27.427  0.00  0.00     0.148 A 
+ATOM      5  C5  SGV d 601      27.711 -33.325  26.365  0.00  0.00     0.073 A 
+ATOM      6  C6  SGV d 601      27.266 -32.034  26.134  0.00  0.00     0.137 A 
+ATOM      7  C7  SGV d 601      27.483 -34.522  25.712  0.00  0.00     0.065 A 
+ATOM      8  C8  SGV d 601      28.169 -35.512  26.380  0.00  0.00     0.113 A 
+ATOM      9  N9  SGV d 601      28.827 -34.926  27.411  0.00  0.00    -0.310 N 
+ENDROOT
+BRANCH   9  10
+ATOM     10  C1' SGV d 601      29.646 -35.574  28.452  0.00  0.00     0.261 C 
+ATOM     11  O4' SGV d 601      30.126 -36.810  27.961  0.00  0.00    -0.353 OA
+ATOM     12  C4' SGV d 601      29.478 -37.902  28.672  0.00  0.00     0.179 C 
+ATOM     13  C3' SGV d 601      28.241 -37.252  29.271  0.00  0.00     0.182 C 
+ATOM     14  C2' SGV d 601      28.767 -35.887  29.661  0.00  0.00     0.198 C 
+BRANCH  12  15
+ATOM     15  C5' SGV d 601      29.245 -39.062  27.737  0.00  0.00     0.198 C 
+BRANCH  15  16
+ATOM     16  O5' SGV d 601      28.622 -38.632  26.538  0.00  0.00    -0.398 OA
+ATOM     17  H   SGV d 601      29.195 -37.992  26.087  0.00  0.00     0.209 HD
+ENDBRANCH  15  16
+ENDBRANCH  12  15
+BRANCH  13  18
+ATOM     18  O3' SGV d 601      27.686 -37.974  30.351  0.00  0.00    -0.390 OA
+ATOM     19  H   SGV d 601      28.354 -38.079  31.047  0.00  0.00     0.210 HD
+ENDBRANCH  13  18
+BRANCH  14  20
+ATOM     20  O2' SGV d 601      29.595 -35.978  30.808  0.00  0.00    -0.388 OA
+ATOM     21  H   SGV d 601      30.304 -36.619  30.645  0.00  0.00     0.210 HD
+ENDBRANCH  14  20
+ENDBRANCH   9  10
+BRANCH   7  22
+ATOM     22  C10 SGV d 601      26.654 -34.928  24.463  0.00  0.00     0.251 C 
+ATOM     23  N11 SGV d 601      26.874 -36.255  23.849  0.00  0.00    -0.366 N 
+ATOM     24  H   SGV d 601      26.354 -36.523  23.057  0.00  0.00     0.159 HD
+ATOM     25  H   SGV d 601      27.540 -36.870  24.232  0.00  0.00     0.159 HD
+ATOM     26  O12 SGV d 601      25.821 -34.154  23.996  0.00  0.00    -0.268 OA
+ENDBRANCH   7  22
+BRANCH   6  27
+ATOM     27  N6  SGV d 601      26.450 -31.258  25.228  0.00  0.00    -0.383 N 
+ATOM     28  H   SGV d 601      25.995 -31.699  24.475  0.00  0.00     0.157 HD
+ATOM     29  H   SGV d 601      26.349 -30.288  25.364  0.00  0.00     0.157 HD
+ENDBRANCH   6  27
+TORSDOF 7

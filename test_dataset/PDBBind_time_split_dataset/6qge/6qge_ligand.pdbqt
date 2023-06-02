@@ -1,0 +1,84 @@
+REMARK  12 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C10_1  and  O02_31 
+REMARK    2  A    between atoms: S01_35  and  C13_2 
+REMARK    3  A    between atoms: C16_21  and  C15_3 
+REMARK    4  A    between atoms: C15_3  and  S01_35 
+REMARK    5  A    between atoms: C17_4  and  C16_21 
+REMARK    6  A    between atoms: N04_27  and  C17_4 
+REMARK    7  A    between atoms: C18_36  and  C20_5 
+REMARK    8  A    between atoms: C07_15  and  C02_10 
+REMARK    9  A    between atoms: C09_17  and  C14_20 
+REMARK   10  A    between atoms: C12_19  and  O04_33 
+REMARK   11  A    between atoms: C14_20  and  O03_32 
+REMARK   12  A    between atoms: C16_21  and  O05_34 
+ROOT
+ATOM      1  C10 J1E d   1     -18.214   6.811  -0.722  0.00  0.00     0.176 C 
+ATOM      2  C13 J1E d   1     -19.902   9.048  -1.323  0.00  0.00     0.214 C 
+ATOM      3  C07 J1E d   1     -14.172   8.352  -0.658  0.00  0.00     0.108 A 
+ATOM      4  C08 J1E d   1     -15.492   8.410  -0.284  0.00  0.00     0.148 A 
+ATOM      5  C09 J1E d   1     -19.729   6.728  -0.968  0.00  0.00     0.177 C 
+ATOM      6  C11 J1E d   1     -17.615   8.025  -1.350  0.00  0.00     0.174 C 
+ATOM      7  C12 J1E d   1     -18.381   9.268  -1.177  0.00  0.00     0.184 C 
+ATOM      8  N01 J1E d   1     -14.208   7.968  -2.001  0.00  0.00    -0.130 NA
+ATOM      9  N02 J1E d   1     -15.423   7.804  -2.387  0.00  0.00    -0.065 NA
+ATOM     10  N03 J1E d   1     -16.265   8.070  -1.394  0.00  0.00    -0.250 N 
+ATOM     11  O01 J1E d   1     -20.331   7.937  -0.560  0.00  0.00    -0.363 OA
+ENDROOT
+BRANCH   2  12
+ATOM     12  S01 J1E d   1     -20.662  10.535  -0.578  0.00  0.00    -0.132 SA
+BRANCH  12  13
+ATOM     13  C15 J1E d   1     -22.380  10.568  -1.063  0.00  0.00     0.110 C 
+BRANCH  13  14
+ATOM     14  C16 J1E d   1     -23.194   9.462  -0.402  0.00  0.00     0.147 C 
+BRANCH  14  15
+ATOM     15  C17 J1E d   1     -24.690   9.649  -0.787  0.00  0.00     0.184 C 
+BRANCH  15  16
+ATOM     16  N04 J1E d   1     -25.621   8.849  -0.001  0.00  0.00    -0.258 N 
+ATOM     17  C19 J1E d   1     -26.211   9.245   1.200  0.00  0.00     0.148 A 
+ATOM     18  C18 J1E d   1     -27.033   8.203   1.643  0.00  0.00     0.108 A 
+ATOM     19  N06 J1E d   1     -26.884   7.196   0.650  0.00  0.00    -0.130 NA
+ATOM     20  N05 J1E d   1     -26.071   7.582  -0.284  0.00  0.00    -0.066 NA
+BRANCH  18  21
+ATOM     21  C20 J1E d   1     -27.858   8.104   2.876  0.00  0.00    -0.001 A 
+ATOM     22  C21 J1E d   1     -27.877   9.176   3.780  0.00  0.00     0.056 A 
+ATOM     23  C22 J1E d   1     -28.622   9.127   4.964  0.00  0.00     0.117 A 
+ATOM     24  C23 J1E d   1     -29.378   8.020   5.332  0.00  0.00     0.042 A 
+ATOM     25  F02 J1E d   1     -28.616  10.179   5.785  0.00  0.00    -0.206 F 
+ATOM     26  C24 J1E d   1     -29.354   6.948   4.449  0.00  0.00     0.004 A 
+ATOM     27  C25 J1E d   1     -28.609   6.984   3.258  0.00  0.00     0.014 A 
+ENDBRANCH  18  21
+ENDBRANCH  15  16
+ENDBRANCH  14  15
+BRANCH  14  28
+ATOM     28  O05 J1E d   1     -23.058   9.522   1.039  0.00  0.00    -0.393 OA
+ATOM     29  H24 J1E d   1     -23.577   8.831   1.434  0.00  0.00     0.210 HD
+ENDBRANCH  14  28
+ENDBRANCH  13  14
+ENDBRANCH  12  13
+ENDBRANCH   2  12
+BRANCH   7  30
+ATOM     30  O04 J1E d   1     -17.954  10.235  -2.103  0.00  0.00    -0.390 OA
+ATOM     31  H23 J1E d   1     -18.087   9.908  -2.985  0.00  0.00     0.210 HD
+ENDBRANCH   7  30
+BRANCH   5  32
+ATOM     32  C14 J1E d   1     -20.355   5.618  -0.121  0.00  0.00     0.198 C 
+BRANCH  32  33
+ATOM     33  O03 J1E d   1     -21.736   5.512  -0.435  0.00  0.00    -0.398 OA
+ATOM     34  H22 J1E d   1     -22.167   6.338  -0.247  0.00  0.00     0.209 HD
+ENDBRANCH  32  33
+ENDBRANCH   5  32
+BRANCH   1  35
+ATOM     35  O02 J1E d   1     -17.985   7.002   0.666  0.00  0.00    -0.391 OA
+ATOM     36  H21 J1E d   1     -17.051   7.067   0.826  0.00  0.00     0.210 HD
+ENDBRANCH   1  35
+BRANCH   3  37
+ATOM     37  C02 J1E d   1     -12.978   8.600   0.109  0.00  0.00    -0.001 A 
+ATOM     38  C01 J1E d   1     -13.005   8.539   1.499  0.00  0.00     0.056 A 
+ATOM     39  C06 J1E d   1     -11.857   8.778   2.221  0.00  0.00     0.117 A 
+ATOM     40  C05 J1E d   1     -10.628   9.058   1.638  0.00  0.00     0.042 A 
+ATOM     41  F01 J1E d   1     -11.911   8.711   3.552  0.00  0.00    -0.206 F 
+ATOM     42  C04 J1E d   1     -10.598   9.106   0.256  0.00  0.00     0.004 A 
+ATOM     43  C03 J1E d   1     -11.744   8.873  -0.490  0.00  0.00     0.014 A 
+ENDBRANCH   3  37
+TORSDOF 12

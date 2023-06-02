@@ -1,0 +1,50 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O30_22  and  C2_2 
+REMARK    2  A    between atoms: C6_6  and  O29_21 
+REMARK    3  A    between atoms: O27_20  and  C10_8 
+REMARK    4  A    between atoms: C14_10  and  C11_9 
+REMARK    5  A    between atoms: O24_19  and  C17_13 
+REMARK    6  A    between atoms: C18_14  and  O23_18 
+ROOT
+ATOM      1  C1  DQH d 380      65.129   3.712  27.558  0.00  0.00     0.074 A 
+ATOM      2  C2  DQH d 380      64.873   3.926  26.169  0.00  0.00     0.085 A 
+ATOM      3  C3  DQH d 380      63.775   4.804  25.724  0.00  0.00     0.079 A 
+ATOM      4  C4  DQH d 380      62.961   5.452  26.791  0.00  0.00     0.089 A 
+ATOM      5  C5  DQH d 380      63.226   5.234  28.159  0.00  0.00     0.074 A 
+ATOM      6  C6  DQH d 380      64.291   4.377  28.533  0.00  0.00     0.071 A 
+ATOM      7  C9  DQH d 380      63.430   5.080  24.312  0.00  0.00     0.196 C 
+ATOM      8  C10 DQH d 380      62.222   5.994  24.049  0.00  0.00     0.227 C 
+ATOM      9  C11 DQH d 380      61.992   7.013  25.170  0.00  0.00     0.198 C 
+ATOM     10  O12 DQH d 380      61.899   6.306  26.474  0.00  0.00    -0.337 OA
+ATOM     11  O13 DQH d 380      64.065   4.582  23.346  0.00  0.00    -0.289 OA
+ENDROOT
+BRANCH   9  12
+ATOM     12  C14 DQH d 380      60.800   7.937  25.031  0.00  0.00    -0.023 A 
+ATOM     13  C15 DQH d 380      59.499   7.382  24.753  0.00  0.00     0.013 A 
+ATOM     14  C16 DQH d 380      58.338   8.204  24.608  0.00  0.00     0.040 A 
+ATOM     15  C17 DQH d 380      58.473   9.607  24.742  0.00  0.00     0.098 A 
+ATOM     16  C18 DQH d 380      59.770  10.192  25.024  0.00  0.00     0.099 A 
+ATOM     17  C19 DQH d 380      60.920   9.363  25.166  0.00  0.00     0.049 A 
+BRANCH  15  18
+ATOM     18  O24 DQH d 380      57.401  10.448  24.610  0.00  0.00    -0.358 OA
+ATOM     19  H   DQH d 380      56.551  10.098  24.428  0.00  0.00     0.217 HD
+ENDBRANCH  15  18
+BRANCH  16  20
+ATOM     20  O23 DQH d 380      59.899  11.561  25.155  0.00  0.00    -0.358 OA
+ATOM     21  H   DQH d 380      59.148  12.113  25.063  0.00  0.00     0.217 HD
+ENDBRANCH  16  20
+ENDBRANCH   9  12
+BRANCH   8  22
+ATOM     22  O27 DQH d 380      62.343   6.642  22.795  0.00  0.00    -0.385 OA
+ATOM     23  H   DQH d 380      63.123   7.218  22.803  0.00  0.00     0.210 HD
+ENDBRANCH   8  22
+BRANCH   2  24
+ATOM     24  O30 DQH d 380      65.659   3.299  25.264  0.00  0.00    -0.360 OA
+ATOM     25  H   DQH d 380      65.510   3.424  24.348  0.00  0.00     0.217 HD
+ENDBRANCH   2  24
+BRANCH   6  26
+ATOM     26  O29 DQH d 380      64.548   4.159  29.844  0.00  0.00    -0.361 OA
+ATOM     27  H   DQH d 380      65.251   3.593  30.096  0.00  0.00     0.217 HD
+ENDBRANCH   6  26
+TORSDOF 6

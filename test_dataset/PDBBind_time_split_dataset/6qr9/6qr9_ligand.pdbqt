@@ -1,0 +1,58 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C15_3  and  N14_20 
+REMARK    2  A    between atoms: C16_21  and  C15_3 
+REMARK    3  A    between atoms: C19_23  and  C20_5 
+REMARK    4  A    between atoms: C20_5  and  N21_24 
+REMARK    5  A    between atoms: C02_10  and  N01_9 
+REMARK    6  A    between atoms: C06_14  and  C05_13 
+ROOT
+ATOM      1  C02 JEE d   1     -19.006 -17.704  12.702  0.00  0.00     0.138 A 
+ATOM      2  N03 JEE d   1     -18.756 -19.031  12.660  0.00  0.00    -0.261 N 
+ATOM      3  N04 JEE d   1     -19.913 -19.670  12.385  0.00  0.00    -0.171 NA
+ATOM      4  C05 JEE d   1     -20.910 -18.797  12.278  0.00  0.00     0.111 A 
+ATOM      5  C29 JEE d   1     -20.373 -17.537  12.450  0.00  0.00     0.120 A 
+ATOM      6  C30 JEE d   1     -21.090 -16.193  12.412  0.00  0.00     0.106 C 
+ATOM      7  N31 JEE d   1     -21.612 -15.178  12.386  0.00  0.00    -0.191 NA
+ATOM      8  H15 JEE d   1     -17.841 -19.478  12.812  0.00  0.00     0.191 HD
+ENDROOT
+BRANCH   1   9
+ATOM      9  N01 JEE d   1     -18.052 -16.683  12.963  0.00  0.00    -0.383 N 
+ATOM     10  H13 JEE d   1     -18.344 -15.695  12.973  0.00  0.00     0.157 HD
+ATOM     11  H14 JEE d   1     -17.068 -16.931  13.142  0.00  0.00     0.157 HD
+ENDBRANCH   1   9
+BRANCH   4  12
+ATOM     12  C06 JEE d   1     -22.338 -19.192  11.904  0.00  0.00    -0.002 A 
+ATOM     13  C07 JEE d   1     -22.593 -20.540  11.585  0.00  0.00     0.044 A 
+ATOM     14  C08 JEE d   1     -23.902 -20.947  11.191  0.00  0.00     0.045 A 
+ATOM     15  C09 JEE d   1     -24.908 -20.013  11.077  0.00  0.00    -0.008 A 
+ATOM     16  N14 JEE d   1     -24.406 -22.179  10.841  0.00  0.00    -0.352 N 
+ATOM     17  C10 JEE d   1     -24.636 -18.637  11.356  0.00  0.00     0.014 A 
+ATOM     18  C12 JEE d   1     -26.072 -20.760  10.653  0.00  0.00     0.031 A 
+ATOM     19  C11 JEE d   1     -23.348 -18.232  11.760  0.00  0.00     0.015 A 
+ATOM     20  C13 JEE d   1     -25.700 -22.097  10.528  0.00  0.00     0.092 A 
+BRANCH  16  21
+ATOM     21  C15 JEE d   1     -23.641 -23.404  10.872  0.00  0.00     0.167 C 
+BRANCH  21  22
+ATOM     22  C16 JEE d   1     -22.793 -23.654   9.630  0.00  0.00    -0.040 A 
+ATOM     23  C17 JEE d   1     -23.313 -23.510   8.338  0.00  0.00     0.009 A 
+ATOM     24  C18 JEE d   1     -22.499 -23.781   7.221  0.00  0.00     0.009 A 
+ATOM     25  C19 JEE d   1     -21.183 -24.217   7.391  0.00  0.00    -0.033 A 
+ATOM     26  C27 JEE d   1     -20.677 -24.365   8.702  0.00  0.00     0.009 A 
+ATOM     27  C28 JEE d   1     -21.484 -24.096   9.812  0.00  0.00     0.009 A 
+BRANCH  25  28
+ATOM     28  C20 JEE d   1     -20.304 -24.513   6.145  0.00  0.00     0.273 C 
+BRANCH  28  29
+ATOM     29  N21 JEE d   1     -19.747 -25.672   6.153  0.00  0.00    -0.063 N 
+ATOM     30  C22 JEE d   1     -20.553 -26.733   6.545  0.00  0.00     0.261 C 
+ATOM     31  C23 JEE d   1     -20.369 -28.036   5.791  0.00  0.00     0.195 C 
+ATOM     32  O24 JEE d   1     -20.296 -27.894   4.424  0.00  0.00    -0.388 OA
+ATOM     33  C25 JEE d   1     -19.718 -26.725   3.981  0.00  0.00     0.195 C 
+ATOM     34  C26 JEE d   1     -18.982 -25.909   5.028  0.00  0.00     0.261 C 
+ATOM     35  H20 JEE d   1     -19.070 -25.607   6.897  0.00  0.00     0.280 HD
+ENDBRANCH  28  29
+ENDBRANCH  25  28
+ENDBRANCH  21  22
+ENDBRANCH  16  21
+ENDBRANCH   4  12
+TORSDOF 6

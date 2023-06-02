@@ -1,0 +1,175 @@
+REMARK  31 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2T_16  and  C1T_1 
+REMARK    2  A    between atoms: C1T_1  and  CGT_2 
+REMARK    3  A    between atoms: S_11  and  C6T_12 
+REMARK    4  A    between atoms: S_11  and  C1P_63 
+REMARK    5  A    between atoms: C6T_12  and  C4T_13 
+REMARK       I    between atoms: C4T_13  and  N3T_15 
+REMARK    6  A    between atoms: N3T_15  and  C2T_16 
+REMARK    7  A    between atoms: PB_18  and  O11_17 
+REMARK    8  A    between atoms: CGP_59  and  O11_17 
+REMARK    9  A    between atoms: O14_21  and  PB_18 
+REMARK   10  A    between atoms: PB_18  and  O13_20 
+REMARK   11  A    between atoms: PA_23  and  O14_21 
+REMARK   12  A    between atoms: PC_32  and  O3B_22 
+REMARK   13  A    between atoms: O3B_22  and  C3B_29 
+REMARK   14  A    between atoms: O5B_26  and  PA_23 
+REMARK   15  A    between atoms: PA_23  and  O15_24 
+REMARK   16  A    between atoms: O5B_26  and  C5B_27 
+REMARK   17  A    between atoms: C4B_28  and  C5B_27 
+REMARK   18  A    between atoms: O2B_30  and  C2B_36 
+REMARK   19  A    between atoms: O19_35  and  PC_32 
+REMARK   20  A    between atoms: PC_32  and  O18_34 
+REMARK   21  A    between atoms: C1B_37  and  N9A_38 
+REMARK   22  A    between atoms: C6A_42  and  N6A_43 
+REMARK   23  A    between atoms: C2P_62  and  N3P_48 
+REMARK       I    between atoms: N3P_48  and  C4P_49 
+REMARK   24  A    between atoms: C4P_49  and  C6P_51 
+REMARK   25  A    between atoms: C7P_52  and  C6P_51 
+REMARK   26  A    between atoms: N8P_53  and  C7P_52 
+REMARK       I    between atoms: C9P_54  and  N8P_53 
+REMARK   27  A    between atoms: CBP_56  and  C9P_54 
+REMARK   28  A    between atoms: CDP_58  and  CBP_56 
+REMARK   29  A    between atoms: OCP_57  and  CBP_56 
+REMARK   30  A    between atoms: CGP_59  and  CDP_58 
+REMARK   31  A    between atoms: C2P_62  and  C1P_63 
+ROOT
+ATOM      1  O11 COT d 400     -22.216  45.984  29.420  0.00  0.00    -0.296 OA
+ENDROOT
+BRANCH   1   2
+ATOM      2  PB  COT d 400     -23.483  45.308  28.718  0.00  0.00     0.401 P 
+ATOM      3  O12 COT d 400     -24.667  46.164  28.976  0.00  0.00    -0.631 OA
+BRANCH   2   4
+ATOM      4  O14 COT d 400     -23.086  45.461  27.184  0.00  0.00    -0.195 OA
+BRANCH   4   5
+ATOM      5  PA  COT d 400     -23.841  45.376  25.791  0.00  0.00     0.401 P 
+ATOM      6  O16 COT d 400     -23.972  46.753  25.257  0.00  0.00    -0.631 OA
+BRANCH   5   7
+ATOM      7  O5B COT d 400     -22.800  44.542  24.942  0.00  0.00    -0.294 OA
+BRANCH   7   8
+ATOM      8  C5B COT d 400     -22.332  43.286  25.445  0.00  0.00     0.215 C 
+BRANCH   8   9
+ATOM      9  C4B COT d 400     -21.089  42.906  24.690  0.00  0.00     0.180 C 
+ATOM     10  C3B COT d 400     -21.243  41.523  24.110  0.00  0.00     0.197 C 
+ATOM     11  C2B COT d 400     -20.511  40.631  25.095  0.00  0.00     0.199 C 
+ATOM     12  C1B COT d 400     -19.407  41.544  25.578  0.00  0.00     0.262 C 
+ATOM     13  O4B COT d 400     -19.956  42.881  25.587  0.00  0.00    -0.353 OA
+BRANCH  10  14
+ATOM     14  O3B COT d 400     -20.654  41.438  22.813  0.00  0.00    -0.286 OA
+BRANCH  14  15
+ATOM     15  PC  COT d 400     -21.130  40.323  21.782  0.00  0.00     0.391 P 
+ATOM     16  O17 COT d 400     -21.288  41.070  20.503  0.00  0.00    -0.632 OA
+BRANCH  15  17
+ATOM     17  O19 COT d 400     -20.005  39.343  21.781  0.00  0.00    -0.307 OA
+ATOM     18  H   COT d 400     -20.209  38.617  21.171  0.00  0.00     0.222 HD
+ENDBRANCH  15  17
+BRANCH  15  19
+ATOM     19  O18 COT d 400     -22.411  39.781  22.318  0.00  0.00    -0.307 OA
+ATOM     20  H   COT d 400     -22.745  39.093  21.722  0.00  0.00     0.222 HD
+ENDBRANCH  15  19
+ENDBRANCH  14  15
+ENDBRANCH  10  14
+BRANCH  11  21
+ATOM     21  O2B COT d 400     -20.056  39.401  24.506  0.00  0.00    -0.388 OA
+ATOM     22  H   COT d 400     -20.821  38.875  24.224  0.00  0.00     0.210 HD
+ENDBRANCH  11  21
+BRANCH  12  23
+ATOM     23  N9A COT d 400     -18.919  41.130  26.911  0.00  0.00    -0.294 N 
+ATOM     24  C4A COT d 400     -17.811  40.359  27.158  0.00  0.00     0.167 A 
+ATOM     25  N3A COT d 400     -16.956  39.830  26.258  0.00  0.00    -0.222 NA
+ATOM     26  C5A COT d 400     -17.764  40.211  28.525  0.00  0.00     0.149 A 
+ATOM     27  C2A COT d 400     -15.962  39.104  26.809  0.00  0.00     0.237 A 
+ATOM     28  N1A COT d 400     -15.822  38.910  28.137  0.00  0.00    -0.222 NA
+ATOM     29  C6A COT d 400     -16.696  39.447  29.027  0.00  0.00     0.155 A 
+ATOM     30  N7A COT d 400     -18.805  40.899  29.125  0.00  0.00    -0.236 NA
+ATOM     31  C8A COT d 400     -19.488  41.435  28.130  0.00  0.00     0.214 A 
+BRANCH  29  32
+ATOM     32  N6A COT d 400     -16.512  39.205  30.326  0.00  0.00    -0.382 N 
+ATOM     33  H   COT d 400     -15.746  38.663  30.622  0.00  0.00     0.157 HD
+ATOM     34  H   COT d 400     -17.143  39.569  30.989  0.00  0.00     0.157 HD
+ENDBRANCH  29  32
+ENDBRANCH  12  23
+ENDBRANCH   8   9
+ENDBRANCH   7   8
+ENDBRANCH   5   7
+BRANCH   5  35
+ATOM     35  O15 COT d 400     -25.072  44.563  25.967  0.00  0.00    -0.307 OA
+ATOM     36  H   COT d 400     -25.544  44.503  25.122  0.00  0.00     0.222 HD
+ENDBRANCH   5  35
+ENDBRANCH   4   5
+ENDBRANCH   2   4
+BRANCH   2  37
+ATOM     37  O13 COT d 400     -23.555  43.870  29.063  0.00  0.00    -0.307 OA
+ATOM     38  H   COT d 400     -24.327  43.472  28.631  0.00  0.00     0.222 HD
+ENDBRANCH   2  37
+ENDBRANCH   1   2
+BRANCH   1  39
+ATOM     39  CGP COT d 400     -20.903  45.514  29.131  0.00  0.00     0.192 C 
+BRANCH  39  40
+ATOM     40  CDP COT d 400     -20.079  45.502  30.419  0.00  0.00     0.009 C 
+ATOM     41  CEP COT d 400     -18.700  44.906  30.148  0.00  0.00     0.020 C 
+ATOM     42  CFP COT d 400     -19.933  46.952  30.869  0.00  0.00     0.020 C 
+BRANCH  40  43
+ATOM     43  CBP COT d 400     -20.831  44.656  31.490  0.00  0.00     0.219 C 
+BRANCH  43  44
+ATOM     44  OCP COT d 400     -20.844  43.277  31.106  0.00  0.00    -0.385 OA
+ATOM     45  H   COT d 400     -19.934  42.944  31.064  0.00  0.00     0.210 HD
+ENDBRANCH  43  44
+BRANCH  43  46
+ATOM     46  C9P COT d 400     -20.190  44.751  32.874  0.00  0.00     0.247 C 
+ATOM     47  N8P COT d 400     -19.366  43.766  33.212  0.00  0.00    -0.358 N 
+ATOM     48  H   COT d 400     -19.215  43.048  32.556  0.00  0.00     0.162 HD
+ATOM     49  OAP COT d 400     -20.447  45.685  33.620  0.00  0.00    -0.271 OA
+BRANCH  47  50
+ATOM     50  C7P COT d 400     -18.668  43.677  34.494  0.00  0.00     0.132 C 
+BRANCH  50  51
+ATOM     51  C6P COT d 400     -17.731  44.856  34.745  0.00  0.00     0.122 C 
+BRANCH  51  52
+ATOM     52  C4P COT d 400     -16.727  45.058  33.619  0.00  0.00     0.219 C 
+ATOM     53  N3P COT d 400     -16.618  46.295  33.142  0.00  0.00    -0.360 N 
+ATOM     54  H   COT d 400     -17.192  46.990  33.538  0.00  0.00     0.162 HD
+ATOM     55  O5P COT d 400     -16.061  44.111  33.191  0.00  0.00    -0.274 OA
+BRANCH  53  56
+ATOM     56  C2P COT d 400     -15.708  46.696  32.072  0.00  0.00     0.132 C 
+BRANCH  56  57
+ATOM     57  C1P COT d 400     -14.268  46.778  32.533  0.00  0.00     0.094 C 
+BRANCH  57  58
+ATOM     58  S   COT d 400     -13.195  47.514  31.268  0.00  0.00    -0.158 SA
+BRANCH  58  59
+ATOM     59  C6T COT d 400     -13.183  49.251  31.773  0.00  0.00     0.176 C 
+BRANCH  59  60
+ATOM     60  C4T COT d 400     -12.845  49.375  33.242  0.00  0.00     0.226 C 
+ATOM     61  N3T COT d 400     -11.557  49.226  33.572  0.00  0.00    -0.360 N 
+ATOM     62  H   COT d 400     -10.896  49.054  32.864  0.00  0.00     0.162 HD
+ATOM     63  O5T COT d 400     -13.740  49.597  34.076  0.00  0.00    -0.273 OA
+BRANCH  61  64
+ATOM     64  C2T COT d 400     -11.108  49.314  34.968  0.00  0.00     0.127 C 
+BRANCH  64  65
+ATOM     65  C1T COT d 400      -9.863  48.424  35.162  0.00  0.00     0.056 C 
+BRANCH  65  66
+ATOM     66  CGT COT d 400      -9.644  48.110  36.631  0.00  0.00    -0.046 A 
+ATOM     67  C11 COT d 400     -10.052  46.920  37.321  0.00  0.00    -0.004 A 
+ATOM     68  C13 COT d 400     -10.721  45.744  36.927  0.00  0.00     0.014 A 
+ATOM     69  C12 COT d 400      -9.653  47.062  38.681  0.00  0.00     0.061 A 
+ATOM     70  C16 COT d 400     -10.967  44.757  37.893  0.00  0.00     0.001 A 
+ATOM     71  C17 COT d 400     -10.555  44.932  39.234  0.00  0.00     0.002 A 
+ATOM     72  C15 COT d 400      -9.897  46.077  39.647  0.00  0.00     0.032 A 
+ATOM     73  N11 COT d 400      -9.029  48.277  38.794  0.00  0.00    -0.285 NA
+ATOM     74  C14 COT d 400      -9.029  48.902  37.561  0.00  0.00     0.184 A 
+ENDBRANCH  65  66
+ENDBRANCH  64  65
+ENDBRANCH  61  64
+ENDBRANCH  59  60
+ENDBRANCH  58  59
+ENDBRANCH  57  58
+ENDBRANCH  56  57
+ENDBRANCH  53  56
+ENDBRANCH  51  52
+ENDBRANCH  50  51
+ENDBRANCH  47  50
+ENDBRANCH  43  46
+ENDBRANCH  40  43
+ENDBRANCH  39  40
+ENDBRANCH   1  39
+TORSDOF 31

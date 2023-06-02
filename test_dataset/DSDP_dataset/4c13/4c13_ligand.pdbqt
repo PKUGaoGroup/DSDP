@@ -1,0 +1,197 @@
+REMARK WARNING: 32 MAX_TORS EXCEEDED!!!
+REMARK  35 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1'A_9  and  N1_1 
+REMARK    2  A    between atoms: O2'_11  and  C2'A_10 
+REMARK    3  A    between atoms: O3'A_15  and  C3'A_12 
+REMARK    4  A    between atoms: C5'A_16  and  C4'A_13 
+REMARK    5  A    between atoms: O5'A_17  and  C5'A_16 
+REMARK    6  A    between atoms: PA_18  and  O5'A_17 
+REMARK    7  A    between atoms: O3A_21  and  PA_18 
+REMARK    8  A    between atoms: PA_18  and  O2A_20 
+REMARK    9  A    between atoms: PB_22  and  O3A_21 
+REMARK   10  A    between atoms: O1'_36  and  PB_22 
+REMARK   11  A    between atoms: PB_22  and  O2B_24 
+REMARK   12  A    between atoms: C1'_25  and  O1'_36 
+REMARK   13  A    between atoms: C2'_26  and  N2'_43 
+REMARK   14  A    between atoms: O3'_37  and  C3'_27 
+REMARK   15  A    between atoms: O4'_38  and  C4'_28 
+REMARK   16  A    between atoms: C5'_29  and  C6'_30 
+REMARK   17  A    between atoms: O6'_40  and  C6'_30 
+REMARK       I    between atoms: C7'_31  and  N2'_43 
+REMARK   18  A    between atoms: C19_34  and  C18_33 
+REMARK   19  A    between atoms: C18_33  and  O3'_37 
+REMARK       I    between atoms: N4_44  and  C19_34 
+REMARK   20  A    between atoms: C21_45  and  N4_44 
+REMARK   21  A    between atoms: C22_46  and  C21_45 
+REMARK       I    between atoms: N5_49  and  C22_46 
+REMARK   22  A    between atoms: C24_50  and  N5_49 
+REMARK   23  A    between atoms: C25_53  and  C24_50 
+REMARK   24  A    between atoms: C24_50  and  C28_51 
+REMARK   25  A    between atoms: C28_51  and  O23_52 
+REMARK   26  A    between atoms: C26_54  and  C25_53 
+REMARK   27  A    between atoms: C26_54  and  C27_55 
+REMARK       I    between atoms: N30_58  and  C27_55 
+REMARK   28  A    between atoms: N30_58  and  C32_59 
+REMARK   29  A    between atoms: C33_62  and  C32_59 
+REMARK   30  A    between atoms: C32_59  and  C31_60 
+REMARK   31  A    between atoms: C31_60  and  O37_67 
+REMARK   32  A    between atoms: C34_63  and  C33_62 
+REMARK   33  A    between atoms: C35_64  and  C34_63 
+REMARK   34  A    between atoms: C35_64  and  C36_65 
+REMARK   35  A    between atoms: N39_66  and  C36_65 
+ROOT
+ATOM      1  C1' UML d 598     -20.066   2.601  12.214  0.00  0.00     0.297 C 
+ATOM      2  C2' UML d 598     -20.216   3.091  10.775  0.00  0.00     0.171 C 
+ATOM      3  C3' UML d 598     -21.574   2.638  10.241  0.00  0.00     0.181 C 
+ATOM      4  C4' UML d 598     -21.649   1.116  10.392  0.00  0.00     0.180 C 
+ATOM      5  C5' UML d 598     -21.478   0.678  11.876  0.00  0.00     0.179 C 
+ATOM      6  O5' UML d 598     -20.231   1.182  12.357  0.00  0.00    -0.348 OA
+ENDROOT
+BRANCH   3   7
+ATOM      7  O3' UML d 598     -21.731   2.987   8.873  0.00  0.00    -0.367 OA
+BRANCH   7   8
+ATOM      8  C18 UML d 598     -22.657   4.068   8.619  0.00  0.00     0.209 C 
+ATOM      9  C20 UML d 598     -24.060   3.554   8.185  0.00  0.00     0.050 C 
+BRANCH   8  10
+ATOM     10  C19 UML d 598     -22.089   4.898   7.510  0.00  0.00     0.247 C 
+ATOM     11  O18 UML d 598     -22.819   5.681   6.973  0.00  0.00    -0.271 OA
+ATOM     12  N4  UML d 598     -20.805   4.795   7.137  0.00  0.00    -0.346 N 
+ATOM     13  H   UML d 598     -20.224   4.193   7.657  0.00  0.00     0.163 HD
+BRANCH  12  14
+ATOM     14  C21 UML d 598     -20.202   5.519   6.004  0.00  0.00     0.172 C 
+ATOM     15  C23 UML d 598     -19.120   6.555   6.350  0.00  0.00     0.042 C 
+BRANCH  14  16
+ATOM     16  C22 UML d 598     -19.501   4.493   5.147  0.00  0.00     0.240 C 
+ATOM     17  N5  UML d 598     -19.427   4.655   3.815  0.00  0.00    -0.345 N 
+ATOM     18  H   UML d 598     -19.837   5.452   3.407  0.00  0.00     0.163 HD
+ATOM     19  O19 UML d 598     -18.988   3.530   5.703  0.00  0.00    -0.271 OA
+BRANCH  17  20
+ATOM     20  C24 UML d 598     -18.746   3.669   2.942  0.00  0.00     0.182 C 
+BRANCH  20  21
+ATOM     21  C25 UML d 598     -18.946   4.103   1.461  0.00  0.00     0.045 C 
+BRANCH  21  22
+ATOM     22  C26 UML d 598     -20.451   4.223   1.066  0.00  0.00     0.105 C 
+BRANCH  22  23
+ATOM     23  C27 UML d 598     -20.860   5.696   1.091  0.00  0.00     0.218 C 
+ATOM     24  N30 UML d 598     -21.937   6.112   0.369  0.00  0.00    -0.347 N 
+ATOM     25  H   UML d 598     -22.439   5.459  -0.170  0.00  0.00     0.163 HD
+ATOM     26  O20 UML d 598     -20.204   6.460   1.810  0.00  0.00    -0.274 OA
+BRANCH  24  27
+ATOM     27  C32 UML d 598     -22.379   7.571   0.380  0.00  0.00     0.182 C 
+BRANCH  27  28
+ATOM     28  C33 UML d 598     -23.749   7.611  -0.315  0.00  0.00     0.036 C 
+BRANCH  28  29
+ATOM     29  C34 UML d 598     -24.311   9.047  -0.497  0.00  0.00     0.004 C 
+BRANCH  29  30
+ATOM     30  C35 UML d 598     -25.566   9.003  -1.377  0.00  0.00     0.030 C 
+BRANCH  30  31
+ATOM     31  C36 UML d 598     -26.779   8.273  -0.752  0.00  0.00     0.267 C 
+BRANCH  31  32
+ATOM     32  N39 UML d 598     -27.836   8.115  -1.750  0.00  0.00     0.078 N 
+ATOM     33  H   UML d 598     -27.484   7.564  -2.533  0.00  0.00     0.312 HD
+ATOM     34  H   UML d 598     -28.128   9.033  -2.084  0.00  0.00     0.312 HD
+ENDBRANCH  31  32
+ENDBRANCH  30  31
+ENDBRANCH  29  30
+ENDBRANCH  28  29
+ENDBRANCH  27  28
+BRANCH  27  35
+ATOM     35  C31 UML d 598     -22.589   8.207   1.745  0.00  0.00     0.163 C 
+ATOM     36  O38 UML d 598     -22.185   9.360   2.055  0.00  0.00    -0.648 OA
+BRANCH  35  37
+ATOM     37  O37 UML d 598     -23.225   7.553   2.584  0.00  0.00    -0.775 OA
+ATOM     38  H   UML d 598     -23.534   6.694   2.372  0.00  0.00     0.167 HD
+ENDBRANCH  35  37
+ENDBRANCH  27  35
+ENDBRANCH  24  27
+ENDBRANCH  22  23
+ENDBRANCH  21  22
+ENDBRANCH  20  21
+BRANCH  20  39
+ATOM     39  C28 UML d 598     -19.273   2.246   3.111  0.00  0.00     0.163 C 
+ATOM     40  O22 UML d 598     -18.502   1.253   2.885  0.00  0.00    -0.648 OA
+BRANCH  39  41
+ATOM     41  O23 UML d 598     -20.491   2.086   3.426  0.00  0.00    -0.775 OA
+ATOM     42  H   UML d 598     -21.035   2.832   3.587  0.00  0.00     0.167 HD
+ENDBRANCH  39  41
+ENDBRANCH  20  39
+ENDBRANCH  17  20
+ENDBRANCH  14  16
+ENDBRANCH  12  14
+ENDBRANCH   8  10
+ENDBRANCH   7   8
+ENDBRANCH   3   7
+BRANCH   4  43
+ATOM     43  O4' UML d 598     -22.843   0.618   9.782  0.00  0.00    -0.390 OA
+ATOM     44  H   UML d 598     -23.616   0.998  10.228  0.00  0.00     0.210 HD
+ENDBRANCH   4  43
+BRANCH   2  45
+ATOM     45  N2' UML d 598     -20.215   4.569  10.837  0.00  0.00    -0.349 N 
+ATOM     46  C7' UML d 598     -19.337   5.342  10.228  0.00  0.00     0.214 C 
+ATOM     47  O7' UML d 598     -18.408   4.888   9.569  0.00  0.00    -0.274 OA
+ATOM     48  C8' UML d 598     -19.516   6.831  10.404  0.00  0.00     0.117 C 
+ATOM     49  H   UML d 598     -20.918   5.006  11.370  0.00  0.00     0.163 HD
+ENDBRANCH   2  45
+BRANCH   5  50
+ATOM     50  C6' UML d 598     -21.409  -0.829  12.121  0.00  0.00     0.198 C 
+BRANCH  50  51
+ATOM     51  O6' UML d 598     -20.345  -1.411  11.326  0.00  0.00    -0.398 OA
+ATOM     52  H   UML d 598     -19.498  -1.010  11.576  0.00  0.00     0.209 HD
+ENDBRANCH  50  51
+ENDBRANCH   5  50
+BRANCH   1  53
+ATOM     53  O1' UML d 598     -20.963   3.309  13.065  0.00  0.00    -0.263 OA
+BRANCH  53  54
+ATOM     54  PB  UML d 598     -20.668   3.491  14.686  0.00  0.00     0.404 P 
+ATOM     55  O1B UML d 598     -19.146   3.510  14.856  0.00  0.00    -0.631 OA
+BRANCH  54  56
+ATOM     56  O2B UML d 598     -21.383   4.774  15.127  0.00  0.00    -0.307 OA
+ATOM     57  H   UML d 598     -20.975   5.538  14.690  0.00  0.00     0.222 HD
+ENDBRANCH  54  56
+BRANCH  54  58
+ATOM     58  O3A UML d 598     -21.347   2.284  15.405  0.00  0.00    -0.195 OA
+BRANCH  58  59
+ATOM     59  PA  UML d 598     -21.523   2.366  17.041  0.00  0.00     0.401 P 
+ATOM     60  O1A UML d 598     -23.035   2.359  17.249  0.00  0.00    -0.631 OA
+BRANCH  59  61
+ATOM     61  O5' UML d 598     -21.026   0.911  17.406  0.00  0.00    -0.294 OA
+BRANCH  61  62
+ATOM     62  C5' UML d 598     -19.635   0.609  17.448  0.00  0.00     0.215 C 
+BRANCH  62  63
+ATOM     63  C4' UML d 598     -19.551  -0.867  17.715  0.00  0.00     0.180 C 
+ATOM     64  C3' UML d 598     -20.120  -1.685  16.567  0.00  0.00     0.182 C 
+ATOM     65  C2' UML d 598     -21.472  -2.138  17.038  0.00  0.00     0.198 C 
+ATOM     66  C1' UML d 598     -21.233  -2.261  18.559  0.00  0.00     0.262 C 
+ATOM     67  O4' UML d 598     -20.333  -1.198  18.887  0.00  0.00    -0.353 OA
+BRANCH  64  68
+ATOM     68  O3' UML d 598     -19.318  -2.857  16.421  0.00  0.00    -0.390 OA
+ATOM     69  H   UML d 598     -19.300  -3.343  17.260  0.00  0.00     0.210 HD
+ENDBRANCH  64  68
+BRANCH  65  70
+ATOM     70  O2' UML d 598     -21.881  -3.364  16.406  0.00  0.00    -0.388 OA
+ATOM     71  H   UML d 598     -21.211  -4.048  16.563  0.00  0.00     0.210 HD
+ENDBRANCH  65  70
+BRANCH  66  72
+ATOM     72  N1  UML d 598     -22.479  -2.136  19.338  0.00  0.00    -0.291 N 
+ATOM     73  C6  UML d 598     -23.236  -0.997  19.223  0.00  0.00     0.102 A 
+ATOM     74  C5  UML d 598     -24.431  -0.864  19.941  0.00  0.00     0.076 A 
+ATOM     75  C4  UML d 598     -24.800  -1.932  20.779  0.00  0.00     0.183 A 
+ATOM     76  N3  UML d 598     -24.050  -3.080  20.887  0.00  0.00    -0.298 N 
+ATOM     77  O4  UML d 598     -25.943  -1.865  21.495  0.00  0.00    -0.172 OA
+ATOM     78  C2  UML d 598     -22.881  -3.190  20.219  0.00  0.00     0.262 A 
+ATOM     79  H   UML d 598     -24.366  -3.822  21.452  0.00  0.00     0.171 HD
+ATOM     80  O2  UML d 598     -22.176  -4.343  20.381  0.00  0.00    -0.151 OA
+ENDBRANCH  66  72
+ENDBRANCH  62  63
+ENDBRANCH  61  62
+ENDBRANCH  59  61
+BRANCH  59  81
+ATOM     81  O2A UML d 598     -20.671   3.514  17.537  0.00  0.00    -0.307 OA
+ATOM     82  H   UML d 598     -21.067   4.354  17.258  0.00  0.00     0.222 HD
+ENDBRANCH  59  81
+ENDBRANCH  58  59
+ENDBRANCH  54  58
+ENDBRANCH  53  54
+ENDBRANCH   1  53
+TORSDOF 35

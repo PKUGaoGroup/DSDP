@@ -1,0 +1,53 @@
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1C_7  and  C5_6 
+REMARK    2  A    between atoms: C1C_7  and  C2C_8 
+REMARK    3  A    between atoms: C3C_9  and  C2C_8 
+REMARK    4  A    between atoms: C3C_9  and  O1B_10 
+REMARK    5  A    between atoms: O1B_10  and  C1B_11 
+REMARK    6  A    between atoms: C2A_19  and  C4B_15 
+REMARK    7  A    between atoms: CM4_23  and  C3A_22 
+ROOT
+ATOM      1  C1B W11 d 301     -43.219  -1.319 123.061  0.00  0.00     0.146 A 
+ATOM      2  C2B W11 d 301     -43.091   0.024 122.432  0.00  0.00    -0.041 A 
+ATOM      3  CM2 W11 d 301     -41.873   0.683 122.168  0.00  0.00     0.047 C 
+ATOM      4  C3B W11 d 301     -44.251   0.805 122.159  0.00  0.00     0.021 A 
+ATOM      5  C4B W11 d 301     -45.559   0.343 122.481  0.00  0.00     0.015 A 
+ATOM      6  C5B W11 d 301     -45.716  -0.941 123.101  0.00  0.00     0.021 A 
+ATOM      7  C6B W11 d 301     -44.563  -1.753 123.385  0.00  0.00    -0.041 A 
+ATOM      8  CM6 W11 d 301     -44.791  -2.995 123.992  0.00  0.00     0.047 C 
+ENDROOT
+BRANCH   1   9
+ATOM      9  O1B W11 d 301     -42.536  -2.337 122.314  0.00  0.00    -0.367 OA
+BRANCH   9  10
+ATOM     10  C3C W11 d 301     -41.137  -2.311 121.908  0.00  0.00     0.170 C 
+BRANCH  10  11
+ATOM     11  C2C W11 d 301     -40.405  -3.567 122.345  0.00  0.00     0.033 C 
+BRANCH  11  12
+ATOM     12  C1C W11 d 301     -38.958  -3.416 121.854  0.00  0.00     0.069 C 
+BRANCH  12  13
+ATOM     13  C5  W11 d 301     -38.098  -4.611 122.241  0.00  0.00     0.081 A 
+ATOM     14  O1  W11 d 301     -38.245  -5.896 121.769  0.00  0.00    -0.218 OA
+ATOM     15  N2  W11 d 301     -37.222  -6.645 122.410  0.00  0.00    -0.133 NA
+ATOM     16  C3  W11 d 301     -36.561  -5.786 123.192  0.00  0.00     0.060 A 
+ATOM     17  C4  W11 d 301     -37.082  -4.556 123.095  0.00  0.00     0.064 A 
+ATOM     18  CM3 W11 d 301     -35.369  -6.167 124.077  0.00  0.00     0.072 C 
+ENDBRANCH  12  13
+ENDBRANCH  11  12
+ENDBRANCH  10  11
+ENDBRANCH   9  10
+ENDBRANCH   1   9
+BRANCH   5  19
+ATOM     19  C2A W11 d 301     -46.635   1.123 122.190  0.00  0.00     0.189 A 
+ATOM     20  N3A W11 d 301     -46.578   2.277 121.498  0.00  0.00    -0.196 NA
+ATOM     21  C3A W11 d 301     -47.818   2.761 121.399  0.00  0.00     0.280 A 
+ATOM     22  O1A W11 d 301     -48.687   1.908 122.037  0.00  0.00    -0.186 OA
+ATOM     23  N1A W11 d 301     -47.898   0.852 122.543  0.00  0.00    -0.105 NA
+BRANCH  21  24
+ATOM     24  CM4 W11 d 301     -48.248   4.055 120.695  0.00  0.00     0.460 C 
+ATOM     25  F1  W11 d 301     -48.998   3.770 119.629  0.00  0.00    -0.163 F 
+ATOM     26  F3  W11 d 301     -47.178   4.733 120.303  0.00  0.00    -0.163 F 
+ATOM     27  F2  W11 d 301     -48.959   4.796 121.534  0.00  0.00    -0.163 F 
+ENDBRANCH  21  24
+ENDBRANCH   5  19
+TORSDOF 7

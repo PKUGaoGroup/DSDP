@@ -1,0 +1,26 @@
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAI_1  and  CAD_8 
+REMARK    2  A    between atoms: CAK_3  and  OAH_10 
+REMARK    3  A    between atoms: CAJ_4  and  OAC_11 
+ROOT
+ATOM      1  CAI V55 d   1     -22.769  15.639 -13.412  0.00  0.00     0.004 A 
+ATOM      2  CAG V55 d   1     -22.550  15.151 -14.699  0.00  0.00     0.054 A 
+ATOM      3  CAK V55 d   1     -22.393  13.784 -14.890  0.00  0.00     0.102 A 
+ATOM      4  CAJ V55 d   1     -22.456  12.923 -13.797  0.00  0.00     0.099 A 
+ATOM      5  CAF V55 d   1     -22.669  13.411 -12.516  0.00  0.00     0.040 A 
+ATOM      6  CAE V55 d   1     -22.829  14.774 -12.326  0.00  0.00     0.017 A 
+ENDROOT
+BRANCH   1   7
+ATOM      7  CAD V55 d   1     -22.943  17.126 -13.179  0.00  0.00     0.270 C 
+ATOM      8  OAB V55 d   1     -22.680  17.905 -14.076  0.00  0.00    -0.301 OA
+ENDBRANCH   1   7
+BRANCH   3   9
+ATOM      9  OAH V55 d   1     -22.172  13.232 -16.169  0.00  0.00    -0.353 OA
+ATOM     10  CAA V55 d   1     -22.032  14.148 -17.237  0.00  0.00     0.210 C 
+ENDBRANCH   3   9
+BRANCH   4  11
+ATOM     11  OAC V55 d   1     -22.293  11.543 -13.996  0.00  0.00    -0.358 OA
+ATOM     12  H8  V55 d   1     -21.540  11.240 -13.503  0.00  0.00     0.217 HD
+ENDBRANCH   4  11
+TORSDOF 3

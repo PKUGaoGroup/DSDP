@@ -1,0 +1,89 @@
+REMARK  10 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAT_18  and  CAW_21 
+REMARK    2  A    between atoms: NBD_42  and  CAT_18 
+REMARK    3  A    between atoms: CAW_21  and  NBW_46 
+REMARK    4  A    between atoms: CAX_22  and  CBJ_26 
+REMARK    5  A    between atoms: OBG_49  and  CAX_22 
+REMARK    6  A    between atoms: CBK_27  and  CAY_23 
+REMARK    7  A    between atoms: CAY_23  and  OBG_49 
+REMARK       I    between atoms: NBE_43  and  CBH_24 
+REMARK       I    between atoms: CBH_24  and  NBF_44 
+REMARK    8  A    between atoms: CBL_28  and  NBE_43 
+REMARK    9  A    between atoms: NBF_44  and  CBM_29 
+REMARK   10  A    between atoms: CBO_31  and  NBD_42 
+ROOT
+ATOM      1  CAH FJK d   1      82.432 207.707  68.034  0.00  0.00     0.119 A 
+ATOM      2  CAK FJK d   1      83.354 208.575  68.595  0.00  0.00     0.028 A 
+ATOM      3  CAP FJK d   1      83.269 207.285  70.623  0.00  0.00     0.059 A 
+ATOM      4  CBJ FJK d   1      83.776 208.351  69.896  0.00  0.00    -0.030 A 
+ATOM      5  CBL FJK d   1      82.349 206.424  70.051  0.00  0.00     0.131 A 
+ATOM      6  NAZ FJK d   1      81.933 206.633  68.789  0.00  0.00    -0.243 NA
+ENDROOT
+BRANCH   4   7
+ATOM      7  CAX FJK d   1      84.695 209.195  70.486  0.00  0.00     0.206 C 
+BRANCH   7   8
+ATOM      8  OBG FJK d   1      84.034 210.416  70.787  0.00  0.00    -0.381 OA
+BRANCH   8   9
+ATOM      9  CAY FJK d   1      85.064 211.357  71.067  0.00  0.00     0.230 C 
+BRANCH   9  10
+ATOM     10  CBK FJK d   1      85.902 211.597  69.807  0.00  0.00     0.099 A 
+ATOM     11  CAQ FJK d   1      85.449 212.093  68.667  0.00  0.00     0.145 A 
+ATOM     12  NBW FJK d   1      86.526 212.132  67.885  0.00  0.00    -0.259 N 
+ATOM     13  NBB FJK d   1      87.539 211.697  68.519  0.00  0.00    -0.066 NA
+ATOM     14  NBA FJK d   1      87.204 211.355  69.684  0.00  0.00    -0.133 NA
+BRANCH  12  15
+ATOM     15  CAW FJK d   1      86.527 212.622  66.497  0.00  0.00     0.171 C 
+BRANCH  15  16
+ATOM     16  CAT FJK d   1      86.387 214.132  66.550  0.00  0.00     0.141 C 
+BRANCH  16  17
+ATOM     17  NBD FJK d   1      87.664 214.840  66.294  0.00  0.00    -0.387 N 
+ATOM     18  H33 FJK d   1      88.129 214.657  65.393  0.00  0.00     0.159 HD
+BRANCH  17  19
+ATOM     19  CBO FJK d   1      88.272 215.703  67.136  0.00  0.00     0.053 A 
+ATOM     20  CBS FJK d   1      87.577 216.749  67.774  0.00  0.00     0.020 A 
+ATOM     21  CAN FJK d   1      86.212 217.018  67.616  0.00  0.00     0.016 A 
+ATOM     22  CBQ FJK d   1      88.320 217.572  68.624  0.00  0.00     0.070 A 
+ATOM     23  CAE FJK d   1      85.579 218.061  68.289  0.00  0.00     0.001 A 
+ATOM     24  CAC FJK d   1      86.336 218.872  69.131  0.00  0.00     0.002 A 
+ATOM     25  CAL FJK d   1      87.695 218.625  69.286  0.00  0.00     0.032 A 
+ATOM     26  NBC FJK d   1      89.642 217.366  68.807  0.00  0.00    -0.247 NA
+ATOM     27  CBR FJK d   1      90.308 216.366  68.190  0.00  0.00     0.070 A 
+ATOM     28  CAM FJK d   1      91.462 216.211  68.348  0.00  0.00     0.032 C 
+ATOM     29  CBT FJK d   1      89.651 215.539  67.342  0.00  0.00     0.020 A 
+ATOM     30  CAD FJK d   1      91.913 215.265  67.800  0.00  0.00     0.002 C 
+ATOM     31  CAF FJK d   1      91.400 214.974  66.761  0.00  0.00     0.001 C 
+ATOM     32  CAO FJK d   1      90.259 214.708  66.841  0.00  0.00     0.016 C 
+ENDBRANCH  17  19
+ENDBRANCH  16  17
+ENDBRANCH  15  16
+ENDBRANCH  12  15
+ENDBRANCH   9  10
+ENDBRANCH   8   9
+ENDBRANCH   7   8
+ENDBRANCH   4   7
+BRANCH   5  33
+ATOM     33  NBE FJK d   1      81.896 205.412  70.791  0.00  0.00    -0.293 N 
+ATOM     34  CBH FJK d   1      80.750 204.864  70.407  0.00  0.00     0.326 C 
+ATOM     35  NBF FJK d   1      80.230 205.384  69.294  0.00  0.00    -0.308 N 
+ATOM     36  OAA FJK d   1      80.228 203.938  71.030  0.00  0.00    -0.247 OA
+ATOM     37  H35 FJK d   1      80.754 206.056  68.771  0.00  0.00     0.170 HD
+ATOM     38  H34 FJK d   1      82.394 205.083  71.594  0.00  0.00     0.172 HD
+BRANCH  35  39
+ATOM     39  CBM FJK d   1      79.029 205.022  68.874  0.00  0.00     0.045 A 
+ATOM     40  CAI FJK d   1      78.597 203.742  68.539  0.00  0.00     0.030 A 
+ATOM     41  CAG FJK d   1      77.269 203.628  68.138  0.00  0.00     0.003 A 
+ATOM     42  CAJ FJK d   1      76.471 204.776  68.096  0.00  0.00     0.018 A 
+ATOM     43  CBN FJK d   1      76.973 205.973  68.431  0.00  0.00     0.042 A 
+ATOM     44  CBI FJK d   1      76.460 207.203  68.510  0.00  0.00     0.255 C 
+ATOM     45  CBP FJK d   1      78.236 206.081  68.814  0.00  0.00     0.007 A 
+ATOM     46  NBV FJK d   1      77.307 208.085  69.007  0.00  0.00    -0.339 N 
+ATOM     47  OAB FJK d   1      75.291 207.483  68.311  0.00  0.00    -0.267 OA
+ATOM     48  CAV FJK d   1      77.273 209.551  69.235  0.00  0.00     0.127 C 
+ATOM     49  CBU FJK d   1      78.529 207.418  69.120  0.00  0.00     0.124 C 
+ATOM     50  CAS FJK d   1      78.661 210.021  69.589  0.00  0.00     0.020 C 
+ATOM     51  CAR FJK d   1      79.603 209.557  68.481  0.00  0.00     0.004 C 
+ATOM     52  CAU FJK d   1      79.278 208.114  68.018  0.00  0.00     0.030 C 
+ENDBRANCH  35  39
+ENDBRANCH   5  33
+TORSDOF 10

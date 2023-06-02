@@ -1,0 +1,48 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O1_3  and  C1_1 
+REMARK    2  A    between atoms: C1_1  and  C2_4 
+REMARK    3  A    between atoms: C2_4  and  C3_7 
+REMARK    4  A    between atoms: C3_7  and  C4_9 
+REMARK    5  A    between atoms: C9_14  and  C10_15 
+REMARK    6  A    between atoms: C10_15  and  C11_16 
+ROOT
+ATOM      1  N1  SU6 d 701      24.920  18.593  12.446  0.00  0.00    -0.284 NA
+ATOM      2  C4  SU6 d 701      25.149  17.992  10.321  0.00  0.00    -0.008 A 
+ATOM      3  C5  SU6 d 701      24.537  18.880  11.196  0.00  0.00     0.036 A 
+ATOM      4  C6  SU6 d 701      23.603  19.970  10.796  0.00  0.00     0.071 C 
+ATOM      5  C7  SU6 d 701      25.929  17.155  11.122  0.00  0.00    -0.047 A 
+ATOM      6  C8  SU6 d 701      26.782  16.032  10.646  0.00  0.00     0.046 C 
+ATOM      7  C9  SU6 d 701      25.769  17.562  12.443  0.00  0.00     0.139 A 
+ENDROOT
+BRANCH   7   8
+ATOM      8  C10 SU6 d 701      26.443  16.886  13.603  0.00  0.00     0.049 C 
+BRANCH   8   9
+ATOM      9  C11 SU6 d 701      26.509  17.553  14.951  0.00  0.00     0.101 A 
+ATOM     10  C12 SU6 d 701      25.784  18.612  15.517  0.00  0.00     0.164 A 
+ATOM     11  O3  SU6 d 701      24.788  19.364  14.947  0.00  0.00    -0.176 OA
+ATOM     12  N2  SU6 d 701      26.216  18.820  16.763  0.00  0.00    -0.337 N 
+ATOM     13  C14 SU6 d 701      27.197  17.937  17.066  0.00  0.00     0.041 A 
+ATOM     14  H   SU6 d 701      25.872  19.513  17.372  0.00  0.00     0.168 HD
+ATOM     15  C13 SU6 d 701      27.403  17.133  15.966  0.00  0.00    -0.019 A 
+ATOM     16  C15 SU6 d 701      27.960  17.745  18.229  0.00  0.00     0.030 A 
+ATOM     17  C18 SU6 d 701      28.377  16.125  16.015  0.00  0.00     0.010 A 
+ATOM     18  C17 SU6 d 701      29.130  15.936  17.169  0.00  0.00     0.001 A 
+ATOM     19  C16 SU6 d 701      28.920  16.748  18.278  0.00  0.00     0.002 A 
+ENDBRANCH   8   9
+ENDBRANCH   7   8
+BRANCH   2  20
+ATOM     20  C3  SU6 d 701      25.001  17.947   8.832  0.00  0.00     0.020 C 
+BRANCH  20  21
+ATOM     21  C2  SU6 d 701      26.126  18.359   7.937  0.00  0.00     0.082 C 
+BRANCH  21  22
+ATOM     22  C1  SU6 d 701      25.850  18.376   6.467  0.00  0.00     0.165 C 
+ATOM     23  O2  SU6 d 701      26.802  18.447   5.640  0.00  0.00    -0.647 OA
+BRANCH  22  24
+ATOM     24  O1  SU6 d 701      24.657  18.317   6.057  0.00  0.00    -0.773 OA
+ATOM     25  H   SU6 d 701      23.952  18.264   6.672  0.00  0.00     0.167 HD
+ENDBRANCH  22  24
+ENDBRANCH  21  22
+ENDBRANCH  20  21
+ENDBRANCH   2  20
+TORSDOF 6

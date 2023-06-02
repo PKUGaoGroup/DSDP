@@ -1,0 +1,71 @@
+REMARK  12 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAB_2  and  OAC_3 
+REMARK    2  A    between atoms: OAC_3  and  CAD_4 
+REMARK    3  A    between atoms: CAD_4  and  CAE_5 
+REMARK    4  A    between atoms: CAE_5  and  CAF_6 
+REMARK    5  A    between atoms: CAF_6  and  OAG_7 
+REMARK    6  A    between atoms: OAG_7  and  CAH_8 
+REMARK    7  A    between atoms: CAL_14  and  CAO_15 
+REMARK    8  A    between atoms: CAS_19  and  CAT_20 
+REMARK    9  A    between atoms: CAT_20  and  NAU_21 
+REMARK   10  A    between atoms: NAU_21  and  CAW_23 
+REMARK   11  A    between atoms: CAW_23  and  CAX_24 
+REMARK   12  A    between atoms: CAX_24  and  NAY_25 
+ROOT
+ATOM      1  CAO KZS d   1       6.221  35.831  44.644  0.00  0.00     0.041 A 
+ATOM      2  NAP KZS d   1       5.499  36.394  45.609  0.00  0.00    -0.282 N 
+ATOM      3  NAQ KZS d   1       4.461  35.692  45.803  0.00  0.00    -0.186 NA
+ATOM      4  CAR KZS d   1       4.465  34.644  44.981  0.00  0.00     0.149 A 
+ATOM      5  CAS KZS d   1       5.569  34.743  44.258  0.00  0.00     0.011 A 
+ATOM      6  H24 KZS d   1       5.743  37.257  46.115  0.00  0.00     0.189 HD
+ENDROOT
+BRANCH   1   7
+ATOM      7  CAL KZS d   1       7.571  36.369  44.105  0.00  0.00     0.038 C 
+ATOM      8  CAM KZS d   1       7.499  37.877  43.838  0.00  0.00     0.011 C 
+ATOM      9  CAN KZS d   1       8.851  38.402  43.318  0.00  0.00     0.014 C 
+ATOM     10  CAE KZS d   1      10.023  38.066  44.274  0.00  0.00     0.003 C 
+ATOM     11  CAJ KZS d   1      10.012  36.557  44.602  0.00  0.00     0.014 C 
+ATOM     12  CAK KZS d   1       8.658  36.067  45.114  0.00  0.00     0.011 C 
+BRANCH  10  13
+ATOM     13  CAD KZS d   1      11.380  38.360  43.597  0.00  0.00     0.179 C 
+BRANCH  13  14
+ATOM     14  OAC KZS d   1      11.457  39.724  43.149  0.00  0.00    -0.391 OA
+BRANCH  14  15
+ATOM     15  CAB KZS d   1      12.780  40.204  42.841  0.00  0.00     0.163 C 
+ATOM     16  CAA KZS d   1      13.058  40.016  41.347  0.00  0.00     0.033 C 
+ENDBRANCH  14  15
+ENDBRANCH  13  14
+ENDBRANCH  10  13
+BRANCH  10  17
+ATOM     17  CAF KZS d   1       9.960  38.888  45.579  0.00  0.00     0.179 C 
+BRANCH  17  18
+ATOM     18  OAG KZS d   1      10.078  40.297  45.313  0.00  0.00    -0.391 OA
+BRANCH  18  19
+ATOM     19  CAH KZS d   1      10.953  40.954  46.240  0.00  0.00     0.163 C 
+ATOM     20  CAI KZS d   1      10.911  42.470  46.032  0.00  0.00     0.033 C 
+ENDBRANCH  18  19
+ENDBRANCH  17  18
+ENDBRANCH  10  17
+ENDBRANCH   1   7
+BRANCH   5  21
+ATOM     21  CAT KZS d   1       5.992  33.747  43.183  0.00  0.00     0.276 C 
+BRANCH  21  22
+ATOM     22  NAU KZS d   1       5.226  33.869  41.920  0.00  0.00    -0.069 N 
+ATOM     23  CAV KZS d   1       5.483  35.122  41.175  0.00  0.00     0.270 C 
+ATOM     24  H28 KZS d   1       4.254  33.899  42.184  0.00  0.00     0.279 HD
+BRANCH  22  25
+ATOM     25  CAW KZS d   1       5.395  32.659  41.069  0.00  0.00     0.262 C 
+BRANCH  25  26
+ATOM     26  CAX KZS d   1       6.877  32.337  40.826  0.00  0.00     0.259 C 
+BRANCH  26  27
+ATOM     27  NAY KZS d   1       7.125  31.388  39.735  0.00  0.00    -0.077 N 
+ATOM     28  CAZ KZS d   1       8.476  31.628  39.195  0.00  0.00     0.267 C 
+ATOM     29  H36 KZS d   1       6.441  31.522  39.007  0.00  0.00     0.276 HD
+ATOM     30  H37 KZS d   1       7.063  30.445  40.086  0.00  0.00     0.276 HD
+ENDBRANCH  26  27
+ENDBRANCH  25  26
+ENDBRANCH  22  25
+ENDBRANCH  21  22
+ENDBRANCH   5  21
+TORSDOF 12

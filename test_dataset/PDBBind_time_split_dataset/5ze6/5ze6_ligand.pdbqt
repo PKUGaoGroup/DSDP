@@ -1,0 +1,79 @@
+REMARK  16 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAW_23  and  OAD_4 
+REMARK    2  A    between atoms: CAI_9  and  CAH_8 
+REMARK    3  A    between atoms: CAJ_10  and  CAI_9 
+REMARK    4  A    between atoms: CAK_11  and  CAJ_10 
+REMARK    5  A    between atoms: CAL_12  and  CAK_11 
+REMARK    6  A    between atoms: CAM_13  and  CAL_12 
+REMARK    7  A    between atoms: CAN_14  and  CAM_13 
+REMARK    8  A    between atoms: CAO_15  and  CAN_14 
+REMARK    9  A    between atoms: CAP_16  and  CAO_15 
+REMARK   10  A    between atoms: CAQ_17  and  CAP_16 
+REMARK   11  A    between atoms: CAR_18  and  CAQ_17 
+REMARK   12  A    between atoms: CAS_19  and  CAR_18 
+REMARK   13  A    between atoms: CAT_20  and  CAS_19 
+REMARK   14  A    between atoms: OAU_21  and  CAT_20 
+REMARK   15  A    between atoms: CAX_24  and  OAU_21 
+REMARK   16  A    between atoms: CAY_25  and  CAV_22 
+ROOT
+ATOM      1  CAS HJX d   1      12.712  15.436  42.876  0.00  0.00     0.027 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  CAR HJX d   1      14.054  15.001  43.478  0.00  0.00     0.002 C 
+BRANCH   2   3
+ATOM      3  CAQ HJX d   1      14.042  13.838  44.481  0.00  0.00     0.000 C 
+BRANCH   3   4
+ATOM      4  CAP HJX d   1      15.370  13.081  44.440  0.00  0.00     0.000 C 
+BRANCH   4   5
+ATOM      5  CAO HJX d   1      15.319  11.689  45.044  0.00  0.00     0.000 C 
+BRANCH   5   6
+ATOM      6  CAN HJX d   1      15.064  10.562  44.044  0.00  0.00     0.000 C 
+BRANCH   6   7
+ATOM      7  CAM HJX d   1      13.745   9.832  44.300  0.00  0.00     0.000 C 
+BRANCH   7   8
+ATOM      8  CAL HJX d   1      13.850   8.376  44.725  0.00  0.00     0.000 C 
+BRANCH   8   9
+ATOM      9  CAK HJX d   1      13.848   8.202  46.237  0.00  0.00     0.000 C 
+BRANCH   9  10
+ATOM     10  CAJ HJX d   1      14.808   7.079  46.577  0.00  0.00     0.000 C 
+BRANCH  10  11
+ATOM     11  CAI HJX d   1      14.433   6.290  47.818  0.00  0.00    -0.000 C 
+BRANCH  11  12
+ATOM     12  CAH HJX d   1      15.153   4.939  47.804  0.00  0.00    -0.005 C 
+ATOM     13  CAA HJX d   1      14.961   4.161  49.109  0.00  0.00     0.005 C 
+ENDBRANCH  11  12
+ENDBRANCH  10  11
+ENDBRANCH   9  10
+ENDBRANCH   8   9
+ENDBRANCH   7   8
+ENDBRANCH   6   7
+ENDBRANCH   5   6
+ENDBRANCH   4   5
+ENDBRANCH   3   4
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1  14
+ATOM     14  CAT HJX d   1      12.756  15.596  41.351  0.00  0.00     0.175 C 
+BRANCH  14  15
+ATOM     15  OAU HJX d   1      12.117  16.798  40.975  0.00  0.00    -0.350 OA
+BRANCH  15  16
+ATOM     16  CAX HJX d   1      10.713  16.927  41.013  0.00  0.00     0.088 A 
+ATOM     17  CAG HJX d   1       9.934  15.821  40.671  0.00  0.00     0.038 A 
+ATOM     18  CAE HJX d   1       8.558  15.899  40.673  0.00  0.00     0.005 A 
+ATOM     19  CAF HJX d   1       7.938  17.091  41.001  0.00  0.00     0.038 A 
+ATOM     20  CAW HJX d   1       8.698  18.199  41.343  0.00  0.00     0.085 A 
+ATOM     21  CAY HJX d   1      10.098  18.155  41.347  0.00  0.00     0.107 A 
+BRANCH  20  22
+ATOM     22  OAD HJX d   1       8.001  19.361  41.685  0.00  0.00    -0.360 OA
+ATOM     23  H4  HJX d   1       8.620  20.049  41.899  0.00  0.00     0.217 HD
+ENDBRANCH  20  22
+BRANCH  21  24
+ATOM     24  CAV HJX d   1      10.903  19.439  41.702  0.00  0.00     0.215 C 
+ATOM     25  OAB HJX d   1      12.067  19.640  41.269  0.00  0.00    -0.644 OA
+ATOM     26  OAC HJX d   1      10.428  20.374  42.406  0.00  0.00    -0.644 OA
+ENDBRANCH  21  24
+ENDBRANCH  15  16
+ENDBRANCH  14  15
+ENDBRANCH   1  14
+TORSDOF 16

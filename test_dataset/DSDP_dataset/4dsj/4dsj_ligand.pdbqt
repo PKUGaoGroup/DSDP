@@ -1,0 +1,86 @@
+REMARK  14 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O3B_5  and  PG_1 
+REMARK    2  A    between atoms: PG_1  and  O2G_3 
+REMARK    3  A    between atoms: PG_1  and  O1G_2 
+REMARK    4  A    between atoms: PB_6  and  O3B_5 
+REMARK    5  A    between atoms: O3A_9  and  PB_6 
+REMARK    6  A    between atoms: PB_6  and  O1B_7 
+REMARK    7  A    between atoms: PA_10  and  O3A_9 
+REMARK    8  A    between atoms: O5'_13  and  PA_10 
+REMARK    9  A    between atoms: PA_10  and  O1A_11 
+REMARK   10  A    between atoms: O5'_13  and  C5'_14 
+REMARK   11  A    between atoms: C4'_15  and  C5'_14 
+REMARK   12  A    between atoms: O3'_18  and  C3'_17 
+REMARK   13  A    between atoms: N9_21  and  C1'_20 
+REMARK   14  A    between atoms: N2_29  and  C2_28 
+ROOT
+ATOM      1  C4' DGT d1001      29.272  24.917  64.729  0.00  0.00     0.177 C 
+ATOM      2  O4' DGT d1001      30.256  25.625  63.968  0.00  0.00    -0.356 OA
+ATOM      3  C3' DGT d1001      29.786  23.506  64.917  0.00  0.00     0.153 C 
+ATOM      4  C2' DGT d1001      30.936  23.354  63.936  0.00  0.00     0.088 C 
+ATOM      5  C1' DGT d1001      31.072  24.705  63.229  0.00  0.00     0.233 C 
+ENDROOT
+BRANCH   1   6
+ATOM      6  C5' DGT d1001      29.051  25.543  66.090  0.00  0.00     0.215 C 
+BRANCH   6   7
+ATOM      7  O5' DGT d1001      28.905  26.946  65.949  0.00  0.00    -0.294 OA
+BRANCH   7   8
+ATOM      8  PA  DGT d1001      30.050  27.927  66.507  0.00  0.00     0.401 P 
+ATOM      9  O2A DGT d1001      31.264  27.756  65.628  0.00  0.00    -0.631 OA
+BRANCH   8  10
+ATOM     10  O1A DGT d1001      29.458  29.307  66.670  0.00  0.00    -0.307 OA
+ATOM     11  H   DGT d1001      29.249  29.674  65.797  0.00  0.00     0.222 HD
+ENDBRANCH   8  10
+BRANCH   8  12
+ATOM     12  O3A DGT d1001      30.387  27.344  67.980  0.00  0.00    -0.195 OA
+BRANCH  12  13
+ATOM     13  PB  DGT d1001      29.370  27.379  69.238  0.00  0.00     0.410 P 
+ATOM     14  O2B DGT d1001      28.085  28.082  68.855  0.00  0.00    -0.631 OA
+BRANCH  13  15
+ATOM     15  O1B DGT d1001      29.278  25.976  69.779  0.00  0.00    -0.307 OA
+ATOM     16  H   DGT d1001      28.784  25.421  69.156  0.00  0.00     0.222 HD
+ENDBRANCH  13  15
+BRANCH  13  17
+ATOM     17  O3B DGT d1001      30.197  28.274  70.297  0.00  0.00    -0.195 OA
+BRANCH  17  18
+ATOM     18  PG  DGT d1001      29.866  29.831  70.546  0.00  0.00     0.399 P 
+ATOM     19  O3G DGT d1001      29.862  30.467  69.183  0.00  0.00    -0.631 OA
+BRANCH  18  20
+ATOM     20  O2G DGT d1001      28.504  29.805  71.182  0.00  0.00    -0.307 OA
+ATOM     21  H   DGT d1001      27.852  29.488  70.537  0.00  0.00     0.222 HD
+ENDBRANCH  18  20
+BRANCH  18  22
+ATOM     22  O1G DGT d1001      30.981  30.305  71.436  0.00  0.00    -0.307 OA
+ATOM     23  H   DGT d1001      31.817  30.288  70.944  0.00  0.00     0.222 HD
+ENDBRANCH  18  22
+ENDBRANCH  17  18
+ENDBRANCH  13  17
+ENDBRANCH  12  13
+ENDBRANCH   8  12
+ENDBRANCH   7   8
+ENDBRANCH   6   7
+ENDBRANCH   1   6
+BRANCH   3  24
+ATOM     24  O3' DGT d1001      28.723  22.596  64.639  0.00  0.00    -0.393 OA
+ATOM     25  H   DGT d1001      28.392  22.751  63.741  0.00  0.00     0.210 HD
+ENDBRANCH   3  24
+BRANCH   5  26
+ATOM     26  N9  DGT d1001      32.492  25.162  63.143  0.00  0.00    -0.297 N 
+ATOM     27  C4  DGT d1001      33.552  24.395  62.860  0.00  0.00     0.161 A 
+ATOM     28  N3  DGT d1001      33.754  23.074  62.586  0.00  0.00    -0.172 N 
+ATOM     29  C5  DGT d1001      34.719  25.295  62.887  0.00  0.00     0.173 A 
+ATOM     30  C2  DGT d1001      35.003  22.581  62.338  0.00  0.00     0.703 A 
+ATOM     31  H   DGT d1001      32.983  22.463  62.567  0.00  0.00     0.186 HD
+ATOM     32  N1  DGT d1001      36.101  23.356  62.349  0.00  0.00    -0.021 NA
+ATOM     33  C6  DGT d1001      36.040  24.674  62.605  0.00  0.00     0.316 A 
+ATOM     34  O6  DGT d1001      37.078  25.366  62.608  0.00  0.00    -0.263 OA
+ATOM     35  N7  DGT d1001      34.267  26.533  63.176  0.00  0.00    -0.234 NA
+ATOM     36  C8  DGT d1001      32.924  26.433  63.321  0.00  0.00     0.214 A 
+BRANCH  30  37
+ATOM     37  N2  DGT d1001      35.167  21.264  62.072  0.00  0.00    -0.233 N 
+ATOM     38  H   DGT d1001      36.067  20.906  61.893  0.00  0.00     0.174 HD
+ATOM     39  H   DGT d1001      34.387  20.664  62.058  0.00  0.00     0.174 HD
+ENDBRANCH  30  37
+ENDBRANCH   5  26
+TORSDOF 14

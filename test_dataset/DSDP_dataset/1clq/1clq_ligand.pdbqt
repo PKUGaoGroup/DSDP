@@ -1,0 +1,77 @@
+REMARK  12 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O3A_5  and  PB_1 
+REMARK    2  A    between atoms: PB_1  and  O2B_3 
+REMARK    3  A    between atoms: PB_1  and  O3B_4 
+REMARK    4  A    between atoms: O3A_5  and  PA_6 
+REMARK    5  A    between atoms: O5'_9  and  PA_6 
+REMARK    6  A    between atoms: PA_6  and  O2A_8 
+REMARK    7  A    between atoms: O5'_9  and  C5'_10 
+REMARK    8  A    between atoms: C5'_10  and  C4'_11 
+REMARK    9  A    between atoms: C3'_13  and  O3'_14 
+REMARK   10  A    between atoms: C2'_15  and  O2'_16 
+REMARK   11  A    between atoms: N9_18  and  C1'_17 
+REMARK   12  A    between atoms: N2_26  and  C2_25 
+ROOT
+ATOM      1  C4' GDP d 999      53.569 -11.785  36.408  0.00  0.00     0.180 C 
+ATOM      2  O4' GDP d 999      52.859 -12.296  35.176  0.00  0.00    -0.353 OA
+ATOM      3  C3' GDP d 999      53.777 -13.103  37.233  0.00  0.00     0.182 C 
+ATOM      4  C2' GDP d 999      53.790 -14.246  36.159  0.00  0.00     0.198 C 
+ATOM      5  C1' GDP d 999      52.630 -13.775  35.271  0.00  0.00     0.262 C 
+ENDROOT
+BRANCH   5   6
+ATOM      6  N9  GDP d 999      52.515 -14.374  33.915  0.00  0.00    -0.295 N 
+ATOM      7  C4  GDP d 999      53.126 -13.962  32.780  0.00  0.00     0.160 A 
+ATOM      8  C5  GDP d 999      52.628 -14.876  31.743  0.00  0.00     0.159 A 
+ATOM      9  N3  GDP d 999      53.921 -12.895  32.595  0.00  0.00    -0.172 N 
+ATOM     10  C6  GDP d 999      53.180 -14.537  30.466  0.00  0.00     0.251 A 
+ATOM     11  N7  GDP d 999      51.863 -15.736  32.412  0.00  0.00    -0.235 NA
+ATOM     12  O6  GDP d 999      52.824 -15.302  29.411  0.00  0.00    -0.167 OA
+ATOM     13  N1  GDP d 999      53.989 -13.482  30.257  0.00  0.00    -0.035 NA
+ATOM     14  C2  GDP d 999      54.374 -12.639  31.429  0.00  0.00     0.702 A 
+ATOM     15  C8  GDP d 999      51.654 -15.588  33.780  0.00  0.00     0.214 A 
+ATOM     16  H   GDP d 999      54.153 -12.313  33.355  0.00  0.00     0.186 HD
+BRANCH  14  17
+ATOM     17  N2  GDP d 999      55.160 -11.667  31.023  0.00  0.00    -0.233 N 
+ATOM     18  H   GDP d 999      55.422 -11.609  30.076  0.00  0.00     0.174 HD
+ATOM     19  H   GDP d 999      55.487 -10.997  31.666  0.00  0.00     0.174 HD
+ENDBRANCH  14  17
+ENDBRANCH   5   6
+BRANCH   4  20
+ATOM     20  O2' GDP d 999      53.628 -15.615  36.549  0.00  0.00    -0.388 OA
+ATOM     21  H   GDP d 999      52.761 -15.731  36.968  0.00  0.00     0.210 HD
+ENDBRANCH   4  20
+BRANCH   1  22
+ATOM     22  C5' GDP d 999      54.798 -11.183  35.960  0.00  0.00     0.215 C 
+BRANCH  22  23
+ATOM     23  O5' GDP d 999      54.835  -9.744  35.940  0.00  0.00    -0.294 OA
+BRANCH  23  24
+ATOM     24  PA  GDP d 999      56.037  -9.063  36.576  0.00  0.00     0.401 P 
+ATOM     25  O1A GDP d 999      57.245  -9.317  35.675  0.00  0.00    -0.631 OA
+BRANCH  24  26
+ATOM     26  O3A GDP d 999      55.577  -7.455  36.465  0.00  0.00    -0.195 OA
+BRANCH  26  27
+ATOM     27  PB  GDP d 999      56.377  -6.158  36.928  0.00  0.00     0.399 P 
+ATOM     28  O1B GDP d 999      56.599  -5.317  35.690  0.00  0.00    -0.631 OA
+BRANCH  27  29
+ATOM     29  O2B GDP d 999      57.565  -6.676  37.493  0.00  0.00    -0.307 OA
+ATOM     30  H   GDP d 999      58.076  -7.133  36.807  0.00  0.00     0.222 HD
+ENDBRANCH  27  29
+BRANCH  27  31
+ATOM     31  O3B GDP d 999      55.404  -5.350  37.986  0.00  0.00    -0.307 OA
+ATOM     32  H   GDP d 999      54.616  -5.029  37.520  0.00  0.00     0.222 HD
+ENDBRANCH  27  31
+ENDBRANCH  26  27
+ENDBRANCH  24  26
+BRANCH  24  33
+ATOM     33  O2A GDP d 999      56.260  -9.320  38.053  0.00  0.00    -0.307 OA
+ATOM     34  H   GDP d 999      56.531 -10.242  38.184  0.00  0.00     0.222 HD
+ENDBRANCH  24  33
+ENDBRANCH  23  24
+ENDBRANCH  22  23
+ENDBRANCH   1  22
+BRANCH   3  35
+ATOM     35  O3' GDP d 999      52.583 -13.223  38.126  0.00  0.00    -0.390 OA
+ATOM     36  H   GDP d 999      51.775 -13.196  37.590  0.00  0.00     0.210 HD
+ENDBRANCH   3  35
+TORSDOF 12

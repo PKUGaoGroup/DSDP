@@ -1,0 +1,90 @@
+REMARK  12 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C14_3  and  C16_2 
+REMARK       I    between atoms: C16_2  and  N40_18 
+REMARK    2  A    between atoms: C8_8  and  C11_7 
+REMARK    3  A    between atoms: O10_13  and  C6_12 
+REMARK    4  A    between atoms: O18_20  and  S17_19 
+REMARK    5  A    between atoms: O20_22  and  S17_19 
+REMARK    6  A    between atoms: S17_19  and  O19_21 
+REMARK    7  A    between atoms: C21_23  and  O20_22 
+REMARK    8  A    between atoms: C21_23  and  C22_24 
+REMARK    9  A    between atoms: O27_26  and  C23_25 
+REMARK   10  A    between atoms: C24_27  and  O28_28 
+REMARK   11  A    between atoms: N35_31  and  C25_29 
+REMARK   12  A    between atoms: N38_38  and  C34_37 
+ROOT
+ATOM      1  O39 SLU d2001      17.325  26.177  11.450  0.00  0.00    -0.265 OA
+ATOM      2  C16 SLU d2001      16.264  25.981  10.856  0.00  0.00     0.284 C 
+ATOM      3  N40 SLU d2001      15.163  26.714  10.942  0.00  0.00    -0.250 N 
+ATOM      4  S17 SLU d2001      15.068  28.075  11.751  0.00  0.00     0.186 S 
+ATOM      5  H   SLU d2001      14.357  26.395  10.476  0.00  0.00     0.182 HD
+ENDROOT
+BRANCH   4   6
+ATOM      6  O18 SLU d2001      13.983  28.834  11.171  0.00  0.00    -0.291 OA
+ATOM      7  H   SLU d2001      14.127  28.926  10.216  0.00  0.00     0.232 HD
+ENDBRANCH   4   6
+BRANCH   4   8
+ATOM      8  O20 SLU d2001      16.416  28.919  11.602  0.00  0.00    -0.279 OA
+BRANCH   8   9
+ATOM      9  C21 SLU d2001      16.862  29.185  10.272  0.00  0.00     0.224 C 
+BRANCH   9  10
+ATOM     10  C22 SLU d2001      18.202  29.864  10.376  0.00  0.00     0.180 C 
+ATOM     11  C23 SLU d2001      18.806  30.175   9.018  0.00  0.00     0.182 C 
+ATOM     12  C24 SLU d2001      20.278  30.315   9.377  0.00  0.00     0.198 C 
+ATOM     13  C25 SLU d2001      20.452  29.263  10.463  0.00  0.00     0.262 C 
+ATOM     14  O26 SLU d2001      19.160  29.000  11.000  0.00  0.00    -0.353 OA
+BRANCH  11  15
+ATOM     15  O27 SLU d2001      18.218  31.354   8.446  0.00  0.00    -0.390 OA
+ATOM     16  H   SLU d2001      18.315  32.096   9.064  0.00  0.00     0.210 HD
+ENDBRANCH  11  15
+BRANCH  12  17
+ATOM     17  O28 SLU d2001      20.522  31.600   9.973  0.00  0.00    -0.388 OA
+ATOM     18  H   SLU d2001      19.943  31.714  10.743  0.00  0.00     0.210 HD
+ENDBRANCH  12  17
+BRANCH  13  19
+ATOM     19  N35 SLU d2001      20.969  27.985   9.896  0.00  0.00    -0.294 N 
+ATOM     20  C32 SLU d2001      22.244  27.823   9.588  0.00  0.00     0.167 A 
+ATOM     21  C33 SLU d2001      22.362  26.469   9.096  0.00  0.00     0.149 A 
+ATOM     22  N31 SLU d2001      23.306  28.634   9.640  0.00  0.00    -0.222 NA
+ATOM     23  C34 SLU d2001      23.674  26.026   8.653  0.00  0.00     0.155 A 
+ATOM     24  N37 SLU d2001      21.154  25.902   9.121  0.00  0.00    -0.236 NA
+ATOM     25  N29 SLU d2001      24.667  26.929   8.748  0.00  0.00    -0.222 NA
+ATOM     26  C30 SLU d2001      24.486  28.173   9.233  0.00  0.00     0.237 A 
+ATOM     27  C36 SLU d2001      20.318  26.822   9.629  0.00  0.00     0.214 A 
+BRANCH  23  28
+ATOM     28  N38 SLU d2001      23.874  24.780   8.175  0.00  0.00    -0.382 N 
+ATOM     29  H   SLU d2001      24.772  24.504   7.881  0.00  0.00     0.157 HD
+ATOM     30  H   SLU d2001      23.122  24.147   8.120  0.00  0.00     0.157 HD
+ENDBRANCH  23  28
+ENDBRANCH  13  19
+ENDBRANCH   9  10
+ENDBRANCH   8   9
+ENDBRANCH   4   8
+BRANCH   4  31
+ATOM     31  O19 SLU d2001      14.945  27.889  13.141  0.00  0.00    -0.291 OA
+ATOM     32  H   SLU d2001      14.142  27.378  13.329  0.00  0.00     0.232 HD
+ENDBRANCH   4  31
+BRANCH   2  33
+ATOM     33  C14 SLU d2001      16.096  24.710  10.113  0.00  0.00     0.133 A 
+ATOM     34  C13 SLU d2001      14.873  24.282   9.615  0.00  0.00     0.089 A 
+ATOM     35  S12 SLU d2001      15.023  22.795   8.826  0.00  0.00    -0.077 SA
+ATOM     36  C11 SLU d2001      16.687  22.835   9.176  0.00  0.00     0.134 A 
+ATOM     37  N15 SLU d2001      17.122  23.880   9.859  0.00  0.00    -0.233 NA
+BRANCH  36  38
+ATOM     38  C8  SLU d2001      17.641  21.765   8.720  0.00  0.00     0.134 C 
+ATOM     39  N7  SLU d2001      17.161  20.597   8.283  0.00  0.00    -0.237 NA
+ATOM     40  C3  SLU d2001      18.165  19.737   7.992  0.00  0.00     0.075 A 
+ATOM     41  C2  SLU d2001      18.136  18.459   7.448  0.00  0.00     0.036 A 
+ATOM     42  C4  SLU d2001      19.468  20.333   8.374  0.00  0.00     0.038 A 
+ATOM     43  C1  SLU d2001      19.313  17.741   7.265  0.00  0.00     0.039 A 
+ATOM     44  C6  SLU d2001      20.541  18.277   7.636  0.00  0.00     0.067 A 
+ATOM     45  C5  SLU d2001      20.635  19.569   8.189  0.00  0.00     0.057 A 
+ATOM     46  S9  SLU d2001      19.320  21.866   9.022  0.00  0.00    -0.065 SA
+BRANCH  44  47
+ATOM     47  O10 SLU d2001      21.670  17.528   7.451  0.00  0.00    -0.361 OA
+ATOM     48  H   SLU d2001      21.607  16.669   7.083  0.00  0.00     0.217 HD
+ENDBRANCH  44  47
+ENDBRANCH  36  38
+ENDBRANCH   2  33
+TORSDOF 12

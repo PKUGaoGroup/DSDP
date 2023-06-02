@@ -1,0 +1,61 @@
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C6_3  and  N6_13 
+REMARK    2  A    between atoms: C8_4  and  CAL_15 
+REMARK    3  A    between atoms: CAG_9  and  CAF_8 
+REMARK    4  A    between atoms: CAK_10  and  CAG_9 
+REMARK    5  A    between atoms: CAK_10  and  N9_11 
+REMARK    6  A    between atoms: CAL_15  and  CAS_16 
+REMARK    7  A    between atoms: CAU_19  and  OAP_20 
+REMARK    8  A    between atoms: CAX_22  and  OAR_23 
+REMARK    9  A    between atoms: CAV_25  and  OAQ_26 
+ROOT
+ATOM      1  C4  KFY d   1       0.764  10.280 221.187  0.00  0.00     0.165 A 
+ATOM      2  C5  KFY d   1      -0.052  10.990 220.370  0.00  0.00     0.150 A 
+ATOM      3  C6  KFY d   1      -1.367  11.115 220.712  0.00  0.00     0.155 A 
+ATOM      4  C8  KFY d   1       1.942  10.964 219.541  0.00  0.00     0.113 A 
+ATOM      5  N1  KFY d   1      -1.809  10.584 221.851  0.00  0.00    -0.222 NA
+ATOM      6  N3  KFY d   1       0.352   9.717 222.334  0.00  0.00    -0.222 NA
+ATOM      7  N9  KFY d   1       1.988  10.262 220.664  0.00  0.00    -0.317 N 
+ATOM      8  C2  KFY d   1      -0.973   9.877 222.694  0.00  0.00     0.237 A 
+ATOM      9  N7  KFY d   1       0.703  11.415 219.331  0.00  0.00    -0.227 NA
+ENDROOT
+BRANCH   4  10
+ATOM     10  CAL KFY d   1       3.140  11.189 218.607  0.00  0.00     0.117 C 
+BRANCH  10  11
+ATOM     11  CAS KFY d   1       4.282  11.808 219.231  0.00  0.00    -0.046 A 
+ATOM     12  CAJ KFY d   1       5.551  11.285 218.971  0.00  0.00     0.047 A 
+ATOM     13  CAV KFY d   1       6.680  11.868 219.543  0.00  0.00     0.104 A 
+ATOM     14  CAX KFY d   1       6.552  12.972 220.362  0.00  0.00     0.135 A 
+ATOM     15  CAU KFY d   1       5.300  13.507 220.640  0.00  0.00     0.104 A 
+ATOM     16  CAI KFY d   1       4.156  12.928 220.073  0.00  0.00     0.047 A 
+BRANCH  13  17
+ATOM     17  OAQ KFY d   1       7.962  11.427 219.342  0.00  0.00    -0.353 OA
+ATOM     18  CAC KFY d   1       8.076  10.355 218.386  0.00  0.00     0.210 C 
+ENDBRANCH  13  17
+BRANCH  14  19
+ATOM     19  OAR KFY d   1       7.714  13.481 220.915  0.00  0.00    -0.351 OA
+ATOM     20  CAD KFY d   1       7.978  14.844 220.579  0.00  0.00     0.210 C 
+ENDBRANCH  14  19
+BRANCH  15  21
+ATOM     21  OAP KFY d   1       5.260  14.585 221.479  0.00  0.00    -0.353 OA
+ATOM     22  CAB KFY d   1       4.047  15.326 221.441  0.00  0.00     0.210 C 
+ENDBRANCH  15  21
+ENDBRANCH  10  11
+ENDBRANCH   4  10
+BRANCH   7  23
+ATOM     23  CAK KFY d   1       3.153   9.575 221.282  0.00  0.00     0.132 C 
+BRANCH  23  24
+ATOM     24  CAG KFY d   1       3.333   8.226 220.557  0.00  0.00     0.020 C 
+BRANCH  24  25
+ATOM     25  CAF KFY d   1       4.715   7.984 219.976  0.00  0.00    -0.003 C 
+ATOM     26  CAA KFY d   1       4.929   6.645 219.263  0.00  0.00     0.005 C 
+ENDBRANCH  24  25
+ENDBRANCH  23  24
+ENDBRANCH   7  23
+BRANCH   3  27
+ATOM     27  N6  KFY d   1      -2.224  11.787 219.929  0.00  0.00    -0.382 N 
+ATOM     28  H11 KFY d   1      -3.213  11.872 220.202  0.00  0.00     0.157 HD
+ATOM     29  H12 KFY d   1      -1.893  12.218 219.054  0.00  0.00     0.157 HD
+ENDBRANCH   3  27
+TORSDOF 9

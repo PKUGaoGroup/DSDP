@@ -1,0 +1,236 @@
+REMARK WARNING: 32 MAX_TORS EXCEEDED!!!
+REMARK  52 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C3_1  and  C2_6 
+REMARK    2  A    between atoms: C4_2  and  O4_32 
+REMARK    3  A    between atoms: C5_3  and  O3_29 
+REMARK    4  A    between atoms: C6_4  and  O5_28 
+REMARK    5  A    between atoms: O1_27  and  C1_5 
+REMARK    6  A    between atoms: C2_6  and  O6_31 
+REMARK    7  A    between atoms: CBR_9  and  CBS_8 
+REMARK    8  A    between atoms: CBQ_10  and  CBR_9 
+REMARK    9  A    between atoms: CBP_11  and  CBQ_10 
+REMARK   10  A    between atoms: CBO_12  and  CBP_11 
+REMARK   11  A    between atoms: CBN_13  and  CBO_12 
+REMARK   12  A    between atoms: CBM_14  and  CBN_13 
+REMARK   13  A    between atoms: CBL_15  and  CBM_14 
+REMARK   14  A    between atoms: CBK_16  and  CBL_15 
+REMARK   15  A    between atoms: CBJ_17  and  CBK_16 
+REMARK   16  A    between atoms: CBI_18  and  CBJ_17 
+REMARK   17  A    between atoms: CBH_19  and  CBI_18 
+REMARK   18  A    between atoms: CBG_20  and  CBH_19 
+REMARK   19  A    between atoms: CAQ_21  and  CBG_20 
+REMARK   20  A    between atoms: CAQ_21  and  OAR_22 
+REMARK   21  A    between atoms: CAP_23  and  CAQ_21 
+REMARK   22  A    between atoms: CAP_23  and  OAS_24 
+REMARK   23  A    between atoms: CAN_25  and  CAP_23 
+REMARK   24  A    between atoms: CAM_26  and  CAN_25 
+REMARK   25  A    between atoms: CAN_25  and  NAO_40 
+REMARK   26  A    between atoms: CAM_26  and  O1_27 
+REMARK   27  A    between atoms: O4_32  and  CAT_33 
+REMARK   28  A    between atoms: CAT_33  and  CAU_34 
+REMARK       I    between atoms: NAO_40  and  CBE_41 
+REMARK   29  A    between atoms: CBE_41  and  CBU_43 
+REMARK   30  A    between atoms: CBU_43  and  CBV_44 
+REMARK   31  A    between atoms: CBV_44  and  CBW_45 
+REMARK   32  A    between atoms: CBW_45  and  CBX_46 
+REMARK   33  A    between atoms: CBX_46  and  CBY_47 
+REMARK   34  A    between atoms: CBY_47  and  CBZ_48 
+REMARK   35  A    between atoms: CBZ_48  and  CCA_49 
+REMARK   36  A    between atoms: CCA_49  and  CCB_50 
+REMARK   37  A    between atoms: CCB_50  and  CCC_51 
+REMARK   38  A    between atoms: CCC_51  and  CCD_52 
+REMARK   39  A    between atoms: CCD_52  and  CCE_53 
+REMARK   40  A    between atoms: CCE_53  and  CCF_54 
+REMARK   41  A    between atoms: CCF_54  and  CCG_55 
+REMARK   42  A    between atoms: CCG_55  and  CCH_56 
+REMARK   43  A    between atoms: CCH_56  and  CCI_57 
+REMARK   44  A    between atoms: CCI_57  and  CCJ_58 
+REMARK   45  A    between atoms: CCJ_58  and  CCK_59 
+REMARK   46  A    between atoms: CCK_59  and  CCL_60 
+REMARK   47  A    between atoms: CCL_60  and  CCM_61 
+REMARK   48  A    between atoms: CCM_61  and  CCN_62 
+REMARK   49  A    between atoms: CCN_62  and  CCO_63 
+REMARK   50  A    between atoms: CCO_63  and  CCP_64 
+REMARK   51  A    between atoms: CCP_64  and  CCQ_65 
+REMARK   52  A    between atoms: CCQ_65  and  CCR_66 
+ROOT
+ATOM      1  CAN JTV d   1     168.044  29.746 206.926  0.00  0.00     0.139 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  CAP JTV d   1     168.028  30.469 205.565  0.00  0.00     0.171 C 
+BRANCH   2   3
+ATOM      3  CAQ JTV d   1     167.199  29.733 204.493  0.00  0.00     0.149 C 
+BRANCH   3   4
+ATOM      4  CBG JTV d   1     165.708  29.682 204.874  0.00  0.00     0.034 C 
+BRANCH   4   5
+ATOM      5  CBH JTV d   1     164.823  29.303 203.672  0.00  0.00     0.002 C 
+BRANCH   5   6
+ATOM      6  CBI JTV d   1     165.016  27.832 203.282  0.00  0.00     0.000 C 
+BRANCH   6   7
+ATOM      7  CBJ JTV d   1     163.777  27.299 202.535  0.00  0.00     0.000 C 
+BRANCH   7   8
+ATOM      8  CBK JTV d   1     163.631  27.961 201.151  0.00  0.00     0.000 C 
+BRANCH   8   9
+ATOM      9  CBL JTV d   1     162.610  27.176 200.303  0.00  0.00     0.000 C 
+BRANCH   9  10
+ATOM     10  CBM JTV d   1     162.575  27.693 198.853  0.00  0.00     0.000 C 
+BRANCH  10  11
+ATOM     11  CBN JTV d   1     161.769  28.995 198.779  0.00  0.00     0.000 C 
+BRANCH  11  12
+ATOM     12  CBO JTV d   1     161.622  29.462 197.326  0.00  0.00     0.000 C 
+BRANCH  12  13
+ATOM     13  CBP JTV d   1     161.137  30.920 197.332  0.00  0.00     0.000 C 
+BRANCH  13  14
+ATOM     14  CBQ JTV d   1     160.491  31.279 195.989  0.00  0.00     0.000 C 
+BRANCH  14  15
+ATOM     15  CBR JTV d   1     159.591  32.518 196.133  0.00  0.00    -0.000 C 
+BRANCH  15  16
+ATOM     16  CBS JTV d   1     160.435  33.795 196.156  0.00  0.00    -0.005 C 
+ATOM     17  CBT JTV d   1     159.539  35.017 195.912  0.00  0.00     0.005 C 
+ENDBRANCH  15  16
+ENDBRANCH  14  15
+ENDBRANCH  13  14
+ENDBRANCH  12  13
+ENDBRANCH  11  12
+ENDBRANCH  10  11
+ENDBRANCH   9  10
+ENDBRANCH   8   9
+ENDBRANCH   7   8
+ENDBRANCH   6   7
+ENDBRANCH   5   6
+ENDBRANCH   4   5
+ENDBRANCH   3   4
+BRANCH   3  18
+ATOM     18  OAR JTV d   1     167.389  30.433 203.254  0.00  0.00    -0.393 OA
+ATOM     19  H38 JTV d   1     167.065  31.322 203.341  0.00  0.00     0.210 HD
+ENDBRANCH   3  18
+ENDBRANCH   2   3
+BRANCH   2  20
+ATOM     20  OAS JTV d   1     167.512  31.794 205.739  0.00  0.00    -0.391 OA
+ATOM     21  H40 JTV d   1     167.567  32.265 204.916  0.00  0.00     0.210 HD
+ENDBRANCH   2  20
+ENDBRANCH   1   2
+BRANCH   1  22
+ATOM     22  CAM JTV d   1     169.049  30.443 207.850  0.00  0.00     0.199 C 
+BRANCH  22  23
+ATOM     23  O1  JTV d   1     170.369  30.273 207.307  0.00  0.00    -0.356 OA
+BRANCH  23  24
+ATOM     24  C1  JTV d   1     171.393  30.943 208.065  0.00  0.00     0.291 C 
+ATOM     25  C6  JTV d   1     172.695  30.876 207.312  0.00  0.00     0.204 C 
+ATOM     26  C5  JTV d   1     173.132  29.425 207.149  0.00  0.00     0.183 C 
+ATOM     27  C4  JTV d   1     173.217  28.698 208.488  0.00  0.00     0.184 C 
+ATOM     28  C3  JTV d   1     171.918  28.951 209.303  0.00  0.00     0.179 C 
+ATOM     29  O2  JTV d   1     171.598  30.349 209.351  0.00  0.00    -0.348 OA
+BRANCH  25  30
+ATOM     30  O5  JTV d   1     172.513  31.474 206.016  0.00  0.00    -0.388 OA
+ATOM     31  H44 JTV d   1     171.841  30.999 205.541  0.00  0.00     0.210 HD
+ENDBRANCH  25  30
+BRANCH  26  32
+ATOM     32  O3  JTV d   1     174.410  29.421 206.526  0.00  0.00    -0.390 OA
+ATOM     33  H45 JTV d   1     174.349  29.844 205.678  0.00  0.00     0.210 HD
+ENDBRANCH  26  32
+BRANCH  27  34
+ATOM     34  O4  JTV d   1     174.410  29.144 209.164  0.00  0.00    -0.376 OA
+BRANCH  34  35
+ATOM     35  CAT JTV d   1     175.101  28.120 209.920  0.00  0.00     0.207 C 
+BRANCH  35  36
+ATOM     36  CAU JTV d   1     176.118  27.492 209.185  0.00  0.00    -0.035 A 
+ATOM     37  CAV JTV d   1     176.165  26.095 209.100  0.00  0.00     0.009 A 
+ATOM     38  CAW JTV d   1     177.182  25.463 208.381  0.00  0.00     0.001 A 
+ATOM     39  CAX JTV d   1     178.162  26.225 207.748  0.00  0.00     0.000 A 
+ATOM     40  CAY JTV d   1     178.123  27.617 207.835  0.00  0.00     0.001 A 
+ATOM     41  CAZ JTV d   1     177.107  28.248 208.554  0.00  0.00     0.009 A 
+ENDBRANCH  35  36
+ENDBRANCH  34  35
+ENDBRANCH  27  34
+BRANCH  28  42
+ATOM     42  C2  JTV d   1     172.004  28.519 210.779  0.00  0.00     0.198 C 
+BRANCH  42  43
+ATOM     43  O6  JTV d   1     171.976  27.092 210.895  0.00  0.00    -0.398 OA
+ATOM     44  H46 JTV d   1     172.030  26.849 211.812  0.00  0.00     0.209 HD
+ENDBRANCH  42  43
+ENDBRANCH  28  42
+ENDBRANCH  23  24
+ENDBRANCH  22  23
+ENDBRANCH   1  22
+BRANCH   1  45
+ATOM     45  NAO JTV d   1     168.469  28.342 206.772  0.00  0.00    -0.352 N 
+ATOM     46  CBE JTV d   1     168.222  27.415 207.717  0.00  0.00     0.218 C 
+ATOM     47  OBF JTV d   1     167.631  27.645 208.772  0.00  0.00    -0.274 OA
+ATOM     48  H54 JTV d   1     168.955  28.070 205.941  0.00  0.00     0.163 HD
+BRANCH  46  49
+ATOM     49  CBU JTV d   1     168.743  26.005 207.394  0.00  0.00     0.103 C 
+BRANCH  49  50
+ATOM     50  CBV JTV d   1     167.680  24.933 207.657  0.00  0.00     0.009 C 
+BRANCH  50  51
+ATOM     51  CBW JTV d   1     166.576  24.962 206.592  0.00  0.00     0.000 C 
+BRANCH  51  52
+ATOM     52  CBX JTV d   1     165.441  24.060 207.087  0.00  0.00     0.000 C 
+BRANCH  52  53
+ATOM     53  CBY JTV d   1     164.487  23.676 205.956  0.00  0.00     0.000 C 
+BRANCH  53  54
+ATOM     54  CBZ JTV d   1     163.562  22.565 206.476  0.00  0.00     0.000 C 
+BRANCH  54  55
+ATOM     55  CCA JTV d   1     162.320  22.438 205.587  0.00  0.00     0.000 C 
+BRANCH  55  56
+ATOM     56  CCB JTV d   1     161.167  21.791 206.373  0.00  0.00     0.000 C 
+BRANCH  56  57
+ATOM     57  CCC JTV d   1     160.448  22.844 207.237  0.00  0.00     0.000 C 
+BRANCH  57  58
+ATOM     58  CCD JTV d   1     158.938  22.563 207.338  0.00  0.00     0.000 C 
+BRANCH  58  59
+ATOM     59  CCE JTV d   1     158.592  21.822 208.638  0.00  0.00     0.000 C 
+BRANCH  59  60
+ATOM     60  CCF JTV d   1     158.551  22.792 209.828  0.00  0.00     0.000 C 
+BRANCH  60  61
+ATOM     61  CCG JTV d   1     157.934  22.092 211.051  0.00  0.00     0.000 C 
+BRANCH  61  62
+ATOM     62  CCH JTV d   1     159.017  21.354 211.844  0.00  0.00     0.000 C 
+BRANCH  62  63
+ATOM     63  CCI JTV d   1     158.443  20.099 212.512  0.00  0.00     0.000 C 
+BRANCH  63  64
+ATOM     64  CCJ JTV d   1     159.595  19.264 213.077  0.00  0.00     0.000 C 
+BRANCH  64  65
+ATOM     65  CCK JTV d   1     159.105  17.882 213.514  0.00  0.00     0.000 C 
+BRANCH  65  66
+ATOM     66  CCL JTV d   1     160.316  16.969 213.755  0.00  0.00     0.000 C 
+BRANCH  66  67
+ATOM     67  CCM JTV d   1     160.847  16.389 212.429  0.00  0.00     0.000 C 
+BRANCH  67  68
+ATOM     68  CCN JTV d   1     162.355  16.635 212.308  0.00  0.00     0.000 C 
+BRANCH  68  69
+ATOM     69  CCO JTV d   1     163.035  15.624 211.367  0.00  0.00     0.000 C 
+BRANCH  69  70
+ATOM     70  CCP JTV d   1     162.495  15.693 209.933  0.00  0.00     0.000 C 
+BRANCH  70  71
+ATOM     71  CCQ JTV d   1     162.855  17.016 209.263  0.00  0.00    -0.000 C 
+BRANCH  71  72
+ATOM     72  CCR JTV d   1     162.597  16.898 207.757  0.00  0.00    -0.005 C 
+ATOM     73  CCS JTV d   1     162.758  18.268 207.088  0.00  0.00     0.005 C 
+ENDBRANCH  71  72
+ENDBRANCH  70  71
+ENDBRANCH  69  70
+ENDBRANCH  68  69
+ENDBRANCH  67  68
+ENDBRANCH  66  67
+ENDBRANCH  65  66
+ENDBRANCH  64  65
+ENDBRANCH  63  64
+ENDBRANCH  62  63
+ENDBRANCH  61  62
+ENDBRANCH  60  61
+ENDBRANCH  59  60
+ENDBRANCH  58  59
+ENDBRANCH  57  58
+ENDBRANCH  56  57
+ENDBRANCH  55  56
+ENDBRANCH  54  55
+ENDBRANCH  53  54
+ENDBRANCH  52  53
+ENDBRANCH  51  52
+ENDBRANCH  50  51
+ENDBRANCH  49  50
+ENDBRANCH  46  49
+ENDBRANCH   1  45
+TORSDOF 52

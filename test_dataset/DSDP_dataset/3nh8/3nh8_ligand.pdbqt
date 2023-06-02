@@ -1,0 +1,43 @@
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2_3  and  OXT_14 
+REMARK    2  A    between atoms: C2_3  and  C4_5 
+REMARK    3  A    between atoms: C4_5  and  C9_10 
+REMARK    4  A    between atoms: C4_5  and  N_6 
+REMARK       I    between atoms: C6_7  and  N_6 
+REMARK    5  A    between atoms: S10_11  and  C9_10 
+REMARK    6  A    between atoms: C11_12  and  S10_11 
+REMARK    7  A    between atoms: C11_12  and  C12_13 
+ROOT
+ATOM      1  C4  DC2 d 322     -11.221 -33.356  -7.392  0.00  0.00     0.190 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C2  DC2 d 322     -10.652 -34.280  -8.476  0.00  0.00     0.164 C 
+ATOM      3  O1  DC2 d 322     -10.303 -33.770  -9.575  0.00  0.00    -0.648 OA
+BRANCH   2   4
+ATOM      4  OXT DC2 d 322     -10.586 -35.488  -8.189  0.00  0.00    -0.775 OA
+ATOM      5  H   DC2 d 322     -10.867 -35.785  -7.346  0.00  0.00     0.167 HD
+ENDBRANCH   2   4
+ENDBRANCH   1   2
+BRANCH   1   6
+ATOM      6  C9  DC2 d 322     -10.163 -32.663  -6.508  0.00  0.00     0.111 C 
+BRANCH   6   7
+ATOM      7  S10 DC2 d 322      -8.933 -31.439  -7.169  0.00  0.00    -0.145 SA
+BRANCH   7   8
+ATOM      8  C11 DC2 d 322      -7.372 -31.998  -8.021  0.00  0.00     0.157 C 
+ATOM      9 CL1  DC2 d 322      -6.424 -30.450  -8.126  0.00  0.00    -0.113 Cl
+BRANCH   8  10
+ATOM     10  C12 DC2 d 322      -6.357 -33.002  -7.392  0.00  0.00     0.145 C 
+ATOM     11 CL2  DC2 d 322      -6.834 -34.687  -6.994  0.00  0.00    -0.128 Cl
+ENDBRANCH   8  10
+ENDBRANCH   7   8
+ENDBRANCH   6   7
+ENDBRANCH   1   6
+BRANCH   1  12
+ATOM     12  N   DC2 d 322     -12.060 -34.119  -6.471  0.00  0.00    -0.357 N 
+ATOM     13  C6  DC2 d 322     -12.867 -35.053  -7.219  0.00  0.00     0.148 C 
+ATOM     14  O7  DC2 d 322     -13.572 -34.604  -8.351  0.00  0.00    -0.178 OA
+ATOM     15  C8  DC2 d 322     -13.025 -36.478  -6.734  0.00  0.00     0.100 C 
+ATOM     16  H   DC2 d 322     -12.073 -34.013  -5.492  0.00  0.00     0.162 HD
+ENDBRANCH   1  12
+TORSDOF 7

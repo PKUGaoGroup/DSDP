@@ -1,0 +1,56 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C13_1  and  S10_6 
+REMARK    2  A    between atoms: C19_12  and  C21_2 
+REMARK    3  A    between atoms: C21_2  and  N24_14 
+REMARK    4  A    between atoms: S10_6  and  N05_4 
+REMARK    5  A    between atoms: N17_11  and  C16_10 
+REMARK       I    between atoms: N17_11  and  C19_12 
+ROOT
+ATOM      1  C21 KVZ d   1     -25.153  49.817   7.198  0.00  0.00     0.240 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C19 KVZ d   1     -25.006  48.545   8.037  0.00  0.00     0.240 C 
+ATOM      3  N17 KVZ d   1     -23.763  47.995   7.982  0.00  0.00    -0.326 N 
+ATOM      4  H10 KVZ d   1     -23.099  48.516   7.446  0.00  0.00     0.169 HD
+ATOM      5  O20 KVZ d   1     -25.941  48.069   8.672  0.00  0.00    -0.271 OA
+BRANCH   3   6
+ATOM      6  C16 KVZ d   1     -23.252  46.802   8.561  0.00  0.00     0.036 A 
+ATOM      7  C14 KVZ d   1     -23.984  45.880   9.309  0.00  0.00     0.056 A 
+ATOM      8  C13 KVZ d   1     -23.381  44.719   9.796  0.00  0.00     0.103 A 
+ATOM      9  C55 KVZ d   1     -22.021  44.488   9.496  0.00  0.00     0.057 A 
+ATOM     10  C53 KVZ d   1     -21.308  45.399   8.736  0.00  0.00     0.028 A 
+ATOM     11 CL1  KVZ d   1     -21.187  43.058  10.032  0.00  0.00    -0.083 Cl
+ATOM     12  C51 KVZ d   1     -21.920  46.542   8.263  0.00  0.00     0.031 A 
+BRANCH   8  13
+ATOM     13  S10 KVZ d   1     -24.393  43.600  10.755  0.00  0.00     0.261 S 
+ATOM     14  O11 KVZ d   1     -24.455  42.370  10.030  0.00  0.00    -0.200 OA
+ATOM     15  O12 KVZ d   1     -23.925  43.597  12.110  0.00  0.00    -0.200 OA
+BRANCH  13  16
+ATOM     16  N05 KVZ d   1     -25.898  44.213  10.781  0.00  0.00    -0.315 N 
+ATOM     17  C01 KVZ d   1     -26.728  44.155   9.569  0.00  0.00     0.162 C 
+ATOM     18  C06 KVZ d   1     -26.264  45.228  11.780  0.00  0.00     0.162 C 
+ENDBRANCH  13  16
+ENDBRANCH   8  13
+ENDBRANCH   3   6
+ENDBRANCH   1   2
+BRANCH   1  19
+ATOM     19  N24 KVZ d   1     -26.195  50.834   7.357  0.00  0.00    -0.259 N 
+ATOM     20  C25 KVZ d   1     -26.409  51.582   8.506  0.00  0.00     0.326 A 
+ATOM     21  O26 KVZ d   1     -25.830  51.445   9.569  0.00  0.00    -0.247 OA
+ATOM     22  N27 KVZ d   1     -27.406  52.462   8.234  0.00  0.00    -0.320 N 
+ATOM     23  C29 KVZ d   1     -27.886  52.418   6.851  0.00  0.00     0.144 A 
+ATOM     24  H11 KVZ d   1     -27.781  53.087   8.919  0.00  0.00     0.165 HD
+ATOM     25  C30 KVZ d   1     -27.518  53.710   6.088  0.00  0.00     0.047 C 
+ATOM     26  C48 KVZ d   1     -29.381  52.102   6.751  0.00  0.00    -0.014 A 
+ATOM     27  C49 KVZ d   1     -27.018  51.245   6.330  0.00  0.00     0.261 A 
+ATOM     28  C33 KVZ d   1     -28.603  54.773   6.102  0.00  0.00     0.008 C 
+ATOM     29  C36 KVZ d   1     -29.830  54.221   5.419  0.00  0.00     0.039 C 
+ATOM     30  C39 KVZ d   1     -30.283  52.955   6.089  0.00  0.00    -0.049 A 
+ATOM     31  C40 KVZ d   1     -31.634  52.616   6.052  0.00  0.00     0.007 A 
+ATOM     32  C42 KVZ d   1     -32.096  51.464   6.659  0.00  0.00     0.001 A 
+ATOM     33  C44 KVZ d   1     -31.219  50.635   7.315  0.00  0.00     0.001 A 
+ATOM     34  C46 KVZ d   1     -29.870  50.951   7.368  0.00  0.00     0.011 A 
+ATOM     35  O50 KVZ d   1     -27.010  50.803   5.195  0.00  0.00    -0.270 OA
+ENDBRANCH   1  19
+TORSDOF 5

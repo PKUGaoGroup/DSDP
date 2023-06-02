@@ -1,0 +1,109 @@
+REMARK  18 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N2_1  and  C2_2 
+REMARK    2  A    between atoms: C1'_12  and  N9_11 
+REMARK    3  A    between atoms: C2'_13  and  O2'_14 
+REMARK    4  A    between atoms: O3'_16  and  C3'_15 
+REMARK    5  A    between atoms: C4'_17  and  C5'_19 
+REMARK    6  A    between atoms: C5'_19  and  O5'_20 
+REMARK    7  A    between atoms: O5'_20  and  PA_21 
+REMARK    8  A    between atoms: O3A_24  and  PA_21 
+REMARK    9  A    between atoms: PA_21  and  O1A_22 
+REMARK   10  A    between atoms: PB_25  and  O3A_24 
+REMARK   11  A    between atoms: O1B_28  and  PB_25 
+REMARK   12  A    between atoms: PB_25  and  O2B_26 
+REMARK   13  A    between atoms: C11_29  and  O1B_28 
+REMARK   14  A    between atoms: C51_31  and  C61_32 
+REMARK   15  A    between atoms: O6A_33  and  C61_32 
+REMARK   16  A    between atoms: O21_35  and  C21_34 
+REMARK   17  A    between atoms: O31_37  and  C31_36 
+REMARK   18  A    between atoms: C41_38  and  O41_39 
+ROOT
+ATOM      1  O5' GDD d2567      -1.691  43.704  29.171  0.00  0.00    -0.294 OA
+ENDROOT
+BRANCH   1   2
+ATOM      2  C5' GDD d2567      -1.540  43.927  27.804  0.00  0.00     0.215 C 
+BRANCH   2   3
+ATOM      3  C4' GDD d2567      -0.268  44.701  27.479  0.00  0.00     0.180 C 
+ATOM      4  O4' GDD d2567      -0.373  46.072  27.933  0.00  0.00    -0.353 OA
+ATOM      5  C1' GDD d2567       0.903  46.389  28.560  0.00  0.00     0.262 C 
+ATOM      6  C2' GDD d2567       1.197  45.168  29.347  0.00  0.00     0.198 C 
+ATOM      7  C3' GDD d2567       0.941  44.101  28.261  0.00  0.00     0.182 C 
+BRANCH   5   8
+ATOM      8  N9  GDD d2567       0.510  47.433  29.474  0.00  0.00    -0.295 N 
+ATOM      9  C4  GDD d2567       1.177  48.567  29.675  0.00  0.00     0.161 A 
+ATOM     10  N3  GDD d2567       2.340  49.006  29.188  0.00  0.00    -0.172 N 
+ATOM     11  C5  GDD d2567       0.421  49.313  30.589  0.00  0.00     0.173 A 
+ATOM     12  C2  GDD d2567       2.785  50.218  29.562  0.00  0.00     0.703 A 
+ATOM     13  H   GDD d2567       2.863  48.451  28.565  0.00  0.00     0.186 HD
+ATOM     14  N1  GDD d2567       2.108  50.987  30.479  0.00  0.00    -0.021 NA
+ATOM     15  C6  GDD d2567       0.895  50.566  31.003  0.00  0.00     0.316 A 
+ATOM     16  O6  GDD d2567       0.298  51.309  31.809  0.00  0.00    -0.263 OA
+ATOM     17  N7  GDD d2567      -0.679  48.596  30.904  0.00  0.00    -0.234 NA
+ATOM     18  C8  GDD d2567      -0.629  47.446  30.211  0.00  0.00     0.214 A 
+BRANCH  12  19
+ATOM     19  N2  GDD d2567       3.897  50.745  29.090  0.00  0.00    -0.233 N 
+ATOM     20  H   GDD d2567       4.434  50.251  28.429  0.00  0.00     0.174 HD
+ATOM     21  H   GDD d2567       4.190  51.633  29.398  0.00  0.00     0.174 HD
+ENDBRANCH  12  19
+ENDBRANCH   5   8
+BRANCH   6  22
+ATOM     22  O2' GDD d2567       2.558  45.282  29.714  0.00  0.00    -0.388 OA
+ATOM     23  H   GDD d2567       3.092  45.461  28.924  0.00  0.00     0.210 HD
+ENDBRANCH   6  22
+BRANCH   7  24
+ATOM     24  O3' GDD d2567       2.016  43.944  27.305  0.00  0.00    -0.390 OA
+ATOM     25  H   GDD d2567       2.179  44.790  26.860  0.00  0.00     0.210 HD
+ENDBRANCH   7  24
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1  26
+ATOM     26  PA  GDD d2567      -3.077  44.056  29.852  0.00  0.00     0.401 P 
+ATOM     27  O2A GDD d2567      -3.366  45.533  29.842  0.00  0.00    -0.631 OA
+BRANCH  26  28
+ATOM     28  O3A GDD d2567      -4.067  43.049  29.053  0.00  0.00    -0.195 OA
+BRANCH  28  29
+ATOM     29  PB  GDD d2567      -5.336  43.526  28.225  0.00  0.00     0.404 P 
+ATOM     30  O3B GDD d2567      -4.992  44.501  27.184  0.00  0.00    -0.631 OA
+BRANCH  29  31
+ATOM     31  O1B GDD d2567      -5.963  42.174  27.688  0.00  0.00    -0.263 OA
+BRANCH  31  32
+ATOM     32  C11 GDD d2567      -5.377  41.496  26.596  0.00  0.00     0.303 C 
+ATOM     33  C21 GDD d2567      -6.311  40.311  26.286  0.00  0.00     0.205 C 
+ATOM     34  C31 GDD d2567      -6.271  39.266  27.378  0.00  0.00     0.183 C 
+ATOM     35  C41 GDD d2567      -4.777  38.828  27.626  0.00  0.00     0.180 C 
+ATOM     36  C51 GDD d2567      -3.944  40.068  28.026  0.00  0.00     0.179 C 
+ATOM     37  O51 GDD d2567      -4.013  41.141  27.033  0.00  0.00    -0.348 OA
+BRANCH  33  38
+ATOM     38  O21 GDD d2567      -5.850  39.613  25.162  0.00  0.00    -0.388 OA
+ATOM     39  H   GDD d2567      -4.966  39.256  25.343  0.00  0.00     0.210 HD
+ENDBRANCH  33  38
+BRANCH  34  40
+ATOM     40  O31 GDD d2567      -7.134  38.145  27.026  0.00  0.00    -0.390 OA
+ATOM     41  H   GDD d2567      -6.827  37.749  26.196  0.00  0.00     0.210 HD
+ENDBRANCH  34  40
+BRANCH  35  42
+ATOM     42  O41 GDD d2567      -4.700  37.828  28.665  0.00  0.00    -0.390 OA
+ATOM     43  H   GDD d2567      -5.050  38.194  29.492  0.00  0.00     0.210 HD
+ENDBRANCH  35  42
+BRANCH  36  44
+ATOM     44  C61 GDD d2567      -2.451  39.931  28.076  0.00  0.00     0.198 C 
+BRANCH  44  45
+ATOM     45  O6A GDD d2567      -2.102  38.774  27.393  0.00  0.00    -0.398 OA
+ATOM     46  H   GDD d2567      -2.410  38.835  26.475  0.00  0.00     0.209 HD
+ENDBRANCH  44  45
+ENDBRANCH  36  44
+ENDBRANCH  31  32
+ENDBRANCH  29  31
+BRANCH  29  47
+ATOM     47  O2B GDD d2567      -6.319  44.120  29.423  0.00  0.00    -0.307 OA
+ATOM     48  H   GDD d2567      -7.144  44.448  29.032  0.00  0.00     0.222 HD
+ENDBRANCH  29  47
+ENDBRANCH  28  29
+ENDBRANCH  26  28
+BRANCH  26  49
+ATOM     49  O1A GDD d2567      -3.142  43.455  31.251  0.00  0.00    -0.307 OA
+ATOM     50  H   GDD d2567      -2.949  42.505  31.204  0.00  0.00     0.222 HD
+ENDBRANCH  26  49
+ENDBRANCH   1  26
+TORSDOF 18

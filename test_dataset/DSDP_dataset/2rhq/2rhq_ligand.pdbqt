@@ -1,0 +1,54 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK       I    between atoms: C7_13  and  N1_2 
+REMARK    1  A    between atoms: N1_2  and  C2_3 
+REMARK    2  A    between atoms: C8_14  and  N2_4 
+REMARK       I    between atoms: N2_4  and  C7_13 
+REMARK    3  A    between atoms: C4_6  and  S1_20 
+REMARK    4  A    between atoms: N4_7  and  S1_20 
+REMARK    5  A    between atoms: C15_26  and  N5_23 
+ROOT
+ATOM      1  C2  GAX d 352      99.342 -11.241  18.973  0.00  0.00     0.037 A 
+ATOM      2  C4  GAX d 352      97.516 -10.017  20.073  0.00  0.00     0.081 A 
+ATOM      3  C5  GAX d 352      97.099 -11.279  20.550  0.00  0.00     0.025 A 
+ATOM      4  C6  GAX d 352      97.758 -12.459  20.245  0.00  0.00     0.004 A 
+ATOM      5  C3  GAX d 352      98.648 -10.053  19.262  0.00  0.00     0.054 A 
+ATOM      6  C1  GAX d 352      98.908 -12.456  19.469  0.00  0.00     0.029 A 
+ENDROOT
+BRANCH   2   7
+ATOM      7  S1  GAX d 352      96.679  -8.604  20.399  0.00  0.00     0.261 S 
+ATOM      8  O2  GAX d 352      97.409  -7.362  20.443  0.00  0.00    -0.200 OA
+ATOM      9  O1  GAX d 352      95.930  -8.713  21.617  0.00  0.00    -0.200 OA
+BRANCH   7  10
+ATOM     10  N4  GAX d 352      95.646  -8.517  19.117  0.00  0.00    -0.304 N 
+ATOM     11  C14 GAX d 352      95.923  -7.542  18.039  0.00  0.00     0.150 C 
+ATOM     12  C13 GAX d 352      95.223  -7.950  16.736  0.00  0.00     0.117 C 
+ATOM     13  N5  GAX d 352      93.810  -8.377  16.895  0.00  0.00    -0.265 NA
+ATOM     14  C12 GAX d 352      93.583  -9.229  18.083  0.00  0.00     0.117 C 
+ATOM     15  C11 GAX d 352      94.203  -8.623  19.347  0.00  0.00     0.150 C 
+BRANCH  13  16
+ATOM     16  C15 GAX d 352      93.304  -9.015  15.723  0.00  0.00     0.105 A 
+ATOM     17  C19 GAX d 352      93.748  -8.656  14.444  0.00  0.00     0.044 A 
+ATOM     18  C18 GAX d 352      93.231  -9.279  13.306  0.00  0.00     0.005 A 
+ATOM     19  C17 GAX d 352      92.273 -10.264  13.467  0.00  0.00     0.019 A 
+ATOM     20  C16 GAX d 352      91.856 -10.591  14.753  0.00  0.00     0.118 A 
+ATOM     21  N6  GAX d 352      92.361  -9.980  15.835  0.00  0.00    -0.249 NA
+ENDBRANCH  13  16
+ENDBRANCH   7  10
+ENDBRANCH   2   7
+BRANCH   1  22
+ATOM     22  N1  GAX d 352     100.461 -11.128  18.218  0.00  0.00    -0.309 N 
+ATOM     23  C7  GAX d 352     100.956 -11.999  17.330  0.00  0.00     0.326 C 
+ATOM     24  N2  GAX d 352     101.905 -11.520  16.496  0.00  0.00    -0.287 N 
+ATOM     25  O3  GAX d 352     100.612 -13.160  17.318  0.00  0.00    -0.247 OA
+ATOM     26  H   GAX d 352     102.001 -10.544  16.413  0.00  0.00     0.172 HD
+ATOM     27  H   GAX d 352     100.977 -10.298  18.338  0.00  0.00     0.170 HD
+BRANCH  24  28
+ATOM     28  C8  GAX d 352     102.737 -12.314  15.763  0.00  0.00     0.174 A 
+ATOM     29  N3  GAX d 352     103.730 -11.791  15.011  0.00  0.00    -0.236 NA
+ATOM     30  C10 GAX d 352     104.394 -12.758  14.301  0.00  0.00     0.126 A 
+ATOM     31  C9  GAX d 352     103.871 -14.025  14.504  0.00  0.00     0.072 A 
+ATOM     32  S2  GAX d 352     102.515 -14.022  15.602  0.00  0.00    -0.062 SA
+ENDBRANCH  24  28
+ENDBRANCH   1  22
+TORSDOF 5

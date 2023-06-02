@@ -1,0 +1,95 @@
+REMARK  15 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  CA_2 
+REMARK    2  A    between atoms: CB_3  and  CA_2 
+REMARK    3  A    between atoms: CA_2  and  C_8 
+REMARK    4  A    between atoms: CB_3  and  CG_4 
+REMARK    5  A    between atoms: CD_5  and  CG_4 
+REMARK       I    between atoms: CD_5  and  NE2_7 
+REMARK       I    between atoms: N10_10  and  C_8 
+REMARK    6  A    between atoms: N10_10  and  S_11 
+REMARK    7  A    between atoms: O2S_13  and  S_11 
+REMARK    8  A    between atoms: O5'_14  and  S_11 
+REMARK    9  A    between atoms: S_11  and  O1S_12 
+REMARK   10  A    between atoms: C5'_15  and  O5'_14 
+REMARK   11  A    between atoms: C5'_15  and  C4'_16 
+REMARK   12  A    between atoms: C1'_18  and  N9_19 
+REMARK   13  A    between atoms: C6_24  and  N6_25 
+REMARK   14  A    between atoms: O2'_30  and  C2'_29 
+REMARK   15  A    between atoms: O3'_32  and  C3'_31 
+ROOT
+ATOM      1  C5' QSI d 998      43.175  28.245  13.821  0.00  0.00     0.224 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C4' QSI d 998      41.712  28.442  14.119  0.00  0.00     0.180 C 
+ATOM      3  O4' QSI d 998      41.135  27.173  14.520  0.00  0.00    -0.353 OA
+ATOM      4  C1' QSI d 998      40.049  27.402  15.409  0.00  0.00     0.262 C 
+ATOM      5  C2' QSI d 998      39.977  28.911  15.647  0.00  0.00     0.198 C 
+ATOM      6  C3' QSI d 998      41.400  29.331  15.311  0.00  0.00     0.182 C 
+BRANCH   4   7
+ATOM      7  N9  QSI d 998      40.237  26.605  16.625  0.00  0.00    -0.294 N 
+ATOM      8  C8  QSI d 998      41.407  26.189  17.207  0.00  0.00     0.214 A 
+ATOM      9  N7  QSI d 998      41.232  25.440  18.274  0.00  0.00    -0.236 NA
+ATOM     10  C5  QSI d 998      39.854  25.377  18.416  0.00  0.00     0.149 A 
+ATOM     11  C4  QSI d 998      39.227  26.098  17.413  0.00  0.00     0.167 A 
+ATOM     12  C6  QSI d 998      39.018  24.737  19.361  0.00  0.00     0.155 A 
+ATOM     13  N3  QSI d 998      37.901  26.259  17.245  0.00  0.00    -0.222 NA
+ATOM     14  C2  QSI d 998      37.220  25.606  18.188  0.00  0.00     0.237 A 
+ATOM     15  N1  QSI d 998      37.679  24.872  19.207  0.00  0.00    -0.222 NA
+BRANCH  12  16
+ATOM     16  N6  QSI d 998      39.472  24.013  20.402  0.00  0.00    -0.382 N 
+ATOM     17  H   QSI d 998      40.441  23.899  20.537  0.00  0.00     0.157 HD
+ATOM     18  H   QSI d 998      38.835  23.598  21.028  0.00  0.00     0.157 HD
+ENDBRANCH  12  16
+ENDBRANCH   4   7
+BRANCH   5  19
+ATOM     19  O2' QSI d 998      39.035  29.488  14.756  0.00  0.00    -0.388 OA
+ATOM     20  H   QSI d 998      39.266  29.252  13.844  0.00  0.00     0.210 HD
+ENDBRANCH   5  19
+BRANCH   6  21
+ATOM     21  O3' QSI d 998      41.433  30.705  14.964  0.00  0.00    -0.390 OA
+ATOM     22  H   QSI d 998      40.813  30.870  14.236  0.00  0.00     0.210 HD
+ENDBRANCH   6  21
+ENDBRANCH   1   2
+BRANCH   1  23
+ATOM     23  O5' QSI d 998      43.857  27.824  15.009  0.00  0.00    -0.279 OA
+BRANCH  23  24
+ATOM     24  S   QSI d 998      45.353  27.959  15.156  0.00  0.00     0.185 S 
+BRANCH  24  25
+ATOM     25  O2S QSI d 998      45.945  27.194  14.123  0.00  0.00    -0.291 OA
+ATOM     26  H   QSI d 998      45.651  27.531  13.262  0.00  0.00     0.232 HD
+ENDBRANCH  24  25
+BRANCH  24  27
+ATOM     27  N10 QSI d 998      45.819  29.550  14.886  0.00  0.00    -0.254 N 
+ATOM     28  C   QSI d 998      45.034  30.635  15.371  0.00  0.00     0.264 C 
+ATOM     29  O   QSI d 998      44.472  30.545  16.479  0.00  0.00    -0.270 OA
+ATOM     30  H   QSI d 998      46.646  29.735  14.386  0.00  0.00     0.181 HD
+BRANCH  28  31
+ATOM     31  CA  QSI d 998      45.204  32.018  14.722  0.00  0.00     0.310 C 
+BRANCH  31  32
+ATOM     32  N   QSI d 998      46.116  31.981  13.751  0.00  0.00     0.092 N 
+ATOM     33  H   QSI d 998      46.210  32.909  13.337  0.00  0.00     0.313 HD
+ATOM     34  H   QSI d 998      45.823  31.317  13.034  0.00  0.00     0.313 HD
+ENDBRANCH  31  32
+BRANCH  31  35
+ATOM     35  CB  QSI d 998      43.876  32.516  14.169  0.00  0.00     0.054 C 
+BRANCH  35  36
+ATOM     36  CG  QSI d 998      43.132  33.453  15.100  0.00  0.00     0.105 C 
+BRANCH  36  37
+ATOM     37  CD  QSI d 998      41.791  33.902  14.528  0.00  0.00     0.215 C 
+ATOM     38  OE1 QSI d 998      40.972  33.087  14.107  0.00  0.00    -0.274 OA
+ATOM     39  NE2 QSI d 998      41.523  35.342  14.548  0.00  0.00    -0.370 N 
+ATOM     40  H   QSI d 998      40.673  35.690  14.192  0.00  0.00     0.159 HD
+ATOM     41  H   QSI d 998      42.192  35.962  14.918  0.00  0.00     0.159 HD
+ENDBRANCH  36  37
+ENDBRANCH  35  36
+ENDBRANCH  31  35
+ENDBRANCH  28  31
+ENDBRANCH  24  27
+BRANCH  24  42
+ATOM     42  O1S QSI d 998      45.658  27.625  16.585  0.00  0.00    -0.291 OA
+ATOM     43  H   QSI d 998      46.613  27.696  16.737  0.00  0.00     0.232 HD
+ENDBRANCH  24  42
+ENDBRANCH  23  24
+ENDBRANCH   1  23
+TORSDOF 15

@@ -1,0 +1,161 @@
+REMARK  29 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N9_10  and  C1'_11 
+REMARK    2  A    between atoms: C2'_12  and  O2_13 
+REMARK    3  A    between atoms: C3'_14  and  O3_15 
+REMARK    4  A    between atoms: O3_15  and  P3_16 
+REMARK    5  A    between atoms: P3_16  and  O8_18 
+REMARK    6  A    between atoms: P3_16  and  O9_19 
+REMARK    7  A    between atoms: C5'_22  and  C4'_20 
+REMARK    8  A    between atoms: O5_23  and  C5'_22 
+REMARK    9  A    between atoms: P1_24  and  O5_23 
+REMARK   10  A    between atoms: O3'_27  and  P1_24 
+REMARK   11  A    between atoms: P1_24  and  O2'_26 
+REMARK   12  A    between atoms: P2_28  and  O3'_27 
+REMARK   13  A    between atoms: O5'_30  and  P2_28 
+REMARK   14  A    between atoms: O6'_31  and  P2_28 
+REMARK   15  A    between atoms: C11_32  and  O6'_31 
+REMARK   16  A    between atoms: C12_33  and  C11_32 
+REMARK   17  A    between atoms: C15_36  and  C12_33 
+REMARK   18  A    between atoms: C9_38  and  C15_36 
+REMARK   19  A    between atoms: C15_36  and  O10_37 
+REMARK       I    between atoms: N8_40  and  C9_38 
+REMARK   20  A    between atoms: C27_41  and  N8_40 
+REMARK   21  A    between atoms: C26_42  and  C27_41 
+REMARK   22  A    between atoms: C25_43  and  C26_42 
+REMARK       I    between atoms: N34_45  and  C25_43 
+REMARK   23  A    between atoms: C33_46  and  N34_45 
+REMARK   24  A    between atoms: C32_47  and  C33_46 
+REMARK   25  A    between atoms: N31_48  and  C32_47 
+REMARK   26  A    between atoms: C43_52  and  C42_49 
+REMARK   27  A    between atoms: C42_49  and  C41_50 
+REMARK   28  A    between atoms: C44_53  and  C43_52 
+REMARK   29  A    between atoms: C44_53  and  O45_55 
+ROOT
+ATOM      1  P2  SCO d 302      63.320  92.457  18.941  0.00  0.00     0.401 P 
+ATOM      2  O4' SCO d 302      64.201  91.442  18.338  0.00  0.00    -0.631 OA
+ENDROOT
+BRANCH   1   3
+ATOM      3  O5' SCO d 302      63.718  93.820  18.545  0.00  0.00    -0.307 OA
+ATOM      4  H   SCO d 302      63.765  93.875  17.578  0.00  0.00     0.222 HD
+ENDBRANCH   1   3
+BRANCH   1   5
+ATOM      5  O6' SCO d 302      61.772  92.195  18.594  0.00  0.00    -0.296 OA
+BRANCH   5   6
+ATOM      6  C11 SCO d 302      61.527  90.847  18.027  0.00  0.00     0.192 C 
+BRANCH   6   7
+ATOM      7  C12 SCO d 302      60.760  90.851  16.696  0.00  0.00     0.009 C 
+ATOM      8  C14 SCO d 302      61.479  91.627  15.597  0.00  0.00     0.020 C 
+ATOM      9  C13 SCO d 302      59.389  91.503  16.901  0.00  0.00     0.020 C 
+BRANCH   7  10
+ATOM     10  C15 SCO d 302      60.575  89.440  16.231  0.00  0.00     0.219 C 
+BRANCH  10  11
+ATOM     11  C9  SCO d 302      59.712  89.527  15.007  0.00  0.00     0.247 C 
+ATOM     12  N8  SCO d 302      60.362  89.613  13.861  0.00  0.00    -0.358 N 
+ATOM     13  H   SCO d 302      61.346  89.647  13.877  0.00  0.00     0.162 HD
+ATOM     14  O11 SCO d 302      58.487  89.514  15.093  0.00  0.00    -0.271 OA
+BRANCH  12  15
+ATOM     15  C27 SCO d 302      59.679  89.660  12.571  0.00  0.00     0.132 C 
+BRANCH  15  16
+ATOM     16  C26 SCO d 302      59.519  88.269  11.979  0.00  0.00     0.122 C 
+BRANCH  16  17
+ATOM     17  C25 SCO d 302      58.932  88.341  10.583  0.00  0.00     0.219 C 
+ATOM     18  N34 SCO d 302      59.781  88.022   9.646  0.00  0.00    -0.359 N 
+ATOM     19  H   SCO d 302      60.701  87.777   9.896  0.00  0.00     0.162 HD
+ATOM     20  O12 SCO d 302      57.775  88.706  10.397  0.00  0.00    -0.274 OA
+BRANCH  18  21
+ATOM     21  C33 SCO d 302      59.410  88.018   8.261  0.00  0.00     0.142 C 
+BRANCH  21  22
+ATOM     22  C32 SCO d 302      59.734  86.629   7.751  0.00  0.00     0.141 C 
+BRANCH  22  23
+ATOM     23  N31 SCO d 302      60.792  86.638   6.799  0.00  0.00    -0.370 N 
+ATOM     24  C41 SCO d 302      60.545  86.088   5.586  0.00  0.00     0.151 C 
+ATOM     25  O41 SCO d 302      61.385  86.123   4.567  0.00  0.00    -0.177 OA
+ATOM     26  H   SCO d 302      61.670  87.029   7.014  0.00  0.00     0.161 HD
+BRANCH  24  27
+ATOM     27  C42 SCO d 302      59.148  85.364   5.484  0.00  0.00     0.097 C 
+BRANCH  27  28
+ATOM     28  C43 SCO d 302      58.738  84.932   4.032  0.00  0.00     0.118 C 
+BRANCH  28  29
+ATOM     29  C44 SCO d 302      57.281  84.510   3.812  0.00  0.00     0.139 C 
+ATOM     30  O44 SCO d 302      56.895  84.531   2.643  0.00  0.00    -0.650 OA
+BRANCH  29  31
+ATOM     31  O45 SCO d 302      56.548  84.135   4.823  0.00  0.00    -0.776 OA
+ATOM     32  H   SCO d 302      56.905  84.143   5.689  0.00  0.00     0.167 HD
+ENDBRANCH  29  31
+ENDBRANCH  28  29
+ENDBRANCH  27  28
+ENDBRANCH  24  27
+ENDBRANCH  22  23
+ENDBRANCH  21  22
+ENDBRANCH  18  21
+ENDBRANCH  16  17
+ENDBRANCH  15  16
+ENDBRANCH  12  15
+ENDBRANCH  10  11
+BRANCH  10  33
+ATOM     33  O10 SCO d 302      59.918  88.639  17.229  0.00  0.00    -0.385 OA
+ATOM     34  H   SCO d 302      59.053  89.026  17.436  0.00  0.00     0.210 HD
+ENDBRANCH  10  33
+ENDBRANCH   7  10
+ENDBRANCH   6   7
+ENDBRANCH   5   6
+ENDBRANCH   1   5
+BRANCH   1  35
+ATOM     35  O3' SCO d 302      63.229  92.324  20.600  0.00  0.00    -0.195 OA
+BRANCH  35  36
+ATOM     36  P1  SCO d 302      63.508  91.211  21.654  0.00  0.00     0.401 P 
+ATOM     37  O1' SCO d 302      63.955  89.959  20.992  0.00  0.00    -0.631 OA
+BRANCH  36  38
+ATOM     38  O5  SCO d 302      62.092  91.035  22.389  0.00  0.00    -0.294 OA
+BRANCH  38  39
+ATOM     39  C5' SCO d 302      61.667  91.935  23.448  0.00  0.00     0.215 C 
+BRANCH  39  40
+ATOM     40  C4' SCO d 302      60.653  91.177  24.276  0.00  0.00     0.180 C 
+ATOM     41  O4  SCO d 302      59.625  90.797  23.343  0.00  0.00    -0.353 OA
+ATOM     42  C1' SCO d 302      59.578  89.404  23.280  0.00  0.00     0.262 C 
+ATOM     43  C2' SCO d 302      60.917  88.941  23.758  0.00  0.00     0.199 C 
+ATOM     44  C3' SCO d 302      61.275  89.924  24.874  0.00  0.00     0.197 C 
+BRANCH  42  45
+ATOM     45  N9  SCO d 302      59.381  89.004  21.912  0.00  0.00    -0.294 N 
+ATOM     46  C8  SCO d 302      59.995  89.582  20.837  0.00  0.00     0.214 A 
+ATOM     47  N7  SCO d 302      59.622  89.051  19.693  0.00  0.00    -0.236 NA
+ATOM     48  C5  SCO d 302      58.736  88.079  20.051  0.00  0.00     0.149 A 
+ATOM     49  C6  SCO d 302      57.965  87.125  19.334  0.00  0.00     0.155 A 
+ATOM     50  C4  SCO d 302      58.597  88.039  21.430  0.00  0.00     0.167 A 
+ATOM     51  N6  SCO d 302      57.947  87.008  17.998  0.00  0.00    -0.382 N 
+ATOM     52  N1  SCO d 302      57.200  86.272  20.090  0.00  0.00    -0.222 NA
+ATOM     53  H   SCO d 302      58.491  87.613  17.444  0.00  0.00     0.157 HD
+ATOM     54  H   SCO d 302      57.390  86.317  17.572  0.00  0.00     0.157 HD
+ATOM     55  C2  SCO d 302      57.187  86.404  21.448  0.00  0.00     0.237 A 
+ATOM     56  N3  SCO d 302      57.824  87.232  22.173  0.00  0.00    -0.222 NA
+ENDBRANCH  42  45
+BRANCH  43  57
+ATOM     57  O2  SCO d 302      60.850  87.577  24.230  0.00  0.00    -0.388 OA
+ATOM     58  H   SCO d 302      60.190  87.512  24.938  0.00  0.00     0.210 HD
+ENDBRANCH  43  57
+BRANCH  44  59
+ATOM     59  O3  SCO d 302      60.767  89.489  26.151  0.00  0.00    -0.286 OA
+BRANCH  59  60
+ATOM     60  P3  SCO d 302      61.102  90.353  27.416  0.00  0.00     0.391 P 
+ATOM     61  O7  SCO d 302      61.432  91.737  26.983  0.00  0.00    -0.632 OA
+BRANCH  60  62
+ATOM     62  O8  SCO d 302      62.160  89.654  28.180  0.00  0.00    -0.307 OA
+ATOM     63  H   SCO d 302      62.965  89.601  27.642  0.00  0.00     0.222 HD
+ENDBRANCH  60  62
+BRANCH  60  64
+ATOM     64  O9  SCO d 302      59.910  90.395  28.298  0.00  0.00    -0.307 OA
+ATOM     65  H   SCO d 302      59.184  90.847  27.839  0.00  0.00     0.222 HD
+ENDBRANCH  60  64
+ENDBRANCH  59  60
+ENDBRANCH  44  59
+ENDBRANCH  39  40
+ENDBRANCH  38  39
+ENDBRANCH  36  38
+BRANCH  36  66
+ATOM     66  O2' SCO d 302      64.515  91.743  22.601  0.00  0.00    -0.307 OA
+ATOM     67  H   SCO d 302      65.365  91.845  22.145  0.00  0.00     0.222 HD
+ENDBRANCH  36  66
+ENDBRANCH  35  36
+ENDBRANCH   1  35
+TORSDOF 29

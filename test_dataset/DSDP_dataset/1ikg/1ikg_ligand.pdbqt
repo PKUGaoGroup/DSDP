@@ -1,0 +1,86 @@
+REMARK  15 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  C2_2 
+REMARK    2  A    between atoms: C1_1  and  C3_3 
+REMARK    3  A    between atoms: C4_4  and  C2_2 
+REMARK    4  A    between atoms: C3_3  and  C5_5 
+REMARK    5  A    between atoms: C10_14  and  C4_4 
+REMARK       I    between atoms: N1_6  and  C5_5 
+REMARK    6  A    between atoms: N1_6  and  C6_8 
+REMARK    7  A    between atoms: C6_8  and  C7_9 
+REMARK       I    between atoms: C7_9  and  N2_12 
+REMARK    8  A    between atoms: N2_12  and  C9_13 
+REMARK    9  A    between atoms: C9_13  and  C12_16 
+REMARK   10  A    between atoms: C13_20  and  C10_14 
+REMARK   11  A    between atoms: C10_14  and  N3_19 
+REMARK   12  A    between atoms: C12_16  and  O3_17 
+REMARK       I    between atoms: N3_19  and  C14_21 
+REMARK   13  A    between atoms: C13_20  and  O7_26 
+REMARK   14  A    between atoms: C14_21  and  C15_22 
+REMARK   15  A    between atoms: C15_22  and  N4_24 
+ROOT
+ATOM      1  C3  REX d 400      19.555 -14.469  38.425  0.00  0.00     0.103 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C1  REX d 400      19.640 -15.861  37.782  0.00  0.00     0.009 C 
+BRANCH   2   3
+ATOM      3  C2  REX d 400      21.105 -16.375  37.806  0.00  0.00     0.003 C 
+BRANCH   3   4
+ATOM      4  C4  REX d 400      21.999 -15.496  36.903  0.00  0.00     0.036 C 
+BRANCH   4   5
+ATOM      5  C10 REX d 400      23.509 -15.937  36.850  0.00  0.00     0.182 C 
+BRANCH   5   6
+ATOM      6  C13 REX d 400      24.265 -14.807  36.098  0.00  0.00     0.163 C 
+ATOM      7  O6  REX d 400      24.087 -14.765  34.851  0.00  0.00    -0.648 OA
+BRANCH   6   8
+ATOM      8  O7  REX d 400      24.984 -13.995  36.786  0.00  0.00    -0.775 OA
+ATOM      9  H   REX d 400      25.058 -14.105  37.714  0.00  0.00     0.167 HD
+ENDBRANCH   6   8
+ENDBRANCH   5   6
+BRANCH   5  10
+ATOM     10  N3  REX d 400      24.129 -16.232  38.147  0.00  0.00    -0.345 N 
+ATOM     11  C14 REX d 400      24.670 -17.528  38.327  0.00  0.00     0.246 C 
+ATOM     12  O5  REX d 400      24.649 -18.406  37.489  0.00  0.00    -0.272 OA
+ATOM     13  H   REX d 400      24.167 -15.557  38.862  0.00  0.00     0.163 HD
+BRANCH  11  14
+ATOM     14  C15 REX d 400      25.307 -17.740  39.676  0.00  0.00     0.368 C 
+BRANCH  14  15
+ATOM     15  N4  REX d 400      25.865 -19.097  39.777  0.00  0.00     0.087 N 
+ATOM     16  H   REX d 400      25.118 -19.781  39.661  0.00  0.00     0.313 HD
+ATOM     17  H   REX d 400      26.299 -19.219  40.692  0.00  0.00     0.313 HD
+ENDBRANCH  14  15
+ENDBRANCH  11  14
+ENDBRANCH   5  10
+ENDBRANCH   4   5
+ENDBRANCH   3   4
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1  18
+ATOM     18  C5  REX d 400      18.117 -14.065  38.730  0.00  0.00     0.218 C 
+ATOM     19  N1  REX d 400      17.571 -13.247  37.753  0.00  0.00    -0.348 N 
+ATOM     20  H   REX d 400      18.016 -13.190  36.877  0.00  0.00     0.163 HD
+ATOM     21  O1  REX d 400      17.531 -14.405  39.735  0.00  0.00    -0.274 OA
+BRANCH  19  22
+ATOM     22  C6  REX d 400      16.369 -12.475  37.980  0.00  0.00     0.172 C 
+ATOM     23  C8  REX d 400      15.421 -12.662  36.796  0.00  0.00     0.042 C 
+BRANCH  22  24
+ATOM     24  C7  REX d 400      16.764 -11.027  38.158  0.00  0.00     0.240 C 
+ATOM     25  O2  REX d 400      16.887 -10.261  37.234  0.00  0.00    -0.271 OA
+ATOM     26  N2  REX d 400      16.989 -10.655  39.485  0.00  0.00    -0.345 N 
+ATOM     27  H   REX d 400      16.869 -11.311  40.210  0.00  0.00     0.163 HD
+BRANCH  26  28
+ATOM     28  C9  REX d 400      17.409  -9.271  39.797  0.00  0.00     0.178 C 
+ATOM     29  C11 REX d 400      18.900  -9.265  40.123  0.00  0.00     0.043 C 
+BRANCH  28  30
+ATOM     30  C12 REX d 400      16.639  -8.702  40.983  0.00  0.00     0.163 C 
+ATOM     31  O4  REX d 400      16.473  -7.452  40.997  0.00  0.00    -0.648 OA
+BRANCH  30  32
+ATOM     32  O3  REX d 400      16.244  -9.499  41.858  0.00  0.00    -0.775 OA
+ATOM     33  H   REX d 400      16.412 -10.416  41.766  0.00  0.00     0.167 HD
+ENDBRANCH  30  32
+ENDBRANCH  28  30
+ENDBRANCH  26  28
+ENDBRANCH  22  24
+ENDBRANCH  19  22
+ENDBRANCH   1  18
+TORSDOF 15

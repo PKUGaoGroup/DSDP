@@ -1,0 +1,93 @@
+REMARK  16 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N1_1  and  CA1_2 
+REMARK    2  A    between atoms: CA1_2  and  C1_3 
+REMARK    3  A    between atoms: CA1_2  and  CB1_6 
+REMARK    4  A    between atoms: C1_3  and  O11_4 
+REMARK    5  A    between atoms: CB1_6  and  CG1_7 
+REMARK    6  A    between atoms: CG1_7  and  CD1_8 
+REMARK       I    between atoms: CD1_8  and  N2_10 
+REMARK    7  A    between atoms: N2_10  and  CA2_11 
+REMARK    8  A    between atoms: CA2_11  and  CB2_14 
+REMARK    9  A    between atoms: CA2_11  and  C2_12 
+REMARK       I    between atoms: N3_16  and  C2_12 
+REMARK   10  A    between atoms: CB2_14  and  SG2_15 
+REMARK   11  A    between atoms: C1'_21  and  SG2_15 
+REMARK   12  A    between atoms: N3_16  and  CA3_17 
+REMARK   13  A    between atoms: C3_18  and  CA3_17 
+REMARK   14  A    between atoms: C3_18  and  O32_20 
+REMARK   15  A    between atoms: C2'_22  and  N2'_27 
+REMARK   16  A    between atoms: N4'_30  and  C4'_24 
+ROOT
+ATOM      1  CA2 GDN d 203      10.937  32.591  10.780  0.00  0.00     0.186 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N2  GDN d 203      11.374  33.765   9.995  0.00  0.00    -0.347 N 
+ATOM      3  CD1 GDN d 203      11.589  33.740   8.682  0.00  0.00     0.218 C 
+ATOM      4  OE1 GDN d 203      11.301  32.885   7.840  0.00  0.00    -0.274 OA
+ATOM      5  H   GDN d 203      11.514  34.615  10.472  0.00  0.00     0.163 HD
+BRANCH   3   6
+ATOM      6  CG1 GDN d 203      12.324  34.994   8.244  0.00  0.00     0.105 C 
+BRANCH   6   7
+ATOM      7  CB1 GDN d 203      13.720  34.464   7.799  0.00  0.00     0.056 C 
+BRANCH   7   8
+ATOM      8  CA1 GDN d 203      14.332  35.613   7.008  0.00  0.00     0.315 C 
+BRANCH   8   9
+ATOM      9  N1  GDN d 203      14.398  35.274   5.531  0.00  0.00     0.093 N 
+ATOM     10  H   GDN d 203      14.810  36.055   5.021  0.00  0.00     0.314 HD
+ATOM     11  H   GDN d 203      13.457  35.098   5.180  0.00  0.00     0.314 HD
+ENDBRANCH   8   9
+BRANCH   8  12
+ATOM     12  C1  GDN d 203      15.681  35.945   7.552  0.00  0.00     0.173 C 
+ATOM     13  O12 GDN d 203      16.578  35.178   6.800  0.00  0.00    -0.648 OA
+BRANCH  12  14
+ATOM     14  O11 GDN d 203      15.960  36.721   8.438  0.00  0.00    -0.775 OA
+ATOM     15  H   GDN d 203      15.280  37.189   8.883  0.00  0.00     0.167 HD
+ENDBRANCH  12  14
+ENDBRANCH   8  12
+ENDBRANCH   7   8
+ENDBRANCH   6   7
+ENDBRANCH   3   6
+ENDBRANCH   1   2
+BRANCH   1  16
+ATOM     16  CB2 GDN d 203      12.171  31.918  11.393  0.00  0.00     0.114 C 
+BRANCH  16  17
+ATOM     17  SG2 GDN d 203      11.700  30.313  11.898  0.00  0.00    -0.125 SA
+BRANCH  17  18
+ATOM     18  C1' GDN d 203      11.702  29.115  10.668  0.00  0.00     0.033 A 
+ATOM     19  C6' GDN d 203      10.449  28.989   9.984  0.00  0.00     0.023 A 
+ATOM     20  C5' GDN d 203      10.317  28.064   8.984  0.00  0.00     0.037 A 
+ATOM     21  C4' GDN d 203      11.403  27.214   8.652  0.00  0.00     0.105 A 
+ATOM     22  C3' GDN d 203      12.642  27.353   9.357  0.00  0.00     0.073 A 
+ATOM     23  C2' GDN d 203      12.765  28.290  10.373  0.00  0.00     0.122 A 
+BRANCH  21  24
+ATOM     24  N4' GDN d 203      11.308  26.261   7.630  0.00  0.00    -0.116 N 
+ATOM     25  O4B GDN d 203      10.216  26.121   6.993  0.00  0.00    -0.532 OA
+ATOM     26  O4A GDN d 203      12.305  25.536   7.340  0.00  0.00    -0.532 OA
+ENDBRANCH  21  24
+BRANCH  23  27
+ATOM     27  N2' GDN d 203      14.058  28.314  11.001  0.00  0.00    -0.114 N 
+ATOM     28  O2B GDN d 203      14.994  27.812  10.334  0.00  0.00    -0.532 OA
+ATOM     29  O2A GDN d 203      14.220  28.826  12.127  0.00  0.00    -0.532 OA
+ENDBRANCH  23  27
+ENDBRANCH  17  18
+ENDBRANCH  16  17
+ENDBRANCH   1  16
+BRANCH   1  30
+ATOM     30  C2  GDN d 203       9.869  33.153  11.717  0.00  0.00     0.241 C 
+ATOM     31  N3  GDN d 203       8.612  33.161  11.389  0.00  0.00    -0.349 N 
+ATOM     32  H   GDN d 203       8.274  33.889  10.818  0.00  0.00     0.163 HD
+ATOM     33  O2  GDN d 203      10.288  33.813  12.649  0.00  0.00    -0.271 OA
+BRANCH  31  34
+ATOM     34  CA3 GDN d 203       7.669  32.113  11.844  0.00  0.00     0.232 C 
+BRANCH  34  35
+ATOM     35  C3  GDN d 203       6.277  32.679  11.839  0.00  0.00     0.158 C 
+ATOM     36  O31 GDN d 203       6.015  33.663  11.092  0.00  0.00    -0.649 OA
+BRANCH  35  37
+ATOM     37  O32 GDN d 203       5.266  32.253  12.622  0.00  0.00    -0.775 OA
+ATOM     38  H   GDN d 203       5.395  31.527  13.200  0.00  0.00     0.167 HD
+ENDBRANCH  35  37
+ENDBRANCH  34  35
+ENDBRANCH  31  34
+ENDBRANCH   1  30
+TORSDOF 16

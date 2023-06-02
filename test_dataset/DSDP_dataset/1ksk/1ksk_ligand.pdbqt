@@ -1,0 +1,15 @@
+REMARK  0 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+ROOT
+ATOM      1  N1  URA d 232      51.570   7.456  -0.462  0.00  0.00    -0.319 N 
+ATOM      2  C2  URA d 232      50.703   8.560  -0.472  0.00  0.00     0.326 A 
+ATOM      3  O2  URA d 232      49.866   8.842   0.400  0.00  0.00    -0.247 OA
+ATOM      4  N3  URA d 232      50.865   9.348  -1.594  0.00  0.00    -0.276 N 
+ATOM      5  C4  URA d 232      51.752   9.188  -2.669  0.00  0.00     0.250 A 
+ATOM      6  O4  URA d 232      51.752  10.011  -3.606  0.00  0.00    -0.268 OA
+ATOM      7  C5  URA d 232      52.628   8.019  -2.596  0.00  0.00     0.091 A 
+ATOM      8  C6  URA d 232      52.503   7.204  -1.491  0.00  0.00     0.098 A 
+ATOM      9  H   URA d 232      51.525   6.830   0.296  0.00  0.00     0.170 HD
+ATOM     10  H   URA d 232      50.274  10.134  -1.647  0.00  0.00     0.173 HD
+ENDROOT
+TORSDOF 0

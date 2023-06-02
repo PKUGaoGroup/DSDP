@@ -1,0 +1,92 @@
+REMARK  15 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: PG_1  and  O3G_4 
+REMARK    2  A    between atoms: PG_1  and  O2G_3 
+REMARK    3  A    between atoms: PG_1  and  N3B_5 
+REMARK    4  A    between atoms: N3B_5  and  PB_6 
+REMARK    5  A    between atoms: PB_6  and  O3A_9 
+REMARK    6  A    between atoms: PB_6  and  O1B_7 
+REMARK    7  A    between atoms: PA_10  and  O3A_9 
+REMARK    8  A    between atoms: O2A_12  and  PA_10 
+REMARK    9  A    between atoms: PA_10  and  O5'_13 
+REMARK   10  A    between atoms: O5'_13  and  C5'_14 
+REMARK   11  A    between atoms: C5'_14  and  C4'_15 
+REMARK   12  A    between atoms: C3'_17  and  O3'_18 
+REMARK   13  A    between atoms: O2'_20  and  C2'_19 
+REMARK   14  A    between atoms: C1'_21  and  N9_22 
+REMARK   15  A    between atoms: C2_29  and  N2_30 
+ROOT
+ATOM      1  C4' GNP d1689      -2.040  24.975  40.526  0.00  0.00     0.180 C 
+ATOM      2  O4' GNP d1689      -3.134  24.828  41.484  0.00  0.00    -0.353 OA
+ATOM      3  C3' GNP d1689      -2.262  23.859  39.514  0.00  0.00     0.182 C 
+ATOM      4  C2' GNP d1689      -3.785  23.770  39.535  0.00  0.00     0.198 C 
+ATOM      5  C1' GNP d1689      -4.025  23.814  41.045  0.00  0.00     0.262 C 
+ENDROOT
+BRANCH   1   6
+ATOM      6  C5' GNP d1689      -1.997  26.386  39.937  0.00  0.00     0.215 C 
+BRANCH   6   7
+ATOM      7  O5' GNP d1689      -2.891  26.520  38.822  0.00  0.00    -0.294 OA
+BRANCH   7   8
+ATOM      8  PA  GNP d1689      -2.897  27.830  37.951  0.00  0.00     0.401 P 
+ATOM      9  O1A GNP d1689      -1.761  27.668  37.019  0.00  0.00    -0.631 OA
+BRANCH   8  10
+ATOM     10  O2A GNP d1689      -4.229  28.013  37.346  0.00  0.00    -0.307 OA
+ATOM     11  H   GNP d1689      -4.417  27.273  36.747  0.00  0.00     0.222 HD
+ENDBRANCH   8  10
+BRANCH   8  12
+ATOM     12  O3A GNP d1689      -2.620  29.000  38.887  0.00  0.00    -0.205 OA
+BRANCH  12  13
+ATOM     13  PB  GNP d1689      -2.078  30.321  38.343  0.00  0.00     0.339 P 
+ATOM     14  O2B GNP d1689      -2.715  30.531  37.026  0.00  0.00    -0.641 OA
+BRANCH  13  15
+ATOM     15  N3B GNP d1689      -0.531  30.158  38.014  0.00  0.00    -0.136 NA
+ATOM     16  H   GNP d1689      -0.080  29.937  38.902  0.00  0.00     0.145 HD
+BRANCH  15  17
+ATOM     17  PG  GNP d1689       0.357  31.305  37.348  0.00  0.00     0.328 P 
+ATOM     18  O1G GNP d1689       0.367  31.003  35.868  0.00  0.00    -0.641 OA
+BRANCH  17  19
+ATOM     19  O3G GNP d1689      -0.216  32.654  37.739  0.00  0.00    -0.317 OA
+ATOM     20  H   GNP d1689       0.316  33.359  37.339  0.00  0.00     0.221 HD
+ENDBRANCH  17  19
+BRANCH  17  21
+ATOM     21  O2G GNP d1689       1.789  31.077  37.768  0.00  0.00    -0.317 OA
+ATOM     22  H   GNP d1689       2.354  31.762  37.377  0.00  0.00     0.221 HD
+ENDBRANCH  17  21
+ENDBRANCH  15  17
+ENDBRANCH  13  15
+BRANCH  13  23
+ATOM     23  O1B GNP d1689      -2.269  31.361  39.385  0.00  0.00    -0.316 OA
+ATOM     24  H   GNP d1689      -1.931  32.210  39.060  0.00  0.00     0.221 HD
+ENDBRANCH  13  23
+ENDBRANCH  12  13
+ENDBRANCH   8  12
+ENDBRANCH   7   8
+ENDBRANCH   6   7
+ENDBRANCH   1   6
+BRANCH   3  25
+ATOM     25  O3' GNP d1689      -1.636  22.655  39.960  0.00  0.00    -0.390 OA
+ATOM     26  H   GNP d1689      -1.957  22.434  40.848  0.00  0.00     0.210 HD
+ENDBRANCH   3  25
+BRANCH   4  27
+ATOM     27  O2' GNP d1689      -4.305  22.612  38.911  0.00  0.00    -0.388 OA
+ATOM     28  H   GNP d1689      -3.929  21.822  39.330  0.00  0.00     0.210 HD
+ENDBRANCH   4  27
+BRANCH   5  29
+ATOM     29  N9  GNP d1689      -5.399  24.191  41.363  0.00  0.00    -0.295 N 
+ATOM     30  C8  GNP d1689      -6.119  25.190  40.731  0.00  0.00     0.214 A 
+ATOM     31  N7  GNP d1689      -7.328  25.339  41.183  0.00  0.00    -0.234 NA
+ATOM     32  C5  GNP d1689      -7.427  24.370  42.179  0.00  0.00     0.173 A 
+ATOM     33  C4  GNP d1689      -6.250  23.657  42.312  0.00  0.00     0.161 A 
+ATOM     34  C6  GNP d1689      -8.523  24.045  43.014  0.00  0.00     0.316 A 
+ATOM     35  N3  GNP d1689      -5.993  22.644  43.181  0.00  0.00    -0.172 N 
+ATOM     36  C2  GNP d1689      -7.027  22.348  43.966  0.00  0.00     0.703 A 
+ATOM     37  H   GNP d1689      -5.128  22.176  43.226  0.00  0.00     0.186 HD
+ATOM     38  N1  GNP d1689      -8.240  23.004  43.905  0.00  0.00    -0.021 NA
+ATOM     39  O6  GNP d1689      -9.629  24.592  43.024  0.00  0.00    -0.263 OA
+BRANCH  36  40
+ATOM     40  N2  GNP d1689      -6.914  21.373  44.880  0.00  0.00    -0.233 N 
+ATOM     41  H   GNP d1689      -6.070  20.873  44.965  0.00  0.00     0.174 HD
+ATOM     42  H   GNP d1689      -7.675  21.157  45.466  0.00  0.00     0.174 HD
+ENDBRANCH  36  40
+ENDBRANCH   5  29
+TORSDOF 15

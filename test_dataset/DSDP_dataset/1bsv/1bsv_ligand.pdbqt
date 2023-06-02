@@ -1,0 +1,128 @@
+REMARK  21 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O3_23  and  PA_1 
+REMARK    2  A    between atoms: PA_1  and  O5B_4 
+REMARK    3  A    between atoms: PA_1  and  O2A_3 
+REMARK    4  A    between atoms: C5B_5  and  O5B_4 
+REMARK    5  A    between atoms: C5B_5  and  C4B_6 
+REMARK    6  A    between atoms: C3B_8  and  O3B_9 
+REMARK    7  A    between atoms: C2B_10  and  O2B_11 
+REMARK    8  A    between atoms: P2B_45  and  O2B_11 
+REMARK    9  A    between atoms: N9A_13  and  C1B_12 
+REMARK   10  A    between atoms: N6A_18  and  C6A_17 
+REMARK   11  A    between atoms: O3_23  and  PN_24 
+REMARK   12  A    between atoms: O5D_27  and  PN_24 
+REMARK   13  A    between atoms: PN_24  and  O2N_26 
+REMARK   14  A    between atoms: O5D_27  and  C5D_28 
+REMARK   15  A    between atoms: C4D_29  and  C5D_28 
+REMARK   16  A    between atoms: O3D_32  and  C3D_31 
+REMARK   17  A    between atoms: O2D_34  and  C2D_33 
+REMARK   18  A    between atoms: C1D_35  and  N1N_36 
+REMARK   19  A    between atoms: C7N_39  and  C3N_38 
+REMARK       I    between atoms: N7N_41  and  C7N_39 
+REMARK   20  A    between atoms: P2B_45  and  O1X_46 
+REMARK   21  A    between atoms: P2B_45  and  O2X_47 
+ROOT
+ATOM      1  PA  NDP d 350      31.378  25.685  13.295  0.00  0.00     0.401 P 
+ATOM      2  O1A NDP d 350      31.601  25.112  11.921  0.00  0.00    -0.631 OA
+ENDROOT
+BRANCH   1   3
+ATOM      3  O3  NDP d 350      31.556  27.288  13.242  0.00  0.00    -0.195 OA
+BRANCH   3   4
+ATOM      4  PN  NDP d 350      31.582  28.531  14.298  0.00  0.00     0.401 P 
+ATOM      5  O1N NDP d 350      33.062  28.877  14.499  0.00  0.00    -0.631 OA
+BRANCH   4   6
+ATOM      6  O5D NDP d 350      30.825  29.778  13.588  0.00  0.00    -0.294 OA
+BRANCH   6   7
+ATOM      7  C5D NDP d 350      29.393  30.023  13.765  0.00  0.00     0.215 C 
+BRANCH   7   8
+ATOM      8  C4D NDP d 350      29.117  31.490  13.397  0.00  0.00     0.180 C 
+ATOM      9  C3D NDP d 350      29.670  31.869  12.017  0.00  0.00     0.182 C 
+ATOM     10  C2D NDP d 350      29.951  33.358  12.131  0.00  0.00     0.198 C 
+ATOM     11  C1D NDP d 350      30.257  33.550  13.670  0.00  0.00     0.251 C 
+ATOM     12  O4D NDP d 350      29.878  32.322  14.321  0.00  0.00    -0.354 OA
+BRANCH   9  13
+ATOM     13  O3D NDP d 350      28.765  31.573  10.919  0.00  0.00    -0.390 OA
+ATOM     14  H   NDP d 350      27.934  32.057  11.046  0.00  0.00     0.210 HD
+ENDBRANCH   9  13
+BRANCH  10  15
+ATOM     15  O2D NDP d 350      28.803  34.072  11.689  0.00  0.00    -0.389 OA
+ATOM     16  H   NDP d 350      28.028  33.785  12.197  0.00  0.00     0.210 HD
+ENDBRANCH  10  15
+BRANCH  11  17
+ATOM     17  N1N NDP d 350      31.701  33.821  13.853  0.00  0.00    -0.381 N 
+ATOM     18  C2N NDP d 350      32.548  32.699  13.879  0.00  0.00     0.137 C 
+ATOM     19  C3N NDP d 350      33.904  32.883  14.335  0.00  0.00     0.117 C 
+ATOM     20  C4N NDP d 350      34.388  34.223  14.153  0.00  0.00    -0.014 C 
+ATOM     21  C5N NDP d 350      33.577  35.299  14.101  0.00  0.00    -0.011 C 
+ATOM     22  C6N NDP d 350      32.217  35.102  13.986  0.00  0.00     0.146 C 
+BRANCH  19  23
+ATOM     23  C7N NDP d 350      34.932  31.902  13.841  0.00  0.00     0.224 C 
+ATOM     24  N7N NDP d 350      34.582  30.620  13.539  0.00  0.00    -0.370 N 
+ATOM     25  H   NDP d 350      35.263  29.987  13.216  0.00  0.00     0.159 HD
+ATOM     26  H   NDP d 350      33.648  30.327  13.643  0.00  0.00     0.159 HD
+ATOM     27  O7N NDP d 350      36.173  32.209  13.678  0.00  0.00    -0.273 OA
+ENDBRANCH  19  23
+ENDBRANCH  11  17
+ENDBRANCH   7   8
+ENDBRANCH   6   7
+ENDBRANCH   4   6
+BRANCH   4  28
+ATOM     28  O2N NDP d 350      30.824  28.053  15.546  0.00  0.00    -0.307 OA
+ATOM     29  H   NDP d 350      29.902  27.862  15.311  0.00  0.00     0.222 HD
+ENDBRANCH   4  28
+ENDBRANCH   3   4
+ENDBRANCH   1   3
+BRANCH   1  30
+ATOM     30  O5B NDP d 350      29.740  25.667  13.540  0.00  0.00    -0.294 OA
+BRANCH  30  31
+ATOM     31  C5B NDP d 350      28.803  25.387  12.475  0.00  0.00     0.215 C 
+BRANCH  31  32
+ATOM     32  C4B NDP d 350      27.915  24.283  12.982  0.00  0.00     0.180 C 
+ATOM     33  O4B NDP d 350      26.758  24.238  12.121  0.00  0.00    -0.353 OA
+ATOM     34  C1B NDP d 350      26.505  22.869  11.776  0.00  0.00     0.263 C 
+ATOM     35  C2B NDP d 350      27.873  22.251  11.797  0.00  0.00     0.214 C 
+ATOM     36  C3B NDP d 350      28.570  22.930  12.915  0.00  0.00     0.183 C 
+BRANCH  34  37
+ATOM     37  N9A NDP d 350      25.904  22.762  10.410  0.00  0.00    -0.294 N 
+ATOM     38  C8A NDP d 350      26.370  23.307   9.205  0.00  0.00     0.214 A 
+ATOM     39  N7A NDP d 350      25.604  22.998   8.183  0.00  0.00    -0.236 NA
+ATOM     40  C5A NDP d 350      24.577  22.209   8.729  0.00  0.00     0.149 A 
+ATOM     41  C6A NDP d 350      23.458  21.570   8.143  0.00  0.00     0.155 A 
+ATOM     42  C4A NDP d 350      24.736  22.052  10.071  0.00  0.00     0.167 A 
+ATOM     43  N1A NDP d 350      22.619  20.854   8.960  0.00  0.00    -0.222 NA
+ATOM     44  C2A NDP d 350      22.878  20.771  10.285  0.00  0.00     0.237 A 
+ATOM     45  N3A NDP d 350      23.906  21.334  10.921  0.00  0.00    -0.222 NA
+BRANCH  41  46
+ATOM     46  N6A NDP d 350      23.220  21.652   6.839  0.00  0.00    -0.382 N 
+ATOM     47  H   NDP d 350      23.826  22.167   6.259  0.00  0.00     0.157 HD
+ATOM     48  H   NDP d 350      22.437  21.197   6.452  0.00  0.00     0.157 HD
+ENDBRANCH  41  46
+ENDBRANCH  34  37
+BRANCH  35  49
+ATOM     49  O2B NDP d 350      27.749  20.846  12.037  0.00  0.00    -0.284 OA
+BRANCH  49  50
+ATOM     50  P2B NDP d 350      28.778  19.751  11.391  0.00  0.00     0.391 P 
+ATOM     51  O3X NDP d 350      28.490  19.771   9.895  0.00  0.00    -0.632 OA
+BRANCH  50  52
+ATOM     52  O1X NDP d 350      30.173  20.260  11.720  0.00  0.00    -0.307 OA
+ATOM     53  H   NDP d 350      30.354  21.063  11.207  0.00  0.00     0.222 HD
+ENDBRANCH  50  52
+BRANCH  50  54
+ATOM     54  O2X NDP d 350      28.332  18.492  12.112  0.00  0.00    -0.307 OA
+ATOM     55  H   NDP d 350      28.872  17.742  11.817  0.00  0.00     0.222 HD
+ENDBRANCH  50  54
+ENDBRANCH  49  50
+ENDBRANCH  35  49
+BRANCH  36  56
+ATOM     56  O3B NDP d 350      28.379  22.200  14.150  0.00  0.00    -0.390 OA
+ATOM     57  H   NDP d 350      27.430  22.113  14.331  0.00  0.00     0.210 HD
+ENDBRANCH  36  56
+ENDBRANCH  31  32
+ENDBRANCH  30  31
+ENDBRANCH   1  30
+BRANCH   1  58
+ATOM     58  O2A NDP d 350      32.127  25.087  14.439  0.00  0.00    -0.307 OA
+ATOM     59  H   NDP d 350      33.079  25.118  14.254  0.00  0.00     0.222 HD
+ENDBRANCH   1  58
+TORSDOF 21

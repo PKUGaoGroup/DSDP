@@ -1,0 +1,108 @@
+REMARK  18 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1A_5  and  CHA_1 
+REMARK    2  A    between atoms: CHA_1  and  C4D_35 
+REMARK    3  A    between atoms: CHB_2  and  C1B_16 
+REMARK    4  A    between atoms: CHB_2  and  C4A_8 
+REMARK    5  A    between atoms: C4C_27  and  CHD_3 
+REMARK    6  A    between atoms: CHD_3  and  C1D_32 
+REMARK    7  A    between atoms: C2A_6  and  CAA_9 
+REMARK    8  A    between atoms: CBA_10  and  CAA_9 
+REMARK    9  A    between atoms: CBA_10  and  CGA_11 
+REMARK   10  A    between atoms: CGA_11  and  O1A_12 
+REMARK   11  A    between atoms: CAB_21  and  C3B_18 
+REMARK   12  A    between atoms: OC_37  and  C1C_24 
+REMARK   13  A    between atoms: C3C_26  and  CAC_29 
+REMARK   14  A    between atoms: C3D_34  and  CAD_38 
+REMARK   15  A    between atoms: C44_45  and  OC_37 
+REMARK   16  A    between atoms: CBD_39  and  CAD_38 
+REMARK   17  A    between atoms: CBD_39  and  CGD_41 
+REMARK   18  A    between atoms: CGD_41  and  O1D_43 
+ROOT
+ATOM      1  ND  TBV d1253      15.224  55.878  20.620  0.00  0.00    -0.248 NA
+ATOM      2  C1D TBV d1253      16.036  55.530  21.643  0.00  0.00     0.066 A 
+ATOM      3  C2D TBV d1253      15.902  56.336  22.864  0.00  0.00    -0.025 A 
+ATOM      4  C3D TBV d1253      14.867  57.297  22.514  0.00  0.00    -0.021 A 
+ATOM      5  C4D TBV d1253      14.522  56.913  21.133  0.00  0.00     0.066 A 
+ATOM      6  CMD TBV d1253      16.642  56.205  24.160  0.00  0.00     0.051 C 
+ENDROOT
+BRANCH   5   7
+ATOM      7  CHA TBV d1253      13.541  57.644  20.348  0.00  0.00     0.064 C 
+BRANCH   7   8
+ATOM      8  C1A TBV d1253      13.079  57.283  19.021  0.00  0.00     0.066 A 
+ATOM      9  C2A TBV d1253      12.002  58.036  18.363  0.00  0.00    -0.021 A 
+ATOM     10  C3A TBV d1253      11.754  57.274  17.142  0.00  0.00    -0.028 A 
+ATOM     11  CMA TBV d1253      10.790  57.569  16.017  0.00  0.00     0.051 C 
+ATOM     12  C4A TBV d1253      12.706  56.151  17.273  0.00  0.00     0.047 A 
+ATOM     13  NA  TBV d1253      13.428  56.130  18.417  0.00  0.00    -0.252 NA
+BRANCH   9  14
+ATOM     14  CAA TBV d1253      11.364  59.319  18.803  0.00  0.00     0.052 C 
+BRANCH  14  15
+ATOM     15  CBA TBV d1253      12.243  60.510  18.460  0.00  0.00     0.115 C 
+BRANCH  15  16
+ATOM     16  CGA TBV d1253      11.514  61.711  18.999  0.00  0.00     0.139 C 
+ATOM     17  O2A TBV d1253      10.417  62.035  18.484  0.00  0.00    -0.650 OA
+BRANCH  16  18
+ATOM     18  O1A TBV d1253      12.014  62.328  19.961  0.00  0.00    -0.776 OA
+ATOM     19  H   TBV d1253      12.836  62.054  20.317  0.00  0.00     0.167 HD
+ENDBRANCH  16  18
+ENDBRANCH  15  16
+ENDBRANCH  14  15
+ENDBRANCH   9  14
+BRANCH  12  20
+ATOM     20  CHB TBV d1253      12.738  55.077  16.271  0.00  0.00     0.119 C 
+BRANCH  20  21
+ATOM     21  C1B TBV d1253      13.358  53.764  16.463  0.00  0.00     0.051 A 
+ATOM     22  C2B TBV d1253      13.305  52.697  15.444  0.00  0.00    -0.021 A 
+ATOM     23  CMB TBV d1253      12.614  52.713  14.114  0.00  0.00     0.051 C 
+ATOM     24  C3B TBV d1253      14.086  51.637  16.092  0.00  0.00     0.041 A 
+ATOM     25  C4B TBV d1253      14.480  52.211  17.391  0.00  0.00     0.278 A 
+ATOM     26  NB  TBV d1253      14.072  53.482  17.567  0.00  0.00    -0.213 NA
+ATOM     27  OB  TBV d1253      15.200  51.561  18.239  0.00  0.00    -0.265 OA
+BRANCH  24  28
+ATOM     28  CAB TBV d1253      14.392  50.288  15.567  0.00  0.00     0.007 C 
+ATOM     29  CBB TBV d1253      14.321  49.258  16.391  0.00  0.00     0.012 C 
+ENDBRANCH  24  28
+ENDBRANCH  20  21
+ENDBRANCH  12  20
+ENDBRANCH   7   8
+ENDBRANCH   5   7
+BRANCH   4  30
+ATOM     30  CAD TBV d1253      14.270  58.386  23.354  0.00  0.00     0.052 C 
+BRANCH  30  31
+ATOM     31  CBD TBV d1253      14.883  59.729  22.996  0.00  0.00     0.115 C 
+BRANCH  31  32
+ATOM     32  CGD TBV d1253      14.373  60.820  23.916  0.00  0.00     0.139 C 
+ATOM     33  O2D TBV d1253      14.566  61.994  23.547  0.00  0.00    -0.650 OA
+BRANCH  32  34
+ATOM     34  O1D TBV d1253      13.806  60.525  24.992  0.00  0.00    -0.776 OA
+ATOM     35  H   TBV d1253      13.684  59.626  25.226  0.00  0.00     0.167 HD
+ENDBRANCH  32  34
+ENDBRANCH  31  32
+ENDBRANCH  30  31
+ENDBRANCH   4  30
+BRANCH   2  36
+ATOM     36  CHD TBV d1253      16.997  54.432  21.550  0.00  0.00     0.064 C 
+BRANCH  36  37
+ATOM     37  C4C TBV d1253      17.304  53.635  20.363  0.00  0.00     0.068 A 
+ATOM     38  NC  TBV d1253      16.713  53.808  19.152  0.00  0.00    -0.228 NA
+ATOM     39  C1C TBV d1253      17.321  52.862  18.367  0.00  0.00     0.149 A 
+ATOM     40  C2C TBV d1253      18.334  51.996  19.038  0.00  0.00     0.093 A 
+ATOM     41  CMC TBV d1253      19.168  50.870  18.477  0.00  0.00     0.024 C 
+ATOM     42  C3C TBV d1253      18.301  52.559  20.397  0.00  0.00    -0.018 A 
+BRANCH  39  43
+ATOM     43  OC  TBV d1253      17.036  52.686  17.026  0.00  0.00    -0.327 OA
+BRANCH  43  44
+ATOM     44  C44 TBV d1253      17.880  53.223  15.985  0.00  0.00     0.058 C 
+ATOM     45  C45 TBV d1253      18.407  52.085  15.119  0.00  0.00     0.045 C 
+ATOM     46  C46 TBV d1253      17.061  54.208  15.158  0.00  0.00     0.045 C 
+ATOM     47  C47 TBV d1253      19.096  53.962  16.528  0.00  0.00     0.045 C 
+ENDBRANCH  43  44
+ENDBRANCH  39  43
+BRANCH  42  48
+ATOM     48  CAC TBV d1253      19.083  52.199  21.607  0.00  0.00    -0.000 C 
+ATOM     49  CBC TBV d1253      19.525  50.987  21.858  0.00  0.00     0.012 C 
+ENDBRANCH  42  48
+ENDBRANCH  36  37
+ENDBRANCH   2  36
+TORSDOF 18

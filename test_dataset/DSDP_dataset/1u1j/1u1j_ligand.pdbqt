@@ -1,0 +1,83 @@
+REMARK  12 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: NA2_3  and  C2_2 
+REMARK    2  A    between atoms: C6_9  and  C9_13 
+REMARK    3  A    between atoms: N10_14  and  C9_13 
+REMARK    4  A    between atoms: C15_19  and  N10_14 
+REMARK    5  A    between atoms: C_22  and  C12_16 
+REMARK       I    between atoms: C_22  and  N_24 
+REMARK    6  A    between atoms: CA_25  and  N_24 
+REMARK    7  A    between atoms: CB_26  and  CA_25 
+REMARK    8  A    between atoms: CA_25  and  CT_31 
+REMARK    9  A    between atoms: CG_27  and  CB_26 
+REMARK   10  A    between atoms: CD_28  and  CG_27 
+REMARK   11  A    between atoms: OE2_30  and  CD_28 
+REMARK   12  A    between atoms: CT_31  and  O2_33 
+ROOT
+ATOM      1  C12 C2F d 773     -52.338  39.150 -69.426  0.00  0.00     0.032 A 
+ATOM      2  C13 C2F d 773     -52.047  39.244 -68.034  0.00  0.00     0.019 A 
+ATOM      3  C14 C2F d 773     -50.807  38.765 -67.533  0.00  0.00     0.030 A 
+ATOM      4  C15 C2F d 773     -49.855  38.185 -68.425  0.00  0.00     0.028 A 
+ATOM      5  C16 C2F d 773     -50.155  38.093 -69.811  0.00  0.00     0.030 A 
+ATOM      6  C17 C2F d 773     -51.389  38.571 -70.310  0.00  0.00     0.019 A 
+ENDROOT
+BRANCH   4   7
+ATOM      7  N10 C2F d 773     -48.613  37.664 -68.229  0.00  0.00    -0.388 N 
+ATOM      8  H   C2F d 773     -48.301  36.941 -68.820  0.00  0.00     0.159 HD
+BRANCH   7   9
+ATOM      9  C9  C2F d 773     -47.732  38.139 -67.176  0.00  0.00     0.146 C 
+BRANCH   9  10
+ATOM     10  C6  C2F d 773     -46.781  39.270 -67.633  0.00  0.00     0.125 C 
+ATOM     11  C7  C2F d 773     -45.740  38.784 -68.621  0.00  0.00     0.299 C 
+ATOM     12  N8  C2F d 773     -45.744  39.577 -69.697  0.00  0.00     0.113 N 
+ATOM     13  C8A C2F d 773     -46.916  39.876 -70.360  0.00  0.00     0.390 C 
+ATOM     14  H   C2F d 773     -45.344  40.467 -69.401  0.00  0.00     0.318 HD
+ATOM     15  N1  C2F d 773     -46.717  40.187 -71.670  0.00  0.00    -0.068 NA
+ATOM     16  C4A C2F d 773     -47.773  40.771 -69.549  0.00  0.00     0.214 C 
+ATOM     17  C2  C2F d 773     -46.793  41.498 -71.910  0.00  0.00     0.697 C 
+ATOM     18  N3  C2F d 773     -47.183  42.444 -71.264  0.00  0.00    -0.168 N 
+ATOM     19  C4  C2F d 773     -47.880  42.115 -70.096  0.00  0.00     0.196 C 
+ATOM     20  H   C2F d 773     -47.022  43.375 -71.540  0.00  0.00     0.186 HD
+ATOM     21  O4  C2F d 773     -48.708  43.033 -69.437  0.00  0.00    -0.174 OA
+ATOM     22  N5  C2F d 773     -47.559  40.524 -68.153  0.00  0.00    -0.395 N 
+ATOM     23  C11 C2F d 773     -48.094  41.436 -67.061  0.00  0.00     0.144 C 
+BRANCH  17  24
+ATOM     24  NA2 C2F d 773     -46.312  41.935 -73.232  0.00  0.00    -0.233 N 
+ATOM     25  H   C2F d 773     -45.962  41.274 -73.872  0.00  0.00     0.174 HD
+ATOM     26  H   C2F d 773     -46.340  42.889 -73.475  0.00  0.00     0.174 HD
+ENDBRANCH  17  24
+ENDBRANCH   9  10
+ENDBRANCH   7   9
+ENDBRANCH   4   7
+BRANCH   1  27
+ATOM     27  C   C2F d 773     -53.679  39.686 -69.949  0.00  0.00     0.252 C 
+ATOM     28  O   C2F d 773     -53.713  40.430 -70.938  0.00  0.00    -0.268 OA
+ATOM     29  N   C2F d 773     -54.748  39.287 -69.245  0.00  0.00    -0.343 N 
+ATOM     30  H   C2F d 773     -54.572  38.691 -68.481  0.00  0.00     0.163 HD
+BRANCH  29  31
+ATOM     31  CA  C2F d 773     -56.163  39.644 -69.491  0.00  0.00     0.183 C 
+BRANCH  31  32
+ATOM     32  CB  C2F d 773     -56.705  39.247 -70.875  0.00  0.00     0.046 C 
+BRANCH  32  33
+ATOM     33  CG  C2F d 773     -56.794  40.422 -71.849  0.00  0.00     0.112 C 
+BRANCH  33  34
+ATOM     34  CD  C2F d 773     -57.341  39.967 -73.201  0.00  0.00     0.139 C 
+ATOM     35  OE1 C2F d 773     -56.723  39.053 -73.801  0.00  0.00    -0.650 OA
+BRANCH  34  36
+ATOM     36  OE2 C2F d 773     -58.368  40.538 -73.619  0.00  0.00    -0.776 OA
+ATOM     37  H   C2F d 773     -58.770  41.213 -73.108  0.00  0.00     0.167 HD
+ENDBRANCH  34  36
+ENDBRANCH  33  34
+ENDBRANCH  32  33
+ENDBRANCH  31  32
+BRANCH  31  38
+ATOM     38  CT  C2F d 773     -57.031  39.010 -68.393  0.00  0.00     0.163 C 
+ATOM     39  O1  C2F d 773     -58.066  39.635 -68.065  0.00  0.00    -0.648 OA
+BRANCH  38  40
+ATOM     40  O2  C2F d 773     -56.639  37.917 -67.904  0.00  0.00    -0.775 OA
+ATOM     41  H   C2F d 773     -55.848  37.522 -68.214  0.00  0.00     0.167 HD
+ENDBRANCH  38  40
+ENDBRANCH  31  38
+ENDBRANCH  29  31
+ENDBRANCH   1  27
+TORSDOF 12

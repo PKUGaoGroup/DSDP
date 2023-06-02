@@ -1,0 +1,70 @@
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O4_9  and  C4_8 
+REMARK    2  A    between atoms: O6_15  and  C6_14 
+REMARK    3  A    between atoms: C7_20  and  O7_26 
+REMARK    4  A    between atoms: C9_22  and  O9_23 
+REMARK    5  A    between atoms: C9_22  and  C13_24 
+REMARK    6  A    between atoms: C1'_27  and  O7_26 
+REMARK    7  A    between atoms: N3'_30  and  C3'_29 
+REMARK    8  A    between atoms: O4'_34  and  C4'_33 
+ROOT
+ATOM      1  O12 AKT d 600       8.832  17.972  11.214  0.00  0.00    -0.287 OA
+ATOM      2  C12 AKT d 600       9.753  17.484  10.513  0.00  0.00     0.194 A 
+ATOM      3  C15 AKT d 600      10.696  18.355   9.939  0.00  0.00     0.032 A 
+ATOM      4  C1  AKT d 600      10.604  19.738  10.162  0.00  0.00     0.017 A 
+ATOM      5  C2  AKT d 600      11.540  20.607   9.604  0.00  0.00     0.004 A 
+ATOM      6  C3  AKT d 600      12.572  20.123   8.815  0.00  0.00     0.037 A 
+ATOM      7  C16 AKT d 600      11.749  17.884   9.145  0.00  0.00     0.062 A 
+ATOM      8  C4  AKT d 600      12.672  18.756   8.584  0.00  0.00     0.080 A 
+ATOM      9  C5  AKT d 600      11.877  16.430   8.870  0.00  0.00     0.199 A 
+ATOM     10  O5  AKT d 600      12.758  16.000   8.090  0.00  0.00    -0.286 OA
+ATOM     11  C18 AKT d 600       9.807  16.092  10.317  0.00  0.00     0.032 A 
+ATOM     12  C17 AKT d 600      10.889  15.514   9.484  0.00  0.00     0.063 A 
+ATOM     13  C6  AKT d 600      10.960  14.145   9.276  0.00  0.00     0.090 A 
+ATOM     14  C11 AKT d 600       8.886  15.192  10.872  0.00  0.00     0.024 A 
+ATOM     15  C19 AKT d 600       8.983  13.808  10.630  0.00  0.00    -0.043 A 
+ATOM     16  C10 AKT d 600       8.035  12.846  11.334  0.00  0.00     0.077 C 
+ATOM     17  C20 AKT d 600      10.009  13.293   9.842  0.00  0.00     0.011 A 
+ATOM     18  C7  AKT d 600      10.127  11.823   9.716  0.00  0.00     0.163 C 
+ATOM     19  C8  AKT d 600       9.417  11.051  10.837  0.00  0.00     0.075 C 
+ATOM     20  C9  AKT d 600       9.011  11.917  12.050  0.00  0.00     0.064 C 
+ENDROOT
+BRANCH  18  21
+ATOM     21  O7  AKT d 600      11.478  11.597  10.135  0.00  0.00    -0.351 OA
+BRANCH  21  22
+ATOM     22  C1' AKT d 600      12.078  10.303   9.960  0.00  0.00     0.263 C 
+ATOM     23  C2' AKT d 600      13.261  10.438   9.015  0.00  0.00     0.088 C 
+ATOM     24  C3' AKT d 600      14.276  11.379   9.652  0.00  0.00     0.114 C 
+ATOM     25  C4' AKT d 600      14.787  10.732  10.944  0.00  0.00     0.169 C 
+ATOM     26  C5' AKT d 600      13.579  10.560  11.872  0.00  0.00     0.151 C 
+ATOM     27  O5' AKT d 600      12.539   9.801  11.231  0.00  0.00    -0.354 OA
+ATOM     28  C6' AKT d 600      13.953   9.884  13.195  0.00  0.00     0.042 C 
+BRANCH  24  29
+ATOM     29  N3' AKT d 600      15.294  11.635   8.621  0.00  0.00    -0.414 N 
+ATOM     30  C7' AKT d 600      15.347  12.799   8.111  0.00  0.00     0.143 C 
+ATOM     31  C8' AKT d 600      16.059  10.727   8.172  0.00  0.00     0.143 C 
+ENDBRANCH  24  29
+BRANCH  25  32
+ATOM     32  O4' AKT d 600      15.397   9.465  10.704  0.00  0.00    -0.391 OA
+ATOM     33  H   AKT d 600      14.748   8.864  10.304  0.00  0.00     0.210 HD
+ENDBRANCH  25  32
+ENDBRANCH  21  22
+ENDBRANCH  18  21
+BRANCH  13  34
+ATOM     34  O6  AKT d 600      11.952  13.706   8.507  0.00  0.00    -0.359 OA
+ATOM     35  H   AKT d 600      12.569  14.312   8.147  0.00  0.00     0.217 HD
+ENDBRANCH  13  34
+BRANCH  20  36
+ATOM     36  O9  AKT d 600      10.159  12.534  12.647  0.00  0.00    -0.389 OA
+ATOM     37  H   AKT d 600      10.571  13.136  12.008  0.00  0.00     0.210 HD
+ENDBRANCH  20  36
+BRANCH  20  38
+ATOM     38  C13 AKT d 600       8.324  10.953  13.025  0.00  0.00     0.034 C 
+ATOM     39  C14 AKT d 600       9.257   9.901  13.609  0.00  0.00     0.008 C 
+ENDBRANCH  20  38
+BRANCH   8  40
+ATOM     40  O4  AKT d 600      13.661  18.281   7.830  0.00  0.00    -0.360 OA
+ATOM     41  H   AKT d 600      14.285  18.869   7.451  0.00  0.00     0.217 HD
+ENDBRANCH   8  40
+TORSDOF 8

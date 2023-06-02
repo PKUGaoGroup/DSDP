@@ -1,0 +1,110 @@
+REMARK  17 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O5B_4  and  PA_1 
+REMARK    2  A    between atoms: C3_23  and  PA_1 
+REMARK    3  A    between atoms: PA_1  and  O2A_3 
+REMARK    4  A    between atoms: C5B_5  and  O5B_4 
+REMARK    5  A    between atoms: C4B_6  and  C5B_5 
+REMARK    6  A    between atoms: O3B_9  and  C3B_8 
+REMARK    7  A    between atoms: O2B_11  and  C2B_10 
+REMARK    8  A    between atoms: C1B_12  and  N9A_13 
+REMARK    9  A    between atoms: C3_23  and  PN_24 
+REMARK   10  A    between atoms: O5D_27  and  PN_24 
+REMARK   11  A    between atoms: PN_24  and  O1N_25 
+REMARK   12  A    between atoms: C5D_28  and  O5D_27 
+REMARK   13  A    between atoms: C5D_28  and  C4D_29 
+REMARK   14  A    between atoms: O3D_32  and  C3D_31 
+REMARK   15  A    between atoms: C2D_33  and  O2D_34 
+REMARK   16  A    between atoms: C1D_35  and  C2N_36 
+REMARK   17  A    between atoms: C6N_41  and  C4N_38 
+REMARK       I    between atoms: N6N_43  and  C6N_41 
+ROOT
+ATOM      1  PA  TAD d1227      55.817  27.785  20.505  0.00  0.00     0.249 P 
+ATOM      2  O1A TAD d1227      55.428  29.328  20.262  0.00  0.00    -0.653 OA
+ENDROOT
+BRANCH   1   3
+ATOM      3  O5B TAD d1227      56.394  27.538  19.019  0.00  0.00    -0.316 OA
+BRANCH   3   4
+ATOM      4  C5B TAD d1227      57.737  27.076  18.852  0.00  0.00     0.213 C 
+BRANCH   4   5
+ATOM      5  C4B TAD d1227      58.427  27.816  17.703  0.00  0.00     0.179 C 
+ATOM      6  C3B TAD d1227      59.936  27.566  17.734  0.00  0.00     0.182 C 
+ATOM      7  C2B TAD d1227      60.401  28.792  16.953  0.00  0.00     0.198 C 
+ATOM      8  C1B TAD d1227      59.566  29.851  17.675  0.00  0.00     0.262 C 
+ATOM      9  O4B TAD d1227      58.265  29.244  17.784  0.00  0.00    -0.353 OA
+BRANCH   6  10
+ATOM     10  O3B TAD d1227      60.238  26.391  16.980  0.00  0.00    -0.390 OA
+ATOM     11  H   TAD d1227      59.862  26.473  16.089  0.00  0.00     0.210 HD
+ENDBRANCH   6  10
+BRANCH   7  12
+ATOM     12  O2B TAD d1227      59.984  28.684  15.588  0.00  0.00    -0.388 OA
+ATOM     13  H   TAD d1227      59.028  28.526  15.554  0.00  0.00     0.210 HD
+ENDBRANCH   7  12
+BRANCH   8  14
+ATOM     14  N9A TAD d1227      60.079  30.104  19.043  0.00  0.00    -0.294 N 
+ATOM     15  C4A TAD d1227      61.063  30.938  19.369  0.00  0.00     0.167 A 
+ATOM     16  N3A TAD d1227      61.898  31.762  18.603  0.00  0.00    -0.222 NA
+ATOM     17  C5A TAD d1227      61.195  30.898  20.751  0.00  0.00     0.149 A 
+ATOM     18  C2A TAD d1227      62.873  32.552  19.225  0.00  0.00     0.237 A 
+ATOM     19  N1A TAD d1227      63.000  32.504  20.619  0.00  0.00    -0.222 NA
+ATOM     20  C6A TAD d1227      62.162  31.677  21.378  0.00  0.00     0.155 A 
+ATOM     21  N6A TAD d1227      62.297  31.631  22.699  0.00  0.00    -0.382 N 
+ATOM     22  H   TAD d1227      62.981  32.182  23.143  0.00  0.00     0.157 HD
+ATOM     23  H   TAD d1227      61.713  31.046  23.233  0.00  0.00     0.157 HD
+ATOM     24  N7A TAD d1227      60.287  30.043  21.209  0.00  0.00    -0.236 NA
+ATOM     25  C8A TAD d1227      59.612  29.564  20.166  0.00  0.00     0.214 A 
+ENDBRANCH   8  14
+ENDBRANCH   4   5
+ENDBRANCH   3   4
+ENDBRANCH   1   3
+BRANCH   1  26
+ATOM     26  C3  TAD d1227      54.377  26.741  20.396  0.00  0.00     0.250 C 
+BRANCH  26  27
+ATOM     27  PN  TAD d1227      54.384  25.489  21.667  0.00  0.00     0.249 P 
+ATOM     28  O2N TAD d1227      55.453  24.599  21.168  0.00  0.00    -0.653 OA
+BRANCH  27  29
+ATOM     29  O5D TAD d1227      52.827  25.066  21.628  0.00  0.00    -0.316 OA
+BRANCH  29  30
+ATOM     30  C5D TAD d1227      52.158  24.735  20.409  0.00  0.00     0.213 C 
+BRANCH  30  31
+ATOM     31  C4D TAD d1227      51.097  23.663  20.667  0.00  0.00     0.178 C 
+ATOM     32  O4D TAD d1227      51.741  22.584  21.363  0.00  0.00    -0.366 OA
+ATOM     33  C1D TAD d1227      50.880  22.152  22.428  0.00  0.00     0.212 C 
+ATOM     34  C2D TAD d1227      50.190  23.439  22.883  0.00  0.00     0.184 C 
+ATOM     35  C3D TAD d1227      49.940  24.138  21.548  0.00  0.00     0.180 C 
+BRANCH  33  36
+ATOM     36  C2N TAD d1227      51.759  21.473  23.484  0.00  0.00     0.107 A 
+ATOM     37  N3N TAD d1227      53.087  21.357  23.433  0.00  0.00    -0.237 NA
+ATOM     38  C4N TAD d1227      53.729  20.605  24.338  0.00  0.00     0.131 A 
+ATOM     39  C5N TAD d1227      52.931  20.033  25.245  0.00  0.00     0.089 A 
+ATOM     40  S1N TAD d1227      51.197  20.500  24.918  0.00  0.00    -0.081 SA
+BRANCH  38  41
+ATOM     41  C6N TAD d1227      55.242  20.374  24.295  0.00  0.00     0.268 C 
+ATOM     42  N6N TAD d1227      55.915  21.252  23.556  0.00  0.00    -0.365 N 
+ATOM     43  H   TAD d1227      55.438  21.992  23.114  0.00  0.00     0.159 HD
+ATOM     44  H   TAD d1227      56.890  21.162  23.451  0.00  0.00     0.159 HD
+ATOM     45  O6N TAD d1227      55.771  19.426  24.875  0.00  0.00    -0.266 OA
+ENDBRANCH  38  41
+ENDBRANCH  33  36
+BRANCH  34  46
+ATOM     46  O2D TAD d1227      48.926  23.124  23.474  0.00  0.00    -0.390 OA
+ATOM     47  H   TAD d1227      48.396  22.608  22.847  0.00  0.00     0.210 HD
+ENDBRANCH  34  46
+BRANCH  35  48
+ATOM     48  O3D TAD d1227      48.689  23.718  20.997  0.00  0.00    -0.390 OA
+ATOM     49  H   TAD d1227      48.686  22.753  20.900  0.00  0.00     0.210 HD
+ENDBRANCH  35  48
+ENDBRANCH  30  31
+ENDBRANCH  29  30
+ENDBRANCH  27  29
+BRANCH  27  50
+ATOM     50  O1N TAD d1227      54.609  26.498  22.901  0.00  0.00    -0.329 OA
+ATOM     51  H   TAD d1227      55.542  26.761  22.937  0.00  0.00     0.220 HD
+ENDBRANCH  27  50
+ENDBRANCH  26  27
+ENDBRANCH   1  26
+BRANCH   1  52
+ATOM     52  O2A TAD d1227      56.992  27.415  21.322  0.00  0.00    -0.329 OA
+ATOM     53  H   TAD d1227      57.666  28.109  21.251  0.00  0.00     0.220 HD
+ENDBRANCH   1  52
+TORSDOF 17

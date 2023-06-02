@@ -1,0 +1,149 @@
+REMARK  27 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C6A_6  and  N6A_7 
+REMARK    2  A    between atoms: C1B_11  and  N9A_10 
+REMARK    3  A    between atoms: O2B_13  and  C2B_12 
+REMARK    4  A    between atoms: O3B_15  and  C3B_14 
+REMARK    5  A    between atoms: P3B_16  and  O3B_15 
+REMARK    6  A    between atoms: P3B_16  and  O7A_17 
+REMARK    7  A    between atoms: P3B_16  and  O9A_19 
+REMARK    8  A    between atoms: C4B_20  and  C5B_22 
+REMARK    9  A    between atoms: C5B_22  and  O5B_23 
+REMARK   10  A    between atoms: O5B_23  and  P1A_24 
+REMARK   11  A    between atoms: P1A_24  and  O2A_26 
+REMARK   12  A    between atoms: P1A_24  and  O3A_27 
+REMARK   13  A    between atoms: O3A_27  and  P2A_28 
+REMARK   14  A    between atoms: P2A_28  and  O6A_31 
+REMARK   15  A    between atoms: P2A_28  and  O5A_30 
+REMARK   16  A    between atoms: CCP_33  and  O6A_31 
+REMARK   17  A    between atoms: CCP_33  and  CBP_32 
+REMARK   18  A    between atoms: CBP_32  and  CAP_36 
+REMARK   19  A    between atoms: OAP_37  and  CAP_36 
+REMARK   20  A    between atoms: CAP_36  and  C9P_38 
+REMARK       I    between atoms: N8P_40  and  C9P_38 
+REMARK   21  A    between atoms: N8P_40  and  C7P_41 
+REMARK   22  A    between atoms: C7P_41  and  C6P_42 
+REMARK   23  A    between atoms: C5P_43  and  C6P_42 
+REMARK       I    between atoms: N4P_45  and  C5P_43 
+REMARK   24  A    between atoms: C3P_46  and  N4P_45 
+REMARK   25  A    between atoms: C3P_46  and  C2P_47 
+REMARK   26  A    between atoms: S1P_48  and  C2P_47 
+REMARK   27  A    between atoms: S1P_48  and  C_49 
+ROOT
+ATOM      1  P1A ACO d 200      49.507  31.978  24.491  0.00  0.00     0.401 P 
+ATOM      2  O1A ACO d 200      48.127  31.469  24.628  0.00  0.00    -0.631 OA
+ENDROOT
+BRANCH   1   3
+ATOM      3  O5B ACO d 200      49.957  31.747  22.957  0.00  0.00    -0.294 OA
+BRANCH   3   4
+ATOM      4  C5B ACO d 200      50.155  32.821  22.038  0.00  0.00     0.215 C 
+BRANCH   4   5
+ATOM      5  C4B ACO d 200      50.521  32.253  20.659  0.00  0.00     0.180 C 
+ATOM      6  C3B ACO d 200      49.569  31.173  20.124  0.00  0.00     0.197 C 
+ATOM      7  C2B ACO d 200      50.228  29.925  20.696  0.00  0.00     0.199 C 
+ATOM      8  C1B ACO d 200      51.723  30.164  20.565  0.00  0.00     0.262 C 
+ATOM      9  O4B ACO d 200      51.785  31.585  20.700  0.00  0.00    -0.353 OA
+BRANCH   6  10
+ATOM     10  O3B ACO d 200      49.668  31.144  18.687  0.00  0.00    -0.286 OA
+BRANCH  10  11
+ATOM     11  P3B ACO d 200      48.412  31.588  17.759  0.00  0.00     0.391 P 
+ATOM     12  O8A ACO d 200      48.909  31.450  16.370  0.00  0.00    -0.632 OA
+BRANCH  11  13
+ATOM     13  O7A ACO d 200      47.341  30.622  18.125  0.00  0.00    -0.307 OA
+ATOM     14  H   ACO d 200      46.541  30.816  17.611  0.00  0.00     0.222 HD
+ENDBRANCH  11  13
+BRANCH  11  15
+ATOM     15  O9A ACO d 200      48.137  32.989  18.168  0.00  0.00    -0.307 OA
+ATOM     16  H   ACO d 200      47.390  33.335  17.655  0.00  0.00     0.222 HD
+ENDBRANCH  11  15
+ENDBRANCH  10  11
+ENDBRANCH   6  10
+BRANCH   7  17
+ATOM     17  O2B ACO d 200      49.868  28.789  19.907  0.00  0.00    -0.388 OA
+ATOM     18  H   ACO d 200      50.132  28.938  18.986  0.00  0.00     0.210 HD
+ENDBRANCH   7  17
+BRANCH   8  19
+ATOM     19  N9A ACO d 200      52.499  29.416  21.548  0.00  0.00    -0.294 N 
+ATOM     20  C4A ACO d 200      53.461  28.487  21.261  0.00  0.00     0.167 A 
+ATOM     21  N3A ACO d 200      53.867  28.098  20.020  0.00  0.00    -0.222 NA
+ATOM     22  C5A ACO d 200      53.929  28.041  22.463  0.00  0.00     0.149 A 
+ATOM     23  C2A ACO d 200      54.817  27.180  20.102  0.00  0.00     0.237 A 
+ATOM     24  N1A ACO d 200      55.368  26.653  21.196  0.00  0.00    -0.222 NA
+ATOM     25  C6A ACO d 200      54.949  27.055  22.417  0.00  0.00     0.155 A 
+ATOM     26  N7A ACO d 200      53.270  28.671  23.512  0.00  0.00    -0.236 NA
+ATOM     27  C8A ACO d 200      52.437  29.475  22.914  0.00  0.00     0.214 A 
+BRANCH  25  28
+ATOM     28  N6A ACO d 200      55.499  26.525  23.512  0.00  0.00    -0.382 N 
+ATOM     29  H   ACO d 200      56.204  25.843  23.428  0.00  0.00     0.157 HD
+ATOM     30  H   ACO d 200      55.199  26.816  24.404  0.00  0.00     0.157 HD
+ENDBRANCH  25  28
+ENDBRANCH   8  19
+ENDBRANCH   4   5
+ENDBRANCH   3   4
+ENDBRANCH   1   3
+BRANCH   1  31
+ATOM     31  O2A ACO d 200      49.816  33.373  24.858  0.00  0.00    -0.307 OA
+ATOM     32  H   ACO d 200      49.204  33.971  24.401  0.00  0.00     0.222 HD
+ENDBRANCH   1  31
+BRANCH   1  33
+ATOM     33  O3A ACO d 200      50.529  30.978  25.253  0.00  0.00    -0.195 OA
+BRANCH  33  34
+ATOM     34  P2A ACO d 200      50.518  30.612  26.810  0.00  0.00     0.401 P 
+ATOM     35  O4A ACO d 200      50.354  29.157  26.933  0.00  0.00    -0.631 OA
+BRANCH  34  36
+ATOM     36  O6A ACO d 200      52.014  30.998  27.269  0.00  0.00    -0.296 OA
+BRANCH  36  37
+ATOM     37  CCP ACO d 200      53.174  30.497  26.588  0.00  0.00     0.192 C 
+BRANCH  37  38
+ATOM     38  CBP ACO d 200      54.119  29.926  27.621  0.00  0.00     0.009 C 
+ATOM     39  CDP ACO d 200      55.348  29.295  26.943  0.00  0.00     0.020 C 
+ATOM     40  CEP ACO d 200      54.571  31.044  28.593  0.00  0.00     0.020 C 
+BRANCH  38  41
+ATOM     41  CAP ACO d 200      53.323  28.863  28.386  0.00  0.00     0.219 C 
+BRANCH  41  42
+ATOM     42  OAP ACO d 200      52.889  27.792  27.529  0.00  0.00    -0.385 OA
+ATOM     43  H   ACO d 200      53.663  27.342  27.156  0.00  0.00     0.210 HD
+ENDBRANCH  41  42
+BRANCH  41  44
+ATOM     44  C9P ACO d 200      54.122  28.385  29.585  0.00  0.00     0.247 C 
+ATOM     45  N8P ACO d 200      54.866  27.296  29.401  0.00  0.00    -0.358 N 
+ATOM     46  H   ACO d 200      54.890  26.906  28.497  0.00  0.00     0.162 HD
+ATOM     47  O9P ACO d 200      54.063  28.998  30.653  0.00  0.00    -0.271 OA
+BRANCH  45  48
+ATOM     48  C7P ACO d 200      55.644  26.644  30.437  0.00  0.00     0.132 C 
+BRANCH  48  49
+ATOM     49  C6P ACO d 200      56.832  27.491  30.876  0.00  0.00     0.122 C 
+BRANCH  49  50
+ATOM     50  C5P ACO d 200      57.826  27.755  29.757  0.00  0.00     0.219 C 
+ATOM     51  O5P ACO d 200      58.151  26.841  28.983  0.00  0.00    -0.274 OA
+ATOM     52  N4P ACO d 200      58.321  29.003  29.681  0.00  0.00    -0.360 N 
+ATOM     53  H   ACO d 200      57.848  29.723  30.158  0.00  0.00     0.162 HD
+BRANCH  52  54
+ATOM     54  C3P ACO d 200      59.511  29.341  28.936  0.00  0.00     0.133 C 
+BRANCH  54  55
+ATOM     55  C2P ACO d 200      59.904  30.790  29.101  0.00  0.00     0.102 C 
+BRANCH  55  56
+ATOM     56  S1P ACO d 200      61.691  30.964  29.026  0.00  0.00    -0.091 SA
+BRANCH  56  57
+ATOM     57  C   ACO d 200      62.008  31.747  30.618  0.00  0.00     0.182 C 
+ATOM     58  CH3 ACO d 200      61.989  33.264  30.704  0.00  0.00     0.104 C 
+ATOM     59  O   ACO d 200      62.232  31.066  31.632  0.00  0.00    -0.286 OA
+ENDBRANCH  56  57
+ENDBRANCH  55  56
+ENDBRANCH  54  55
+ENDBRANCH  52  54
+ENDBRANCH  49  50
+ENDBRANCH  48  49
+ENDBRANCH  45  48
+ENDBRANCH  41  44
+ENDBRANCH  38  41
+ENDBRANCH  37  38
+ENDBRANCH  36  37
+ENDBRANCH  34  36
+BRANCH  34  60
+ATOM     60  O5A ACO d 200      49.598  31.524  27.506  0.00  0.00    -0.307 OA
+ATOM     61  H   ACO d 200      48.685  31.319  27.251  0.00  0.00     0.222 HD
+ENDBRANCH  34  60
+ENDBRANCH  33  34
+ENDBRANCH   1  33
+TORSDOF 27

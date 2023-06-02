@@ -1,0 +1,61 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CBE_7  and  NBD_8 
+REMARK       I    between atoms: NBD_8  and  CBB_9 
+REMARK    2  A    between atoms: CBB_9  and  CAW_11 
+REMARK    3  A    between atoms: CAV_16  and  NAQ_17 
+REMARK    4  A    between atoms: NAQ_17  and  CAA_18 
+REMARK    5  A    between atoms: CAC_27  and  CAG_28 
+ROOT
+ATOM      1  CAA H9Z d   1      91.425  47.969 266.257  0.00  0.00     0.035 A 
+ATOM      2  CAB H9Z d   1      91.757  49.181 266.857  0.00  0.00     0.044 A 
+ATOM      3  CAF H9Z d   1      92.429  46.993 266.098  0.00  0.00     0.063 A 
+ATOM      4  CAE H9Z d   1      93.725  47.272 266.511  0.00  0.00     0.088 A 
+ATOM      5  NAM H9Z d   1      94.709  46.349 266.339  0.00  0.00    -0.257 NA
+ATOM      6  CAN H9Z d   1      96.028  46.627 266.728  0.00  0.00     0.136 A 
+ATOM      7  CAO H9Z d   1      96.324  47.847 267.330  0.00  0.00     0.136 A 
+ATOM      8  NAP H9Z d   1      95.317  48.777 267.484  0.00  0.00    -0.256 NA
+ATOM      9  CAD H9Z d   1      94.052  48.514 267.069  0.00  0.00     0.096 A 
+ATOM     10  CAC H9Z d   1      93.055  49.464 267.261  0.00  0.00     0.007 A 
+ENDROOT
+BRANCH   1  11
+ATOM     11  NAQ H9Z d   1      90.124  47.763 265.956  0.00  0.00    -0.354 N 
+ATOM     12  H18 H9Z d   1      89.403  48.106 266.607  0.00  0.00     0.166 HD
+BRANCH  11  13
+ATOM     13  CAV H9Z d   1      89.735  47.124 264.832  0.00  0.00     0.066 A 
+ATOM     14  CAW H9Z d   1      88.413  46.648 264.789  0.00  0.00     0.061 A 
+ATOM     15  CAX H9Z d   1      87.982  46.026 263.621  0.00  0.00     0.038 A 
+ATOM     16  CAY H9Z d   1      88.810  45.862 262.520  0.00  0.00     0.117 A 
+ATOM     17  NAZ H9Z d   1      90.122  46.320 262.572  0.00  0.00    -0.271 NA
+ATOM     18  CBA H9Z d   1      90.569  46.952 263.730  0.00  0.00     0.146 A 
+BRANCH  14  19
+ATOM     19  CBB H9Z d   1      87.554  46.751 265.903  0.00  0.00     0.254 C 
+ATOM     20  NBD H9Z d   1      86.584  45.830 266.062  0.00  0.00    -0.351 N 
+ATOM     21  H14 H9Z d   1      86.446  45.100 265.392  0.00  0.00     0.163 HD
+ATOM     22  OBC H9Z d   1      87.795  47.540 266.810  0.00  0.00    -0.268 OA
+BRANCH  20  23
+ATOM     23  CBE H9Z d   1      85.732  45.940 267.264  0.00  0.00     0.110 C 
+ATOM     24  CBJ H9Z d   1      84.429  46.621 266.937  0.00  0.00     0.028 C 
+ATOM     25  CBI H9Z d   1      83.495  45.705 266.157  0.00  0.00     0.030 C 
+ATOM     26  CBH H9Z d   1      83.276  44.437 266.919  0.00  0.00     0.234 C 
+ATOM     27  NBG H9Z d   1      84.544  43.762 267.212  0.00  0.00    -0.073 N 
+ATOM     28  CBK H9Z d   1      84.339  42.618 268.106  0.00  0.00     0.269 C 
+ATOM     29  CBF H9Z d   1      85.515  44.604 267.892  0.00  0.00     0.259 C 
+ATOM     30  H7  H9Z d   1      84.936  43.445 266.339  0.00  0.00     0.279 HD
+ENDBRANCH  20  23
+ENDBRANCH  14  19
+ENDBRANCH  11  13
+ENDBRANCH   1  11
+BRANCH  10  31
+ATOM     31  CAG H9Z d   1      93.320  50.704 267.883  0.00  0.00    -0.021 A 
+ATOM     32  CAH H9Z d   1      92.585  51.093 268.995  0.00  0.00     0.043 A 
+ATOM     33  CAI H9Z d   1      92.799  52.269 269.584  0.00  0.00     0.045 A 
+ATOM     34  NAT H9Z d   1      92.212  52.851 270.623  0.00  0.00    -0.360 N 
+ATOM     35  CAJ H9Z d   1      93.749  53.111 269.144  0.00  0.00    -0.008 A 
+ATOM     36  CAU H9Z d   1      91.159  52.288 271.462  0.00  0.00     0.155 C 
+ATOM     37  CAS H9Z d   1      92.797  54.039 270.848  0.00  0.00     0.091 A 
+ATOM     38  CAR H9Z d   1      93.744  54.223 269.926  0.00  0.00     0.031 A 
+ATOM     39  CAK H9Z d   1      94.491  52.778 268.082  0.00  0.00     0.014 A 
+ATOM     40  CAL H9Z d   1      94.309  51.561 267.440  0.00  0.00     0.013 A 
+ENDBRANCH  10  31
+TORSDOF 5

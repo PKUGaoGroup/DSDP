@@ -1,0 +1,67 @@
+REMARK  11 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C04_2  and  C02_1 
+REMARK    2  A    between atoms: C06_3  and  C04_2 
+REMARK    3  A    between atoms: C04_2  and  N05_13 
+REMARK    4  A    between atoms: C07_4  and  C06_3 
+REMARK    5  A    between atoms: S10_21  and  C09_6 
+REMARK    6  A    between atoms: C11_7  and  C12_8 
+REMARK    7  A    between atoms: C11_7  and  S10_21 
+REMARK    8  A    between atoms: C12_8  and  C13_9 
+REMARK    9  A    between atoms: C12_8  and  N16_14 
+REMARK   10  A    between atoms: C17_10  and  O18_19 
+REMARK   11  A    between atoms: C19_11  and  O20_20 
+ROOT
+ATOM      1  C07 HKS d   1     -11.342 -28.690 -11.302  0.00  0.00    -0.051 A 
+ATOM      2  C08 HKS d   1     -12.323 -29.637 -11.037  0.00  0.00     0.028 A 
+ATOM      3  C09 HKS d   1     -13.653 -29.340 -11.315  0.00  0.00     0.037 A 
+ATOM      4  C17 HKS d   1     -14.041 -28.087 -11.858  0.00  0.00     0.115 A 
+ATOM      5  C19 HKS d   1     -13.076 -27.149 -12.117  0.00  0.00     0.100 A 
+ATOM      6  C21 HKS d   1     -11.722 -27.442 -11.842  0.00  0.00     0.046 A 
+ENDROOT
+BRANCH   3   7
+ATOM      7  S10 HKS d   1     -14.860 -30.602 -10.940  0.00  0.00    -0.124 SA
+BRANCH   7   8
+ATOM      8  C11 HKS d   1     -15.502 -30.223  -9.355  0.00  0.00     0.123 C 
+BRANCH   8   9
+ATOM      9  C12 HKS d   1     -16.964 -30.633  -9.341  0.00  0.00     0.292 C 
+BRANCH   9  10
+ATOM     10  C13 HKS d   1     -17.828 -29.980 -10.482  0.00  0.00     0.205 C 
+ATOM     11  O14 HKS d   1     -18.838 -30.629 -10.912  0.00  0.00    -0.646 OA
+ATOM     12  O15 HKS d   1     -17.547 -28.829 -10.971  0.00  0.00    -0.646 OA
+ENDBRANCH   9  10
+BRANCH   9  13
+ATOM     13  N16 HKS d   1     -17.491 -30.311  -8.029  0.00  0.00    -0.065 N 
+ATOM     14  H12 HKS d   1     -18.464 -30.571  -7.985  0.00  0.00     0.275 HD
+ATOM     15  H13 HKS d   1     -17.400 -29.321  -7.864  0.00  0.00     0.275 HD
+ATOM     16  H14 HKS d   1     -16.975 -30.817  -7.326  0.00  0.00     0.275 HD
+ENDBRANCH   9  13
+ENDBRANCH   8   9
+ENDBRANCH   7   8
+ENDBRANCH   3   7
+BRANCH   4  17
+ATOM     17  O18 HKS d   1     -15.391 -27.690 -12.178  0.00  0.00    -0.357 OA
+ATOM     18  H15 HKS d   1     -15.987 -28.399 -11.966  0.00  0.00     0.218 HD
+ENDBRANCH   4  17
+BRANCH   1  19
+ATOM     19  C06 HKS d   1      -9.880 -29.040 -10.969  0.00  0.00     0.082 C 
+BRANCH  19  20
+ATOM     20  C04 HKS d   1      -9.552 -28.558  -9.488  0.00  0.00     0.287 C 
+BRANCH  20  21
+ATOM     21  C02 HKS d   1      -8.182 -28.769  -8.954  0.00  0.00     0.204 C 
+ATOM     22  O01 HKS d   1      -8.010 -29.591  -8.019  0.00  0.00    -0.646 OA
+ATOM     23  O03 HKS d   1      -7.225 -28.096  -9.393  0.00  0.00    -0.646 OA
+ENDBRANCH  20  21
+BRANCH  20  24
+ATOM     24  N05 HKS d   1      -9.766 -27.197  -9.421  0.00  0.00    -0.065 N 
+ATOM     25  H9  HKS d   1      -9.564 -26.870  -8.489  0.00  0.00     0.275 HD
+ATOM     26  H10 HKS d   1     -10.728 -26.997  -9.646  0.00  0.00     0.275 HD
+ATOM     27  H11 HKS d   1      -9.163 -26.729 -10.079  0.00  0.00     0.275 HD
+ENDBRANCH  20  24
+ENDBRANCH  19  20
+ENDBRANCH   1  19
+BRANCH   5  28
+ATOM     28  O20 HKS d   1     -13.548 -25.928 -12.670  0.00  0.00    -0.358 OA
+ATOM     29  H16 HKS d   1     -14.493 -25.968 -12.762  0.00  0.00     0.217 HD
+ENDBRANCH   5  28
+TORSDOF 11

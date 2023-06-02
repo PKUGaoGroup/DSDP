@@ -1,0 +1,34 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_2  and  N_1 
+REMARK    2  A    between atoms: C6_7  and  N_1 
+REMARK    3  A    between atoms: N_1  and  C2_3 
+REMARK    4  A    between atoms: N_1  and  C4_5 
+REMARK    5  A    between atoms: C8_9  and  C1_2 
+ROOT
+ATOM      1  N   BTM d 704       9.284  -0.324 -17.752  0.00  0.00    -0.064 N 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C1  BTM d 704       9.261  -1.117 -19.005  0.00  0.00     0.275 C 
+BRANCH   2   3
+ATOM      3  C8  BTM d 704       9.675  -0.376 -20.295  0.00  0.00    -0.032 A 
+ATOM      4  C13 BTM d 704       8.649   0.160 -21.174  0.00  0.00     0.009 A 
+ATOM      5  C12 BTM d 704       9.005   0.823 -22.437  0.00  0.00     0.001 A 
+ATOM      6  C11 BTM d 704      10.403   0.950 -22.813  0.00  0.00     0.000 A 
+ATOM      7  C10 BTM d 704      11.407   0.447 -21.958  0.00  0.00     0.001 A 
+ATOM      8  C9  BTM d 704      11.045  -0.275 -20.652  0.00  0.00     0.009 A 
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1   9
+ATOM      9  C6  BTM d 704       8.360   0.797 -17.936  0.00  0.00     0.233 C 
+ATOM     10  C7  BTM d 704       8.403   1.908 -16.870  0.00  0.00     0.035 C 
+ENDBRANCH   1   9
+BRANCH   1  11
+ATOM     11  C2  BTM d 704      10.738  -0.195 -17.500  0.00  0.00     0.233 C 
+ATOM     12  C3  BTM d 704      11.270  -0.022 -16.076  0.00  0.00     0.035 C 
+ENDBRANCH   1  11
+BRANCH   1  13
+ATOM     13  C4  BTM d 704       8.644  -1.192 -16.733  0.00  0.00     0.233 C 
+ATOM     14  C5  BTM d 704       7.197  -1.592 -17.028  0.00  0.00     0.035 C 
+ENDBRANCH   1  13
+TORSDOF 5

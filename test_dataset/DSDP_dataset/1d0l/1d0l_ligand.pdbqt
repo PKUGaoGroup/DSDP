@@ -1,0 +1,114 @@
+REMARK  20 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O1_7  and  C1_1 
+REMARK    2  A    between atoms: C2_2  and  N2_8 
+REMARK    3  A    between atoms: C3_3  and  O3_12 
+REMARK    4  A    between atoms: C4_4  and  O4_13 
+REMARK    5  A    between atoms: C6_18  and  C5_5 
+REMARK    6  A    between atoms: CB_21  and  O1_7 
+REMARK       I    between atoms: C7_9  and  N2_8 
+REMARK    7  A    between atoms: S4_14  and  O4_13 
+REMARK    8  A    between atoms: O43_17  and  S4_14 
+REMARK    9  A    between atoms: O41_15  and  S4_14 
+REMARK   10  A    between atoms: S4_14  and  O42_16 
+REMARK   11  A    between atoms: O6_19  and  C6_18 
+REMARK   12  A    between atoms: CA_20  and  C9_25 
+REMARK   13  A    between atoms: C10_27  and  CD_23 
+REMARK   14  A    between atoms: C9_25  and  O9_26 
+REMARK       I    between atoms: N3_29  and  C10_27 
+REMARK   15  A    between atoms: C11_30  and  N3_29 
+REMARK   16  A    between atoms: C11_30  and  C12_31 
+REMARK   17  A    between atoms: C12_31  and  S_32 
+REMARK   18  A    between atoms: OS1_33  and  S_32 
+REMARK   19  A    between atoms: OS2_34  and  S_32 
+REMARK   20  A    between atoms: S_32  and  OS3_35 
+ROOT
+ATOM      1  C1  BLG d 401       7.573  23.794  13.488  0.00  0.00     0.286 C 
+ATOM      2  C2  BLG d 401       9.064  24.050  13.774  0.00  0.00     0.170 C 
+ATOM      3  C3  BLG d 401       9.215  25.066  14.927  0.00  0.00     0.178 C 
+ATOM      4  C4  BLG d 401       8.344  26.310  14.671  0.00  0.00     0.204 C 
+ATOM      5  C5  BLG d 401       6.872  25.917  14.380  0.00  0.00     0.181 C 
+ATOM      6  O5  BLG d 401       6.857  25.012  13.278  0.00  0.00    -0.349 OA
+ENDROOT
+BRANCH   1   7
+ATOM      7  O1  BLG d 401       7.487  22.979  12.323  0.00  0.00    -0.351 OA
+BRANCH   7   8
+ATOM      8  CB  BLG d 401       6.234  22.389  12.094  0.00  0.00     0.162 C 
+ATOM      9  CG  BLG d 401       5.400  23.084  11.037  0.00  0.00     0.080 C 
+ATOM     10  CD  BLG d 401       4.398  21.976  10.749  0.00  0.00     0.314 C 
+ATOM     11  N   BLG d 401       5.228  20.705  10.865  0.00  0.00     0.106 N 
+ATOM     12  CA  BLG d 401       6.523  21.078  11.419  0.00  0.00     0.273 C 
+ATOM     13  H   BLG d 401       5.351  20.284   9.944  0.00  0.00     0.317 HD
+BRANCH  10  14
+ATOM     14  C10 BLG d 401       3.755  22.064   9.355  0.00  0.00     0.251 C 
+ATOM     15  O10 BLG d 401       4.422  21.795   8.352  0.00  0.00    -0.271 OA
+ATOM     16  N3  BLG d 401       2.487  22.467   9.296  0.00  0.00    -0.358 N 
+ATOM     17  H   BLG d 401       2.029  22.672  10.143  0.00  0.00     0.162 HD
+BRANCH  16  18
+ATOM     18  C11 BLG d 401       1.732  22.624   8.054  0.00  0.00     0.137 C 
+BRANCH  18  19
+ATOM     19  C12 BLG d 401       0.305  22.123   8.166  0.00  0.00     0.156 C 
+BRANCH  19  20
+ATOM     20  S   BLG d 401       0.189  20.306   8.240  0.00  0.00     0.082 S 
+BRANCH  20  21
+ATOM     21  OS1 BLG d 401      -0.772  19.825   7.248  0.00  0.00    -0.308 OA
+ATOM     22  H   BLG d 401      -0.493  20.108   6.363  0.00  0.00     0.230 HD
+ENDBRANCH  20  21
+BRANCH  20  23
+ATOM     23  OS2 BLG d 401       1.468  19.672   7.921  0.00  0.00    -0.308 OA
+ATOM     24  H   BLG d 401       1.752  19.945   7.035  0.00  0.00     0.230 HD
+ENDBRANCH  20  23
+BRANCH  20  25
+ATOM     25  OS3 BLG d 401      -0.225  19.883   9.579  0.00  0.00    -0.308 OA
+ATOM     26  H   BLG d 401      -0.284  18.915   9.609  0.00  0.00     0.230 HD
+ENDBRANCH  20  25
+ENDBRANCH  19  20
+ENDBRANCH  18  19
+ENDBRANCH  16  18
+ENDBRANCH  10  14
+BRANCH  12  27
+ATOM     27  C9  BLG d 401       7.025  19.989  12.361  0.00  0.00     0.202 C 
+BRANCH  27  28
+ATOM     28  O9  BLG d 401       6.022  19.659  13.309  0.00  0.00    -0.399 OA
+ATOM     29  H   BLG d 401       5.799  20.445  13.831  0.00  0.00     0.209 HD
+ENDBRANCH  27  28
+ENDBRANCH  12  27
+ENDBRANCH   7   8
+ENDBRANCH   1   7
+BRANCH   2  30
+ATOM     30  N2  BLG d 401       9.696  22.784  14.094  0.00  0.00    -0.349 N 
+ATOM     31  C7  BLG d 401      10.646  22.262  13.325  0.00  0.00     0.214 C 
+ATOM     32  O7  BLG d 401      11.074  22.822  12.314  0.00  0.00    -0.274 OA
+ATOM     33  C8  BLG d 401      11.253  20.935  13.717  0.00  0.00     0.117 C 
+ATOM     34  H   BLG d 401       9.414  22.299  14.902  0.00  0.00     0.163 HD
+ENDBRANCH   2  30
+BRANCH   5  35
+ATOM     35  C6  BLG d 401       5.875  27.053  14.052  0.00  0.00     0.199 C 
+BRANCH  35  36
+ATOM     36  O6  BLG d 401       6.149  27.602  12.769  0.00  0.00    -0.398 OA
+ATOM     37  H   BLG d 401       6.060  26.910  12.095  0.00  0.00     0.209 HD
+ENDBRANCH  35  36
+ENDBRANCH   5  35
+BRANCH   3  38
+ATOM     38  O3  BLG d 401      10.551  25.485  15.135  0.00  0.00    -0.391 OA
+ATOM     39  H   BLG d 401      10.869  25.954  14.348  0.00  0.00     0.210 HD
+ENDBRANCH   3  38
+BRANCH   4  40
+ATOM     40  O4  BLG d 401       8.410  27.134  15.823  0.00  0.00    -0.266 OA
+BRANCH  40  41
+ATOM     41  S4  BLG d 401       8.895  28.637  15.641  0.00  0.00     0.221 S 
+BRANCH  41  42
+ATOM     42  O43 BLG d 401       8.078  29.288  14.616  0.00  0.00    -0.286 OA
+ATOM     43  H   BLG d 401       8.206  28.837  13.767  0.00  0.00     0.232 HD
+ENDBRANCH  41  42
+BRANCH  41  44
+ATOM     44  O41 BLG d 401      10.276  28.667  15.210  0.00  0.00    -0.286 OA
+ATOM     45  H   BLG d 401      10.358  28.215  14.356  0.00  0.00     0.232 HD
+ENDBRANCH  41  44
+BRANCH  41  46
+ATOM     46  O42 BLG d 401       8.713  29.304  16.922  0.00  0.00    -0.286 OA
+ATOM     47  H   BLG d 401       9.000  30.228  16.849  0.00  0.00     0.232 HD
+ENDBRANCH  41  46
+ENDBRANCH  40  41
+ENDBRANCH   4  40
+TORSDOF 20

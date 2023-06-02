@@ -1,0 +1,25 @@
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C3_3  and  O2_10 
+REMARK    2  A    between atoms: C6_6  and  O1_9 
+ROOT
+ATOM      1  C1  DIN d 401      26.153  31.881   8.710  0.00  0.00    -0.021 A 
+ATOM      2  C2  DIN d 401      24.959  31.390   9.301  0.00  0.00     0.049 A 
+ATOM      3  C3  DIN d 401      25.028  30.627  10.451  0.00  0.00     0.066 A 
+ATOM      4  C4  DIN d 401      26.279  30.324  11.055  0.00  0.00     0.037 A 
+ATOM      5  C5  DIN d 401      27.435  30.796  10.488  0.00  0.00     0.018 A 
+ATOM      6  C6  DIN d 401      28.585  32.099   8.675  0.00  0.00     0.076 A 
+ATOM      7  C7  DIN d 401      27.251  33.138   6.948  0.00  0.00     0.004 A 
+ATOM      8  C8  DIN d 401      26.099  32.663   7.525  0.00  0.00     0.012 A 
+ATOM      9  C9  DIN d 401      28.509  32.861   7.519  0.00  0.00     0.037 A 
+ATOM     10  C10 DIN d 401      27.409  31.584   9.306  0.00  0.00     0.007 A 
+ENDROOT
+BRANCH   3  11
+ATOM     11  O2  DIN d 401      23.839  30.179  10.983  0.00  0.00    -0.361 OA
+ATOM     12  H   DIN d 401      23.028  30.393  10.565  0.00  0.00     0.217 HD
+ENDBRANCH   3  11
+BRANCH   6  13
+ATOM     13  O1  DIN d 401      29.857  31.880   9.155  0.00  0.00    -0.360 OA
+ATOM     14  H   DIN d 401      30.596  32.239   8.705  0.00  0.00     0.217 HD
+ENDBRANCH   6  13
+TORSDOF 2

@@ -1,0 +1,87 @@
+REMARK  14 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA_2  and  N10_1 
+REMARK    2  A    between atoms: C9_5  and  CA_2 
+REMARK    3  A    between atoms: CA_2  and  CB_3 
+REMARK    4  A    between atoms: OG_4  and  CB_3 
+REMARK       I    between atoms: N8_7  and  C9_5 
+REMARK    5  A    between atoms: O3A_11  and  N8_7 
+REMARK    6  A    between atoms: O5'_12  and  PA_8 
+REMARK    7  A    between atoms: PA_8  and  O2A_10 
+REMARK    8  A    between atoms: PA_8  and  O3A_11 
+REMARK    9  A    between atoms: O5'_12  and  C5'_13 
+REMARK   10  A    between atoms: C4'_14  and  C5'_13 
+REMARK   11  A    between atoms: C3'_16  and  O3'_17 
+REMARK   12  A    between atoms: C2'_18  and  O2'_19 
+REMARK   13  A    between atoms: N9_21  and  C1'_20 
+REMARK   14  A    between atoms: N6_26  and  C6_25 
+ROOT
+ATOM      1  C4' AHX d 422      56.152  12.464  57.657  0.00  0.00     0.180 C 
+ATOM      2  O4' AHX d 422      55.773  11.328  56.851  0.00  0.00    -0.353 OA
+ATOM      3  C3' AHX d 422      56.664  13.557  56.746  0.00  0.00     0.182 C 
+ATOM      4  C2' AHX d 422      57.288  12.752  55.641  0.00  0.00     0.198 C 
+ATOM      5  C1' AHX d 422      56.313  11.597  55.547  0.00  0.00     0.262 C 
+ENDROOT
+BRANCH   1   6
+ATOM      6  C5' AHX d 422      55.060  13.006  58.563  0.00  0.00     0.215 C 
+BRANCH   6   7
+ATOM      7  O5' AHX d 422      53.843  13.384  57.897  0.00  0.00    -0.293 OA
+BRANCH   7   8
+ATOM      8  PA  AHX d 422      52.974  14.634  58.408  0.00  0.00     0.415 P 
+ATOM      9  O1A AHX d 422      52.221  15.236  57.292  0.00  0.00    -0.630 OA
+BRANCH   8  10
+ATOM     10  O2A AHX d 422      53.915  15.482  59.188  0.00  0.00    -0.306 OA
+ATOM     11  H   AHX d 422      54.597  15.836  58.596  0.00  0.00     0.222 HD
+ENDBRANCH   8  10
+BRANCH   8  12
+ATOM     12  O3A AHX d 422      51.881  14.072  59.380  0.00  0.00    -0.171 OA
+BRANCH  12  13
+ATOM     13  N8  AHX d 422      52.281  14.054  60.697  0.00  0.00    -0.222 N 
+ATOM     14  C9  AHX d 422      52.444  12.862  61.205  0.00  0.00     0.277 C 
+ATOM     15  O9  AHX d 422      52.196  11.821  60.578  0.00  0.00    -0.269 OA
+ATOM     16  H   AHX d 422      52.433  14.877  61.216  0.00  0.00     0.198 HD
+BRANCH  14  17
+ATOM     17  CA  AHX d 422      52.865  12.783  62.641  0.00  0.00     0.334 C 
+BRANCH  17  18
+ATOM     18  CB  AHX d 422      54.348  12.659  62.755  0.00  0.00     0.209 C 
+BRANCH  18  19
+ATOM     19  OG  AHX d 422      54.704  11.505  61.979  0.00  0.00    -0.398 OA
+ATOM     20  H   AHX d 422      54.409  11.628  61.063  0.00  0.00     0.209 HD
+ENDBRANCH  18  19
+ENDBRANCH  17  18
+BRANCH  17  21
+ATOM     21  N10 AHX d 422      52.255  11.523  62.964  0.00  0.00     0.094 N 
+ATOM     22  H   AHX d 422      51.241  11.606  62.886  0.00  0.00     0.314 HD
+ATOM     23  H   AHX d 422      52.503  11.260  63.918  0.00  0.00     0.314 HD
+ENDBRANCH  17  21
+ENDBRANCH  14  17
+ENDBRANCH  12  13
+ENDBRANCH   8  12
+ENDBRANCH   7   8
+ENDBRANCH   6   7
+ENDBRANCH   1   6
+BRANCH   3  24
+ATOM     24  O3' AHX d 422      57.630  14.388  57.418  0.00  0.00    -0.390 OA
+ATOM     25  H   AHX d 422      58.352  13.836  57.756  0.00  0.00     0.210 HD
+ENDBRANCH   3  24
+BRANCH   4  26
+ATOM     26  O2' AHX d 422      58.501  12.209  56.094  0.00  0.00    -0.388 OA
+ATOM     27  H   AHX d 422      58.346  11.706  56.909  0.00  0.00     0.210 HD
+ENDBRANCH   4  26
+BRANCH   5  28
+ATOM     28  N9  AHX d 422      55.241  11.891  54.598  0.00  0.00    -0.294 N 
+ATOM     29  C4  AHX d 422      55.213  11.388  53.302  0.00  0.00     0.167 A 
+ATOM     30  N3  AHX d 422      56.181  10.634  52.697  0.00  0.00    -0.222 NA
+ATOM     31  C5  AHX d 422      53.996  11.763  52.778  0.00  0.00     0.149 A 
+ATOM     32  C2  AHX d 422      55.838  10.436  51.438  0.00  0.00     0.237 C 
+ATOM     33  N1  AHX d 422      54.693  10.713  50.820  0.00  0.00    -0.222 NA
+ATOM     34  C6  AHX d 422      53.721  11.351  51.465  0.00  0.00     0.155 C 
+ATOM     35  N7  AHX d 422      53.216  12.395  53.758  0.00  0.00    -0.236 NA
+ATOM     36  C8  AHX d 422      53.989  12.446  54.819  0.00  0.00     0.214 A 
+BRANCH  34  37
+ATOM     37  N6  AHX d 422      52.549  11.548  50.872  0.00  0.00    -0.382 N 
+ATOM     38  H   AHX d 422      52.407  11.239  49.948  0.00  0.00     0.157 HD
+ATOM     39  H   AHX d 422      51.822  12.003  51.356  0.00  0.00     0.157 HD
+ENDBRANCH  34  37
+ENDBRANCH   5  28
+TORSDOF 14

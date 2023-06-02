@@ -1,0 +1,109 @@
+REMARK  14 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C37_8  and  O13_9 
+REMARK    2  A    between atoms: C35_10  and  O13_9 
+REMARK    3  A    between atoms: O12_15  and  C33_14 
+REMARK    4  A    between atoms: O18_44  and  C31_17 
+REMARK    5  A    between atoms: C45_45  and  O7_18 
+REMARK    6  A    between atoms: O7_18  and  C7_19 
+REMARK    7  A    between atoms: O9_22  and  C9_21 
+REMARK    8  A    between atoms: C9_21  and  C13_23 
+REMARK    9  A    between atoms: C10_27  and  C43_46 
+REMARK   10  A    between atoms: O6_32  and  C6_31 
+REMARK   11  A    between atoms: O4_43  and  C4_42 
+REMARK   12  A    between atoms: C48_56  and  O18_44 
+REMARK   13  A    between atoms: C43_46  and  O17_48 
+REMARK   14  A    between atoms: N11_52  and  C47_51 
+ROOT
+ATOM      1  C7  AKY d 601      17.396 192.473  17.556  0.00  0.00     0.163 C 
+ATOM      2  C8  AKY d 601      16.967 192.389  18.969  0.00  0.00     0.076 C 
+ATOM      3  C9  AKY d 601      15.467 192.498  19.070  0.00  0.00     0.077 C 
+ATOM      4  C20 AKY d 601      16.422 191.805  16.639  0.00  0.00     0.012 A 
+ATOM      5  C19 AKY d 601      15.188 191.288  17.041  0.00  0.00    -0.029 A 
+ATOM      6  C10 AKY d 601      14.895 191.248  18.521  0.00  0.00     0.153 C 
+ATOM      7  C11 AKY d 601      14.363 190.628  16.130  0.00  0.00     0.025 A 
+ATOM      8  C18 AKY d 601      14.765 190.460  14.805  0.00  0.00     0.032 A 
+ATOM      9  C17 AKY d 601      16.002 190.966  14.386  0.00  0.00     0.063 A 
+ATOM     10  C6  AKY d 601      16.799 191.636  15.307  0.00  0.00     0.090 A 
+ATOM     11  C12 AKY d 601      13.940 189.739  13.912  0.00  0.00     0.194 A 
+ATOM     12  O3  AKY d 601      12.827 189.289  14.261  0.00  0.00    -0.287 OA
+ATOM     13  C15 AKY d 601      14.392 189.514  12.588  0.00  0.00     0.032 A 
+ATOM     14  C1  AKY d 601      13.612 188.744  11.727  0.00  0.00     0.017 A 
+ATOM     15  C2  AKY d 601      14.030 188.447  10.429  0.00  0.00     0.004 A 
+ATOM     16  C3  AKY d 601      15.257 188.955  10.003  0.00  0.00     0.037 A 
+ATOM     17  C16 AKY d 601      15.641 190.018  12.163  0.00  0.00     0.062 A 
+ATOM     18  C5  AKY d 601      16.450 190.747  13.062  0.00  0.00     0.199 A 
+ATOM     19  O5  AKY d 601      17.586 191.187  12.797  0.00  0.00    -0.286 OA
+ATOM     20  C4  AKY d 601      16.047 189.726  10.852  0.00  0.00     0.080 A 
+ENDROOT
+BRANCH   1  21
+ATOM     21  O7  AKY d 601      17.441 193.842  17.151  0.00  0.00    -0.351 OA
+BRANCH  21  22
+ATOM     22  C45 AKY d 601      18.790 194.292  16.962  0.00  0.00     0.263 C 
+ATOM     23  C46 AKY d 601      18.762 195.784  16.646  0.00  0.00     0.088 C 
+ATOM     24  C47 AKY d 601      20.147 196.412  16.736  0.00  0.00     0.114 C 
+ATOM     25  C48 AKY d 601      20.765 196.177  18.115  0.00  0.00     0.175 C 
+ATOM     26  C49 AKY d 601      20.862 194.688  18.400  0.00  0.00     0.151 C 
+ATOM     27  O19 AKY d 601      19.625 194.035  18.064  0.00  0.00    -0.354 OA
+ATOM     28  C50 AKY d 601      22.201 193.954  18.261  0.00  0.00     0.042 C 
+BRANCH  24  29
+ATOM     29  N11 AKY d 601      21.001 196.617  15.552  0.00  0.00    -0.414 N 
+ATOM     30  C52 AKY d 601      21.017 197.886  14.909  0.00  0.00     0.143 C 
+ATOM     31  C51 AKY d 601      22.230 195.901  15.481  0.00  0.00     0.143 C 
+ENDBRANCH  24  29
+BRANCH  25  32
+ATOM     32  O18 AKY d 601      22.092 196.736  18.146  0.00  0.00    -0.351 OA
+BRANCH  32  33
+ATOM     33  C31 AKY d 601      22.435 197.326  19.410  0.00  0.00     0.263 C 
+ATOM     34  C32 AKY d 601      23.788 197.674  19.583  0.00  0.00     0.095 C 
+ATOM     35  C33 AKY d 601      24.205 198.616  18.639  0.00  0.00     0.154 C 
+ATOM     36  C35 AKY d 601      23.441 199.927  18.696  0.00  0.00     0.182 C 
+ATOM     37  C34 AKY d 601      21.929 199.739  18.857  0.00  0.00     0.152 C 
+ATOM     38  C36 AKY d 601      21.282 200.904  19.374  0.00  0.00     0.042 C 
+ATOM     39  O11 AKY d 601      21.524 198.514  19.676  0.00  0.00    -0.354 OA
+BRANCH  35  40
+ATOM     40  O12 AKY d 601      25.706 198.700  18.422  0.00  0.00    -0.393 OA
+ATOM     41  H   AKY d 601      26.128 199.060  19.218  0.00  0.00     0.210 HD
+ENDBRANCH  35  40
+BRANCH  36  42
+ATOM     42  O13 AKY d 601      23.981 200.805  19.639  0.00  0.00    -0.347 OA
+BRANCH  42  43
+ATOM     43  C37 AKY d 601      24.345 202.073  19.156  0.00  0.00     0.291 C 
+ATOM     44  O14 AKY d 601      25.662 202.106  18.622  0.00  0.00    -0.314 OA
+ATOM     45  C39 AKY d 601      25.984 203.369  18.087  0.00  0.00     0.113 C 
+ATOM     46  C41 AKY d 601      26.138 203.231  16.761  0.00  0.00     0.055 C 
+ATOM     47  C42 AKY d 601      25.720 204.589  19.061  0.00  0.00     0.204 C 
+ATOM     48  O15 AKY d 601      26.183 205.732  18.892  0.00  0.00    -0.285 OA
+ATOM     49  C40 AKY d 601      24.574 204.440  20.091  0.00  0.00     0.058 C 
+ATOM     50  C38 AKY d 601      23.978 203.094  20.175  0.00  0.00     0.037 C 
+ENDBRANCH  42  43
+ENDBRANCH  36  42
+ENDBRANCH  32  33
+ENDBRANCH  25  32
+ENDBRANCH  21  22
+ENDBRANCH   1  21
+BRANCH  10  51
+ATOM     51  O6  AKY d 601      17.999 192.131  14.937  0.00  0.00    -0.359 OA
+ATOM     52  H   AKY d 601      18.291 192.039  14.051  0.00  0.00     0.217 HD
+ENDBRANCH  10  51
+BRANCH   3  53
+ATOM     53  O9  AKY d 601      15.107 193.616  18.334  0.00  0.00    -0.389 OA
+ATOM     54  H   AKY d 601      15.388 193.501  17.413  0.00  0.00     0.210 HD
+ENDBRANCH   3  53
+BRANCH   3  55
+ATOM     55  C13 AKY d 601      15.089 192.554  20.506  0.00  0.00     0.034 C 
+ATOM     56  C14 AKY d 601      15.763 193.824  21.029  0.00  0.00     0.008 C 
+ENDBRANCH   3  55
+BRANCH   6  57
+ATOM     57  C43 AKY d 601      15.608 190.019  19.078  0.00  0.00     0.270 C 
+ATOM     58  O16 AKY d 601      16.684 189.629  18.611  0.00  0.00    -0.264 OA
+BRANCH  57  59
+ATOM     59  O17 AKY d 601      15.057 189.298  20.097  0.00  0.00    -0.326 OA
+ATOM     60  C44 AKY d 601      14.850 187.962  19.621  0.00  0.00     0.213 C 
+ENDBRANCH  57  59
+ENDBRANCH   6  57
+BRANCH  20  61
+ATOM     61  O4  AKY d 601      17.236 190.174  10.373  0.00  0.00    -0.360 OA
+ATOM     62  H   AKY d 601      17.494 189.971   9.495  0.00  0.00     0.217 HD
+ENDBRANCH  20  61
+TORSDOF 14

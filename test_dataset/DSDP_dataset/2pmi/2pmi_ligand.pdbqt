@@ -1,0 +1,89 @@
+REMARK  15 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O3B_8  and  PG_1 
+REMARK    2  A    between atoms: PG_1  and  S1G_2 
+REMARK    3  A    between atoms: PG_1  and  O3G_4 
+REMARK    4  A    between atoms: O3A_12  and  PB_5 
+REMARK    5  A    between atoms: PB_5  and  O3B_8 
+REMARK    6  A    between atoms: PB_5  and  O1B_6 
+REMARK    7  A    between atoms: O3A_12  and  PA_9 
+REMARK    8  A    between atoms: PA_9  and  O5'_13 
+REMARK    9  A    between atoms: PA_9  and  O2A_11 
+REMARK   10  A    between atoms: O5'_13  and  C5'_14 
+REMARK   11  A    between atoms: C4'_15  and  C5'_14 
+REMARK   12  A    between atoms: O3'_18  and  C3'_17 
+REMARK   13  A    between atoms: C2'_19  and  O2'_20 
+REMARK   14  A    between atoms: N9_22  and  C1'_21 
+REMARK   15  A    between atoms: N6_27  and  C6_26 
+ROOT
+ATOM      1  C4' AGS d3001     -82.545  19.955  -6.119  0.00  0.00     0.180 C 
+ATOM      2  O4' AGS d3001     -82.823  19.967  -7.542  0.00  0.00    -0.353 OA
+ATOM      3  C3' AGS d3001     -82.105  18.500  -5.814  0.00  0.00     0.182 C 
+ATOM      4  C2' AGS d3001     -82.984  17.689  -6.799  0.00  0.00     0.198 C 
+ATOM      5  C1' AGS d3001     -83.086  18.617  -8.032  0.00  0.00     0.262 C 
+ENDROOT
+BRANCH   1   6
+ATOM      6  C5' AGS d3001     -81.690  21.075  -5.492  0.00  0.00     0.215 C 
+BRANCH   6   7
+ATOM      7  O5' AGS d3001     -81.167  22.084  -6.366  0.00  0.00    -0.294 OA
+BRANCH   7   8
+ATOM      8  PA  AGS d3001     -79.560  21.934  -6.526  0.00  0.00     0.401 P 
+ATOM      9  O1A AGS d3001     -79.343  21.258  -7.820  0.00  0.00    -0.631 OA
+BRANCH   8  10
+ATOM     10  O3A AGS d3001     -78.861  23.399  -6.676  0.00  0.00    -0.195 OA
+BRANCH  10  11
+ATOM     11  PB  AGS d3001     -77.600  23.926  -5.788  0.00  0.00     0.409 P 
+ATOM     12  O2B AGS d3001     -76.534  24.729  -6.702  0.00  0.00    -0.631 OA
+BRANCH  11  13
+ATOM     13  O3B AGS d3001     -76.779  22.763  -5.013  0.00  0.00    -0.209 OA
+BRANCH  13  14
+ATOM     14  PG  AGS d3001     -77.195  22.327  -3.506  0.00  0.00     0.309 P 
+ATOM     15  O2G AGS d3001     -77.013  20.727  -3.435  0.00  0.00    -0.645 OA
+BRANCH  14  16
+ATOM     16  S1G AGS d3001     -78.961  22.710  -3.026  0.00  0.00    -0.064 SA
+ATOM     17  H   AGS d3001     -79.809  22.126  -3.914  0.00  0.00     0.113 HD
+ENDBRANCH  14  16
+BRANCH  14  18
+ATOM     18  O3G AGS d3001     -76.189  23.020  -2.452  0.00  0.00    -0.321 OA
+ATOM     19  H   AGS d3001     -75.273  22.821  -2.701  0.00  0.00     0.221 HD
+ENDBRANCH  14  18
+ENDBRANCH  13  14
+ENDBRANCH  11  13
+BRANCH  11  20
+ATOM     20  O1B AGS d3001     -78.127  24.941  -4.848  0.00  0.00    -0.307 OA
+ATOM     21  H   AGS d3001     -78.611  25.620  -5.343  0.00  0.00     0.222 HD
+ENDBRANCH  11  20
+ENDBRANCH  10  11
+ENDBRANCH   8  10
+BRANCH   8  22
+ATOM     22  O2A AGS d3001     -78.847  20.913  -5.497  0.00  0.00    -0.307 OA
+ATOM     23  H   AGS d3001     -77.893  20.892  -5.671  0.00  0.00     0.222 HD
+ENDBRANCH   8  22
+ENDBRANCH   7   8
+ENDBRANCH   6   7
+ENDBRANCH   1   6
+BRANCH   3  24
+ATOM     24  O3' AGS d3001     -80.707  18.218  -6.004  0.00  0.00    -0.390 OA
+ATOM     25  H   AGS d3001     -80.463  18.397  -6.926  0.00  0.00     0.210 HD
+ENDBRANCH   3  24
+BRANCH   5  26
+ATOM     26  N9  AGS d3001     -82.114  18.212  -9.076  0.00  0.00    -0.294 N 
+ATOM     27  C4  AGS d3001     -82.025  17.011  -9.735  0.00  0.00     0.167 A 
+ATOM     28  C5  AGS d3001     -80.925  17.095 -10.623  0.00  0.00     0.149 A 
+ATOM     29  N3  AGS d3001     -82.734  15.877  -9.677  0.00  0.00    -0.222 NA
+ATOM     30  C6  AGS d3001     -80.638  15.941 -11.400  0.00  0.00     0.155 A 
+ATOM     31  N7  AGS d3001     -80.405  18.331 -10.486  0.00  0.00    -0.236 NA
+ATOM     32  N1  AGS d3001     -81.413  14.853 -11.263  0.00  0.00    -0.222 NA
+ATOM     33  C2  AGS d3001     -82.449  14.814 -10.422  0.00  0.00     0.237 A 
+ATOM     34  C8  AGS d3001     -81.101  18.968  -9.595  0.00  0.00     0.214 A 
+BRANCH  30  35
+ATOM     35  N6  AGS d3001     -79.577  15.924 -12.293  0.00  0.00    -0.382 N 
+ATOM     36  H   AGS d3001     -79.393  15.115 -12.823  0.00  0.00     0.157 HD
+ATOM     37  H   AGS d3001     -79.008  16.721 -12.397  0.00  0.00     0.157 HD
+ENDBRANCH  30  35
+ENDBRANCH   5  26
+BRANCH   4  38
+ATOM     38  O2' AGS d3001     -84.280  17.377  -6.271  0.00  0.00    -0.388 OA
+ATOM     39  H   AGS d3001     -84.743  18.198  -6.043  0.00  0.00     0.210 HD
+ENDBRANCH   4  38
+TORSDOF 15

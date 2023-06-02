@@ -1,0 +1,52 @@
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK       I    between atoms: C13_2  and  N1_3 
+REMARK    1  A    between atoms: C13_2  and  C12_15 
+REMARK    2  A    between atoms: C9_20  and  C8_21 
+REMARK    3  A    between atoms: C1_27  and  C_28 
+REMARK       I    between atoms: C_28  and  N_30 
+ROOT
+ATOM      1  C12 KYP d   1      24.561  -9.624   6.202  0.00  0.00     0.032 A 
+ATOM      2  C11 KYP d   1      24.380  -8.719   7.244  0.00  0.00     0.017 A 
+ATOM      3  C10 KYP d   1      25.374  -7.814   7.577  0.00  0.00     0.008 A 
+ATOM      4  C22 KYP d   1      25.763  -9.593   5.502  0.00  0.00     0.017 A 
+ATOM      5  C23 KYP d   1      26.760  -8.696   5.847  0.00  0.00     0.008 A 
+ATOM      6  C9  KYP d   1      26.594  -7.799   6.894  0.00  0.00    -0.055 A 
+ENDROOT
+BRANCH   6   7
+ATOM      7  C8  KYP d   1      27.746  -6.995   7.274  0.00  0.00     0.079 C 
+ATOM      8  C7  KYP d   1      27.850  -5.932   8.077  0.00  0.00     0.208 A 
+ATOM      9  C6  KYP d   1      28.881  -4.906   7.998  0.00  0.00     0.191 A 
+ATOM     10  O3  KYP d   1      27.082  -5.734   9.216  0.00  0.00    -0.336 OA
+ATOM     11  O1  KYP d   1      29.721  -4.740   7.053  0.00  0.00    -0.289 OA
+ATOM     12  C5  KYP d   1      28.684  -4.108   9.199  0.00  0.00     0.047 A 
+ATOM     13  C24 KYP d   1      27.576  -4.628   9.870  0.00  0.00     0.099 A 
+ATOM     14  C4  KYP d   1      29.433  -3.075   9.758  0.00  0.00     0.018 A 
+ATOM     15  C1  KYP d   1      27.156  -4.091  11.084  0.00  0.00     0.066 A 
+ATOM     16  C2  KYP d   1      27.916  -3.052  11.630  0.00  0.00     0.020 A 
+ATOM     17  C3  KYP d   1      29.041  -2.562  10.978  0.00  0.00     0.002 A 
+BRANCH  15  18
+ATOM     18  C   KYP d   1      25.917  -4.518  11.822  0.00  0.00     0.252 C 
+ATOM     19  O   KYP d   1      25.471  -3.820  12.775  0.00  0.00    -0.268 OA
+ATOM     20  N   KYP d   1      25.271  -5.620  11.388  0.00  0.00    -0.366 N 
+ATOM     21  H19 KYP d   1      24.444  -5.932  11.856  0.00  0.00     0.159 HD
+ATOM     22  H20 KYP d   1      25.619  -6.125  10.598  0.00  0.00     0.159 HD
+ENDBRANCH  15  18
+ENDBRANCH   6   7
+BRANCH   1  23
+ATOM     23  C13 KYP d   1      23.516 -10.637   5.838  0.00  0.00     0.253 C 
+ATOM     24  O2  KYP d   1      23.073 -10.629   4.723  0.00  0.00    -0.267 OA
+ATOM     25  N1  KYP d   1      23.115 -11.557   6.745  0.00  0.00    -0.345 N 
+ATOM     26  C21 KYP d   1      22.162 -12.607   6.349  0.00  0.00     0.146 C 
+ATOM     27  C14 KYP d   1      23.592 -11.715   8.128  0.00  0.00     0.146 C 
+ATOM     28  C20 KYP d   1      21.008 -12.667   7.320  0.00  0.00     0.161 C 
+ATOM     29  N2  KYP d   1      21.521 -12.877   8.676  0.00  0.00    -0.211 N 
+ATOM     30  C16 KYP d   1      21.127 -13.891   9.486  0.00  0.00     0.724 A 
+ATOM     31  C15 KYP d   1      22.435 -11.807   9.085  0.00  0.00     0.161 C 
+ATOM     32  N4  KYP d   1      20.289 -14.804   8.951  0.00  0.00    -0.075 NA
+ATOM     33  N3  KYP d   1      21.629 -13.898  10.742  0.00  0.00    -0.075 NA
+ATOM     34  C19 KYP d   1      19.958 -15.821   9.759  0.00  0.00     0.138 A 
+ATOM     35  C18 KYP d   1      20.424 -15.950  11.047  0.00  0.00     0.040 A 
+ATOM     36  C17 KYP d   1      21.258 -14.945  11.496  0.00  0.00     0.138 A 
+ENDBRANCH   1  23
+TORSDOF 3

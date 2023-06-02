@@ -1,0 +1,102 @@
+REMARK  17 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O5B_4  and  PA_1 
+REMARK    2  A    between atoms: O2A_3  and  PA_1 
+REMARK    3  A    between atoms: PA_1  and  O3_23 
+REMARK    4  A    between atoms: O5B_4  and  C5B_5 
+REMARK    5  A    between atoms: C4B_6  and  C5B_5 
+REMARK    6  A    between atoms: O3B_9  and  C3B_8 
+REMARK    7  A    between atoms: O2B_11  and  C2B_10 
+REMARK    8  A    between atoms: C1B_12  and  N9A_13 
+REMARK    9  A    between atoms: C6A_17  and  N6A_18 
+REMARK   10  A    between atoms: O3_23  and  PN_24 
+REMARK   11  A    between atoms: PN_24  and  O1N_25 
+REMARK   12  A    between atoms: PN_24  and  O5D_27 
+REMARK   13  A    between atoms: C5D_28  and  O5D_27 
+REMARK   14  A    between atoms: C5D_28  and  C4D_29 
+REMARK   15  A    between atoms: C3D_31  and  O3D_32 
+REMARK   16  A    between atoms: C2D_33  and  O2D_34 
+REMARK   17  A    between atoms: C1D_35  and  N1N_36 
+ROOT
+ATOM      1  PA  NAD d 500      63.491   3.477  11.615  0.00  0.00     0.401 P 
+ATOM      2  O1A NAD d 500      62.303   3.115  10.808  0.00  0.00    -0.631 OA
+ENDROOT
+BRANCH   1   3
+ATOM      3  O5B NAD d 500      64.013   4.929  11.142  0.00  0.00    -0.294 OA
+BRANCH   3   4
+ATOM      4  C5B NAD d 500      65.296   5.420  11.458  0.00  0.00     0.215 C 
+BRANCH   4   5
+ATOM      5  C4B NAD d 500      65.949   5.860  10.160  0.00  0.00     0.180 C 
+ATOM      6  C3B NAD d 500      66.411   4.667   9.333  0.00  0.00     0.182 C 
+ATOM      7  C2B NAD d 500      67.917   4.781   9.316  0.00  0.00     0.198 C 
+ATOM      8  C1B NAD d 500      68.143   6.270   9.572  0.00  0.00     0.262 C 
+ATOM      9  O4B NAD d 500      67.092   6.646  10.438  0.00  0.00    -0.353 OA
+BRANCH   6  10
+ATOM     10  O3B NAD d 500      65.900   4.748   8.024  0.00  0.00    -0.390 OA
+ATOM     11  H   NAD d 500      66.183   5.582   7.618  0.00  0.00     0.210 HD
+ENDBRANCH   6  10
+BRANCH   7  12
+ATOM     12  O2B NAD d 500      68.440   4.350   8.083  0.00  0.00    -0.388 OA
+ATOM     13  H   NAD d 500      68.038   4.863   7.364  0.00  0.00     0.210 HD
+ENDBRANCH   7  12
+BRANCH   8  14
+ATOM     14  N9A NAD d 500      69.467   6.622  10.125  0.00  0.00    -0.294 N 
+ATOM     15  C4A NAD d 500      70.140   7.771   9.825  0.00  0.00     0.167 A 
+ATOM     16  N3A NAD d 500      69.838   8.816   9.025  0.00  0.00    -0.222 NA
+ATOM     17  C5A NAD d 500      71.338   7.745  10.525  0.00  0.00     0.149 A 
+ATOM     18  C2A NAD d 500      70.712   9.883   8.903  0.00  0.00     0.237 A 
+ATOM     19  N1A NAD d 500      71.910   9.879   9.588  0.00  0.00    -0.222 NA
+ATOM     20  C6A NAD d 500      72.242   8.805  10.408  0.00  0.00     0.155 A 
+ATOM     21  N7A NAD d 500      71.376   6.594  11.223  0.00  0.00    -0.236 NA
+ATOM     22  C8A NAD d 500      70.244   5.899  10.993  0.00  0.00     0.214 A 
+BRANCH  20  23
+ATOM     23  N6A NAD d 500      73.517   8.603  10.756  0.00  0.00    -0.382 N 
+ATOM     24  H   NAD d 500      74.170   9.336  10.681  0.00  0.00     0.157 HD
+ATOM     25  H   NAD d 500      73.803   7.721  11.087  0.00  0.00     0.157 HD
+ENDBRANCH  20  23
+ENDBRANCH   8  14
+ENDBRANCH   4   5
+ENDBRANCH   3   4
+ENDBRANCH   1   3
+BRANCH   1  26
+ATOM     26  O2A NAD d 500      64.537   2.431  11.518  0.00  0.00    -0.307 OA
+ATOM     27  H   NAD d 500      64.780   2.302  10.588  0.00  0.00     0.222 HD
+ENDBRANCH   1  26
+BRANCH   1  28
+ATOM     28  O3  NAD d 500      63.082   3.697  13.163  0.00  0.00    -0.195 OA
+BRANCH  28  29
+ATOM     29  PN  NAD d 500      61.723   4.439  13.636  0.00  0.00     0.401 P 
+ATOM     30  O2N NAD d 500      61.279   5.341  12.559  0.00  0.00    -0.631 OA
+BRANCH  29  31
+ATOM     31  O1N NAD d 500      60.755   3.448  14.164  0.00  0.00    -0.307 OA
+ATOM     32  H   NAD d 500      60.414   2.908  13.434  0.00  0.00     0.222 HD
+ENDBRANCH  29  31
+BRANCH  29  33
+ATOM     33  O5D NAD d 500      62.300   5.348  14.849  0.00  0.00    -0.294 OA
+BRANCH  33  34
+ATOM     34  C5D NAD d 500      62.943   6.596  14.662  0.00  0.00     0.215 C 
+BRANCH  34  35
+ATOM     35  C4D NAD d 500      63.249   7.253  16.009  0.00  0.00     0.180 C 
+ATOM     36  O4D NAD d 500      62.095   7.911  16.519  0.00  0.00    -0.345 OA
+ATOM     37  C1D NAD d 500      61.743   7.417  17.808  0.00  0.00     0.385 C 
+ATOM     38  C2D NAD d 500      62.472   6.084  17.969  0.00  0.00     0.208 C 
+ATOM     39  C3D NAD d 500      63.680   6.240  17.065  0.00  0.00     0.182 C 
+BRANCH  37  40
+ATOM     40  N1N NAD d 500      60.279   7.253  17.966  0.00  0.00     0.110 N 
+ATOM     41  H   NAD d 500      59.933   6.595  17.267  0.00  0.00     0.316 HD
+ATOM     42  H   NAD d 500      59.820   8.155  17.840  0.00  0.00     0.316 HD
+ENDBRANCH  37  40
+BRANCH  38  43
+ATOM     43  O2D NAD d 500      62.848   5.815  19.303  0.00  0.00    -0.388 OA
+ATOM     44  H   NAD d 500      63.421   6.527  19.627  0.00  0.00     0.210 HD
+ENDBRANCH  38  43
+BRANCH  39  45
+ATOM     45  O3D NAD d 500      64.796   6.709  17.786  0.00  0.00    -0.390 OA
+ATOM     46  H   NAD d 500      64.579   7.558  18.202  0.00  0.00     0.210 HD
+ENDBRANCH  39  45
+ENDBRANCH  34  35
+ENDBRANCH  33  34
+ENDBRANCH  29  33
+ENDBRANCH  28  29
+ENDBRANCH   1  28
+TORSDOF 17

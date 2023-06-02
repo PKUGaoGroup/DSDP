@@ -1,0 +1,39 @@
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_2  and  CA_4 
+REMARK    2  A    between atoms: CA_4  and  C_5 
+REMARK       I    between atoms: C_5  and  NAM_7 
+REMARK    3  A    between atoms: NAM_7  and  CAP_8 
+ROOT
+ATOM      1  CAP P34 d 201      65.762  50.693   1.563  0.00  0.00     0.035 C 
+ATOM      2  CAK P34 d 201      64.480  51.229   1.377  0.00  0.00     0.044 C 
+ATOM      3  CAU P34 d 201      63.945  52.366   1.987  0.00  0.00     0.004 A 
+ATOM      4  CAT P34 d 201      62.699  52.977   1.861  0.00  0.00    -0.008 A 
+ATOM      5  CAI P34 d 201      61.716  52.490   1.025  0.00  0.00     0.013 A 
+ATOM      6  CAF P34 d 201      60.454  53.024   0.829  0.00  0.00     0.001 A 
+ATOM      7  CAE P34 d 201      60.115  54.163   1.536  0.00  0.00     0.001 A 
+ATOM      8  CAH P34 d 201      61.082  54.672   2.384  0.00  0.00     0.018 A 
+ATOM      9  CAS P34 d 201      62.334  54.110   2.555  0.00  0.00     0.043 A 
+ATOM     10  CAQ P34 d 201      63.192  54.713   3.441  0.00  0.00     0.257 A 
+ATOM     11  OAD P34 d 201      62.982  55.719   4.111  0.00  0.00    -0.267 OA
+ATOM     12  NAN P34 d 201      64.429  54.122   3.570  0.00  0.00    -0.322 N 
+ATOM     13  CAR P34 d 201      64.793  52.983   2.857  0.00  0.00     0.046 A 
+ATOM     14  CAJ P34 d 201      66.054  52.492   3.104  0.00  0.00     0.033 C 
+ATOM     15  CAG P34 d 201      66.469  51.289   2.582  0.00  0.00     0.032 C 
+ATOM     16  H   P34 d 201      65.081  54.520   4.191  0.00  0.00     0.169 HD
+ENDROOT
+BRANCH   1  17
+ATOM     17  NAM P34 d 201      66.648  49.873   0.981  0.00  0.00    -0.326 N 
+ATOM     18  C   P34 d 201      66.357  48.750   0.320  0.00  0.00     0.250 C 
+ATOM     19  O   P34 d 201      65.272  48.730  -0.248  0.00  0.00    -0.271 OA
+ATOM     20  H   P34 d 201      67.599  50.121   1.047  0.00  0.00     0.169 HD
+BRANCH  18  21
+ATOM     21  CA  P34 d 201      67.500  47.951  -0.333  0.00  0.00     0.373 C 
+BRANCH  21  22
+ATOM     22  N   P34 d 201      67.052  47.039  -1.390  0.00  0.00     0.088 N 
+ATOM     23  CAB P34 d 201      68.173  46.701  -2.277  0.00  0.00     0.310 C 
+ATOM     24  CAA P34 d 201      66.650  45.840  -0.646  0.00  0.00     0.310 C 
+ENDBRANCH  21  22
+ENDBRANCH  18  21
+ENDBRANCH   1  17
+TORSDOF 3

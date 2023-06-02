@@ -1,0 +1,130 @@
+REMARK  20 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O3P_53  and  PA_1 
+REMARK    2  A    between atoms: PA_1  and  O5B_4 
+REMARK    3  A    between atoms: PA_1  and  O1A_2 
+REMARK    4  A    between atoms: C5B_5  and  O5B_4 
+REMARK    5  A    between atoms: C5B_5  and  C4B_6 
+REMARK    6  A    between atoms: C3B_8  and  O3B_9 
+REMARK    7  A    between atoms: C2B_10  and  O2B_11 
+REMARK    8  A    between atoms: N9A_13  and  C1B_12 
+REMARK    9  A    between atoms: N6A_18  and  C6A_17 
+REMARK   10  A    between atoms: C1'_41  and  C2'_42 
+REMARK   11  A    between atoms: C3'_44  and  C2'_42 
+REMARK   12  A    between atoms: C2'_42  and  O2'_43 
+REMARK   13  A    between atoms: O3'_45  and  C3'_44 
+REMARK   14  A    between atoms: C3'_44  and  C4'_46 
+REMARK   15  A    between atoms: C5'_48  and  C4'_46 
+REMARK   16  A    between atoms: C4'_46  and  O4'_47 
+REMARK   17  A    between atoms: C5'_48  and  O5'_49 
+REMARK   18  A    between atoms: P_50  and  O5'_49 
+REMARK   19  A    between atoms: P_50  and  O3P_53 
+REMARK   20  A    between atoms: P_50  and  O1P_51 
+ROOT
+ATOM      1  P   FAD d 401      19.954  45.415  33.222  0.00  0.00     0.401 P 
+ATOM      2  O2P FAD d 401      20.084  45.478  31.747  0.00  0.00    -0.631 OA
+ENDROOT
+BRANCH   1   3
+ATOM      3  O5' FAD d 401      19.734  43.896  33.524  0.00  0.00    -0.294 OA
+BRANCH   3   4
+ATOM      4  C5' FAD d 401      18.648  43.166  32.965  0.00  0.00     0.215 C 
+BRANCH   4   5
+ATOM      5  C4' FAD d 401      17.818  42.507  34.044  0.00  0.00     0.173 C 
+BRANCH   5   6
+ATOM      6  C3' FAD d 401      16.757  41.583  33.497  0.00  0.00     0.179 C 
+BRANCH   6   7
+ATOM      7  O3' FAD d 401      17.239  40.785  32.424  0.00  0.00    -0.390 OA
+ATOM      8  H   FAD d 401      17.923  40.181  32.752  0.00  0.00     0.210 HD
+ENDBRANCH   6   7
+BRANCH   6   9
+ATOM      9  C2' FAD d 401      15.922  40.846  34.569  0.00  0.00     0.167 C 
+BRANCH   9  10
+ATOM     10  C1' FAD d 401      15.391  39.484  34.402  0.00  0.00     0.160 C 
+ATOM     11  N10 FAD d 401      14.988  38.681  35.244  0.00  0.00    -0.349 N 
+ATOM     12  C10 FAD d 401      15.778  37.591  35.497  0.00  0.00     0.143 C 
+ATOM     13  C9A FAD d 401      13.709  38.657  35.746  0.00  0.00     0.162 A 
+ATOM     14  N1  FAD d 401      17.078  37.420  35.027  0.00  0.00    -0.292 N 
+ATOM     15  C4X FAD d 401      15.316  36.527  36.297  0.00  0.00     0.169 C 
+ATOM     16  C2  FAD d 401      17.875  36.315  35.163  0.00  0.00     0.328 C 
+ATOM     17  H   FAD d 401      17.469  38.182  34.541  0.00  0.00     0.172 HD
+ATOM     18  O2  FAD d 401      19.032  36.333  34.761  0.00  0.00    -0.247 OA
+ATOM     19  N3  FAD d 401      17.333  35.322  35.966  0.00  0.00    -0.273 N 
+ATOM     20  C4  FAD d 401      16.110  35.376  36.671  0.00  0.00     0.282 C 
+ATOM     21  H   FAD d 401      17.856  34.492  36.054  0.00  0.00     0.173 HD
+ATOM     22  O4  FAD d 401      15.868  34.508  37.535  0.00  0.00    -0.265 OA
+ATOM     23  N5  FAD d 401      14.057  36.530  36.809  0.00  0.00    -0.242 NA
+ATOM     24  C5X FAD d 401      13.229  37.534  36.407  0.00  0.00     0.062 A 
+ATOM     25  C6  FAD d 401      11.956  37.492  36.879  0.00  0.00     0.037 A 
+ATOM     26  C7  FAD d 401      11.072  38.528  36.587  0.00  0.00    -0.054 A 
+ATOM     27  C8  FAD d 401      11.581  39.655  35.894  0.00  0.00    -0.057 A 
+ATOM     28  C7M FAD d 401       9.627  38.372  36.943  0.00  0.00     0.049 C 
+ATOM     29  C8M FAD d 401      10.777  40.741  35.377  0.00  0.00     0.048 C 
+ATOM     30  C9  FAD d 401      12.865  39.655  35.452  0.00  0.00     0.012 A 
+ENDBRANCH   9  10
+BRANCH   9  31
+ATOM     31  O2' FAD d 401      16.410  40.904  35.882  0.00  0.00    -0.391 OA
+ATOM     32  H   FAD d 401      17.158  40.294  35.976  0.00  0.00     0.210 HD
+ENDBRANCH   9  31
+ENDBRANCH   6   9
+ENDBRANCH   5   6
+BRANCH   5  33
+ATOM     33  O4' FAD d 401      18.666  41.868  34.964  0.00  0.00    -0.391 OA
+ATOM     34  H   FAD d 401      19.166  41.171  34.512  0.00  0.00     0.210 HD
+ENDBRANCH   5  33
+ENDBRANCH   4   5
+ENDBRANCH   3   4
+ENDBRANCH   1   3
+BRANCH   1  35
+ATOM     35  O3P FAD d 401      18.600  46.051  33.682  0.00  0.00    -0.195 OA
+BRANCH  35  36
+ATOM     36  PA  FAD d 401      17.991  46.724  34.968  0.00  0.00     0.401 P 
+ATOM     37  O2A FAD d 401      16.584  47.115  34.653  0.00  0.00    -0.631 OA
+BRANCH  36  38
+ATOM     38  O5B FAD d 401      18.828  48.070  35.206  0.00  0.00    -0.294 OA
+BRANCH  38  39
+ATOM     39  C5B FAD d 401      18.414  49.299  34.607  0.00  0.00     0.215 C 
+BRANCH  39  40
+ATOM     40  C4B FAD d 401      18.951  50.409  35.431  0.00  0.00     0.180 C 
+ATOM     41  O4B FAD d 401      18.671  51.688  34.869  0.00  0.00    -0.354 OA
+ATOM     42  C1B FAD d 401      18.147  52.507  35.909  0.00  0.00     0.258 C 
+ATOM     43  C2B FAD d 401      17.471  51.540  36.809  0.00  0.00     0.198 C 
+ATOM     44  C3B FAD d 401      18.425  50.392  36.837  0.00  0.00     0.182 C 
+BRANCH  42  45
+ATOM     45  N9A FAD d 401      17.261  53.442  35.204  0.00  0.00    -0.318 N 
+ATOM     46  C8A FAD d 401      16.279  52.968  34.453  0.00  0.00     0.251 C 
+ATOM     47  N7A FAD d 401      15.795  54.005  33.624  0.00  0.00    -0.367 N 
+ATOM     48  C5A FAD d 401      16.722  54.872  33.784  0.00  0.00     0.122 C 
+ATOM     49  H   FAD d 401      14.977  54.048  33.078  0.00  0.00     0.161 HD
+ATOM     50  C6A FAD d 401      16.824  56.039  33.080  0.00  0.00     0.153 C 
+ATOM     51  C4A FAD d 401      17.742  54.627  34.642  0.00  0.00     0.161 C 
+ATOM     52  N1A FAD d 401      17.931  56.763  33.165  0.00  0.00    -0.222 NA
+ATOM     53  C2A FAD d 401      18.758  56.658  34.050  0.00  0.00     0.237 C 
+ATOM     54  N3A FAD d 401      18.829  55.503  34.868  0.00  0.00    -0.222 NA
+BRANCH  50  55
+ATOM     55  N6A FAD d 401      16.079  56.326  32.134  0.00  0.00    -0.382 N 
+ATOM     56  H   FAD d 401      16.194  57.181  31.659  0.00  0.00     0.157 HD
+ATOM     57  H   FAD d 401      15.372  55.700  31.857  0.00  0.00     0.157 HD
+ENDBRANCH  50  55
+ENDBRANCH  42  45
+BRANCH  43  58
+ATOM     58  O2B FAD d 401      17.385  52.062  38.121  0.00  0.00    -0.388 OA
+ATOM     59  H   FAD d 401      18.273  52.288  38.438  0.00  0.00     0.210 HD
+ENDBRANCH  43  58
+BRANCH  44  60
+ATOM     60  O3B FAD d 401      19.434  50.694  37.795  0.00  0.00    -0.390 OA
+ATOM     61  H   FAD d 401      19.830  51.555  37.587  0.00  0.00     0.210 HD
+ENDBRANCH  44  60
+ENDBRANCH  39  40
+ENDBRANCH  38  39
+ENDBRANCH  36  38
+BRANCH  36  62
+ATOM     62  O1A FAD d 401      18.184  45.910  36.194  0.00  0.00    -0.307 OA
+ATOM     63  H   FAD d 401      17.697  45.076  36.108  0.00  0.00     0.222 HD
+ENDBRANCH  36  62
+ENDBRANCH  35  36
+ENDBRANCH   1  35
+BRANCH   1  64
+ATOM     64  O1P FAD d 401      21.037  45.939  34.073  0.00  0.00    -0.307 OA
+ATOM     65  H   FAD d 401      21.882  45.551  33.797  0.00  0.00     0.222 HD
+ENDBRANCH   1  64
+TORSDOF 20

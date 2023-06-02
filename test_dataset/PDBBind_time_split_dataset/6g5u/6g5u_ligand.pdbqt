@@ -1,0 +1,46 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C4_2  and  C13_6 
+REMARK    2  A    between atoms: C6_3  and  S7_16 
+REMARK       I    between atoms: C13_6  and  N15_7 
+REMARK    3  A    between atoms: N15_7  and  C16_8 
+REMARK    4  A    between atoms: C16_8  and  C17_9 
+REMARK    5  A    between atoms: C17_9  and  C18_10 
+REMARK    6  A    between atoms: S7_16  and  N8_19 
+ROOT
+ATOM      1  C5  ENN d   1      20.471   1.268 -16.398  0.00  0.00     0.045 A 
+ATOM      2  C4  ENN d   1      19.942   0.141 -17.021  0.00  0.00     0.055 A 
+ATOM      3  C6  ENN d   1      20.746   2.398 -17.081  0.00  0.00     0.102 A 
+ATOM      4  C2  ENN d   1      20.077   1.325 -19.116  0.00  0.00     0.050 A 
+ATOM      5  C3  ENN d   1      19.785   0.176 -18.387  0.00  0.00     0.051 A 
+ATOM      6 CL1  ENN d   1      19.152  -1.188 -19.318  0.00  0.00    -0.083 Cl
+ATOM      7  C1  ENN d   1      20.573   2.434 -18.476  0.00  0.00     0.059 A 
+ATOM      8 CL2  ENN d   1      20.919   3.879 -19.374  0.00  0.00    -0.083 Cl
+ENDROOT
+BRANCH   2   9
+ATOM      9  C13 ENN d   1      19.599  -1.008 -16.157  0.00  0.00     0.253 C 
+ATOM     10  O14 ENN d   1      18.875  -0.817 -15.155  0.00  0.00    -0.268 OA
+ATOM     11  N15 ENN d   1      19.998  -2.222 -16.484  0.00  0.00    -0.357 N 
+ATOM     12  H3  ENN d   1      20.518  -2.377 -17.324  0.00  0.00     0.162 HD
+BRANCH  11  13
+ATOM     13  C16 ENN d   1      19.665  -3.348 -15.590  0.00  0.00     0.123 C 
+BRANCH  13  14
+ATOM     14  C17 ENN d   1      20.063  -4.658 -16.220  0.00  0.00     0.019 C 
+BRANCH  14  15
+ATOM     15  C18 ENN d   1      18.877  -5.215 -16.992  0.00  0.00    -0.003 C 
+ATOM     16  C19 ENN d   1      17.859  -5.852 -16.050  0.00  0.00     0.005 C 
+ENDBRANCH  14  15
+ENDBRANCH  13  14
+ENDBRANCH  11  13
+ENDBRANCH   2   9
+BRANCH   3  17
+ATOM     17  S7  ENN d   1      21.373   3.807 -16.118  0.00  0.00     0.258 S 
+ATOM     18  O9  ENN d   1      22.582   4.275 -16.826  0.00  0.00    -0.201 OA
+ATOM     19  O10 ENN d   1      20.325   4.833 -16.078  0.00  0.00    -0.201 OA
+BRANCH  17  20
+ATOM     20  N8  ENN d   1      21.798   3.520 -14.543  0.00  0.00    -0.324 N 
+ATOM     21  H13 ENN d   1      22.148   4.266 -13.976  0.00  0.00     0.169 HD
+ATOM     22  H14 ENN d   1      21.705   2.601 -14.159  0.00  0.00     0.169 HD
+ENDBRANCH  17  20
+ENDBRANCH   3  17
+TORSDOF 6

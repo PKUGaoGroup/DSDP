@@ -1,0 +1,66 @@
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAG_10  and  CAC_11 
+REMARK    2  A    between atoms: CAA_20  and  NAQ_21 
+REMARK    3  A    between atoms: NAQ_21  and  CAV_22 
+REMARK    4  A    between atoms: CAW_27  and  SBB_28 
+REMARK    5  A    between atoms: SBB_28  and  NBE_31 
+REMARK    6  A    between atoms: NBE_31  and  CBF_32 
+REMARK    7  A    between atoms: CBF_32  and  CBG_33 
+ROOT
+ATOM      1  CAC HAW d   1      93.144  49.566 266.659  0.00  0.00     0.007 A 
+ATOM      2  CAB HAW d   1      91.832  49.282 266.268  0.00  0.00     0.044 A 
+ATOM      3  CAD HAW d   1      94.133  48.622 266.454  0.00  0.00     0.096 A 
+ATOM      4  NAP HAW d   1      95.401  48.888 266.848  0.00  0.00    -0.256 NA
+ATOM      5  CAO HAW d   1      96.428  47.965 266.660  0.00  0.00     0.136 A 
+ATOM      6  CAN HAW d   1      96.109  46.757 266.059  0.00  0.00     0.136 A 
+ATOM      7  NAM HAW d   1      94.785  46.502 265.671  0.00  0.00    -0.257 NA
+ATOM      8  CAE HAW d   1      93.803  47.402 265.865  0.00  0.00     0.088 A 
+ATOM      9  CAF HAW d   1      92.486  47.117 265.457  0.00  0.00     0.063 A 
+ATOM     10  CAA HAW d   1      91.472  48.073 265.651  0.00  0.00     0.035 A 
+ENDROOT
+BRANCH  10  11
+ATOM     11  NAQ HAW d   1      90.153  47.890 265.355  0.00  0.00    -0.355 N 
+ATOM     12  H13 HAW d   1      89.452  48.306 265.985  0.00  0.00     0.166 HD
+BRANCH  11  13
+ATOM     13  CAV HAW d   1      89.718  47.203 264.297  0.00  0.00     0.056 A 
+ATOM     14  CBA HAW d   1      90.432  47.171 263.103  0.00  0.00     0.031 A 
+ATOM     15  CAZ HAW d   1      89.952  46.471 262.005  0.00  0.00     0.002 A 
+ATOM     16  CAY HAW d   1      88.756  45.800 262.103  0.00  0.00     0.002 A 
+ATOM     17  CAX HAW d   1      88.046  45.837 263.289  0.00  0.00     0.027 A 
+ATOM     18  CAW HAW d   1      88.499  46.530 264.393  0.00  0.00     0.106 A 
+BRANCH  18  19
+ATOM     19  SBB HAW d   1      87.462  46.436 265.830  0.00  0.00     0.261 S 
+ATOM     20  OBC HAW d   1      86.025  46.318 265.393  0.00  0.00    -0.200 OA
+ATOM     21  OBD HAW d   1      87.553  47.725 266.620  0.00  0.00    -0.200 OA
+BRANCH  19  22
+ATOM     22  NBE HAW d   1      87.919  45.121 266.773  0.00  0.00    -0.311 N 
+ATOM     23  H18 HAW d   1      87.299  44.379 267.028  0.00  0.00     0.172 HD
+BRANCH  22  24
+ATOM     24  CBF HAW d   1      89.347  45.184 267.186  0.00  0.00     0.173 C 
+BRANCH  24  25
+ATOM     25  CBG HAW d   1      89.719  44.236 268.188  0.00  0.00    -0.005 A 
+ATOM     26  CBH HAW d   1      91.054  43.842 268.320  0.00  0.00     0.128 A 
+ATOM     27  NBI HAW d   1      91.467  42.901 269.297  0.00  0.00    -0.254 NA
+ATOM     28  CBJ HAW d   1      90.539  42.332 270.171  0.00  0.00     0.232 A 
+ATOM     29  NBK HAW d   1      89.195  42.725 270.052  0.00  0.00    -0.254 NA
+ATOM     30  CBL HAW d   1      88.791  43.667 269.074  0.00  0.00     0.128 A 
+ENDBRANCH  24  25
+ENDBRANCH  22  24
+ENDBRANCH  19  22
+ENDBRANCH  18  19
+ENDBRANCH  11  13
+ENDBRANCH  10  11
+BRANCH   1  31
+ATOM     31  CAG HAW d   1      93.446  50.803 267.266  0.00  0.00    -0.021 A 
+ATOM     32  CAH HAW d   1      92.752  51.202 268.401  0.00  0.00     0.043 A 
+ATOM     33  CAI HAW d   1      93.026  52.370 268.976  0.00  0.00     0.045 A 
+ATOM     34  NAT HAW d   1      92.515  52.952 270.057  0.00  0.00    -0.360 N 
+ATOM     35  CAJ HAW d   1      93.962  53.190 268.493  0.00  0.00    -0.008 A 
+ATOM     36  CAU HAW d   1      91.437  52.391 270.893  0.00  0.00     0.155 C 
+ATOM     37  CAS HAW d   1      93.108  54.129 270.242  0.00  0.00     0.091 A 
+ATOM     38  CAR HAW d   1      94.005  54.271 269.284  0.00  0.00     0.031 A 
+ATOM     39  CAK HAW d   1      94.680  52.861 267.410  0.00  0.00     0.014 A 
+ATOM     40  CAL HAW d   1      94.436  51.659 266.770  0.00  0.00     0.013 A 
+ENDBRANCH   1  31
+TORSDOF 7

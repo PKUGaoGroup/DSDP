@@ -1,0 +1,39 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C16_16  and  C17_6 
+REMARK    2  A    between atoms: C04_8  and  C02_7 
+REMARK    3  A    between atoms: C15_15  and  C08_12 
+REMARK    4  A    between atoms: C09_13  and  N10_20 
+ROOT
+ATOM      1  C04 KWG d   1     -10.069 -31.085 -14.730  0.00  0.00     0.069 A 
+ATOM      2  C05 KWG d   1      -9.307 -30.380 -13.818  0.00  0.00     0.021 A 
+ATOM      3  C06 KWG d   1      -7.997 -30.714 -13.600  0.00  0.00     0.003 A 
+ATOM      4  C07 KWG d   1      -7.439 -31.779 -14.289  0.00  0.00     0.023 A 
+ATOM      5  C08 KWG d   1      -8.215 -32.465 -15.193  0.00  0.00     0.046 A 
+ATOM      6  C09 KWG d   1      -9.531 -32.147 -15.454  0.00  0.00     0.074 A 
+ENDROOT
+BRANCH   5   7
+ATOM      7  C15 KWG d   1      -7.558 -33.589 -15.936  0.00  0.00    -0.059 C 
+ATOM      8  C16 KWG d   1      -6.968 -34.464 -16.433  0.00  0.00    -0.061 C 
+BRANCH   8   9
+ATOM      9  C17 KWG d   1      -6.218 -35.620 -17.023  0.00  0.00     0.018 A 
+ATOM     10  C22 KWG d   1      -6.535 -36.877 -16.577  0.00  0.00     0.020 A 
+ATOM     11  C21 KWG d   1      -5.864 -37.952 -17.112  0.00  0.00     0.001 A 
+ATOM     12  C20 KWG d   1      -4.884 -37.731 -18.058  0.00  0.00     0.000 A 
+ATOM     13  C19 KWG d   1      -4.575 -36.467 -18.502  0.00  0.00     0.001 A 
+ATOM     14  C18 KWG d   1      -5.252 -35.384 -17.979  0.00  0.00     0.020 A 
+ENDBRANCH   8   9
+ENDBRANCH   5   7
+BRANCH   6  15
+ATOM     15  N10 KWG d   1     -10.289 -32.815 -16.347  0.00  0.00    -0.331 N 
+ATOM     16  C11 KWG d   1     -10.870 -32.201 -17.374  0.00  0.00     0.097 A 
+ATOM     17  C12 KWG d   1     -11.602 -33.133 -18.092  0.00  0.00     0.019 A 
+ATOM     18  C13 KWG d   1     -11.456 -34.349 -17.434  0.00  0.00     0.019 A 
+ATOM     19  C14 KWG d   1     -10.617 -34.107 -16.354  0.00  0.00     0.097 A 
+ENDBRANCH   6  15
+BRANCH   1  20
+ATOM     20  C02 KWG d   1     -11.503 -30.637 -14.915  0.00  0.00     0.211 C 
+ATOM     21  O01 KWG d   1     -12.421 -31.431 -14.597  0.00  0.00    -0.644 OA
+ATOM     22  O03 KWG d   1     -11.711 -29.488 -15.393  0.00  0.00    -0.644 OA
+ENDBRANCH   1  20
+TORSDOF 4

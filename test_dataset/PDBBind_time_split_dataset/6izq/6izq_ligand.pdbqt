@@ -1,0 +1,41 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2_1  and  C3_2 
+REMARK    2  A    between atoms: C6_4  and  C2_1 
+REMARK    3  A    between atoms: C2_1  and  O01_17 
+REMARK    4  A    between atoms: C3_2  and  N4_15 
+REMARK    5  A    between atoms: N7_16  and  C6_4 
+ROOT
+ATOM      1  C8  XJ2 d   1      12.662  20.782  76.733  0.00  0.00     0.274 C 
+ATOM      2  C9  XJ2 d   1      11.816  21.437  75.578  0.00  0.00    -0.026 A 
+ATOM      3  C10 XJ2 d   1      11.150  20.595  74.634  0.00  0.00     0.009 A 
+ATOM      4  C11 XJ2 d   1      10.354  21.146  73.569  0.00  0.00     0.001 A 
+ATOM      5  C12 XJ2 d   1      10.239  22.547  73.455  0.00  0.00     0.001 A 
+ATOM      6  C13 XJ2 d   1      10.893  23.385  74.385  0.00  0.00     0.007 A 
+ATOM      7  C14 XJ2 d   1      11.697  22.834  75.465  0.00  0.00    -0.050 A 
+ATOM      8  C15 XJ2 d   1      12.394  23.827  76.470  0.00  0.00     0.041 C 
+ATOM      9  C16 XJ2 d   1      13.561  23.255  77.286  0.00  0.00     0.032 C 
+ATOM     10  C17 XJ2 d   1      14.420  22.241  76.509  0.00  0.00     0.235 C 
+ATOM     11  N7  XJ2 d   1      14.027  20.925  76.663  0.00  0.00    -0.065 N 
+ATOM     12  H23 XJ2 d   1      14.391  20.625  77.554  0.00  0.00     0.280 HD
+ENDROOT
+BRANCH  11  13
+ATOM     13  C6  XJ2 d   1      14.564  20.111  75.738  0.00  0.00     0.268 C 
+BRANCH  13  14
+ATOM     14  C2  XJ2 d   1      14.787  18.647  76.269  0.00  0.00     0.169 C 
+BRANCH  14  15
+ATOM     15  C3  XJ2 d   1      15.239  17.714  75.154  0.00  0.00     0.265 C 
+BRANCH  15  16
+ATOM     16  N4  XJ2 d   1      15.195  16.305  75.510  0.00  0.00    -0.077 N 
+ATOM     17  C5  XJ2 d   1      15.098  15.516  74.337  0.00  0.00     0.267 C 
+ATOM     18  H21 XJ2 d   1      14.393  16.133  76.096  0.00  0.00     0.276 HD
+ATOM     19  H22 XJ2 d   1      16.035  16.060  76.010  0.00  0.00     0.276 HD
+ENDBRANCH  15  16
+ENDBRANCH  14  15
+BRANCH  14  20
+ATOM     20  O01 XJ2 d   1      15.799  18.642  77.209  0.00  0.00    -0.392 OA
+ATOM     21  H24 XJ2 d   1      16.601  18.959  76.811  0.00  0.00     0.210 HD
+ENDBRANCH  14  20
+ENDBRANCH  13  14
+ENDBRANCH  11  13
+TORSDOF 5

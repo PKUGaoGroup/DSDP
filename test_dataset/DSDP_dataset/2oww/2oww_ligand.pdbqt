@@ -1,0 +1,35 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  O1_7 
+REMARK    2  A    between atoms: C2_2  and  O2_8 
+REMARK    3  A    between atoms: O3_9  and  C3_3 
+REMARK    4  A    between atoms: C5_5  and  C6_6 
+REMARK    5  A    between atoms: O6_11  and  C6_6 
+ROOT
+ATOM      1  C1  G4D d2300      46.170  33.597  81.257  0.00  0.00     0.288 C 
+ATOM      2  C2  G4D d2300      45.533  33.077  79.963  0.00  0.00     0.201 C 
+ATOM      3  C3  G4D d2300      46.221  31.872  79.342  0.00  0.00     0.154 C 
+ATOM      4  C4  G4D d2300      47.735  31.950  79.422  0.00  0.00     0.068 C 
+ATOM      5  C5  G4D d2300      48.183  32.300  80.835  0.00  0.00     0.150 C 
+ATOM      6  O5  G4D d2300      47.606  33.538  81.258  0.00  0.00    -0.351 OA
+ENDROOT
+BRANCH   5   7
+ATOM      7  C6  G4D d2300      49.706  32.398  80.856  0.00  0.00     0.196 C 
+BRANCH   7   8
+ATOM      8  O6  G4D d2300      50.156  33.556  80.141  0.00  0.00    -0.398 OA
+ATOM      9  H   G4D d2300      49.797  34.354  80.559  0.00  0.00     0.209 HD
+ENDBRANCH   7   8
+ENDBRANCH   5   7
+BRANCH   3  10
+ATOM     10  O3  G4D d2300      45.823  31.832  77.970  0.00  0.00    -0.393 OA
+ATOM     11  H   G4D d2300      46.105  32.648  77.528  0.00  0.00     0.210 HD
+ENDBRANCH   3  10
+BRANCH   1  12
+ATOM     12  O1  G4D d2300      45.651  32.844  82.360  0.00  0.00    -0.369 OA
+ATOM     13  H   G4D d2300      45.895  31.911  82.258  0.00  0.00     0.212 HD
+ENDBRANCH   1  12
+BRANCH   2  14
+ATOM     14  O2  G4D d2300      44.172  32.702  80.206  0.00  0.00    -0.388 OA
+ATOM     15  H   G4D d2300      44.147  31.963  80.834  0.00  0.00     0.210 HD
+ENDBRANCH   2  14
+TORSDOF 5

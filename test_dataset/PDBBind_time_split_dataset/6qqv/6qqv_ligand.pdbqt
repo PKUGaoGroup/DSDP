@@ -1,0 +1,44 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C13_1  and  C19_21 
+REMARK    2  A    between atoms: C21_5  and  N24_24 
+REMARK    3  A    between atoms: C09_14  and  C04_9 
+REMARK    4  A    between atoms: N10_15  and  C09_14 
+ROOT
+ATOM      1  N01 JEW d   1     -23.943 -20.732   8.227  0.00  0.00    -0.191 NA
+ATOM      2  C02 JEW d   1     -23.295 -21.668   8.326  0.00  0.00     0.100 C 
+ATOM      3  C03 JEW d   1     -22.423 -22.902   8.442  0.00  0.00     0.052 A 
+ATOM      4  C04 JEW d   1     -22.293 -23.694   9.593  0.00  0.00    -0.019 A 
+ATOM      5  C05 JEW d   1     -21.460 -24.811   9.556  0.00  0.00     0.010 A 
+ATOM      6  C06 JEW d   1     -20.766 -25.145   8.411  0.00  0.00     0.001 A 
+ATOM      7  C07 JEW d   1     -20.896 -24.359   7.282  0.00  0.00     0.002 A 
+ATOM      8  C08 JEW d   1     -21.719 -23.250   7.298  0.00  0.00     0.023 A 
+ENDROOT
+BRANCH   4   9
+ATOM      9  C09 JEW d   1     -22.985 -23.477  10.929  0.00  0.00     0.168 C 
+BRANCH   9  10
+ATOM     10  N10 JEW d   1     -23.855 -22.349  11.003  0.00  0.00    -0.352 N 
+ATOM     11  C11 JEW d   1     -23.458 -21.082  11.358  0.00  0.00     0.045 A 
+ATOM     12  C12 JEW d   1     -22.191 -20.552  11.716  0.00  0.00     0.044 A 
+ATOM     13  C16 JEW d   1     -24.560 -20.253  11.322  0.00  0.00    -0.008 A 
+ATOM     14  C13 JEW d   1     -22.098 -19.204  12.046  0.00  0.00    -0.006 A 
+ATOM     15  C14 JEW d   1     -23.207 -18.352  11.999  0.00  0.00     0.014 A 
+ATOM     16  C15 JEW d   1     -24.449 -18.876  11.638  0.00  0.00     0.014 A 
+ATOM     17  C17 JEW d   1     -25.652 -21.097  10.919  0.00  0.00     0.031 A 
+ATOM     18  C18 JEW d   1     -25.163 -22.381  10.742  0.00  0.00     0.092 A 
+BRANCH  14  19
+ATOM     19  C19 JEW d   1     -20.735 -18.665  12.361  0.00  0.00     0.064 A 
+ATOM     20  C20 JEW d   1     -20.318 -17.351  12.314  0.00  0.00     0.083 A 
+ATOM     21  C21 JEW d   1     -18.954 -17.362  12.611  0.00  0.00     0.143 A 
+ATOM     22  N22 JEW d   1     -18.597 -18.653  12.787  0.00  0.00    -0.157 NA
+ATOM     23  N23 JEW d   1     -19.688 -19.445  12.623  0.00  0.00    -0.276 N 
+ATOM     24  H13 JEW d   1     -19.703 -20.473  12.690  0.00  0.00     0.189 HD
+BRANCH  21  25
+ATOM     25  N24 JEW d   1     -18.069 -16.246  12.712  0.00  0.00    -0.383 N 
+ATOM     26  H14 JEW d   1     -17.076 -16.395  12.940  0.00  0.00     0.157 HD
+ATOM     27  H15 JEW d   1     -18.424 -15.292  12.557  0.00  0.00     0.157 HD
+ENDBRANCH  21  25
+ENDBRANCH  14  19
+ENDBRANCH   9  10
+ENDBRANCH   4   9
+TORSDOF 4

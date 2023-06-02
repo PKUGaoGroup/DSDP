@@ -1,0 +1,66 @@
+REMARK  11 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_2  and  N2_1 
+REMARK    2  A    between atoms: C2_10  and  C1_2 
+REMARK    3  A    between atoms: C6_3  and  C1_2 
+REMARK    4  A    between atoms: C6_3  and  C7_4 
+REMARK    5  A    between atoms: C3_12  and  C2_10 
+REMARK    6  A    between atoms: C2_10  and  O2_11 
+REMARK       I    between atoms: N1_14  and  C3_12 
+REMARK    7  A    between atoms: C4_15  and  N1_14 
+REMARK    8  A    between atoms: C13_16  and  C4_15 
+REMARK    9  A    between atoms: C5_20  and  C4_15 
+REMARK   10  A    between atoms: C13_16  and  C14_17 
+REMARK   11  A    between atoms: O1_21  and  C5_20 
+ROOT
+ATOM      1  C2  BES d 901     -22.248  -1.443  13.629  0.00  0.00     0.243 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C3  BES d 901     -23.350  -0.442  13.527  0.00  0.00     0.249 C 
+ATOM      3  N1  BES d 901     -24.080  -0.666  12.442  0.00  0.00    -0.344 N 
+ATOM      4  H   BES d 901     -23.798  -1.427  11.884  0.00  0.00     0.163 HD
+ATOM      5  O3  BES d 901     -23.512   0.430  14.384  0.00  0.00    -0.271 OA
+BRANCH   3   6
+ATOM      6  C4  BES d 901     -25.239   0.065  11.973  0.00  0.00     0.182 C 
+BRANCH   6   7
+ATOM      7  C13 BES d 901     -24.657   1.020  10.938  0.00  0.00     0.040 C 
+BRANCH   7   8
+ATOM      8  C14 BES d 901     -25.046   2.471  11.187  0.00  0.00    -0.020 C 
+ATOM      9  C15 BES d 901     -24.056   3.404  10.499  0.00  0.00     0.009 C 
+ATOM     10  C16 BES d 901     -25.154   2.787  12.677  0.00  0.00     0.009 C 
+ENDBRANCH   7   8
+ENDBRANCH   6   7
+BRANCH   6  11
+ATOM     11  C5  BES d 901     -26.119  -0.933  11.276  0.00  0.00     0.163 C 
+ATOM     12  O4  BES d 901     -25.581  -1.960  10.790  0.00  0.00    -0.648 OA
+BRANCH  11  13
+ATOM     13  O1  BES d 901     -27.349  -0.715  11.208  0.00  0.00    -0.775 OA
+ATOM     14  H   BES d 901     -27.708   0.064  11.584  0.00  0.00     0.167 HD
+ENDBRANCH  11  13
+ENDBRANCH   6  11
+ENDBRANCH   3   6
+ENDBRANCH   1   2
+BRANCH   1  15
+ATOM     15  O2  BES d 901     -21.000  -0.761  13.819  0.00  0.00    -0.384 OA
+ATOM     16  H   BES d 901     -21.048  -0.216  14.620  0.00  0.00     0.210 HD
+ENDBRANCH   1  15
+BRANCH   1  17
+ATOM     17  C1  BES d 901     -22.626  -2.415  14.754  0.00  0.00     0.259 C 
+BRANCH  17  18
+ATOM     18  C6  BES d 901     -23.957  -3.097  14.432  0.00  0.00     0.077 C 
+BRANCH  18  19
+ATOM     19  C7  BES d 901     -24.411  -3.933  15.608  0.00  0.00    -0.056 A 
+ATOM     20  C12 BES d 901     -24.844  -5.241  15.413  0.00  0.00     0.007 A 
+ATOM     21  C11 BES d 901     -25.253  -6.008  16.501  0.00  0.00     0.001 A 
+ATOM     22  C10 BES d 901     -25.226  -5.468  17.783  0.00  0.00     0.000 A 
+ATOM     23  C9  BES d 901     -24.787  -4.162  17.975  0.00  0.00     0.001 A 
+ATOM     24  C8  BES d 901     -24.377  -3.396  16.890  0.00  0.00     0.007 A 
+ENDBRANCH  18  19
+ENDBRANCH  17  18
+BRANCH  17  25
+ATOM     25  N2  BES d 901     -21.592  -3.409  14.955  0.00  0.00     0.086 N 
+ATOM     26  H   BES d 901     -20.710  -2.944  15.169  0.00  0.00     0.313 HD
+ATOM     27  H   BES d 901     -21.486  -3.966  14.107  0.00  0.00     0.313 HD
+ENDBRANCH  17  25
+ENDBRANCH   1  17
+TORSDOF 11
