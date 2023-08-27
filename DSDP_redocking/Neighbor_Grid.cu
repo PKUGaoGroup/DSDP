@@ -32,7 +32,7 @@ void NEIGHBOR_GRID::Put_Atom_Into_Grid_Bucket(int atom_numbers, VECTOR* crd)
 		VECTOR tempcrd = { grid_length_inverse.x * crd[i].x,
 		grid_length_inverse.y * crd[i].y,
 		grid_length_inverse.z * crd[i].z };
-		INT_VECTOR temp_serial = { tempcrd.x,tempcrd.y,tempcrd.z };
+		INT_VECTOR temp_serial = { (int)tempcrd.x, (int)tempcrd.y, (int)tempcrd.z };
 
 		if (temp_serial.int_x < 0 || temp_serial.int_x >= grid_dimension.int_x
 			|| temp_serial.int_y < 0 || temp_serial.int_y >= grid_dimension.int_y

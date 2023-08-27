@@ -1,5 +1,9 @@
 #include "Partial_Rigid_Small_Molecule.cuh"
 
+// Modified 2023/08/27: 
+// 1. read HETATM type in ligand pdbqt file
+// 2. read more than 99 atoms in pdbqt file
+// by CW Dong
 void PARTIAL_RIGID_SMALL_MOLECULE::Initial_From_PDBQT(const char* file_name)
 {
 	//先进行清空
@@ -44,16 +48,17 @@ void PARTIAL_RIGID_SMALL_MOLECULE::Initial_From_PDBQT(const char* file_name)
 
 		if (strcmp(str_segment, "ROOT") == 0)
 		{
-			while (true)
+			// Modified 2023/08/27: no warning now
+			while (fgets(str_line, 256, in))
 			{
-				fgets(str_line, 256, in);
 				sscanf(str_line, "%s", str_segment);
 				if (strcmp(str_segment, "ENDROOT") == 0)
 				{
 					is_pure_H_freedom.push_back((atom_numbers));
 					break;
 				}
-				else if (strcmp(str_segment, "ATOM") == 0)
+				// Modified 2023/08/27: 'HETATM'
+				else if (strcmp(str_segment, "ATOM") == 0 || strcmp(str_segment, "HETATM") == 0)
 				{
 					Read_Atom_Line_In_PDBQT(str_line, crd_from_pdbqt, charge, atom_type);
 					atomic_number.push_back(Get_Atomic_Number_From_PDBQT_Atom_Name((char*)&atom_type[atom_numbers]));
@@ -64,6 +69,7 @@ void PARTIAL_RIGID_SMALL_MOLECULE::Initial_From_PDBQT(const char* file_name)
 				else
 				{
 					printf("unexpected line in pdbqt:\n%s\n", str_segment);
+					exit(-1);
 					//getchar();
 				}//if atom
 			}//while in root
@@ -72,13 +78,14 @@ void PARTIAL_RIGID_SMALL_MOLECULE::Initial_From_PDBQT(const char* file_name)
 		{
 			int root_atom_seiral;
 			int branch_atom_serial;
-			sscanf(&str_line[8], "%d %d", &root_atom_seiral, &branch_atom_serial);
+			// Modified 2023/08/27: [6] instead of [8], read more than 99 atoms
+			sscanf(&str_line[6], " %d %d", &root_atom_seiral, &branch_atom_serial);
 			root_atom_seiral -= 1;//pdbqt从1计数原子
 			branch_atom_serial -= 1;
 			int heavy_atom_numbers = 0;//记录该节点中有多少个非氢原子，用于判断是否是羟基类集团
-			while (true)
+			// Modified 2023/08/27: no warning now
+			while (fgets(str_line, 256, in))
 			{
-				fgets(str_line, 256, in);
 				sscanf(str_line, "%s", str_segment);
 				if (strcmp(str_segment, "BRANCH") == 0 || strcmp(str_segment, "ENDBRANCH") == 0)
 				{
@@ -93,7 +100,8 @@ void PARTIAL_RIGID_SMALL_MOLECULE::Initial_From_PDBQT(const char* file_name)
 					}
 					break;
 				}
-				else if (strcmp(str_segment, "ATOM") == 0)
+				// Modified 2023/08/27: 'HETATM'
+				else if (strcmp(str_segment, "ATOM") == 0 || strcmp(str_segment, "HETATM") == 0)
 				{
 					Read_Atom_Line_In_PDBQT(str_line, crd_from_pdbqt, charge, atom_type);
 					atomic_number.push_back(Get_Atomic_Number_From_PDBQT_Atom_Name((char*)&atom_type[atom_numbers]));
@@ -108,6 +116,7 @@ void PARTIAL_RIGID_SMALL_MOLECULE::Initial_From_PDBQT(const char* file_name)
 				else
 				{
 					printf("unexpected line in pdbqt:\n%s\n", str_segment);
+					exit(-1);
 					//getchar();
 				}//if atom
 			}//while in a branch

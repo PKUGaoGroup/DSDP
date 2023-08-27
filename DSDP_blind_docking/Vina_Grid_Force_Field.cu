@@ -194,7 +194,8 @@ void VINA_GRID_FORCE_FIELD::GRID::Cuda_Texture_Initial(VINA_GRID_FORCE_FIELD* vg
 	vina_grid_force_field = vgff;
 
 	cudaMalloc((void**)&potential, sizeof(float4) * vina_grid_force_field->grid_numbers * vina_grid_force_field->type_numbers);
-	printf("size of protein mesh %d\n", sizeof(float4) * vina_grid_force_field->grid_numbers * vina_grid_force_field->type_numbers);
+	// Modified 2023/08/23: no warning
+	printf("size of protein mesh %ld\n", sizeof(float4) * vina_grid_force_field->grid_numbers * vina_grid_force_field->type_numbers);
 	cudaMalloc((void**)&texObj_for_kernel, sizeof(long long int) * vina_grid_force_field->type_numbers);
 	cudaArray_potential.resize(vina_grid_force_field->type_numbers);
 	copyParams_potential.resize(vina_grid_force_field->type_numbers);

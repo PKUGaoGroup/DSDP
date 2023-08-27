@@ -199,6 +199,8 @@ static float Vina_Covalent_Radius(int atomic_number)
 	else
 	{
 		printf("In Vina_Covalent_Radius atomic numbers %d is not added\n", atomic_number);
+		// Modified 2023/08/27: exit when problem encountered;
+		exit(-1);
 		//getchar();
 	}
 }

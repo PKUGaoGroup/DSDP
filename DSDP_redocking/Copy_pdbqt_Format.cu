@@ -24,10 +24,16 @@ void COPY_pdbqt_FORMAT::Initial(char* pdbqt_name)
 		pdbqt_content[pdbqt_content_numbers].assign(temp_read_str);
 		pdbqt_content_numbers += 1;
 		
-		if (temp_read_str[0] == 'A'
+		if ((temp_read_str[0] == 'A'
 			&& temp_read_str[1] == 'T'
 			&& temp_read_str[2] == 'O'
-			&& temp_read_str[3] == 'M')
+			&& temp_read_str[3] == 'M') ||
+			(temp_read_str[0] == 'H'
+			&& temp_read_str[1] == 'E'
+			&& temp_read_str[2] == 'T'
+			&& temp_read_str[3] == 'A'
+			&& temp_read_str[4] == 'T'
+			&& temp_read_str[5] == 'M'))
 		{
 			VECTOR temp_crd;
 			char temp_float_str[9];

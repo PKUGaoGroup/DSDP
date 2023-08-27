@@ -122,8 +122,8 @@ int main(int argn, char* argv[])
 	}
 	if (necessary_input_number_record != 3)
 	{
-		printf("please input correct commend\n");
-		getchar();
+		printf("please input correct command\n");
+		return -1;// exit now
 	}
 
 	//初始化
@@ -368,6 +368,12 @@ int main(int argn, char* argv[])
 	VECTOR move_vec = { -protein.move_vec.x,-protein.move_vec.y,-protein.move_vec.z };
 	FILE* out_pdbqt = fopen(out_pdbqt_name, "w");
 	FILE* out_list = fopen(out_list_name, "w");	
+	// Modified 2023/08/27: exit
+	if (!out_pdbqt || !out_list)
+	{
+		perror("DSDP is unable to open files");
+		return -1;
+	}
 	copy_pdbqt.Append_Frame_To_Opened_pdbqt_standard(out_pdbqt, &crd_record[(size_t)energy_record[0].id * (molecule[0].atom_numbers)], move_vec,0,energy_record[0].energy-energy_shift);
 	fprintf(out_list, "%s %f\n", site_npy_name, energy_record[0].energy-energy_shift);
 	//如果要去重排序输出前n个构象

@@ -959,7 +959,8 @@ __global__ void Optimize_Structure_BB2_Direct_Pair_Device
 		{
 			VINA_ATOM atom_j;
 			VECTOR temp_force;
-			float rij, dd, dd_, frc_abs, rij_inverse;
+			// Modified 2023/08/27: remove dd, dd_ never used
+			float rij,  frc_abs, rij_inverse;
 			float4 ans;
 			int inner_list_start;
 			VINA_ATOM atom_i = vina_atom[i];
