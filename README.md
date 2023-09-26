@@ -10,7 +10,7 @@ This repository contains code, instructions, dataset and model weights necessary
 
 The source code is available on Linux systems (tested on Ubuntu 20.04, 22.04) .
 
-NVCC is required for compilation, please install [Cuda Toolkit](https://developer.nvidia.com/cuda-toolkit) and make sure it is in the system path. Its version would need to be compatible with `g++` and `torch`.
+NVCC is required for compilation, please install [Cuda Toolkit](https://developer.nvidia.com/cuda-toolkit) and make sure it is in the system path. Cuda version would need to be compatible with `g++` and `torch`.
 
 Please set up the python environment by [Anaconda](https://docs.anaconda.com/anaconda/install/index.html). 
 
@@ -72,9 +72,9 @@ For blind docking task, run:
 
     python DSDP_blind_docking.py 
     --dataset_path ./test_dataset/DSDP_dataset/ 
-    --dataset_name DSDP_dataset 
-    --site_path ./results/DSDP_dataset/site_output/ 
-    --exhaustiveness 384 --search_depth 40 --top_n 1 
+    --dataset_name DSDP_dataset \
+    --site_path ./results/DSDP_dataset/site_output/ \
+    --exhaustiveness 384 --search_depth 40 --top_n 1 \
     --out ./results/DSDP_dataset/docking_results/ \
     --log ./results/DSDP_dataset/docking_results/ \
 
