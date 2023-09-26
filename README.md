@@ -8,25 +8,29 @@ This repository contains code, instructions, dataset and model weights necessary
 
 ## Installation
 
-The source code is available on linux (Ubuntu 20.04) system.
+The source code is available on Linux systems (tested on Ubuntu 20.04, 22.04) .
 
-Please set up the environment by [Anaconda](https://docs.anaconda.com/anaconda/install/index.html). 
+NVCC is required for compilation, please install [Cuda Toolkit](https://developer.nvidia.com/cuda-toolkit) and make sure it is in the system path. Its version would need to be compatible with `g++` and `torch`.
+
+Please set up the python environment by [Anaconda](https://docs.anaconda.com/anaconda/install/index.html). 
 
 Create a new environment by `DSDP.yml` :
 
     conda env create -f DSDP.yml
 
-You need to check the version  of torch to match your cuda environment. If needed, please change the torch version directly in the `DSDP.yml`  file.
+You need to check the version of `torch` to match your cuda environment. If needed, please change the torch version directly in the `DSDP.yml`  file.
 
 Activate the environment
 
     conda activate DSDP
-    
+
 ### Installation of the redocking program
 
     cd DSDP_redocking
     make
     cd ..
+
+Once you need to compile again, please run `make clean && make` .
 
 ### Installation of the blind docking program
 
@@ -41,7 +45,7 @@ Activate the environment
     cd DSDP_blind_docking
     make
     cd ..
-    
+
 ## Dataset
 
 The files in `test_dataset` contain three datasets, namely, DSDP_dataset, DUD-E dataset and PDBBind time split dataset.
@@ -66,33 +70,52 @@ DSDP is an integrated docking program developed for blind docking, which can als
 ### Blind docking
 For blind docking task, run:
 
-    python DSDP_blind_docking.py --dataset_path ./test_dataset/DSDP_dataset/ --dataset_name DSDP_dataset --site_path ./results/DSDP_dataset/site_output/ --exhaustiveness 384 --search_depth 40 --top_n 1 --out ./results/DSDP_dataset/docking_results/ --log ./results/DSDP_dataset/docking_results/
-    
---dataset_path: Path to the dataset file, please put the pdbqt documents of protein and ligand to one folder
---dataset_name: Name of the test dataset
---site_path: Output path of the site
---exhaustiveness: Number of sampling threads
---search_depth: Number of sampling steps
---top_n: Top N results are exported
---out: Output path of DSDP
---log: Log path of DSDP
+    python DSDP_blind_docking.py 
+    --dataset_path ./test_dataset/DSDP_dataset/ 
+    --dataset_name DSDP_dataset 
+    --site_path ./results/DSDP_dataset/site_output/ 
+    --exhaustiveness 384 --search_depth 40 --top_n 1 
+    --out ./results/DSDP_dataset/docking_results/ \
+    --log ./results/DSDP_dataset/docking_results/ \
+
+Options (see `--help`)
+
+- `--dataset_path`: Path to the dataset file, please put the pdbqt documents of protein and ligand to one folder
+- `--dataset_name`: Name of the test dataset
+- `--site_path`: Output path of the site
+- `--exhaustiveness`: Number of sampling threads
+- `--search_depth`: Number of sampling steps
+- `--top_n`: Top N results are exported
+- `--out`: Output path of DSDP
+- `--log`: Log path of DSDP
 
 ### Redocking
 For redocking task, run:
 
-    ./DSDP_redocking/DSDP -ligand ./test_dataset/DSDP_dataset/1a2b/1a2b_ligand.pdbqt -protein ./test_dataset/DSDP_dataset/1a2b/1a2b_protein.pdbqt -box_min 2.241 20.008 21.314 -box_max 24.744 35.470 38.495  -exhaustiveness 384 -search_depth 40 -top_n 1  -out ./results/DSDP_dataset/redocking/1a2b_out.pdbqt -log ./results/DSDP_dataset/redocking/1a2b_out.log
-    
+```
+./DSDP_redocking/DSDP \
+--ligand ./test_dataset/DSDP_dataset/1a2b/1a2b_ligand.pdbqt \
+--protein ./test_dataset/DSDP_dataset/1a2b/1a2b_protein.pdbqt \
+--box_min 2.241 20.008 21.314 \
+--box_max 24.744 35.470 38.495 \
+--exhaustiveness 384 --search_depth 40 --top_n 1  \
+--out ./results/DSDP_dataset/redocking/1a2b_out.pdbqt \
+--log ./results/DSDP_dataset/redocking/1a2b_out.log \
+```
+
 Note: the box information (minima and maxima along x y z axis) of redocking needs to be provided by users. The box information of this example is only suitable for 1a2b protein.
 
--ligand: File name of protein
--protein: File name of protein
--box_min: x y z minima of box 
--box_max: x y z maxima of box
--exhaustiveness: Number of sampling threads
--search_depth: Number of sampling steps
--top_n: Top N results are exported
--out: Output file name of redocking
--log: Log file name of redocking
+- `--ligand`: File name of ligand
+- `--protein`: File name of protein
+- `--box_min`: x y z minima of box
+- `--box_max`: x y z maxima of box
+- `--exhaustiveness`: Number of sampling threads, default 384
+- `--search_depth`: Number of sampling steps, default 40
+- `--top_n`: Top N results are exported, default 10
+- `--out`: Output file name of redocking, default 'OUT.pdbqt'
+- `--log`: Log file name of redocking, default 'OUT.log'
+
+Also, the `--help` command is provided to print massage about the arguments. This is supported in the new version at 2023/9/26, in which we also changed the name of arguments, e. g., `-ligand` to `--ligand`.
 
 ## Train DSDP 
 The binding site prediction part of DSDP is modified according to PUResNet. The file `train_example` contains the script to train the model used in the present work. It should be noted that the train dataset in this file is just an example. The whole train dataset is a subset of PDBBind which is used in EquiBind (https://arxiv.org/abs/2202.05146). You can download this dataset from their website: https://zenodo.org/record/6408497.

@@ -332,7 +332,7 @@ class DrugMain:
                 p = o.permute(0,2,3,4,1)
                 densities = p.detach().cpu().numpy()
                 data_valid.get_pockets_segmentation(densities, names, centroids, site_path=site_path)
-                os.system('./DSDP_blind_docking/DSDP -ligand '+ args.dataset_path + names[0] + '/' + names[0] + '_ligand.pdbqt -protein '+ args.dataset_path + names[0] + '/' + names[0] + '_protein.pdbqt -site_npy ' +  args.site_path + names[0] + '.npy -out ' + args.out + names[0] + '_out.pdbqt -log ' + args.log + names[0] + '_out.log -top_n ' + str(args.top_n))
+                os.system('./DSDP_blind_docking/DSDP --ligand '+ args.dataset_path + names[0] + '/' + names[0] + '_ligand.pdbqt --protein '+ args.dataset_path + names[0] + '/' + names[0] + '_protein.pdbqt --site_npy ' +  args.site_path + names[0] + '.npy --out ' + args.out + names[0] + '_out.pdbqt --log ' + args.log + names[0] + '_out.log --top_n ' + str(args.top_n))
                 os.system
             print('drug discovery !!!')
         train() if do_train else valid()
