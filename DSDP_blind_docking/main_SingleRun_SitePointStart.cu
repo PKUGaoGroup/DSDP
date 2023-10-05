@@ -17,7 +17,7 @@
 #endif // OMP_TIME
 #define NEW_PARSE
 #ifdef NEW_PARSE
-#include "../include/argparse.hpp"
+#include "CLI11.hpp"
 #endif
 std::vector<DSDP_TASK> task;
 std::vector<PARTIAL_RIGID_SMALL_MOLECULE> molecule;
@@ -129,46 +129,58 @@ int main(int argn, char *argv[])
 #endif
 #ifdef NEW_PARSE
 	/* a new argparsing style */
-	argparse::ArgumentParser program("DSDP", "1.0", argparse::default_arguments::help);
-	program.add_argument("--ligand").required().help("ligand input PDBQT file").metavar("<ligand.pdbqt>");
-	program.add_argument("--protein").required().help("protein input PDBQT file").metavar("<protein.pdbqt>");
+	CLI::App app{"DSDP"};
+	std::string ligand_string, protein_string, site_npy_string;
+	std::string out_string, log_string;
+	std::vector<float> vbox_min, vbox_max;
 
-	program.add_argument("--site_npy").required().help("infomation of predicted binding site").metavar("<*.npy>");
+	app.description("DSDP: Deep Site and Docking Pose\n"
+					" This is the re-docking program.\n"
+					" More details at https://github.com/PKUGaoGroup/DSDP");
 
-	program.add_argument("--out").help("ligand poses output").metavar("<*.pdbqt>").default_value(std::string("OUT.pdbqt"));
-	program.add_argument("--log").help("docking log file").metavar("<*.log>").default_value(std::string("OUT.log"));
-	program.add_argument("--exhaustiveness").help("number of GPU thread (=number of copies)").metavar("N").scan<'i', int>().default_value(384);
-	program.add_argument("--search_depth").help("number of searching steps for every copy").metavar("N").scan<'i', int>().default_value(40);
-	program.add_argument("--top_n").help("number of desired output poses").metavar("N").scan<'i', int>().default_value(10);
-	program.add_description("DSDP: Deep Site and Docking Pose\n"
-							" This is the blind-docking program.\n"
-							" More details at https://github.com/PKUGaoGroup/DSDP");
+	app.add_option("--ligand", ligand_string, "ligand input PDBQT file [REQUIRED]")
+		->option_text("<pdbqt>")
+		->required()
+		->check(CLI::ExistingFile);
+	app.add_option("--protein", protein_string, "protein input PDBQT file [REQUIRED]")
+		->option_text("<pdbqt>")
+		->required()
+		->check(CLI::ExistingFile);
+
+	app.add_option("--site_npy", site_npy_string, "npy file of predicted binding site [REQUIRED]")
+		->option_text("<npy>")
+		->required()
+		->check(CLI::ExistingFile);
+
+	app.add_option("--out", out_string, "ligand poses output [=DSDP_out.pdbqt]")
+		->option_text("<pdbqt>")
+		->default_val(std::string("DSDP_out.pdbqt"));
+
+	app.add_option("--log", log_string, "log output [=DSDP_out.log]")
+		->option_text("<log>")
+		->default_val(std::string("DSDP_out.log"));
+	app.add_option("--exhaustiveness", stream_numbers, "number of GPU threads (number of copies) [=384]")
+		->default_val(384)
+		->option_text("N");
+
+	app.add_option("--search_depth", search_depth, "number of searching steps for every copy [=40]")
+		->default_val(40)
+		->option_text("N");
+	app.add_option("--top_n", desired_saving_pose_numbers, "number of desired output poses [=10]")
+		->default_val(10)
+		->option_text("N");
+
+	CLI11_PARSE(app, argn, argv);
+
+	sscanf(ligand_string.c_str(), "%s", ligand_name);
+	sscanf(protein_string.c_str(), "%s", protein_name);
+	sscanf(site_npy_string.c_str(), "%s", site_npy_name);
+	sscanf(out_string.c_str(), "%s", out_pdbqt_name);
+	sscanf(log_string.c_str(), "%s", out_list_name);
 
 	//  "* Cite this: J. Chem. Inf. Model. 2023, 63, 4355-4363\n"
 	//  "             https://doi.org/10.1021/acs.jcim.3c00519"
 
-	try
-	{
-		program.parse_args(argn, argv);
-	}
-	catch (const std::runtime_error &err)
-	{
-		std::cerr << err.what() << std::endl;
-		std::cerr << program;
-		std::exit(1);
-	}
-
-	sscanf(program.get<std::string>("--ligand").c_str(), "%s", ligand_name);
-	sscanf(program.get<std::string>("--protein").c_str(), "%s", protein_name);
-
-	sscanf(program.get<std::string>("--site_npy").c_str(), "%s", site_npy_name);
-
-	sscanf(program.get<std::string>("--out").c_str(), "%s", out_pdbqt_name);
-	sscanf(program.get<std::string>("--log").c_str(), "%s", out_list_name);
-
-	stream_numbers = program.get<int>("--exhaustiveness");
-	search_depth = program.get<int>("--search_depth");
-	desired_saving_pose_numbers = program.get<int>("--top_n");
 #endif
 	// ≥ı ºªØ
 	srand((int)time(0));

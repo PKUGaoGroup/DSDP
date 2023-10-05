@@ -2,7 +2,7 @@
 
 SUBDIRS=$(shell ls -l | grep ^d | awk '{print $$9}')
 compiler=nvcc
-COMMON_COMMAND=-arch=sm_60 -rdc=true -lcudadevrt -lcufft --use_fast_math -O4 -std=c++17 -lgomp
+COMMON_COMMAND=-arch=sm_60 -rdc=true -lcudadevrt -lcufft --use_fast_math -O4 -std=c++11 -lgomp
 BIN_NAME=DSDP
 
 install: main_SingleRun_SitePointStart.o common.o CLUSTER.o Copy_pdbqt_Format.o DSDP_Sort.o DSDP_Task.o Kernel.o Neighbor_Grid.o Partial_Rigid_Small_Molecule.o Rigid_Protein.o Vina_Grid_Force_Field.o Site_Information.o 

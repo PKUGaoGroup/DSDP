@@ -70,13 +70,13 @@ DSDP is an integrated docking program developed for blind docking, which can als
 ### Blind docking
 For blind docking task, run:
 
-    python DSDP_blind_docking.py 
-    --dataset_path ./test_dataset/DSDP_dataset/ 
+    python DSDP_blind_docking.py \
+    --dataset_path ./test_dataset/DSDP_dataset/ \
     --dataset_name DSDP_dataset \
     --site_path ./results/DSDP_dataset/site_output/ \
     --exhaustiveness 384 --search_depth 40 --top_n 1 \
     --out ./results/DSDP_dataset/docking_results/ \
-    --log ./results/DSDP_dataset/docking_results/ \
+    --log ./results/DSDP_dataset/docking_results/
 
 Options (see `--help`)
 
@@ -100,7 +100,7 @@ For redocking task, run:
 --box_max 24.744 35.470 38.495 \
 --exhaustiveness 384 --search_depth 40 --top_n 1  \
 --out ./results/DSDP_dataset/redocking/1a2b_out.pdbqt \
---log ./results/DSDP_dataset/redocking/1a2b_out.log \
+--log ./results/DSDP_dataset/redocking/1a2b_out.log
 ```
 
 Note: the box information (minima and maxima along x y z axis) of redocking needs to be provided by users. The box information of this example is only suitable for 1a2b protein.
