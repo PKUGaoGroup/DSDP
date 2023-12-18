@@ -563,7 +563,8 @@ int main(int argn, char* argv[])
 	}
 	sort(energy_record.begin(), energy_record.end(), cmp);
 
-	for (int i = 0; i < desired_saving_pose_numbers; i += 1)
+	int final_saving_pose_numbers = std::min(desired_saving_pose_numbers, refine_structure_numbers);
+	for (int i = 0; i < final_saving_pose_numbers; i += 1)
 	{
 		copy_pdbqt.Append_Frame_To_Opened_pdbqt_standard(out_pdbqt, &crd_record[(size_t)energy_record[i].id * molecule[0].atom_numbers], { 0.f,0.f,0.f }, i, energy_record[i].energy / (1.f + omega * molecule[0].num_tor));
 		fprintf(out_list, "%s %f\n", ligand_name, energy_record[i].energy / (1.f + omega * molecule[0].num_tor));
