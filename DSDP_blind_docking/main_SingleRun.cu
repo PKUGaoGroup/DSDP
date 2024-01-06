@@ -135,7 +135,7 @@ int main(int argn, char* argv[])
 	std::vector<float> vbox_min, vbox_max;
 
 	app.description("DSDP: Deep Site and Docking Pose\n"
-		" This is the re-docking program.\n"
+		" This is the blind-docking program.\n"
 		" More details at https://github.com/PKUGaoGroup/DSDP");
 
 	app.add_option("--ligand", ligand_string, "ligand input PDBQT file [REQUIRED]")
