@@ -1,5 +1,7 @@
 # DSDP:A Blind Docking Strategy Accelerated by GPUs
 
+# All codes and documents are available on https://spongemm.cn/en/DSDP/home or https://spongemm.cn/zh/DSDP/home. 
+
 
 Deep Site and Docking Pose (DSDP) is a blind docking strategy accelerated by GPUs, developed by Gao Group. For the site prediction part, several modifications are introduced to PUResNet program. The pose sampling part is similar as AutoDock Vina combined with a number of modifications. 
 
