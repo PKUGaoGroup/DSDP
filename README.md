@@ -12,7 +12,7 @@ This repository contains code, instructions, dataset and model weights necessary
 
 The source code is available on Linux systems (tested on Ubuntu 20.04, 22.04) .
 
-NVCC is required for compilation, please install [Cuda Toolkit](https://developer.nvidia.com/cuda-toolkit) and make sure it is in the system path. Cuda version would need to be compatible with `g++` and `torch`.
+NVCC is required for compilation, please install [Cuda Toolkit](https://developer.nvidia.com/cuda-toolkit) and make sure it is in the system path. Cuda version would need to be compatible with `g++` and `torch`. The cuda version is cuda_11.6 and gcc version is 9.4.0, if a old gcc version was used in your computer, please modify the Makefile by replacing the sm_70 using sm_60.
 
 Please set up the python environment by [Anaconda](https://docs.anaconda.com/anaconda/install/index.html). 
 
@@ -26,13 +26,14 @@ Activate the environment
 
     conda activate DSDP
 
-### Installation of the redocking program
+### Installation of the redocking (conventional) program
 
     cd DSDP_redocking
     make
     cd ..
 
 Once you need to compile again, please run `make clean && make` .
+This program can be used to do redocking and conventional docking.
 
 ### Installation of the blind docking program
 
@@ -92,7 +93,7 @@ Options (see `--help`)
 - `--log`: Log path of DSDP
 
 ### Redocking
-For redocking task, run:
+For redocking and conventional docking tasks, run:
 
 ```
 ./DSDP_redocking/DSDP \
