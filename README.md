@@ -26,7 +26,7 @@ Activate the environment
 
     conda activate DSDP
 
-### Installation of the redocking (conventional) program
+### Installation of the redocking (conventional docking) program
 
     cd DSDP_redocking
     make
