@@ -17,11 +17,18 @@ void RIGID_PROTEIN::Initial_Protein_From_PDBQT(const char* file_name, const VECT
 			break;
 		}
 		sscanf(str_line, "%s", str_segment);
-		if (str_segment[0] == 'A'
+		if ((str_segment[0] == 'A'
 			&& str_segment[1] == 'T'
 			&& str_segment[2] == 'O'
 			&& str_segment[3] == 'M'
-			)
+			) || (
+				str_segment[0] == 'H'
+				&& str_segment[1] == 'E'
+				&& str_segment[2] == 'T'
+				&& str_segment[3] == 'A'
+				&& str_segment[4] == 'T'
+				&& str_segment[5] == 'M'
+			))
 		{
 			str_segment[0] = str_line[77];
 			str_segment[1] = str_line[78];
@@ -66,7 +73,7 @@ void RIGID_PROTEIN::Initial_Protein_From_PDBQT(const char* file_name, const VECT
 	}
 	fclose(in);
 	atom_numbers = crd.size();
-	VECTOR need_box_length = Find_A_Proper_Box();//¾­¹ý´Ë²½ºó£¬µ°°××ø±êÒÑ¾­¾­¹ýÆ½ÒÆ£¬ÓÉmove_vec¼ÇÂ¼
+	VECTOR need_box_length = Find_A_Proper_Box();//ï¿½ï¿½ï¿½ï¿½ï¿½Ë²ï¿½ï¿½ó£¬µï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ñ¾ï¿½ï¿½ï¿½ï¿½ï¿½Æ½ï¿½Æ£ï¿½ï¿½ï¿½move_vecï¿½ï¿½Â¼
 	if (need_box_length.x > box_length.x
 		|| need_box_length.y > box_length.y
 		|| need_box_length.z > box_length.z)
