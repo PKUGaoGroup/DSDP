@@ -21,13 +21,13 @@ int main(int argn,char *argv[])
 	}
 	if (in == NULL)
 	{
-		printf("please input -i %s to select a pdb file\n");
+		printf("please input -i PDB_FILE to select a pdb file\n");
 		getchar();
 		return 0;
 	}
 	if (out == NULL)
 	{
-		printf("no correct -o %s out file name input, use default name SURFACE_OUT.txt\n");
+		printf("no correct -o SURFACE_OUT out file name input, use default name SURFACE_OUT.txt\n");
 		out = fopen("SURFACE_OUT.txt", "w");
 	}
 
@@ -45,7 +45,7 @@ int main(int argn,char *argv[])
 			break;
 		}
 		else if ((line[0] == 'A' && line[1] == 'T' && line[2] == 'O' && line[3] == 'M' && line[77] != 'H')
-			|| (line[0] == 'H' && line[1] == 'E' && line[2] == 'T' && line[3] == 'A'  && line[77] != 'H'))//À¬»øÔ­×ÓÒ²ÒªÈç´Ë¶ÁÈë
+			|| (line[0] == 'H' && line[1] == 'E' && line[2] == 'T' && line[3] == 'A'  && line[77] != 'H'))//ï¿½ï¿½ï¿½ï¿½Ô­ï¿½ï¿½Ò²Òªï¿½ï¿½Ë¶ï¿½ï¿½ï¿½
 		{
 			str_segment[0] = line[77];
 			str_segment[1] = line[78];
@@ -56,7 +56,7 @@ int main(int argn,char *argv[])
 	}
 	fclose(in);
 
-	//µÚÒ»¸ö²ÎÊý0.1fÖ¸¶¨Ð¡¸ñ×ÓµÄ´óÐ¡£¨µ¥Î»£º°££©
+	//ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½0.1fÖ¸ï¿½ï¿½Ð¡ï¿½ï¿½ï¿½ÓµÄ´ï¿½Ð¡ï¿½ï¿½ï¿½ï¿½Î»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 	sur.Initial(2.0f, crd.size(), &crd[0], &atomic_number[0]);
 	for (int i = 0; i < crd.size(); i = i + 1)
 	{

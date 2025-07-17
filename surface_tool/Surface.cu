@@ -11,18 +11,18 @@ __global__ void Calculate_Origin_Grid_Occupation_Device
 	const int total_extending_numbers_minus_one = extending_numbers * 2;
 	const int total_extending_numbers = extending_numbers * 2 + 1;
 	const int total_extending_grid_numbers = total_extending_numbers * total_extending_numbers * total_extending_numbers;
-	//¶ÔÃ¿¸öÔ­×ÓÑ­»·½«Æä¹±Ï×¼ÓÈëµ½Íø¸ñÖÐ
+	//ï¿½ï¿½Ã¿ï¿½ï¿½Ô­ï¿½ï¿½Ñ­ï¿½ï¿½ï¿½ï¿½ï¿½ä¹±ï¿½×¼ï¿½ï¿½ëµ½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 	for (int atom_i = blockIdx.x * blockDim.x + threadIdx.x; atom_i < atom_numbers; atom_i = atom_i + gridDim.x * blockDim.x)
 	{
 		VECTOR atom_crd = crd[atom_i];
 		float atom_radius2 = radius[atom_i] * radius[atom_i];
 		VECTOR atom_fraction_crd = { atom_crd.x * grid_length_inverse,atom_crd.y * grid_length_inverse,atom_crd.z * grid_length_inverse };
-		INT_VECTOR atom_in_grid_serial = { atom_fraction_crd.x,atom_fraction_crd.y ,atom_fraction_crd.z };
+		INT_VECTOR atom_in_grid_serial = { static_cast<int>(atom_fraction_crd.x), static_cast<int>(atom_fraction_crd.y), static_cast<int>(atom_fraction_crd.z) };
 
 		int dx = 0, dy = 0, dz = 0;
 		int x, y, z;
 
-		//ÐèÒª×¢Òâ±£Ö¤±éÀú²»³öºÐ×Ó±ß½ç
+		//ï¿½ï¿½Òª×¢ï¿½â±£Ö¤ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ó±ß½ï¿½
 		for (int neighbor_grid_i = 0; neighbor_grid_i < total_extending_grid_numbers; neighbor_grid_i = neighbor_grid_i + 1)
 		{
 			z = (atom_in_grid_serial.int_z + dz - extending_numbers);
@@ -56,19 +56,19 @@ __global__ void Calculate_Atom_Near_Surface_Device
 	const int total_extending_numbers_minus_one = extending_numbers * 2;
 	const int total_extending_numbers = extending_numbers * 2 + 1;
 	const int total_extending_grid_numbers = total_extending_numbers * total_extending_numbers * total_extending_numbers;
-	//¶ÔÃ¿¸öÔ­×ÓÑ­»·½«Æä¹±Ï×¼ÓÈëµ½Íø¸ñÖÐ
+	//ï¿½ï¿½Ã¿ï¿½ï¿½Ô­ï¿½ï¿½Ñ­ï¿½ï¿½ï¿½ï¿½ï¿½ä¹±ï¿½×¼ï¿½ï¿½ëµ½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 	for (int atom_i = blockIdx.x * blockDim.x + threadIdx.x; atom_i < atom_numbers; atom_i = atom_i + gridDim.x * blockDim.x)
 	{
 		VECTOR atom_crd = crd[atom_i];
 		float atom_radius2 = radius[atom_i] * radius[atom_i];
 		VECTOR atom_fraction_crd = { atom_crd.x * grid_length_inverse,atom_crd.y * grid_length_inverse,atom_crd.z * grid_length_inverse };
-		INT_VECTOR atom_in_grid_serial = { atom_fraction_crd.x,atom_fraction_crd.y ,atom_fraction_crd.z };
+		INT_VECTOR atom_in_grid_serial = { static_cast<int>(atom_fraction_crd.x), static_cast<int>(atom_fraction_crd.y), static_cast<int>(atom_fraction_crd.z) };
 
 		int dx = 0, dy = 0, dz = 0;
 		int x, y, z;
 
 		int temp_near_surface = 0;
-		//ÐèÒª×¢Òâ±£Ö¤±éÀú²»³öºÐ×Ó±ß½ç
+		//ï¿½ï¿½Òª×¢ï¿½â±£Ö¤ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ó±ß½ï¿½
 		for (int neighbor_grid_i = 0; neighbor_grid_i < total_extending_grid_numbers; neighbor_grid_i = neighbor_grid_i + 1)
 		{
 			z = (atom_in_grid_serial.int_z + dz - extending_numbers);
@@ -113,7 +113,7 @@ __global__ void Smooth_Grid_Occupation_Device
 		int dx = 0, dy = 0, dz = 0;
 		int x_, y_, z_, x, y, z, ddx, ddy, ddz, temp_x, temp_y, temp_z;
 		int temp_occupation = 0;
-		for (int neighbor_grid_i = 0; neighbor_grid_i < 13; neighbor_grid_i = neighbor_grid_i + 1)//Ö»±£Áô¶Ô°ëÓ³Éä
+		for (int neighbor_grid_i = 0; neighbor_grid_i < 13; neighbor_grid_i = neighbor_grid_i + 1)//Ö»ï¿½ï¿½ï¿½ï¿½ï¿½Ô°ï¿½Ó³ï¿½ï¿½
 		{
 			ddx = dx - 1;
 			ddy = dy - 1;
@@ -121,15 +121,15 @@ __global__ void Smooth_Grid_Occupation_Device
 
 			z_ = (grid_3d_serial.int_z + ddz);
 			y_ = (grid_3d_serial.int_y + ddy);
-			x_ = (grid_3d_serial.int_x + ddx);//13¸ö¸ñ×ÓÖÐµÄÒ»¸ö
+			x_ = (grid_3d_serial.int_x + ddx);//13ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ðµï¿½Ò»ï¿½ï¿½
 
 			z = (grid_3d_serial.int_z - ddz);
 			y = (grid_3d_serial.int_y - ddy);
-			x = (grid_3d_serial.int_x - ddx);//¹ØÓÚÖÐÐÄ¸ñ×Ó¶Ô³ÆµÄÁíÒ»¸ö
+			x = (grid_3d_serial.int_x - ddx);//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä¸ï¿½ï¿½Ó¶Ô³Æµï¿½ï¿½ï¿½Ò»ï¿½ï¿½
 
-			x = x - (x & ((x) >> 31));//Èç¹ûx<0Ôòx=0£¬Èç¹ûx>=0Ôòx=x
+			x = x - (x & ((x) >> 31));//ï¿½ï¿½ï¿½x<0ï¿½ï¿½x=0ï¿½ï¿½ï¿½ï¿½ï¿½x>=0ï¿½ï¿½x=x
 			temp_x = (grid_dimension_minus_one.int_x - x);
-			x = x + (temp_x & (temp_x >> 31));//Èç¹ûx<grid_dimension.int_xÔòx=x£¬Èç¹ûx>=grid_dimension.int_xÔòx=grid_dimension_minus_one.int_x
+			x = x + (temp_x & (temp_x >> 31));//ï¿½ï¿½ï¿½x<grid_dimension.int_xï¿½ï¿½x=xï¿½ï¿½ï¿½ï¿½ï¿½x>=grid_dimension.int_xï¿½ï¿½x=grid_dimension_minus_one.int_x
 
 			y = y - (y & ((y) >> 31));
 			temp_y = (grid_dimension_minus_one.int_y - y);
@@ -151,7 +151,7 @@ __global__ void Smooth_Grid_Occupation_Device
 			temp_z = (grid_dimension_minus_one.int_z - z_);
 			z_ = z_ + (temp_z & (temp_z >> 31));
 
-			//¿ÉÓÅ»¯max min
+			//ï¿½ï¿½ï¿½Å»ï¿½max min
 			int grid_j = z * layer_numbers + y * grid_dimension.int_x + x;
 			int grid_k = z_ * layer_numbers + y_ * grid_dimension.int_x + x_;
 			temp_occupation = (temp_occupation | (origin_grid_occupation[grid_j] & origin_grid_occupation[grid_k]));
@@ -179,7 +179,7 @@ __global__ void Build_Surface_Device
 		grid_3d_serial.int_z = grid_i / layer_numbers;
 
 		int temp_occupation = 1;
-		//ÁÚ½ü6¸ö¸ñ×Ó¾ùÎª1£¬Ôò×Ô¼ºÎª0£¬·ñÔòÎªÔ­Ê¼origin_grid_occupation
+		//ï¿½Ú½ï¿½6ï¿½ï¿½ï¿½ï¿½ï¿½Ó¾ï¿½Îª1ï¿½ï¿½ï¿½ï¿½ï¿½Ô¼ï¿½Îª0ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÎªÔ­Ê¼origin_grid_occupation
 		int grid_j, x, y, z, temp_z, temp_y, temp_x;
 		x = grid_3d_serial.int_x;
 		y = grid_3d_serial.int_y;
@@ -233,8 +233,8 @@ __global__ void Build_Surface_Device
 		grid_j = z * layer_numbers + y * grid_dimension.int_x + x;
 		temp_occupation = temp_occupation & origin_grid_occupation[grid_j];
 
-		//Èç¹û±»°üÎ§Ôòtemp_occupation=1£¬²»È»ÔòÎª0
-		surface[grid_i] = origin_grid_occupation[grid_i] & (1 - temp_occupation);//Ö»ÓÐµ±origin_grid_occupation[grid_i]=1ÇÒtemp_occupation=0²ÅÎª1
+		//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î§ï¿½ï¿½temp_occupation=1ï¿½ï¿½ï¿½ï¿½È»ï¿½ï¿½Îª0
+		surface[grid_i] = origin_grid_occupation[grid_i] & (1 - temp_occupation);//Ö»ï¿½Ðµï¿½origin_grid_occupation[grid_i]=1ï¿½ï¿½temp_occupation=0ï¿½ï¿½Îª1
 	}
 }
 
@@ -285,7 +285,7 @@ void SURFACE::Initial(const float grid_length, const int atom_numbers, const VEC
 	box_length.y = grid_length * grid_dimension.int_y;
 	box_length.z = grid_length * grid_dimension.int_z;
 
-	//atom radius£¬À´×Ô½¯Ë¼Ô¶µÄ³ÌÐò
+	//atom radiusï¿½ï¿½ï¿½ï¿½ï¿½Ô½ï¿½Ë¼Ô¶ï¿½Ä³ï¿½ï¿½ï¿½
 	atom_radius.clear();
 	for (int i = 0; i < atom_numbers; i = i + 1)
 	{
@@ -357,7 +357,7 @@ void SURFACE::Initial(const float grid_length, const int atom_numbers, const VEC
 		{
 			atom_radius.push_back(2.05f);
 		}
-		atom_radius[i] *= 1.f;//ÕûÌåµ÷½Ú°ë¾¶ÓÃ
+		atom_radius[i] *= 1.f;//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ú°ë¾¶ï¿½ï¿½
 	}
 
 	//malloc
@@ -388,12 +388,12 @@ void SURFACE::Initial(const float grid_length, const int atom_numbers, const VEC
 		(
 			grid_numbers, layer_numbers, grid_dimension, grid_dimension_minus_one,
 			d_smoothed_grid_occupation, d_origin_grid_occupation
-			);//×öÁ½´Î£¬×öÍêºó£¬d_origin_grid_occupationÊµ¼ÊÎªÁ½´ÎsmoothedµÄ½á¹û
+			);//ï¿½ï¿½ï¿½ï¿½ï¿½Î£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½d_origin_grid_occupationÊµï¿½ï¿½Îªï¿½ï¿½ï¿½ï¿½smoothedï¿½Ä½ï¿½ï¿½
 	Build_Surface_Device << <64, 64 >> >
 		(
 			grid_numbers, layer_numbers, grid_dimension, grid_dimension_minus_one,
 			d_origin_grid_occupation, d_smoothed_grid_occupation
-			);//´ËÊ±d_smoothed_grid_occupation¼ÇÂ¼µÄÔòÊÇ±íÃæµÄÍø¸ñ
+			);//ï¿½ï¿½Ê±d_smoothed_grid_occupationï¿½ï¿½Â¼ï¿½ï¿½ï¿½ï¿½ï¿½Ç±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 	Calculate_Atom_Near_Surface_Device << <64, 64 >> >
 		(atom_numbers, d_atom_crd, d_atom_radius, d_atom_is_near_surface,
 			grid_numbers, layer_numbers, grid_dimension, grid_length, grid_length_inverse,

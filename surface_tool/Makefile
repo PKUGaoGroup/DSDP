@@ -2,7 +2,7 @@
 
 SUBDIRS=$(shell ls -l | grep ^d | awk '{print $$9}')
 compiler=nvcc
-COMMON_COMMAND=-arch=sm_60 -rdc=true -lcudadevrt -lcufft --use_fast_math -O4 -std=c++11 -lgomp
+COMMON_COMMAND=-arch=sm_80 -rdc=true -lcudadevrt -lcufft --use_fast_math -O4 -std=c++11 -lgomp
 BIN_NAME=surface_tool
 
 install: Run_Surface.o Surface.o common.o 

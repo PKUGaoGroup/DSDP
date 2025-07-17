@@ -36,20 +36,20 @@ float real_distance(VECTOR& crd, VECTOR& crd2)
 VECTOR unifom_rand_Euler_angles()
 {
 	//
-	// Cos[¦Â]*Cos[¦Ã]	Cos[¦Â]*Sin[¦Ã]	-Sin[¦Â]
-	//Cos[¦Ã] * Sin[¦Á] * Sin[¦Â] - Cos[¦Á] * Sin[¦Ã]	Cos[¦Á] * Cos[¦Ã] + Sin[¦Á] * Sin[¦Â] * Sin[¦Ã]	Cos[¦Â] * Sin[¦Á]
-	//	Cos[¦Á] * Cos[¦Ã] * Sin[¦Â] + Sin[¦Á] * Sin[¦Ã] - (Cos[¦Ã] * Sin[¦Á]) + Cos[¦Á] * Sin[¦Â] * Sin[¦Ã]	Cos[¦Á] * Cos[¦Â]
+	// Cos[ï¿½ï¿½]*Cos[ï¿½ï¿½]	Cos[ï¿½ï¿½]*Sin[ï¿½ï¿½]	-Sin[ï¿½ï¿½]
+	//Cos[ï¿½ï¿½] * Sin[ï¿½ï¿½] * Sin[ï¿½ï¿½] - Cos[ï¿½ï¿½] * Sin[ï¿½ï¿½]	Cos[ï¿½ï¿½] * Cos[ï¿½ï¿½] + Sin[ï¿½ï¿½] * Sin[ï¿½ï¿½] * Sin[ï¿½ï¿½]	Cos[ï¿½ï¿½] * Sin[ï¿½ï¿½]
+	//	Cos[ï¿½ï¿½] * Cos[ï¿½ï¿½] * Sin[ï¿½ï¿½] + Sin[ï¿½ï¿½] * Sin[ï¿½ï¿½] - (Cos[ï¿½ï¿½] * Sin[ï¿½ï¿½]) + Cos[ï¿½ï¿½] * Sin[ï¿½ï¿½] * Sin[ï¿½ï¿½]	Cos[ï¿½ï¿½] * Cos[ï¿½ï¿½]
 	// 
 	// 
-	// nx^2*(1 - Cos[¦È]) + Cos[¦È]	nx*ny*(1 - Cos[¦È]) - nz*Sin[¦È]	nx*nz*(1 - Cos[¦È]) + ny*Sin[¦È]
-	//nx* ny* (1 - Cos[¦È]) + nz * Sin[¦È]	ny ^ 2 * (1 - Cos[¦È]) + Cos[¦È]	ny * nz * (1 - Cos[¦È]) - nx * Sin[¦È]
-	//	nx * nz * (1 - Cos[¦È]) - ny * Sin[¦È]	ny * nz * (1 - Cos[¦È]) + nx * Sin[¦È]	nz ^ 2 * (1 - Cos[¦È]) + Cos[¦È]
+	// nx^2*(1 - Cos[ï¿½ï¿½]) + Cos[ï¿½ï¿½]	nx*ny*(1 - Cos[ï¿½ï¿½]) - nz*Sin[ï¿½ï¿½]	nx*nz*(1 - Cos[ï¿½ï¿½]) + ny*Sin[ï¿½ï¿½]
+	//nx* ny* (1 - Cos[ï¿½ï¿½]) + nz * Sin[ï¿½ï¿½]	ny ^ 2 * (1 - Cos[ï¿½ï¿½]) + Cos[ï¿½ï¿½]	ny * nz * (1 - Cos[ï¿½ï¿½]) - nx * Sin[ï¿½ï¿½]
+	//	nx * nz * (1 - Cos[ï¿½ï¿½]) - ny * Sin[ï¿½ï¿½]	ny * nz * (1 - Cos[ï¿½ï¿½]) + nx * Sin[ï¿½ï¿½]	nz ^ 2 * (1 - Cos[ï¿½ï¿½]) + Cos[ï¿½ï¿½]
 	// 
-	// -Sin[¦Â]=nx*nz*(1 - Cos[¦È]) + ny*Sin[¦È]
-	// Cos[¦Â]*Sin[¦Ã]=nx*ny*(1 - Cos[¦È]) - nz*Sin[¦È]
-	// Cos[¦Â] * Sin[¦Á]=ny * nz * (1 - Cos[¦È]) - nx * Sin[¦È]
+	// -Sin[ï¿½ï¿½]=nx*nz*(1 - Cos[ï¿½ï¿½]) + ny*Sin[ï¿½ï¿½]
+	// Cos[ï¿½ï¿½]*Sin[ï¿½ï¿½]=nx*ny*(1 - Cos[ï¿½ï¿½]) - nz*Sin[ï¿½ï¿½]
+	// Cos[ï¿½ï¿½] * Sin[ï¿½ï¿½]=ny * nz * (1 - Cos[ï¿½ï¿½]) - nx * Sin[ï¿½ï¿½]
 
-	//°´sin(theta/2)^2ÃÜ¶ÈÉú³Étheta
+	//ï¿½ï¿½sin(theta/2)^2ï¿½Ü¶ï¿½ï¿½ï¿½ï¿½ï¿½theta
 	float theta = 3.141592654f * rand() / RAND_MAX;
 	while (true)
 	{
@@ -60,7 +60,7 @@ VECTOR unifom_rand_Euler_angles()
 		}
 		theta = 3.141592654f * rand() / RAND_MAX;
 	}
-	//Éú³ÉËæ»ú·½ÏòÊ¸Á¿
+	//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê¸ï¿½ï¿½
 	VECTOR n = { 2.f * rand() / RAND_MAX - 1.f, 2.f * rand() / RAND_MAX - 1.f ,2.f * rand() / RAND_MAX - 1.f };
 	float dr_1;
 	while (true)
@@ -185,7 +185,7 @@ static float Vina_Covalent_Radius(int atomic_number)
 	else
 	{
 		printf("In Vina_Covalent_Radius atomic numbers %d is not added\n", atomic_number);
-		//getchar();
+		return 0.0f;
 	}
 }
 
@@ -194,13 +194,13 @@ void Build_Inner_Neighbor_List
 	std::vector<int>& atom_node_serial)
 {
 	memset(neighbor_list, 0, sizeof(int) * atom_numbers * atom_numbers);
-	//¹¹½¨Ò»½×Á¬½ÓÐÅÏ¢
+	//ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï¢
 	for (int i = 0; i < atom_numbers; i = i + 1)
 	{
-		neighbor_list[i * atom_numbers + i] = 100;//×Ô¼ººÍ×Ô¼ºÒ²²»ÐèÒªËã
+		neighbor_list[i * atom_numbers + i] = 100;//ï¿½Ô¼ï¿½ï¿½ï¿½ï¿½Ô¼ï¿½Ò²ï¿½ï¿½ï¿½ï¿½Òªï¿½ï¿½
 		for (int j = i + 1; j < atom_numbers; j = j + 1)
 		{
-			//1.1fÓëVinaµÄÅÐ¾Ý±£³ÖÒ»ÖÂ
+			//1.1fï¿½ï¿½Vinaï¿½ï¿½ï¿½Ð¾Ý±ï¿½ï¿½ï¿½Ò»ï¿½ï¿½
 			if (real_distance(initial_crd[i], initial_crd[j]) < 1.1f * (Vina_Covalent_Radius(atomic_number[i]) + Vina_Covalent_Radius(atomic_number[j])))
 			{
 				neighbor_list[i * atom_numbers + j] = 1;
@@ -208,7 +208,7 @@ void Build_Inner_Neighbor_List
 			}
 		}
 	}
-	//ÓÉÒ»½×ÐÅÏ¢µÃµ½¶þ½×Á¬½ÓÐÅÏ¢£¨±¾ÖÊÉÏÊÇ¸ö¾ØÕó³Ë·¨£¬µ«ÓÉÓÚµÍ½×Ê±µÄÏ¡ÊèÐÔ£¬¼Ó¼¸¸öÅÐ¶Ï¿ÉÒÔ±ÜÃâ²»ÉÙ¼ÆËãÁ¿£©
+	//ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½Ï¢ï¿½Ãµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï¢ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç¸ï¿½ï¿½ï¿½ï¿½ï¿½Ë·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÚµÍ½ï¿½Ê±ï¿½ï¿½Ï¡ï¿½ï¿½ï¿½Ô£ï¿½ï¿½Ó¼ï¿½ï¿½ï¿½ï¿½Ð¶Ï¿ï¿½ï¿½Ô±ï¿½ï¿½â²»ï¿½Ù¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 	for (int i = 0; i < atom_numbers; i = i + 1)
 	{
 		for (int j = 0; j < atom_numbers; j = j + 1)
@@ -229,7 +229,7 @@ void Build_Inner_Neighbor_List
 			}
 		}
 	}
-	//ÓÉ¶þ½×µÃµ½Èý½×
+	//ï¿½É¶ï¿½ï¿½×µÃµï¿½ï¿½ï¿½ï¿½ï¿½
 	for (int i = 0; i < atom_numbers; i = i + 1)
 	{
 		for (int j = 0; j < atom_numbers; j = j + 1)
@@ -238,7 +238,7 @@ void Build_Inner_Neighbor_List
 			{
 				for (int k = 0; k < atom_numbers; k = k + 1)
 				{
-					if (neighbor_list[j * atom_numbers + k] == 1)//ÏòÉÏ¼ÓÒ»½×
+					if (neighbor_list[j * atom_numbers + k] == 1)//ï¿½ï¿½ï¿½Ï¼ï¿½Ò»ï¿½ï¿½
 					{
 						if (neighbor_list[i * atom_numbers + k] == 0)
 						{
@@ -263,7 +263,7 @@ void Build_Inner_Neighbor_List
 				}
 			}
 		}
-	}//ÔÚ×îºóÔÙ¼ÓÉÏHµÄÅÅ³ý
+	}//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ù¼ï¿½ï¿½ï¿½Hï¿½ï¿½ï¿½Å³ï¿½
 
 	for (int i = 0; i < atom_numbers; i = i + 1)
 	{
@@ -271,7 +271,7 @@ void Build_Inner_Neighbor_List
 		{
 			if (neighbor_list[i * atom_numbers + j] == 0)
 			{
-				//ÊôÓÚÍ¬Ò»¸ö¸ÕÌåÄÚ²¿µÄÒ²²»ÐèÒªËã£¬ËãºÍ²»Ëã¶¼ÊÇ³£Êý
+				//ï¿½ï¿½ï¿½ï¿½Í¬Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ú²ï¿½ï¿½ï¿½Ò²ï¿½ï¿½ï¿½ï¿½Òªï¿½ã£¬ï¿½ï¿½Í²ï¿½ï¿½ã¶¼ï¿½Ç³ï¿½ï¿½ï¿½
 				if (atom_node_serial[i] == atom_node_serial[j])
 				{
 					neighbor_list[i * atom_numbers + j] = 4;
@@ -281,7 +281,7 @@ void Build_Inner_Neighbor_List
 		}
 	}
 
-	//½«neighbor_listÕýÊ½Éú³É
+	//ï¿½ï¿½neighbor_listï¿½ï¿½Ê½ï¿½ï¿½ï¿½ï¿½
 	for (int i = 0; i < atom_numbers; i = i + 1)
 	{
 		int neighbor_numbers = 0;
@@ -289,7 +289,7 @@ void Build_Inner_Neighbor_List
 		{
 			if (neighbor_list[i * atom_numbers + j] == 0)
 			{
-				neighbor_list[i * atom_numbers + neighbor_numbers + 1] = j;//i * atom_numbers + neighbor_numbers + 1±ØÈ»Ð¡ÓÚµÈÓÚj,Òò´Ë²»»á¶àÓÚ¸²¸Ç
+				neighbor_list[i * atom_numbers + neighbor_numbers + 1] = j;//i * atom_numbers + neighbor_numbers + 1ï¿½ï¿½È»Ð¡ï¿½Úµï¿½ï¿½ï¿½j,ï¿½ï¿½Ë²ï¿½ï¿½ï¿½ï¿½ï¿½Ú¸ï¿½ï¿½ï¿½
 				neighbor_numbers += 1;
 			}
 		}
@@ -397,15 +397,15 @@ int Build_Vina_Atom(VINA_ATOM* vina_atom, std::vector<int>& atom_type, std::vect
 
 	for (int i = 0; i < atom_numbers; i = i + 1)
 	{
-		vina_atom[i].is_donor = 0;//ÓÉÓÚÏÂÃæÑ­»·¶Ôi½øÐÐÊ±Êµ¼Ê»á¶Ôj²úÉú×÷ÓÃ£¬ÒªÏÈ³õÊ¼»¯£»
+		vina_atom[i].is_donor = 0;//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ñ­ï¿½ï¿½ï¿½ï¿½iï¿½ï¿½ï¿½ï¿½Ê±Êµï¿½Ê»ï¿½ï¿½jï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ã£ï¿½Òªï¿½È³ï¿½Ê¼ï¿½ï¿½ï¿½ï¿½
 	}
 	char* atom_type_char = NULL;
 	VINA_ATOM temp_vina_atom;
-	//Ä¿Ç°£¬¸ÃÉ¸Ñ¡Âß¼­ÏÂ£¬¶ÔÓÚ¾ø´ó²¿·ÖÌåÏµ£¬ÅÐ¶Ï½á¹ûÓëvinaÊÇÍêÈ«Ò»ÖÂµÄ£¬ÖØµãÔÚÓÚÊèË®CºÍÇâ¼üO,NµÄÅÐ¶Ï
+	//Ä¿Ç°ï¿½ï¿½ï¿½ï¿½É¸Ñ¡ï¿½ß¼ï¿½ï¿½Â£ï¿½ï¿½ï¿½ï¿½Ú¾ï¿½ï¿½ó²¿·ï¿½ï¿½ï¿½Ïµï¿½ï¿½ï¿½Ð¶Ï½ï¿½ï¿½ï¿½ï¿½vinaï¿½ï¿½ï¿½ï¿½È«Ò»ï¿½ÂµÄ£ï¿½ï¿½Øµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ë®Cï¿½ï¿½ï¿½ï¿½ï¿½O,Nï¿½ï¿½ï¿½Ð¶ï¿½
 	for (int i = 0; i < atom_numbers; i = i + 1)
 	{
 		temp_vina_atom.crd = initial_crd[i];
-		//temp_vina_atom.charge = 0.f;//ÔÝÊ±Ã»ÓÐÊ¹ÓÃ
+		//temp_vina_atom.charge = 0.f;//ï¿½ï¿½Ê±Ã»ï¿½ï¿½Ê¹ï¿½ï¿½
 		temp_vina_atom.is_donor = vina_atom[i].is_donor;
 		temp_vina_atom.is_acceptor = 0;
 		temp_vina_atom.is_hydrophobic = 0;
@@ -416,7 +416,7 @@ int Build_Vina_Atom(VINA_ATOM* vina_atom, std::vector<int>& atom_type, std::vect
 			strcmp(atom_type_char, "C ") == 0)
 		{
 			temp_vina_atom.radius = 1.9f;
-			//¼ì²éÊÇ·ñÓÐÔÓÔ­×ÓÁ¬½Ó
+			//ï¿½ï¿½ï¿½ï¿½Ç·ï¿½ï¿½ï¿½ï¿½ï¿½Ô­ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 			int is_za = 0;
 			for (int j = 0; j < atom_numbers; j = j + 1)
 			{
@@ -456,7 +456,7 @@ int Build_Vina_Atom(VINA_ATOM* vina_atom, std::vector<int>& atom_type, std::vect
 		}
 		else if (
 			strcmp(atom_type_char, "S ") == 0 ||
-			strcmp(atom_type_char, "SA") == 0)//vinaÖÐÃ»ÓÐÈÏÎªSA¿ÉÒÔÊÇÇâ¼üÊÜÌå
+			strcmp(atom_type_char, "SA") == 0)//vinaï¿½ï¿½Ã»ï¿½ï¿½ï¿½ï¿½ÎªSAï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 		{
 			temp_vina_atom.radius = 2.0f;
 		}
@@ -493,7 +493,7 @@ int Build_Vina_Atom(VINA_ATOM* vina_atom, std::vector<int>& atom_type, std::vect
 			{
 				for (int j = 0; j < atom_numbers; j = j + 1)
 				{
-					if (atomic_number[j] == 7 || atomic_number[j] == 8)//Ö»ÓÐN O²ÅÄÜÓÐH donor
+					if (atomic_number[j] == 7 || atomic_number[j] == 8)//Ö»ï¿½ï¿½N Oï¿½ï¿½ï¿½ï¿½ï¿½ï¿½H donor
 					{
 						if (real_distance(temp_vina_atom.crd, initial_crd[j]) < 1.1f * (0.37f + Vina_Covalent_Radius(atomic_number[j])))
 						{
@@ -501,7 +501,7 @@ int Build_Vina_Atom(VINA_ATOM* vina_atom, std::vector<int>& atom_type, std::vect
 						}
 					}
 				}
-			}//ÕÒdonor
+			}//ï¿½ï¿½donor
 		}
 		else
 		{
@@ -564,14 +564,14 @@ void Read_Atom_Line_In_PDBQT(const char* line, std::vector<VECTOR>& crd, std::ve
 {
 	char temp_str[9];
 
-	//»ñÈ¡pdbqtÖÐµÄÔ­×ÓÀàÐÍÐÅÏ¢£¨×îºóÒ»ÁÐ£©
+	//ï¿½ï¿½È¡pdbqtï¿½Ðµï¿½Ô­ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï¢ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½Ð£ï¿½
 	temp_str[0] = line[77];
 	temp_str[1] = line[78];
 	temp_str[2] = '\0';
 	int* temp_atom_type = (int*)temp_str;
 	atom_type.push_back(temp_atom_type[0]);
 
-	//»ñÈ¡pdbqtÔ­×Ó×ø±ê
+	//ï¿½ï¿½È¡pdbqtÔ­ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 	VECTOR temp_crd;
 	temp_str[8] = '\0';
 	memcpy(temp_str, &line[30], sizeof(char) * 8);
@@ -582,10 +582,10 @@ void Read_Atom_Line_In_PDBQT(const char* line, std::vector<VECTOR>& crd, std::ve
 	sscanf(temp_str, "%f", &temp_crd.z);
 	crd.push_back(temp_crd);
 
-	//»ñÈ¡µçºÉ
+	//ï¿½ï¿½È¡ï¿½ï¿½ï¿½
 	float temp_charge;
 	sscanf(&line[67], "%f", &temp_charge);
-	charge.push_back(18.2223f * temp_charge);//amberµ¥Î»£¬ÓÉ´Ë¿É±£Ö¤³¤¶Èrµ¥Î»Îª°£Ê±£¬ÔòÄÜÁ¿q*q/rÊ±µ¥Î»Îªkcal/mol
+	charge.push_back(18.2223f * temp_charge);//amberï¿½ï¿½Î»ï¿½ï¿½ï¿½É´Ë¿É±ï¿½Ö¤ï¿½ï¿½ï¿½ï¿½rï¿½ï¿½Î»Îªï¿½ï¿½Ê±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½q*q/rÊ±ï¿½ï¿½Î»Îªkcal/mol
 }
 void Read_Atom_Line_In_MOL2(const char* line, std::vector<VECTOR>& crd, std::vector<float>& charge)
 {
